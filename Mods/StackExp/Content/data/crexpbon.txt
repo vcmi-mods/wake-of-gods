@@ -1,0 +1,670 @@
+Mon	B	Mod	R0	R1	R2	R3	R4	R5	R6	R7	R8	R9	R10	Comments
+-8	H	%	0	5	10	15	20	25	30	35	40	45	50	5% Health Bonus per Rank
+-1	A	+	0	0	1	1	1	1	2	2	2	2	3	Default Lvl 1 Attack R2/R6/R10
+-1	D	+	0	1	1	1	1	2	2	2	2	3	3	Default Lvl 1 Defense R1/R5/R9
+-1	M	+	0	0	0	1	1	1	1	2	2	2	2	Default Lvl 1 Max. Damage R3/R7
+-1	m	+	0	0	0	0	1	1	1	1	2	2	2	Default Lvl 1 Min. Damage R4/R8
+-2	A	+	0	0	1	1	2	2	2	3	3	3	4	Default Lvl 2 Attack R2/R4/R7/R10
+-2	D	+	0	1	1	1	2	2	3	3	3	4	4	Default Lvl 2 Defense R1/R4/R6/R9
+-2	M	+	0	0	1	1	1	2	2	2	3	3	4	Default Lvl 2 Max. Damage R2/R5/R8/R10
+-2	m	+	0	0	0	1	1	1	2	2	3	3	3	Default Lvl 2 Min. Damage R3/R6/R8
+-3	A	+	0	1	1	2	2	3	3	4	4	5	5	Default Lvl 3 Attack R1/R3/R5/R7/R9
+-3	D	+	0	1	1	2	2	3	3	4	4	5	5	Default Lvl 3 Defense R1/R3/R5/R7/R9
+-3	M	+	0	0	1	1	2	2	3	3	4	4	5	Default Lvl 3 Max. Damage R2/R4/R6/R8/R10
+-3	m	+	0	0	1	1	2	2	3	3	4	4	5	Default Lvl 3 Min. Damage R2/R4/R6/R8/R10
+-4	A	+	0	1	2	2	3	4	5	6	6	7	8	Default Lvl 4 Attack R1/R2/R4/R5/R6/R7/R9/R10
+-4	D	+	0	1	2	3	3	4	4	5	6	7	8	Default Lvl 4 Defense R1/R2/R3/R5/R7/R8/R9/R10
+-4	M	+	0	0	1	1	2	2	3	3	4	4	5	Default Lvl 4 Max. Damage R2/R4/R6/R8/R10
+-4	m	+	0	0	0	1	2	2	3	3	4	4	4	Default Lvl 4 Min. Damage R3/R4/R6/R8
+-5	A	+	0	1	1	2	3	4	5	5	6	7	8	Default Lvl 5 Attack R1/R3/R4/R5/R6/R7/R9/R10
+-5	D	+	0	1	2	3	3	4	5	6	6	7	8	Default Lvl 5 Defense R1/R2/R3/R5/R6/R7/R9/R10
+-5	M	+	0	1	2	2	3	4	4	5	6	7	7	Default Lvl 5 Max. Damage R1/R2/R4/R5/R6/R8/R10
+-5	m	+	0	0	1	2	3	3	4	5	6	6	7	Default Lvl 5 Min. Damage R2/R3/R4/R6/R7/R8/R10
+-6	A	+	0	1	2	3	4	4	5	6	7	8	9	Default Lvl 6 Attack +1/Rank except R5
+-6	D	+	0	1	2	2	3	4	5	6	7	8	9	Default Lvl 6 Defense +1/Rank except R3
+-6	M	+	0	1	2	3	4	5	6	7	8	8	9	Default Lvl 6 Max. Damage +1/Rank except R9
+-6	m	+	0	0	1	2	3	4	5	5	6	7	8	Default Lvl 6 Min. Damage +1/Rank except R7
+-7	A	+	0	1	2	3	4	5	6	7	8	9	10	Default Lvl 7 Attack +1/Rank
+-7	D	+	0	1	2	3	4	5	6	7	8	9	10	Default Lvl 7 Defense +1/Rank
+-7	M	+	0	1	2	3	4	5	6	7	8	9	10	Default Lvl 7 Max. Damage +1/Rank
+-7	m	+	0	1	2	3	4	5	6	7	8	9	10	Default Lvl 7 Min. Damage +1/Rank
+0	S	+	0	0	0	0	1	1	1	1	1	1	1	Pikeman: Speed R4
+0	f	B	2	2	2	2	2	1	1	1	1	1	1	Pikeman: 2-hex (Breath) Attack R5
+0	h	#66	0	0	0	2	2	3	3	4	4	5	6	Pikeman: Hatred Dmg-Black Knight
+0	h	#67	0	0	0	2	2	3	3	4	4	5	6	Pikeman: Hatred Dmg-Dread Knight
+0	f	f	0	0	0	0	0	1	1	1	1	1	1	Pikeman: Fearless R5
+1	S	+	0	0	0	0	1	1	1	1	1	1	1	Halberdier: Speed R4
+1	h	#66	0	0	0	2	2	3	3	4	4	5	6	Halberdier: Hatred Dmg-Black Knight
+1	h	#67	0	0	0	2	2	3	3	4	4	5	6	Halberdier: Hatred Dmg-Dread Knight
+1	L	#64	0	2	4	6	8	10	12	14	16	18	20	Halberdier: Deflect 65% of dmg. 2% chance/Rank
+1	f	f	0	0	0	0	0	1	1	1	1	1	1	Halberdier: Fearless R5
+2	S	+	0	0	0	0	1	1	1	1	1	1	1	Archer: Speed R4
+2	o	=	0	0	0	1	1	1	1	1	1	1	1	Archer: No Obstacle Penalty R3
+2	b	=	0	4	8	12	16	20	24	28	32	36	40	Archer: Reduce Defense 4%/Rank
+3	S	+	0	0	0	0	1	1	1	1	1	1	2	Marksman: Speed R4/R10
+3	o	=	0	0	0	0	0	1	1	1	1	1	1	Marksman: No Obstacle Penalty R5
+3	b	=	0	2	4	6	8	10	12	14	16	18	20	Marksman: Reduce Defense 2%/Rank
+4	S	+	0	0	0	0	1	1	1	1	1	1	2	Griffin Speed: R4/R10
+4	L	#125	0	6	12	18	24	30	36	42	48	54	60	Griffin: 25% chance to Deflect 6% dmg./Rank
+5	S	+	0	0	0	0	1	1	1	1	1	1	2	Royal Griffin: Speed R4/R10
+5	L	#125	0	6	12	18	24	30	36	42	48	54	60	Royal Griffin: 25% chance to Deflect 6% dmg./Rank
+6	S	+	0	0	0	0	1	1	1	1	1	1	1	Swordsman: Speed R4
+6	e	=	0	5	10	15	20	25	30	35	40	45	50	Swordsman: Death Blow 5%/Rank
+6	f	f	0	0	0	0	0	1	1	1	1	1	1	Swordsman: Fearless R5
+7	S	+	0	0	0	0	1	1	1	1	1	1	2	Crusader: Speed R4/R10
+7	e	=	0	2	5	7	10	12	15	17	20	22	25	Crusader: Death Blow 2.5%/Rank
+7	h	#62	0	1	2	3	4	5	6	7	8	9	10	Crusader: Hatred Dmg-Vampire
+7	h	#63	0	1	2	3	4	5	6	7	8	9	10	Crusader: Hatred Dmg-Vampire Lord
+8	S	+	0	0	0	0	1	1	1	1	1	1	1	Monk: Speed R4
+8	w	m	0	0	0	1	1	1	1	1	1	1	1	Monk: Immune to Hostile Mind Spells R3
+8	r	#100	0	0	0	0	0	50	50	50	50	50	50	Monk: Regeneration-50 50% R5
+8	g	%	0	3	6	9	12	15	21	24	27	30	33	Monk: Reduced Spell Damage 3%/Rank
+9	S	+	0	0	0	0	1	1	1	1	1	1	2	Zealot: Speed R4/R10
+9	w	m	0	0	0	1	1	1	1	1	1	1	1	Zealot: Immune to Hostile Mind Spells R3
+9	r	#100	0	0	0	0	0	50	50	50	50	50	50	Zealot: Regeneration-50 50% R5
+9	g	%	0	3	6	9	12	15	21	24	27	30	33	Zealot: Reduced Spell Damage 3%/Rank
+10	S	+	0	0	0	0	1	1	1	1	1	1	2	Cavalier: Speed 40/100%
+10	f	b	0	0	0	1	1	1	1	1	1	1	1	Cavalier: Strike & Return R3
+10	s	#55	0	0	0	0	0	0	0	1	2	3	3	Cavalier: Slayer R7/R8/R9
+10	f	f	0	0	0	0	0	1	1	1	1	1	1	Cavalier: Fearless R5
+11	S	+	0	0	0	0	1	1	1	1	1	1	2	Champion: Speed R4/R10
+11	f	R	2	2	2	2	2	1	1	1	1	1	1	Champion: No Retaliation R5
+11	s	#55	0	0	0	0	0	0	0	1	2	3	3	Champion: Slayer R7/R8/R9
+11	f	f	0	0	0	1	1	1	1	1	1	1	1	Champion: Fearless R3
+12	S	+	0	0	0	0	1	1	2	2	2	2	3	Angel: Speed R4/R6/R10
+12	w	R	0	0	0	1	1	1	1	1	1	1	1	Angel: Immune to Armageddon R3
+12	w	m	0	0	0	0	0	0	0	1	1	1	1	Angel: Immune to Hostile Mind Spells R7
+12	W	+	0	0	0	0	0	0	10	20	30	40	50	Angel: Magic Resistance R6 10%/Rank
+12	f	u	0	0	0	0	0	0	0	1	1	1	1	Angel: Aura of Resistance
+12	f	f	0	0	0	0	0	1	1	1	1	1	1	Angel: Fearless R5
+12	w	W	0	0	0	0	0	0	0	1	1	1	1	Angel: Immune to Hostile Water Spells R7
+13	S	+	0	0	0	0	1	1	2	2	2	2	3	Archangel: Speed R4/R6/R10
+13	f	f	0	0	0	0	0	1	1	1	1	1	1	Archangel: Fearless R5
+13	w	W	0	0	0	0	0	0	0	1	1	1	1	Archangel: Immune to Hostile Water Spells R7
+13	w	R	0	0	0	1	1	1	1	1	1	1	1	Archangel: Immune to Armageddon R3
+13	w	m	0	0	0	0	0	0	0	0	1	1	1	Archangel: Immune to Hostile Mind Spells R8
+13	W	+	0	0	0	0	0	0	10	20	30	40	50	Archangel: Magic Resistance R6 10%/Rank
+13	P	+	0	0	0	0	0	0	0	1	1	1	1	Archangel: Extra Resurrection R7
+14	A	+	0	0	1	1	1	1	2	2	3	3	3	Centaur: Attack R2/R6/R8
+14	D	+	0	0	0	1	1	1	1	1	1	1	1	Centaur: Defense R3
+14	M	+	0	1	1	1	1	2	2	2	2	2	2	Centaur: Max. Damage R1/R5
+14	m	+	0	0	0	0	0	1	1	1	1	2	2	Centaur: Min. Damage R5/R9
+14	S	+	0	0	0	0	1	1	1	1	1	1	2	Centaur: Speed R4/R10
+14	f	E	2	2	2	2	2	2	2	1	1	1	1	Centaur: No Melee Penalty R7
+14	f	S	0	0	0	0	0	0	1	1	1	1	1	Centaur: Shooter R6
+14	O	+	0	0	0	0	0	0	2	2	3	4	5	Centaur: Shots R6/R8/R9/R10
+14	h	#98	0	2	4	6	8	10	12	14	16	18	20	Centaur: Hatred Dmg-Gnoll
+15	A	+	0	0	0	1	1	1	2	2	2	2	2	Centaur Captain: Attack R3/R6
+15	D	+	0	1	1	1	1	1	1	2	2	3	4	Centaur Captain: Defense R1/R7/R9/R10
+15	M	+	0	0	0	0	0	1	1	1	2	2	2	Centaur Captain: Max. Damage R5/R8
+15	m	+	0	0	1	1	1	1	1	1	1	1	1	Centaur Captain: Min. Damage R2
+15	S	+	0	0	0	0	1	1	1	1	1	1	2	Centaur Captain: Speed R4/R10
+15	f	c	0	0	0	0	0	0	0	1	1	1	1	Centaur Captain: Charge Bonus R7
+15	h	#99	0	2	4	6	8	10	12	14	16	18	20	Centaur Captain: Hatred Dmg-Gnoll Marauder
+16	H	%	0	6	12	18	24	30	36	42	48	54	60	Dwarf: Health 6%/Rank (instead of 5%)
+16	A	+	0	0	1	1	1	2	2	3	3	3	3	Dwarf: Attack R2/R5/R7
+16	D	+	0	1	1	1	1	1	3	3	3	4	4	Dwarf: Defense R1/R6/R9
+16	M	+	0	0	0	1	1	1	1	2	3	3	3	Dwarf: Max. Damage R3/R7/R8
+16	m	+	0	0	0	0	1	1	1	2	2	3	3	Dwarf: Min. Damage R4/R7/R9
+16	S	+	0	0	0	0	1	1	1	1	1	1	2	Dwarf: Speed R4/R10
+16	s	#27	0	0	0	0	0	0	0	1	1	1	2	Dwarf: Shield R7/R10
+16	W	+	0	3	6	9	12	15	18	21	24	27	30	Dwarf: Magic Resistance +3%/Rank
+17	H	%	0	7	14	21	28	35	42	49	56	63	70	Battle Dwarf: Health 7%/Rank (instead of 5%)
+17	A	+	0	0	1	1	2	2	2	3	4	4	5	Battle Dwarf: Attack R2/R4/R7/R8/R10
+17	D	+	0	1	1	1	1	1	2	2	3	4	4	Battle Dwarf: Defense R1/R6/R8/R9
+17	M	+	0	0	0	1	1	2	2	2	3	3	3	Battle Dwarf: Max. Damage R3/R5/R8
+17	m	+	0	0	0	1	1	2	2	3	3	3	3	Battle Dwarf: Min. Damage R3/R5/R7
+17	S	+	0	0	0	0	1	1	1	1	1	1	1	Battle Dwarf: Speed R4
+17	W	+	0	4	8	12	16	20	24	28	32	36	40	Battle Dwarf: Magic Resistance +4%/Rank
+18	A	+	0	2	2	2	3	3	4	4	4	5	5	Wood Elf: Attack R1/R4/R6/R9
+18	D	+	0	0	1	1	1	1	1	3	3	3	3	Wood Elf: Defense: R2/R7
+18	M	+	0	0	1	2	2	4	4	4	5	6	6	Wood Elf: Max. Damage R2/R3/R5/R8/R9
+18	m	+	0	0	0	1	1	1	2	2	4	4	4	Wood Elf: Min. Damage R3/R6/R8
+18	S	+	0	0	0	0	1	1	1	2	2	2	3	Wood Elf: Speed R4/R7/R10
+18	i	=	0	0	0	0	0	1	1	1	1	1	1	Wood Elf: No Range Penalty R5
+18	o	=	0	0	0	0	0	0	0	0	0	0	1	Wood Elf: No Obstacle Penalty R10
+18	h	#88	0	1	2	3	4	5	5	5	5	5	5	Wood Elf: Hatred Dmg-Orc
+19	A	+	0	1	2	2	2	3	3	3	4	4	4	Grand Elf: Attack R1/R2/R5/R8
+19	D	+	0	1	1	3	3	3	4	4	5	5	6	Grand Elf: Defense R1/R3/R6/R8/R10
+19	M	+	0	0	1	1	1	1	2	2	3	4	5	Grand Elf: Max. Damage R2/R6/R8/R9/R10
+19	m	+	0	0	0	0	2	2	3	3	4	5	5	Grand Elf: Min. Damage R4/R6/R8/R9
+19	S	+	0	0	0	0	1	1	1	1	1	1	2	Grand Elf: Speed R4/R10
+19	w	m	0	0	0	0	0	0	0	1	1	1	1	Grand Elf: Immune to Hostile Mind Spells R7
+19	s	#44	0	0	0	0	0	1	1	1	1	1	1	Grand Elf: Precision R5
+19	h	#89	0	1	2	3	4	5	5	5	5	5	5	Grand Elf: Hatred Dmg-Orc Chieftain
+20	A	+	0	2	2	2	2	3	4	5	6	7	8	Pegasus: Attack R1/R5/R6/R7/R8/R9/R10
+20	D	+	0	0	1	1	3	3	4	4	5	5	7	Pegasus: Defense R2/R4/R6/R8/R10
+20	M	+	0	0	1	2	2	2	2	3	3	4	4	Pegasus: Max. Damage R2/R3/R7/R9
+20	m	+	0	0	1	1	2	2	2	3	3	3	3	Pegasus: Min. Damage R2/R4/R7
+20	S	+	0	0	0	0	1	1	1	2	2	2	3	Pegasus: Speed R4/R7/R10
+20	f	D	2	2	2	2	2	2	2	1	1	1	1	Pegasus: Double Strike R7
+21	A	+	0	0	1	2	2	2	4	4	5	7	7	Silver Pegasus: Attack R2/R3/R6/R8/R9
+21	D	+	0	2	2	2	3	3	4	4	5	5	7	Silver Pegasus: Defense R1/R4/R6/R8/R10
+21	M	+	0	0	2	2	2	4	4	4	5	5	5	Silver Pegasus: Max. Damage R2/R5/R8
+21	m	+	0	0	0	1	1	2	2	4	4	5	5	Silver Pegasus: Min. Damage R3/R5/R7/R9
+21	S	+	0	0	0	0	1	1	2	2	2	2	3	Silver Pegasus: Speed R4/R6/R10
+21	f	b	0	0	0	0	0	1	1	1	1	1	1	Silver Pegasus: Attack & Return R5
+21	f	R	2	2	2	2	2	2	2	2	2	2	1	Silver Pegasus: No Retaliation R10
+22	A	+	0	0	1	2	2	4	4	5	5	6	7	Dendroid Guard: Attack R2/R3/R5/R7/R9/R10
+22	D	+	0	2	3	3	4	4	7	7	9	9	10	Dendroid Guard: Defense R1/R2/R4/R6/R8/R10
+22	M	+	0	1	2	2	3	3	3	3	4	5	6	Dendroid Guard: Max. Damage R1/R2/R4/R8/R9/R10
+22	m	+	0	0	2	2	2	4	4	6	6	7	7	Dendroid Guard: Min. Damage R2/R5/R7/R9
+22	S	+	0	0	0	0	1	1	1	1	1	1	1	Dendroid Guard: Speed R4
+22	r	#100	0	5	10	15	20	25	30	35	40	45	50	Dendroid Guard: Regeneration 5 Health/Rank 100%
+22	w	E	0	0	0	0	0	0	0	0	0	0	1	Dendroid Guard: Immune to Hostile Earth Spells R10
+23	A	+	0	2	3	3	4	6	6	7	7	7	9	Dendroid Soldier: Attack R1/R2/R4/R5/R7/R10
+23	D	+	0	1	1	2	3	4	5	6	6	8	8	Dendroid Soldier: Defense R1/R3/R4/R5/R6/R7/R9
+23	M	+	0	0	2	2	2	2	3	4	6	6	6	Dendroid Soldier: Max. Damage R2/R6/R7/R8
+23	m	+	0	0	0	2	2	2	4	4	5	5	5	Dendroid Soldier: Min. Damage R3/R6/R8
+23	S	+	0	0	0	0	0	1	1	1	1	1	2	Dendroid Soldier: Speed R5/R10
+23	b	=	0	4	8	12	16	20	24	28	32	36	40	Dendroid Soldier: Reduce Enemy Defence 4%/Rank
+23	w	E	0	0	0	0	0	0	0	0	0	0	1	Dendroid Soldier: Immune to Hostile Earth Spells R10
+24	A	+	0	0	2	2	4	4	4	6	7	9	9	Unicorn: Attack R2/R4/R7/R8/R9
+24	D	+	0	3	3	4	4	6	8	8	9	10	10	Unicorn: Defense R1/R3/R5/R6/R8/R9
+24	M	+	0	0	1	3	3	3	3	5	6	6	8	Unicorn: Max. Damage R2/R3/R7/R8/R10
+24	m	+	0	0	1	1	1	3	4	4	5	6	8	Unicorn: Min. Damage R2/R5/R6/R8/R9/R10
+24	S	+	0	0	0	0	1	1	1	1	1	1	2	Unicorn: Speed R4/R10
+24	p	#37	0	0	0	5	5	10	10	15	15	15	20	Unicorn: Mass Cure pre-attack 5%-20% chance
+24	f	f	0	0	0	0	0	0	1	1	1	1	1	Unicorn: Fearless R6
+25	A	+	0	1	2	2	2	4	7	7	9	10	11	War Unicorn: Attack R1/R2/R5/R6/R8/R9/R10
+25	D	+	0	1	1	3	3	5	5	5	6	6	8	War Unicorn: Defense R1/R3/R5/R8/R10
+25	M	+	0	0	2	2	4	4	4	6	7	9	9	War Unicorn: Max. Damage R2/R4/R7/R8/R9
+25	m	+	0	1	2	4	4	4	4	6	6	7	7	War Unicorn: Min. Damage R1/R2/R3/R7/R9
+25	S	+	0	0	0	0	1	1	1	1	1	1	2	War Unicorn: Speed R4/R10
+25	a	#62	0	0	5	5	10	10	15	15	20	25	30	War Unicorn: Blind bonus R2/R4/R6/R8/R9/R10
+25	f	f	0	0	0	0	0	0	1	1	1	1	1	War Unicorn: Fearless R6
+26	A	+	0	1	2	2	4	5	5	7	7	7	9	Green Dragon: Attack R1/R2/R4/R5/R7/R10
+26	D	+	0	2	2	4	4	7	7	9	9	11	11	Green Dragon: Defense R1/R3/R5/R7/R9
+26	M	+	0	1	3	4	5	5	7	7	9	11	11	Green Dragon: Max. Damage R1/R2/R3/R4/R6/R8/R9
+26	m	+	0	0	1	2	2	2	3	4	6	7	9	Green Dragon: Min. Damage R2/R3/R6/R7/R8/R9/R10
+26	S	+	0	0	0	0	1	1	2	2	2	2	3	Green Dragon: Speed R4/R6/R10
+26	R	+	0	0	0	0	0	1	1	1	1	1	2	Green Dragon: Extra Retaliations R5/R10
+26	h	#68	0	2	4	6	8	10	12	14	16	18	20	Green Dragon: Hatred Dmg-Bone Dragon 20%/Rank
+26	h	#69	0	2	4	6	8	10	12	14	16	18	20	Green Dragon: Hatred Dmg-Ghost Dragon 20%/Rank
+26	f	f	0	0	0	0	0	1	1	1	1	1	1	Green Dragon: Fearless R5
+26	w	0	0	0	0	0	0	0	0	1	1	1	1	Green Dragon: No Immunity to Beneficial Spells R7
+27	A	+	0	1	2	2	4	5	7	7	9	11	12	Gold Dragon: Attack R1/R2/R4/R5/R6/R8/R9/R10
+27	D	+	0	1	1	3	3	5	5	7	7	8	9	Gold Dragon: Defense R1/R3/R5/R7/R9/R10
+27	M	+	0	1	3	4	4	5	7	7	9	9	9	Gold Dragon: Max. Damage R1/R2/R3/R5/R6/R8
+27	m	+	0	1	2	3	4	5	5	7	7	8	10	Gold Dragon: Min. Dmg R1/R2/R3/R4/R5/R7/R9/R10
+27	S	+	0	0	0	0	1	1	2	2	2	2	3	Gold Dragon: Speed R4/R6/R10
+27	h	#68	0	2	4	6	8	10	12	14	16	18	20	Gold Dragon: Hatred Dmg-Bone Dragon 20%/Rank
+27	h	#69	0	2	4	6	8	10	12	14	16	18	20	Gold Dragon: Hatred Dmg-Ghost Dragon 20%/Rank
+27	f	f	0	0	0	0	0	1	1	1	1	1	1	Gold Dragon: Fearless R5
+27	w	0	0	0	0	0	0	0	0	1	1	1	1	Gold Dragon: No Immunity to Beneficial Spells R7
+28	S	+	0	0	0	0	1	1	1	1	1	1	1	Gremlin: Speed R4
+28	h	#42	0	1	2	3	4	5	5	5	5	5	5	Gremlin: Hatred Dmg-Imp (50% R10)
+28	J	#11	0	5	10	15	20	25	30	35	40	45	50	Gremlin: Landmine pre-attack 5%/Rank
+29	S	+	0	0	0	0	1	1	1	1	1	1	1	Master Gremlin: Speed R4
+29	h	#43	0	1	2	3	4	5	5	5	5	5	5	Master Gremlin: Hatred Dmg-Familiar (50% R10)
+29	O	+	0	1	2	3	4	5	6	7	8	9	10	Master Gremlin: +1 Shot/Rank
+29	J	#11	0	5	10	15	20	25	30	35	40	45	50	Master Gremlin: Landmine pre-attack 5%/Rank
+30	S	+	0	0	0	0	1	1	1	1	1	1	2	Stone Gargoyle: Speed R4/R10
+30	s	#46	0	0	0	1	1	2	2	2	2	5	5	"Stone Gargoyle: Stone Skin R3/R5, Mass R9"
+30	w	E	0	0	0	0	0	0	0	1	1	1	1	Stone Gargoyle: Immune to Hostile Earth Spells R7
+31	S	+	0	0	0	0	1	1	1	1	1	1	2	Obsidian Gargoyle: Speed R4/R10
+31	s	#46	0	0	0	1	1	2	2	2	2	5	5	"Obsidian Gargoyle: Stone Skin R3/R5, Mass R9"
+31	w	E	0	0	0	0	0	0	0	1	1	1	1	Obsidian Gargoyle: Immune to Hostile Earth Spells R7
+32	S	+	0	0	0	0	1	1	1	1	1	1	1	Stone Golem: Speed R4
+32	f	R	2	2	2	2	2	1	1	1	1	1	1	Stone Golem: No Retaliation R5
+32	g	%	50	54	58	62	66	70	74	78	82	86	90	Stone Golem: Reduced Spell Damage +4%/Rank
+33	S	+	0	0	0	0	1	1	1	1	1	1	1	Iron Golem: Speed R4
+33	f	R	2	2	2	2	2	1	1	1	1	1	1	Iron Golem: No Retaliation R5
+33	g	%	75	77	79	81	83	85	87	89	91	93	95	Iron Golems: Reduced Spell Damage +2%/Rank
+34	S	+	0	0	0	0	1	1	1	1	1	1	1	Mage: Speed R4
+34	C	+	0	0	0	0	0	1	1	2	2	3	4	Mage: Mana Reduction R5/R7/R9/R10
+35	S	+	0	0	0	0	1	1	1	1	1	1	2	Arch Mage: Speed R40/R10
+35	C	+	0	0	0	0	0	1	1	2	2	3	4	Arch Mage: Mana Reduction R5/R7/R9/R10
+36	S	+	0	0	0	0	1	1	1	1	1	1	2	Genie: Speed R4/R10
+36	h	#52	5	6	7	8	9	10	12	14	16	18	20	Genie: Hatred Dmg-Efreet (200% R10)
+36	h	#53	5	6	7	8	9	10	12	14	16	18	20	Genie: Hatred Dmg-Efreet Sultan (200% R10)
+36	w	B	0	0	0	1	1	1	1	1	1	1	1	Genie: Blind Immunity R3
+36	w	H	0	0	0	0	0	1	1	1	1	1	1	Genie: Hypnotize Immunity R5
+36	w	K	0	0	0	0	0	0	0	1	1	1	1	Genie: Berserk Immunity R7
+37	S	+	0	0	0	0	1	1	2	2	2	2	3	Master Genie: Speed at 40/60/100%
+37	P	+	0	0	0	0	0	1	1	2	2	3	3	Master Genie: Increased # of Spells R5/R7/R9
+37	h	#52	5	6	7	8	9	10	12	14	16	18	20	Master Genie: Hatred Dmg-Efreet (200% R10)
+37	h	#53	5	6	7	8	9	10	12	14	16	18	20	Master Genie: Hatred Dmg-Efreet Sultan (200% R10)
+37	w	B	0	0	0	1	1	1	1	1	1	1	1	Master Genie: Blind Immunity R3
+37	w	H	0	0	0	0	0	1	1	1	1	1	1	Master Genie: Hypnotize Immunity R5
+37	w	K	0	0	0	0	0	0	0	1	1	1	1	Master Genie: Berserk Immunity R7
+38	S	+	0	0	0	0	1	1	1	1	1	1	1	Naga: Speed R4
+38	R	+	0	0	0	0	0	1	1	2	2	3	4	Naga: Extra Retals R5/R7/R9/R10
+38	e	+	0	1	2	3	4	5	10	15	20	25	30	Naga: Death Blow (30% R10)
+39	S	+	0	0	0	0	1	1	1	1	1	1	2	Naga Queen: Speed R4/R10
+39	R	+	0	0	0	0	0	1	1	2	2	3	4	Naga Queen: Extra Retals R5/R7/R9/R10
+39	e	+	0	1	2	3	4	5	10	15	20	25	30	Naga Queen: 2 x Dmg Death Blow (30% R10)
+40	S	+	0	0	0	0	1	1	1	1	1	1	2	Giant: Speed R4/R10
+40	h	#82	5	6	7	8	9	10	12	14	16	18	20	Giant: Hatred Dmg-Red Dragon (200% R10)
+40	W	+	0	5	10	15	20	25	30	35	40	45	50	Giant: Magic Resistance 5%/Rank
+40	w	A	0	0	0	0	0	1	1	1	1	1	1	Giant: Hostile Air Spell Immunity R5
+40	w	0	0	0	1	1	1	1	1	1	1	1	1	Giant: No Immunity to Beneficial Mind Spells R3
+40	f	f	0	0	0	0	0	1	1	1	1	1	1	Giant: Fearless R5
+40	f	D	2	2	2	2	2	2	2	1	1	1	1	Giant: Double Strike at R7
+41	S	+	0	0	0	0	1	1	2	2	2	2	3	Titan: Speed R4/R6/R10
+41	h	#83	5	6	7	8	9	10	12	14	16	18	20	Titan: Hatred Dmg-Black Dragon (200% R10)
+41	W	+	0	5	10	15	20	25	30	35	40	45	50	Titan: Magic Resistance 5%/Rank
+41	w	A	0	0	0	0	0	1	1	1	1	1	1	Titan: Immune to Hostile Air Spells R5
+41	w	0	0	0	0	1	1	1	1	1	1	1	1	Titan: No Immunity to Beneficial Mind Spells R3
+41	o	=	0	0	0	0	0	0	0	1	1	1	1	Titan: No Obstacle Penalty R7
+41	i	=	0	0	0	0	0	0	0	0	0	1	1	Titan: No Range Penalty R9
+42	S	+	0	0	0	0	0	1	1	1	1	1	2	Imp: Speed R5/R10
+42	f	F	2	2	2	2	2	1	1	1	1	1	1	Imp: Flying R5/R6/R7/R8/R9/R10
+42	h	#28	0	0	0	0	0	0	1	2	3	4	5	Imp: Hatred Dmg-Gremlin (50% R10)
+42	s	#51	0	1	1	1	1	2	2	2	3	3	3	Imp: Fortune R1/R5/R8  (Expert R8)
+43	S	+	0	0	0	0	0	1	1	1	1	1	2	Familiar: Speed R5/R10
+43	f	F	2	2	2	2	2	1	1	1	1	1	1	Familiar: Flying R5
+43	h	#29	0	0	0	0	0	0	1	2	3	4	5	Familiar: Hatred Dmg-Master Gremlin (50% R10)
+43	s	#51	0	1	1	1	1	2	2	2	3	3	3	Familiar: Fortune R1/R5/R8 (Expert R8)
+44	S	+	0	0	0	0	1	1	1	1	1	1	1	Gog: Speed R4
+44	s	#31	0	0	0	0	0	1	1	1	1	1	1	Gog: Protection from Fire R5 (30% Resistance)
+44	f	D	2	2	2	2	2	2	2	1	1	1	1	Gog: Shoot Twice R7
+44	i	=	0	0	0	0	0	0	0	0	1	1	1	Gog: No Range Penalty R8
+45	S	+	0	0	0	0	1	1	1	1	1	1	2	Magog: Speed R4/R10
+45	s	#31	0	0	0	0	0	1	1	1	1	1	1	Magog: Protection from Fire R5 (30% Resistance)
+45	i	=	0	0	0	0	0	0	0	0	1	1	1	Magog: No Range Penalty R8
+45	p	#21	0	5	10	15	20	25	30	35	40	45	50	Magog: Fireball pre-attack 5%/Rank
+46	S	+	0	0	0	0	1	1	1	1	1	1	2	Hell Hound: Speed R4/R10
+46	s	#31	0	0	0	1	1	1	1	1	2	2	2	Hell Hound: Protection from Fire R3=30% R8=50%
+46	f	D	2	2	2	2	2	2	1	1	1	1	1	Hell Hound: Strike Twice R6
+46	h	#4	0	0	0	0	0	0	1	2	3	4	5	Hell Hound: Hatred Dmg-Griffin (50% R10)
+46	f	f	0	0	0	0	0	0	0	0	1	1	1	Hell Hound: Fearless R8
+47	S	+	0	0	0	0	1	1	1	1	1	1	2	Cerberus: Speed R4/R10
+47	s	#31	0	0	0	1	1	1	1	1	2	2	2	Cerberus: Protection from Fire R3=30% R8=50%
+47	R	+	0	0	0	0	0	1	1	1	2	2	2	Cerberus: Retaliate Twice R8/R9/R10
+47	h	#5	0	0	0	0	0	0	1	2	3	4	5	Cerberus: Hatred Dmg-Royal Griffin (50% R10)
+47	a	#73	0	5	10	15	20	25	30	35	40	45	50	Cerberus: Disease post-attack 5%/Rank
+47	f	f	0	0	0	0	0	0	0	0	1	1	1	Cerberus: Fearless R8
+48	S	+	0	0	0	0	1	1	1	1	1	1	1	Demon: Speed R4
+48	s	#31	0	1	1	1	1	1	1	2	2	2	2	Demon: Protection from Fire R1=30% R7=50%
+48	L	#74	0	1	2	3	4	5	10	15	20	25	30	Demon: Deflect 75% of Dmg. (30% R10)
+48	e	=	0	0	0	5	10	15	20	25	30	40	50	Demon: 2 x Dmg Death Blow (50% R10)
+48	f	f	0	0	0	0	0	0	0	0	1	1	1	Demon: Fearless R8
+49	S	+	0	0	0	0	1	1	1	1	1	1	2	Horned Demon: Speed R4/R10
+49	s	#31	0	1	1	1	1	1	1	2	2	2	2	Horned Demon: Protection from Fire R1=30% R7=50%
+49	L	#74	0	1	2	3	4	5	10	15	20	25	30	Horned Demon: Deflect 75% of Dmg. (30% R10)
+49	e	=	0	0	0	5	10	15	20	25	30	40	50	Horned Demon: 2 x Dmg Death Blow (50% R10)
+49	f	f	0	0	0	0	0	0	0	0	1	1	1	Horned Demon: Fearless R8
+50	S	+	0	0	0	0	1	1	1	1	1	1	2	Pit Fiend: Speed R4/R10
+50	s	#31	0	1	1	1	2	2	2	2	3	3	3	Pit Fiend: Protection from Fire R1=30% R5=50%
+50	w	m	0	0	0	0	0	0	1	1	1	1	1	Pit Fiend: Immune to Hostile Mind Spells R6
+50	f	D	2	2	2	2	2	2	2	1	1	1	1	Pit Fiend: Strike Twice R7
+50	f	f	0	0	0	0	0	0	0	1	1	1	1	Pit Fiend: Fearless R7
+50	u	#48	0	0	0	10	10	15	15	20	20	25	25	Pit Fiend: Summon Demons round 2 R3/R5/R7/R9
+51	S	+	0	0	0	0	1	1	1	1	1	1	2	Pit Lord: Speed R4/R10
+51	s	#31	0	1	1	1	2	2	2	2	3	3	3	Pit Lord: Protection from Fire R1=30% R5=50%
+51	w	m	0	0	0	0	0	0	1	1	1	1	1	Pit Lord: Immune to Hostile Mind Spells R6
+51	f	D	2	2	2	2	2	2	2	1	1	1	1	Pit Lord: Strike Twice R7
+51	f	f	0	0	0	0	0	0	0	1	1	1	1	Pit Lord: Fearless R7
+51	u	#49	0	0	0	5	5	10	10	15	15	20	20	Pit Lord: Summon Horned Demons round 2 R3/R5/R7/R9
+52	S	+	0	0	0	0	1	1	1	1	1	1	2	Efreet: Speed R4/R10
+52	w	m	0	0	0	0	0	1	1	1	1	1	1	Efreet: Immune to Hostile Mind Spells R5
+52	f	f	0	0	0	0	0	1	1	1	1	1	1	Efreet: Fearless R5
+52	h	#36	0	0	0	0	0	0	1	2	3	4	5	Efreet: Hatred Dmg-Genie (50% R10)
+52	s	#29	0	0	0	0	0	0	0	1	1	2	3	Efreet: Fire Shield R7/R9/R10 (Expert at R10)
+52	p	#66	0	5	10	15	20	25	30	35	40	45	50	Efreet: Summon Fire Elemental pre-attack 5%/Rank
+52	w	0	0	0	0	0	1	1	1	1	1	1	1	Efreet: No Immunity to Beneficial Fire Spells R5
+53	S	+	0	0	0	0	1	1	2	2	2	2	3	Efreet Sultan: Speed R4/R6/R10
+53	w	m	0	0	0	0	0	1	1	1	1	1	1	Efreet Sultan: Immune to Hostile Mind Spells R5
+53	f	f	0	0	0	0	0	1	1	1	1	1	1	Efreet Sultan: Fearless R5
+53	h	#37	0	0	0	0	0	0	1	2	3	4	5	Efreet Sultan: Hatred Dmg-Master Genie (50% R10)
+53	s	#29	0	0	0	0	0	0	0	0	0	0	5	Efreet Sultan: Mass Fire Shield R10
+53	f	R	2	2	2	2	2	2	2	1	1	1	1	Efreet Sultan: No Retaliation R7
+53	w	0	0	0	0	0	1	1	1	1	1	1	1	Efreet Sultan: Not Immune Beneficial Fire Spells R5
+54	S	+	0	0	0	0	0	1	1	2	2	3	3	Devil: Speed R5/R7/R9
+54	w	F	0	0	0	1	1	1	1	1	1	1	1	Devil: Immune to Hostile Fire Spells R3
+54	w	E	0	0	0	0	0	0	0	1	1	1	1	Devil: Immune to Hostile Earth Spells R7
+54	p	#52	0	5	10	15	20	25	30	35	40	45	50	Devil: Mass Misfortune pre-attack 5%/Rank
+54	f	f	0	0	0	0	0	1	1	1	1	1	1	Devil: Fearless R5
+54	w	m	0	0	0	0	0	0	0	1	1	1	1	Devil: Immune to Hostile Mind Spells R7
+54	W	+	0	0	0	0	0	0	10	20	30	40	50	Devil: Magic Resistance R6 10%/Rank
+55	S	+	0	0	0	0	0	1	1	2	2	3	4	Arch Devil: Speed R5/R7/R9/R10
+55	w	F	0	0	0	1	1	1	1	1	1	1	1	Arch Devil: Immune to Hostile Fire Spells R3
+55	w	E	0	0	0	0	0	0	0	1	1	1	1	Arch Devil: Immune to Hostile Earth Spells R7
+55	f	f	0	0	0	0	0	1	1	1	1	1	1	Arch Devil: Fearless R5
+55	c	#59	0	5	10	15	20	25	30	35	40	45	50	Arch Devil: Berserk post-attack 5%/Rank
+55	w	m	0	0	0	0	0	0	0	0	1	1	1	Arch Devil: Immune to Hostile Mind Spells R8
+55	W	+	0	0	0	0	0	0	10	20	30	40	50	Arch Devil: Magic Resistance R6 10%/Rank
+56	S	+	0	0	0	0	0	0	0	0	1	1	1	Skeleton: Speed R8
+56	s	#28	0	0	0	1	1	1	2	2 	2	2	2	Skeleton: Air Shield R3/R6
+56	w	N	0	0	0	0	0	1	1	1	1	1	1	Skeleton: Immune to Dispel Beneficial Spells R5
+56	w	P	0	0	0	0	0	0	0	1	1	0	0	Skeleton: Immune to all Regular Dispels R7-R8
+56	w	p	0	0	0	0	0	0	0	0	0	1	1	Skeleton: Immune to Hostile Dispels R9
+57	S	+	0	0	0	0	0	0	0	0	1	1	1	Skeleton Warrior: Speed R8
+57	s	#28	0	0	0	1	1	1	2	2	2	2	2	Skeleton Warrior: Air Shield R3/R6
+57	w	N	0	0	0	0	0	1	1	1	1	1	1	Skeleton Warrior: Immune to Dispel Beneficial Spells R5
+57	w	P	0	0	0	0	0	0	0	1	1	0	0	Skeleton Warrior: Immune to all Regular Dispels R7-R8
+57	w	p	0	0	0	0	0	0	0	0	0	1	1	Skeleton Warrior: Immune to Hostile Dispels R9
+58	S	+	0	0	0	0	1	1	1	1	1	1	1	Walking Dead: Speed R4
+58	K	#54	0	5	10	15	20	25	30	35	40	45	50	Walking Dead: Advanced Slow after attack 5%/Rank
+58	w	1	0	0	0	0	0	1	1	1	1	1	1	Walking Dead: Immune to Hostile L1 Spells R5
+59	S	+	0	0	0	0	1	1	1	1	1	1	1	Zombie: Speed R4
+59	c	#73	0	8	16	24	32	40	48	56	64	72	80	Zombie: Disease +8%/Rank
+59	w	1	0	0	0	0	0	1	1	1	1	1	1	Zombie: Immune to Hostile L1 Spells R5
+60	S	+	0	0	0	0	1	1	1	1	1	1	1	Wight: Speed R4
+60	J	#45	0	5	10	15	20	25	30	35	40	45	50	Wight: Advanced Weakness pre-attack 5%/Rank
+60	W	+	0	6	12	18	24	30	36	42	48	54	60	Wight: 6% Magic Resistance/Rank
+61	S	+	0	0	0	0	1	1	1	1	1	1	2	Wraith: Speed R4/R10
+61	p	#52	0	5	10	15	20	25	30	35	40	45	50	Wraith: Mass Misfortune pre-attack 5%/Rank
+61	W	+	0	6	12	18	24	30	36	42	48	54	60	Wraith: 6% Magic Resistance/Rank
+62	S	+	0	0	0	0	1	1	1	1	1	1	2	Vampire: Speed R4/R10
+62	b	=	0	5	10	15	20	25	30	35	40	45	50	Vampire: Reduce Target's Defense 5%/Rank
+62	f	D	2	2	2	2	2	2	2	2	2	1	1	Vampire: Double Strike R9
+63	S	+	0	0	0	0	1	1	1	1	1	1	2	Vampire Lord: Speed R4/R10
+63	b	=	0	5	10	15	20	25	30	35	40	45	50	Vampire Lord: Reduce Target's Defense 5%/Rank
+63	a	#60	0	2	4	6	8	10	12	14	16	18	20	Vampire Lord: Hypnotize 2%/Rank
+64	S	+	0	0	0	0	1	1	1	1	1	1	2	Lich: Speed R4/R10
+64	p	#24	0	5	10	15	20	25	30	35	40	45	50	Lich: Death Ripple pre-attack 5%/Rank
+64	w	1	0	0	0	0	0	1	1	1	1	1	1	Lich: Immune to L1 Spells R5
+64	w	2	0	0	0	0	0	0	0	0	0	1	1	Lich: Immune to L2 Spells R9
+64	h	#34	0	1	2	3	4	5	6	7	8	9	10	Lich: Hatred Dmg-Mage
+65	S	+	0	0	0	0	1	1	1	1	1	1	2	Power Lich: Speed R4/R10
+65	p	#24	0	5	10	15	20	25	30	35	40	45	50	Power Lich: Death Ripple pre-attack 5%/Rank
+65	w	1	0	0	0	0	0	1	1	1	1	1	1	Power Lich: Immune to L1 Spells R5
+65	w	2	0	0	0	0	0	0	0	0	0	1	1	Power Lich: Immune to L2 Spells R9
+65	h	#35	0	1	2	3	4	5	6	7	8	9	10	Power Lich: Hatred Dmg-Arch Mage
+66	S	+	0	0	0	0	1	1	1	1	1	1	2	Black Knight: Speed R4/R10
+66	a	#78	0	10	20	30	40	50	60	70	80	90	100	Black Knight: Dispel Beneficial Spells 10%/Rank
+66	f	R	2	2	2	2	2	2	2	1	1	1	1	Black Knight: No Retaliation R7
+66	h	#10	0	1	2	3	4	5	6	7	8	9	10	Black Knight: Hatred Dmg-Cavalier
+67	S	+	0	0	0	0	1	1	1	1	1	1	2	Dread Knight: Speed R4/R10
+67	e	=	20	28	36	44	52	60	68	76	84	92	100	Dread Knight: Death Blow +8%/Rank
+67	f	R	2	2	2	2	2	2	2	1	1	1	1	Dread Knight: No Retaliation R7
+67	h	#11	0	1	2	3	4	5	6	7	8	9	10	Dread Knight: Hatred Dmg-Champion
+68	S	+	0	0	0	0	1	1	1	1	1	1	2	Bone Dragon: Speed R4/R10
+68	s	#28	0	0	1	1	1	2	2	2	2	2	2	Bone Dragon: Air Shield R2/R5
+68	f	D	2	2	2	2	2	2	2	1	1	1	1	Bone Dragon: Double Strike R7
+68	w	F	0	0	0	1	1	1	1	1	1	1	1	Bone Dragon: Immune to Hostile Fire Spells R3
+68	w	W	0	0	0	0	0	1	1	1	1	1	1	Bone Dragon: Immune to Hostile Water Spells R5
+68	w	A	0	0	0	0	0	0	0	1	1	1	1	Bone Dragon: Immune to Hostile Air Spells R7
+68	w	E	0	0	0	0	0	0	0	0	0	1	1	Bone Dragon: Immune to Hostile Earth Spells R9
+69	S	+	0	0	0	0	1	1	2	2	2	2	3	Ghost Dragon: Speed R4/R6/R10
+69	c	#75	0	8	16	24	32	40	48	56	64	72	80	Ghost Dragon: Aging +8%/Rank
+69	F	=	0	0	0	0	0	1	1	1	1	1	1	Ghost Dragon: Fear R5
+69	w	F	0	0	0	1	1	1	1	1	1	1	1	Ghost Dragon: Immune to Hostile Fire Spells R3
+69	w	W	0	0	0	0	0	1	1	1	1	1	1	Ghost Dragon: Immune to Hostile Water Spells R5
+69	w	A	0	0	0	0	0	0	0	1	1	1	1	Ghost Dragon: Immune to Hostile Air Spells R7
+69	w	E	0	0	0	0	0	0	0	0	0	1	1	Ghost Dragon: Immune to Hostile Earth Spells R9
+70	S	+	0	0	0	0	1	1	1	1	1	1	1	Troglodyte: Speed R4
+70	c	#54	0	3	6	9	12	15	18	21	24	27	30	Troglodyte: Slow on hit 3%/Rank
+70	h	#118	0	1	1	2	2	3	3	4	4	5	6	Troglodyte: Hatred Dmg-Pixie
+70	h	#119	0	1	1	2	2	3	3	4	4	5	6	Troglodyte: Hatred Dmg-Sprite
+71	S	+	0	0	0	0	1	1	1	1	1	1	1	Infernal Troglodyte: Speed R4
+71	w	F	0	0	0	0	0	0	0	1	1	1	1	Infernal Troglodyte: Immune to Hostile Fire Spells R7
+71	h	#118	0	1	1	2	2	3	3	4	4	5	6	Infernal Troglodyte: Hatred Dmg-Pixie
+71	h	#119	0	1	1	2	2	3	3	4	4	5	6	Infernal Troglodyte: Hatred Dmg-Sprite
+72	S	+	0	0	0	0	1	1	1	1	1	1	2	Harpy: Speed R4/R10
+72	s	#51	0	0	0	0	1	1	1	2	2	2	2	Harpy: Fortune R4/R7
+72	c	#42	0	5	10	15	20	25	30	35	40	45	50	Harpy: Curse 5%/Rank
+73	S	+	0	0	0	0	1	1	1	1	1	1	2	Harpy Hag: Speed R4/R10
+73	s	#51	0	0	0	0	1	1	1	2	2	2	2	Harpy Hag: Fortune R4/R7
+73	c	#73	0	5	10	15	20	25	30	35	40	45	50	Harpy Hag: Disease 5%/Rank
+74	S	+	0	0	0	0	1	1	1	1	1	1	1	Beholder: Speed R4
+74	c	#61	0	5	10	15	20	25	30	35	40	45	50	Beholder: Forgetfulness 5%/Rank
+74	o	+	0	0	0	0	0	0	0	1	1	1	1	Beholder: No Obstacle Penalty R7
+75	S	+	0	0	0	0	1	1	1	1	1	1	2	Evil Eye: Speed R4/R10
+75	w	m	0	0	0	0	0	0	0	1	1	1	1	Evil Eye: Immune to Hostile Mind Spells R7
+76	S	+	0	0	0	0	1	1	1	1	1	1	1	Medusa: Speed R4
+76	a	#70	0	0	0	5	5	10	10	15	20	25	30	Medusa: Petrify bonus R3/R5/R7/R8/R9/R10
+76	O	+	0	1	1	1	2	2	2	3	3	3	4	"Medusa: Extra Shots +1/Three Ranks, +1 R10"
+77	S	+	0	0	0	0	1	1	1	1	1	1	2	Medusa Queen: Speed R4/R10
+77	i	+	0	0	0	0	0	0	0	1	1	1	1	Medusa Queen: No Range Penalty R7
+77	O	+	0	1	1	1	2	2	2	3	3	3	4	"Medusa Queen: Extra Shots +1/3 Ranks, +1 R10"
+78	S	+	0	0	0	0	1	1	1	1	1	1	2	Minotaur: Speed R4/R10
+78	f	R	2	2	2	2	2	2	2	2	1	1	1	Minotaur: No Retaliation R8
+78	b	=	0	4	8	12	16	20	24	28	32	36	40	Minotaur: Reduces Enemy Defence 4%/Rank
+79	S	+	0	0	0	0	1	1	1	1	1	1	2	Minotaur King: Speed R4/R10
+79	e	+	0	3	6	9	12	15	18	21	24	27	30	Minotaur King: Double Damage Death Blow 3%/Rank
+79	s	#49	0	0	0	0	0	2	2	2	2	2	2	Minotaur King: Expert Mirth R5
+80	S	+	0	0	0	0	1	1	1	1	1	1	2	Manticore: Speed R4/R10
+80	R	+	0	0	0	0	0	1	1	1	1	1	2	Manticore: Extra Retaliations R5/R10
+80	c	#71	0	5	10	15	20	25	30	35	40	45	50	Manticore: Poison 5%/Rank
+81	S	+	0	0	0	0	1	1	2	2	2	2	3	Scorpicore: Speed R4/R6/R10
+81	a	#74	0	0	0	0	0	5	5	10	10	15	20	Scorpicore: Paralyze bonus R5/R7/R9/R10
+81	c	#80	0	5	10	15	20	25	30	35	40	45	50	Scorpicore: Acid Breath 5%/Rank
+82	S	+	0	0	0	0	1	1	2	2	2	2	3	Red Dragon: Speed R4/R6/R10
+82	h	#40	5	7	9	11	13	15	17	19	21	23	25	Red Dragon: Hatred Dmg-Giant +20%/Rank
+82	h	#41	5	7	9	11	13	15	17	19	21	23	25	Red Dragon: Hatred Dmg-Titan +20%/Rank
+82	f	f	0	0	0	0	0	1	1	1	1	1	1	Red Dragon: Fearless R5
+82	w	0	0	0	0	0	0	0	0	0	1	1	1	Red Dragon: No Immunity to Friendly Spells R8
+83	S	+	0	0	0	0	1	1	2	2	2	2	3	Black Dragon: Speed R4/R6/R10
+83	h	#40	5	7	9	11	13	15	17	19	21	23	25	Black Dragon: Hatred Dmg-Giant +20%/Rank
+83	h	#41	5	7	9	11	13	15	17	19	21	23	25	Black Dragon: Hatred Dmg-Titan +20%/Rank
+83	F	+	0	0	0	0	0	0	0	0	1	1	1	Black Dragon: Fear R8
+83	c	#78	0	5	10	15	20	25	30	35	40	45	50	Black Dragon: Dispel Beneficial 5%/Rank
+83	f	f	0	0	0	0	0	1	1	1	1	1	1	Black Dragon: Fearless R5
+83	w	0	0	0	0	0	0	0	0	0	1	1	1	Black Dragon: No Immunity to Friendly Spells R8
+84	S	+	0	0	0	0	1	1	1	1	1	1	1	Goblin: Speed R4
+84	f	D	2	2	2	2	2	2	2	1	1	1	1	Goblin: Double Strike R7
+84	h	#16	0	1	2	3	4	5	5	5	5	5	5	Goblin: Hatred Dmg-Dwarf
+84	h	#17	0	1	2	3	4	5	5	5	5	5	5	Goblin: Hatred Dmg-Battle Dwarf
+85	S	+	0	0	0	0	1	1	1	1	1	1	2	Hobgoblin: Speed R4/R10
+85	f	D	2	2	2	2	2	2	2	1	1	1	1	Hobgoblin: Double Strike R7
+85	h	#16	0	1	2	3	4	5	5	5	5	5	5	Hobgoblin: Hatred Dmg-Dwarf
+85	h	#17	0	1	2	3	4	5	5	5	5	5	5	Hobgoblin: Hatred Dmg-Battle Dwarf
+86	S	+	0	0	0	0	1	1	1	1	1	1	2	Wolf Rider: Speed R4/R10
+86	f	R	2	2	2	2	2	2	2	1	1	1	1	Wolf Rider: No Retaliation R7
+87	S	+	0	0	0	0	1	1	1	1	1	1	2	Wolf Raider: Speed R4/R10
+87	f	R	2	2	2	2	2	2	2	1	1	1	1	Wolf Raider: No Retaliation R7
+88	S	+	0	0	0	0	1	1	1	1	1	1	1	Orc: Speed R4
+88	f	D	2	2	2	2	2	1	1	1	1	1	1	Orc: Double Strike R5
+88	i	=	0	0	0	0	0	0	0	0	0	1	1	Orc: No Range Penalty R9
+88	h	#18	0	1	2	3	4	5	5	5	5	5	5	Orc: Hatred Dmg-Wood Elf
+88	h	#19	0	1	2	3	4	5	5	5	5	5	5	Orc: Hatred Dmg-Grand Elf
+89	S	+	0	0	0	0	1	1	1	1	1	1	1	Orc Chieftain: Speed R4
+89	f	D	2	2	2	2	2	1	1	1	1	1	1	Orc Chieftain: Double Attack R5
+89	i	=	0	0	0	0	0	0	0	0	0	1	1	Orc Chieftain: No Range Penalty R9
+89	h	#18	0	1	2	3	4	5	5	5	5	5	5	Orc Chieftain: Hatred Dmg-Wood Elf
+89	h	#19	0	1	2	3	4	5	5	5	5	5	5	Orc Chieftain: Hatred Dmg-Grand Elf
+90	S	+	0	0	0	0	1	1	1	1	1	1	1	Ogre: Speed R4
+90	L	#74	0	2	5	7	10	12	15	17	20	22	25	Ogre: Deflect 75% dmg. 2.5%/Rank to 25%
+90	e	=	0	0	0	10	15	20	25	30	35	40	50	Ogre: Double Damage Death Blow (50% at R10)
+91	S	+	0	0	0	0	1	1	1	1	1	1	1	Ogre Magi: Speed R4
+91	L	#74	0	2	5	7	10	12	15	17	20	22	25	Ogre Magi: Deflect 75% dmg. 2.5%/Rank to 25%
+91	p	#43	0	0	0	4	7	10	13	16	19	22	25	Ogre Magi: Mass Bloodlust pre-attack 3%/Rank R3
+91	e	=	0	0	0	4	8	12	16	20	24	28	35	Ogre Magi: Double Damage Death Blow (35% at R10)
+92	r	#100	0	9	18	27	36	45	54	63	72	81	90	Roc: Regeneration 9HP/Rank
+92	a	#17	0	5	10	15	20	25	30	35	40	45	50	Roc: Lightning Bolt 5%/Rank
+92	S	+	0	0	0	0	1	1	1	1	1	1	2	Roc: Speed R4/R10
+93	r	#100	0	9	18	27	36	45	54	63	72	81	90	Thunderbird: Regeneration 9HP/Rank
+93	a	#17	0	5	10	15	20	25	30	35	40	45	50	Thunderbird: Lightning Bolt 5%/Rank
+93	S	+	0	0	0	0	1	1	2	2	2	2	3	Thunderbird: Speed R4/R6/R10
+94	S	+	0	0	0	0	1	1	1	1	1	1	2	Cyclops: Speed R4/R10
+94	o	=	0	0	0	0	0	1	1	1	1	1	1	Cyclops: No Obstacle Penalty R5
+94	i	=	0	0	0	0	0	0	0	1	1	1	1	Cyclops: No Range Penalty R7
+94	p	#14	0	10	20	30	40	50	60	60	60	60	60	Cyclops: Earthquake pre-attack 10%/Rank to 60%
+95	S	+	0	0	0	0	1	1	1	1	1	1	2	Cyclops King: Speed R4/R10
+95	o	=	0	0	0	0	0	1	1	1	1	1	1	Cyclops King: No Obstacle Penalty R5
+95	i	=	0	0	0	0	0	0	0	1	1	1	1	Cyclops King: No Range Penalty R7
+95	p	#14	0	10	20	30	40	50	60	60	60	60	60	Cyclops King: Earthquake pre-attack 10%/Rank to 60%
+96	S	+	0	0	0	2	3	3	3	3	3	3	3	Behemoth: Speed R3/R4
+96	F	=	0	0	0	0	0	1	1	1	1	1	1	Behemoth: Fear R5
+96	f	D	2	2	2	2	2	2	2	1	1	1	1	Behemoth: Double Attack R7
+96	w	E	0	0	0	0	0	1	1	1	1	1	1	Behemoth: Immune to Hostile Earth Spells R5
+96	f	f	0	0	0	0	0	1	1	1	1	1	1	Behemoth: Fearless R5
+96	w	B	0	0	0	0	0	0	0	0	1	1	1	Behemoth: Immune to Blind R8
+97	S	+	0	0	0	2	3	3	3	2	3	3	4	Ancient Behemoth: Speed R3/R4/R7/R8/R10
+97	F	=	0	0	0	0	0	1	1	1	1	1	1	Ancient Behemoth: Fear R5
+97	f	D	2	2	2	2	2	2	2	1	1	1	1	Ancient Behemoth: Double Attack R7
+97	w	E	0	0	0	0	0	1	1	1	1	1	1	Ancient Behemoth: Immune to Hostile Earth Spells R5
+97	f	f	0	0	0	0	0	1	1	1	1	1	1	Ancient Behemoth: Fearless R5
+97	w	B	0	0	0	0	0	0	0	0	1	1	1	Ancient Behemoth: Immune to Blind R8
+98	S	+	0	0	0	0	1	1	1	1	1	1	1	Gnoll: Speed: R4
+98	s	#49	0	0	0	0	0	1	1	1	1	2	2	Gnoll: Mirth R5/R9
+98	h	#14	0	2	4	6	8	10	12	14	16	18	20	Gnoll: Hatred Dmg-Centaur
+99	S	+	0	0	0	0	1	1	1	1	1	1	1	Gnoll Marauder: Speed R4
+99	s	#49	0	0	0	0	0	1	1	1	1	2	2	Gnoll Marauder: Mirth R5/R9
+99	h	#15	0	2	4	6	8	10	12	14	16	18	20	Gnoll Marauder: Hatred Dmg-Centaur Captain
+100	S	+	0	0	0	0	1	1	1	1	1	1	1	Lizardman: Speed R4
+100	f	D	2	2	2	2	2	2	2	1	1	1	1	Lizardman: Double Strike R7
+100	c	#71	0	5	10	15	20	25	30	35	40	45	50	Lizardman: Poison 5%/Rank
+101	S	+	0	0	0	0	1	1	1	1	1	1	1	Lizard Warrior: Speed R4
+101	f	D	2	2	2	2	2	2	2	1	1	1	1	Lizard Warrior: Double Strike R7
+101	c	#71	0	5	10	15	20	25	30	35	40	45	50	Lizard Warrior: Poison 5%/Rank
+104	H	+	0	1	2	4	5	7	8	10	11	13	14	Serpent Fly: Health
+104	A	+	0	1	1	1	1	1	1	1	1	1	1	Serpent Fly: Attack R1
+104	D	+	0	1	1	1	1	1	1	1	1	1	1	Serpent Fly: Defense R1
+104	S	+	0	0	0	0	1	2	3	3	3	3	4	Serpent Fly: Speed R4/R5/R6/R10
+104	f	A	2	2	2	2	2	2	2	1	1	1	1	Serpent Fly: Attack All Adjacent R7
+104	R	+	0	0	0	0	0	1	1	2	2	3	4	Serpent Fly: Extra Retals R5/R7/R9/R10
+105	H	+	0	1	2	4	5	7	8	10	11	13	14	Dragon Fly: Health
+105	A	+	0	1	1	1	1	1	1	1	1	1	1	Dragon Fly: Attack R1
+105	D	+	0	1	1	1	1	1	1	1	1	1	1	Dragon Fly: Defense R1
+105	S	+	0	0	0	0	1	2	3	3	4	4	5	Dragon Fly: Speed R4/R5/R6/R8/R10
+105	f	A	2	2	2	2	2	2	2	1	1	1	1	Dragon Fly: Attack All Adjacent R7
+105	R	+	0	0	0	0	0	1	1	2	2	3	4	Dragon Fly: Extra Retals R5/R7/R9/R10
+106	S	+	0	0	0	0	1	1	1	1	1	1	1	Basilisk: Speed R4
+106	a	#70	0	3	6	9	12	15	18	21	24	27	30	Basilisk: Petrification +3%/Rank
+107	S	+	0	0	0	0	1	1	1	1	1	1	2	Greater Basilisk: Speed R4/R10
+107	a	#70	0	3	6	9	12	15	18	21	24	27	30	Greater Basilisk: Petrification +3%/Rank
+102	S	+	0	0	0	0	1	1	1	1	1	1	1	Gorgon: Speed R4
+102	f	D	2	2	2	2	2	2	2	1	1	1	1	Gorgon: Double Strike R7
+102	F	=	0	0	0	0	0	1	1	1	1	1	1	Gorgon: Fear R5
+103	S	+	0	0	0	0	1	1	1	1	1	1	2	Mighty Gorgon: Speed R4/R10
+103	E	=	10	13	16	19	22	25	28	31	34	37	40	Mighty Gorgon: Death Stare +3%/Rank
+103	F	=	0	0	0	0	0	1	1	1	1	1	1	Mighty Gorgon: Fear R5
+108	D	+	0	1	1	1	1	2	2	2	2	3	3	Wyvern: Defense R1/R5/R9
+108	S	+	0	0	0	0	1	2	3	3	4	4	5	Wyvern: Speed R4/R5/R6/R8/R10
+108	c	#71	0	5	10	15	20	25	35	45	55	65	75	Wyvern: Poison
+109	D	+	0	1	1	1	1	2	2	2	2	3	3	Wyvern Monarch: Defense R1/R5/R9
+109	S	+	0	0	1	1	2	3	4	4	5	5	6	Wyvern Monarch: Speed R2/R4/R5/R6/R8/R10
+109	c	#71	0	5	10	15	20	25	35	45	55	65	75	Wyvern Monarch: Poison
+110	D	+	0	1	1	2	2	3	3	4	4	4	4	Hydra: Defense R1/R3/R5/R7
+110	S	+	0	0	0	0	1	2	3	3	4	4	4	Hydra: Speed R4/R5/R6/R8
+110	d	+	0	4	8	12	16	20	24	28	32	36	40	Hydra: Defending Bonus +4/Rank
+110	L	#49	0	5	10	15	20	25	30	35	40	45	50	Hydra: Deflect 50% Damage 5%/Rank
+110	R	+	0	0	0	0	0	1	1	2	2	3	4	Hydra: Extra Retals R5/R7/R9/R10
+110	w	1	0	0	0	1	1	1	1	1	1	1	1	Hydra: Immune to Hostile L1 Spells R3
+110	w	B	0	0	0	0	0	0	1	1	1	1	1	Hydra: Immune to Blind R6
+110	f	f	0	0	0	0	0	1	1	1	1	1	1	Hydra: Fearless R5
+111	D	+	0	1	1	2	2	3	3	4	4	4	4	Chaos Hydra: Defense R1/R3/R5/R7
+111	S	+	0	0	1	1	2	2	3	3	4	4	5	Chaos Hydra: Speed R2/R4/R6/R8/R10
+111	d	+	0	4	8	12	16	20	24	28	32	36	40	Chaos Hydra: Defending Bonus +4/Rank
+111	L	#49	0	5	10	15	20	25	30	35	40	45	50	Chaos Hydra: Deflect 50% Damage 5%/Rank
+111	R	+	0	0	0	0	0	1	1	2	2	3	4	Chaos Hydra: Extra Retals R5/R7/R9/R10
+111	w	1	0	0	0	1	1	1	1	1	1	1	1	Chaos Hydra: Immune to Hostile L1 Spells R3
+111	w	B	0	0	0	0	0	0	1	1	1	1	1	Chaos Hydra: Immune to Blind R6
+111	f	f	0	0	0	0	0	1	1	1	1	1	1	Chaos Hydra: Fearless R5
+118	S	+	0	0	0	0	1	1	1	1	1	1	2	Pixie: Speed R4/R10
+118	c	#47	0	20	25	30	35	40	45	50	55	60	65	Pixie: Disrupting Ray
+118	h	#56	0	0	0	0	0	0	1	2	3	4	5	Pixie: Hatred Dmg-Skeleton
+118	W	+	0	2	4	6	8	10	12	14	16	18	20	Pixie: Resistance 2%/Rank
+119	S	+	0	0	0	0	1	1	1	1	1	1	2	Sprite: Speed R4/R10
+119	h	#56	0	0	0	0	0	0	1	2	3	4	5	Sprite: Hatred Dmg-Skeleton 
+119	h	#57	0	0	0	0	0	0	1	2	3	4	5	Sprite: Hatred Dmg-Skeleton Warrior
+119	W	+	0	2	4	6	8	10	12	14	16	18	20	Sprite: Resistance 2%/Rank
+112	S	+	0	0	0	0	1	1	1	1	1	1	2	Air Elemental: Speed R4/R10
+112	f	F	2	2	2	1	1	1	1	1	1	1	1	Air Elemental: Fly R3
+112	w	L	0	0	0	0	0	1	1	1	1	1	1	Air Elemental: Immune to Lightning R5
+112	s	#28	0	1	1	1	2	2	2	2	5	5	5	"Air Elemental: Air Shield, Mass at R8"
+127	S	+	0	0	0	0	1	1	1	1	1	1	2	Storm Elemental: Speed R4/R10
+127	s	#30	0	1	1	1	1	2	2	2	2	3	5	"Storm Elemental: Protection from Air, Mass at R10"
+127	g	%	0	2	4	6	8	10	12	14	16	18	20	Storm Elemental: Reduce Spell Damage 2%/Rank
+115	S	+	0	0	0	1	1	1	1	1	1	1	1	Water Elemental: Speed R4
+115	w	O	0	0	0	0	0	1	1	1	1	1	1	Water Elemental: Immune Fire Dmg (not Magic Arrow) R5
+115	s	#41	0	0	1	1	1	2	2	2	5	5	5	"Water Elemental: Bless, Mass at R8"
+123	S	+	0	0	0	1	1	1	1	1	1	1	2	Ice Elemental: Speed R4/R10
+123	p	#16	0	1	2	3	4	5	6	7	8	9	10	Ice Elemental: 1% Ice Bolt/Rank
+123	s	#31	0	0	0	1	1	1	2	2	2	3	5	"Ice Elemental: Protection from Fire, Mass at R10"
+114	S	+	0	0	0	1	1	1	1	1	1	1	2	Fire Elemental: Speed R4/R10
+114	f	F	2	2	2	1	1	1	1	1	1	1	1	Fire Elemental: Fly R3
+114	s	#29	0	1	1	1	2	2	2	3	3	3	3	Fire Elemental: Fire Shield Expert R7
+114	w	C	0	0	0	0	0	1	1	1	1	1	1	Fire Elemental: Immune to Cold Spells R5
+114	w	W	0	0	0	0	0	0	0	0	1	1	1	Fire Elemental: Immune to Hostile Water Spells R6
+114	w	0	0	0	0	0	0	0	0	0	0	0	1	Fire Elemental: No Immune Friendly Fire Spells R9
+129	S	+	0	0	0	0	1	1	1	1	1	1	2	Energy Elemental: Speed R4/R10
+129	s	#29	0	1	1	1	1	2	2	2	3	3	3	Energy Elemental: Fire Shield Expert R8
+129	s	#32	0	1	1	1	2	2	2	3	3	5	5	"Energy Elemental: Prot. from Water, Mass at R9"
+129	w	0	0	0	0	0	0	0	0	0	0	0	1	Energy Elemental: No Immune Friendly Fire Spells R10
+113	S	+	0	0	0	0	1	1	1	1	1	1	1	Earth Elemental: Speed R4
+113	s	#33	0	0	1	1	1	2	2	5	5	5	5	"Earth Elemental: Protection from Earth, Mass at R7"
+113	w	M	0	0	0	0	0	1	1	1	1	1	1	Earth Elemental: Immune to Meteor Shower at R5
+113	w	S	0	0	0	0	0	0	1	1	1	1	1	Earth Elemental: Immune to Slow at R6
+113	w	I	0	0	0	0	0	0	0	0	1	1	1	Earth Elemental: Immunity to Implosion at R8
+113	W	+	0	2	4	6	8	10	11	12	13	14	15	"Earth Elemental: Magic Resist 2%/Rnk 1-5, 1%/Rnk 6-10"
+125	S	+	0	0	0	0	1	1	1	1	1	1	2	Magma Elemental: Speed R4/R10
+125	u	#113	0	10	20	30	40	50	60	70	80	90	100	Magma Elemental: Summon Earth Elementals 10%/Rank
+125	w	S	0	0	0	0	0	0	0	1	1	1	1	Magma Elemental: Immune to Slow at R7
+125	g	%	0	3	6	9	12	15	18	21	24	27	30	Magma Elemental: Reduce Spell Damage 3%/Rank
+120	S	+	0	0	0	0	1	1	1	1	1	1	2	Psychic Elemental: Speed R4/R10
+120	c	#60	0	2	4	6	8	10	12	14	16	18	20	Psychic Elemental: Hypnotize 2%/Rank
+120	W	+	0	2	4	6	8	10	12	14	16	18	20	Psychic Elemental: Magic Resistance 2%/Rank
+121	S	+	0	0	0	0	1	1	1	1	1	1	2	Magic Elemental: Speed R4/R10
+121	R	+	0	0	0	0	0	1	1	1	1	2	2	Magic Elemental: Extra Retaliations R5/R9
+121	w	0	0	0	0	0	0	0	0	0	0	1	1	Magic Elemental: No Immune Beneficial Spells at L9
+121	C	+	0	1	1	1	2	2	2	3	3	3	4	Magic Elemental: Mana Reduction R1/R4/R7/R10
+130	S	+	0	0	0	0	1	1	2	2	2	2	3	Firebird: Speed R4/R6/R10
+130	s	#49	0	1	1	2	2	2	3	3	3	6	6	Firebird: Mirth: +1 approx. every 3 Ranks
+130	s	#29	0	1	1	2	2	3	3	3	6	6	6	"Firebird: Fire Shield, Mass at R8"
+130	f	f	0	0	0	0	0	1	1	1	1	1	1	Firebird: Fearless R5
+131	S	+	0	0	0	0	1	1	2	2	2	2	3	Phoenix: Speed R4/R6/R10
+131	R	+	0	0	0	0	0	1	1	1	1	1	2	Phoenix: Extra Retaliation R5/R10
+131	s	#29	0	1	1	1	1	2	2	2	3	3	6	"Phoenix: Fire Shield, Mass at R10"
+131	P	+	0	0	0	0	0	0	0	0	0	0	1	Phoenix: Extra Rebirth R10
+131	f	f	0	0	0	0	0	1	1	1	1	1	1	Phoenix: Fearless R5
+131	g	%	0	2	4	6	8	10	12	14	16	18	20	Phoenix: Reduce Damage 2%/Rank
+116	S	+	0	0	0	0	1	1	1	1	1	1	1	Gold Golem: Speed R4
+116	f	R	2	2	2	2	2	1	1	1	1	1	1	Gold Golem: No Retaliation R5
+116	g	%	85	87	89	91	93	95	97	99	100	100	100	Gold Golem: Reduced Spell Damage +2%/Rank
+117	S	+	0	0	0	0	1	1	1	1	1	1	1	Diamond Golem: Speed R4
+117	f	R	2	2	2	2	2	1	1	1	1	1	1	Diamond Golem: No Retaliation R5
+117	g	%	95	96	97	98	99	100	100	100	100	100	100	Diamond Golem: Reduced Spell Damage +1%/Rank
+132	S	+	0	0	0	0	1	1	2	2	2	2	3	Azure Dragon: Speed R4/R6/R10
+132	U	#123	0	20	40	60	80	100	120	140	160	180	200	Azure Dragon: Summon 20%/Rank Ice Elementals
+132	w	4	0	0	0	0	0	1	1	1	1	1	1	Azure Dragon: Immune to Hostile L4 Spells R5
+132	w	5	0	0	0	0	0	0	0	1	1	1	1	Azure Dragon: Immune to Hostile L5 Spells R7
+132	w	0	0	0	0	0	0	0	0	0	1	1	1	Azure Dragon: No Immunity to Friendly Spells R8
+133	S	+	0	0	0	0	1	1	2	2	2	2	3	Crystal Dragon: Speed R4/R6/R10
+133	b	=	0	3	6	9	12	15	18	21	24	27	30	Crystal Dragon: Reduce Defense 3%/Rank
+133	f	R	2	2	2	2	2	2	2	2	2	1	1	Crystal Dragon: No Retaliation R9
+133	f	P	2	2	2	2	2	2	2	2	1	1	1	Crystal Dragon: Immune to Mind Spells R8
+133	f	f	0	0	0	0	0	1	1	1	1	1	1	Crystal Dragon: Fearless R5
+133	W	+	0	3	6	9	12	15	18	21	24	27	30	Crystal Dragon: Resistance +3%/Rank
+134	S	+	0	0	0	0	1	1	2	2	2	2	3	Faerie Dragon: Speed R4/R6/R10
+134	B	=	0	5	10	15	20	25	25	25	25	25	25	Faerie Dragon: Block 5%/Rank to 25%
+134	p	#65	0	5	10	15	20	25	30	35	40	45	50	Faerie Dragon: Clone Target 5%/Rank
+134	s	#36	0	1	1	1	2	2	2	3	3	4	4	"Faerie Dragon: Magic Mirror, Mass at R9"
+134	f	f	0	0	0	0	0	1	1	1	1	1	1	Faerie Dragon: Fearless R5
+135	S	+	0	0	0	0	1	1	2	2	2	2	3	Rust Dragon: Speed R4/R6/R10
+135	h	#102	0	0	0	2	3	4	5	6	7	8	9	Rust Dragon: Hatred Dmg-Gorgon
+135	h	#103	0	0	0	2	3	4	5	6	7	8	9	Rust Dragon: Hatred Dmg-Mighty Gorgon
+135	r	#50	0	0	0	0	25	50	75	125	250	250	250	Rust Dragon: Regenerate 50% R4..R10
+135	w	m	0	0	0	0	0	0	0	0	1	1	1	Rust Dragon: Immune to Hostile Mind Spells R8
+135	f	f	0	0	0	0	0	1	1	1	1	1	1	Rust Dragon: Fearless R5
+136	S	+	0	0	0	0	1	1	1	1	1	1	2	Enchanter: Speed R4/R10
+136	l	#35	0	5	10	15	20	25	0	0	0	0	0	Enchanter: Summon Clones of Arch Mage
+136	l	#136	0	0	0	0	0	0	15	20	25	30	35	Enchanter: Summon Clones of Enchanter
+136	w	1	0	0	0	0	1	1	1	1	1	1	1	Enchanter: Immune to Hostile L1 Spells R4
+136	w	2	0	0	0	0	0	0	1	1	1	1	1	Enchanter: Immune to Hostile L2 Spells R6
+136	w	3	0	0	0	0	0	0	0	0	1	1	1	Enchanter: Immune to Hostile L3 Spells R8
+136	w	4	0	0	0	0	0	0	0	0	0	0	1	Enchanter: Immune to Hostile L4 Spells R10
+137	S	+	0	0	0	0	1	1	1	1	1	1	2	Sharpshooter: Speed R4/R10
+137	f	s	0	0	0	0	0	0	0	1	1	1	1	Sharpshooter: Unblockable Shooter R7
+138	S	+	0	0	0	0	1	1	1	1	1	1	1	Halfling: Speed R4
+138	s	#55	0	0	0	1	1	1	2	2	2	3	3	Halfling: Slayer R3/R6/R9
+138	f	f	0	0	0	0	0	0	0	1	1	1	1	Halfling: Fearless R7
+138	h	#84	0	1	2	3	4	5	6	7	8	9	10	Halfling: Hatred Dmg-Goblin
+138	h	#85	0	1	2	3	4	5	6	7	8	9	10	Halfling: Hatred Dmg-Hobgoblin
+139	S	+	0	0	0	0	1	1	1	1	1	1	1	Peasant: Speed R4
+139	U	#139	0	10	20	30	40	50	60	70	80	90	100	Peasant: Summon 10%/Rank Peasants every 4 rounds
+140	S	+	0	0	0	0	1	1	1	1	1	1	2	Boar: Speed R4/R10
+140	f	c	0	0	0	1	1	1	1	1	1	1	1	Boar: Champion Charge R3
+140	c	#73	0	5	10	15	20	25	30	35	40	45	50	Boar: Disease 5%/Rank
+141	S	+	0	0	0	0	1	1	1	1	1	1	1	Mummy: Speed R4
+141	a	#42	0	2	4	6	8	10	12	14	16	18	20	Mummy: Mass Curse post-attack 2%/Rank
+141	g	%	0	3	6	9	12	15	18	21	24	27	30	Mummy: Reduce Spell Damage 3%/Rank
+142	S	+	0	0	0	0	1	1	1	1	1	1	2	Nomad: Speed R4/R10
+142	f	b	0	0	0	1	1	1	1	1	1	1	1	Nomad: Strike & Return R3
+142	f	c	0	0	0	0	0	0	0	1	1	1	1	Nomad: Champion Charge R7
+143	S	+	0	0	0	0	1	1	1	1	1	1	2	Rogue: Speed R4/R10
+143	f	R	2	2	2	2	2	1	1	1	1	1	1	Rogue: No Retaliation R5
+143	c	#71	0	0	0	0	0	0	0	20	30	40	50	Rogue: Poison R7/R8/R9/R10
+144	S	+	0	0	0	0	1	1	1	1	1	1	2	Troll: Speed R4/R10
+144	f	r	0	0	0	1	1	1	1	1	1	1	1	Troll: Phoenix Rebirth R3
+144	P	+	0	0	0	1	1	1	1	2	2	2	3	Troll: # of Rebirths R3/R7/R10
+147	A	=	0	0	0	0	0	0	0	0	0	0	0	First Aid Tent Attack (None)
+147	M	=	0	0	0	0	0	0	0	0	0	0	0	First Aid Tent Max. Damage (None)
+147	m	=	0	0	0	0	0	0	0	0	0	0	0	First Aid Tent Min. Damage (None)
+148	A	=	0	0	0	0	0	0	0	0	0	0	0	Ammo Cart Attack (None)
+148	M	=	0	0	0	0	0	0	0	0	0	0	0	Ammo Cart Max. Damage (None)
+148	m	=	0	0	0	0	0	0	0	0	0	0	0	Ammo Cart Min. Damage (None)

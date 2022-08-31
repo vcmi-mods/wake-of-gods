@@ -1,0 +1,501 @@
+{	
+	"crimsonShieldOfRetribution":
+	{
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : 0,
+				"type" : "CREATURE_DAMAGE",
+				"val" : -50,
+				"valueType" : "PERCENT_TO_BASE",
+				"effectRange": "ONLY_ENEMY_ARMY",
+				"limiters": [
+				{
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"parameters": [ "BLOCKS_RETALIATION" ]
+				}],				
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "LEFT_HAND",
+		"value" : 6000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt157", 
+			"large" : "artifacts/HrArt157L", 
+			"map" : "artifacts/zart157.def" 
+		},
+		"text" : {
+//			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and gives all creatures in a hero's ranks the ability to retaliate against creatures that cannot normally be retaliated against.",
+			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and decreases damage of enemy blocking retaliation creatures by 50%.",
+			"event" : "Strapping on the Crimson Shield of Retribution, you notice the look of steely resolve upon the faces of your troops, and now know that they will always be able to answer blood with blood in the heat of battle.",
+			"name" : "Crimson Shield of Retribution"
+		}
+	},
+	
+	"barbarianLordsAxeOfFerocity":
+	{
+		"bonuses" : [
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ "noneOf", "SHOOTER_ONLY" ]
+			}
+		],	
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : "RIGHT_HAND",
+		"value" : 16000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt158", 
+			"large" : "artifacts/HrArt158L", 
+			"map" : "artifacts/zart158.def" 
+		},
+		"text" : {
+			"description" : "{Barbarian Lord's Axe of Ferocity}\r\n\r\nWhen worn, grants an additional strike each round to all non-shooting creatures in a hero's army.",
+			"event" : "You pick up the Barbarian Lord's Axe of Ferocity and it speaks to your mind - Bring on the enemy and together we shall cut a swath of destruction through their legions!",
+			"name" : "Barbarian Lord's Axe of Ferocity"
+		},
+		"components":
+		[
+			"ogresClubOfHavoc",
+			"targOfTheRampagingOgre",
+			"crownOfTheSupremeMagi",
+			"tunicOfTheCyclopsKing"
+		]
+	},
+	
+	"dragonheart":
+	{
+		"bonuses" : [
+			{
+				"subtype" : "spell.summonRedDragon",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 1
+			}			
+		],
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 20000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt159", 
+			"large" : "artifacts/HrArt159L", 
+			"map" : "artifacts/zart159.def" 
+		},
+		"text" : {
+//			"description" : "{Dragonheart}\r\n\r\nThis ancient relic summons up to [100 HP x Hero Level] dragons for the duration of a battle (minimum one dragon). Dragon type is random but may be influenced by terrain. In addition, dragons in a hero's army always have positive morale.",
+			"description" : "{Dragonheart}\r\n\r\nThis ancient relic summons [40 + 20*SP] HP Red Dragons for the duration of a battle (summoning starts from 8-9 SP).\r\nIn addition, dragons in a hero's army always have positive morale.",
+			"event" : "You pick up the Dragonheart and feel the powerful drum-beat of ten thousand dragon hearts reverberating through your soul. When you need them, the dragons will come.",
+			"name" : "Dragonheart"
+		}
+	},
+	
+	"gateKey":
+	{
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : "SHOULDERS",
+		"value" : 15000,
+		"bonuses" : [
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.inferno",
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "arrowTower", false ]
+					}
+				]
+			},
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.berserk",
+				"val" : 100,
+				"addInfo" : [3, 1],
+				"effectRange": "ONLY_ENEMY_ARMY",
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "arrowTower", false ]
+					}
+				]
+			}
+
+		],
+		"graphics" : { 
+			"image" : "artifacts/HrArt160", 
+			"large" : "artifacts/HrArt160", 
+			"map" : "artifacts/zart160.def" 
+		},
+		"text" : {
+			"description" : "{Gate Key}\r\n\r\nWith this incredible relic, you'll be able to enchant your castle and boost arrow towers with Berserk spell. Range of casting Berserk is 3 hexes wide!",
+			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle and boost tower arrows with berserk spell.",
+//			"description" : "{Gate Key}\r\n\r\nUpon entering a town you own, the Gate Key gives you the option to lock it for 5 days. Heroes can leave locked towns but no hero can enter except by Town Portal or Castle Gate, and the town cannot be attacked. The Gate Key will vanish when used and returns to the hero 10 days later. A town cannot be relocked by any Gate Key for 5 days after it becomes unlocked. If a player is vanquished, their locked towns will be unlocked for all players the following day.",
+//			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle gates to keep even your most powerful enemies at bay!",
+			"name" : "Gate Key"
+		}
+	},
+	
+//	"art161":
+	"deepIronHelmet":	
+	{
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],	
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "HEAD",
+		"value" : 6000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt161", 
+			"large" : "artifacts/HrArt161", 
+			"map" : "artifacts/zart161.def" 
+		},
+		"text" : {
+			"description" : "{Deep Iron Helmet}\r\n\r\nWhen worn, this Helmet gives hero bonus to knowledge that grows with hero level.",
+			"event" : "You pick up the Deep Iron Helmet. This artifact gives hero bonus to knowledge that grows with hero level.",
+			"name" : "Deep Iron Helmet"
+		}
+	},
+	
+//	"art162":
+	"noctivigantBlade":
+	{
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "RIGHT_HAND",
+		"value" : 6500,
+		"graphics" : { 
+			"image" : "artifacts/HrArt162", 
+			"large" : "artifacts/HrArt162", 
+			"map" : "artifacts/zart162.def" 
+		},
+
+		"text" : {
+			"description" : "{Noctivigant Blade}\r\n\r\nWhen worn, this Blade gives hero bonus to attack that grows with hero level.",
+			"event" : "You pick up the Noctivigant Blade. This artifact gives hero bonus to attack that grows with hero level.",
+			"name" : "Noctivigant Blade"
+		}
+	},
+	
+//	"art163":
+	"bloodmarkedBuckler":
+	{
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "LEFT_HAND",
+		"value" : 6500,
+		"graphics" : { 
+			"image" : "artifacts/HrArt163", 
+			"large" : "artifacts/HrArt163", 
+			"map" : "artifacts/zart163.def" 
+		},
+		"text" : {
+			"description" : "{Bloodmarked Buckler}\r\n\r\nWhen worn, this Buckler gives hero bonus to defense that grows with hero level.",
+			"event" : "You pick up the Bloodmarked Buckler. This artifact gives hero bonus to defense that grows with hero level.",
+			"name" : "Bloodmarked Buckler"
+		}
+	},
+	
+//	"art164":
+	"gnollToothRing":
+	{
+		"bonuses" : [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"updater" : {
+					"parameters" : [ 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "RING",
+		"value" : 8000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt164", 
+			"large" : "artifacts/HrArt164", 
+			"map" : "artifacts/zart164.def" 
+		},
+		"text" : {
+			"description" : "{Gnoll Tooth Ring}\r\n\r\nWhen worn, this Ring increases creatures health that grows with hero level.",
+			"event" : "You pick up the Gnoll Tooth Ring. This artifact increases creatures health that grows with hero level.",
+			"name" : "Gnoll Tooth Ring"
+		}
+	},
+	
+//	"art165":
+	"gemEncrustedRing":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_DURATION",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 3 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "TREASURE",
+		"slot" : "RING",
+		"value" : 2500,
+		"graphics" : { 
+			"image" : "artifacts/HrArt165", 
+			"large" : "artifacts/HrArt165", 
+			"map" : "artifacts/zart165.def" 
+		},
+		"text" : {
+			"description" : "{Gem Encrusted Ring}\r\n\r\nWhen worn, this Ring increases the duration of all hero's spells that grows with hero level.",
+			"event" : "You pick up the Gem Encrusted Ring. This artifact increases the duration of all hero's spells that grows with hero level.",
+			"name" : "Gem Encrusted Ring"
+		}
+	},
+	
+//	"art166":
+	"shadowSectMedallion":
+	{
+		"bonuses" : [ 
+			{ 
+				"subtype" : "spell.slow", 
+				"type" : "SPELL_IMMUNITY", 
+				"val" : 100 
+			} 
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "NECK",
+		"value" : 7000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt166", 
+			"large" : "artifacts/HrArt166", 
+			"map" : "artifacts/zart166.def" 
+		},
+		"text" : {
+			"description" : "{Shadow Sect Medallion}\r\n\r\nWearing this item renders your units immune to the Slow spell.",
+			"event" : "Walking along an empty road, you notice the medallion lying next to it. When you put it in your inventory, you realize that in your possession was the infamous Shadow Sect Medallion.",
+			"name" : "Shadow Sect Medallion"
+		}
+	},
+	
+//	"art167":
+	"seaKnightsTabbard":
+	{
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "TORSO",
+		"value" : 6000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt167", 
+			"large" : "artifacts/HrArt167", 
+			"map" : "artifacts/zart167.def" 
+		},
+		"text" : {
+			"description" : "{Sea Knights Tabbard}\r\n\r\nWhen worn, this Tabbard gives hero bonus to spellpower that grows with hero level.",
+			"event" : "You pick up the Sea Knights Tabbard. This artifact gives hero bonus to spellpower that grows with hero level.",
+			"name" : "Sea Knights Tabbard"
+		}
+	},
+	
+//	"art168":
+	"cuirassOfVelocity":
+	{
+		"bonuses" : [
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 2 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : "SHOULDERS",
+		"value" : 14000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt168", 
+			"large" : "artifacts/HrArt168", 
+			"map" : "artifacts/zart168.def" 
+		},
+		"text" : {
+			"description" : "{Cuirass of Velocity}\r\n\r\nWhen worn, this Cuirass gives hero bonus to creatures speed that slowly grows with hero level.",
+			"event" : "You pick up the Cuirass of Velocity. This artifact gives hero bonus to creatures speed that slowly grows with hero level.",
+			"name" : "Cuirass of Velocity" //surcoat
+		}
+	},
+	
+//	"art169":
+	"runedMithrilBoots":
+	{
+		"bonuses" : [
+			{
+				"type" : "LAND_MOVEMENT",
+				"val" : 600,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 150 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : "FEET",
+		"value" : 6000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt169", 
+			"large" : "artifacts/HrArt169", 
+			"map" : "artifacts/zart169.def" 
+		},
+		"text" : {
+			"description" : "{Runed Mithril Boots}\r\n\r\nWhen worn, Boots increase hero's movement that slowly grows with hero level.",
+			"event" : "You pick up the Runed Mithril Boots. This artifact increases hero's movement that slowly grows with hero level.",
+			"name" : "Runed Mithril Boots"
+		}
+	},
+	
+//	"art170":
+	"ornateMinotaursHorn":
+	{
+		"bonuses" : [
+			{
+				"type" : "MANA_REGENERATION",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"parameters" : [ 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 3500,
+		"graphics" : { 
+			"image" : "artifacts/HrArt170", 
+			"large" : "artifacts/HrArt170", 
+			"map" : "artifacts/zart170.def" 
+		},
+		"text" : {
+			"description" : "{Ornate Minotaurs Horn}\r\n\r\nWhen equipped, the Horn enables hero to regenerate extra spell points per day that grows with hero level.",
+			"event" : "You pick up the Ornate Minotaurs Horn. This artifact enables hero to regenerate extra spell points per day that grows with hero level.",
+			"name" : "Ornate Minotaurs Horn"
+		}
+	},
+	
+	"bucklerOfBeelzebub":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL",
+				"val" : 0,
+				"subtype" : "spell.dimensionDoor"
+			},
+			{
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primSkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primSkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 45000,
+		"graphics" : { 
+			"image" : "artifacts/bucklerOfBeelzebub", 
+			"large" : "artifacts/bucklerOfBeelzebubL", 
+			"map" : "artifacts/bucklerOfBeelzebub" 
+		},
+		"components":
+		[
+			"breastplateOfBrimstone",
+			"shieldOfTheDamned",
+			"swordOfHellfire",
+			"hellstormHelmet"
+		],
+		"text" : {
+			"description" : "{Buckler of Beelzebub}\r\n\r\nHeld with the left hand, the Buckler of the Beelzebub gives the wearer a devil's power to teleport and avoid retaliation increasing all attributes by 2.",
+			"event" : "You pick up the Buckler of Beelzebub. Helding it with left hand you posses knowledge of travel through dimensions.",
+			"name" : "Buckler of Beelzebub"
+		}
+	}
+}
+

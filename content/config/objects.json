@@ -1,0 +1,940 @@
+{
+	"hutsWoG" : {
+		"name" : "Hut",
+		"handler":"generic",
+		"types" : {
+			"huts": {
+				"base": 
+				{
+					"mask" : [ "VVV", "VVV", "VAV" ],
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+				},
+				"templates" : {				
+					"zyzop1" : { "animation" : "objects/zyzop1.def" },
+					"zyzop2" : { "animation" : "objects/zyzop2.def" }	
+				}
+			}	
+		}
+	},
+	
+	"sphinxesWoG" : {
+		"name" : "Sphinx",
+		"handler":"generic",
+		"sounds" : {
+			"visit" : ["MYSTERY"]
+		},
+		"types" : {
+			"sphinxes": {
+				"base": 
+				{
+					"mask" : [ "VVV", "VVV", "VAB" ]
+				},
+				"templates" : {				
+					"zsphnx10" : { "animation" : "objects/zsphnx10.def", "allowedTerrains": [ "sand" ] },
+					"zsphnx11" : { "animation" : "objects/zsphnx11.def", "allowedTerrains": [ "rough", "subterra", "water" ] },
+					"zsphnx12" : { "animation" : "objects/zsphnx12.def", "allowedTerrains": [ "dirt", "grass", "swamp", "lava" ] },
+					"zsphnx13" : { "animation" : "objects/zsphnx13.def", "allowedTerrains": [ "snow" ] }
+				}
+			}	
+		}
+	},
+	
+	"cavesWoG" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
+			"caves": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
+				},
+				"templates" : {				
+					"zcave1" : { "animation" : "objects/zcave1.def", "mask" : [ "VVVV", "VVVV", "VVAB" ] },
+					"zcave2" : { "animation" : "objects/zcave2.def", "mask" : [ "VVV", "VVV", "BAB" ] },
+					"zcave3" : { "animation" : "objects/zcave3.def", "mask" : [ "VVVV", "VVVV", "VVAB" ] },
+					"zcave4" : { "animation" : "objects/zcave4.def", "mask" : [ "VVV", "BAB" ] },
+					"zcave5" : { "animation" : "objects/zcave5.def", "mask" : [ "VVV", "VVV", "BAV" ] },
+					"z358o9" : { "animation" : "objects/z358o9.def", "mask" : [ "VVVV", "VVBV", "VBAB" ] },
+					"z358o10" : { "animation" : "objects/z358o10.def", "mask" : [ "VVVVV", "VVVVV", "VVBBB", "VBBAB" ] }
+				}
+			}	
+		}
+	},
+
+	"wallsWoG" : {
+		"name" : "Wall",
+		"handler":"generic",
+		"types" : {
+			"walls": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
+				},
+				"templates" : {				
+					"wall1" : { "animation" : "objects/wall1.def", "mask" : [ "VVB", "BBB", "BVV" ] },
+					"wall2" : { "animation" : "objects/wall2.def", "mask" : [ "BVV", "BBB", "VVB" ] },
+					"zwall001" : { "animation" : "objects/zwall001.def", "mask" : [ "VVVV", "VBBB", "VVVV" ] },
+					"zwall002" : { "animation" : "objects/zwall002.def", "mask" : [ "VVV", "VBV", "BBV" ] },
+					"zwall003" : { "animation" : "objects/zwall003.def", "mask" : [ "VVV", "VBV", "VBB" ] }
+				}
+			}	
+		}
+	},
+	
+	"waterfallsWoG" : {
+		"name" : "Waterfall",
+		"handler":"generic",
+		"types" : {
+			"waterfalls": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
+				},
+				"templates" : {				
+					"zwfall01" : { "animation" : "objects/zwfall01.def", "mask" : [ "VBBVV", "VBBBV", "VVVBV", "VVVVV" ] },
+					"zwfall02" : { "animation" : "objects/zwfall02.def", "mask" : [ "VVVBV", "VBBBB", "VBBVV", "VVVVV" ] },
+					"zwfall03" : { "animation" : "objects/zwfall03.def", "mask" : [ "VVVVV", "VVBVV", "VVVVV" ] }
+				}
+			}	
+		}
+	},
+
+	"buildingsWoG" : {
+		"name" : "",
+		"handler":"generic",
+		"types" : {
+			"castles": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
+				},
+				"templates" : {				
+					"zobj025" : { "animation" : "objects/zobj025.def", "mask" : [ "VVVVV", "VVVVV", "VVBVV", "VBBBV", "VVBAV" ] },
+					"zobj026" : { "animation" : "objects/zobj026.def", "mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBBV", "VVVBAV" ] },
+					"zobj027" : { "animation" : "objects/zobj027.def", "mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBVV", "VVBBAV" ] },
+					"zobj028" : { "animation" : "objects/zobj028.def", "mask" : [ "VVVVV", "VVVVV", "VVBVV", "VBBBV", "VVBAV" ] },
+					"zobj029" : { "animation" : "objects/zobj029.def", "mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBBV", "VVABVV" ] },
+					"zobj041" : { "animation" : "objects/zobj041.def", "mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVVV", "VVBBV", "VVBAV" ] }
+				}
+			},
+
+			"buildings": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
+				},
+				"templates" : {				
+					"zobj001" : { "animation" : "objects/zobj001.def", "mask" : [ "VVVVV", "VVVVV", "VBABV", "VVVVV" ] },
+					"zobj002" : { "animation" : "objects/zobj002.def", "mask" : [ "VVVVV", "VBVBV", "BVAVB", "VVBVV" ] },
+					"zobj003" : { "animation" : "objects/zobj003.def", "mask" : [ "VVVVVV", "VVBBBV", "VBBABB", "VVBVBV" ] },
+					"zobj004" : { "animation" : "objects/zobj004.def", "mask" : [ "VVVVV", "VBABB", "VVVVV" ] },
+					"zobj005" : { "animation" : "objects/zobj005.def", "mask" : [ "VVVVVV", "VBAVBV", "VVVBVV" ] },
+					"zobj006" : { "animation" : "objects/zobj006.def", "mask" : [ "VVVVV", "VVVVV", "BBABV", "VVVVV" ] },
+					"zobj007" : { "animation" : "objects/zobj007.def", "mask" : [ "VVV", "VVV", "VVV", "VAV" ] },
+					"zobj009" : { "animation" : "objects/zobj009.def", "mask" : [ "VVV", "VVV", "VAV" ] },
+					"zobj010" : { "animation" : "objects/zobj010.def", "mask" : [ "VVVV", "VVVV", "VVBV", "VABB" ] },
+					"zobj011" : { "animation" : "objects/zobj011.def", "mask" : [ "VVVV", "VVVV", "VVBV", "VABB" ] },					
+					"zobj013" : { "animation" : "objects/zobj013.def", "mask" : [ "VVV", "VBB", "VAB" ] },
+					"zobj014" : { "animation" : "objects/zobj014.def", "mask" : [ "VVV", "VVV", "VAB" ] },
+					"zobj015" : { "animation" : "objects/zobj015.def", "mask" : [ "VVVV", "VVVV", "VBBB", "VVAV" ] },
+					"zobj016" : { "animation" : "objects/zobj016.def", "mask" : [ "VV", "VA" ] },
+					"zobj018" : { "animation" : "objects/zobj018.def", "mask" : [ "VVV", "VVV", "VVV", "VAV" ] },
+					"zobj019" : { "animation" : "objects/zobj019.def", "mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ] },
+					"zobj020" : { "animation" : "objects/zobj020.def", "mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ] },					
+					"zobj021" : { "animation" : "objects/zobj021.def", "mask" : [ "VVV", "VVV", "VVA" ] },
+					"zobj022" : { "animation" : "objects/zobj022.def", "mask" : [ "VVV", "VVV", "VAB" ] },
+					"zobj023" : { "animation" : "objects/zobj023.def", "mask" : [ "VVV", "VVV", "VVV", "VAV" ] },
+					"zobj024" : { "animation" : "objects/zobj024.def", "mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ] },
+					"zobj008" : { "animation" : "objects/zobj008.def", "mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ] },
+					"zobj012" : { "animation" : "objects/zobj012.def", "mask" : [ "VVV", "VVV", "VAV" ] },
+					"zobj017" : { "animation" : "objects/zobj017.def", "mask" : [ "VVVV", "VVBV", "VVAV" ] },
+					"zobj030" : { "animation" : "objects/zobj030.def", "mask" : [ "VVVVV", "VVVVV", "VBBBB", "VBBAV" ] },
+					"zobj031" : { "animation" : "objects/zobj031.def", "mask" : [ "VVVVV", "VVVBV", "VVBBB", "VBBBA" ] },
+					"zobj032" : { "animation" : "objects/zobj032.def", "mask" : [ "VVVVV", "VVBBV", "VBBAB" ] },
+					"zobj033" : { "animation" : "objects/zobj033.def", "mask" : [ "VVVVV", "VVVVV", "VBBBV", "VVABB" ] },
+					"zobj034" : { "animation" : "objects/zobj034.def", "mask" : [ "VVVVV", "VVVBV", "VBBBB", "VVBAV" ] },
+					"zobj035" : { "animation" : "objects/zobj035.def", "mask" : [ "VVVVV", "VVVBV", "VBBBB", "VVABV" ] },
+					"zobj036" : { "animation" : "objects/zobj036.def", "mask" : [ "VVVVV", "VVBVV", "VBBBV", "VVABB" ] },
+					"zobj037" : { "animation" : "objects/zobj037.def", "mask" : [ "VVVVV", "VVBBB", "VBBBA" ] },
+					"zobj038" : { "animation" : "objects/zobj038.def", "mask" : [ "VVVVV", "VVVBV", "VVBBB", "VVABV" ] },
+					"zobj039" : { "animation" : "objects/zobj039.def", "mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVBV", "VVVAB" ] },
+					"zobj040" : { "animation" : "objects/zobj040.def", "mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVBV", "VVVAV" ] },					
+					"zobj042" : { "animation" : "objects/zobj042.def", "mask" : [ "VVV", "VVV", "VVA" ] },
+					"zobj043" : { "animation" : "objects/zobj043.def", "mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ] },						
+					"zobj044" : { "animation" : "objects/zobj044.def", "mask" : [ "VVVV", "VVBB", "VBBA" ] },
+					"zobj049" : { "animation" : "objects/zobj049.def", "mask" : [ "VVV", "VVB", "VAB" ] },
+					"zobj050" : { "animation" : "objects/zobj050.def", "mask" : [ "VVV", "VVV", "VVV", "VVV", "VBA" ] },
+					"zlwork1" : { "animation" : "objects/zlwork1.def", "mask" : [ "VVVV", "VBAB" ] },
+					"zartif1" : { "animation" : "objects/zartif1.def", "mask" : [ "VVVV", "BABV" ] },
+					"zmark1" : { "animation" : "objects/zmark1.def", "mask" : [ "VVV", "VVV", "BAB" ] },
+					"zh4obj01" : { "animation" : "objects/zh4obj01.def", "mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVBBV", "VVVBBV", "VVVAVV" ] },
+					"zh4obj02" : { "animation" : "objects/zh4obj02.def", "mask" : [ "VVV", "BBB", "BAB" ] },
+					"sfzerk" : { "animation" : "objects/sfzerk.def", "mask" : [ "VVV", "VBB", "VVA" ] },
+					"skull" : { "animation" : "objects/skull.def", "mask" : [ "VVV", "VBV", "VAV" ] },
+					"TPTempl1" : { "animation" : "objects/TPTempl1.def", "mask" : [ "VVVV", "VVBB", "VVBA" ] },
+					"ztower1" : { "animation" : "objects/ztower1.def", "mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VBA" ] }
+				}
+			},
+				
+			"commanderCrystals": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
+				},
+				"templates" : {	
+
+					"zcbon000" : { "animation" : "objects/zcbon000.def", "mask" : [ "VV", "VA" ] },		//opal of magic				
+					"zcbon001" : { "animation" : "objects/zcbon001.def", "mask" : [ "VV", "VA" ] },		//ruby of offence
+					"zcbon002" : { "animation" : "objects/zcbon002.def", "mask" : [ "VV", "VA" ] },		//sapphire of defense
+					"zcbon003" : { "animation" : "objects/zcbon000.def", "mask" : [ "VV", "VA" ] },		//emerald od speed
+				}
+			}
+		}
+	},
+	
+	"blackMarketWoG" : {
+		"name" : "",
+		"handler":"generic",
+		"types" : {
+			"AVXMKTT0" : {
+				"templates" : {			
+					"AVXMKTT0" : { 
+						"animation" : "AVXMKTT0", 
+						"visitableFrom" : [ "---", "--+", "+++" ], 
+						"mask" : [ "VV", "BA"], 
+						"allowedTerrains": [ "dirt", "rough", "lava", "subterra", "sand", "grass", "snow", "swamp" ]
+					}	
+				}					
+			}
+		}
+	},
+
+	"gnollhHutWoG"	: {
+		"name" : "Gnoll Hut",
+		"handler":"static",
+		"types" : {
+			"AvGnoll" : {
+				"templates" : {			
+					"AvGnoll" : { 
+						"animation" : "AvGnoll", 
+//						"visitableFrom" : [ "---", "+-+", "+++" ], 
+						"mask" : [ "VBV","VBV" ],		
+                        "allowedTerrains": [ "swamp" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"vortexWoG" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
+			"vortexes": {
+				"base": 
+				{
+					 "mask" : [ "VVVV", "VBAV", "VVVV" ]
+				},
+				"templates" : {				
+					"z358o11" : { "animation" : "objects/z358o11.def", "allowedTerrains": [ "dirt" ] },
+					"z358o12" : { "animation" : "objects/z358o12.def", "allowedTerrains": [ "sand" ] },
+					"z358o13" : { "animation" : "objects/z358o13.def", "allowedTerrains": [ "grass" ] },
+					"z358o14" : { "animation" : "objects/z358o14.def", "allowedTerrains": [ "snow" ] },
+					"z358o15" : { "animation" : "objects/z358o15.def", "allowedTerrains": [ "lava" ] },
+					"z358o16" : { "animation" : "objects/z358o16.def", "allowedTerrains": [ "swamp" ] }
+				}
+			}	
+		}
+	},	
+
+	"firesWoG" : {
+		"name" : "Fire",
+		"handler":"generic",
+		"types" : {
+			"fire": {
+				"templates" : {				
+					"zflame1" : { "animation" : "objects/zflame1.def", "mask" : [ "VVV" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}
+			},
+			"fireTress": {
+				"templates" : {				
+					"zzzz" : { "animation" : "objects/zzzz.def", "mask" : [ "VVVVVV" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}
+			}			
+		}
+	},
+
+	
+	"catapultsWoG" : {
+		"name" : "Catapult",
+		"handler":"generic",
+		"types" : {
+			"catapult_left": {
+				"templates" : {				
+					"catap_ml" : { "animation" : "objects/catap_ml.def", "mask" : [ "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}
+			},
+			"catapult_right": {
+				"templates" : {				
+					"catap_mr" : { "animation" : "objects/catap_ml.def", "mask" : [ "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}
+			}			
+		}
+	},	
+	
+	"lavaWoG" : {
+		"name" : "Lava",
+		"handler":"generic",
+		"types" : {
+			"lavam": {
+				"templates" : {				
+					"lavam" : { "animation" : "objects/lavam.def", "mask" : [ "VVV" ], "allowedTerrains": [ "lava" ] },
+				}
+			}			
+		}
+	},
+
+	"ghostWoG" : {
+		"name" : "Ghost",
+		"handler":"generic",
+		"types" : {
+			"z358o8": {
+				"templates" : {				
+					"z358o8" : { "animation" : "objects/z358o8.def", "mask" : [ "VV", "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}
+			}			
+		}
+	},
+	
+	"core:sign" : {
+		"types" : {
+			"signsWoG" : {
+				"name" : "Sign",
+				"aiValue" : 1,
+				"templates" : {	 			
+					"zobj047" : { "animation" : "objects/zobj047.def", "mask" : [ "A" ], "allowedTerrains" : [ "snow" ], "visitableFrom" : [ "---", "+++", "+++" ]},
+					"zobj048" : { "animation" : "objects/zobj048.def", "mask" : [ "A" ], "allowedTerrains" : [ "grass" ], "visitableFrom" : [ "---", "+++", "+++" ]}
+				}
+			}
+		}
+	},
+	
+	"core:seerHut" : { //co jest nie tak z seer huts ze z indexem > 2 gra crashuje?
+		"types" : {
+			"seerHutWoG" : {
+//				"index" : 2,
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+				},				
+				"templates" : {	 			
+					"zseer001" : { "animation" : "objects/zseer001.def", "mask" : [ "VVV", "VAV" ], "visitableFrom" : [ "---", "+++", "+++" ] },		
+					"zseer002" : { "animation" : "objects/zseer002.def", "mask" : [ "VVVVV", "VBABV", "VVVVV" ], "visitableFrom" : [ "---", "+++", "+++" ] }
+				}
+			}
+		}
+	},
+	
+	"core:shrineOfMagicLevel3" : {
+		"types" : {
+			"wogShrineOfMagicLevel3" : {
+				"aiValue" : 3000,
+				"rmg" : {
+					"value"		: 3000,
+					"rarity"	: 100,
+					"mapLimit"	: 32
+				},				
+				"templates" : {	 			
+					"zobj046" : { "animation" : "objects/zobj046.def", 
+					"mask" : [ "V", "A" ], 
+					"allowedTerrains" : [ "grass" ], 
+					"visitableFrom" : [ "---", "+++", "+++" ]}
+				}
+			}
+		}
+	},
+
+	"core:magicWell" : {
+		"types" : {
+			"magicWellWoG" : {
+				"name" : "Magic Well",
+				"index" : 1,
+				"aiValue" : 250,
+				"rmg" : {
+					"zoneLimit" : 1,
+					"value"		: 250,
+					"rarity"	: 100
+				},
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ],
+					"mask" : [ "VV", "VA" ],
+					"visitableFrom" : [ "---", "+-+", "+++" ]					
+				},				
+				"templates" : {	 			
+					"zobj045" : { "animation" : "objects/zobj045.def" }
+				}
+			}
+		}
+	},	
+	
+	"core:treasureChest" : {
+		"types" : {
+			"treasureChestWoG" : {
+//				"name" : "Treasure Chest",
+				"index" : 1,
+				"aiValue" : 1500,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 125
+				},
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ],
+					"mask" : [ "VA" ],
+					"visitableFrom" : [ "+++", "+-+", "+++" ]					
+				},				
+				"templates" : {	 			
+					"zchst1" : { "animation" : "objects/zchst1.def" },
+					"zchst2" : { "animation" : "objects/zchst2.def" },
+					"zchst3" : { "animation" : "objects/zchst3.def" },
+					"zchst4" : { "animation" : "objects/zchst4.def" },
+					"zchst5" : { "animation" : "objects/zchst5.def" },
+					"zchst6" : { "animation" : "objects/zchst6.def" }
+				}
+			}
+		}
+	},
+
+	"core:resource" : {
+		"types" : {
+			"gold" :    {
+				"templates" : { 
+					"zmithr": { "animation" : "objects/zmithr.def" }
+				}			
+			
+//			"mithrilWoG" : {
+//				"index" : 6,
+//				"aiValue" : 750, 
+//				"rmg" : { "value" : 750,  "rarity" : 300 },
+//				"base": 
+//				{
+//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ],
+//					"mask" : [ "VA" ],
+//					"visitableFrom" : [ "+++", "+-+", "+++" ]					
+//				},					
+//				"templates" : { 
+//					"zmithr": { "animation" : "objects/zmithr.def" }
+//				}
+			}
+		} 		
+	},
+	
+	"iceBlockWoG" : {
+		"name" : "Ice blocks",
+		"handler":"static",
+		"types" : {
+			"iceBlocks": {
+				"base": 
+				{
+					"mask" : [ "VV", "VB" ],
+					"allowedTerrains": [ "snow" ]
+				},
+				"templates" : {				
+					"zdec0002" : { "animation" : "objects/zdec0002.def"  },
+					"zdec0003" : { "animation" : "objects/zdec0003.def" },
+					"zdec0004" : { "animation" : "objects/zdec0004.def" }
+				}
+			}	
+		}
+	},
+	
+	"runeStonesWoG" : {
+		"name" : "Rune Stone",
+		"handler":"generic",
+		"types" : {
+			"runestones": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+				},
+				"templates" : {				
+					"zdec0001" : { "animation" : "objects/zdec0001.def", "mask": [ "VV", "VB" ] },
+					"zdec0005" : { "animation" : "objects/zdec0005.def", "mask": [ "VV", "VB" ] },
+					"zdec0007" : { "animation" : "objects/zdec0007.def", "mask": [ "VV", "VB" ] },
+					"zdec0008" : { "animation" : "objects/zdec0008.def", "mask": [ "VV", "BB" ], "allowedTerrains": [ "lava" ] }
+				}
+			}	
+		}
+	},
+	
+	"statuesWoG" : {
+		"name" : "Statue",
+		"handler":"generic",
+		"types" : {
+			"statuesWoG": {
+				"base": 
+				{
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+				},
+				"templates" : {				
+					"zdec0009" : { "animation" : "objects/zdec0009.def", "mask": [ "VV", "VV", "BB" ] },
+					"zdec0010" : { "animation" : "objects/zdec0010.def", "mask": [ "VVVV", "VVVV", "VVVV", "VVVV", "VVBV" ] },
+					"zdec0011" : { "animation" : "objects/zdec0011.def", "mask": [ "VVV", "VVV", "VVV", "VBV" ] },
+					"zdec0012" : { "animation" : "objects/zdec0012.def", "mask": [ "VVVV", "VVVV", "BBBB", "VBBV" ] }
+				}
+			}	
+		}
+	},
+
+	"snowWoG" : {
+		"name" : "Snow",
+		"handler":"static",
+		"types" : {
+			"snowWoG": {
+				"templates" : {				
+					"zsnow001" : { "animation" : "objects/zsnow001.def", "mask": [ "VVV", "VVV", "VVB" ], "allowedTerrains": [ "snow" ] },
+				}
+			}	
+		}
+	},
+
+	"rainWoG" : {
+		"name" : "Rain",
+		"handler":"static",
+		"types" : {
+			"rainWoG": {
+				"templates" : {				
+					"zrain00" : { "animation" : "objects/zrain00.def", "mask": [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ], "allowedTerrains": [ "grass", "swamp", "water" ] },
+				}
+			}	
+		}
+	},
+	
+	"core:reef" : {
+		"types" : {
+			"reefsWoG": {
+				"index" : 1,
+				"base": 
+				{
+					"allowedTerrains": [ "water" ]
+				},
+				"templates" : {				
+					"zreef1" : { "animation" : "objects/zreef1.def", "mask": [ "BB" ] },
+					"zreef2" : { "animation" : "objects/zreef2.def", "mask": [ "VB" ] },
+					"zreef3" : { "animation" : "objects/zreef3.def", "mask": [ "VV", "BB" ] },
+					"zreef4" : { "animation" : "objects/zreef4.def", "mask": [ "VV", "VV", "VB" ] },
+					"zreef5" : { "animation" : "objects/zreef5.def", "mask": [ "VVV", "VVV", "VBB" ] }
+				}
+			}	
+		}
+	},
+
+	"core:fountainOfFortune" : {
+		"types" : {
+			"fountainWoG" : {
+				"index" : 1,
+				"aiValue" : 100,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 100
+				},
+				"templates" : {				
+					"zfntng01" : { "animation" : "objects/zfntng01.def", "mask": [ "VVV", "VVV", "VAB" ], "visitableFrom" : [ "---", "+--", "+++" ], "allowedTerrains": [ "snow" ] },
+				}
+			}
+		}
+	},
+	
+	"core:mermaids" : {
+		"types" : {
+			"zmermd01": {
+				"index" : 1,
+				"aiValue" : 100,
+				"rmg" : {
+					"value"		: 100,
+					"rarity"	: 20
+				},
+				"templates" : {				
+					"zmermd01" : { "animation" : "objects/zmermd01.def", "mask": [ "VVV", "VVV", "BAB" ], "visitableFrom" : [ "---", "-+-", "+++" ], "allowedTerrains": [ "water" ]}
+				}
+			},
+			"zmermd02": {
+				"index" : 2,
+				"aiValue" : 100,
+				"rmg" : {
+					"value"		: 100,
+					"rarity"	: 20
+				},
+				"templates" : {				
+					"zmermd02" : { "animation" : "objects/zmermd02.def", "mask": [ "VVV", "VVV", "BAB" ], "visitableFrom" : [ "---", "-+-", "+++" ], "allowedTerrains": [ "water" ]},
+				}
+			}			
+		}
+	},
+
+	"core:lake" : {
+		"types" : {
+			"lakeWoG": {
+				"index" : 0,
+				"templates" : {				
+					"zdec0013" : { "animation" : "objects/zdec0013.def", "mask": [ "VVVV", "BBBB", "VBBV" ], "allowedTerrains": [ "lava" ] }
+				}
+			}	
+		}
+	},
+
+	"core:log": { 
+		"types" : { 
+			"logWoG" : { 
+				"templates" : {				
+					"zobrevno" : { "animation" : "objects/zobrevno.def", "mask": [ "V" ], "allowedTerrains": [ "water" ] }
+				}
+			}
+		}
+	},
+			
+	"core:volcano" : {
+		"types" : {	
+			"zdec0014": {
+				"index" : 0,
+				"templates" : {				
+					"zdec0014" : { "animation" : "objects/zdec0014.def", "mask": [ "VVVV", "VBBB", "VBBV", "VVBV" ], "allowedTerrains": [ "lava" ] }
+				}
+			},
+			"zdec0015": {
+				"index" : 1,
+				"templates" : {				
+					"zdec0015" : { "animation" : "objects/zdec0015.def", "mask": [ "VVV", "VVV", "VBV" ], "allowedTerrains": [ "lava" ] }
+				}
+			},
+			"zlava001": {
+				"index" : 2,
+				"templates" : {				
+					"zlava001" : { "animation" : "objects/zlava001.def", "mask": [ "VBBV", "VBBV" ], "allowedTerrains": [ "lava" ] }
+				}
+			},
+			"zwvolc1": {
+				"index" : 3,
+				"templates" : {				
+					"zwvolc1" : { "animation" : "objects/zwvolc1.def", "mask": [ "VVVV", "VVVV", "VBBV", "VVBB" ], "allowedTerrains": [ "swamp", "water" ] }
+				}
+			}
+		}
+	},
+
+	"core:garrisonHorizontal": {
+		"types": {		
+			"wogGarrisonHorizontal": {
+				"index" : 0,
+				"sounds" : {
+					"ambient" : ["LOOPSWAR"]
+				},
+				"templates" :
+				{
+					"zgarn001" : { 
+						"animation" : "objects/zgarn001.def", 
+						"visitableFrom" : [ "+++", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VBAB" ], 
+						"allowedTerrains":["snow"] 
+					},
+					"zgarn003" : { 
+						"animation" : "objects/zgarn003.def", 
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VVB", "VBA" ], 
+						"allowedTerrains":["grass", "swamp", "dirt", "sand", "lava", "rough", "subterra", "snow"] 
+					}
+				}			
+			}
+		}
+	},
+
+	"core:garrisonVertical": {
+		"types": {
+			"wogGarrisonVertical": {
+				"index" : 0,
+				"sounds" : {
+					"ambient" : ["LOOPSWAR"]
+				},
+				"templates" :
+				{
+					"zgarn002" : { 
+						"animation" : "objects/zgarn002.def", 
+						"visitableFrom" : [ "+-+", "+++", "+-+" ], 
+						"mask" : [ "VV","VB","VA","VB" ], 
+						"allowedTerrains":["snow"] 
+					}
+				}
+			}
+		}
+	},
+
+	"core:learningStone" : {	
+		"types" : {
+			"wogLeariningStone" : {
+//				"index" : 1,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 200
+				},
+				"templates" :
+				{
+					"z358o1" : { "animation" : "objects/z358o1.def", 
+						"allowedTerrains": [ "snow" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VV", "VA" ] 
+					}
+				}				
+			} 
+		}
+	},
+
+	"core:idolOfFortune" : {
+		"types" : {
+			"wogIdolOfFortune" : {
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 100
+				},
+				"templates" :
+				{
+					"z358o2" : { "animation" : "objects/z358o2.def", 
+						"allowedTerrains": [ "snow"] ,
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	},
+
+	"core:libraryOfEnlightenment" : {
+		"types" : {
+			"woglibraryOfEnlightenment" : {
+				"aiValue" : 12000,
+				"rmg" : {
+					"value"		: 12000,
+					"rarity"	: 20,
+					"mapLimit"	: 32
+				},			
+				"templates" :
+				{
+					"z358o3" : { "animation" : "objects/z358o3.def",   
+						"allowedTerrains": [ "snow"],
+						"mask" : [ "VVVVV", "VVVBB", "VBBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"core:witchHut" : {
+		"types" : {
+			"wogWitchHut" : {
+				"index" : 0,
+				"aiValue" : 1500,			
+				"rmg" : {
+					"zoneLimit"	: 3,
+					"mapLimit" : 32,
+					"value"		: 1500,
+					"rarity"	: 80
+				},			
+				"templates" :
+				{
+					"snow" : { "animation" : "objects/z358o4.def",
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"allowedTerrains": [ "snow"] 
+					}
+				}
+			}
+		}
+	},
+	
+//	"core:subterraneanGate" : {
+//		"types" : {
+//			"wogSubterraneanGate" : {	
+//				"index"	: 0,
+//				"rmg" : {
+//					"value"		: 1500,
+//					"rarity"	: 80
+//				},				
+//				"templates" :
+//				{
+//					"z358o5" : { "animation" : "objects/z358o5.def", 
+//						"allowedTerrains": [ "snow"],
+//						"mask" : [ "VVVV", "VVBV", "VBAB" ],
+//						"visitableFrom" : [ "---", "-+-", "+++" ]
+//					}
+//				}
+//			} 
+//		}
+//	},
+
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"wogTreeOfKnowledge" : { 
+				"aiValue" : 2500,
+				"rmg" : {
+					"mapLimit"	: 32,
+					"value"		: 2500,
+					"rarity"	: 50
+				},			
+				"templates" : {
+					"snow" : { "animation" : "objects/z358o6.def", 
+						"allowedTerrains": [ "snow"],
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			} 
+		}
+	},
+	
+	"core:tavern" : {
+
+		"types" : {
+			"wogTavern" : {
+				"aiValue" : 100,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 20
+				},
+				"templates" :
+				{
+					"z358o7" : { "animation" : "objects/z358o7.def",
+					"mask" : [ "VVV", "VVV", "VVV", "VAB" ],
+					"visitableFrom" : [ "---", "++-", "+++" ],					
+					"allowedTerrains": [ "snow"] }
+				}
+			}
+		}
+	},
+
+	"core:denOfThieves" : {
+		"types" : {
+			"wogDenofThieves" : {
+//			"index" : 1,
+				"rmg" : {
+				"zoneLimit": 1,
+					"value"		: 100,
+					"rarity"	: 100
+				},			
+				"templates" :
+				{
+					"snow" : { "animation" : "objects/zdent001.def", 
+						"mask" : [ "VV", "BA" ], 
+						"allowedTerrains": [ "snow" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]					
+					}
+				}
+			}
+		}
+	},
+
+	"core:hillFort" : {
+		"types" : {
+			"wogHillFort" : {
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 7000,
+					"rarity"	: 20
+				},
+				"aiValue" : 7000,
+				"templates" :
+				{
+					"zfohill0" : { 
+						"animation" : "objects/zfohill0.def", 
+						"allowedTerrains": [ "snow"],
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "-++", "+++" ]						
+					 }
+				}
+			}
+		}
+	},
+	
+
+
+	"core:monolithTwoWay" : {
+		"types" : {
+			"monolithWoG" : { 
+				"index" : 8,
+				"templates" : { 
+					"ztport01" : { "animation" : "objects/ztport01.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VVV", "VVV", "VAV" ], 
+					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] }
+//					"allowedTerrains": [ "snow" ] }
+				}
+			}
+		}
+	},
+
+	"core:obelisk" : {
+		"types" : {
+			"obeliskRed" : { 
+//				"index" : 8,
+				"aiValue" : 350,
+				"rmg" : {
+//					"mapLimit"	: 10,
+					"value"		: 3500,
+					"rarity"	: 20
+				},
+				"templates" : { 
+					"AvXOblR" : { "animation" : "AvXOblR.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] }
+				}
+			}
+		}
+	},	
+	
+	
+	"core:campfire" :{
+		"types" : {
+			"hiddenObject" : {
+//				"index" : 0,
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 500
+				},
+				"templates" : { 
+					"ADCFRA0" : { "animation" : "ADCFRA0.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "A" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}				
+			}
+		}
+	}, 
+
+	"core:schoolOfMagic" : {
+		"types" : {
+			"AvArtif" : {
+				"aiValue" : 1000,
+				"rmg" : {
+					"value"		: 1000,
+					"rarity"	: 30
+				},
+				"templates" : { 
+					"AvArtif" : { "animation" : "AvArtif.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+				}
+			}
+		}
+	},
+
+	"core:windmill" :{
+		"types" : {
+			"hiddenObject" : {
+//				"index" : 0,
+				"aiValue" : 1500,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 20
+				},
+				"templates" : { 
+					"ADVMWIND" : { "animation" : "ADVMWIND.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VVVV", "VVVV", "VVAV" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] }
+				}
+			}
+		}
+	}
+}

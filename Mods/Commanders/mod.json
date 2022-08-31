@@ -1,0 +1,24 @@
+{
+	"name" : "Commanders",
+	"description" : "This module enables commanders feature from WoG",
+
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Mechanics",
+	
+	"creatures" : 
+	[
+		"config/commanders_"
+	],
+
+	"heroClasses" : 
+	[
+		"config/heroClasses_"
+	],
+	
+	"artifacts" : 
+	[
+		"config/artifacts_cmndrs"
+	]
+}

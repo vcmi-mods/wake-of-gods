@@ -1,0 +1,12 @@
+{
+	"name" : "Stack Artifacts",
+	"description" : "This module enables stack artifacts feature from WoG",
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Mechanics",
+	"artifacts" : 
+	[
+		"config/warlordBanners"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"name" : "Animated Objects",
+	"description" : "This module enables animated flags at dwellings and mines.",
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Graphical"
+}

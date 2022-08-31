@@ -1,0 +1,8 @@
+{
+	"name" : "Battle Decorations",
+	"description" : "This module enables animated obstacles at battlefields.",
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Graphical"
+}

@@ -1,0 +1,34 @@
+{
+	"name" : "In The Wake of Gods",
+	"description" : "Unnofficial addon for Heroes of Might and Magic III",
+	"version" : "9.0.2",
+	"author" : "WoG Team & epigones",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Expansion",
+
+	"artifacts" : 
+	[
+		"config/artifactsWoG.json",
+		"config/artifactsWoG2.json"
+	],
+
+	"creatures" : 
+	[
+		"config/creatures.json"
+	],
+
+	"objects" :
+	[
+		"config/dwellings.json",
+		"config/creatureBanks.json",
+		"config/objects.json"
+	],
+	"spells" : 
+	[
+		"config/arrowTrigger.json"
+	],
+	"skills" : 
+	[
+		"config/ballisticsEnch.json"
+	]
+}

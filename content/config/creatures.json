@@ -1,0 +1,5026 @@
+{
+	"supremeArchangel" :
+	{
+		"faction": "castle",
+//		"index": : 150,
+		"name" :
+		{
+			"plural" : "Supreme Archangels",
+			"singular" : "Supreme Archangel"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 40,
+		"defense" : 40,
+		"damage" :
+		{
+			 "min" : 75,
+			 "max" : 75
+		},
+		"growth" : 1,
+		"hitPoints" : 500,
+		"speed" : 18,
+		"fightValue" : 18250,
+		"aiValue" : 26300,
+		"cost" :
+		{
+			"gold" : 10000,
+			"gems" : 4
+		},
+		"abilities":
+		{
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"resurrection100hp" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 100
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"hateDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
+			},
+			"hateHellBarons" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.hellBaron",
+				"val" : 50
+			},
+			"blockRetal" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"const_raises_morale" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"stacking" : "Angels"
+			},
+			"king2" :
+			{
+				"type" : "KING2"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM150Z",
+			"map" : "creatures/zmm150z",
+			"iconSmall" : "creatures/CPrS150C",
+			"iconLarge" : "creatures/CPrL150Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.82,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 26, //"spell.armageddon"
+					"addInfo" : 0
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CASTS"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "WATER_IMMUNITY",
+					"subtype" : 1
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			}
+		]
+	},
+	
+	"diamondDragon" :
+	{
+		"faction": "rampart",
+//		"index": : 151,
+		"name" :
+		{
+			"plural" : "Diamond Dragons",
+			"singular" : "Diamond Dragon"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 36,
+		"defense" : 36,
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"growth" : 1,
+		"hitPoints" : 500,
+		"speed" : 16,
+		"fightValue" : 18750,
+		"aiValue" : 25500,
+		"cost" :
+		{
+			"gold" : 8000,
+			"crystal" : 3
+		},
+		"abilities":
+		{
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			},
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 100
+			},
+			"generateGems" :
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gems",
+				"val" : 1,
+				"propagator" : "HERO"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM151Z",
+			"map" : "creatures/zmm151z",
+			"iconSmall" : "creatures/CPrS151C",
+			"iconLarge" : "creatures/CPrL151Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.6,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "GODRATTK.wav",
+			"defend": "GODRDFND.wav",
+			"killed": "GODRKILL.wav",
+			"move": "GODRMOVE.wav",
+			"wince": "GODRWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},			
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_RESISTANCE_AURA" //sprawdzić czy jest na obecnosc czy na powiekrzenie mocy aury
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ] //val in %, not true/false like in WoG
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.bloodDragon"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]	
+			},
+//			{
+//				"bonus" :
+//				{
+//					"type" : "DEFLECTOR", //nie ma takiego WoG bonus
+//				},
+//				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+//			}
+		]
+	},
+	
+	"lordofThunder" :
+	{
+		"faction": "tower",
+//		"index": : 152,
+		"name" :
+		{
+			"plural" : "Lord of Thunders",
+			"singular" : "Lord of Thunder"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 32,
+		"defense" : 32,
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"growth" : 1,
+		"shots" : 24,
+		"hitPoints" : 600,
+		"speed" : 12,
+		"fightValue" : 15000,
+		"aiValue" : 22500,
+		"cost" :
+		{
+			"gold" : 10000,
+			"gems" : 3
+		},
+		"abilities" :  //no melee penalty?
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			"thunderStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.thunderbolt",
+				"val" : 10
+			},
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.thunderbolt",
+				"val" : 20,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			"airShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"fearless" : 
+			{
+				"type" : "FEARLESS"
+			},
+			"king3" :
+			{
+				"type" : "KING3"
+			},
+			"hateDarknessDragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.darknessDragon",
+				"val" : 50
+			}
+		},		
+		"graphics" :
+		{
+			"animation": "creatures/ZM152Z",
+			"missile" :
+			{
+				"projectile": "CPRGTIX",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 11,
+					"upperY" : -131,
+					"middleX" : 76,
+					"middleY" : -87,
+					"lowerX" : 19,
+					"lowerY" : -1
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+			"map" : "creatures/zmm152z",
+			"iconSmall" : "creatures/CPrS152T",
+			"iconLarge" : "creatures/CPrL152Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.38,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "GTITATTK.wav",
+			"defend": "GTITDFND.wav",
+			"killed": "GTITKILL.wav",
+			"move": "GTITMOVE.wav",
+			"shoot": "GTITSHOT.wav",
+			"wince": "GTITWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.darknessDragon"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MIND_IMMUNITY",
+					"subtype" : 1 //all except positive, colud not work
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "AIR_IMMUNITY",
+					"subtype" : 1
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NO_WALL_PENALTY"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NO_DISTANCE_PENALTY"
+				},
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]	
+			}
+		]
+	},
+	
+	"hellBaron" :
+	{
+		"faction": "inferno",
+//		"index": : 153,
+		"name" :
+		{
+			"plural" : "Hell Barons",
+			"singular" : "Hell Baron"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 35,
+		"defense" : 37,
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 60
+		},
+		"growth" : 1,
+		"hitPoints" : 400,
+		"speed" : 17,
+		"fightValue" : 19250,
+		"aiValue" : 25700,
+		"cost" :
+		{
+			"gold" : 9000,
+			"mercury" : 3
+		},
+		"abilities":
+		{
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archangel",
+				"val" : 50
+			},
+			"hateSupremeAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.supremeArchangel",
+				"val" : 50
+			},
+			"FLYING_ARMY" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"descreaseLuck" :
+			{
+				"type" : "LUCK",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -1,
+				"stacking" : "Devils"
+			},
+			"blockRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 50,
+				"turns" : 3
+			},
+			"king2" :
+			{
+				"type" : "KING2"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM153Z.DEF",
+			"map" : "creatures/zmm153z",
+			"iconSmall" : "creatures/CPrS153C",
+			"iconLarge" : "creatures/CPrL153Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "ADVLATTK.wav",
+			"defend": "ADVLDFND.wav",
+			"killed": "ADVLKILL.wav",
+			"move": "ADVLMOVE.wav",
+			"wince": "ADVLWNCE.wav",
+			"startMoving": "ADVLEXT1.wav",
+			"endMoving": "ADVLEXT2.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 2, 2, 3, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FIRE_IMMUNITY",
+					"subtype" : 1 //all except positive
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "EARTH_IMMUNITY",
+					"subtype" : 1 //ecept beneficial
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
+					"subtype" : 1 //all except positive - może nie działać
+				},
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 50, //"spell.sorrow"
+					"addInfo" : [3, 2]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
+			}
+		]
+	},
+	
+	"bloodDragon" :
+	{
+		"faction": "necropolis",
+//		"index": : 154,
+		"name" :
+		{
+			"plural" : "Blood Dragons",
+			"singular" : "Blood Dragon"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 25,
+		"defense" : 23,
+		"damage" :
+		{
+			 "min" : 38,
+			 "max" : 75
+		},
+		"growth" : 1,
+		"hitPoints" : 400,
+		"speed" : 14,
+		"fightValue" : 12000,
+		"aiValue" : 15000,
+		"cost" :
+		{
+			"gold" : 6000,
+			"mercury" : 2
+		},
+		"abilities":
+		{
+			"drainsLife" : 
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 40
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"descreaseMorale" :
+			{
+				"type" : "MORALE",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -1,
+				"stacking" : "Undead Dragons"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fearsome" :
+			{
+				"type" : "FEAR"
+			},
+			"age" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"val" : 50
+			},
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			},
+			"unded" : 
+			{
+				"type" : "UNDEAD"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM154Z",
+			"map" : "creatures/zmm154z",
+			"iconSmall" : "creatures/CPrS154C",
+			"iconLarge" : "creatures/CPrL154Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.75,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "GHDRATTK.wav",
+			"defend": "GHDRDFND.wav",
+			"killed": "GHDRKILL.wav",
+			"move": "GHDRMOVE.wav",
+			"wince": "GHDRWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 75 //"spell.age" //diffirent than WoG, here - % chance to cast, in WoG - % of aging
+				},
+				"values" : [ 25, 30, 35, 40, 45, 50, 55, 60, 65, 70 ]
+			},				
+			{
+				"bonus" :
+				{
+					"type" : "FIRE_IMMUNITY",
+					"subtype" : 1 
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "EARTH_IMMUNITY",
+					"subtype" : 1
+				},
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "WATER_IMMUNITY", 
+					"subtype" : 1
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "AIR_IMMUNITY", 
+					"subtype" : 1
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEAR"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+			}
+		]
+	},
+
+	"darknessDragon" :
+	{
+		"faction": "dungeon",
+//		"index": : 155,
+		"name" :
+		{
+			"plural" : "Darkness Dragons",
+			"singular" : "Darkness Dragon"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 33,
+		"defense" : 33,
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"growth" : 1,
+		"hitPoints" : 600,
+		"speed" : 15,
+		"fightValue" : 20000,
+		"aiValue" : 26000,
+		"cost" :
+		{
+			"gold" : 8000,
+			"sulfur" : 3
+		},
+		"abilities":
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fear" :
+			{
+				"type" : "FEAR"
+			},
+			"strikeAndReturn" : 
+			{
+				"type" : "RETURN_AFTER_STRIKE",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"darkness" :
+			{
+				"type" : "DARKNESS",
+				"val" : 3,
+				"propagator" : "HERO"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"hateGiants" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.giant",
+				"val" : 50
+			},
+			"hateTitans" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.titan",
+				"val" : 50
+			},
+			"hateLords" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.lordofThunder",
+				"val" : 50
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM155Z",
+			"map" : "creatures/zmm155z",
+			"iconSmall" : "creatures/CPrS155C",
+			"iconLarge" : "creatures/CPrL155Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" :0.8,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1.5
+			}
+		},
+		"sound" :
+		{
+			"attack": "BKDRATTK.wav",
+			"defend": "BKDRDFND.wav",
+			"killed": "BKDRKILL.wav",
+			"move": "BKDRMOVE.wav",
+			"wince": "BKDRWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.lordofThunder"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},			
+			{
+				"bonus" :
+				{
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 59, //"spell.berserk",
+					"addInfo" : [ 2, 2 ]
+				},
+				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
+			}
+		]
+	},
+	
+	"ghostBehemoth" :
+	{
+		"faction": "stronghold",
+//		"index": : 156,
+		"name" :
+		{
+			"plural" : "Ghost Behemots",
+			"singular" : "Ghost Behemot"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 25,
+		"defense" : 25,
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 75
+		},
+		"growth" : 1,
+		"hitPoints" : 600,
+		"speed" : 15,
+		"fightValue" : 20000,
+		"aiValue" : 26000,
+		"cost" :
+		{
+			"gold" : 6000,
+			"crystal" : 2
+		},
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fear" :
+			{
+				"type" : "FEAR"
+			},
+			"extraRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 2
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 100
+			},
+			"increaseLuck" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "HERO",
+				"stacking" : "Behemots"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM156Z",
+			"map" : "creatures/zmm156z",
+			"iconSmall" : "creatures/CPrS156S",
+			"iconLarge" : "creatures/CPrL156Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.17,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "BMTHATTK.wav",
+			"defend": "BMTHDFND.wav",
+			"killed": "BMTHKILL.wav",
+			"move": "BMTHMOVE.wav",
+			"wince": "BMTHWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 2, 3, 3, 4, 4, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEAR"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},			
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DIRECT_DAMAGE_IMMUNITY"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 62, //"spell.blind",
+					"addInfo" : 0
+				},
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+			}
+		]
+	},
+	
+	"hellHydra" :
+	{
+		"faction": "fortress",
+//		"index": : 157,
+		"name" :
+		{
+			"plural" : "Hell Hydras",
+			"singular" : "Hell Hydra"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 25,
+		"defense" : 27,
+		"damage" :
+		{
+			 "min" : 38,
+			 "max" : 68
+		},
+		"growth" : 1,
+		"hitPoints" : 500,
+		"speed" : 10,
+		"fightValue" : 15750,
+		"aiValue" : 17750,
+		"cost" :
+		{
+			"gold" : 7000,
+			"sulfur" : 2
+		},
+		"abilities":
+		{
+			"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 20
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"attackAll" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"regenerates" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 40
+			},
+			"additionalRetal" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM157Z",
+			"map" : "creatures/zmm157z",
+			"iconSmall" : "creatures/CPrS157F",
+			"iconLarge" : "creatures/CPrL157Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "CHYDATTK.wav",
+			"defend": "CHYDDFND.wav",
+			"killed": "CHYDKILL.wav",
+			"move": "CHYDMOVE.wav",
+			"wince": "CHYDWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 4, 4, 5, 5, 6 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DEFENSIVE_STANCE",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			},			
+			{
+				"bonus" :
+				{
+					"subtype" : 1, //bonus do obrony, check if it works
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 4, 4 ]
+			},
+//			{
+//				"bonus" :
+//				{
+//					"type" : "DEFLECTOR",
+//					"subtype" : 50,
+//				},
+//				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+//			},
+			{
+				"bonus" :
+				{
+					"type" : "FIRE_IMMUNITY",
+					"subtype" : 1
+				},
+				"values" : [ false, true, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY",
+					"subtype" : 1 //only hostile - check if it works
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 29 //"spell.fireShield"
+				},
+				"values" : [ 0, 0, 1, 1, 2, 2, 3, 3, 3, 3 ]
+			}
+		]
+	},
+	
+	"sacredPhoenix" :
+	{
+		"faction": "conflux",
+//		"index": : 158,
+		"name" :
+		{
+			"plural" : "Sacred Phoenixes",
+			"singular" : "Sacred Phoenix"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"level" : 8,
+		"attack" : 28,
+		"defense" : 28,
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 60
+		},
+		"growth" : 1,
+		"hitPoints" : 400,
+		"speed" : 21,
+		"fightValue" : 17750,
+		"aiValue" : 23000,
+		"cost" :
+		{
+			"gold" : 5000,
+			"mercury" : 3
+		},
+		"abilities":
+		{
+			"rebirthOnce" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"immuneToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0 //this IS important
+			},
+			"rebirth" : 
+			{
+				"type" : "REBIRTH",
+				"val" : 100
+			},
+			"fireShield" :
+			{
+				"type" : "FIRE_SHIELD",
+//				"subtype" : 100,
+				"val" : 30
+			},
+			"spellSlayer" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 3,
+				"addInfo" : 100
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"flying" :
+			{
+			"type" : "FLYING"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM158Z",
+			"map" : "creatures/zmm158z",
+			"iconSmall" : "creatures/CPrS158E",
+			"iconLarge" : "creatures/CPrL158Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "PHOEATTK.wav",
+			"defend": "PHOEDFND.wav",
+			"killed": "PHOEKILL.wav",
+			"move": "PHOEMOVE.wav",
+			"wince": "PHOEWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CASTS" //more casts more rebirths
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},			
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 60 //"spell.hypnotize"
+				},
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+			}
+		]
+	},
+	
+	"ghost" :
+	{
+		"growth" : 8,
+		"level": 3,
+		"faction": "neutral",
+//		"index": : 159,
+		"name" :
+		{
+			"plural" : "Ghosts",
+			"singular" : "Ghost"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 30
+		},
+		"attack" : 11,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 2
+		},
+		"hitPoints" : 5,
+		"speed" : 8,
+		"fightValue" : 150,
+		"aiValue" : 250,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"abilities":
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"armageddonImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.armageddon"
+			},
+			"soulSteal" :
+			{
+				"type" : "SOUL_STEAL",
+				"val" : 1,
+				"subtype" : 0
+			},
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM159G",
+			"map" : "creatures/zmm159g",
+			"iconSmall" : "creatures/CPrS159G",
+			"iconLarge" : "creatures/CPrL159G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "WRTHATTK.wav",
+			"defend": "WRTHDFND.wav",
+			"killed": "WRTHKILL.wav",
+			"move": "WRTHMOVE.wav",
+			"wince": "WRTHWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH"
+
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 50 //"spell.sorrow"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},				
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 54 //"spell.slow"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			}
+		]
+	},
+	
+	"godWar" :
+	{
+		"special" : true,
+//		"index":: 160,
+		"level": 6,
+		"faction": "neutral",
+		"name" :
+		{
+			"plural" : "Emissaries of War",
+			"singular" : "Emissary of War"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 2
+		},
+		"attack" : 0,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 2000,
+		"speed" : 4,
+		"fightValue" : 10,
+		"aiValue" : 20000,
+		"cost" :
+		{
+			"gold" : 30000
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM160G",
+//			"map" : "creatures/zmm160g",
+			"iconSmall" : "creatures/CPrS160G",
+			"iconLarge" : "creatures/CPrL160G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"abilities":
+		{
+			"addAttack" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"updater" : {
+					"parameters" : [ 4 ],
+					"type" : "GROWS_WITH_LEVEL"
+				},
+				"propagator" : "HERO"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"teleporting" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0, //bonus do ataku, check if it works
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 43 //"spell.bloodlust"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 4, 4, 4, 4, 4 ]
+			},				
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 56 //"spell.frenzy"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
+			}
+		]
+	},
+	
+	"godPeace" :
+	{
+		"special" : true,
+//		"index":: 161,
+		"level": 6,
+		"faction": "neutral",
+		"name" :
+		{
+			"plural" : "Emissaries of Peace",
+			"singular" : "Emissary of Peace"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"attack" : 0,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 2000,
+		"speed" : 4,
+		"fightValue" : 10,
+		"aiValue" : 20000,
+		"cost" :
+		{
+			"gold" : 30000
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM161G",
+//			"map" : "creatures/zmm161g",
+			"iconSmall" : "creatures/CPrS161G",
+			"iconLarge" : "creatures/CPrL161G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"abilities":
+		{
+			"addDefence" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"updater" : {
+					"parameters" : [ 4 ],
+					"type" : "GROWS_WITH_LEVEL"
+				},
+				"propagator" : "HERO"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"teleporting" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0, //bonus do ataku, check if it works
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 27 //"spell.shield"
+				},
+				"values" : [ 0, 0, 0, 0, 4, 4, 4, 4, 4, 4 ]
+			},				
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 28 //"spell.airShield"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
+			}
+		]
+	},
+	
+	"godMana" :
+	{
+		"special" : true,
+//		"index":: 162,
+		"level": 6,
+		"faction": "neutral",
+		"name" :
+		{
+			"plural" : "Emissaries of Mana",
+			"singular" : "Emissary of Mana"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"attack" : 1,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 2000,
+		"speed" : 4,
+		"fightValue" : 10,
+		"aiValue" : 20000,
+		"cost" :
+		{
+			"gold" : 30000
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM162G",
+//			"map" : "creatures/zmm162g",
+			"iconSmall" : "creatures/CPrS162G",
+			"iconLarge" : "creatures/CPrL162G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"abilities":
+		{
+			"addSpellpower" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"updater" : {
+					"parameters" : [ 4 ],
+					"type" : "GROWS_WITH_LEVEL"
+				},
+				"propagator" : "HERO"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"teleporting" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0, //bonus do ataku, check if it works
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			}
+		]
+	},
+	
+	"godLore" :
+	{
+		"special" : true,
+//		"index":: 163,
+		"level": 6,
+		"faction": "neutral",
+		"name" :
+		{
+			"plural" : "Emissaries of Lore",
+			"singular" : "Emissary of Lore"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"attack" : 0,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 2000,
+		"speed" : 4,
+		"fightValue" : 10,
+		"aiValue" : 20000,
+		"cost" :
+		{
+			"gold" : 30000
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM163g",
+//			"map" : "creatures/zmm163g",
+			"iconSmall" : "creatures/CPrS163G",
+			"iconLarge" : "creatures/CPrL163G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"abilities":
+		{
+			"addKnowledge" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"updater" : {
+					"parameters" : [ 4 ],
+					"type" : "GROWS_WITH_LEVEL"
+				},
+				"propagator" : "HERO"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"teleporting" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0, //bonus do ataku, check if it works
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			}
+		]
+	},
+	
+	"fireMessenger" :
+	{
+		"level": 5,
+		"faction": "neutral",
+//		"index": : 164,
+		"name" :
+		{
+			"plural" : "Fire Messengers",
+			"singular" : "Fire Messenger"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"attack" : 14,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 13,
+			 "max" : 18
+		},
+		"growth" : 2,
+		"hitPoints" : 70,
+		"speed" : 5,
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM164GD",
+			"map" : "creatures/zmm164d",
+			"iconSmall" : "creatures/CPrS164N",
+			"iconLarge" : "creatures/CPrL164M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.4,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		},
+		"abilities":
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fireProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectFire",
+				"val" : 3,
+				"addInfo" : 3
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 31, //"spell.fireShield",
+					"addInfo" : [ 1, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 66, //"spell.fireElemental",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+			}
+		]
+	},
+	
+	"earthMessenger" :
+	{
+		"level": 5,
+		"faction": "neutral",
+//		"index": : 165,
+		"name" :
+		{
+			"plural" : "Earth Messengers",
+			"singular" : "Earth Messenger"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"attack" : 13,
+		"defense" : 14,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 14
+		},
+		"growth" : 2,
+		"hitPoints" : 70,
+		"speed" : 5,
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM165GD",
+			"map" : "creatures/zmm165d",
+			"iconSmall" : "creatures/CPrS165N",
+			"iconLarge" : "creatures/CPrL165M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.8,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"earthProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectEarth",
+				"val" : 3,
+				"addInfo" : 3
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 10, //"spell.quicksand",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 67, //"spell.earthElemental",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+			}
+		]
+	},
+	
+	"airMessenger" :
+	{
+		"level": 5,
+		"faction": "neutral",
+//		"index": : 166,
+		"name" :
+		{
+			"plural" : "Air Messengers",
+			"singular" : "Air Messenger"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"attack" : 13,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 14
+		},
+		"growth" : 2,
+		"hitPoints" : 70,
+		"speed" : 6,
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"cost" :
+		{
+			"gold" : 750
+		},		
+		"graphics" :
+		{
+			"animation": "creatures/ZM166GD",
+			"map" : "creatures/zmm166d",
+			"iconSmall" : "creatures/CPrS166N",
+			"iconLarge" : "creatures/CPrL166M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		},
+		"abilities":
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"airProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectAir",
+				"val" : 3,
+				"addInfo" : 3
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 47, //"spell.disruptingRay",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 69, //"spell.airElemental",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+			}
+		]		
+	},
+	
+	"waterMessenger" :
+	{
+		"level": 5,
+		"faction": "neutral",
+//		"index": : 167,
+		"name" :
+		{
+			"plural" : "Water Messengers",
+			"singular" : "Water Messenger"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"attack" : 13,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 14
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"speed" : 5,
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM167GD",
+			"map" : "creatures/zmm167d",
+			"iconSmall" : "creatures/CPrS167N",
+			"iconLarge" : "creatures/CPrL167M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.6,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		},
+		"abilities":
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"waterProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectWater",
+				"val" : 3,
+				"addInfo" : 3
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 16, //"spell.iceBolt",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 68, //"spell.waterElemental",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		]
+	},
+	
+	"gorynych" :
+	{
+		"level": 7,
+		"faction": "neutral",
+//		"index": : 168,
+		"name" :
+		{
+			"plural" : "Gorynyches",
+			"singular" : "Gorynych"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"attack" : 20,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 45
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 8,
+		"fightValue" : 5272,
+		"aiValue" : 5931,
+		"cost" :
+		{
+			"gold" : 3500
+		},
+		"abilities":
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"multiHeaded" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM168DG",
+			"map" : "creatures/zmm168g",
+			"iconSmall" : "creatures/CPrS168Z",
+			"iconLarge" : "creatures/CPrL168M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "GORYATTK.wav",
+			"defend": "GORYDFND.wav",
+			"killed": "GORYKILL.wav",
+			"move": "GORYMOVE.wav",
+			"wince": "GORYWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION",
+					"subtype" : 1
+				},
+				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.greenDragon"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
+	},
+	
+	"warZealot" :
+	{
+		"level": 6,
+		"growth" : 2,
+		"faction": "castle",
+//		"index": : 169,
+		"name" :
+		{
+			"plural" : "War Zealots",
+			"singular" : "War Zealot"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 6,
+			 "max" : 10
+		},
+		"attack" : 14,
+		"defense" : 10,
+		"shots" : 24,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"hitPoints" : 40,
+		"speed" : 8,
+		"fightValue" : 700,
+		"aiValue" : 1000,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"abilities":
+		{
+			"spellMagicMirror" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.magicMirror",
+				"val" : 3,
+				"addInfo" : 100
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM169ZL",
+			"map" : "creatures/zmm169z",
+			"iconSmall" : "creatures/CPrS169N",
+			"iconLarge" : "creatures/CPrL169M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile": "CPRZEAX.DEF",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : 3
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" : 
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 78, //"spell.dispelHelpful"
+				},
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MIND_IMMUNITY", 
+					"subtype" : 1 //all except positive - może nie działać
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.lich"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.powerLich"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NO_DISTANCE_PENALTY"
+				},
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK",
+					"effectRange": "ONLY_DISTANCE_FIGHT"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+			}
+		]
+	},
+	
+	"arcticSharpshooter" :
+	{
+		"level": 5,
+		"faction": "neutral",
+//		"index": : 170,
+		"name" :
+		{
+			"plural" : "Arctic Sharpshooters",
+			"singular" : "Arctic Sharpshooter"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"attack" : 13,
+		"defense" : 10,
+		"shots" : 32,
+		"damage" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"hitPoints" : 15,
+		"speed" : 9,
+		"fightValue" : 500,
+		"aiValue" : 700,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM170SW",
+			"map" : "creatures/zmm170s",
+			"iconSmall" : "creatures/CPrS170N",
+			"iconLarge" : "creatures/CPrL170M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.02,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX",
+				"attackClimaxFrame" : 11,
+				"offset" :
+				{
+					"upperX" : 32,
+					"upperY" : -77,
+					"middleX" : 40,
+					"middleY" : -61,
+					"lowerX" : 18,
+					"lowerY" : -55
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"abilities":
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"airShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FREE_SHOOTING"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 16 //"spell.iceBolt"
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : 20 //"spell.frostRing"
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			}
+		]
+	},
+	
+	"lavaSharpshooter" :
+	{
+		"level": 5,
+		"faction": "neutral",
+//		"index": : 171,
+		"name" :
+		{
+			"plural" : "Lava Sharpshooters",
+			"singular" : "Lava Sharpshooter"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"attack" : 12,
+		"defense" : 11,
+		"shots" : 32,
+		"damage" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"hitPoints" : 15,
+		"speed" : 9,
+		"fightValue" : 500,
+		"aiValue" : 700,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM171SR",
+			"map" : "creatures/zmm171s",
+			"iconSmall" : "creatures/CPrS171N",
+			"iconLarge" : "creatures/CPrL171M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.02,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX",
+				"attackClimaxFrame" : 11,
+				"offset" :
+				{
+					"upperX" : 32,
+					"upperY" : -77,
+					"middleX" : 40,
+					"middleY" : -61,
+					"lowerX" : 18,
+					"lowerY" : -55
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"abilities":
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"airShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : 29, //"spell.fireShield",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FREE_SHOOTING"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FIRE_IMMUNITY",
+					"subtype" : 1
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			}
+		]
+	},
+	
+	"nightmare" :
+	{
+		"level": 6,
+		"faction": "neutral",
+//		"index": : 172,
+		"name" :
+		{
+			"plural" : "Nightmares",
+			"singular" : "Nightmare"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"attack" : 18,
+		"defense" : 16,
+		"shots" : 32,
+		"damage" :
+		{
+			 "min" : 20,
+			 "max" : 24
+		},
+		"hitPoints" : 110,
+		"speed" : 9,
+		"fightValue" : 2050,
+		"aiValue" : 2400,
+		"cost" :
+		{
+			"gold" : 1500
+		},
+		"abilities":
+		{
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : 0,
+				"val" : 15
+			},
+			"mindImmunity" :
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"upgrades": ["hellSteed"],
+		"graphics" :
+		{
+			"animation": "creatures/ZM172N",
+			"map" : "creatures/zmm172n",
+			"iconSmall" : "creatures/CPrS172N",
+			"iconLarge" : "creatures/CPrL172M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" : 
+				{
+					"type" : "DEATH_STARE",
+					"subtype" : 0
+				},
+				"values" : [ 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEAR"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 24, //"spell.deathRipple",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	},
+	
+	"santaGremlin" :
+	{
+		"level": 3,
+//		"index": : 173,
+		"faction": "tower",
+		"growth" : 16,
+		"name" :
+		{
+			"plural" : "Santa Gremlins",
+			"singular" : "Santa Gremlin"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"attack" : 5,
+		"defense" : 5,
+		"shots" : 32,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"hitPoints" : 5,
+		"speed" : 5,
+		"fightValue" : 500,
+		"aiValue" : 200,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"abilities":
+		{
+			"castsIceBolt" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.iceBolt",
+				"addInfo" : 2,
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 100
+			},
+			"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.gremlin",
+				"val" : 60
+			}
+		},	
+		"graphics" :
+		{
+			"animation": "creatures/ZM173M",
+			"map" : "creatures/zmm173m",
+			"iconSmall" : "creatures/CPrS173M",
+			"iconLarge" : "creatures/CPrL173M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+//			{
+//				"bonus" : 
+//				{
+//					"type" : "SUMMON_GUARDIANS",
+//				},
+//				"values" : [ 10, 20, 30, 40, 5, 10, 20, 30, 40, 50 ]
+//			},
+//			{
+//				"bonus" : 
+//				{
+//					"type" : "SUMMON_GUARDIANS",
+//					"subtype" : "creature.masterGremlin",
+//				},
+//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+//			}
+		]
+	},
+	
+	"sylvanCentaur" :
+	{
+		"growth" : 7,
+//		"index":: 192,
+		"level": 3,
+		"faction": "rampart",
+		"name" :
+		{
+			"plural" : "Sylvan Centaurs",
+			"singular" : "Sylwan Centaur"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 15
+		},
+		"attack" : 10,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 6
+		},
+		"hitPoints" : 15,
+		"shots" : 24,
+		"speed" : 8,
+		"fightValue" : 250,
+		"aiValue" : 400,
+		"cost" :
+		{
+			"gold" : 250
+		},		
+		"abilities" :
+		{
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
+			},
+			"spellMirth" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.mirth",
+				"val" : 1,
+				"addInfo" : 3 
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM192Z",
+			"map" : "creatures/zmm192z",
+			"iconSmall" : "creatures/CPrS192Z",
+			"iconLarge" : "creatures/CPrL192Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.5,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile": "PELFX",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 10,
+					"upperY" : -70,
+					"middleX" : 10,
+					"middleY" : -70,
+					"lowerX" : 10,
+					"lowerY" : -70
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"move": "ECNTMOVE.wav",
+			"shoot": "ECNTSHOT.wav",
+			"wince": "ECNTWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY",
+					"subtype" : 1 
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
+	},
+	
+	"sorceress" :
+	{
+		"level": 6,
+		"faction": "neutral",
+//		"index":: 193,
+		"name" :
+		{
+			"plural" : "Sorceresses",
+			"singular" : "Sorceress"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 12
+		},
+		"growth" : 2,
+		"attack" : 15,
+		"defense" : 13,
+		"shots" : 24,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 13
+		},
+		"hitPoints" : 35,
+		"speed" : 8,
+		"fightValue" : 200,
+		"aiValue" : 1150,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM193Z",
+			"missile" :
+			{
+				"projectile": "CPRZEAX",
+				"attackClimaxFrame" : 5,
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : 3
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+			"map" : "creatures/zmm193z",
+			"iconSmall" : "creatures/CPrS193Z",
+			"iconLarge" : "creatures/CPrL193Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 0.6
+			}
+		},
+		"abilities":
+		{
+			"shots" :
+			{
+				"type" : "SHOOTER"
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"castsPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"addInfo" : [0, 1],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsSorrow" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.sorrow",
+				"addInfo" : [2, 1],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsAcidBreath" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"addInfo" : [0, 1],
+				"val" : 11
+			},
+			"castsForgetfullness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"addInfo" : [2, 1],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsSlow" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"addInfo" : [2, 1],
+				"val" : 8,
+				"turns" : 3
+			},
+			"castsCurse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"addInfo" : [2, 1],
+				"val" : 8,
+				"turns" : 3
+			},
+			"castsDispel" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"addInfo" : [2, 1],
+				"val" : 8
+			},
+			"castsBlind" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"addInfo" : [3, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsBerserk" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.berserk",
+				"addInfo" : [2, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsAge" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"addInfo" : [0, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsHypnotize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.hypnotize",
+				"addInfo" : [3, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsMisfortune" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
+				"addInfo" : [3, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsDisruptingRay" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"addInfo" : [3, 1],
+				"val" : 4
+			},
+			"castsDisease" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"addInfo" : [0, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"addInfo" : [2, 1],
+				"val" : 4,
+				"turns" : 3
+			}
+		},
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 65, //"spell.clone",
+					"addInfo" : [ 3, 1 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+//tu powinien być jeszcze bonus z przywoływaniem Czarodziejów w drugiej turze, raczej nie do zrobienia jak w WoG
+		]
+	},
+	
+	"werewolf" :
+	{
+		"level": 4,
+		"faction": "neutral",
+//		"index":: 194,
+		"name" :
+		{
+			"plural" : "Werewolves",
+			"singular" : "Werewolf"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"growth" : 4,
+		"attack" : 5,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"hitPoints" : 35,
+		"speed" : 7,
+		"fightValue" : 460,
+		"aiValue" : 460,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM194Z",
+			"map" : "creatures/zmm194z",
+			"iconSmall" : "creatures/CPrS194Z",
+			"iconLarge" : "creatures/CPrL194Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"val" : 20,
+				"subtype" : 0
+			},
+			"selfBerserk" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.berserk",
+				"val" : 3,
+				"addInfo" : 15,
+				"turns" : 3,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "werewolf", false ]
+					}
+				]
+			}
+		},
+		"sound" :
+		{
+			"attack": "wolfattk.wav",
+			"defend": "wolfDFND.wav",
+			"killed": "wolfKILL.wav",
+			"move": "wolfMOVE.wav",
+			"wince": "wolfWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION",
+					"subtype" : 1
+				},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.griffin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.royalGriffin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.roc"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.thunderbird"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			}
+		]
+	},
+	
+	"hellSteed" :
+	{
+		"level": 6,
+//		"index":: 195,
+		"faction": "neutral",
+		"name" :
+		{
+			"plural" : "Hell Steeds",
+			"singular" : "Hell Steed"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 18,
+			 "max" : 24
+		},
+		"hitPoints" : 100,
+		"speed" : 8,
+		"fightValue" : 1850,
+		"aiValue" : 2150,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"abilities":
+		{
+			"immuneToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0 //this IS important
+			},
+			"fireShield" :
+			{
+				"type" : "FIRE_SHIELD",
+//				"subtype" : 100,
+				"val" : 30
+			},
+			"spellFireWall" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fireWall",
+				"val" : 12,
+				"addInfo" : 3
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		},
+		"upgrades": ["nightmare"],
+		"graphics" :
+		{
+			"animation": "creatures/ZM195Z",
+			"map" : "creatures/zmm195z",
+			"iconSmall" : "creatures/CPrS195N",
+			"iconLarge" : "creatures/CPrL195Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.2,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 21, //"spell.fireball",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	},
+	
+	"dracolich" :
+	{
+		"level": 10,
+//		"index":: 196,
+		"faction": "neutral",
+		"name" :
+		{
+			"plural" : "Dracoliches",
+			"singular" : "Dracolich"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 1,
+		"attack" : 45,
+		"defense" : 45,
+		"damage" :
+		{
+			 "min" : 50,
+			 "max" : 80
+		},
+		"shots" : 5,
+		"hitPoints" : 800,
+		"speed" : 16,
+		"fightValue" : 40000,
+		"aiValue" : 55000,
+		"cost" :
+		{
+			"gold" : 25000,
+			"mercury" : 15
+		},
+		"abilities":
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"deathCloud" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.deathCloud"
+			},
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
+			},
+			"descreaseMorale" :
+			{
+				"type" : "MORALE",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -1,
+				"stacking" : "Undead Dragons"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ZM196Z",
+			"map" : "creatures/zmm196z",
+			"iconSmall" : "creatures/CPrS196N",
+			"iconLarge" : "creatures/CPrL196Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.75,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile": "creatures/ZSHOT195",  //sprawdzic czy to wogowy strzal czy z h3
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "GHDRATTK.wav",
+			"defend": "GHDRDFND.wav",
+			"killed": "GHDRKILL.wav",
+			"move": "GHDRMOVE.wav",
+			"shoot": "GHDRSHOT.wav",
+			"wince": "GHDRWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SHOTS",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_RESISTANCE_AURA" //sprawdzić czy jest na obecnosc czy na powiekrzenie mocy aury
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 71, //"spell.poison",
+					"addInfo" : [ 1, 0 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	},
+	
+	"redDragonClone":
+	{
+		"name" :
+		{
+			"plural" : "Red Dragon",
+			"singular" : "Red Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "neutral",
+		"aiValue" : 4702,
+		"attack" : 19,
+		"cost" :
+		{
+			"gold" : 2500,
+			"sulfur" : 1
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 40
+		},
+		"defense" : 19,
+		"fightValue" : 4702,
+		"graphics" :
+		{
+			"animation": "CRDRGN",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+//			"map" : "",
+			"iconSmall" : "creatures/CPrS082D",
+			"iconLarge" : "creatures/CPrL082D",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"special" : true,
+		"growth" : 1,
+		"hitPoints" : 180,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "RDDRATTK.wav",
+			"defend": "RDDRDFND.wav",
+			"killed": "RDDRKILL.wav",
+			"move": "RDDRMOVE.wav",
+			"wince": "RDDRWNCE.wav"
+		},
+		"speed" : 11,
+		"abilities" :
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			},
+			"positiveMorale" :
+			{
+				"type" : "SELF_MORALE"
+			}			
+		}
+	}	
+}
+
+// For future reference. Creatures from WoG and their sound prefixes.
+//aagl creatures/ZM150Z.def SupremeArchangel
+//godr creatures/ZM151Z.def DiamondDragon
+//gtit creatures/ZM152Z.def LordofThunder
+//advl creatures/ZM153Z.def HellBaron
+//ghdr creatures/ZM154Z.def BloodDragon
+//bkdr creatures/ZM155Z.def DarknessDragon
+//bmth creatures/ZM156Z.def GhostBehemoth
+//chyd creatures/ZM157Z.def HellHydra
+//phoe creatures/ZM158Z.def SacredPhoenix
+//wrth creatures/ZM159G.def Ghost
+//aagl creatures/ZM160G.def God1War
+//aagl creatures/ZM161G.def God2Peace
+//aagl creatures/ZM162G.def God3Mana
+//aagl creatures/ZM163G.def God4Lore
+//sglm creatures/ZM164GD.def MinotaurKing
+//sglm creatures/ZM165GD.def MineralElemental
+//sglm creatures/ZM166GD.def ElectricityElemental
+//sglm creatures/ZM167GD.def AncientBasilisk
+//bkdr creatures/ZM168DG.def Gorynych
+//zelt creatures/ZM169ZL.def WarZealot
+//hcrs creatures/ZM170SW.def Myriad
+//hcrs creatures/ZM171SR.def MedusaMatriarch
+//bgor creatures/ZM172N.def Nightmare
+//aagl creatures/ZM173M.def SantaGremlin
+
+//crus creatures/ZM174NPC.def Paladin2
+//monk creatures/ZM175NPC.def Hierophant2
+//lich creatures/ZM176NPC.def TempleGuardian2
+//sgrg creatures/ZM177NPC.def Succubus2
+//gnol creatures/ZM178NPC.def SoulEater2
+///pfoe creatures/ZM179NPC.def Brute2
+//trll creatures/ZM180NPC.def OgreLeader2
+//amag creatures/ZM181NPC.def Shaman2
+//geni creatures/ZM182NPC.def AstralSpirit2
+
+//ecnt creatures/ZM192Z.def SylvanCentaur
+//monk creatures/ZM193Z.def Sorceress
+//monk creatures/ZM194Z.def Werewolf
+//bgor creatures/ZM195Z.def HellSteed
+//ghdr creatures/ZM196Z.def Dracolich

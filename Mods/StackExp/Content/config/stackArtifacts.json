@@ -1,0 +1,16 @@
+{
+	"core:magicWand":
+	{
+		"class" : "SPECIAL"		
+	},
+
+	"core:goldTowerArrow":
+	{
+		"class" : "SPECIAL"
+	},
+	
+	"core:monstersPower":
+	{
+		"class" : "SPECIAL"
+	}
+}

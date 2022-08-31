@@ -1,0 +1,8 @@
+{
+	"name" : "WoG starting screen",
+	"description" : "This module enables WoG starting screen.",
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Mechanics"
+}

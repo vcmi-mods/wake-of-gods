@@ -1,0 +1,8 @@
+// default configuration for mod system loaded at launch
+
+{
+	"textData" :
+	{
+		"mapVersion" : 51 // max supported version, SoD
+	}
+}

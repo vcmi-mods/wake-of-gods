@@ -1,0 +1,1108 @@
+		
+Spell Names	Cure	
+	Shield	
+	Precision	
+	Fire Shield	
+	Animate Dead	
+	Bloodlust	
+	Stone Skin	
+	Haste	
+	Counterstrike	
+NPC ability hints	Wise	Casts Cure
+	First Aid Master [Right mouse button for more]	Casts Shield [Right mouse button for more]
+	Mana Magician [Right mouse button for more]	Casts Precision [Right mouse button for more]
+	Charming [Right mouse button for more]	Casts Fire Shield [Right mouse button for more]
+	Undead [Right mouse button for more]	Casts Animate Dead [Right mouse button for more]
+	Soul Reformer [Right mouse button for more]	Casts Bloodlust [Right mouse button for more]
+	Ballista Master [Right mouse button for more]	Casts Stone Skin [Right mouse button for more]
+	Superior Combat Ability [Right mouse button for more]	Casts Haste [Right mouse button for more]
+	Pacifist [Right mouse button for more]	Casts Counterstrike [Right mouse button for more]
+NPC ability popup texts	Gains 150% of Hero's experience	May cast Cure
+	Additional First Aid Tents, Number = Commander Level	May cast Shield [Duration = Magic Power]
+	Restores some spell points for Hero if he/she has lost them since previous Commander turn
+(number = LostMana *(20% + 5% * Commander Level))
+but no less than 1 Point and
+no more than 90% of Lost Points	May cast Precision [Duration = Magic Power]
+	Steals a portion of neutral stacks before combat.
+Formula is 5%+(Commander Level-1)/2 but not more than 20%	May cast Fire Shield [Duration = Magic Power]
+	Undead	May cast Animate Dead on Level 1-5 Creatures
+[HP Number = (Magic Power/4)*50+60 ]
+	Gives 50% of battle experience in gold	May cast Bloodlust [Duration = Magic Power]
+	Provides additional Ballistas #=Commander Level/4+1 (plus control)	May cast Stone Skin [Duration = Magic Power]
+	150% of Hero's Attack and Defense	May cast Haste (Speed + 5) [Duration = Magic Power]
+	Elemental + 5%+(Commander Level-1)/2 (maximum 20%)
+of Creatures in enemy Hero's army run away.	May cast Counterstrike [Duration = Magic Power]
+Extra Skill Hints (AT+)	no	no
+	Reduce Enemy Defense by 50% (Attack + Defense)	Commander can get : Reduce Enemy Defense by 50% (Attack + Defense)
+	Fearsome (Attack + Hit Points)	Commander can get : Fearsome (Attack + Hit Points)
+	Maximum damage always (Attack + Damage)	Commander can get : Maximum damage always (Attack + Damage)
+	No Enemy Retaliation (Attack + Magic Power)	Commander can get : No Enemy Retaliation (Attack + Magic Power)
+	Can Shoot (Attack + Speed)	Commander can get : Can Shoot (Attack + Speed)
+(DF+)	no	no
+	no	no
+	Endless Retaliation (Defense + Hit Points)	Commander can get : Endless Retaliation (Defense + Hit Points)
+	Strike all Enemies around (Defense + Damage)	Commander can get : Strike all Enemies around (Defense + Damage)
+	Permanent Fire Shield (Defense + Magic Power)	Commander can get : Permanent Fire Shield (Defense + Magic Power)
+	Block (Defense + Speed)	Commander can get : Block Physical Damage (Defense + Speed)
+(HP+)	no	no
+	no	no
+	no	no
+	Attack twice (Hit Points + Damage)	Commander can get : Attack twice (Hit Points + Damage)
+	Melee Attack 50% chance to Paralyze (Hit Points + Magic Power)	Commander can get : Melee Attacks 50% chance to Paralyze (Hit Points + Magic Power)
+	Regeneration 50 HP every turn (Hit Points + Speed)	Commander can get : Regeneration 50 HP every turn (Hit Points + Speed)
+(DM+)	no	no
+	no	no
+	no	no
+	no	no
+	DeathStare (Damage + Magic Power)	Commander can get : DeathStare (Damage + Magic Power)
+	Champion Distance Bonus (Damage + Speed)	Commander can get : Champion Distance Bonus (Damage + Speed)
+(MP+)	no	no
+	no	no
+	no	no
+	no	no
+	no	no
+	Ignore Obstacles [fly] (Magic Power + Speed)	Commander can get : Ignore Obstacles [fly] (Magic Power + Speed)
+(SP+)	no	no
+	no	no
+	no	no
+	no	no
+	no	no
+	no	no
+Extra Skill Popup (AT+)	no	
+	
+Reduce Enemy Defense by 50%
+
+The Commander may gain this extra skill if he or she has
+Attack and Defense Master skills
+
+It is marked with [D] in Commander info during a battle.
+	
+	
+Fearsome
+
+The Commander may gain this extra skill if he or she has
+Attack and Hit Points Master skills
+
+It is marked with [O] in Commander info during a battle.
+
+Enemies may lose their turn due to freezing with fear.
+	
+	
+Maximum damage always
+
+The Commander may gain this extra skill if he or she has
+Attack and Damage Master skills
+
+It is marked with [M] in Commander info during a battle.
+	
+	
+No Enemy Retaliation
+
+The Commander may gain this extra skill if he or she has
+Attack and Magic Power Master skills
+
+It is marked with [N] in Commander info during a battle.
+	
+	
+Can Shoot
+
+The Commander may gain this extra skill if he or she has
+Attack and Speed Master skills
+
+It is marked with [S] in Commander info during a battle.
+	
+(DF+)	no	
+	no	
+	
+Endless Retaliation
+
+The Commander may gain this extra skill if he or she has
+Defense and Hit Points Master skills
+
+It is marked with [E] in Commander info during a battle.
+
+Strike back every attack
+	
+	
+Strike all Enemies around
+
+The Commander may gain this extra skill if he or she has
+Defense and Damage Master skills
+
+It is marked with [A] in Commander info during a battle.
+	
+	
+Permanent Fire Shield
+
+The Commander may gain this extra skill if he or she has
+Defense and Magic Power Master skills
+
+It is marked with [I] in Commander info during a battle.
+
+Starts Every round with Fire Shield
+	
+	
+30% chance to Block any Physical Damage
+
+The Commander may gain this extra skill if he or she has
+Defense and Speed Master skills
+
+It is marked with [B] in Commander info during a battle.
+	
+(HP+)	no	
+	no	
+	no	
+	
+Attack twice
+
+The Commander may gain this extra skill if he or she has
+Hit Points and Damage Master skills
+
+It is marked with [2] in Commander info during a battle.
+	
+	
+Melee Attack 50% chance to Paralyze
+
+The Commander may gain this extra skill if he or she has
+Hit Points and Magic Power Master skills
+
+It is marked with [P] in Commander info during a battle.
+
+Every attack has 50% chance to Paralyze an enemy for 3 rounds
+	
+	
+Regeneration 50 HP every turn
+
+The Commander may gain this extra skill if he or she has
+Hit Points and Speed Master skills
+
+It is marked with [R] in Commander info during a battle.
+
+Every turn (in the beginning) regenerates 50 Hit Points
+	
+(DM+)	no	
+	no	
+	no	
+	no	
+	
+DeathStare
+
+The Commander may gain this extra skill if he or she has
+Damage and Magic Power Master skills
+
+It is marked with [G] in Commander info during a battle.
+
+Every attack has the Death Stare
+Kills (Commander Level)/(Creature Level)
+creatures in the stack
+where Creature Level is from 1 to 7
+	
+	
+Champion Distance Bonus
+
+The Commander may gain this extra skill if he or she has
+Damage and Speed Master skills
+
+It is marked with [C] in Commander info during a battle.
+
+Damage grows for 5% per square
+	
+(MP+)	no	
+	no	
+	no	
+	no	
+	no	
+	
+Ignore Obstacles [fly]
+
+The Commander may gain this extra skill if he or she has
+Magic Power and Speed Master skills
+
+It is marked with [F] in Commander info during a battle.
+	
+(SP+)	no	
+	no	
+	no	
+	no	
+	no	
+	no	
+Skill Hints (AT)	No Attack Skill [Right mouse button for more]	
+	Basic Attack Skill [Right mouse button for more]	
+	Advanced Attack Skill [Right mouse button for more]	
+	Expert Attack Skill [Right mouse button for more]	
+	Master Attack Skill [Right mouse button for more]	
+	Grandmaster Attack Skill [Right mouse button for more]	
+(DF)	No Defense Skill [Right mouse button for more]	
+	Basic Defense Skill [Right mouse button for more]	
+	Advanced Defense Skill [Right mouse button for more]	
+	Expert Defense Skill [Right mouse button for more]	
+	Master Defense Skill [Right mouse button for more]	
+	Grandmaster Defense Skill [Right mouse button for more]	
+(HP)	No Hit Points Skill [Right mouse button for more]	
+	Basic Hit Points Skill [Right mouse button for more]	
+	Advanced Hit Points Skill [Right mouse button for more]	
+	Expert Hit Points Skill [Right mouse button for more]	
+	Master Hit Points Skill [Right mouse button for more]	
+	Grandmaster Hit Points Skill [Right mouse button for more]	
+(DM)	No Damage Skill [Right mouse button for more]	
+	Basic Damage Skill [Right mouse button for more]	
+	Advanced Damage Skill [Right mouse button for more]	
+	Expert Damage Skill [Right mouse button for more]	
+	Master Damage Skill [Right mouse button for more]	
+	Grandmaster Damage Skill [Right mouse button for more]	
+(MP)	No Magic Power Skill [Right mouse button for more]	
+	Basic Magic Power Skill [Right mouse button for more]	
+	Advanced Magic Power Skill [Right mouse button for more]	
+	Expert Magic Power Skill [Right mouse button for more]	
+	Master Magic Power Skill [Right mouse button for more]	
+	Grandmaster Magic Power Skill [Right mouse button for more]	
+(SP)	No Speed Skill [Right mouse button for more]	
+	Basic Speed Skill [Right mouse button for more]	
+	Advanced Speed Skill [Right mouse button for more]	
+	Expert Speed Skill [Right mouse button for more]	
+	Master Speed Skill [Right mouse button for more]	
+	Grandmaster Speed Skill [Right mouse button for more]	
+Skill Popup Texts (AT)	
+No Attack Skill
+
+This skill gives only Basic 5 Attack
+
+The next levels of Attack Skill can give
+Basic: 7 Attack
+Advanced: 10 Attack
+Expert: 14 Attack
+Master: 20 Attack
+Grandmaster: 30 Attack
+
+With Master Attack, your Commander can get Extra skills
+with Master Defense skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Fearsome
+with Master Damage skill: Maximum damage always
+with Master Magic Power skill: No Enemy Retaliation
+with Master Speed skill: Can Shoot
+	
+	
+Basic Attack Skill
+
+This skill gives 7 Attack
+
+The next levels of Attack Skill can give
+Advanced: 10 Attack
+Expert: 14 Attack
+Master: 20 Attack
+Grandmaster: 30 Attack
+
+With Master Attack, your Commander can get Extra skills
+with Master Defense skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Fearsome
+with Master Damage skill: Maximum damage always
+with Master Magic Power skill: No Enemy Retaliation
+with Master Speed skill: Can Shoot
+	
+	
+Advanced Attack Skill
+
+This skill gives 10 Attack
+
+The next levels of Attack Skill can give
+Expert: 14 Attack
+Master: 20 Attack
+Grandmaster: 30 Attack
+
+With Master Attack, your Commander can get Extra skills
+with Master Defense skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Fearsome
+with Master Damage skill: Maximum damage always
+with Master Magic Power skill: No Enemy Retaliation
+with Master Speed skill: Can Shoot
+	
+	
+Expert Attack Skill
+
+This skill gives 14 Attack
+
+The next levels of Attack Skill can give
+Master: 20 Attack
+Grandmaster: 30 Attack
+
+With Master Attack, your Commander can get Extra skills
+with Master Defense skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Fearsome
+with Master Damage skill: Maximum damage always
+with Master Magic Power skill: No Enemy Retaliation
+with Master Speed skill: Can Shoot
+	
+	
+Master Attack Skill
+
+This skill gives 20 Attack
+
+The next level of Attack Skill can give
+Grandmaster: 30 Attack
+
+With Master Attack, your Commander can get Extra skills
+with Master Defense skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Fearsome
+with Master Damage skill: Maximum damage always
+with Master Magic Power skill: No Enemy Retaliation
+with Master Speed skill: Can Shoot
+	
+	
+Grandmaster Attack Skill
+
+This skill gives 30 Attack
+
+This is the last level of Attack Skill
+
+With Master Attack, your Commander can get Extra skills
+with Master Defense skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Fearsome
+with Master Damage skill: Maximum damage always
+with Master Magic Power skill: No Enemy Retaliation
+with Master Speed skill: Can Shoot
+	
+(DF)	
+No Defense Skill
+
+This skill gives only Basic 5 Defense
+
+The next levels of Defense Skill can give
+Basic: 9 Defense
+Advanced: 15 Defense
+Expert: 23 Defense
+Master: 35 Defense
+Grandmaster: 55 Defense
+
+With Master Defense, your Commander can get Extra skills
+with Master Attack skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Endless Retaliation
+with Master Damage skill: Strike all Enemies around
+with Master Magic Power skill: Permanent Fire Shield
+with Master Speed skill: Block Physical Damage
+	
+	
+Basic Defense Skill
+
+This skill gives 9 Defense
+
+The next levels of Defense Skill can give
+Advanced: 15 Defense
+Expert: 23 Defense
+Master: 35 Defense
+Grandmaster: 55 Defense
+
+With Master Defense, your Commander can get Extra skills
+with Master Attack skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Endless Retaliation
+with Master Damage skill: Strike all Enemies around
+with Master Magic Power skill: Permanent Fire Shield
+with Master Speed skill: Block Physical Damage
+	
+	
+Advanced Defense Skill
+
+This skill gives 15 Defense
+
+The next levels of Defense Skill can give
+Expert: 23 Defense
+Master: 35 Defense
+Grandmaster: 55 Defense
+
+With Master Defense, your Commander can get Extra skills
+with Master Attack skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Endless Retaliation
+with Master Damage skill: Strike all Enemies around
+with Master Magic Power skill: Permanent Fire Shield
+with Master Speed skill: Block Physical Damage
+	
+	
+Expert Defense Skill
+
+This skill gives 23 Defense
+
+The next levels of Defense Skill can give
+Master: 35 Defense
+Grandmaster: 55 Defense
+
+With Master Defense, your Commander can get Extra skills
+with Master Attack skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Endless Retaliation
+with Master Damage skill: Strike all Enemies around
+with Master Magic Power skill: Permanent Fire Shield
+with Master Speed skill: Block Physical Damage
+	
+	
+Master Defense Skill
+
+This skill gives 35 Defense
+
+The next level of Defense Skill can give
+Grandmaster: 55 Defense
+
+With Master Defense, your Commander can get Extra skills
+with Master Attack skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Endless Retaliation
+with Master Damage skill: Strike all Enemies around
+with Master Magic Power skill: Permanent Fire Shield
+with Master Speed skill: Block Physical Damage
+	
+	
+Grandmaster Defense Skill
+
+This skill gives 55 Defense
+
+This is the last level of Defense Skill
+
+With Master Defense, your Commander can get Extra skills
+with Master Attack skill: Reduce Enemy Defense by 50%
+with Master Hit Points skill: Endless Retaliation
+with Master Damage skill: Strike all Enemies around
+with Master Magic Power skill: Permanent Fire Shield
+with Master Speed skill: Block Physical Damage
+	
+(HP)	
+No Hit Points Skill
+
+This skill gives only
+Basic 20HP+Level*20
+
+The next levels of Hit Points Skill can give
+Basic: plus 10% to HP
+Advanced: plus 25% to HP
+Expert: plus 45% to HP
+Master: plus 70% to HP
+Grandmaster: plus 100% to HP
+
+With Master Hit Points, your Commander can get Extra skills
+with Master Attack skill: Fearsome
+with Master Defense skill: Endless Retaliation
+with Master Damage skill: Attack Twice
+with Master Magic Power skill: Melee Attack may Paralyze
+with Master Speed skill: Regeneration 50 HP every turn
+	
+	
+Basic Hit Points Skill
+
+This skill gives
+Basic 20HP+Level*20 plus 10%
+
+The next levels of Hit Points Skill can give
+Advanced: plus 25% to HP
+Expert: plus 45% to HP
+Master: plus 70% to HP
+Grandmaster: plus 100% to HP
+
+With Master Hit Points, your Commander can get Extra skills
+with Master Attack skill: Fearsome
+with Master Defense skill: Endless Retaliation
+with Master Damage skill: Attack Twice
+with Master Magic Power skill: Melee Attack may Paralyze
+with Master Speed skill: Regeneration 50 HP every turn
+	
+	
+Advanced Hit Points Skill
+
+This skill gives
+Basic 20HP+Level*20 plus 25%
+
+The next levels of Hit Points Skill can give
+Expert: plus 45% to HP
+Master: plus 70% to HP
+Grandmaster: plus 100% to HP
+
+With Master Hit Points, your Commander can get Extra skills
+with Master Attack skill: Fearsome
+with Master Defense skill: Endless Retaliation
+with Master Damage skill: Attack Twice
+with Master Magic Power skill: Melee Attack may Paralyze
+with Master Speed skill: Regeneration 50 HP every turn
+	
+	
+Expert Hit Points Skill
+
+This skill gives
+Basic 20HP+Level*20 plus 45%
+
+The next levels of Hit Points Skill can give
+Master: plus 70% to HP
+Grandmaster: plus 100% to HP
+
+With Master Hit Points, your Commander can get Extra skills
+with Master Attack skill: Fearsome
+with Master Defense skill: Endless Retaliation
+with Master Damage skill: Attack Twice
+with Master Magic Power skill: Melee Attack may Paralyze
+with Master Speed skill: Regeneration 50 HP every turn
+	
+	
+Master Hit Points Skill
+
+This skill gives
+Basic 20HP+Level*20 plus 70%
+
+The next levels of Hit Points Skill can give
+Grandmaster: plus 100% to HP
+
+With Master Hit Points, your Commander can get Extra skills
+with Master Attack skill: Fearsome
+with Master Defense skill: Endless Retaliation
+with Master Damage skill: Attack Twice
+with Master Magic Power skill: Melee Attack may Paralyze
+with Master Speed skill: Regeneration 50 HP every turn
+	
+	
+Grandmaster Hit Points Skill
+
+This skill gives
+Basic 20HP+Level*20 plus 100%
+
+This is the last level of Hit Points Skill
+
+With Master Hit Points, your Commander can get Extra skills
+with Master Attack skill: Fearsome
+with Master Defense skill: Endless Retaliation
+with Master Damage skill: Attack Twice
+with Master Magic Power skill: Melee Attack may Paralyze
+with Master Speed skill: Regeneration 50 HP every turn
+	
+(DM)	
+No Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage
+
+The next levels of Damage Skill can give
+Basic: plus 10% to Damage
+Advanced: plus 25% to Damage
+Expert: plus 45% to Damage
+Master: plus 70% to Damage
+Grandmaster: plus 100% to Damage
+
+With Master Damage, your Commander can get Extra skills
+with Master Attack skill: Maximum damage always
+with Master Defense skill: Strike all Enemies around
+with Master Hit Points skill: Attack Twice
+with Master Magic Power skill: DeathStare
+with Master Speed skill: Champion Distance Bonus
+	
+	
+Basic Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage + 10%
+
+The next levels of Damage Skill can give
+Advanced: plus 25% to Damage
+Expert: plus 45% to Damage
+Master: plus 70% to Damage
+Grandmaster: plus 100% to Damage
+
+With Master Damage, your Commander can get Extra skills
+with Master Attack skill: Maximum damage always
+with Master Defense skill: Strike all Enemies around
+with Master Hit Points skill: Attack Twice
+with Master Magic Power skill: DeathStare
+with Master Speed skill: Champion Distance Bonus
+	
+	
+Advanced Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage + 25%
+
+The next levels of Damage Skill can give
+Expert: plus 45% to Damage
+Master: plus 70% to Damage
+Grandmaster: plus 100% to Damage
+
+With Master Damage, your Commander can get Extra skills
+with Master Attack skill: Maximum damage always
+with Master Defense skill: Strike all Enemies around
+with Master Hit Points skill: Attack Twice
+with Master Magic Power skill: DeathStare
+with Master Speed skill: Champion Distance Bonus
+	
+	
+Expert Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage + 45%
+
+The next levels of Damage Skill can give
+Master: plus 70% to Damage
+Grandmaster: plus 100% to Damage
+
+With Master Damage, your Commander can get Extra skills
+with Master Attack skill: Maximum damage always
+with Master Defense skill: Strike all Enemies around
+with Master Hit Points skill: Attack Twice
+with Master Magic Power skill: DeathStare
+with Master Speed skill: Champion Distance Bonus
+	
+	
+Master Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage + 70%
+
+The next levels of Damage Skill can give
+Grandmaster: plus 100% to Damage
+With Master Damage, your Commander can get Extra skills
+with Master Attack skill: Maximum damage always
+with Master Defense skill: Strike all Enemies around
+with Master Hit Points skill: Attack Twice
+with Master Magic Power skill: DeathStare
+with Master Speed skill: Champion Distance Bonus
+	
+	
+Grandmaster Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage + 100%
+
+This is the last level of Damage Skill
+
+With Master Damage, your Commander can get Extra skills
+with Master Attack skill: Maximum damage always
+with Master Defense skill: Strike all Enemies around
+with Master Hit Points skill: Attack Twice
+with Master Magic Power skill: DeathStare
+with Master Speed skill: Champion Distance Bonus
+		
+(SP)	
+No Speed Skill
+
+This skill gives only Basic 4 Speed
+
+The next levels of Speed Skill can give
+Basic: 5 Speed
+Advanced: 6 Speed
+Expert: 7 Speed
+Master: 8 Speed
+Grandmaster: 10 Speed
+
+With Master Speed, your Commander can get Extra skills
+with Master Attack skill: Can Shoot
+with Master Defense skill:Block Physical Damage
+with Master Hit Points skill: Regeneration 50 HP every turn
+with Master Damage skill: Champion Distance Bonus
+with Master Magic Power skill:  Ignore Obstacles [fly]
+	
+	
+Basic Speed Skill
+
+This skill gives 5 Speed
+
+The next levels of Speed Skill can give
+Advanced: 6 Speed
+Expert: 7 Speed
+Master: 8 Speed
+Grandmaster: 10 Speed
+
+with Master Speed, your Commander can get Extra skills
+with Master Attack skill: Can Shoot
+with Master Defense skill: Block Physical Damage
+with Master Hit Points skill: Regeneration 50 HP every turn
+with Master Damage skill: Champion Distance Bonus
+with Master Magic Power skill:  Ignore Obstacles [fly]
+	
+	
+Advanced Speed Skill
+
+This skill gives 6 Speed
+
+The next levels of Speed Skill can give
+Expert: 7 Speed
+Master: 8 Speed
+Grandmaster: 10 Speed
+
+with Master Speed, your Commander can get Extra skills
+with Master Attack skill: Can Shoot
+with Master Defense skill: Block Physical Damage
+with Master Hit Points skill: Regeneration 50 HP every turn
+with Master Damage skill: Champion Distance Bonus
+with Master Magic Power skill:  Ignore Obstacles [fly]
+	
+	
+Expert Speed Skill
+
+This skill gives 7 Speed
+
+The next levels of Speed Skill can give
+Master: 8 Speed
+Grandmaster: 10 Speed
+
+with Master Speed, your Commander can get Extra skills
+with Master Attack skill: Can Shoot
+with Master Defense skill: Block Physical Damage
+with Master Hit Points skill: Regeneration 50 HP every turn
+with Master Damage skill: Champion Distance Bonus
+with Master Magic Power skill:  Ignore Obstacles [fly]
+	
+	
+Master Speed Skill
+
+This skill gives 8 Speed
+
+The next levels of Speed Skill can give
+Grandmaster: 10 Speed
+
+with Master Speed, your Commander can get Extra skills
+with Master Attack skill: Can Shoot
+with Master Defense skill: Block Physical Damage
+with Master Hit Points skill: Regeneration 50 HP every turn
+with Master Damage skill: Champion Distance Bonus
+with Master Magic Power skill:  Ignore Obstacles [fly]
+	
+	
+Grandmaster Speed Skill
+
+This skill gives 10 Speed
+
+This is the last level of Speed Skill
+
+with Master Speed, your Commander can get Extra skills
+with Master Attack skill: Can Shoot
+with Master Defense skill: Block Physical Damage
+with Master Hit Points skill: Regeneration 50 HP every turn
+with Master Damage skill: Champion Distance Bonus
+with Master Magic Power skill:  Ignore Obstacles [fly]
+	
+(MP)	
+No Magic Power Skill
+
+This skill gives only
+Basic 1 Magic Power
+May cast 1 time
+Basic 5% Magic Resistance
+
+The next levels of Magic Power Skill can give
+Basic: 2 Power, casts 2 times, 10% Magic Resistance
+Advanced: 4 Power, casts 3 times, 20% Magic Resistance
+Expert: 7 Power, casts 4 times, 40% Magic Resistance
+Master: 15 Power, casts 5 times, 65% Magic Resistance
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance
+
+With Master Magic Power, your Commander can get Extra skills
+with Master Attack skill: No Enemy Retaliation
+with Master Defense skill: Permanent Fire Shield
+with Master Hit Points skill: Melee Attack may Paralyze
+with Master Damage skill: DeathStare
+with Master Speed skill:  Ignore Obstacles [fly]
+	
+	
+Basic Magic Power Skill
+
+This skill gives
+2 Magic Power
+May cast 2 times
+10% Magic Resistance
+
+The next levels of Magic Power Skill can give
+Advanced: 4 Power, casts 3 times, 20% Magic Resistance
+Expert: 7 Power, casts 4 times, 40% Magic Resistance
+Master: 15 Power, casts 5 times, 65% Magic Resistance
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance
+
+With Master Magic Power, your Commander can get Extra skills
+with Master Attack skill: No Enemy Retaliation
+with Master Defense skill: Permanent Fire Shield
+with Master Hit Points skill: Melee Attack may Paralyze
+with Master Damage skill: DeathStare
+with Master Speed skill:  Ignore Obstacles [fly]
+	
+	
+Advanced Magic Power Skill
+
+This skill gives
+4 Magic Power
+May cast 3 times
+20% Magic Resistance
+
+The next levels of Magic Power Skill can give
+Expert: 7 Power, casts 4 times, 40% Magic Resistance
+Master: 15 Power, casts 5 times, 65% Magic Resistance
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance
+
+With Master Magic Power, your Commander can get Extra skills
+with Master Attack skill: No Enemy Retaliation
+with Master Defense skill: Permanent Fire Shield
+with Master Hit Points skill: Melee Attack may Paralyze
+with Master Damage skill: DeathStare
+with Master Speed skill:  Ignore Obstacles [fly]
+	
+	
+Expert Magic Power Skill
+
+This skill gives
+7 Magic Power
+May cast 4 times
+40% Magic Resistance
+
+The next levels of Magic Power Skill can give
+Master: 15 Power, casts 5 times, 65% Magic Resistance
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance
+
+With Master Magic Power, your Commander can get Extra skills
+with Master Attack skill: No Enemy Retaliation
+with Master Defense skill: Permanent Fire Shield
+with Master Hit Points skill: Melee Attack may Paralyze
+with Master Damage skill: DeathStare
+with Master Speed skill:  Ignore Obstacles [fly]
+	
+	
+Master Magic Power Skill
+
+This skill gives
+15 Magic Power
+May cast 5 times
+65% Magic Resistance
+
+The next levels of Magic Power Skill can give
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance
+
+With Master Magic Power, your Commander can get Extra skills
+with Master Attack skill: No Enemy Retaliation
+with Master Defense skill: Permanent Fire Shield
+with Master Hit Points skill: Melee Attack may Paralyze
+with Master Damage skill: DeathStare
+with Master Speed skill:  Ignore Obstacles [fly]
+	
+	
+Grandmaster Magic Power Skill
+
+This skill gives
+30 Magic Power
+May cast 6 times
+95% Magic Resistance
+
+This is the last level of Magic Power Skill
+
+With Master Magic Power, your Commander can get Extra skills
+with Master Attack skill: No Enemy Retaliation
+with Master Defense skill: Permanent Fire Shield
+with Master Hit Points skill: Melee Attack may Paralyze
+with Master Damage skill: DeathStare
+with Master Speed skill:  Ignore Obstacles [fly]
+
+Inferno NPC	Your Commander charms some of the creatures into joining your army.	
+Conflux NPC	Your Commander has persuaded some creatures from the enemy's army to leave the battlefield and live peaceful lives instead of fighting.	
+Conflux NPC	The enemy Commander has persuaded some of the creatures in your army to leave the battlefield and live peaceful lives instead of fighting.	
+Dungeon NPC	Your minions gather up the bodies and sell them for gold.	
+In Town	You do not have enough gold to hire a Commander.	
+In Town	You have no Commander.
+
+Do you want to hire one?	
+In Town	Sorry, but you do not have enough gold to revive your Commander.	
+In Town	Do you want to revive your Commander?	
+180	Here you can see information about your Commander.	
+181	You have no Commander now.
+
+You can hire one at any of your towns.	
+182	You cannot hire a Commander.	
+183	You need a Magic Guild of level 1 to revive your Commander	
+184	You need a Magic Guild of level 2 to revive your Commander	
+185	You need a Magic Guild of level 3 to revive your Commander	
+Description of NPC Types-Paladin	As a divine defender of justice, this holy avenger's abilities grow stronger with every battle won. The Paladin has also been blessed with healing magic to keep the troops alive and fighting strong.	
+187-Hierophant	These mystical Commanders are natural healers, always insisting on at least one first aid tent for any army they command. In battle, they protect the lives of their troops by conjuring a magical shield to ward off deadly blows.	
+188-Temple Guardian	Strong willed and intelligent, the beautiful Temple Guardian is a distant cousin to the titans. Her presence on the battlefield improves the ranged accuracy of titans as well as the other troops she commands. This power is almost as useful as her innate ability to draw forth and channel mana from an emotionally-charged field of battle.	
+189-Succubus	Always sensual and charming, your ranks will soon swell with creatures entranced under this demonic Commander's spell. The Succubus' affinity for fire lets her protect her minions with an aura of flame.	
+190-Soul Eater	These soulless Commanders absorb the spiritual essence of the creature they kill to sustain them in their unnatural unlife. On the battlefield, the Soul Eater uses her necromantic powers to reanimate her fallen undead comrades.	
+191-Brute	A fearless fighter in battle, this Commander inspires bloodlust in the troops he or she commands. And when it's all over, the Brute directs the army to gather up the corpses, for there is always a demand for fresh bodies in the dark and smelly depths of the dungeon.	
+192-Ogre Leader	The resourceful Ogre Leaders have fallen in love with the deadly ballista and always make sure there's at least one in any army they command. These cunning Commanders have also mastered a spell that makes their troops' skin as hard as stone.	
+193-Shaman	This adept Commander uses primal magic to become much stronger in battle, drawing upon the spiritual totem of the hero who leads the army. The Shaman's spells increase both the speed and reflexes of the Fortress beasts to which he or she is attuned.	
+194-Astral Spirit	Originating on the astral plane, this Commander's ability to reveal glimpses of an empty and desolate world often make the once-loyal soldiers of sworn enemies cast down their weapons, having seen the futility of war. The Astral Spirit also possesses telepathy and can sometimes warn friendly troops of a surprise attack from behind.	
+195	%s has reached level %i	
+196	L:%i,MP:%i	
+197	%s,MR:%i%%[%s]	
+198	%s
+Casts %s (%i)	
+199	MPREC2DNOSAIBGF	
+200	%s
+%i of the %s	
+201	.\DATA\ZVS\LIB1.RES\NPC0.gif	
+202	.\DATA\ZVS\LIB1.RES\NPC1.gif	
+203	.\DATA\ZVS\LIB1.RES\NPC2.gif	
+204	.\DATA\ZVS\LIB1.RES\NPC3.gif	
+205	.\DATA\ZVS\LIB1.RES\NPC4.gif	
+206	.\DATA\ZVS\LIB1.RES\NPC5.gif	
+207	.\DATA\ZVS\LIB1.RES\NPC6.gif	
+208	.\DATA\ZVS\LIB1.RES\NPC7.gif	
+209	.\DATA\ZVS\LIB1.RES\NPC8.gif	
+210	Your Commander has no knowledge of this Artifact	
+211	Your Commander cannot use this Artifact now	
+212	Your Commander cannot carry any more Artifacts	
+213	You cannot pass artifacts to the Hero now	
+214	There is no free space in the Hero's backpack	
+215	Right mouse click for Commander Biography	
+216	Paladin	
+217	Hierophant	
+218	Temple Guardian	
+219	Succubus	
+220	Soul Eater	
+221	Brute	
+222	Ogre Leader	
+223	Shaman	
+224	Astral Spirit	
+225	Left Mouse Click to pass to Hero, Right Mouse Click for info	
+226	
+Axe of Smashing
+
+Gives +%i Attack
+(will give +%i Attack after %i victorious battles)
+	
+227	
+Mithril Mail
+
+Gives +%i%% Health
+(will give +%i%% Health after %i victorious battles)
+	
+228	
+Sword of Sharpness
+
+Gives +%i%% Damage
+(will give +%i%% Damage after %i victorious battles)
+	
+229	
+Helm of Immortality
+
+Revives a slain Commander immediately after battle
+(artifact incremental bonuses are not lost)
+	
+230	
+Pendant of Sorcery
+
+Gives +%i Magic Power
+(will give +%i Magic Power after %i victorious battles)
+	
+231	
+Boots of Haste
+
+Gives +%i Speed
+(will give +%i Speed after %i victorious battles)
+	
+232	
+Not Using Description
+	
+233	
+Dragon Eye Ring
+
+Gives Commander Breath Attack (two squares)
+and
+Dragon nature (gets bonuses the same as Dragons)
+	
+234	
+Hardened Shield
+
+Gives +%i Defense
+(will give +%i Defense after %i victorious battles)
+	
+235	
+Slava's Ring of Power
+
+Gives Commander all six Primary Skills at Advanced level
+	
+236	
+Magical Advanced Attack Skill
+
+This skill gives 10 Attack
+while you wear Slava's Ring of Power
+	
+237	
+Magical Advanced Defense Skill
+
+This skill gives 15 Defense
+while you wear Slava's Ring of Power
+	
+238	
+Magical Advanced Hit Points Skill
+
+This skill gives
+Basic 20HP+Level*20 plus 25%
+while you wear Slava's Ring of Power
+	
+239	
+Magical Advanced Damage Skill
+
+This skill gives
+Basic 8+Level*4 Damage + 25%
+while you wear Slava's Ring of Power
+	
+240	
+Magical Advanced Magic Power Skill
+
+This skill gives
+4 Magic Power
+May cast 3 times
+20% Magic Resistance
+while you wear Slava's Ring of Power
+	
+241	
+Magical Advanced Speed Skill
+
+This skill gives 6 Speed
+while you wear Slava's Ring of Power
+	
+242	Right mouse click for Commander Type Description	
+243	Your Commander is already happy to have such an artifact and has no need of another one that's the same	
+244	
+Bow of Seeking
+
+Gives "No Obstacle Penalty"
+(will give "No Long-Range Penalty" after %i victorious battles)
+	
+245	
+Bow of Seeking
+
+Gives "No Obstacle Penalty"
+and
+"No Long-Range Penalty"
+	
+246	
+Bow of Seeking
+
+Gives Nothing
+(will give Shooting Ability after %i victorious battles,
+"No Obstacle Penalty" after %i victorious battles,
+and "No Long-Range Penalty" after %i victorious battles)
+	
+247	
+Bow of Seeking
+
+Gives Shooting Ability
+(will give "No Obstacle Penalty" after %i victorious battles,
+and "No Long-Range Penalty" after %i victorious battles)
+	
+248	
+Bow of Seeking
+
+Gives Shooting Ability
+and "No Obstacle Penalty"
+(will give "No Long-Range Penalty" after %i victorious battles)
+	
+249	
+Bow of Seeking
+
+Gives Shooting Ability,
+"No Obstacle Penalty"
+and "No Long-Range Penalty"
+	
+250	The Commander managed to block the next attack	
+251	You come upon an Opal of Magic.
+It shimmers with a mystic light and
+your Commander's Magic Power increases by 1.	
+252	You come upon a Ruby of Offense.
+It pulses with power, red as blood, and
+your Commander's Attack increases by 2.	
+253	You come upon a Sapphire of Defense.
+It sparkles with protective power and
+your Commander's Defense increases by 2.	
+254	You come upon an Emerald of Speed.
+It glows brightly and suddenly is gone.
+Your Commander's Speed increases by 1.	
+255	Your Commander	
+256	Permanent bonus Your Commander gets	
+257	Creatures that had been persuaded by the enemy Commander to leave the battlefield returned.	
+258		
+259		
+260		

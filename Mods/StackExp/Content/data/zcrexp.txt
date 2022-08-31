@@ -1,0 +1,657 @@
+Comment	Message Text
+0% Exp Stack Rank	Basic
+10%	Novice
+20%	Trained
+30%	Skilled
+40%	Proven
+50%	Veteran
+60%	Adept
+70%	Expert
+80%	Elite
+90%	Master
+100%	Ace
+Block message	The Stack managed to block the next attack
+13	Stack Experience
+14	 [Rank 
+15	] has 
+16	] have 
+17	 out of 
+18	 Experience Points.
+19	% Exp. Ranks
+20	A Percentage of Experience Ranks
+21	# Exp. Ranks
+22	Total Experience Points for Each Rank
+23 A	Attack
+24 A	Attack Bonus
+25 D	Defense
+26 D	Defense Bonus
+27 H	Health
+28 H	Health Bonus
+29 m	Min Damage
+30 m	Minimum Damage Bonus
+31 M	Max Damage
+32 M	Maximum Damage Bonus
+33 S	Speed
+34 S	Speed Bonus
+35 O	Shots
+36 O	Number of Extra Shots
+37 P	Casts
+38 P	Number of Extra Spell Castings
+39 f,F	Fly
+40 f,F	Creature can Fly
+41 f,F	Can Fly (ignore obstacles)
+42 f,S	Ranged
+43 f,S	Creature can make a Ranged Attack
+44 f,S	Can make a Ranged Attack
+45 f,B	Breath
+46 f,B	Creature has a Breath Attack (2-hex range)
+47 f,B	Has a Breath Attack (2-hex range)
+48 f,L	Alive
+49 f,L	Creature is Alive
+50 f,L	Alive
+51 f,1	KING 1
+52 f,1	Creature belongs to KING 1 group
+53 f,1	Belongs to KING 1 group
+54 f,2	KING 2
+55 f,2	Creature belongs to KING 2 group
+56 f,2	Belongs to KING 2 group
+57 f,3	KING 3
+58 f,3	Creature belongs to KING 3 group
+59 f,3	Belongs to KING 3 group
+60 f,P	Mind
+61 f,P	Creature is immune to Mind spells
+62 f,P	Immune to Mind spells
+63 f,E	Melee
+64 f,E	Creature has no Melee penalty
+65 f,E	No Melee penalty
+66 f,I	Fire
+67 f,I	Creature is immune to Fire
+68 f,I	Immune to Fire
+69 f,D	Double
+70 f,D	Creature strikes twice
+71 f,D	Double Strike
+72 f,R	No Retal
+73 f,R	Enemy cannot Retaliate
+74 f,R	Enemy cannot Retaliate
+75 f,M	Morale
+76 f,M	Creature is unaffected by Morale
+77 f,M	Unaffected by Morale
+78 f,U	Undead
+79 f,U	Creature is Undead
+80 f,U	Undead
+81 f,A	Around
+82 f,A	Creature attacks all adjacent enemies
+83 f,A	All Around Attack
+84 f,G	Dragon
+85 f,G	Creature has a Dragon Nature
+86 f,G	Dragon Nature
+87 -	??Undef??
+88 B	Block
+89 B	Complete Block of a Physical Attack
+90 B	Has a Chance to Block Physical Damage
+91	??Undef??
+92	Current Stack Bonus : 
+93	NO
+94	YES
+95	NO
+96	No specific settings
+97	the stack HAS this Bonus
+98	the stack does NOT have this Bonus
+99	+
+100	+
+101	%
+102	=
+103 C	Mana
+104 C	Reduce Casting Cost of allied hero spells
+105 C	Reduce Spell Point Casting Cost (Mana)
+106	"Check Upgraded/Nonupgraded Creature Bonuses"
+107 F	Fear
+108 F	Has a chance to cause Fear on an enemy stack
+109 F	Fearsome
+110 R	Retaliate
+111 R	May Retaliate extra times
+112 d	Defending
+113 d	Defending Bonus
+114 W	Resistance
+115 W	Has a chance to Resist hostile spell effects (Dwarf type)
+116 i	Distance
+117 i	No Distance Penalty
+118 i	No Distance Penalty
+119 o	Obstacle
+120 o	No Obstacle Penalty
+121 o	No Obstacle Penalty
+122	Ranks that Stack may have
+123 e	Death Blow
+124 e	Has a chance to do a double damage Death Blow
+125 e	Double damage Death Blow
+126 h	Enemy
+127 h	Does More damage to a Specific Creature
+128 h	Does More damage to : 
+129 h	Natural Enemy : 
+130 c	Caster
+131 c	May Cast a spell with attack
+132 c	May Cast : 
+133 s	Enchant
+134 s	The stack is Enchanted with a Spell
+135 s	No
+136 s	Basic
+137 s	Adv.
+138 s	Expert
+139 s	Current Bonus the stack has : %s 
+140 p	Magician
+141 p	May Cast an Expert/Mass Version of a Spell before attack
+142 p	May Cast (before attack) Expert/Mass Spell : 
+143 s	Mass Spell is : 
+144 h	Does Less damage to a Specific Creature
+145 h	Does Less damage to : 
+146 a	Magician
+147 a	May Cast an Expert/Mass Version of a Spell after attack
+148 a	May Cast (after attack) Expert/Mass Spell : 
+149 f,b	Return
+150 f,b	Returns to starting position after making a melee attack
+151 f,b	Attack and Return
+152 w,1	Immunity 1
+153 w,1	Immune to Level 1 Spells
+154 w,1	Immune to Level 1 Spells
+155 w,2	Immunity 2
+156 w,2	Immune to Level 1 and 2 Spells
+157 w,2	Immune to Level 1 and 2 Spells
+158 w,3	Immunity 3
+159 w,3	Immune to Level 1, 2 and 3 Spells
+160 w,3	Immune to Level 1, 2 and 3 Spells
+161 w,4	Immunity 4
+162 w,4	Immune to Level 1, 2, 3 and 4 Spells
+163 w,4	Immune to Level 1, 2, 3 and 4 Spells
+164 w,5	Immunity 5
+165 w,5	Immune to Level 1, 2, 3, 4 and 5 Spells
+166 w,5	Immune to Level 1, 2, 3, 4 and 5 Spells
+167 w,C	Cold Immune
+168 w,C	Cold Spell Immunity (Ice Bolt, Frost Ring)
+169 w,C	Cold Spell Immunity (Ice Bolt, Frost Ring)
+170 w,R	Armmunity
+171 w,R	Immune to Armageddon
+172 w,R	Armageddon Immunity
+173 w,A	Air Immune
+174 w,A	Immune to Air Magic Spells
+175 w,A	Air Spell Immunity
+176 w,F	Fire Immune
+177 w,F	Immune to Fire Magic Spells
+178 w,F	Fire Spell Immunity
+179 w,W	Water Immune
+180 w,W	Immune to Water Magic Spells
+181 w,W	Water Spell Immunity
+182 w,E	Earth Immune
+183 w,E	Immune to Earth Magic Spells
+184 w,E	Earth Spell Immunity
+185 w,L	Light Immune
+186 w,L	Immune to Lightning Spells
+187 w,L	Lightning Spell Immunity
+188 w,0	Receptive
+189 w,0	No Immunity to Friendly Spells
+190 w,0	No Immunity to Friendly Spells
+191 w,M	Met.Shower
+192 w,M	Immune to Meteor Shower
+193 w,M	Immune to Meteor Shower
+194 w,I	Implosion
+195 w,I	Immune to Implosion
+196 w,I	Immune to Implosion
+197 w,P	Dispel
+198 w,P	Immune to Dispel
+199 w,P	Immune to Dispel
+200 w,E	Dispel+
+201 w,E	Immune to Dispel Beneficial Spells
+202 w,E	Immune to Dispel Beneficial Spells
+203 w,B	Blind
+204 w,B	Immune to Blind
+205 w,B	Immune to Blind
+206 w,K	Berserk
+207 w,K	Immune to Berserk
+208 w,K	Immune to Berserk
+209 w,H	Hypnotize
+210 w,H	Immune to Hypnotize
+211 w,H	Immune to Hypnotize
+212 w,S	Slow
+213 w,S	Immune to Slow
+214 w,S	Immune to Slow
+215 b	Reduce Def.
+216 b	Reduces Enemy Defense by a percentage for this attack
+217 b	Reduces Enemy Defense
+218	Champion
+219	Champion Distance Bonus (+5% damage per square travelled)
+220	Champion Distance Bonus
+221	- 
+222	Golem
+223	Golem Style of Spell Damage Resistance
+224	Regenerate
+225	May Regenerate Health
+226	Has a 
+227	% chance to Regenerate 
+228	 HP
+229	Morale
+230	Always has Positive Morale
+231	Always has Positive Morale
+232	Shoot Close
+233	Can make a Ranged Attack in Close Combat
+234	Can make a Ranged Attack in Close Combat
+235	Mass Spell (with Creature Immunity) is : 
+236	Additional Spell Castings
+237	Extra Ammo
+238	Additional Retaliations
+239	Additional Bonus to Defense if Stack takes a Defend action
+240	Has a chance to Resist hostile spell effects (Dwarf type)
+241	Golem Style of Spell Damage Resistance
+242	 (including beneficial)
+243	Fearless
+244	Immune to Fear ability
+245	Immune to Fear ability
+246	Rebirth
+247	After defeat, 20% of stack Resurrects
+248	After defeat, 20% of stack Resurrects
+249	Magic Aura
+250	Unicorn Magic Aura (+20% Magic Resistance to Adjacent Stacks)
+251	Unicorn Magic Aura (+20% Resistance to Adjacent Stacks)
+252	Death Stare
+253	Death Stare
+254	Death Stare
+255 s,6	Mass Spell (with Other Creature Immunity) is : 
+Partial Block message	The Stack partially deflected the attack ( %i%% of Damage, %i%% Chance)
+257 Deflect	Deflect
+258 Deflect	Has a chance to partially Block Physical Damage
+259 Deflect	Has 
+260 Deflect	% chance to Block a part of Damage
+261 Deflect	Has a Chance to Block 
+262 Deflect	% of Damage
+263 s	Mass
+264 s	Mass+R
+265 s	Mass+RE
+266 w,O	Fire+
+267 w,O	Immune to all Fire Damage spells (but NOT Magic Arrow)
+268 w,O	Immune to all Fire Damage spells (but NOT Magic Arrow)
+269 w,D	Direct
+270 w,D	Immune to All Direct Damage Spells
+271 w,D	Immune to All Direct Damage Spells
+272 w,p	Dispel H
+273 w,p	Immune to Hostile Dispel
+274 w,p	Immune to Hostile Dispel
+275 w,m	Iron Will
+276 w,m	Immune to all Hostile Mind Spells
+277 w,m	Immune to all Mind Spells except Mirth and Frenzy
+278 w,?	
+279 w,?	
+280 w,?	
+281 w,?	
+282 w,?	
+283 w,?	
+284 w,?	
+285 w,?	
+286 w,?	
+287 w,?	
+288 w,?	
+289 w,?	
+290 w,?	
+291 w,?	
+292 w,?	
+293 w,?	
+294 w,?	
+295 w,?	
+296 w,?	
+297 w,?	
+298 w,?	
+299 w,?	
+300 w,?	
+301 w,?	
+302 G	Santa Guards
+303 G	Santa Gremlin's Guards are improved
+304 G	Has an upgraded type of guards
+305 G	Has increased number of guards
+306 G	Has an upgraded type of guards
+307 G	Has increased number of guards
+308 U	Summon
+309 U	Summon a Stack of % number every 4th round (start with second)
+310 U	Summon a Stack of % number every 4th round (start with second)
+311 U	Summon every 4th round (start with second) a Stack of 
+312 u	Summon Once
+313 u	Summon a Stack of % number at the second round of a battle
+314 u	Summon a Stack of % number at the second round of a battle
+315 u	Summon once at the second round a Stack of 
+316 l	Summon Clone
+317 l	Summon a "Cloned" Stack of % number every round (start with second)
+318 l	Summon a "Cloned" Stack of % number every round (start with second)
+319 l	Summon every round (start with second)
+a "Cloned" Stack of 
+320	 (excluding beneficial)
+321	, chance is 
+322	 MORE Damage
+323	 LESS Damage
+324	.  Does 
+325	
+» S t a c k   E x p e r i e n c e   D e t a i l s «
+
+Creature Type ................... : %s
+Experience Rank ................. : %s (%i)
+Experience Points ............... : %i
+Experience Points to Next Rank .. : %i
+Maximum Experience per Battle ... : %i%% (%i)
+Number of Creatures in stack .... : %i
+Maximum New Recruits
+ without losing current Rank .... : %i
+Experience Multiplier ........... : %.2f
+Upgrade Multiplier .............. : %.2f
+Experience after Rank 10 ........ : %i
+Maximum New Recruits to remain at
+ Rank 10 if at Maximum Experience : %i
+326	Sorcerer
+327	May Cast an Advanced Version of a Spell before attack
+328	May Cast (before attack) Advanced Spell : 
+329	Conjurer
+330	May Cast a Basic Version of a Spell before attack
+331	May Cast (before attack) Basic Spell :
+332	Sorcerer
+333	May Cast an Advanced Version of a Spell after attack
+334	May Cast (after attack) Advanced Spell :
+335	Conjurer
+336	May Cast a Basic Version of a Spell after attack
+337	May Cast (after attack) Basic Spell :
+338	Check info on Upgraded creature (if possible)
+
+The experience is recalculated according to
+upgrade multiplier.
+339	Activate an Artifact option
+340	+2 Health plus doubles stack's current Health bonus in combat
+341	+2 Attack plus doubles stack's current Attack bonus in combat
+342	+2 Defense plus doubles stack's current Defense bonus in combat
+343	+1 Damage plus doubles stack's current Damage bonus (both min and max) in combat
+344	+1 Speed plus doubles stack's current Speed bonus in combat
+345	+50% experience the stack gains from a battle
+346	Reduces target's Defense by 25%
+347	25% chance of blocking 50% of damage
+348	2 Extra Retaliations
+349	Art Option 9
+350	Art Option 10
+351	Art Option 11
+352	Art Option 12
+353	Art Option 13
+354	Art Option 14
+355	Art Option 15
+356	[<POSITION=C>]You cannot change an artifact option
+while engaged in combat or checking
+upgraded creature info.
+357	You cannot give an artifact to a stack because the experience system is disabled.
+358	Creatures cannot use this artifact.
+359	This stack has an Artifact already.
+360	Cannot add artifact (internal reason).
+361	[<POSITION=C>]This Artifact gives the following bonus:
+%s
+
+If you want to change it, click the Right mouse button.
+362	Stack may have an artifact that improves its experience abilities (to pass it to a Stack drop it on a stack slot in Hero's army)
+363	[<POSITION=C>]Stack may have an artifact that improves its experience abilities
+(to pass it to Stack drop it on a stack slot in Hero's army)
+364	Current Bonus : %s (Left click to pass to Hero, Right click to change Artifact option)
+365	This bonus gives the stack additional ammo in combat so that it can
+continue to use its ranged attack for more rounds.
+366	This bonus gives the stack additional spell castings for each combat.
+For example, an Archangel may be able to resurrect more than once per
+combat; a Phoenix may be able to rebirth a second time, etc.
+367	This bonus gives the stack the Fear ability. Enemy stacks that aren't
+immune to Fear have a chance of temporarily freezing each round, and
+missing their turn.
+368	This bonus gives the stack additional retaliations so that it can
+retaliate against multiple attacks in the same round.
+369	This bonus gives the stack an additional temporary increase to Defense
+if it takes the Defend action. This bonus is in addition to the
+standard bonus when Defending.
+370	This bonus gives the stack extra Magic Resistance. This is "dwarf-style"
+magic resistance, so the stack has a chance of resisting a spell
+completely, but still takes full effect if it fails to resist.
+This resistance is added to any Magic Resistance the stack already has.
+371	This bonus gives the stack resistance to damage-based spell attacks.
+This is "golem-style" magic resistance so it reduces the damage
+of an attack by a certain percentage.
+372	This bonus removes the normal range penalty for a stack when it makes
+a ranged attack at long range.
+373	This bonus removes the normal obstacle penalty for a stack when it makes
+a ranged attack over a castle wall.
+374	This bonus gives the stack the Fly ability. Flying stacks can move
+freely across the battlefield, ignoring walls, obstacles
+and other stacks in their path.
+375	This bonus gives the stack the Shooting ability. Shooting stacks can make
+attacks at a distance and suffer no retaliation when doing so.
+376	This bonus gives the stack the Breath attack ability. A Breath attack
+is a melee attack that has a range (depth) of two hexes, allowing it
+to affect two creatures, one behind the other. Use caution when
+planning attacks because a friendly stack behind an attacked enemy
+stack will also be affected.
+
+Note: if a stack has both this ability and an Attack All Around ability,
+the Breath attack will not function.
+377	This bonus makes the stack Alive. Stacks that are Alive can be resurrected
+by the Resurrection spell.
+378	This bonus designates the stack as being in the King 1 category.
+This means that it is susceptible to the Basic Slayer spell.
+379	This bonus designates the stack as being in the King 2 category.
+This means that it is susceptible to the Advanced Slayer spell.
+380	This bonus designates the stack as being in the King 3 category.
+This means that it is susceptible to the Expert Slayer spell.
+381	This bonus gives the stack immunity to all Mind spells,
+including beneficial Mind spells such as Frenzy and Mirth.
+382	This bonus removes the normal melee penalty that most shooting stacks
+have when making a melee attack. 
+383	This bonus gives the stack immunity to all Fire spells,
+including beneficial Fire spells such as Bloodlust.
+384	This bonus gives the stack the Double Strike ability. Each time the stack makes
+an attack (ranged or melee), it strikes its target twice instead of once.
+385	This bonus gives the stack the No Retaliation ability. When it makes an attack,
+the target stack is unable to make a retaliation attack in return.
+386	This bonus makes the stack unaffected by Morale. The stack will always have
+neutral Morale and will never have Morale bonuses or penalties in combat.
+387	This bonus makes the stack Undead. Undead stacks cannot be resurrected
+but can be brought back to "unlife" by the Animate Dead spell.
+Undead stacks may also be immune to certain spells and effects.
+388	This bonus gives the stack the ability to Attack All Around itself.
+Each time it makes a melee attack, all adjacent creatures are attacked at once.
+
+Note: if a stack has both this ability and a Breath attack,
+the Breath attack will not function.
+389	This bonus designates the stack as having a Dragon Nature. This means
+the stack will gain bonuses from artifacts that normally grant bonuses
+only to Dragons, e.g., the Vial of Dragon's Blood.
+390	This bonus gives the stack the Strike and Return ability. This lets the
+stack return to its starting hex after making a melee attack (assuming it moved).
+To disable Strike and Return and make a normal non-returning attack,
+right-click the Defend button and make your selection from the options listed.
+You can change this again at any time.
+391	This bonus gives the stack the Champion Charge ability. This ability
+adds 5% additional damage to the stack's melee attack for each hex it
+moves to reach its target.
+392	This bonus gives the stack Always Positive Morale. This means that its
+Morale will never be less than +1, even if it would normally be lower.
+393	This bonus gives the stack the ability to Shoot when Adjacent. This means
+that the stack can never have its range attack "blocked" by
+the presence of an adjacent enemy stack.
+394	This bonus makes the stack Fearless. A Fearless stack will never freeze in fear
+due to the presence of an enemy stack with the Fear ability.
+395	This bonus gives the stack the Rebirth ability. This means that a percentage of
+the stack will resurrect itself automatically after the entire stack has been
+killed. The number of times this resurrection may occur each combat
+depends on the number of spell castings per combat the stack has.
+396	This bonus gives the stack the Unicorn's Aura of Resistance. This aura bestows
+a bonus of 20% Magic Resistance to all adjacent friendly stacks.
+397	This bonus gives the stack a chance of completely Blocking any physical attack
+(melee or ranged). A Blocked attack inflicts no damage on the stack.
+398	This bonus Reduces the Casting Cost of spells for the owner of the stack.
+Regardless of reductions, all spells still cost a minimum of one spell point to cast.
+399	This bonus gives the stack a chance of dealing a Double Damage Death Blow.
+If a Death Blow occurs, it simply doubles the damage inflicted by the
+stack on its target.
+400	This bonus lets the stack do additional damage to a specific creature.
+The damage done is increased by a percentage that may be higher at higher ranks.
+401	This bonus gives the stack the ability to Regenerate lost health for the
+topmost creature. This may occur automatically or there may be only a
+chance of it occurring each round. The maximum amount of Health
+regenerated may vary by creature and rank obtained.
+402	This bonus gives the stack a chance of casting a non-direct damage spell
+or affect immediately after making its attack. Spell effects last
+for three rounds only.
+
+Note: this chance is in addition to a creature's natural spell 
+effect (if any), even if only one effect occurs per round.
+For example, a War Unicorn will have its normal 20% chance 
+to cast Blind, followed by any chance of casting the spell
+it gained through stack experience.
+403	This bonus gives the stack a chance of casting a spell at expert level
+prior to making its attack. Non-mass spells are cast against the target
+of the creature's normal attack. If the spell has a "mass" version,
+it will be cast as such, affecting all friendly stacks if a beneficial
+spell, or all enemy stacks if a harmful spell. Note: some spells that
+normally affect ALL creatures on the battlefield may continue to do so.
+For example, Armageddon would affect all creatures, friend or foe.
+404	This bonus gives the stack a chance of casting a spell at basic or advanced
+level prior to making its attack. Spells are cast against the target
+of the creature's normal attack.  Note: some spells that normally 
+affect ALL creatures on the battlefield may continue to do so.
+For example, Armageddon would affect all creatures, friend or foe.
+405	This bonus gives the stack a chance of casting a spell at expert level
+after making its attack. Non-mass spells are cast against the target of
+the creature's normal attack. If the spell has a "mass" version, it
+will be cast as such, affecting all friendly stacks if a beneficial
+spell, or all enemy stacks if a harmful spell.  Note: some spells that
+normally affect ALL creatures on the battlefield may continue to do so.
+For example, Armageddon would affect all creatures, friend or foe.
+
+Note: this chance is in addition to a creature's natural spell effect 
+(if any), even if only one effect occurs per round. For example, a 
+War Unicorn will have its normal 20% chance to cast Blind, followed 
+by any chance of casting the spell it gained through stack experience.
+406	This bonus gives the stack a chance of casting a spell at basic or advanced
+level after making its attack. Spells are cast against the target
+of the creature's normal attack.  Note: some spells that normally 
+affect ALL creatures on the battlefield may continue to do so.
+For example, Armageddon would affect all creatures, friend or foe.
+
+Note: this chance is in addition to a creature's natural spell effect 
+(if any), even if only one effect occurs per round. For example, a 
+War Unicorn will have its normal 20% chance to cast Blind, followed 
+by any chance of casting the spell it gained through stack experience.
+407	This bonus Enchants the stack with a spell for the duration of the combat.
+If the spell is dispelled, it will be renewed the following round.
+The level of spell may vary by rank, and for certain creatures, their
+spell Enchantments may even affect ALL friendly stacks once the stack
+reaches a high enough rank.
+408	w undefined yet ability (reserved)
+409	This bonus gives the stack the ability to temporarily Reduce the target's
+Defense. When attacking another stack, it reduces the target's Defense by a
+certain percentage before calculating damage. This lasts for the duration
+of the attack only.
+410	This bonus gives the stack an increase to its Death Stare ability, with a
+higher per creature chance of success. The net result is that the
+Death Stare becomes more effective, killing more enemies than before.
+411	This bonus lets the stack Deflect part of an attack. This means that the
+damage done will be reduced by a percentage. Damage reduction may
+increase at higher ranks.
+
+Note: the reduction to damage will NOT be shown in the combat text display
+but will be applied correctly to the Deflecting stack.
+412	This bonus gives the stack a chance of Deflecting part of an attack.
+If the stack successfully Deflects an attack, the damage done will be
+reduced by a certain percentage. The chance of Deflecting an attack may
+increase at higher ranks.
+
+Note: the reduction to damage will NOT be shown in the combat text display
+but will be applied correctly to the Deflecting stack.
+413	This bonus gives upgraded creatures as guards to Santa Gremlins
+instead of the normal non-upgraded creatures.
+414	This bonus increases the number of guards in
+each stack guarding the Santa Gremlins.
+415	This bonus gives the stack the ability to automatically summon a stack of
+creatures to the battlefield. Summoned stacks will begin appearing on the
+second round of combat as long as an unoccupied adjacent hex is available.
+The size of the summoned stack is calculated as a percentage of the size
+of the summoning stack.
+
+A new stack will be summoned (space permitting), every four rounds
+(i.e., rounds 2, 6, 10, 14, etc.).
+416	This bonus gives the stack the ability to automatically summon a stack of
+creatures to the battlefield. The summoned stack will appear in the
+second round of combat as long as an unoccupied adjacent hex is available.
+The size of the summoned stack is calculated as a percentage of the
+size of the summoning stack.
+417	This bonus gives the stack the ability to automatically summon a cloned
+stack of creatures to the battlefield. Cloned stacks will begin
+appearing on the second round of combat as long as an unoccupied
+adjacent hex is available. The size of the cloned stack is
+calculated as a percentage of the size of the summoning stack.
+
+A new cloned stack will be summoned (space permitting), every round.
+
+Note: unlike ordinary clones, these cloned stacks will NOT immediately
+vanish if the summoning stack is killed.
+418	This bonus gives the stack complete immunity to
+all level 1 spells, including beneficial spells.
+419	This bonus gives the stack complete immunity to
+all level 1 spells, except beneficial spells.
+420	This bonus gives the stack complete immunity to all
+level 1 and 2 spells, including beneficial spells.
+421	This bonus gives the stack complete immunity to all
+level 1 and 2 spells, except beneficial spells.
+422	This bonus gives the stack complete immunity to all
+level 1, 2 and 3 spells, including beneficial spells.
+423	This bonus gives the stack complete immunity to all
+level 1, 2 and 3 spells, except beneficial spells.
+424	This bonus gives the stack complete immunity to all
+level 1 through 4 spells, including beneficial spells.
+425	This bonus gives the stack complete immunity to all
+level 1 through 4 spells, except beneficial spells.
+426	This bonus gives the stack complete immunity
+to ALL spells, including beneficial spells.
+427	This bonus gives the stack complete immunity
+to ALL spells, except beneficial spells.
+428	This bonus gives the stack complete immunity to Cold spells.
+This includes Ice Bolt and Frost Ring.
+429	This bonus gives the stack complete immunity to the Armageddon spell.
+430	This bonus gives the stack complete immunity to Air School spells,
+including beneficial spells.
+431	This bonus gives the stack complete immunity to Air School spells,
+except beneficial spells.
+432	This bonus gives the stack complete immunity to Fire School spells,
+including beneficial spells.
+433	This bonus gives the stack complete immunity to Fire School spells,
+except beneficial spells.
+434	This bonus gives the stack complete immunity to Water School spells,
+including beneficial spells.
+435	This bonus gives the stack complete immunity to Water School spells,
+except beneficial spells.
+436	This bonus gives the stack complete immunity to Earth School spells,
+including beneficial spells.
+437	This bonus gives the stack complete immunity to Earth School spells,
+except beneficial spells.
+438	This bonus gives the stack complete immunity to the following spells:
+Lightning Bolt, Titan's Lightning Bolt, and Chain Lightning.
+439	This bonus removes a stack's normal immunities to beneficial spells.
+For example, a Black Dragon with this ability may have beneficial
+spells of any level cast upon it.
+440	This bonus gives the stack complete immunity to the Meteor Shower spell.
+441	This bonus gives the stack complete immunity to the Implosion spell.
+442	This bonus gives the stack complete immunity to the Dispel spell.
+443	This bonus gives the stack complete immunity to
+Dispel Beneficial Spells (e.g., Dragonfly's ability).
+444	This bonus gives the stack complete immunity to the Blind spell.
+445	This bonus gives the stack complete immunity to the Berserk spell.
+446	This bonus gives the stack complete immunity to the Hypnotize spell.
+447	This bonus gives the stack complete immunity to the Slow spell.
+448	This bonus gives the stack complete immunity to the following Fire Damage spells:
+Fire Wall, Fireball, Land Mine, Armageddon, damage from Fire Shield, and Inferno.
+449	This bonus gives the stack complete immunity to the following Direct Damage spells:
+Magic Arrow, Lightning Bolt, Chain Lightning, Meteor Shower, Implosion,
+Fireball, Armageddon, damage from Fire Shield, Inferno, Ice Bolt, and Frost Ring.
+450	This bonus gives the stack complete immunity to hostile Dispel spells.
+451	This bonus gives the stack complete immunity to the following Mind spells:
+Blind, Berserk, Sorrow, Hypnotize and Forgetfulness.
+452	Current Artifact Bonus (Right click artifact slot to change) :
+453	Current Artifact Bonus (cannot be changed now) :
+454	Note: You cannot change an Artifact Option during Battle or checking Upgraded Creature info
+455	Right-click to see more detailed Stack Experience information for this stack
+456	
+457	
+458	
+459	

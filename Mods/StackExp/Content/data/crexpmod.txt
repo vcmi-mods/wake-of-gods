@@ -1,0 +1,29 @@
+Creature Type	Exp Mult.	Upg. Mult.	Full R10 Exp	Max % per Battle	R11 Exp	Comment
+-1	1.0	0.75	17500	50	12250	Level 1
+-2	1.0	0.75	35000	45	21000	Level 2
+-3	1.0	0.75	52500	40	26250	Level 3
+-4	1.0	0.75	70000	35	28000	Level 4
+-5	1.0	0.75	87500	30	26250	Level 5
+-6	1.0	0.75	105000	25	21000	Level 6
+-7	1.0	0.75	122500	20	12250	Level 7
+56	0.5	0.75	17500	50	12250	Skeleton
+57	0.5	0.75	17500	50	12250	Skeleton Warrior
+132	1.0	0.75	147000	20	14700	Azure Dragon
+133	1.0	0.75	147000	20	14700	Crystal Dragon
+134	1.0	0.75	147000	20	14700	Faerie Dragon
+135	1.0	0.75	147000	20	14700	Rust Dragon
+150	1.0	0.75	147000	20	14700	Supreme Archangel
+151	1.0	0.75	147000	20	14700	Diamond Dragon
+152	1.0	0.75	147000	20	14700	Lord of Thunder
+153	1.0	0.75	147000	20	14700	Antichrist
+154	1.0	0.75	147000	20	14700	Blood Dragon
+155	1.0	0.75	147000	20	14700	Darkness Dragon
+156	1.0	0.75	147000	20	14700	Ghost Behemoth
+157	1.0	0.75	147000	20	14700	Hell Hydra
+158	1.0	0.75	147000	20	14700	Sacred Phoenix
+160	1.0	0.75	147000	20	14700	Emissary of War
+161	1.0	0.75	147000	20	14700	Emissary of Peace
+162	1.0	0.75	147000	20	14700	Emissary of Mana
+163	1.0	0.75	147000	20	14700	Emissary of Lore
+196	1.0	0.75	147000	20	14700	Dracolich
+						

@@ -1,0 +1,348 @@
+{
+	"magicWandWoG":
+	{
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"type" : ["HERO"],
+		"value" : 18000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt141", 
+			"large" : "artifacts/HrArt141L", 
+			"map" : "artifacts/zart141.def" 
+		},
+		"text" : {
+			"description" : "{Magic Wand}\r\n\r\nAllows to upgrade lvl 7 upg. creature into corresponding 8 lvl one.",
+			"event" : "You find the Magic Wand, dust it off, and stick it in your pack.",
+			"name" : "Magic Wand"
+		},
+		"bonuses" : [
+			{
+				"subtype" : "creature.archangel",
+				"addInfo" : "creature.supremeArchangel",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.goldDragon",
+				"addInfo" : "creature.diamondDragon",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.titan",
+				"addInfo" : "creature.lordofThunder",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.archDevil",
+				"addInfo" : "creature.hellBaron",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.ghostDragon",
+				"addInfo" : "creature.bloodDragon",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.blackDragon",
+				"addInfo" : "creature.darknessDragon",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.ancientBehemoth",
+				"addInfo" : "creature.ghostBehemoth",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.chaosHydra",
+				"addInfo" : "creature.hellHydra",
+				"type" : "SPECIAL_UPGRADE"		
+			},
+			{
+				"subtype" : "creature.phoenix",
+				"addInfo" : "creature.sacredPhoenix",
+				"type" : "SPECIAL_UPGRADE"		
+			}			
+		]		
+	},
+
+	"goldTowerArrowWoG":
+	{
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"type" : ["HERO"],
+		"value" : 15000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt142", 
+			"large" : "artifacts/HrArt142L", 
+			"map" : "artifacts/zart142.def" 
+		},
+		"text" : {
+			"description" : "{Gold Tower Arrow}\r\n\r\nGives control of Arrow Towers to hero.\r\n\r\nIn attack\r\nTowers won’t shoot\r\n\r\nIn defense\r\nNo Ballistics – Shoot twice\r\nBasic Ballistics – Shoot 3 times\r\nAdvanced Ballistics – Shoot 4 times\r\nExpert Ballistics – Shoot 5 times",
+			"event" : "You find the Gold Tower Arrow, dust it off, and stick it in your pack.",
+			"name" : "Gold Tower Arrow"
+		},
+		"bonuses" : [
+			{
+                "subtype" : "spell.towerJammer",
+                "type" : "MORE_DAMAGE_FROM_SPELL",
+                "limiters": {
+                    "type":"CREATURE_TYPE_LIMITER",
+                    "parameters": [ "arrowTower", false ]
+                  }
+            },
+            {
+                "type": "NOT_ACTIVE",
+                "propagator" : "BATTLE_WIDE",
+                "limiters": [
+                    [
+                        {
+                            "type":"CREATURE_TYPE_LIMITER",
+                            "parameters": [ "arrowTower", false ]
+						}
+                    ],
+                    [
+                        "noneOf",
+                        {
+							"type" : "HAS_ANOTHER_BONUS_LIMITER", 
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.towerJammer"]
+						 }
+                    ]
+                ]
+            },
+//			{
+//				"type": "NOT_ACTIVE",
+//				"effectRange" : "ONLY_ENEMY_ARMY",
+//				"limiters": [ {
+//					"type":"CREATURE_TYPE_LIMITER",
+//						"parameters": [ "arrowTower", false ]
+//					}
+//				]				
+//			},
+			{
+                "subtype" : "spell.arrowtrigger",
+                "type" : "MORE_DAMAGE_FROM_SPELL"
+			},
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "arrowTower", false ]
+					}
+				]
+			}
+		]		
+	},
+	
+	"monstersPowerWoG":
+	{
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"type" : ["HERO"],
+		"value" : 10000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt143", 
+			"large" : "artifacts/HrArt143L", 
+			"map" : "artifacts/zart143.def" 
+		},
+		"text" : {
+			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on diffirent creatures depends on terrain battle is fought.\r\n\r\nAt dirt, lava, subterra and rough terrain - good creatures are affected.\r\nAt grass, snow, swamp and water terrain - evil creatures are affected.\r\nAt dirt, sand, subterra and snow terrain - neutral creatures are affected.",
+//			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on all monsters of one kind. Every week, a new random monster is selected from the hero’s army and Prayer will be cast on ALL monsters of this type that every hero has during that week.",
+			"event" : "You find the Monster's Power, dust it off, and stick it in your pack.",
+			"name" : "Monster's Power"
+		},
+		"bonuses" : [
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["good"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "dirt" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["good"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "lava" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["good"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "subterra" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["good"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "rough" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["evil"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "grass" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["evil"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "snow" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["evil"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "swamp" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["evil"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "water" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["neutral"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "dirt" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["neutral"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "sand" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["neutral"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "subterra" ]
+					}
+				]
+			},
+			{
+               "subtype" : "spell.prayer",
+               "type" : "ENCHANTED",
+			   "val" : 1,
+				"limiters" : [ 
+					"allOf", 
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : ["neutral"]
+					},
+					{
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : [ "snow" ]
+					}
+				]
+			}
+		]
+	}
+}

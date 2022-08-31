@@ -1,0 +1,8 @@
+{
+	"modules":
+	{
+		//"STACK_EXPERIENCE": false,
+		//"STACK_ARTIFACTS": false,
+		"COMMANDERS": true
+	}
+}

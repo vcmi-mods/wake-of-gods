@@ -1,0 +1,9 @@
+{
+	"name" : "No pre-battle music",
+	"description" : "This module enables muted pre-battle clips so battle should start quicker.",
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Sounds",
+	"keepDisabled" : true
+}
