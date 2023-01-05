@@ -12,13 +12,13 @@
 					"base" : { 
 						"animation" : "banks/ZCrBank1.def", 
 						"visitableFrom" : [ "+++", "+++", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"], 
-						"allowedTerrains": [ "grass", "swamp", "dirt", "sand", "snow", "subterra", "lava", "rough" ] 
+						"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"]
 					}
 				},
 				"rmg" : {
 					"value"		: 2000,
-					"rarity"	: 50
+					"rarity"	: 50,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{
@@ -113,7 +113,8 @@
 				},
 				"rmg" : {
 					"value"		: 2000,
-					"rarity"	: 50
+					"rarity"	: 50,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{
@@ -198,12 +199,12 @@
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {
-					"base" : { "animation" : "banks/ZCrBGod1.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"],
-								"allowedTerrains":["grass", "dirt", "swamp", "rough", "lava", "snow", "sand", "subterra"] }
+					"base" : { "animation" : "banks/ZCrBGod1.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"] }
 				},
 				"rmg" : {
 					"value"		: 10000,
-					"rarity"	: 10
+					"rarity"	: 10,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{
@@ -281,12 +282,12 @@
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {
-					"base" : { "animation" : "banks/ZCrBGod2.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"],
-								"allowedTerrains":["grass", "dirt", "swamp", "rough", "lava", "snow", "sand", "subterra"] }
+					"base" : { "animation" : "banks/ZCrBGod2.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"] }
 				},
 				"rmg" : {
 					"value"		: 10000,
-					"rarity"	: 10
+					"rarity"	: 10,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{
@@ -364,12 +365,12 @@
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {
-					"base" : { "animation" : "banks/ZCrBGod3.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"],
-								"allowedTerrains":["grass", "dirt", "swamp", "rough", "lava", "snow", "sand", "subterra"] }
+					"base" : { "animation" : "banks/ZCrBGod3.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"] }
 				},
 				"rmg" : {
 					"value"		: 10000,
-					"rarity"	: 10
+					"rarity"	: 10,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{
@@ -447,12 +448,12 @@
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {
-					"base" : { "animation" : "banks/ZCrBGod4.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"],
-					"allowedTerrains":["grass", "dirt", "swamp", "rough", "lava", "snow", "sand", "subterra"] }
+					"base" : { "animation" : "banks/ZCrBGod4.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV"] }
 				},
 				"rmg" : {
 					"value"		: 10000,
-					"rarity"	: 10
+					"rarity"	: 10,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{
@@ -534,8 +535,7 @@
 					"base" : { 
 						"animation" : "banks/zcrbvm17.def", 
 						"visitableFrom" : [ "+++", "+++", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VAB"], 
-						"allowedTerrains":["grass", "swamp", "dirt", "sand", "rough", "snow", "swamp", "subterra"] 
+						"mask" : [ "VVV", "VVV", "VAB"]
 					}
 				},
 				"rmg" : {
@@ -635,9 +635,8 @@
 				"templates" : {
 					"base" : { 
 						"animation" : "banks/zcrbvm18.def", 
-						"visitableFrom" : [ "+++", "+++", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VAB"], 
-						"allowedTerrains":["grass", "swamp", "dirt", "sand", "rough", "snow", "swamp", "subterra"] 
+						"visitableFrom" : [ "---", "++-", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VAB"]
 					}
 				},
 //				"index" : 18,
@@ -761,8 +760,7 @@
 					"base" : { 
 						"animation" : "banks/zcrbjn19.def", 
 						"visitableFrom" : [ "+++", "+++", "+++" ], 
-						"mask" : [ "V", "A"], 
-//						"allowedTerrains": ["grass", "swamp", "dirt", "sand", "rough", "snow", "swamp", "subterra", "water"] 
+						"mask" : [ "V", "A"],
 						"allowedTerrains": [ "water" ]
 					}
 				},				
@@ -871,7 +869,6 @@
 			"grotto" :
 			{
 				"name" : "Grotto",
-//				"index" : 20,
 				"sounds" : {
 					"ambient" : ["LOOPUDGR"],
 					"visit" : ["ROGUE"]
@@ -880,13 +877,13 @@
 					"base" : { 
 						"animation" : "banks/ZCrBank3.def", 
 						"visitableFrom" : [ "+++", "+++", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VABB"], 
-						"allowedTerrains": [ "grass", "swamp", "dirt", "sand", "snow", "subterra", "lava", "rough" ]  
+						"mask" : [ "VVVV", "VVVV", "VBBV", "VABB"]
 					}
 				},
 				"rmg" : {
 					"value"		: 2500,
-					"rarity"	: 50
+					"rarity"	: 50,
+					"zoneLimit" : 1
 				},
 				"levels": [
 					{

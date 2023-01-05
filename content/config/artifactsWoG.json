@@ -133,7 +133,7 @@
 			"map" : "artifacts/zart160.def" 
 		},
 		"text" : {
-			"description" : "{Gate Key}\r\n\r\nWith this incredible relic, you'll be able to enchant your castle and boost arrow towers with Berserk spell. Range of casting Berserk is 3 hexes wide!",
+			"description" : "{Gate Key}\r\n\r\nWith this incredible relic, you'll be able to enchant your castle and boost arrow towers with Inferno and Berserk spell. Range of casting Berserk is 3 hexes wide!",
 			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle and boost tower arrows with berserk spell.",
 //			"description" : "{Gate Key}\r\n\r\nUpon entering a town you own, the Gate Key gives you the option to lock it for 5 days. Heroes can leave locked towns but no hero can enter except by Town Portal or Castle Gate, and the town cannot be attacked. The Gate Key will vanish when used and returns to the hero 10 days later. A town cannot be relocked by any Gate Key for 5 days after it becomes unlocked. If a player is vanquished, their locked towns will be unlocked for all players the following day.",
 //			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle gates to keep even your most powerful enemies at bay!",

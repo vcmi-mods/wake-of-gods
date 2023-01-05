@@ -1,5 +1,5 @@
 {
-	"magicWandWoG":
+	"core:magicWand":
 	{
 		"class" : "RELIC",
 		"slot" : "MISC",
@@ -64,7 +64,7 @@
 		]		
 	},
 
-	"goldTowerArrowWoG":
+	"core:goldTowerArrow":
 	{
 		"class" : "RELIC",
 		"slot" : "MISC",
@@ -133,7 +133,7 @@
 		]		
 	},
 	
-	"monstersPowerWoG":
+	"core:monstersPower":
 	{
 		"class" : "MAJOR",
 		"slot" : "MISC",

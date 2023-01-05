@@ -3,11 +3,10 @@
 		"name" : "Hut",
 		"handler":"generic",
 		"types" : {
-			"huts": {
+			"object": {
 				"base": 
 				{
-					"mask" : [ "VVV", "VVV", "VAV" ],
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"mask" : [ "VVV", "VVV", "VAV" ]
 				},
 				"templates" : {				
 					"zyzop1" : { "animation" : "objects/zyzop1.def" },
@@ -24,7 +23,7 @@
 			"visit" : ["MYSTERY"]
 		},
 		"types" : {
-			"sphinxes": {
+			"object": {
 				"base": 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ]
@@ -43,11 +42,7 @@
 		"name" : "Cave",
 		"handler":"generic",
 		"types" : {
-			"caves": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
-				},
+			"object": {
 				"templates" : {				
 					"zcave1" : { "animation" : "objects/zcave1.def", "mask" : [ "VVVV", "VVVV", "VVAB" ] },
 					"zcave2" : { "animation" : "objects/zcave2.def", "mask" : [ "VVV", "VVV", "BAB" ] },
@@ -65,11 +60,7 @@
 		"name" : "Wall",
 		"handler":"generic",
 		"types" : {
-			"walls": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
-				},
+			"object": {
 				"templates" : {				
 					"wall1" : { "animation" : "objects/wall1.def", "mask" : [ "VVB", "BBB", "BVV" ] },
 					"wall2" : { "animation" : "objects/wall2.def", "mask" : [ "BVV", "BBB", "VVB" ] },
@@ -85,11 +76,7 @@
 		"name" : "Waterfall",
 		"handler":"generic",
 		"types" : {
-			"waterfalls": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
-				},
+			"object": {
 				"templates" : {				
 					"zwfall01" : { "animation" : "objects/zwfall01.def", "mask" : [ "VBBVV", "VBBBV", "VVVBV", "VVVVV" ] },
 					"zwfall02" : { "animation" : "objects/zwfall02.def", "mask" : [ "VVVBV", "VBBBB", "VBBVV", "VVVVV" ] },
@@ -104,10 +91,6 @@
 		"handler":"generic",
 		"types" : {
 			"castles": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
-				},
 				"templates" : {				
 					"zobj025" : { "animation" : "objects/zobj025.def", "mask" : [ "VVVVV", "VVVVV", "VVBVV", "VBBBV", "VVBAV" ] },
 					"zobj026" : { "animation" : "objects/zobj026.def", "mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBBV", "VVVBAV" ] },
@@ -119,10 +102,6 @@
 			},
 
 			"buildings": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
-				},
 				"templates" : {				
 					"zobj001" : { "animation" : "objects/zobj001.def", "mask" : [ "VVVVV", "VVVVV", "VBABV", "VVVVV" ] },
 					"zobj002" : { "animation" : "objects/zobj002.def", "mask" : [ "VVVVV", "VBVBV", "BVAVB", "VVBVV" ] },
@@ -177,10 +156,6 @@
 			},
 				
 			"commanderCrystals": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ]
-				},
 				"templates" : {	
 
 					"zcbon000" : { "animation" : "objects/zcbon000.def", "mask" : [ "VV", "VA" ] },		//opal of magic				
@@ -196,13 +171,12 @@
 		"name" : "",
 		"handler":"generic",
 		"types" : {
-			"AVXMKTT0" : {
+			"object" : {
 				"templates" : {			
 					"AVXMKTT0" : { 
 						"animation" : "AVXMKTT0", 
 						"visitableFrom" : [ "---", "--+", "+++" ], 
-						"mask" : [ "VV", "BA"], 
-						"allowedTerrains": [ "dirt", "rough", "lava", "subterra", "sand", "grass", "snow", "swamp" ]
+						"mask" : [ "VV", "BA"]
 					}	
 				}					
 			}
@@ -213,7 +187,7 @@
 		"name" : "Gnoll Hut",
 		"handler":"static",
 		"types" : {
-			"AvGnoll" : {
+			"object" : {
 				"templates" : {			
 					"AvGnoll" : { 
 						"animation" : "AvGnoll", 
@@ -230,7 +204,7 @@
 		"name" : "Vortex",
 		"handler":"generic",
 		"types" : {
-			"vortexes": {
+			"object": {
 				"base": 
 				{
 					 "mask" : [ "VVVV", "VBAV", "VVVV" ]
@@ -251,14 +225,10 @@
 		"name" : "Fire",
 		"handler":"generic",
 		"types" : {
-			"fire": {
+			"object": {
 				"templates" : {				
-					"zflame1" : { "animation" : "objects/zflame1.def", "mask" : [ "VVV" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
-				}
-			},
-			"fireTress": {
-				"templates" : {				
-					"zzzz" : { "animation" : "objects/zzzz.def", "mask" : [ "VVVVVV" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+					"zflame1" : { "animation" : "objects/zflame1.def", "mask" : [ "VVV" ] },		
+					"zzzz" : { "animation" : "objects/zzzz.def", "mask" : [ "VVVVVV" ] }
 				}
 			}			
 		}
@@ -269,14 +239,10 @@
 		"name" : "Catapult",
 		"handler":"generic",
 		"types" : {
-			"catapult_left": {
+			"object": {
 				"templates" : {				
-					"catap_ml" : { "animation" : "objects/catap_ml.def", "mask" : [ "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
-				}
-			},
-			"catapult_right": {
-				"templates" : {				
-					"catap_mr" : { "animation" : "objects/catap_ml.def", "mask" : [ "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+					"catap_ml" : { "animation" : "objects/catap_ml.def", "mask" : [ "VA" ] },		
+					"catap_mr" : { "animation" : "objects/catap_ml.def", "mask" : [ "VA" ] }
 				}
 			}			
 		}
@@ -286,7 +252,7 @@
 		"name" : "Lava",
 		"handler":"generic",
 		"types" : {
-			"lavam": {
+			"object": {
 				"templates" : {				
 					"lavam" : { "animation" : "objects/lavam.def", "mask" : [ "VVV" ], "allowedTerrains": [ "lava" ] },
 				}
@@ -298,9 +264,9 @@
 		"name" : "Ghost",
 		"handler":"generic",
 		"types" : {
-			"z358o8": {
+			"object": {
 				"templates" : {				
-					"z358o8" : { "animation" : "objects/z358o8.def", "mask" : [ "VV", "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+					"z358o8" : { "animation" : "objects/z358o8.def", "mask" : [ "VV", "VA" ] },
 				}
 			}			
 		}
@@ -308,28 +274,37 @@
 	
 	"core:sign" : {
 		"types" : {
-			"signsWoG" : {
-				"name" : "Sign",
-				"aiValue" : 1,
+			"object" : {
 				"templates" : {	 			
-					"zobj047" : { "animation" : "objects/zobj047.def", "mask" : [ "A" ], "allowedTerrains" : [ "snow" ], "visitableFrom" : [ "---", "+++", "+++" ]},
-					"zobj048" : { "animation" : "objects/zobj048.def", "mask" : [ "A" ], "allowedTerrains" : [ "grass" ], "visitableFrom" : [ "---", "+++", "+++" ]}
+					"zobj047" : { 
+						"animation" : "objects/zobj047.def", 
+						"mask" : [ "A" ], "allowedTerrains" : [ "snow" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"zobj048" : { 
+						"animation" : "objects/zobj048.def", 
+						"mask" : [ "A" ], "allowedTerrains" : [ "grass" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
 				}
 			}
 		}
 	},
 	
-	"core:seerHut" : { //co jest nie tak z seer huts ze z indexem > 2 gra crashuje?
+	"core:seerHut" : {
 		"types" : {
-			"seerHutWoG" : {
-//				"index" : 2,
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
-				},				
+			"1" : {			
 				"templates" : {	 			
-					"zseer001" : { "animation" : "objects/zseer001.def", "mask" : [ "VVV", "VAV" ], "visitableFrom" : [ "---", "+++", "+++" ] },		
-					"zseer002" : { "animation" : "objects/zseer002.def", "mask" : [ "VVVVV", "VBABV", "VVVVV" ], "visitableFrom" : [ "---", "+++", "+++" ] }
+					"zseer001" : { 
+						"animation" : "objects/zseer001.def", 
+						"mask" : [ "VVV", "VAV" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ] 
+					},		
+					"zseer002" : { 
+						"animation" : "objects/zseer002.def", 
+						"mask" : [ "VVVVV", "VBABV", "VVVVV" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ] 
+					}
 				}
 			}
 		}
@@ -337,18 +312,13 @@
 	
 	"core:shrineOfMagicLevel3" : {
 		"types" : {
-			"wogShrineOfMagicLevel3" : {
-				"aiValue" : 3000,
-				"rmg" : {
-					"value"		: 3000,
-					"rarity"	: 100,
-					"mapLimit"	: 32
-				},				
+			"object" : {			
 				"templates" : {	 			
 					"zobj046" : { "animation" : "objects/zobj046.def", 
-					"mask" : [ "V", "A" ], 
-					"allowedTerrains" : [ "grass" ], 
-					"visitableFrom" : [ "---", "+++", "+++" ]}
+						"mask" : [ "V", "A" ], 
+						"allowedTerrains" : [ "grass" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
 				}
 			}
 		}
@@ -356,23 +326,12 @@
 
 	"core:magicWell" : {
 		"types" : {
-			"magicWellWoG" : {
-				"name" : "Magic Well",
-				"index" : 1,
-				"aiValue" : 250,
-				"rmg" : {
-					"zoneLimit" : 1,
-					"value"		: 250,
-					"rarity"	: 100
-				},
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand", "water" ],
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+-+", "+++" ]					
-				},				
+			"object" : {			
 				"templates" : {	 			
-					"zobj045" : { "animation" : "objects/zobj045.def" }
+					"zobj045" : { "animation" : "objects/zobj045.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ]
+					}
 				}
 			}
 		}
@@ -380,27 +339,38 @@
 	
 	"core:treasureChest" : {
 		"types" : {
-			"treasureChestWoG" : {
-//				"name" : "Treasure Chest",
-				"index" : 1,
-				"aiValue" : 1500,
-				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 125
-				},
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ],
-					"mask" : [ "VA" ],
-					"visitableFrom" : [ "+++", "+-+", "+++" ]					
-				},				
+			"object" : {			
 				"templates" : {	 			
-					"zchst1" : { "animation" : "objects/zchst1.def" },
-					"zchst2" : { "animation" : "objects/zchst2.def" },
-					"zchst3" : { "animation" : "objects/zchst3.def" },
-					"zchst4" : { "animation" : "objects/zchst4.def" },
-					"zchst5" : { "animation" : "objects/zchst5.def" },
-					"zchst6" : { "animation" : "objects/zchst6.def" }
+					"zchst1" : { 
+						"animation" : "objects/zchst1.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]	
+					},
+					"zchst2" : { 
+						"animation" : "objects/zchst2.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]	
+					},
+					"zchst3" : { 
+						"animation" : "objects/zchst3.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]	
+					},
+					"zchst4" : { 
+						"animation" : "objects/zchst4.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]	
+					},
+					"zchst5" : { 
+						"animation" : "objects/zchst5.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ],
+					},
+					"zchst6" : { 
+						"animation" : "objects/zchst6.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
 				}
 			}
 		}
@@ -411,21 +381,7 @@
 			"gold" :    {
 				"templates" : { 
 					"zmithr": { "animation" : "objects/zmithr.def" }
-				}			
-			
-//			"mithrilWoG" : {
-//				"index" : 6,
-//				"aiValue" : 750, 
-//				"rmg" : { "value" : 750,  "rarity" : 300 },
-//				"base": 
-//				{
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ],
-//					"mask" : [ "VA" ],
-//					"visitableFrom" : [ "+++", "+-+", "+++" ]					
-//				},					
-//				"templates" : { 
-//					"zmithr": { "animation" : "objects/zmithr.def" }
-//				}
+				}
 			}
 		} 		
 	},
@@ -436,14 +392,13 @@
 		"types" : {
 			"iceBlocks": {
 				"base": 
-				{
-					"mask" : [ "VV", "VB" ],
+				{				
 					"allowedTerrains": [ "snow" ]
 				},
 				"templates" : {				
-					"zdec0002" : { "animation" : "objects/zdec0002.def"  },
-					"zdec0003" : { "animation" : "objects/zdec0003.def" },
-					"zdec0004" : { "animation" : "objects/zdec0004.def" }
+					"zdec0002" : { "animation" : "objects/zdec0002.def", "mask" : [ "VV", "BB" ], },
+					"zdec0003" : { "animation" : "objects/zdec0003.def", "mask" : [ "VV", "VB" ], },
+					"zdec0004" : { "animation" : "objects/zdec0004.def", "mask" : [ "VV", "BB" ] }
 				}
 			}	
 		}
@@ -453,11 +408,7 @@
 		"name" : "Rune Stone",
 		"handler":"generic",
 		"types" : {
-			"runestones": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
-				},
+			"object": {
 				"templates" : {				
 					"zdec0001" : { "animation" : "objects/zdec0001.def", "mask": [ "VV", "VB" ] },
 					"zdec0005" : { "animation" : "objects/zdec0005.def", "mask": [ "VV", "VB" ] },
@@ -472,16 +423,12 @@
 		"name" : "Statue",
 		"handler":"generic",
 		"types" : {
-			"statuesWoG": {
-				"base": 
-				{
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
-				},
+			"object": {
 				"templates" : {				
-					"zdec0009" : { "animation" : "objects/zdec0009.def", "mask": [ "VV", "VV", "BB" ] },
-					"zdec0010" : { "animation" : "objects/zdec0010.def", "mask": [ "VVVV", "VVVV", "VVVV", "VVVV", "VVBV" ] },
-					"zdec0011" : { "animation" : "objects/zdec0011.def", "mask": [ "VVV", "VVV", "VVV", "VBV" ] },
-					"zdec0012" : { "animation" : "objects/zdec0012.def", "mask": [ "VVVV", "VVVV", "BBBB", "VBBV" ] }
+					"zdec0009" : { "animation" : "objects/zdec0009.def", "mask": [ "VV", "VV", "BB" ], "allowedTerrains" : [ "grass"]  },
+					"zdec0010" : { "animation" : "objects/zdec0010.def", "mask": [ "VVVV", "VVVV", "VVVV", "VVVV", "VVBV" ], "allowedTerrains" : [ "rough" ] },
+					"zdec0011" : { "animation" : "objects/zdec0011.def", "mask": [ "VVV", "VVV", "VVV", "VBV" ], "allowedTerrains" : [ "dirt" ] },
+					"zdec0012" : { "animation" : "objects/zdec0012.def", "mask": [ "VVVV", "VVVV", "BBBB", "VBBV" ], "allowedTerrains" : [ "subterra" ] }
 				}
 			}	
 		}
@@ -491,7 +438,7 @@
 		"name" : "Snow",
 		"handler":"static",
 		"types" : {
-			"snowWoG": {
+			"object": {
 				"templates" : {				
 					"zsnow001" : { "animation" : "objects/zsnow001.def", "mask": [ "VVV", "VVV", "VVB" ], "allowedTerrains": [ "snow" ] },
 				}
@@ -503,7 +450,7 @@
 		"name" : "Rain",
 		"handler":"static",
 		"types" : {
-			"rainWoG": {
+			"object": {
 				"templates" : {				
 					"zrain00" : { "animation" : "objects/zrain00.def", "mask": [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ], "allowedTerrains": [ "grass", "swamp", "water" ] },
 				}
@@ -513,18 +460,13 @@
 	
 	"core:reef" : {
 		"types" : {
-			"reefsWoG": {
-				"index" : 1,
-				"base": 
-				{
-					"allowedTerrains": [ "water" ]
-				},
+			"object": {
 				"templates" : {				
-					"zreef1" : { "animation" : "objects/zreef1.def", "mask": [ "BB" ] },
-					"zreef2" : { "animation" : "objects/zreef2.def", "mask": [ "VB" ] },
-					"zreef3" : { "animation" : "objects/zreef3.def", "mask": [ "VV", "BB" ] },
-					"zreef4" : { "animation" : "objects/zreef4.def", "mask": [ "VV", "VV", "VB" ] },
-					"zreef5" : { "animation" : "objects/zreef5.def", "mask": [ "VVV", "VVV", "VBB" ] }
+					"zreef1" : { "animation" : "objects/zreef1.def", "mask": [ "BB" ], "allowedTerrains": ["water" ] },
+					"zreef2" : { "animation" : "objects/zreef2.def", "mask": [ "VB" ], "allowedTerrains": ["water" ] },
+					"zreef3" : { "animation" : "objects/zreef3.def", "mask": [ "VV", "BB" ], "allowedTerrains": ["water" ] },
+					"zreef4" : { "animation" : "objects/zreef4.def", "mask": [ "VV", "VV", "VB" ], "allowedTerrains": ["water" ] },
+					"zreef5" : { "animation" : "objects/zreef5.def", "mask": [ "VVV", "VVV", "VBB" ] , "allowedTerrains": ["water" ] }
 				}
 			}	
 		}
@@ -532,14 +474,7 @@
 
 	"core:fountainOfFortune" : {
 		"types" : {
-			"fountainWoG" : {
-				"index" : 1,
-				"aiValue" : 100,
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},
+			"object" : {
 				"templates" : {				
 					"zfntng01" : { "animation" : "objects/zfntng01.def", "mask": [ "VVV", "VVV", "VAB" ], "visitableFrom" : [ "---", "+--", "+++" ], "allowedTerrains": [ "snow" ] },
 				}
@@ -549,26 +484,10 @@
 	
 	"core:mermaids" : {
 		"types" : {
-			"zmermd01": {
-				"index" : 1,
-				"aiValue" : 100,
-				"rmg" : {
-					"value"		: 100,
-					"rarity"	: 20
-				},
+			"object": {
 				"templates" : {				
-					"zmermd01" : { "animation" : "objects/zmermd01.def", "mask": [ "VVV", "VVV", "BAB" ], "visitableFrom" : [ "---", "-+-", "+++" ], "allowedTerrains": [ "water" ]}
-				}
-			},
-			"zmermd02": {
-				"index" : 2,
-				"aiValue" : 100,
-				"rmg" : {
-					"value"		: 100,
-					"rarity"	: 20
-				},
-				"templates" : {				
-					"zmermd02" : { "animation" : "objects/zmermd02.def", "mask": [ "VVV", "VVV", "BAB" ], "visitableFrom" : [ "---", "-+-", "+++" ], "allowedTerrains": [ "water" ]},
+					"zmermd01" : { "animation" : "objects/zmermd01.def", "mask": [ "VVV", "VBV", "BAB" ], "visitableFrom" : [ "---", "-+-", "+++" ], "allowedTerrains": [ "water" ] },				
+					"zmermd02" : { "animation" : "objects/zmermd02.def", "mask": [ "VV", "AV" ], "visitableFrom" : [ "---", "-+-", "+++" ], "allowedTerrains": [ "water" ] }
 				}
 			}			
 		}
@@ -576,8 +495,7 @@
 
 	"core:lake" : {
 		"types" : {
-			"lakeWoG": {
-				"index" : 0,
+			"object": {
 				"templates" : {				
 					"zdec0013" : { "animation" : "objects/zdec0013.def", "mask": [ "VVVV", "BBBB", "VBBV" ], "allowedTerrains": [ "lava" ] }
 				}
@@ -587,7 +505,7 @@
 
 	"core:log": { 
 		"types" : { 
-			"logWoG" : { 
+			"object" : { 
 				"templates" : {				
 					"zobrevno" : { "animation" : "objects/zobrevno.def", "mask": [ "V" ], "allowedTerrains": [ "water" ] }
 				}
@@ -597,28 +515,21 @@
 			
 	"core:volcano" : {
 		"types" : {	
-			"zdec0014": {
-				"index" : 0,
+			"object": {
 				"templates" : {				
-					"zdec0014" : { "animation" : "objects/zdec0014.def", "mask": [ "VVVV", "VBBB", "VBBV", "VVBV" ], "allowedTerrains": [ "lava" ] }
-				}
-			},
-			"zdec0015": {
-				"index" : 1,
-				"templates" : {				
-					"zdec0015" : { "animation" : "objects/zdec0015.def", "mask": [ "VVV", "VVV", "VBV" ], "allowedTerrains": [ "lava" ] }
-				}
-			},
-			"zlava001": {
-				"index" : 2,
-				"templates" : {				
-					"zlava001" : { "animation" : "objects/zlava001.def", "mask": [ "VBBV", "VBBV" ], "allowedTerrains": [ "lava" ] }
-				}
-			},
-			"zwvolc1": {
-				"index" : 3,
-				"templates" : {				
+					"zdec0014" : { "animation" : "objects/zdec0014.def", "mask": [ "VVVV", "VBBB", "VBBV", "VVBV" ], "allowedTerrains": [ "lava" ] },	
+					"zdec0015" : { "animation" : "objects/zdec0015.def", "mask": [ "VVV", "VVV", "VBV" ], "allowedTerrains": [ "lava" ] },
 					"zwvolc1" : { "animation" : "objects/zwvolc1.def", "mask": [ "VVVV", "VVVV", "VBBV", "VVBB" ], "allowedTerrains": [ "swamp", "water" ] }
+				}
+			}
+		}
+	},
+	
+	"core:lavaLake" : {
+		"types" : {	
+			"object": {
+				"templates" : {				
+					"zlava001" : { "animation" : "objects/zlava001.def", "mask": [ "VBBV", "VBBV" ], "allowedTerrains": [ "lava" ] },
 				}
 			}
 		}
@@ -626,11 +537,7 @@
 
 	"core:garrisonHorizontal": {
 		"types": {		
-			"wogGarrisonHorizontal": {
-				"index" : 0,
-				"sounds" : {
-					"ambient" : ["LOOPSWAR"]
-				},
+			"object": {
 				"templates" :
 				{
 					"zgarn001" : { 
@@ -642,8 +549,7 @@
 					"zgarn003" : { 
 						"animation" : "objects/zgarn003.def", 
 						"visitableFrom" : [ "---", "-++", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VVB", "VBA" ], 
-						"allowedTerrains":["grass", "swamp", "dirt", "sand", "lava", "rough", "subterra", "snow"] 
+						"mask" : [ "VVV", "VVV", "VVB", "VBA" ],
 					}
 				}			
 			}
@@ -652,11 +558,7 @@
 
 	"core:garrisonVertical": {
 		"types": {
-			"wogGarrisonVertical": {
-				"index" : 0,
-				"sounds" : {
-					"ambient" : ["LOOPSWAR"]
-				},
+			"object": {
 				"templates" :
 				{
 					"zgarn002" : { 
@@ -672,12 +574,7 @@
 
 	"core:learningStone" : {	
 		"types" : {
-			"wogLeariningStone" : {
-//				"index" : 1,
-				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 200
-				},
+			"object" : {
 				"templates" :
 				{
 					"z358o1" : { "animation" : "objects/z358o1.def", 
@@ -692,12 +589,7 @@
 
 	"core:idolOfFortune" : {
 		"types" : {
-			"wogIdolOfFortune" : {
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},
+			"object" : {
 				"templates" :
 				{
 					"z358o2" : { "animation" : "objects/z358o2.def", 
@@ -712,13 +604,7 @@
 
 	"core:libraryOfEnlightenment" : {
 		"types" : {
-			"woglibraryOfEnlightenment" : {
-				"aiValue" : 12000,
-				"rmg" : {
-					"value"		: 12000,
-					"rarity"	: 20,
-					"mapLimit"	: 32
-				},			
+			"object" : {			
 				"templates" :
 				{
 					"z358o3" : { "animation" : "objects/z358o3.def",   
@@ -733,18 +619,10 @@
 	
 	"core:witchHut" : {
 		"types" : {
-			"wogWitchHut" : {
-				"index" : 0,
-				"aiValue" : 1500,			
-				"rmg" : {
-					"zoneLimit"	: 3,
-					"mapLimit" : 32,
-					"value"		: 1500,
-					"rarity"	: 80
-				},			
+			"object" : {		
 				"templates" :
 				{
-					"snow" : { "animation" : "objects/z358o4.def",
+					"z358o4" : { "animation" : "objects/z358o4.def",
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+-+", "+++" ],
 						"allowedTerrains": [ "snow"] 
@@ -754,37 +632,26 @@
 		}
 	},
 	
-//	"core:subterraneanGate" : {
-//		"types" : {
-//			"wogSubterraneanGate" : {	
-//				"index"	: 0,
-//				"rmg" : {
-//					"value"		: 1500,
-//					"rarity"	: 80
-//				},				
-//				"templates" :
-//				{
-//					"z358o5" : { "animation" : "objects/z358o5.def", 
-//						"allowedTerrains": [ "snow"],
-//						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-//						"visitableFrom" : [ "---", "-+-", "+++" ]
-//					}
-//				}
-//			} 
-//		}
-//	},
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {					
+				"templates" :
+				{
+					"z358o5" : { "animation" : "objects/z358o5.def", 
+						"allowedTerrains": [ "snow"],
+						"mask" : [ "VVVV", "VVBV", "VBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					}
+				}
+			} 
+		}
+	},
 
 	"core:treeOfKnowledge" : {
 		"types" : {
-			"wogTreeOfKnowledge" : { 
-				"aiValue" : 2500,
-				"rmg" : {
-					"mapLimit"	: 32,
-					"value"		: 2500,
-					"rarity"	: 50
-				},			
+			"object" : { 		
 				"templates" : {
-					"snow" : { "animation" : "objects/z358o6.def", 
+					"z358o6" : { "animation" : "objects/z358o6.def", 
 						"allowedTerrains": [ "snow"],
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
@@ -795,15 +662,8 @@
 	},
 	
 	"core:tavern" : {
-
 		"types" : {
-			"wogTavern" : {
-				"aiValue" : 100,
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 20
-				},
+			"object" : {
 				"templates" :
 				{
 					"z358o7" : { "animation" : "objects/z358o7.def",
@@ -817,16 +677,10 @@
 
 	"core:denOfThieves" : {
 		"types" : {
-			"wogDenofThieves" : {
-//			"index" : 1,
-				"rmg" : {
-				"zoneLimit": 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},			
+			"object" : {			
 				"templates" :
 				{
-					"snow" : { "animation" : "objects/zdent001.def", 
+					"zdent001" : { "animation" : "objects/zdent001.def", 
 						"mask" : [ "VV", "BA" ], 
 						"allowedTerrains": [ "snow" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]					
@@ -838,13 +692,7 @@
 
 	"core:hillFort" : {
 		"types" : {
-			"wogHillFort" : {
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 7000,
-					"rarity"	: 20
-				},
-				"aiValue" : 7000,
+			"object" : {
 				"templates" :
 				{
 					"zfohill0" : { 
@@ -857,17 +705,18 @@
 			}
 		}
 	},
-	
-
 
 	"core:monolithTwoWay" : {
 		"types" : {
-			"monolithWoG" : { 
-				"index" : 8,
+			"object" : { 
+				"index" : 0,
 				"templates" : { 
-					"ztport01" : { "animation" : "objects/ztport01.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VVV", "VVV", "VAV" ], 
-					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] }
-//					"allowedTerrains": [ "snow" ] }
+					"ztport01" : { 
+						"animation" : "objects/ztport01.def", 
+						"visitableFrom" : [ "---", "+-+", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VAV" ]
+//					"allowedTerrains": [ "snow" ] 
+					}
 				}
 			}
 		}
@@ -875,16 +724,9 @@
 
 	"core:obelisk" : {
 		"types" : {
-			"obeliskRed" : { 
-//				"index" : 8,
-				"aiValue" : 350,
-				"rmg" : {
-//					"mapLimit"	: 10,
-					"value"		: 3500,
-					"rarity"	: 20
-				},
+			"object" : { 
 				"templates" : { 
-					"AvXOblR" : { "animation" : "AvXOblR.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] }
+					"AvXOblR" : { "animation" : "AvXOblR.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ] }
 				}
 			}
 		}
@@ -893,15 +735,9 @@
 	
 	"core:campfire" :{
 		"types" : {
-			"hiddenObject" : {
-//				"index" : 0,
-				"aiValue" : 2000,
-				"rmg" : {
-					"value"		: 2000,
-					"rarity"	: 500
-				},
+			"object" : {
 				"templates" : { 
-					"ADCFRA0" : { "animation" : "ADCFRA0.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "A" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+					"ADCFRA0" : { "animation" : "ADCFRA0.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "A" ] },
 				}				
 			}
 		}
@@ -909,14 +745,9 @@
 
 	"core:schoolOfMagic" : {
 		"types" : {
-			"AvArtif" : {
-				"aiValue" : 1000,
-				"rmg" : {
-					"value"		: 1000,
-					"rarity"	: 30
-				},
+			"object" : {
 				"templates" : { 
-					"AvArtif" : { "animation" : "AvArtif.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] },
+					"AvArtif" : { "animation" : "AvArtif.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ] }
 				}
 			}
 		}
@@ -924,15 +755,13 @@
 
 	"core:windmill" :{
 		"types" : {
-			"hiddenObject" : {
-//				"index" : 0,
-				"aiValue" : 1500,
-				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 20
-				},
+			"object" : {
 				"templates" : { 
-					"ADVMWIND" : { "animation" : "ADVMWIND.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VVVV", "VVVV", "VVAV" ], "allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ] }
+					"ADVMWIND" : { 
+						"animation" : "ADVMWIND.def", 
+						"visitableFrom" : [ "---", "+-+", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VVAV" ]
+					}
 				}
 			}
 		}

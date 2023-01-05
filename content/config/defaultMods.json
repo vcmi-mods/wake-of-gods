@@ -3,6 +3,7 @@
 {
 	"textData" :
 	{
-		"mapVersion" : 51 // max supported version, SoD
+		"mapVersion" : 51, // max supported version, SoD
+		"artifact"   : 144 //without wog artifacts
 	}
 }
