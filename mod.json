@@ -1,12 +1,13 @@
 {
 	"name" : "In The Wake of Gods",
 	"description" : "Unnofficial addon for Heroes of Might and Magic III",
-	"version" : "9.0.5",
+	"version" : "9.1.0",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Expansion",
 	"changelog" :
     {
+		"9.1.0"   : [ "Added Magic Mushrooms as adventure map objects" ],
 		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
     },
 	"artifacts" : 
@@ -24,6 +25,7 @@
 	[
 		"config/dwellings.json",
 		"config/creatureBanks.json",
+		"config/mushrooms.json",
 		"config/objects.json"
 	],
 	"spells" : 

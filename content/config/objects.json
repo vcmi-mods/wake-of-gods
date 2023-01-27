@@ -122,11 +122,10 @@
 					"zobj020" : { "animation" : "objects/zobj020.def", "mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ] },					
 					"zobj021" : { "animation" : "objects/zobj021.def", "mask" : [ "VVV", "VVV", "VVA" ] },
 					"zobj022" : { "animation" : "objects/zobj022.def", "mask" : [ "VVV", "VVV", "VAB" ] },
-					"zobj023" : { "animation" : "objects/zobj023.def", "mask" : [ "VVV", "VVV", "VVV", "VAV" ] },
+
 					"zobj024" : { "animation" : "objects/zobj024.def", "mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ] },
-					"zobj008" : { "animation" : "objects/zobj008.def", "mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ] },
-					"zobj012" : { "animation" : "objects/zobj012.def", "mask" : [ "VVV", "VVV", "VAV" ] },
-					"zobj017" : { "animation" : "objects/zobj017.def", "mask" : [ "VVVV", "VVBV", "VVAV" ] },
+
+
 					"zobj030" : { "animation" : "objects/zobj030.def", "mask" : [ "VVVVV", "VVVVV", "VBBBB", "VBBAV" ] },
 					"zobj031" : { "animation" : "objects/zobj031.def", "mask" : [ "VVVVV", "VVVBV", "VVBBB", "VBBBA" ] },
 					"zobj032" : { "animation" : "objects/zobj032.def", "mask" : [ "VVVVV", "VVBBV", "VBBAB" ] },
