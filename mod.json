@@ -7,7 +7,7 @@
 	"modType" : "Expansion",
 	"changelog" :
     {
-		"9.0.6"   : [ "WoG graphic fix submod added" ]
+		"9.0.6"   : [ "WoG graphic fix submod added" ],
 		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
     },
 	"artifacts" : 
