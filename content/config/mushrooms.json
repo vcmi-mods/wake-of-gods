@@ -21,13 +21,15 @@
 				"rewards" :
 				[	
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype": 4, //water
 								"val": 3,
 								"duration" : "ONE_WEEK"
-							} ],
+							}
+						],
 						"message": "{Magic Water Mushroom}\r\n\r\nTODO: You can cast Water Magic spells at expert level until the end of the week."
 					}
 				],
@@ -66,13 +68,15 @@
 				"rewards" :
 				[	
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype": 1, //Air
 								"val": 3,
 								"duration" : "ONE_WEEK"
-							} ],
+							}
+						],
 						"message": "{Magic Air Mushroom}\r\n\r\nTODO: You can cast Air Magic spells at expert level until the end of the week."
 					}
 				],
@@ -110,13 +114,15 @@
 				"rewards" :
 				[	
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype": 8, //Earth
 								"val": 3,
 								"duration" : "ONE_WEEK"
-							} ],
+							}
+						],
 						"message": "{Magic Earth Mushroom}\r\n\r\nTODO: You can cast Earth Magic spells at expert level until the end of the week."
 					}
 				],
@@ -155,13 +161,15 @@
 				"rewards" :
 				[	
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype": 2, //Fire
 								"val": 3,
 								"duration" : "ONE_WEEK"
-							} ],
+							}
+						],
 						"message": "{Magic Fire Mushroom}\r\n\r\nTODO: You can cast Fire Magic spells at expert level until the end of the week."
 					}
 				],
