@@ -1,0 +1,55 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {		
+			"wake-of-gods:vastCavern" : {
+				"templates" : {
+					"rockCavern" : {
+						"animation" : "dwellings/zavg172a",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
+					},
+					"swampCavern" : {
+						"animation" : "dwellings/zavg172b", //wyjaśnić
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
+						"allowedTerrains": [ "swamp" ],
+					}
+				},			
+				"creatures" : [[ "gorynych" ]] 
+			},
+			
+//			"hellRift" : {  //dopisać drugi
+//				"name" : "Hell Rift",
+//				"guards" : true,
+//				"sounds": {
+//					"ambient": ["LOOPHLLRFT"]
+//				},
+//				"templates" : {
+//					"default" : {
+//						"animation" : "dwellings/zavg195",
+//						"mask" : [ "VVVV", "VBBB", "VBAB" ]
+//					}
+//				},			
+//				"creatures" : [[ "hellSteed" ]] 
+//			},
+			
+			"core:cyclopsCave": {
+				"templates" : {
+					"rough" : {
+						"animation" : "dwellings/AVGcycl1",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"allowedTerrains": [ "rough" ]
+					}
+				}
+			},
+			
+			"core:behemothCrag": {
+				"templates" : {
+					"rough" : {
+						"animation" : "dwellings/avgbhmt1",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"allowedTerrains": [ "rough" ]
+					}
+				}
+			}
+		}
+	}
+}

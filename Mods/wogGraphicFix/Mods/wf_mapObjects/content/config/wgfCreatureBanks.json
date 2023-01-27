@@ -1,0 +1,16 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"wake-of-gods:grotto" :
+			{
+				"templates" : {
+					"base" : { 
+						"animation" : "banks/ZCrBank3.def",
+						"visitableFrom" : [ "---", "---", "+++" ], 
+						"mask" : [ "VVVV", "BBBV", "VABV", "VVVV"]
+					}
+				}
+			}
+		}
+	}
+}

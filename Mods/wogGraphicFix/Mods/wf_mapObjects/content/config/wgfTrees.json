@@ -1,0 +1,27 @@
+{
+	"core:trees" :{
+		"types" : {		
+			"object" : {
+				"templates" : {
+		
+					"WFplm00" : { "animation" : "trees/WFplm00", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFplm01" : { "animation" : "trees/WFplm01", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFplm02" : { "animation" : "trees/WFplm02", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFplm03" : { "animation" : "trees/WFplm03", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			}			
+		}	
+	}
+}

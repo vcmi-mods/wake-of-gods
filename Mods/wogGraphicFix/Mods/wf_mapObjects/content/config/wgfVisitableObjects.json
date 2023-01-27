@@ -1,0 +1,42 @@
+{
+	"core:temple" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVStmpl1" : { "animation" : "objects/AVStmpl1", 
+						"mask" : [ "VV", "AB" ], 	
+						"visitableFrom" : [ "---", "++-", "+++" ],						
+						"allowedTerrains": ["snow" ]
+					}
+				}
+			}
+		}	
+	},
+
+	"core:university" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVSuniv1" : { "animation" : "objects/AVSuniv1", 
+						"mask" : [ "VBBBV", "VBBBB", "VBBAB" ], 
+						"visitableFrom" : [ "---", "---", "+++" ],							
+						"allowedTerrains": ["snow" ]
+					}
+				}
+			}
+		}	
+	},	
+	
+	"core:schoolOfWar" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"Avswar30" : { "animation" : "objects/Avswar30", 
+						"mask" : [ "VVV", "VVV", "VAV" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}	
+	},
+}

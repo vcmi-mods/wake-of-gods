@@ -1,12 +1,13 @@
 {
 	"name" : "In The Wake of Gods",
 	"description" : "Unnofficial addon for Heroes of Might and Magic III",
-	"version" : "9.0.5",
+	"version" : "9.0.6",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Expansion",
 	"changelog" :
     {
+		"9.0.6"   : [ "WoG graphic fix submod added" ]
 		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
     },
 	"artifacts" : 

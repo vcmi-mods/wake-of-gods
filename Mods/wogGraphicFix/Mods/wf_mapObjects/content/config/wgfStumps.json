@@ -1,0 +1,22 @@
+{
+	"core:stump" :{
+		"types" : {		
+			"object" : {
+				"templates" : {
+					"avlp3sn0" : { "animation" : "stumps/avlp3sn0", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "snow" ]
+					},
+					"avlp4sn0" : { "animation" : "stumps/avlp4sn0", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "snow" ]
+					},
+					"avlstm4" : { "animation" : "stumps/avlstm4", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "grass" ]
+					}
+				}
+			}			
+		}	
+	}
+}

@@ -457,20 +457,6 @@
 			}	
 		}
 	},
-	
-	"core:reef" : {
-		"types" : {
-			"object": {
-				"templates" : {				
-					"zreef1" : { "animation" : "objects/zreef1.def", "mask": [ "BB" ], "allowedTerrains": ["water" ] },
-					"zreef2" : { "animation" : "objects/zreef2.def", "mask": [ "VB" ], "allowedTerrains": ["water" ] },
-					"zreef3" : { "animation" : "objects/zreef3.def", "mask": [ "VV", "BB" ], "allowedTerrains": ["water" ] },
-					"zreef4" : { "animation" : "objects/zreef4.def", "mask": [ "VV", "VV", "VB" ], "allowedTerrains": ["water" ] },
-					"zreef5" : { "animation" : "objects/zreef5.def", "mask": [ "VVV", "VVV", "VBB" ] , "allowedTerrains": ["water" ] }
-				}
-			}	
-		}
-	},
 
 	"core:fountainOfFortune" : {
 		"types" : {
@@ -714,8 +700,8 @@
 					"ztport01" : { 
 						"animation" : "objects/ztport01.def", 
 						"visitableFrom" : [ "---", "+-+", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VAV" ]
-//					"allowedTerrains": [ "snow" ] 
+						"mask" : [ "VVV", "VVV", "VAV" ],
+					"allowedTerrains": [ "snow" ] 
 					}
 				}
 			}

@@ -175,12 +175,11 @@
 					"rockCavern" : {
 						"animation" : "dwellings/zavg172a",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "grass", "dirt", "rough", "subterra", "lava", "snow", "sand" ],
 					},
 					"swampCavern" : {
 						"animation" : "dwellings/zavg172b",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "swamp" ],
+						"allowedTerrains": [ "swamp", "lava" ],
 					}
 				},			
 				"creatures" : [[ "gorynych" ]] 
@@ -284,7 +283,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg173",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VVAB" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				},
 				"creatures" : [[ "santaGremlin" ]] 
@@ -327,7 +326,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg194",
-						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
 					}
 				},			
 				"creatures" : [[ "werewolf" ]] 

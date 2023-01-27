@@ -1,0 +1,12 @@
+{
+	"name" : "Creatures",
+	"description" : "New graphics for SoD/WoG creatures.",
+	"version" : "1.0.0",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+	"depends" : 
+	[
+		"wake-of-gods"
+	]
+}
