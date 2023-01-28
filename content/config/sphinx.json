@@ -280,7 +280,7 @@
 				"base": 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
-					"visitableFrom" : [ "---", "---", "+++" ]
+					"visitableFrom" : [ "---", "++-", "+++" ]
 				},
 				"templates" : {				
 					"zsphnx10" : { "animation" : "objects/zsphnx10.def", "allowedTerrains": [ "sand" ] },
