@@ -1,12 +1,13 @@
 {
 	"name" : "In The Wake of Gods",
 	"description" : "Unnofficial addon for Heroes of Might and Magic III",
-	"version" : "9.0.5",
+	"version" : "9.0.7",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Expansion",
 	"changelog" :
     {
+		"9.0.7"   : [ "Added Sphinx object to the map" ],
 		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
     },
 	"artifacts" : 
@@ -24,7 +25,8 @@
 	[
 		"config/dwellings.json",
 		"config/creatureBanks.json",
-		"config/objects.json"
+		"config/objects.json",
+		"config/sphinx.json"
 	],
 	"spells" : 
 	[
