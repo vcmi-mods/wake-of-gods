@@ -1,0 +1,26 @@
+{
+	"core:dirtHills" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avlxdt12" : { "animation" : "mountains/avlxdt12", 
+						"mask" : [ "VV", "BB" ], 		
+						"allowedTerrains": ["dirt" ]
+					},
+					"avlxdt13" : { "animation" : "mountains/avlxdt13", 
+						"mask" : [ "VVV", "VBB" ], 		
+						"allowedTerrains": ["dirt" ]
+					},
+					"avlxdt14" : { "animation" : "mountains/avlxdt14", 
+						"mask" : [ "VVV", "VBB" ], 		
+						"allowedTerrains": ["dirt" ]
+					},
+					"avlxdt15" : { "animation" : "mountains/avlxdt15", 
+						"mask" : [ "VVV", "VBB" ], 		
+						"allowedTerrains": ["dirt" ]
+					}
+				}
+			}
+		}	
+	}	
+}

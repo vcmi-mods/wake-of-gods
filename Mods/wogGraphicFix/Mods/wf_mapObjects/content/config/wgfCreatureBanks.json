@@ -1,0 +1,42 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"wake-of-gods:martialSpiritPalace" : 
+			{
+				"name" : "Palace of Martial Spirit",
+				"templates" : {
+					"small" : { "animation" : "banks/WGgod1.def", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+				}
+			},
+			"wake-of-gods:pacificationCitadel" : 
+			{
+				"name" : "Citadel of Pacification",
+				"templates" : {
+					"small" : { "animation" : "banks/WGgod2.def", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+				}
+			},
+			"wake-of-gods:magiciansMonastery" : 
+			{
+				"name" : "Monastery of Magicians",
+				"templates" : {
+					"small" : { "animation" : "banks/WGgod3.def", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+				}
+			},
+			"wake-of-gods:legendsLibrary" : 
+			{
+				"name" : "Library of Legends",
+				"templates" : {
+					"small" : { "animation" : "banks/WGgod4.def", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+				}
+			}		
+		}
+	}
+}

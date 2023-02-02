@@ -1,0 +1,51 @@
+{
+	"core:mushrooms" :{
+		"types" : {		
+			"object" : {
+				"templates" : {				
+					"wmshr01" : { "animation" : "mushrooms/wmshr01", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wmshr02" : { "animation" : "mushrooms/wmshr02", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wmshr03" : { "animation" : "mushrooms/wmshr03", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wmshr04" : { "animation" : "mushrooms/wmshr04", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wmshr05" : { "animation" : "mushrooms/wmshr05", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wmshr06" : { "animation" : "mushrooms/wmshr06", 
+						"mask" : [ "VVV", "VBB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+		
+					"wmshr07" : { "animation" : "mushrooms/wmshr07", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshr08" : { "animation" : "mushrooms/wmshr08", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshr09" : { "animation" : "mushrooms/wmshr09", 
+						"mask" : [ "VBB" ], 
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshr10" : { "animation" : "mushrooms/wmshr10", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra", "swamp" ]
+					}
+				}
+			}			
+		}	
+	}
+}

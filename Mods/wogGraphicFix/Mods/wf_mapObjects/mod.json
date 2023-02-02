@@ -1,0 +1,38 @@
+{
+	"name" : "Map objects",
+	"description" : "New graphics for SoD/WoG map objects.",
+	"version" : "",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+    "objects" :
+    [ 
+		"config/wgfDesertHills",
+		"config/wgfDirtHills",
+		"config/wgfMountains",
+		"config/wgfTrees",
+		"config/wgfVolcanos",
+		"config/wgfPineTrees",
+		"config/wgfLakes",
+		"config/wgfFlowers",
+		"config/wgfFrozenLakes",
+		"config/wgfCactuses",
+		"config/wgfCraters",
+		"config/wgfMounds",		
+		"config/wgfReefs",
+		"config/wgfRocks",
+		"config/wtfGarrizons",
+		"config/wgfKelps",
+		"config/wgfSandDunes",
+		"config/wgfSandpits",
+		"config/wgfShrubs",
+		"config/wgfSigns",
+		"config/wgfStumps",
+		"config/wgfVisitableObjects",
+		"config/wgfMushrooms",
+		"config/wgfFireflies",
+		"config/wgfCreatureBanks",
+		"config/wgfDwellings",
+		"config/wgfYuccaTrees"
+	]
+}

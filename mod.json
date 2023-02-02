@@ -1,37 +1,31 @@
 {
-	"name" : "In The Wake of Gods",
-	"description" : "Unnofficial addon for Heroes of Might and Magic III",
-	"version" : "9.0.5",
-	"author" : "WoG Team & epigones",
-	"contact" : "http://forum.vcmi.eu/index.php",
+	"author" : "Hota Crew, ported by VCMI Team & edeksumo & avatar",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"description" : "Work-in-progress port of Horn of the Abyss expansion for made by Hota Crew",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
-	"changelog" :
-    {
-		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
-    },
-	"artifacts" : 
-	[
-		"config/artifactsWoG.json",
-		"config/artifactsWoG2.json"
-	],
-
-	"creatures" : 
-	[
-		"config/creatures.json"
-	],
-
-	"objects" :
-	[
-		"config/dwellings.json",
-		"config/creatureBanks.json",
-		"config/objects.json"
-	],
-	"spells" : 
-	[
-		"config/arrowTrigger.json"
-	],
-	"skills" : 
-	[
-		"config/ballisticsEnch.json"
-	]
+	"name" : "Horn of the Abyss",
+	"version" : "1.5.5",
+	"changelog" : 
+	{
+		"1.5.5"   : [ "Added / fixed Ancient Lamp, Sea Barrel, Shrine of Magic Mystery, Vial of mana and Jetsam." ],
+		"1.5.4"   : [ "Submod New Terrains was rewritten for new format" ],
+		"1.5.3"   : [ "Added 3 special terrains, added some missing decorations" ],
+		"1.5.2"   : [ "Disable unconfigured objects" ],
+		"1.5.1"   : [ "Updated new terrain configuration"],
+		"1.5.0"   : [ "Added warehouses", "Added ancient lamp", "Added magic colosseum", "Added sea barrel", "Update obstacles config to be compatible with 1.1.0" ],
+		"1.4.4"   : [ "Add missing battlefield obstacles" ],
+		"1.4.3"   : [ "Fix battlefield obstacles" ],
+		"1.4.2"   : [ "Update configs and restructure the mod" , "Campaign heroes submod was added" ],
+		"1.4.1"   : [ "Fixes for mine types" ],
+		"1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
+		"1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
+		"1.3.22"   : [ "New hero specialty format" ],
+		"1.3.21"   : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	}
 }

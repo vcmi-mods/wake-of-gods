@@ -1,0 +1,18 @@
+{
+	"core:mound" :{
+		"types" : {		
+			"object" : {
+				"templates" : {
+					"AVLmd3d0" : { "animation" : "mounds/AVLmd3d0", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "dirt" ]
+					},
+					"AVLmd3g0" : { "animation" : "mounds/AVLmd3g0", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "grass" ]
+					}
+				}
+			}			
+		}	
+	}
+}

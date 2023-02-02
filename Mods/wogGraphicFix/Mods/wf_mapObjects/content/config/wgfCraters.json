@@ -1,0 +1,22 @@
+{
+	"core:crater" : {
+		"types" : {
+			"object" : {
+				"templates" : {			
+					"avlct7g0" : { "animation" : "craters/avlct7g0", 
+						"mask" : [ "VV","VV" ], 
+						"allowedTerrains": [ "grass" ]
+					},
+					"avlctru0" : { "animation" : "craters/avlctru0", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+					"avlctsn1" : { "animation" : "craters/avlctsn1", 
+						"mask" : [ "VBBV", "VBBV" ], 
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

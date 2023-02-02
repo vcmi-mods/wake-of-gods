@@ -1,0 +1,26 @@
+{
+	"core:reef" :{
+		"types" : {		
+			"object" : {
+				"templates" : {			
+					"wicebr03" : { "animation" : "reefs/wicebr03", 
+						"mask" : [ "VBB" ],
+						"allowedTerrains": ["water" ]
+					},				
+					"wicebr09" : { "animation" : "reefs/wicebr09", 
+						"mask" : [ "VB", "VB" ],
+						"allowedTerrains": ["water" ]
+					},				
+					"wicebr10" : { "animation" : "reefs/wicebr10", 
+						"mask" : [ "VBB","BBB", "BBV" ],
+						"allowedTerrains": ["water" ]
+					},				
+					"wicebr11" : { "animation" : "reefs/wicebr11", 
+						"mask" : [ "BBV","BBB", "VBB" ],
+						"allowedTerrains": ["water" ]
+					}			
+				}
+			}			
+		}	
+	}
+}

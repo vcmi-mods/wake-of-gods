@@ -1,0 +1,40 @@
+{
+	"core:garrisonHorizontal" : {
+		"types" : {
+			"normal" : {
+				"templates" : {
+					"Bastgr1" : {
+						"animation" : "garrisons/Bastgr1",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
+					},
+					"zgarn004" : {
+						"animation" : "garrisons/zgarn004",
+						"mask" : [ "VVV", "VVV", "VBV", "VAB" ],
+						"visitableFrom" : [ "---", "---", "++-" ]
+					},
+					"zgarn005" : {
+						"animation" : "garrisons/zgarn005",
+						"mask" : [ "VVVVV", "VVVVV", "VVBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
+					},
+				}
+			}
+		}
+	},
+
+	"core:garrisonVertical" : {
+		"types" : {
+			"normal" : {
+				"templates" : {
+					"zgarn0062" : {
+						"animation" : "garrisons/zgarn006",
+						"mask" : [ "VV","VV","VB","VA","VB" ], 
+						"visitableFrom" : [ "---", "+++", "+-+" ]
+					}
+				}
+			}
+		}
+	}
+}
+

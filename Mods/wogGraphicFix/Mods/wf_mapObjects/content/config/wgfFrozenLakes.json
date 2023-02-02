@@ -1,0 +1,19 @@
+{
+	"core:frozenLake" : {
+		"types" : {
+			"object" : {
+				"templates" : {		
+					"avlflk40" : { "animation" : "lakes/avlflk40",  
+						"mask" : [ "BBBBB", "BBBBB", "BBBBB" ],
+						"allowedTerrains": [ "snow" ]
+					}						
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

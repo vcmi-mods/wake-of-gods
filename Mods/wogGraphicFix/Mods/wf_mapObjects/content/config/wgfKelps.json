@@ -1,0 +1,22 @@
+{
+	"core:kelp" :{
+		"types" : {		
+			"object" : {
+				"templates" : {		
+					"SFLG0" : { "animation" : "kelps/SFLG0", 
+						"mask" : [ "VVV", "VVV" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"SFLG1" : { "animation" : "kelps/SFLG1", 
+						"mask" : [ "VVV", "VVV" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"SFLG2" : { "animation" : "kelps/SFLG2", 
+						"mask" : [ "VVV", "VVV" ], 
+						"allowedTerrains": [ "water" ]
+					}			
+				}
+			}			
+		}	
+	}
+}
