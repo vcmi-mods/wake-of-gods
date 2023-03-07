@@ -8,6 +8,7 @@
 	"changelog" :
     {
 		"9.1.0"   : [ "Added Magic Mushrooms as adventure map objects" ],
+		"9.0.7"   : [ "Added Sphinx object to the map" ],
 		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
     },
 	"artifacts" : 
@@ -26,7 +27,8 @@
 		"config/dwellings.json",
 		"config/creatureBanks.json",
 		"config/mushrooms.json",
-		"config/objects.json"
+		"config/objects.json",
+		"config/sphinx.json"
 	],
 	"spells" : 
 	[

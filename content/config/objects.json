@@ -15,29 +15,6 @@
 			}	
 		}
 	},
-	
-	"sphinxesWoG" : {
-		"name" : "Sphinx",
-		"handler":"generic",
-		"sounds" : {
-			"visit" : ["MYSTERY"]
-		},
-		"types" : {
-			"object": {
-				"base": 
-				{
-					"mask" : [ "VVV", "VVV", "VAB" ]
-				},
-				"templates" : {				
-					"zsphnx10" : { "animation" : "objects/zsphnx10.def", "allowedTerrains": [ "sand" ] },
-					"zsphnx11" : { "animation" : "objects/zsphnx11.def", "allowedTerrains": [ "rough", "subterra", "water" ] },
-					"zsphnx12" : { "animation" : "objects/zsphnx12.def", "allowedTerrains": [ "dirt", "grass", "swamp", "lava" ] },
-					"zsphnx13" : { "animation" : "objects/zsphnx13.def", "allowedTerrains": [ "snow" ] }
-				}
-			}	
-		}
-	},
-	
 	"cavesWoG" : {
 		"name" : "Cave",
 		"handler":"generic",
