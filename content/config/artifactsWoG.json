@@ -13,12 +13,15 @@
 				"type" : "CREATURE_DAMAGE",
 				"val" : -50,
 				"valueType" : "PERCENT_TO_BASE",
-				"effectRange": "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters": [
-				{
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"parameters": [ "BLOCKS_RETALIATION" ]
-				}],				
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters": [ "BLOCKS_RETALIATION" ]
+					}
+				]		
 			}
 		],
 		"type" : ["HERO"],
@@ -118,8 +121,11 @@
 				"subtype" : "spell.berserk",
 				"val" : 100,
 				"addInfo" : [3, 1],
-				"effectRange": "ONLY_ENEMY_ARMY",
-				"limiters": [ {
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters": [ 
+					"OPPOSITE_SIDE",
+					{
 					"type":"CREATURE_TYPE_LIMITER",
 						"parameters": [ "arrowTower", false ]
 					}
@@ -387,9 +393,10 @@
 	{
 		"bonuses" : [
 			{
-				"type" : "LAND_MOVEMENT",
+				"subtype" : 1,
+				"type" : "MOVEMENT",
 				"val" : 600,
-				"valueType" : "BASE_NUMBER",
+				"valueType" : "ADDITIVE_VALUE",
 				"updater" : {
 					"parameters" : [ 150 ],
 					"type" : "GROWS_WITH_LEVEL"
