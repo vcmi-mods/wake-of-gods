@@ -20,5 +20,13 @@
 	"artifacts" : 
 	[
 		"config/artifacts_cmndrs"
-	]
+	],
+	
+	"settings":
+	{
+		"modules":
+		{
+			"commanders": true
+		}
+	}
 }

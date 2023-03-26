@@ -91,7 +91,9 @@
 			},
 			"king2" :
 			{
-				"type" : "KING2"
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" :
@@ -105,8 +107,7 @@
 			{
 				"walk" : 0.82,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -202,7 +203,6 @@
 	"diamondDragon" :
 	{
 		"faction": "rampart",
-//		"index": : 151,
 		"name" :
 		{
 			"plural" : "Diamond Dragons",
@@ -259,7 +259,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"blinds" :
 			{
@@ -287,7 +289,6 @@
 				"walk" : 0.6,
 				"attack" : 1,
 				"idle" : 10,
-				"flight" : 1
 			}
 		},
 		"sound" :
@@ -376,7 +377,6 @@
 	"lordofThunder" :
 	{
 		"faction": "tower",
-//		"index": : 152,
 		"name" :
 		{
 			"plural" : "Lord of Thunders",
@@ -446,7 +446,9 @@
 			},
 			"king3" :
 			{
-				"type" : "KING3"
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"hateDarknessDragon" : 
 			{
@@ -481,8 +483,7 @@
 			{
 				"walk" : 1.38,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -588,7 +589,6 @@
 	"hellBaron" :
 	{
 		"faction": "inferno",
-//		"index": : 153,
 		"name" :
 		{
 			"plural" : "Hell Barons",
@@ -647,8 +647,10 @@
 			"descreaseLuck" :
 			{
 				"type" : "LUCK",
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val" : -2,
 				"stacking" : "Devils"
 			},
 			"blockRetaliation" :
@@ -668,7 +670,9 @@
 			},
 			"king2" :
 			{
-				"type" : "KING2"
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" :
@@ -682,8 +686,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -785,7 +788,6 @@
 	"bloodDragon" :
 	{
 		"faction": "necropolis",
-//		"index": : 154,
 		"name" :
 		{
 			"plural" : "Blood Dragons",
@@ -830,8 +832,10 @@
 			"descreaseMorale" :
 			{
 				"type" : "MORALE",
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val" : -2,
 				"stacking" : "Undead Dragons"
 			},
 			"fearless" :
@@ -855,7 +859,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"unded" : 
 			{
@@ -873,8 +879,7 @@
 			{
 				"walk" : 0.75,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -981,7 +986,6 @@
 	"darknessDragon" :
 	{
 		"faction": "dungeon",
-//		"index": : 155,
 		"name" :
 		{
 			"plural" : "Darkness Dragons",
@@ -1067,7 +1071,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" :
@@ -1081,8 +1087,7 @@
 			{
 				"walk" :0.8,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1.5
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -1166,7 +1171,6 @@
 	"ghostBehemoth" :
 	{
 		"faction": "stronghold",
-//		"index": : 156,
 		"name" :
 		{
 			"plural" : "Ghost Behemots",
@@ -1232,7 +1236,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" :
@@ -1246,8 +1252,7 @@
 			{
 				"walk" : 1.17,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -1337,7 +1342,6 @@
 	"hellHydra" :
 	{
 		"faction": "fortress",
-//		"index": : 157,
 		"name" :
 		{
 			"plural" : "Hell Hydras",
@@ -1407,8 +1411,10 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
-			}
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
 		},
 		"graphics" :
 		{
@@ -1421,8 +1427,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -1538,7 +1543,6 @@
 	"sacredPhoenix" :
 	{
 		"faction": "conflux",
-//		"index": : 158,
 		"name" :
 		{
 			"plural" : "Sacred Phoenixes",
@@ -1614,7 +1618,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"fireBreath" :
 			{
@@ -1632,8 +1638,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -1724,7 +1729,6 @@
 		"growth" : 8,
 		"level": 3,
 		"faction": "neutral",
-//		"index": : 159,
 		"name" :
 		{
 			"plural" : "Ghosts",
@@ -1789,8 +1793,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -1866,7 +1869,6 @@
 	"godWar" :
 	{
 		"special" : true,
-//		"index":: 160,
 		"level": 6,
 		"faction": "neutral",
 		"name" :
@@ -1908,8 +1910,7 @@
 			{
 				"walk" : 2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2008,7 +2009,6 @@
 	"godPeace" :
 	{
 		"special" : true,
-//		"index":: 161,
 		"level": 6,
 		"faction": "neutral",
 		"name" :
@@ -2050,8 +2050,7 @@
 			{
 				"walk" : 2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2150,7 +2149,6 @@
 	"godMana" :
 	{
 		"special" : true,
-//		"index":: 162,
 		"level": 6,
 		"faction": "neutral",
 		"name" :
@@ -2192,8 +2190,7 @@
 			{
 				"walk" : 2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2283,7 +2280,6 @@
 	"godLore" :
 	{
 		"special" : true,
-//		"index":: 163,
 		"level": 6,
 		"faction": "neutral",
 		"name" :
@@ -2325,8 +2321,7 @@
 			{
 				"walk" : 2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2417,7 +2412,6 @@
 	{
 		"level": 5,
 		"faction": "neutral",
-//		"index": : 164,
 		"name" :
 		{
 			"plural" : "Fire Messengers",
@@ -2457,8 +2451,7 @@
 			{
 				"walk" : 1.4,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2559,7 +2552,6 @@
 	{
 		"level": 5,
 		"faction": "neutral",
-//		"index": : 165,
 		"name" :
 		{
 			"plural" : "Earth Messengers",
@@ -2599,8 +2591,7 @@
 			{
 				"walk" : 1.8,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"abilities":
@@ -2693,7 +2684,6 @@
 	{
 		"level": 5,
 		"faction": "neutral",
-//		"index": : 166,
 		"name" :
 		{
 			"plural" : "Air Messengers",
@@ -2733,8 +2723,7 @@
 			{
 				"walk" : 1.2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2827,7 +2816,6 @@
 	{
 		"level": 5,
 		"faction": "neutral",
-//		"index": : 167,
 		"name" :
 		{
 			"plural" : "Water Messengers",
@@ -2867,8 +2855,7 @@
 			{
 				"walk" : 1.6,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -2961,7 +2948,6 @@
 	{
 		"level": 7,
 		"faction": "neutral",
-//		"index": : 168,
 		"name" :
 		{
 			"plural" : "Gorynyches",
@@ -3010,7 +2996,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" :
@@ -3024,8 +3012,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -3125,7 +3112,6 @@
 		"level": 6,
 		"growth" : 2,
 		"faction": "castle",
-//		"index": : 169,
 		"name" :
 		{
 			"plural" : "War Zealots",
@@ -3187,8 +3173,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			},
 			"missile" :
 			{
@@ -3320,7 +3305,6 @@
 	{
 		"level": 5,
 		"faction": "neutral",
-//		"index": : 170,
 		"name" :
 		{
 			"plural" : "Arctic Sharpshooters",
@@ -3361,8 +3345,7 @@
 			{
 				"walk" : 1.02,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			},
 			"missile" :
 			{
@@ -3492,7 +3475,6 @@
 	{
 		"level": 5,
 		"faction": "neutral",
-//		"index": : 171,
 		"name" :
 		{
 			"plural" : "Lava Sharpshooters",
@@ -3533,8 +3515,7 @@
 			{
 				"walk" : 1.02,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			},
 			"missile" :
 			{
@@ -3656,7 +3637,6 @@
 	{
 		"level": 6,
 		"faction": "neutral",
-//		"index": : 172,
 		"name" :
 		{
 			"plural" : "Nightmares",
@@ -3715,8 +3695,7 @@
 			{
 				"walk" : 1.2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -3815,7 +3794,6 @@
 	"santaGremlin" :
 	{
 		"level": 3,
-//		"index": : 173,
 		"faction": "tower",
 		"growth" : 16,
 		"name" :
@@ -3883,8 +3861,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -3967,7 +3944,6 @@
 	"sylvanCentaur" :
 	{
 		"growth" : 7,
-//		"index":: 192,
 		"level": 3,
 		"faction": "rampart",
 		"name" :
@@ -4029,8 +4005,7 @@
 			{
 				"walk" : 0.5,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			},
 			"missile" :
 			{
@@ -4123,7 +4098,6 @@
 	{
 		"level": 6,
 		"faction": "neutral",
-//		"index":: 193,
 		"name" :
 		{
 			"plural" : "Sorceresses",
@@ -4179,8 +4153,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 0.6
+				"idle" : 10
 			}
 		},
 		"abilities":
@@ -4390,7 +4363,6 @@
 	{
 		"level": 4,
 		"faction": "neutral",
-//		"index":: 194,
 		"name" :
 		{
 			"plural" : "Werewolves",
@@ -4430,8 +4402,7 @@
 			{
 				"walk" : 1.1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"abilities":
@@ -4561,7 +4532,6 @@
 	"hellSteed" :
 	{
 		"level": 6,
-//		"index":: 195,
 		"faction": "neutral",
 		"name" :
 		{
@@ -4629,8 +4599,7 @@
 			{
 				"walk" : 1.2,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -4721,7 +4690,6 @@
 	"dracolich" :
 	{
 		"level": 10,
-//		"index":: 196,
 		"faction": "neutral",
 		"name" :
 		{
@@ -4788,8 +4756,10 @@
 			"descreaseMorale" :
 			{
 				"type" : "MORALE",
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val" : -2,
 				"stacking" : "Undead Dragons"
 			}
 		},
@@ -4804,8 +4774,7 @@
 			{
 				"walk" : 0.75,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			},
 			"missile" :
 			{
@@ -4940,7 +4909,7 @@
 		"graphics" :
 		{
 			"animation": "CRDRGN",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 //			"map" : "",
 			"iconSmall" : "creatures/CPrS082D",
 			"iconLarge" : "creatures/CPrL082D",
@@ -4977,8 +4946,10 @@
 			},
 			"positiveMorale" :
 			{
-				"type" : "SELF_MORALE"
-			}			
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}		
 		}
 	}	
 }
