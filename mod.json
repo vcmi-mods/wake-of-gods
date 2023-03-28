@@ -34,7 +34,7 @@
 		"config/creatureBanks.json",
 		"config/mushrooms.json",
 		"config/objects.json",
-		"config/sphinx.json"
+		"config/sphinx.json",
 		"config/almsHouse.json"
 	],
 	"spells" : 
