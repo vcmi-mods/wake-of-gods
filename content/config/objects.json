@@ -95,7 +95,6 @@
 					"zobj014" : { "animation" : "objects/zobj014.def", "mask" : [ "VVV", "VVV", "VAB" ], "visitableFrom" : [ "---", "---", "+++" ]  },
 					"zobj015" : { "animation" : "objects/zobj015.def", "mask" : [ "VVVV", "VVVV", "VBBB", "VVAV" ], "visitableFrom" : [ "---", "---", "+++" ]  },
 					"zobj016" : { "animation" : "objects/zobj016.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ]  },
-					"zobj018" : { "animation" : "objects/zobj018.def", "mask" : [ "VVV", "VVV", "VVV", "VAV" ], "visitableFrom" : [ "---", "+++", "+++" ]  },
 					"zobj019" : { "animation" : "objects/zobj019.def", "mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ], "visitableFrom" : [ "---", "---", "+++" ]  },
 					"zobj020" : { "animation" : "objects/zobj020.def", "mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ], "visitableFrom" : [ "---", "-+-", "++-" ]  },					
 					"zobj021" : { "animation" : "objects/zobj021.def", "mask" : [ "VVV", "VVV", "VVA" ], "visitableFrom" : [ "+-+", "+++", "+++" ]  },
