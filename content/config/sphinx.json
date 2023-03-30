@@ -263,8 +263,7 @@
 						"bonuses" :
 						[
 							{
-								"type" : "SECONDARY_SKILL_PREMY",
-								"subtype" : "skill.learning",
+								"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
 								"val" : 25,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
