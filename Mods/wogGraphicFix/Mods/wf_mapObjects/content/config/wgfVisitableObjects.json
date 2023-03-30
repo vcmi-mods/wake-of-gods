@@ -212,7 +212,7 @@
 				"templates" : {	
 					"AVXprsn1wgf" : { "animation" : "objects/AVXprsn1", 
 						"mask" : [ "VVV","VAV" ],
-						"visitableFrom" : [ "---", "+++", "+++" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}

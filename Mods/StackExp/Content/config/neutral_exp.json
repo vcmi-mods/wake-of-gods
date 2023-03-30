@@ -282,7 +282,7 @@
 				{
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 00 ]
+				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
 			},
 			{
 				"bonus" :
@@ -389,7 +389,7 @@
 //			{
 //				"bonus" :
 //				{
-//					"type" : "DEFLECTOR", //nie ma takiego WoG bonus
+//					"type" : "DEFLECTOR" //nie ma takiego WoG bonus
 //				},
 //				"values" : [ 5, 10, 15, 20, 25, 25, 25, 25, 25, 25 ]
 //			}

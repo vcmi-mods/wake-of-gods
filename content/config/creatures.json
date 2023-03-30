@@ -288,7 +288,7 @@
 			{
 				"walk" : 0.6,
 				"attack" : 1,
-				"idle" : 10,
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -363,7 +363,7 @@
 					"type" : "RECEPTIVE"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]	
-			},
+			}
 //			{
 //				"bonus" :
 //				{
@@ -1414,7 +1414,7 @@
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
-			},
+			}
 		},
 		"graphics" :
 		{
@@ -3255,7 +3255,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 78, //"spell.dispelHelpful"
+					"subtype" : 78 //"spell.dispelHelpful"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
@@ -3922,7 +3922,7 @@
 					"type" : "STACKS_SPEED"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
-			},
+			}
 //			{
 //				"bonus" : 
 //				{
