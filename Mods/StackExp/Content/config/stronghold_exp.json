@@ -519,7 +519,7 @@
 //				"bonus" :
 //				{
 //					"type" : "DEFLECTOR", ale taki inny, szansa na odbicie 75% damage
-//					"subtype" : 50,
+//					"subtype" : 50
 //				},
 //				"values" : [ 2, 5, 7, 10, 12, 15, 17, 20, 22, 25 ]
 //			},
@@ -591,7 +591,7 @@
 //				"bonus" :
 //				{
 //					"type" : "DEFLECTOR", ale taki inny, szansa na odbicie 75% damage
-//					"subtype" : 50,
+//					"subtype" : 50
 //				},
 //				"values" : [ 2, 5, 7, 10, 12, 15, 17, 20, 22, 25 ]
 //			},
@@ -995,7 +995,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 62, //"spell.blind"
+					"subtype" : 62 //"spell.blind"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1089,7 +1089,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 62, //"spell.blind"
+					"subtype" : 62 //"spell.blind"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},

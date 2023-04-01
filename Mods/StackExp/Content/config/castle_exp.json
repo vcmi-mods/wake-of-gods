@@ -987,7 +987,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 26, //"spell.armageddon"
+					"subtype" : 26 //"spell.armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -1089,7 +1089,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 26, //"spell.armageddon"
+					"subtype" : 26 //"spell.armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},

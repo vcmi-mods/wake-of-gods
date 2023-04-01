@@ -232,7 +232,7 @@
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			},
+			}
 		]
 	},
 	
@@ -379,7 +379,7 @@
 					"type" : "NO_WALL_PENALTY"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
-			},
+			}
 		]
 	},
 	

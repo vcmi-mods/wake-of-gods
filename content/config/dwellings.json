@@ -174,12 +174,12 @@
 				"templates" : {
 					"rockCavern" : {
 						"animation" : "dwellings/zavg172a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ]
 					},
 					"swampCavern" : {
 						"animation" : "dwellings/zavg172b",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "swamp", "lava" ],
+						"allowedTerrains": [ "swamp", "lava" ]
 					}
 				},			
 				"creatures" : [[ "gorynych" ]] 

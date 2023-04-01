@@ -29,7 +29,7 @@
 						"subtype" : "primSkill.attack",
 						"val" : 1
 					}
-				},
+				}
 			]
 		},
 		"text" : {
@@ -245,7 +245,7 @@
 		"bonuses" : [
 			{
 				"type" : "NO_WALL_PENALTY"
-			},
+			}
 		],
 		"growing":
 		{
@@ -388,7 +388,7 @@
 			{
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 65
-			},			
+			}			
 		],
 		"class" : "RELIC",
 		"type" : ["COMMANDER"],

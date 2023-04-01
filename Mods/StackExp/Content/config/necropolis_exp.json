@@ -65,7 +65,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 35, //"spell.dispell"
+					"subtype" : 35 //"spell.dispell"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -73,7 +73,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY", //In WoG it is more complicated
-					"subtype" : 78, //"spell.dispelHelpful"
+					"subtype" : 78 //"spell.dispelHelpful"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -146,7 +146,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 35, //"spell.dispell"
+					"subtype" : 35 //"spell.dispell"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -154,7 +154,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY", //In WoG it is more complicated
-					"subtype" : 78, //"spell.dispelHelpful"
+					"subtype" : 78 //"spell.dispelHelpful"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -228,7 +228,7 @@
 				"bonus" : 
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1, //not sure it works for except beneficial with this bonus
+					"subtype" : 1 //not sure it works for except beneficial with this bonus
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}
@@ -302,7 +302,7 @@
 				"bonus" : 
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1, //not sure it works for except beneficial with this bonus
+					"subtype" : 1 //not sure it works for except beneficial with this bonus
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}
@@ -674,7 +674,7 @@
 				"bonus" : 
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1, //not sure it works for except beneficial with this bonus
+					"subtype" : 1 //not sure it works for except beneficial with this bonus
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 2 ]
 			}
@@ -756,7 +756,7 @@
 				"bonus" : 
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1, //not sure it works for except beneficial with this bonus
+					"subtype" : 1 //not sure it works for except beneficial with this bonus
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 2 ]
 			}

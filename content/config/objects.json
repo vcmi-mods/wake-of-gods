@@ -133,7 +133,7 @@
 					"zcbon000" : { "animation" : "objects/zcbon000.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ]  },		//opal of magic				
 					"zcbon001" : { "animation" : "objects/zcbon001.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ]  },		//ruby of offence
 					"zcbon002" : { "animation" : "objects/zcbon002.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ]  },		//sapphire of defense
-					"zcbon003" : { "animation" : "objects/zcbon000.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ]  },		//emerald od speed
+					"zcbon003" : { "animation" : "objects/zcbon000.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ]  }		//emerald od speed
 				}
 			}
 		}
@@ -226,7 +226,7 @@
 		"types" : {
 			"object": {
 				"templates" : {				
-					"lavam" : { "animation" : "objects/lavam.def", "mask" : [ "VVV" ], "allowedTerrains": [ "lava" ] },
+					"lavam" : { "animation" : "objects/lavam.def", "mask" : [ "VVV" ], "allowedTerrains": [ "lava" ] }
 				}
 			}			
 		}
@@ -238,7 +238,7 @@
 		"types" : {
 			"object": {
 				"templates" : {				
-					"z358o8" : { "animation" : "objects/z358o8.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ] },
+					"z358o8" : { "animation" : "objects/z358o8.def", "mask" : [ "VV", "VA" ], "visitableFrom" : [ "+++", "+++", "+++" ] }
 				}
 			}			
 		}
@@ -336,7 +336,7 @@
 					"zchst5" : { 
 						"animation" : "objects/zchst5.def",
 						"mask" : [ "VA" ],
-						"visitableFrom" : [ "+++", "+-+", "+++" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]
 					},
 					"zchst6" : { 
 						"animation" : "objects/zchst6.def",
@@ -368,8 +368,8 @@
 					"allowedTerrains": [ "snow" ]
 				},
 				"templates" : {				
-					"zdec0002" : { "animation" : "objects/zdec0002.def", "mask" : [ "VV", "BB" ], },
-					"zdec0003" : { "animation" : "objects/zdec0003.def", "mask" : [ "VV", "VB" ], },
+					"zdec0002" : { "animation" : "objects/zdec0002.def", "mask" : [ "VV", "BB" ] },
+					"zdec0003" : { "animation" : "objects/zdec0003.def", "mask" : [ "VV", "VB" ] },
 					"zdec0004" : { "animation" : "objects/zdec0004.def", "mask" : [ "VV", "BB" ] }
 				}
 			}	
@@ -412,7 +412,7 @@
 		"types" : {
 			"object": {
 				"templates" : {				
-					"zsnow001" : { "animation" : "objects/zsnow001.def", "mask": [ "VVV", "VVV", "VVB" ], "allowedTerrains": [ "snow" ] },
+					"zsnow001" : { "animation" : "objects/zsnow001.def", "mask": [ "VVV", "VVV", "VVB" ], "allowedTerrains": [ "snow" ] }
 				}
 			}	
 		}
@@ -424,7 +424,7 @@
 		"types" : {
 			"object": {
 				"templates" : {				
-					"zrain00" : { "animation" : "objects/zrain00.def", "mask": [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ], "allowedTerrains": [ "grass", "swamp", "water" ] },
+					"zrain00" : { "animation" : "objects/zrain00.def", "mask": [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ], "allowedTerrains": [ "grass", "swamp", "water" ] }
 				}
 			}	
 		}
@@ -434,7 +434,7 @@
 		"types" : {
 			"fountainOfFortune" : {
 				"templates" : {				
-					"zfntng01" : { "animation" : "objects/zfntng01.def", "mask": [ "VVV", "VVV", "VAB" ], "visitableFrom" : [ "---", "+--", "+++" ], "allowedTerrains": [ "snow" ] },
+					"zfntng01" : { "animation" : "objects/zfntng01.def", "mask": [ "VVV", "VVV", "VAB" ], "visitableFrom" : [ "---", "+--", "+++" ], "allowedTerrains": [ "snow" ] }
 				}
 			}
 		}
@@ -487,7 +487,7 @@
 		"types" : {	
 			"object": {
 				"templates" : {				
-					"zlava001" : { "animation" : "objects/zlava001.def", "mask": [ "VBBV", "VBBV" ], "allowedTerrains": [ "lava" ] },
+					"zlava001" : { "animation" : "objects/zlava001.def", "mask": [ "VBBV", "VBBV" ], "allowedTerrains": [ "lava" ] }
 				}
 			}
 		}
@@ -507,7 +507,7 @@
 					"zgarn003" : { 
 						"animation" : "objects/zgarn003.def", 
 						"visitableFrom" : [ "---", "-++", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VVB", "VBA" ],
+						"mask" : [ "VVV", "VVV", "VVB", "VBA" ]
 					}
 				}			
 			}
@@ -694,7 +694,7 @@
 		"types" : {
 			"campfire" : {
 				"templates" : { 
-					"ADCFRA0" : { "animation" : "ADCFRA0.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "A" ] },
+					"ADCFRA0" : { "animation" : "ADCFRA0.def", "visitableFrom" : [ "+++", "+++", "+++" ], "mask" : [ "A" ] }
 				}				
 			}
 		}
@@ -708,8 +708,9 @@
 				}
 			}
 		}
-	},
-
+	}
+	
+	
 //	"core:windmill" :{ //unused graphic hidden in h3sprites.lod
 //		"types" : {
 //			"windmill" : {

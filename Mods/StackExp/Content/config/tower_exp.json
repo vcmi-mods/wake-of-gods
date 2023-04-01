@@ -630,7 +630,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 62, //"spell.blind"
+					"subtype" : 62 //"spell.blind"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -638,7 +638,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 59, //"spell.berserk"
+					"subtype" : 59 //"spell.berserk"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -646,7 +646,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 60, //"spell.hypnotize"
+					"subtype" : 60 //"spell.hypnotize"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -727,7 +727,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 62, //"spell.blind"
+					"subtype" : 62 //"spell.blind"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -735,7 +735,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 59, //"spell.berserk"
+					"subtype" : 59 //"spell.berserk"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -743,7 +743,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 60, //"spell.hypnotize"
+					"subtype" : 60 //"spell.hypnotize"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
