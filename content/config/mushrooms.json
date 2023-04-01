@@ -30,7 +30,7 @@
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Water Mushroom}\r\n\r\nTODO: You can cast Water Magic spells at expert level until the end of the week."
+						"message": "{Magic Water Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Water Magic spells at expert level until the end of the week."
 					}
 				],
 				"onVisitedMessage": "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
@@ -77,7 +77,7 @@
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Air Mushroom}\r\n\r\nTODO: You can cast Air Magic spells at expert level until the end of the week."
+						"message": "{Magic Air Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Air Magic spells at expert level until the end of the week."
 					}
 				],
 				"onVisitedMessage": "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
@@ -123,7 +123,7 @@
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Earth Mushroom}\r\n\r\nTODO: You can cast Earth Magic spells at expert level until the end of the week."
+						"message": "{Magic Earth Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Earth Magic spells at expert level until the end of the week."
 					}
 				],
 				"onVisitedMessage": "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
@@ -170,7 +170,7 @@
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Fire Mushroom}\r\n\r\nTODO: You can cast Fire Magic spells at expert level until the end of the week."
+						"message": "{Magic Fire Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Fire Magic spells at expert level until the end of the week."
 					}
 				],
 				"onVisitedMessage": "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
