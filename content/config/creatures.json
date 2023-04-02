@@ -1018,6 +1018,11 @@
 		},
 		"abilities":
 		{
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
 			"dragon" :
 			{
 				"type" : "DRAGON_NATURE"
@@ -1085,7 +1090,7 @@
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
-				"walk" :0.8,
+				"walk" :0.6,
 				"attack" : 1,
 				"idle" : 10
 			}
@@ -4909,7 +4914,7 @@
 		"graphics" :
 		{
 			"animation": "CRDRGN",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.6 },
 //			"map" : "",
 			"iconSmall" : "creatures/CPrS082D",
 			"iconLarge" : "creatures/CPrL082D",
@@ -4931,6 +4936,11 @@
 		"speed" : 11,
 		"abilities" :
 		{
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
 			"dragon" : 
 			{
 				"type" : "DRAGON_NATURE"
