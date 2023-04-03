@@ -230,9 +230,10 @@
 						"bonuses" :
 						[
 							{
-								"type" : "LAND_MOVEMENT",
+								"subtype" : 1,
+								"type" : "MOVEMENT",
 								"val" : 250,
-								"valueType" : "BASE_NUMBER"
+								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
 						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
