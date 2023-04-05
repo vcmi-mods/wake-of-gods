@@ -1,7 +1,7 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {		
-			"wake-of-gods:vastCavern" : {
+			"vastCavern" : {
 				"name" : "Vast Cavern",
 				"templates" : {
 					"rockCavern" : {
@@ -19,7 +19,7 @@
 				}
 			},
 			
-			"wake-of-gods:hellRift" : {
+			"hellRift" : {
 				"name" : "Hell Rift",
 				"templates" : {
 					"small" : {
@@ -29,7 +29,7 @@
 				}
 			},
 			
-			"core:cyclopsCave": {
+			"cyclopsCave": {
 				"name" : "Cyclops Cave",
 				"templates" : {
 					"rough" : {
@@ -40,7 +40,7 @@
 				}
 			},
 			
-			"core:behemothCrag": {
+			"behemothCrag": {
 				"name" : "Behemot Crag",
 				"templates" : {
 					"rough" : {

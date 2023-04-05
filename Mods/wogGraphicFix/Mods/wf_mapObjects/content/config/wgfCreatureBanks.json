@@ -1,7 +1,7 @@
 {
 	"core:creatureBank" : {
 		"types" : {
-			"wake-of-gods:martialSpiritPalace" : 
+			"martialSpiritPalace" : 
 			{
 				"name" : "Palace of Martial Spirit",
 				"templates" : {
@@ -10,7 +10,7 @@
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
 			},
-			"wake-of-gods:pacificationCitadel" : 
+			"pacificationCitadel" : 
 			{
 				"name" : "Citadel of Pacification",
 				"templates" : {
@@ -19,7 +19,7 @@
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
 			},
-			"wake-of-gods:magiciansMonastery" : 
+			"magiciansMonastery" : 
 			{
 				"name" : "Monastery of Magicians",
 				"templates" : {
@@ -28,7 +28,7 @@
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
 			},
-			"wake-of-gods:legendsLibrary" : 
+			"legendsLibrary" : 
 			{
 				"name" : "Library of Legends",
 				"templates" : {
