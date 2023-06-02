@@ -1,0 +1,14 @@
+{
+	"core:grassHills" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avlxgr13" : { "animation" : "mountains/avlxgr13", 
+						"mask" : [ "VVV", "VBB" ], 		
+						"allowedTerrains": ["grass" ]
+					}
+				}
+			}
+		}	
+	}	
+}

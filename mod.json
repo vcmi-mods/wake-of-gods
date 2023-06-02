@@ -1,7 +1,7 @@
 {
 	"name" : "In The Wake of Gods",
-	"description" : "Unnofficial addon for Heroes of Might and Magic III",
-	"version" : "9.0.10",
+	"description" : "Unofficial addon for Heroes of Might and Magic III",
+	"version" : "9.0.20",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Expansion",
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
     {
+		"9.0.20"  : [ "Update WoG Graphics Fix mod" ],
 		"9.0.10"  : [ "Fixed WoG Graphics Fix mod" ],
 		"9.0.9"   : [ "Added Alms House" ],
 		"9.0.8"   : [ "Removed 'flight' parameter", "New bonus system used" ],

@@ -1,0 +1,14 @@
+{
+	"core:oakTrees" :{
+		"types" : {		
+			"object" : {
+				"templates" : {	
+					"avlsptr9" : { "animation" : "trees/avlsptr9.def", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "grass" ]
+					}
+				}
+			}			
+		}	
+	}
+}

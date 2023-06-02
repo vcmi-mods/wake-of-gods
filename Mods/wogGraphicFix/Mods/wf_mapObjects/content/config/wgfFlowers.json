@@ -19,6 +19,10 @@
 						"mask" : [ "VBB" ], 
 						"allowedTerrains": [ "grass" ]
 					},
+					"wfflw04" : { "animation" : "flowers/wfflw04", 
+						"mask" : [ "VVVV", "VBBB" ], 
+						"allowedTerrains": [ "grass" ]
+					},
 					"WFsunf0" : { "animation" : "flowers/WFsunf0", 
 						"mask" : [ "VVV", "VBV" ], 
 						"allowedTerrains": [ "grass" ]
@@ -26,7 +30,15 @@
 					"WFsunf1" : { "animation" : "flowers/WFsunf1", 
 						"mask" : [ "VVVV", "VBBV" ], 
 						"allowedTerrains": [ "grass" ]
-					}						
+					},
+					"avlf13g0" : { "animation" : "flowers/avlf13g0", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"avlf14g0" : { "animation" : "flowers/avlf14g0", 
+						"mask" : [ "VV", "BB" ], 
+						"allowedTerrains": [ "swamp" ]
+					}					
 				}
 			}		
 		}

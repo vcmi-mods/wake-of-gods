@@ -38,5 +38,20 @@
 				}
 			}		
 		}
+	},
+	"core:crypt" : 
+	{
+		"types" : {
+			"crypt" : {
+				"templates" : {
+					"swamp" : {
+						"animation" : "banks/AVXgysw0", 
+						"visitableFrom" :  [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVV", "BAB"],
+						"allowedTerrains":["swamp"] 							
+					}
+				}
+			}
+		}
 	}
 }

@@ -21,6 +21,10 @@
 						"mask" : [ "VBBBV", "VBBBB", "VBBAB" ], 
 						"visitableFrom" : [ "---", "---", "+++" ],							
 						"allowedTerrains": ["snow" ]
+					},
+					"AVSuniv2.def" : { "animation" : "objects/AVSuniv2", 
+						"mask" : [ "VVVVV", "VBBBV", "VBBBB", "VBBAB" ], 
+						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
 			}
@@ -192,6 +196,25 @@
 		}	
 	},
 	
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"AVXTREK2" : { "animation" : "objects/AVXTREK2", 
+						"mask" : [ "VVV", "VVV", "VAV" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["swamp" ]
+					},
+					"AVXTREK3" : { "animation" : "objects/AVXTREK3", 
+						"mask" : [ "VVV", "VVV", "VAV" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": ["rough" ]
+					}
+				}
+			}
+		}	
+	},
+
 	"core:tradingPost" : {
 		"types" : {
 			"object" : {
@@ -204,8 +227,7 @@
 				}
 			}
 		}	
-	},
-	
+	},	
 	"core:prison"	: {
 		"types" : {
 			"prison" : {
@@ -343,6 +365,46 @@
 			}
 		}			
 	},
+	
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"wFsnCR" : {
+						"animation" : "objects/WFsnCR",
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["snow"]
+					}
+				}
+			},	
+			"goldMine" : {
+				"templates": {
+					"wFsnGD" : {
+						"animation" : "objects/WFsnGD",
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["snow"]
+					}
+				}
+			}
+		}
+	},
+	
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
+					"wFsnAB" : {
+						"animation" : "objects/WFsnAB",
+						"mask" : [ "VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": ["snow"]
+					}
+				}
+			}
+		}
+	}, 
 	
 	"emptyObjects" : {
 		"handler":"generic",
