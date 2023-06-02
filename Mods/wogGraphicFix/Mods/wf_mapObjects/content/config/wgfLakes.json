@@ -119,6 +119,15 @@
 					"rlake02" : { "animation" : "lakes/rlake02",  
 						"mask" : [ "VBBV", "BBBB" ],
 						"allowedTerrains": [ "rough" ]
+					},
+					"AVLlk1r" : { "animation" : "lakes/AVLlk1r",  
+						"mask" : [ "VBBV", "BBBB" ],
+						"allowedTerrains": [ "rough" ]
+					},
+					
+					"Zdec0016" : { "animation" : "lakes/Zdec0016",  
+						"mask" : [ "VVV", "BBB" ],
+						"allowedTerrains": [ "lava" ]
 					}
 				}
 			}

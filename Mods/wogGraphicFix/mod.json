@@ -4,5 +4,14 @@
 	"version" : "1.0.0",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"modType" : "Graphical"
+	"modType" : "Graphical",
+	"changelog" :
+	{
+		"1.1.0"   : [ "Update based on Grossmaster's 2.13 version" ],
+		"1.0.0"   : [ "Initial release based on Grossmaster's 2.9 version" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	}
 }

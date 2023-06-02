@@ -7,9 +7,14 @@
 	"modType" : "Graphical",
     "objects" :
     [ 
+		"config/wgfBones",
+		"config/wgfCanyons",
+		"config/wgfDecorativeObjects",
 		"config/wgfDesertHills",
 		"config/wgfDirtHills",
+		"config/wgfGrassHills",
 		"config/wgfMountains",
+		"config/wgfOakTrees",
 		"config/wgfTrees",
 		"config/wgfVolcanos",
 		"config/wgfPineTrees",
@@ -25,6 +30,7 @@
 		"config/wgfKelps",
 		"config/wgfSandDunes",
 		"config/wgfSandpits",
+		"config/wgfShrineOfMagicMystery",
 		"config/wgfShrubs",
 		"config/wgfSigns",
 		"config/wgfStumps",

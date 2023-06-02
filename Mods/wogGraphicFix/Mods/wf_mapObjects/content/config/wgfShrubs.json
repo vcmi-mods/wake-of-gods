@@ -54,6 +54,27 @@
 					"AVLswp91" : { "animation" : "shrubs/AVLswp91", 
 						"mask" : [ "VVV", "VBB" ], 
 						"allowedTerrains": [ "swamp" ]
+					},
+					"wcattail00" : { "animation" : "shrubs/wcattail00", 
+						"mask" : [ "VVV", "VBB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wcattail01" : { "animation" : "shrubs/wcattail01", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					
+					"AVLSH6R0" : { "animation" : "shrubs/AVLSH6R0", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "rough" ]
+					},
+					"AVLSHR90" : { "animation" : "shrubs/AVLSH9R0", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "rough" ]
+					},
+					"avlsh9x0" : { "animation" : "shrubs/avlsh9x0", 
+						"mask" : [ "BBB" ], 
+						"allowedTerrains": [ "rough" ]
 					}
 				}
 			}			

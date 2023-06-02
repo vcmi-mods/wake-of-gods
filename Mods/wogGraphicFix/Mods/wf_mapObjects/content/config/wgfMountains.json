@@ -137,7 +137,32 @@
 					"zsdmn" : { "animation" : "mountains/zsdmn", 
 						"mask" : [ "VVVV", "VVVV","VBVB" ], 
 						"allowedTerrains": ["sand" ]
-					}						
+					},
+
+					"wfsnmt01" : { "animation" : "mountains/wfsnmt01", 
+						"mask" : [ "VVVVVV", "VVBBBB","VBBBBB", "VBBBVV" ], 
+						"allowedTerrains": ["snow" ]
+					},
+					"wfsnmt02" : { "animation" : "mountains/wfsnmt02", 
+						"mask" : [ "VVVVVV", "VBBBBV","VBBBBB", "VVVBBB" ], 
+						"allowedTerrains": ["snow" ]
+					},	
+					"wfsnmt03" : { "animation" : "mountains/wfsnmt03", 
+						"mask" : [ "VVVV", "VBBB","VBBV" ], 
+						"allowedTerrains": ["snow" ]
+					},	
+					"wfsnmt04" : { "animation" : "mountains/wfsnmt04", 
+						"mask" : [ "VVVV", "VBBB","VVBB" ], 
+						"allowedTerrains": ["snow" ]
+					},	
+					"wfsnmt05" : { "animation" : "mountains/wfsnmt05", 
+						"mask" : [ "VVVV", "VVBB","VBBV" ], 
+						"allowedTerrains": ["snow" ]
+					},	
+					"wfsnmt06" : { "animation" : "mountains/wfsnmt06", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ], 
+						"allowedTerrains": ["snow" ]
+					}					
 				}
 			}
 		}	

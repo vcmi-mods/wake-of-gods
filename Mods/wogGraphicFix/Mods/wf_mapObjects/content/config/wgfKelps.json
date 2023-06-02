@@ -16,7 +16,53 @@
 						"allowedTerrains": [ "water" ]
 					}			
 				}
-			}			
+			},
+			
+			"waterLillies" : {
+				"name" : "Water Lilly",
+				"templates" : {		
+					"wtlily00" : { "animation" : "kelps/wtlily00", 
+						"mask" : [ "BBBBB", "BBBBB" ], 
+						"allowedTerrains": [ "water" ]
+					},	
+					"wtlily01" : { "animation" : "kelps/wtlily01", 
+						"mask" : [ "BBB", "BBB" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily02" : { "animation" : "kelps/wtlily02", 
+						"mask" : [ "VBB", "VVV" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily03" : { "animation" : "kelps/wtlily03", 
+						"mask" : [ "VVV", "BBB" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily04" : { "animation" : "kelps/wtlily04", 
+						"mask" : [ "BB", "VV" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily05" : { "animation" : "kelps/wtlily05", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily06" : { "animation" : "kelps/wtlily06", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily07" : { "animation" : "kelps/wtlily07", 
+						"mask" : [ "VBV" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily08" : { "animation" : "kelps/wtlily08", 
+						"mask" : [ "VBV" ], 
+						"allowedTerrains": [ "water" ]
+					},
+					"wtlily09" : { "animation" : "kelps/wtlily09", 
+						"mask" : [ "BBBB", "BBBB" ], 
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
 		}	
 	}
 }
