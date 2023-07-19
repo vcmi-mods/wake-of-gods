@@ -41,7 +41,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -57,7 +56,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 66 //"creature.blackKnight"
+					"subtype" : "creature.blackKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -65,7 +64,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 67 //"creature.dreadKnight"
+					"subtype" : "creature.dreadKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -136,7 +135,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -144,7 +142,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 66 //"creature.blackKnight"
+					"subtype" : "creature.blackKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -152,7 +150,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 67 //"creature.dreadKnight"
+					"subtype" : "creature.dreadKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -182,7 +180,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -191,7 +188,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -223,7 +219,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -253,7 +248,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -262,7 +256,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -294,7 +287,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -324,7 +316,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -333,7 +324,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -365,7 +355,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			}
@@ -388,7 +377,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -397,7 +385,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -429,7 +416,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			}
@@ -452,7 +438,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -461,7 +446,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -493,7 +477,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -523,7 +506,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -532,7 +514,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -564,7 +545,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -579,7 +559,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 62 //"creature.vampire"
+					"subtype" : "creature.vampire"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -587,7 +567,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 63 //"creature.vampireLord"
+					"subtype" : "creature.vampireLord"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
@@ -603,7 +583,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -612,7 +591,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -644,7 +622,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -684,7 +661,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -693,7 +669,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -725,7 +700,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -765,7 +739,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -774,7 +747,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -806,7 +778,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -828,7 +799,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",  //enchanted czy enchaner? sprawdzić na czarodziejach
-					"subtype" : 55 //"spell.slayer"
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 2, 3, 3 ]
 			}
@@ -844,7 +815,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -853,7 +823,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -885,7 +854,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -907,7 +875,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 55 //"spell.slayer"
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 2, 3, 3 ]
 			}
@@ -923,7 +891,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -932,7 +899,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -964,7 +930,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
@@ -987,7 +952,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 26 //"spell.armageddon"
+					"subtype" : "spell.armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -1025,7 +990,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -1034,7 +998,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -1066,7 +1029,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
@@ -1089,7 +1051,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 26 //"spell.armageddon"
+					"subtype" : "spell.armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},

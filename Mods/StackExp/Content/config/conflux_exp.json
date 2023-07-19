@@ -8,7 +8,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -17,7 +16,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -49,7 +47,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -64,7 +61,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -72,7 +69,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 17 //"spell.lightningBolt"
+					"subtype" : "spell.lightningBolt"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -80,7 +77,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 19 //"spell.chainLightning"
+					"subtype" : "spell.chainLightning"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -88,7 +85,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 57 //"spell.titanBolt"
+					"subtype" : "spell.titanBolt"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -104,7 +101,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -113,7 +109,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -145,7 +140,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -153,7 +147,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 33 //"spell.protectEarth"
+					"subtype" : "spell.protectEarth"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 3, 3, 3, 3 ]
 			},
@@ -168,7 +162,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 23 //"spell.meteorShower"
+					"subtype" : "spell.meteorShower"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -176,7 +170,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 54 //"spell.slow"
+					"subtype" : "spell.slow"
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},
@@ -184,7 +178,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 18 //"spell.implosion"
+					"subtype" : "spell.implosion"
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]
 			}
@@ -200,7 +194,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -209,7 +202,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -241,7 +233,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -256,7 +247,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 29 //"spell.fireShield"
+					"subtype" : "spell.fireShield"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
 			},
@@ -279,7 +270,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 16 //"spell.iceBolt"
+					"subtype" : "spell.iceBolt"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -287,7 +278,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 20 //"spell.frostRing"
+					"subtype" : "spell.frostRing"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -303,7 +294,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -312,7 +302,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -344,7 +333,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -360,7 +348,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 41 //"spell.bless"
+					"subtype" : "spell.bless"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			}
@@ -376,7 +364,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -385,7 +372,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -417,7 +403,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -425,7 +410,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 56 //"creature.skeleton"
+					"subtype" : "creature.skeleton"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -440,7 +425,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 47, //"spell.disruptingRay"
+					"subtype" : "spell.disruptingRay",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -457,7 +442,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -466,7 +450,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -498,7 +481,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -506,7 +488,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 56 //"creature.skeleton"
+					"subtype" : "creature.skeleton"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -514,7 +496,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 57 //"creature.skeletonWarrior"
+					"subtype" : "creature.skeletonWarrior"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -537,7 +519,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -546,7 +527,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -578,7 +558,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -593,7 +572,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 60, //"spell.hypnotize"
+					"subtype" : "spell.hypnotize",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
@@ -610,7 +589,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -619,7 +597,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -651,7 +628,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -688,7 +664,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -697,7 +672,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -729,7 +703,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -737,7 +710,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 16, //"spell.iceBolt"
+					"subtype" : "spell.iceBolt",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]	
@@ -746,7 +719,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 31 //"spell.protectFire"
+					"subtype" : "spell.protectFire"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]
 			}
@@ -762,7 +735,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -771,7 +743,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -803,7 +774,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -811,7 +781,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 54 //"spell.slow"
+					"subtype" : "spell.slow"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -835,7 +805,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -844,7 +813,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -876,7 +844,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -884,7 +851,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 30 //"spell.protectAir"
+					"subtype" : "spell.protectAir"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -908,7 +875,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -917,7 +883,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -949,7 +914,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -957,7 +921,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 29 //"spell.fireShield"
+					"subtype" : "spell.fireShield"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -965,7 +929,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 32 //"spell.protectWater"
+					"subtype" : "spell.protectWater"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
 			},
@@ -988,7 +952,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -997,7 +960,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -1029,7 +991,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
@@ -1037,7 +998,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 29 //"spell.fireShield"
+					"subtype" : "spell.fireShield"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 3, 3, 3, 3 ]
 			},
@@ -1045,7 +1006,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 49 //"spell.mirth"
+					"subtype" : "spell.mirth"
 				},
 				"values" : [ 1, 1, 2, 2, 2, 3, 3, 3, 3, 3 ]
 			},
@@ -1068,7 +1029,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -1077,7 +1037,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -1109,7 +1068,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
@@ -1117,7 +1075,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 29 //"spell.fireShield"
+					"subtype" : "spell.fireShield"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			},

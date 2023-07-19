@@ -2,7 +2,6 @@
 	"supremeArchangel" :
 	{
 		"faction": "castle",
-//		"index": : 150,
 		"name" :
 		{
 			"plural" : "Supreme Archangels",
@@ -163,7 +162,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 26, //"spell.armageddon"
+					"subtype" : "spell.armageddon",
 					"addInfo" : 0
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
@@ -777,7 +776,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 50, //"spell.sorrow"
+					"subtype" : "spell.sorrow",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -937,7 +936,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 75 //"spell.age" //diffirent than WoG, here - % chance to cast, in WoG - % of aging
+					"subtype" : "spell.age", //diffirent than WoG, here - % chance to cast, in WoG - % of aging
 				},
 				"values" : [ 25, 30, 35, 40, 45, 50, 55, 60, 65, 70 ]
 			},				
@@ -1165,7 +1164,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 59, //"spell.berserk",
+					"subtype" : "spell.berserk",
 					"addInfo" : [ 2, 2 ]
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
@@ -1328,15 +1327,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "DIRECT_DAMAGE_IMMUNITY"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : -1,
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [ 0, 0, 0, 0, 0, 0, 100, 100, 100, 100 ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 62, //"spell.blind",
+					"subtype" : "spell.blind",
 					"addInfo" : 0
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]
@@ -1497,7 +1497,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1, //bonus do obrony, check if it works
+					"subtype" : 1,
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -1538,7 +1538,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 29 //"spell.fireShield"
+					"subtype" : "spell.fireShield"
 				},
 				"values" : [ 0, 0, 1, 1, 2, 2, 3, 3, 3, 3 ]
 			}
@@ -1598,7 +1598,6 @@
 			"fireShield" :
 			{
 				"type" : "FIRE_SHIELD",
-//				"subtype" : 100,
 				"val" : 30
 			},
 			"spellSlayer" :
@@ -1722,7 +1721,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 60 //"spell.hypnotize"
+					"subtype" : "spell.hypnotize"
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]
 			}
@@ -1856,7 +1855,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 50 //"spell.sorrow"
+					"subtype" : "spell.sorrow"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},				
@@ -1864,7 +1863,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 54 //"spell.slow"
+					"subtype" : "spell.slow"
 				},
 				"values" : [ false, false, false, true, true, true, true, true, true, true ]
 			}
@@ -1996,7 +1995,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 43 //"spell.bloodlust"
+					"subtype" : "spell.bloodlust"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 4, 4, 4, 4, 4 ]
 			},				
@@ -2004,7 +2003,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 56 //"spell.frenzy"
+					"subtype" : "spell.frenzy"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
 			}
@@ -2136,7 +2135,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 27 //"spell.shield"
+					"subtype" : "spell.shield"
 				},
 				"values" : [ 0, 0, 0, 0, 4, 4, 4, 4, 4, 4 ]
 			},				
@@ -2144,7 +2143,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
 			}
@@ -2536,7 +2535,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 31, //"spell.fireShield",
+					"subtype" : "spell.fireShield",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -2545,7 +2544,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 66, //"spell.fireElemental",
+					"subtype" : "spell.fireElemental",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
@@ -2668,7 +2667,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 10, //"spell.quicksand",
+					"subtype" : "spell.quicksand",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -2677,7 +2676,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 67, //"spell.earthElemental",
+					"subtype" : "spell.earthElemental",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
@@ -2800,7 +2799,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 47, //"spell.disruptingRay",
+					"subtype" : "spell.disruptingRay",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -2809,7 +2808,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 69, //"spell.airElemental",
+					"subtype" : "spell.airElemental",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
@@ -2932,7 +2931,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 16, //"spell.iceBolt",
+					"subtype" : "spell.iceBolt",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -2941,7 +2940,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 68, //"spell.waterElemental",
+					"subtype" : "spell.waterElemental",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
@@ -3260,7 +3259,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 78 //"spell.dispelHelpful"
+					"subtype" : "spell.dispelHelpful"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
@@ -3461,7 +3460,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 16 //"spell.iceBolt"
+					"subtype" : "spell.iceBolt"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -3469,7 +3468,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 20 //"spell.frostRing"
+					"subtype" : "spell.frostRing"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			}
@@ -3547,7 +3546,7 @@
 			"airShield" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : 29, //"spell.fireShield",
+				"subtype" : "spell.fireShield",
 				"val" : 3,
 				"addInfo" : 1
 			},
@@ -3788,7 +3787,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 24, //"spell.deathRipple",
+					"subtype" : "spell.deathRipple",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -4355,7 +4354,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 65, //"spell.clone",
+					"subtype" : "spell.clone",
 					"addInfo" : [ 3, 1 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -4576,7 +4575,6 @@
 			"fireShield" :
 			{
 				"type" : "FIRE_SHIELD",
-//				"subtype" : 100,
 				"val" : 30
 			},
 			"spellFireWall" :
@@ -4684,7 +4682,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 21, //"spell.fireball",
+					"subtype" : "spell.fireball",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -4876,7 +4874,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 71, //"spell.poison",
+					"subtype" : "spell.poison",
 					"addInfo" : [ 1, 0 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
