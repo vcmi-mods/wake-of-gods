@@ -120,7 +120,6 @@
 					"zmark1" : { "animation" : "objects/zmark1.def", "mask" : [ "VVV", "VVV", "BAB" ], "visitableFrom" : [ "---", "---", "+++" ] },
 					"zh4obj01" : { "animation" : "objects/zh4obj01.def", "mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVBBV", "VVVBBV", "VVVAVV" ], "visitableFrom" : [ "---", "---", "+++" ] },
 					"zh4obj02" : { "animation" : "objects/zh4obj02.def", "mask" : [ "VVV", "BBB", "BAB" ], "visitableFrom" : [ "---", "---", "+++" ]  },
-					"sfzerk" : { "animation" : "objects/sfzerk.def", "mask" : [ "VVV", "VBB", "VVA" ],  "visitableFrom" : [ "---", "+++", "+++" ] },
 					"skull" : { "animation" : "objects/skull.def", "mask" : [ "VVV", "VBV", "VAV" ], "visitableFrom" : [ "---", "-+-", "+++" ]  },
 					"TPTempl1" : { "animation" : "objects/TPTempl1.def", "mask" : [ "VVVV", "VVBB", "VVBA" ], "visitableFrom" : [ "---", "---", "-++" ]  },
 					"ztower1" : { "animation" : "objects/ztower1.def", "mask" : [ "VVV", "VVV", "VVV",  "VVV", "VVV", "VBA" ], "visitableFrom" : [ "---", "---", "+++" ]  }
