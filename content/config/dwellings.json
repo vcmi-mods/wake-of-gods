@@ -315,7 +315,7 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
 					}
 				},
-				"creatures" : [[ "sorceress" ]] 
+				"creatures" : [[ "wogSorceress" ]] 
 			},
 			
 			"howlingHollow" : { 
