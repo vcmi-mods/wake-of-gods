@@ -1,7 +1,11 @@
 {
 	"name" : "In The Wake of Gods",
 	"description" : "Unofficial addon for Heroes of Might and Magic III",
+<<<<<<< Updated upstream
 	"version" : "9.0.20",
+=======
+	"version" : "9.1.0",
+>>>>>>> Stashed changes
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Expansion",
@@ -11,6 +15,11 @@
 	},
 	"changelog" :
     {
+<<<<<<< Updated upstream
+=======
+		"9.1.0"  :  [ "Update to vcmi-1.3" ],
+		"9.0.21"  : [ "Add Mirror of the Home-Way" ],
+>>>>>>> Stashed changes
 		"9.0.20"  : [ "Update WoG Graphics Fix mod" ],
 		"9.0.10"  : [ "Fixed WoG Graphics Fix mod" ],
 		"9.0.9"   : [ "Added Alms House" ],
