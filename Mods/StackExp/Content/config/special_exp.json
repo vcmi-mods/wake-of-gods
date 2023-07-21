@@ -8,7 +8,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -17,7 +16,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -57,7 +55,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -66,7 +63,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
 			},
@@ -106,7 +102,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},	
@@ -115,7 +110,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -147,7 +141,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},	
@@ -156,7 +149,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},

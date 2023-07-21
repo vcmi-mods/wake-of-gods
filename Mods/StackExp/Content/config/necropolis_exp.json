@@ -8,7 +8,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -17,7 +16,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -49,7 +47,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 ]
 			},
@@ -57,7 +54,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 2, 2 ]
 			},
@@ -65,7 +62,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 35 //"spell.dispell"
+					"subtype" : "spell.dispel"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -73,7 +70,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY", //In WoG it is more complicated
-					"subtype" : 78 //"spell.dispelHelpful"
+					"subtype" : "spell.dispelHelpful"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -89,7 +86,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -98,7 +94,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -130,7 +125,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 ]
 			},
@@ -138,7 +132,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 2, 2 ]
 			},
@@ -146,7 +140,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 35 //"spell.dispell"
+					"subtype" : "spell.dispel"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -154,7 +148,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY", //In WoG it is more complicated
-					"subtype" : 78 //"spell.dispelHelpful"
+					"subtype" : "spell.dispelHelpful"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -170,7 +164,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -179,7 +172,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -211,7 +203,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -219,7 +210,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 54, //"spell.slow"
+					"subtype" : "spell.slow",
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -244,7 +235,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -253,7 +243,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -285,7 +274,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -293,7 +281,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 73, //"spell.disease"
+					"subtype" : "spell.disease",
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]	
@@ -318,7 +306,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -327,7 +314,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -359,7 +345,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -367,7 +352,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 45, //"spell.weakness"
+					"subtype" : "spell.weakness",
 					"addInfo" : [2, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -391,7 +376,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -400,7 +384,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -432,7 +415,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -440,7 +422,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 52, //"spell.misfortune"
+					"subtype" : "spell.misfortune",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -464,7 +446,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -473,7 +454,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -505,7 +485,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -535,7 +514,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -544,7 +522,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -576,7 +553,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -584,7 +560,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 60, //"spell.hypnotize"
+					"subtype" : "spell.hypnotize",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
@@ -608,7 +584,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -617,7 +592,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -649,7 +623,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -657,7 +630,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 24, //"spell.deathRipple"
+					"subtype" : "spell.deathRipple",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -666,7 +639,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 34 //"creature.mage"
+					"subtype" : "creature.mage"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -690,7 +663,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -699,7 +671,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -731,7 +702,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -739,7 +709,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : 24, //"spell.deathRipple"
+					"subtype" : "spell.deathRipple",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -748,7 +718,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 35 //"creature.archmage"
+					"subtype" : "creature.archMage"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -772,7 +742,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -781,7 +750,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -813,7 +781,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -821,7 +788,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 78, //"spell.dispelHelpful"
+					"subtype" : "spell.dispelHelpful",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]	
@@ -830,7 +797,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 10 //"creature.cavalier"
+					"subtype" : "creature.cavalier"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -853,7 +820,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -862,7 +828,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -894,7 +859,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -909,7 +873,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 11 //"creature.champion"
+					"subtype" : "creature.champion"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -932,7 +896,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -941,7 +904,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -973,7 +935,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
@@ -1020,7 +981,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 2, 2, 2 ]
 			}
@@ -1036,7 +997,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -1045,7 +1005,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -1077,7 +1036,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
@@ -1124,7 +1082,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 75, //"spell.age"
+					"subtype" : "spell.age",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 0, 0, 0, 5, 5, 5, 10, 10, 15, 20 ]	
