@@ -28,6 +28,13 @@
 			"translation/wake-of-gods/chinese.json"
 		]
 	},
+	"german" : {
+		"name" : "In The Wake of Gods",
+		"description" : "Unoffizielles Addon für Heroes of Might and Magic III",
+		"translations" : [
+			"translation/wake-of-gods/german.json"
+		]
+	},
 	"artifacts" : 
 	[
 		"config/artifactsWoG.json",
