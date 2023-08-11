@@ -35,14 +35,15 @@
 			"translation/wake-of-gods/german.json"
 		]
 	},
-	"artifacts" : 
+	"artifacts" :
 	[
 		"config/artifactsWoG.json",
 		"config/artifactsWoG2.json"
 	],
 
-	"creatures" : 
+	"creatures" :
 	[
+		"config/creatures/supremeArchangel.json",
 		"config/creatures.json"
 	],
 
@@ -56,11 +57,11 @@
 		"config/almsHouse.json",
 		"config/mirrorOfTheHomeWay.json"
 	],
-	"spells" : 
+	"spells" :
 	[
 		"config/arrowTrigger.json"
 	],
-	"skills" : 
+	"skills" :
 	[
 		"config/ballisticsEnch.json"
 	]
