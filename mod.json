@@ -61,6 +61,8 @@
 		"config/creatures/gods/fireMessenger.json",
 		"config/creatures/gods/earthMessenger.json",
 		"config/creatures/gods/airMessenger.json",
+		"config/creatures/gods/waterMessenger.json",
+
 
 
 		"config/creatures.json"
