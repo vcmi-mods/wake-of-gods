@@ -58,6 +58,8 @@
 		"config/creatures/gods/godOfMana.json",
 		"config/creatures/gods/godOfLore.json",
 
+		"config/creatures/gods/fireMessenger.json",
+
 		"config/creatures.json"
 	],
 
