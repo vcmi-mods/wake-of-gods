@@ -49,6 +49,7 @@
 		"config/creatures/hellBaron.json",
 		"config/creatures/bloodDragon.json",
 		"config/creatures/darknessDragon.json",
+		"config/creatures/ghostBehemoth.json",
 		"config/creatures.json"
 	],
 
