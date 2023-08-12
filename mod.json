@@ -54,6 +54,7 @@
 		"config/creatures/level8/sacredPhoenix.json",
 
 		"config/creatures/gods/godOfWar.json",
+		"config/creatures/gods/godOfPeace.json",
 
 		"config/creatures.json"
 	],

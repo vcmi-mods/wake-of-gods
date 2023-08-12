@@ -297,7 +297,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godPeace" }
+								{ "amount": 1, "type" :  "godOfPeace" }
 							],
 							"value": 38000
 						}
@@ -313,7 +313,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godPeace" }
+								{ "amount": 1, "type" :  "godOfPeace" }
 							],
 							"value": 57000
 						}
@@ -329,7 +329,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godPeace" }
+								{ "amount": 1, "type" :  "godOfPeace" }
 							],
 							"value": 75000
 						}
@@ -345,7 +345,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godPeace" }
+								{ "amount": 1, "type" :  "godOfPeace" }
 							],
 							"value": 90000
 						}
