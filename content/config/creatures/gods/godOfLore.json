@@ -81,8 +81,8 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0, //bonus do ataku, check if it works
 					"type" : "PRIMARY_SKILL",
+					"subtype" : 0, //bonus do ataku, check if it works
 					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -90,17 +90,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
-
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
