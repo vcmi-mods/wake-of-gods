@@ -1,0 +1,200 @@
+{
+	"hellHydra" :
+	{
+		"name" :
+		{
+			"singular" : "Hell Hydra",
+			"plural" : "Hell Hydras"
+		},
+		"faction": "fortress",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 7000,
+			"sulfur" : 2
+		},
+		"doubleWide" : true,
+		"speed" : 10,
+		"hitPoints" : 500,
+		"attack" : 25,
+		"defense" : 27,
+		"damage" :
+		{
+			 "min" : 38,
+			 "max" : 68
+		},
+		"fightValue" : 15750,
+		"aiValue" : 17750,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"attackAll" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"additionalRetal" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			"regenerates" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 40
+			},
+			"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 20
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/hellhydra/ZM157Z",
+			"map" : "creatures/hellhydra/zmm157z",
+			"iconSmall" : "creatures/hellhydra/CPrS157F",
+			"iconLarge" : "creatures/hellhydra/CPrL157Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CHYDATTK.wav",
+			"defend": "CHYDDFND.wav",
+			"killed": "CHYDKILL.wav",
+			"move": "CHYDMOVE.wav",
+			"wince": "CHYDWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 4, 4, 5, 5, 6 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DEFENSIVE_STANCE",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			},			
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1,
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 4, 4 ]
+			},
+//			{
+//				"bonus" :
+//				{
+//					"type" : "DEFLECTOR",
+//					"subtype" : 50,
+//				},
+//				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+//			},
+			{
+				"bonus" :
+				{
+					"type" : "FIRE_IMMUNITY",
+					"subtype" : 1
+				},
+				"values" : [ false, true, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY",
+					"subtype" : 1 //only hostile - check if it works
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.fireShield"
+				},
+				"values" : [ 0, 0, 1, 1, 2, 2, 3, 3, 3, 3 ]
+			}
+		]
+	}
+}
