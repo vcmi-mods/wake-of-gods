@@ -1,0 +1,152 @@
+{
+	"sylvanCentaur" :
+	{
+		"name" :
+		{
+			"singular" : "Sylwan Centaur",
+			"plural" : "Sylvan Centaurs"
+		},
+		"faction": "rampart",
+		"level": 3,
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"doubleWide" : true,
+		"speed" : 8,
+		"hitPoints" : 15,
+		"shots" : 24,
+		"attack" : 10,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 6
+		},
+		"fightValue" : 250,
+		"aiValue" : 400,
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 15
+		},
+		"growth" : 7,
+		"hasDoubleWeek": false,
+		"abilities" :
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
+			},
+			"spellMirth" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.mirth",
+				"val" : 1,
+				"addInfo" : 3 
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/sylvanCentaur/ZM192Z",
+			"map" : "creatures/sylvanCentaur/zmm192z",
+			"iconSmall" : "creatures/sylvanCentaur/CPrS192Z",
+			"iconLarge" : "creatures/sylvanCentaur/CPrL192Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.5,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PELFX",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 10,
+					"upperY" : -70,
+					"middleX" : 10,
+					"middleY" : -70,
+					"lowerX" : 10,
+					"lowerY" : -70
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"move": "ECNTMOVE.wav",
+			"shoot": "ECNTSHOT.wav",
+			"wince": "ECNTWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY",
+					"subtype" : 1 
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
+	}
+}
