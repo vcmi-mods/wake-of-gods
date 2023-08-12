@@ -44,6 +44,7 @@
 	"creatures" :
 	[
 		"config/creatures/messengers/ghost.json",
+		"config/creatures/messengers/gorynych.json",
 
 		"config/creatures/level8/supremeArchangel.json",
 		"config/creatures/level8/diamondDragon.json",

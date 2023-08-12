@@ -1,0 +1,162 @@
+{
+	"gorynych" :
+	{
+		"name" :
+		{
+			"singular" : "Gorynych",
+			"plural" : "Gorynyches"
+		},
+		"faction": "neutral",
+		"level": 7,
+		"cost" :
+		{
+			"gold" : 3500
+		},
+		"doubleWide" : true,
+		"speed" : 8,
+		"hitPoints" : 250,
+		"attack" : 20,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 45
+		},
+		"fightValue" : 5272,
+		"aiValue" : 5931,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"multiHeaded" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/gorynych/ZM168DG",
+			"map" : "creatures/gorynych/zmm168g",
+			"iconSmall" : "creatures/gorynych/CPrS168Z",
+			"iconLarge" : "creatures/gorynych/CPrL168M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/gorynych/GORYATTK.wav",
+			"defend": "creatures/gorynych/GORYDFND.wav",
+			"killed": "creatures/gorynych/GORYKILL.wav",
+			"move": "creatures/gorynych/GORYMOVE.wav",
+			"wince": "creatures/gorynych/GORYWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION",
+					"subtype" : 1
+				},
+				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.greenDragon"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
+	}
+}
