@@ -1,0 +1,262 @@
+{
+	"wogSorceress" :
+	{
+		"name" :
+		{
+			"singular" : "Sorceress",
+			"plural" : "Sorceresses"
+		},
+		"faction": "neutral",
+		"level": 6,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"speed" : 8,
+		"hitPoints" : 35,
+		"attack" : 15,
+		"defense" : 13,
+		"shots" : 24,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 13
+		},
+		"fightValue" : 200,
+		"aiValue" : 1150,
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 12
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"shots" :
+			{
+				"type" : "SHOOTER"
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"castsPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"addInfo" : [0, 1],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsSorrow" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.sorrow",
+				"addInfo" : [2, 1],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsAcidBreath" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"addInfo" : [0, 1],
+				"val" : 11
+			},
+			"castsForgetfullness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"addInfo" : [2, 1],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsSlow" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"addInfo" : [2, 1],
+				"val" : 8,
+				"turns" : 3
+			},
+			"castsCurse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"addInfo" : [2, 1],
+				"val" : 8,
+				"turns" : 3
+			},
+			"castsDispel" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"addInfo" : [2, 1],
+				"val" : 8
+			},
+			"castsBlind" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"addInfo" : [3, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsBerserk" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.berserk",
+				"addInfo" : [2, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsAge" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"addInfo" : [0, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsHypnotize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.hypnotize",
+				"addInfo" : [3, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsMisfortune" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
+				"addInfo" : [3, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsDisruptingRay" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"addInfo" : [3, 1],
+				"val" : 4
+			},
+			"castsDisease" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"addInfo" : [0, 1],
+				"val" : 4,
+				"turns" : 3
+			},
+			"castsWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"addInfo" : [2, 1],
+				"val" : 4,
+				"turns" : 3
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/wogSorceress/ZM193Z",
+			"map" : "creatures/wogSorceress/zmm193z",
+			"iconSmall" : "creatures/wogSorceress/CPrS193Z",
+			"iconLarge" : "creatures/wogSorceress/CPrL193Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRZEAX",
+				"attackClimaxFrame" : 5,
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : 3
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : "spell.clone",
+					"addInfo" : [ 3, 1 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+//tu powinien być jeszcze bonus z przywoływaniem Czarodziejów w drugiej turze, raczej nie do zrobienia jak w WoG
+		]
+	}
+}
