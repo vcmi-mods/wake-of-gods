@@ -43,15 +43,15 @@
 
 	"creatures" :
 	[
-		"config/creatures/supremeArchangel.json",
-		"config/creatures/diamondDragon.json",
-		"config/creatures/lordOfThunder.json",
-		"config/creatures/hellBaron.json",
-		"config/creatures/bloodDragon.json",
-		"config/creatures/darknessDragon.json",
-		"config/creatures/ghostBehemoth.json",
-		"config/creatures/hellHydra.json",
-		"config/creatures/sacredPhoenix.json",
+		"config/creatures/level8/supremeArchangel.json",
+		"config/creatures/level8/diamondDragon.json",
+		"config/creatures/level8/lordOfThunder.json",
+		"config/creatures/level8/hellBaron.json",
+		"config/creatures/level8/bloodDragon.json",
+		"config/creatures/level8/darknessDragon.json",
+		"config/creatures/level8/ghostBehemoth.json",
+		"config/creatures/level8/hellHydra.json",
+		"config/creatures/level8/sacredPhoenix.json",
 		"config/creatures.json"
 	],
 
