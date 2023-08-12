@@ -58,12 +58,10 @@
 		"config/creatures/gods/godOfMana.json",
 		"config/creatures/gods/godOfLore.json",
 
-		"config/creatures/gods/fireMessenger.json",
-		"config/creatures/gods/earthMessenger.json",
-		"config/creatures/gods/airMessenger.json",
-		"config/creatures/gods/waterMessenger.json",
-
-
+		"config/creatures/messengers/fireMessenger.json",
+		"config/creatures/messengers/earthMessenger.json",
+		"config/creatures/messengers/airMessenger.json",
+		"config/creatures/messengers/waterMessenger.json",
 
 		"config/creatures.json"
 	],
