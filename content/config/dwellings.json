@@ -41,7 +41,7 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VBV", "VBA" ]
 					}
 				},		
-				"creatures" : [[ "lordofThunder" ]],
+				"creatures" : [[ "lordOfThunder" ]],
 				"sounds": {
 					"ambient": ["LOOPTITA"]
 				}				

@@ -28,7 +28,7 @@
 			},
 			{
 				"subtype" : "creature.titan",
-				"addInfo" : "creature.lordofThunder",
+				"addInfo" : "creature.lordOfThunder",
 				"type" : "SPECIAL_UPGRADE"		
 			},
 			{
