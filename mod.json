@@ -52,6 +52,9 @@
 		"config/creatures/level8/ghostBehemoth.json",
 		"config/creatures/level8/hellHydra.json",
 		"config/creatures/level8/sacredPhoenix.json",
+
+		"config/creatures/gods/godOfWar.json",
+
 		"config/creatures.json"
 	],
 

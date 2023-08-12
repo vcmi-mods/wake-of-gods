@@ -215,7 +215,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godWar" }
+								{ "amount": 1, "type" :  "godOfWar" }
 							],
 							"value": 38000
 						}
@@ -231,7 +231,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godWar" }
+								{ "amount": 1, "type" :  "godOfWar" }
 							],
 							"value": 57000
 						}
@@ -247,7 +247,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godWar" }
+								{ "amount": 1, "type" :  "godOfWar" }
 							],
 							"value": 75000
 						}
@@ -263,7 +263,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godWar" }
+								{ "amount": 1, "type" :  "godOfWar" }
 							],
 							"value": 90000
 						}
