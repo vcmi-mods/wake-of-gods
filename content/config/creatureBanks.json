@@ -461,7 +461,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godLore" }
+								{ "amount": 1, "type" :  "godOfLore" }
 							],
 							"value": 38000
 						}
@@ -477,7 +477,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godLore" }
+								{ "amount": 1, "type" :  "godOfLore" }
 							],
 							"value": 57000
 						}
@@ -493,7 +493,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godLore" }
+								{ "amount": 1, "type" :  "godOfLore" }
 							],
 							"value": 75000
 						}
@@ -509,7 +509,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godLore" }
+								{ "amount": 1, "type" :  "godOfLore" }
 							],
 							"value": 90000
 						}
