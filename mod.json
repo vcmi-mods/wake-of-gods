@@ -48,6 +48,7 @@
 		"config/creatures/messengers/warZealot.json",
 		"config/creatures/messengers/arcticSharpshooter.json",
 		"config/creatures/messengers/lavaSharpshooter.json",
+		"config/creatures/messengers/nightmare.json",
 
 		"config/creatures/level8/supremeArchangel.json",
 		"config/creatures/level8/diamondDragon.json",
