@@ -1,0 +1,131 @@
+{
+	"godOfMana" :
+	{
+		"name" :
+		{
+			"singular" : "Emissary of Mana",
+			"plural" : "Emissaries of Mana"
+		},
+		"faction": "neutral",
+		"special" : true,
+		"level": 6,
+		"cost" :
+		{
+			"gold" : 30000
+		},
+		"doubleWide" : false,
+		"speed" : 4,
+		"hitPoints" : 2000,
+		"attack" : 1,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"fightValue" : 10,
+		"aiValue" : 20000,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 1
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"teleporting" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"addSpellpower" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"updater" : {
+					"type" : "GROWS_WITH_LEVEL",
+					"parameters" : [ 4 ]
+				},
+				"propagator" : "HERO"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/godOfMana/ZM162G",
+//			"map" : "creatures/godOfMana/zmm162g",
+			"iconSmall" : "creatures/godOfMana/CPrS162G",
+			"iconLarge" : "creatures/godOfMana/CPrL162G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0, //bonus do ataku, check if it works
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			}
+		]
+	}
+}

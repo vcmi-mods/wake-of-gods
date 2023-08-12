@@ -55,6 +55,7 @@
 
 		"config/creatures/gods/godOfWar.json",
 		"config/creatures/gods/godOfPeace.json",
+		"config/creatures/gods/godOfMana.json",
 
 		"config/creatures.json"
 	],

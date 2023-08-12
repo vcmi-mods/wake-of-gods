@@ -379,7 +379,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godMana" }
+								{ "amount": 1, "type" :  "godOfMana" }
 							],
 							"value": 38000
 						}
@@ -395,7 +395,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godMana" }
+								{ "amount": 1, "type" :  "godOfMana" }
 							],
 							"value": 57000
 						}
@@ -411,7 +411,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godMana" }
+								{ "amount": 1, "type" :  "godOfMana" }
 							],
 							"value": 75000
 						}
@@ -427,7 +427,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"creatures": [
-								{ "amount": 1, "type" :  "godMana" }
+								{ "amount": 1, "type" :  "godOfMana" }
 							],
 							"value": 90000
 						}
