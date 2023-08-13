@@ -1,0 +1,100 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"snowGrotto" :
+			{
+				"name" : "Snow-covered Grotto",
+				"sounds" : {
+					"ambient" : ["LOOPSNOW"],
+					"visit" : ["ROGUE"]
+				},
+				"templates" : {
+					"base" : { 
+						"animation" : "banks/ZCrBank2.def",
+						"visitableFrom" : [ "---", "-+-", "++-" ],
+						"mask" : [ "VVVV", "VBBV", "VABV"],
+						"allowedTerrains": [ "snow" ]
+					}
+				},
+				"rmg" : {
+					"value" : 2000,
+					"rarity" : 50,
+					"zoneLimit" : 1
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5,  "type" :  "ironGolem" },
+							{ "amount": 20, "type" :  "masterGremlin" },
+							{ "amount": 5,  "type" :  "ironGolem" },
+							{ "amount": 20, "type" :  "masterGremlin" }
+						],
+						"combat_value": 100,
+						"reward" : {
+							"resources":
+							{
+								"ore" : 15,
+								"gold" : 500
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 6,  "type" :  "ironGolem" },
+							{ "amount": 30, "type" :  "masterGremlin" },
+							{ "amount": 6,  "type" :  "ironGolem" },
+							{ "amount": 30, "type" :  "masterGremlin" }
+						],
+						"combat_value": 150,
+						"reward" : {
+							"resources":
+							{
+								"ore" : 20,
+								"gold" : 500
+							},
+							"value": 3000
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 7,  "type" :  "ironGolem" },
+							{ "amount": 40, "type" :  "masterGremlin" },
+							{ "amount": 7,  "type" :  "ironGolem" },
+							{ "amount": 40, "type" :  "masterGremlin" }
+						],
+						"combat_value": 200,
+						"reward" : {
+							"resources":
+							{
+								"ore" : 30,
+								"gold" : 500
+							},
+							"value": 4000
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 8,  "type" :  "ironGolem" },
+							{ "amount": 50, "type" :  "masterGremlin" },
+							{ "amount": 8,  "type" :  "ironGolem" },
+							{ "amount": 50, "type" :  "masterGremlin" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"resources":
+							{
+								"ore" : 40,
+								"gold" : 1000
+							},
+							"value": 6000
+						}
+					}
+				]
+			}
+		}
+	}
+}
