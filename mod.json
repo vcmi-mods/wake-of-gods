@@ -24,6 +24,7 @@
     },
 	"chinese" : {
 		"name" : "In The Wake of Gods (在众神的注视下)",
+		"description" : "Unofficial addon for Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/chinese.json"
 		]
