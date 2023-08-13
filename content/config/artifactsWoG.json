@@ -1,35 +1,4 @@
 {
-//	"art167":
-	"seaKnightsTabbard":
-	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "TORSO",
-		"value" : 6000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt167", 
-			"large" : "artifacts/HrArt167", 
-			"map" : "artifacts/zart167.def" 
-		},
-		"text" : {
-			"description" : "{Sea Knights Tabbard}\r\n\r\nWhen worn, this Tabbard gives hero bonus to spellpower that grows with hero level.",
-			"event" : "You pick up the Sea Knights Tabbard. This artifact gives hero bonus to spellpower that grows with hero level.",
-			"name" : "Sea Knights Tabbard"
-		}
-	},
-	
 //	"art168":
 	"cuirassOfVelocity":
 	{
