@@ -38,7 +38,7 @@
 						"animation" : "dwellings/level8/zavg152z",
 						"mask" : [ "VVV", "VVV", "VVV", "VBV", "VBA" ]
 					}
-				},		
+				},
 				"sounds": {
 					"ambient": ["LOOPTITA"]
 				}

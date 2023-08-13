@@ -1,7 +1,7 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"rockCoveredPosition" : { 
+			"rockCoveredPosition" : {
 				"name" : "Rock Covered Position",
 				"creatures" : [[ "lavaSharpshooter" ]],
 				"guards" : true,
@@ -15,7 +15,7 @@
 					}
 				}
 			},
-			"snowCoveredPosition" : { 
+			"snowCoveredPosition" : {
 				"name" : "Snow Covered Position",
 				"creatures" : [[ "arcticSharpshooter" ]],
 				"guards" : true,
@@ -48,7 +48,7 @@
 					}
 				}
 			},
-			"dreamHorse-shoe" : { 
+			"dreamHorse-shoe" : {
 				"name" : "Dream Horse-shoe",
 				"creatures" : [[ "nightmare" ]],
 				"guards" : true,
@@ -62,7 +62,7 @@
 					}
 				}
 			},
-			"hellRift" : { 
+			"hellRift" : {
 				"name" : "Hell Rift",
 				"creatures" : [[ "hellSteed" ]],
 				"guards" : true,
@@ -76,7 +76,7 @@
 					}
 				}
 			},
-			"lostFiary" : { 
+			"lostFiary" : {
 				"name" : "Lost Fiary",
 				"creatures" : [[ "warZealot" ]],
 				"guards" : true,
@@ -90,7 +90,7 @@
 					}
 				}
 			},
-			"snowman" : { 
+			"snowman" : {
 				"name" : "Snowman",
 				"creatures" : [[ "santaGremlin" ]],
 				"sounds": {
@@ -103,7 +103,7 @@
 					}
 				}
 			},
-			"sylvanHomestead" : { 
+			"sylvanHomestead" : {
 				"name" : "Sylvan Homestead",
 				"creatures" : [[ "sylvanCentaur" ]],
 				"sounds": {
@@ -116,7 +116,7 @@
 					}
 				}
 			},
-			"enchantedTower" : { 
+			"enchantedTower" : {
 				"name" : "Enchanted Tower",
 				"creatures" : [[ "wogSorceress" ]],
 				"guards" : true,
@@ -130,7 +130,7 @@
 					}
 				}
 			},
-			"howlingHollow" : { 
+			"howlingHollow" : {
 				"name" : "Howling Hollow",
 				"creatures" : [[ "werewolf" ]],
 				"sounds": {
@@ -143,7 +143,7 @@
 					}
 				}
 			},
-			"dragonGraveyard" : { 
+			"dragonGraveyard" : {
 				"name" : "Dragon Graveyard",
 				"creatures" : [[ "dracolich" ]],
 				"guards" : true,

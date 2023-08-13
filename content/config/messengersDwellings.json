@@ -1,7 +1,7 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"naturalCalamityAir" : { 
+			"naturalCalamityAir" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "airMessenger" ]],
 				"sounds": {
@@ -15,7 +15,7 @@
 					}
 				}
 			},
-			"naturalCalamityWater" : { 
+			"naturalCalamityWater" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "waterMessenger" ]],
 				"guards" : true,
@@ -29,7 +29,7 @@
 					}
 				}
 			},
-			"naturalCalamityFire" : { 
+			"naturalCalamityFire" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "fireMessenger" ]],
 				"sounds": {
@@ -43,7 +43,7 @@
 					}
 				}
 			},
-			"naturalCalamityEarth" : { 
+			"naturalCalamityEarth" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "earthMessenger" ]],
 				"sounds": {
