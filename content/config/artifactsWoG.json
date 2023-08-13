@@ -1,30 +1,4 @@
 {
-	"dragonheart":
-	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.summonRedDragon",
-				"type" : "OPENING_BATTLE_SPELL",
-				"val" : 1
-			}			
-		],
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : "MISC",
-		"value" : 20000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt159", 
-			"large" : "artifacts/HrArt159L", 
-			"map" : "artifacts/zart159.def" 
-		},
-		"text" : {
-//			"description" : "{Dragonheart}\r\n\r\nThis ancient relic summons up to [100 HP x Hero Level] dragons for the duration of a battle (minimum one dragon). Dragon type is random but may be influenced by terrain. In addition, dragons in a hero's army always have positive morale.",
-			"description" : "{Dragonheart}\r\n\r\nThis ancient relic summons [40 + 20*SP] HP Red Dragons for the duration of a battle (summoning starts from 8-9 SP).\r\nIn addition, dragons in a hero's army always have positive morale.",
-			"event" : "You pick up the Dragonheart and feel the powerful drum-beat of ten thousand dragon hearts reverberating through your soul. When you need them, the dragons will come.",
-			"name" : "Dragonheart"
-		}
-	},
-	
 	"gateKey":
 	{
 		"type" : ["HERO"],
