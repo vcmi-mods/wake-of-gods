@@ -1,34 +1,4 @@
 {
-//	"art164":
-	"gnollToothRing":
-	{
-		"bonuses" : [
-			{
-				"type" : "STACK_HEALTH",
-				"val" : 1,
-				"valueType" : "ADDITIVE_VALUE",
-				"updater" : {
-					"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "RING",
-		"value" : 8000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt164", 
-			"large" : "artifacts/HrArt164", 
-			"map" : "artifacts/zart164.def" 
-		},
-		"text" : {
-			"description" : "{Gnoll Tooth Ring}\r\n\r\nWhen worn, this Ring increases creatures health that grows with hero level.",
-			"event" : "You pick up the Gnoll Tooth Ring. This artifact increases creatures health that grows with hero level.",
-			"name" : "Gnoll Tooth Ring"
-		}
-	},
-	
 //	"art165":
 	"gemEncrustedRing":
 	{
