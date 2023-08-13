@@ -1,0 +1,168 @@
+{
+	"werewolf" :
+	{
+		"name" :
+		{
+			"singular" : "Werewolf",
+			"plural" : "Werewolves"
+		},
+		"faction": "neutral",
+		"level": 4,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"speed" : 7,
+		"hitPoints" : 35,
+		"attack" : 5,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"fightValue" : 460,
+		"aiValue" : 460,
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"growth" : 4,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"val" : 20,
+				"subtype" : 0
+			},
+			"selfBerserk" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.berserk",
+				"val" : 3,
+				"addInfo" : 15,
+				"turns" : 3,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "werewolf", false ]
+					}
+				]
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/werewolf/ZM194Z",
+			"map" : "creatures/werewolf/zmm194z",
+			"iconSmall" : "creatures/werewolf/CPrS194Z",
+			"iconLarge" : "creatures/werewolf/CPrL194Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/werewolf/wolfattk.wav",
+			"defend": "creatures/werewolf/wolfDFND.wav",
+			"killed": "creatures/werewolf/wolfKILL.wav",
+			"move": "creatures/werewolf/wolfMOVE.wav",
+			"wince": "creatures/werewolf/wolfWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION",
+					"subtype" : 1
+				},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.griffin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.royalGriffin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.roc"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.thunderbird"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			}
+		]
+	}
+}
