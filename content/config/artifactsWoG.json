@@ -1,34 +1,4 @@
 {
-//	"art170":
-	"ornateMinotaursHorn":
-	{
-		"bonuses" : [
-			{
-				"type" : "MANA_REGENERATION",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MINOR",
-		"slot" : "MISC",
-		"value" : 3500,
-		"graphics" : { 
-			"image" : "artifacts/HrArt170", 
-			"large" : "artifacts/HrArt170", 
-			"map" : "artifacts/zart170.def" 
-		},
-		"text" : {
-			"description" : "{Ornate Minotaurs Horn}\r\n\r\nWhen equipped, the Horn enables hero to regenerate extra spell points per day that grows with hero level.",
-			"event" : "You pick up the Ornate Minotaurs Horn. This artifact enables hero to regenerate extra spell points per day that grows with hero level.",
-			"name" : "Ornate Minotaurs Horn"
-		}
-	},
-	
 	"bucklerOfBeelzebub":
 	{
 		"bonuses" : [
