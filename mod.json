@@ -56,6 +56,8 @@
 		"config/creatures/messengers/werewolf.json",
 		"config/creatures/messengers/dracolich.json",
 
+		"config/creatures/messengers/redDragonClone.json",
+
 		"config/creatures/level8/supremeArchangel.json",
 		"config/creatures/level8/diamondDragon.json",
 		"config/creatures/level8/lordOfThunder.json",
@@ -74,9 +76,7 @@
 		"config/creatures/messengers/fireMessenger.json",
 		"config/creatures/messengers/earthMessenger.json",
 		"config/creatures/messengers/airMessenger.json",
-		"config/creatures/messengers/waterMessenger.json",
-
-		"config/creatures.json"
+		"config/creatures/messengers/waterMessenger.json"
 	],
 
 	"objects" :
