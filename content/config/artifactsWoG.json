@@ -1,34 +1,4 @@
 {
-	"bloodmarkedBuckler":
-	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "LEFT_HAND",
-		"value" : 6500,
-		"graphics" : { 
-			"image" : "artifacts/HrArt163", 
-			"large" : "artifacts/HrArt163", 
-			"map" : "artifacts/zart163.def" 
-		},
-		"text" : {
-			"description" : "{Bloodmarked Buckler}\r\n\r\nWhen worn, this Buckler gives hero bonus to defense that grows with hero level.",
-			"event" : "You pick up the Bloodmarked Buckler. This artifact gives hero bonus to defense that grows with hero level.",
-			"name" : "Bloodmarked Buckler"
-		}
-	},
-	
 //	"art164":
 	"gnollToothRing":
 	{

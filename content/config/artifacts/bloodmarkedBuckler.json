@@ -1,0 +1,31 @@
+{
+	"bloodmarkedBuckler" :
+	{
+		"type" : ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class" : "MAJOR",
+		"value" : 6500,
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"type" : "GROWS_WITH_LEVEL",
+					"parameters" : [ 6 ]
+				}
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt163",
+			"large" : "artifacts/HrArt163",
+			"map" : "artifacts/zart163.def"
+		},
+		"text" : {
+			"name" : "Bloodmarked Buckler",
+			"description" : "{Bloodmarked Buckler}\r\n\r\nWhen worn, this Buckler gives hero bonus to defense that grows with hero level.",
+			"event" : "You pick up the Bloodmarked Buckler. This artifact gives hero bonus to defense that grows with hero level."
+		}
+	}
+}
