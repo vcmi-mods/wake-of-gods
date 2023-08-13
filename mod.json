@@ -83,8 +83,8 @@
 	[
 		"config/dwellings.json",
 
-		"config/creatureBanks.json",
 		"config/huntingLodge.json",
+		"config/grotto.json",
 		"config/snowGrotto.json",
 		"config/martialSpiritPalace.json",
 		"config/pacificationCitadel.json",
