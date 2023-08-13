@@ -54,6 +54,7 @@
 		"config/creatures/messengers/sylvanCentaur.json",
 		"config/creatures/messengers/wogSorceress.json",
 		"config/creatures/messengers/werewolf.json",
+		"config/creatures/messengers/dracolich.json",
 
 		"config/creatures/level8/supremeArchangel.json",
 		"config/creatures/level8/diamondDragon.json",
