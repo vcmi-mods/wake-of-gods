@@ -3,6 +3,7 @@
 		"types" : {
 			"rockCoveredPosition" : { 
 				"name" : "Rock Covered Position",
+				"creatures" : [[ "lavaSharpshooter" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPARRW"]
@@ -12,12 +13,11 @@
 						"animation" : "dwellings/zavg171z",
 						"mask" : [ "VVVV", "VVVV", "VVAB" ]
 					}
-				},			
-				"creatures" : [[ "lavaSharpshooter" ]] 
+				}
 			},
-
 			"snowCoveredPosition" : { 
 				"name" : "Snow Covered Position",
+				"creatures" : [[ "arcticSharpshooter" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPARRW"]
@@ -27,12 +27,11 @@
 						"animation" : "dwellings/zavg170z",
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},			
-				"creatures" : [[ "arcticSharpshooter" ]] 
+				}
 			},
-				
 			"vastCavern" : {
 				"name" : "Vast Cavern",
+				"creatures" : [[ "gorynych" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPGRCH"]
@@ -47,12 +46,11 @@
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
 						"allowedTerrains": [ "swamp", "lava" ]
 					}
-				},			
-				"creatures" : [[ "gorynych" ]] 
+				}
 			},
-			
 			"dreamHorse-shoe" : { 
 				"name" : "Dream Horse-shoe",
+				"creatures" : [[ "nightmare" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPSHOE"]
@@ -62,83 +60,11 @@
 						"animation" : "dwellings/zavg173a",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
-				},			
-				"creatures" : [[ "nightmare" ]] 
+				}
 			},
-			"lostFiary" : { 
-				"name" : "Lost Fiary",
-				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPWZEL"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg169",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
-					}
-				},			
-				"creatures" : [[ "warZealot" ]] 
-			},
-
-			"snowman" : { 
-				"name" : "Snowman",
-				"sounds": {
-					"ambient": ["LOOPSNWMN"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg173",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},
-				"creatures" : [[ "santaGremlin" ]] 
-			},
-						
-			"sylvanHomestead" : { 
-				"name" : "Sylvan Homestead",
-				"sounds": {
-					"ambient": ["LOOPSLVN"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg192",
-						"mask" : [ "VVV", "VVV", "VBA" ]
-					}
-				},			
-				"creatures" : [[ "sylvanCentaur" ]] 
-			},
-			
-			"enchantedTower" : { 
-				"name" : "Enchanted Tower",
-				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPETWR"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg193",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
-					}
-				},
-				"creatures" : [[ "wogSorceress" ]] 
-			},
-			
-			"howlingHollow" : { 
-				"name" : "Howling Hollow",
-				"sounds": {
-					"ambient": ["LOOPWRWF"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg194",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
-					}
-				},			
-				"creatures" : [[ "werewolf" ]] 
-			},
-			
 			"hellRift" : { 
 				"name" : "Hell Rift",
+				"creatures" : [[ "hellSteed" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPHLLRFT"]
@@ -148,12 +74,78 @@
 						"animation" : "dwellings/zavg195",
 						"mask" : [ "VVVV", "VBBB", "VBAB" ]
 					}
-				},			
-				"creatures" : [[ "hellSteed" ]] 
+				}
 			},
-
+			"lostFiary" : { 
+				"name" : "Lost Fiary",
+				"creatures" : [[ "warZealot" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPWZEL"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg169",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
+					}
+				}
+			},
+			"snowman" : { 
+				"name" : "Snowman",
+				"creatures" : [[ "santaGremlin" ]],
+				"sounds": {
+					"ambient": ["LOOPSNWMN"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg173",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			},
+			"sylvanHomestead" : { 
+				"name" : "Sylvan Homestead",
+				"creatures" : [[ "sylvanCentaur" ]],
+				"sounds": {
+					"ambient": ["LOOPSLVN"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg192",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"enchantedTower" : { 
+				"name" : "Enchanted Tower",
+				"creatures" : [[ "wogSorceress" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPETWR"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg193",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"howlingHollow" : { 
+				"name" : "Howling Hollow",
+				"creatures" : [[ "werewolf" ]],
+				"sounds": {
+					"ambient": ["LOOPWRWF"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg194",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
 			"dragonGraveyard" : { 
 				"name" : "Dragon Graveyard",
+				"creatures" : [[ "dracolich" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPDRACO"]
@@ -163,8 +155,7 @@
 						"animation" : "dwellings/zavg196",
 						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
 					}
-				},			
-				"creatures" : [[ "dracolich" ]] 
+				}
 			}
 		}
 	}
