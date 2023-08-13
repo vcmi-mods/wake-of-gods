@@ -1,34 +1,4 @@
 {
-//	"art165":
-	"gemEncrustedRing":
-	{
-		"bonuses" : [
-			{
-				"type" : "SPELL_DURATION",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 3 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "TREASURE",
-		"slot" : "RING",
-		"value" : 2500,
-		"graphics" : { 
-			"image" : "artifacts/HrArt165", 
-			"large" : "artifacts/HrArt165", 
-			"map" : "artifacts/zart165.def" 
-		},
-		"text" : {
-			"description" : "{Gem Encrusted Ring}\r\n\r\nWhen worn, this Ring increases the duration of all hero's spells that grows with hero level.",
-			"event" : "You pick up the Gem Encrusted Ring. This artifact increases the duration of all hero's spells that grows with hero level.",
-			"name" : "Gem Encrusted Ring"
-		}
-	},
-	
 //	"art166":
 	"shadowSectMedallion":
 	{
