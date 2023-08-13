@@ -1,35 +1,4 @@
 {
-//	"art169":
-	"runedMithrilBoots":
-	{
-		"bonuses" : [
-			{
-				"subtype" : 1,
-				"type" : "MOVEMENT",
-				"val" : 600,
-				"valueType" : "ADDITIVE_VALUE",
-				"updater" : {
-					"parameters" : [ 150 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "FEET",
-		"value" : 6000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt169", 
-			"large" : "artifacts/HrArt169", 
-			"map" : "artifacts/zart169.def" 
-		},
-		"text" : {
-			"description" : "{Runed Mithril Boots}\r\n\r\nWhen worn, Boots increase hero's movement that slowly grows with hero level.",
-			"event" : "You pick up the Runed Mithril Boots. This artifact increases hero's movement that slowly grows with hero level.",
-			"name" : "Runed Mithril Boots"
-		}
-	},
-	
 //	"art170":
 	"ornateMinotaursHorn":
 	{
