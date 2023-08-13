@@ -85,6 +85,7 @@
 		"config/creatureBanks.json",
 		"config/huntingLodge.json",
 		"config/snowGrotto.json",
+		"config/martialSpiritPalace.json",
 		"config/mushrooms.json",
 		"config/objects.json",
 		"config/sphinx.json",
