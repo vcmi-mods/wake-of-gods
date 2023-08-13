@@ -43,20 +43,20 @@
 
 	"creatures" :
 	[
-		"config/creatures/messengers/ghost.json",
-		"config/creatures/messengers/gorynych.json",
-		"config/creatures/messengers/warZealot.json",
-		"config/creatures/messengers/arcticSharpshooter.json",
-		"config/creatures/messengers/lavaSharpshooter.json",
-		"config/creatures/messengers/nightmare.json",
-		"config/creatures/messengers/hellSteed.json",
-		"config/creatures/messengers/santaGremlin.json",
-		"config/creatures/messengers/sylvanCentaur.json",
-		"config/creatures/messengers/wogSorceress.json",
-		"config/creatures/messengers/werewolf.json",
-		"config/creatures/messengers/dracolich.json",
+		"config/creatures/ghost.json",
+		"config/creatures/gorynych.json",
+		"config/creatures/warZealot.json",
+		"config/creatures/arcticSharpshooter.json",
+		"config/creatures/lavaSharpshooter.json",
+		"config/creatures/nightmare.json",
+		"config/creatures/hellSteed.json",
+		"config/creatures/santaGremlin.json",
+		"config/creatures/sylvanCentaur.json",
+		"config/creatures/wogSorceress.json",
+		"config/creatures/werewolf.json",
+		"config/creatures/dracolich.json",
 
-		"config/creatures/messengers/redDragonClone.json",
+		"config/creatures/redDragonClone.json",
 
 		"config/creatures/level8/supremeArchangel.json",
 		"config/creatures/level8/diamondDragon.json",
