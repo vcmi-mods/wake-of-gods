@@ -1,36 +1,4 @@
 {
-	"noctivigantBlade":
-	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "RIGHT_HAND",
-		"value" : 6500,
-		"graphics" : { 
-			"image" : "artifacts/HrArt162", 
-			"large" : "artifacts/HrArt162", 
-			"map" : "artifacts/zart162.def" 
-		},
-
-		"text" : {
-			"description" : "{Noctivigant Blade}\r\n\r\nWhen worn, this Blade gives hero bonus to attack that grows with hero level.",
-			"event" : "You pick up the Noctivigant Blade. This artifact gives hero bonus to attack that grows with hero level.",
-			"name" : "Noctivigant Blade"
-		}
-	},
-	
-//	"art163":
 	"bloodmarkedBuckler":
 	{
 		"bonuses" : [
