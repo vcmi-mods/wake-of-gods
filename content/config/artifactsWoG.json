@@ -1,37 +1,4 @@
 {
-	"barbarianLordsAxeOfFerocity":
-	{
-		"bonuses" : [
-			{
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"limiters" : [ "noneOf", "SHOOTER_ONLY" ]
-			}
-		],	
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : "RIGHT_HAND",
-		"value" : 16000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt158", 
-			"large" : "artifacts/HrArt158L", 
-			"map" : "artifacts/zart158.def" 
-		},
-		"text" : {
-			"description" : "{Barbarian Lord's Axe of Ferocity}\r\n\r\nWhen worn, grants an additional strike each round to all non-shooting creatures in a hero's army.",
-			"event" : "You pick up the Barbarian Lord's Axe of Ferocity and it speaks to your mind - Bring on the enemy and together we shall cut a swath of destruction through their legions!",
-			"name" : "Barbarian Lord's Axe of Ferocity"
-		},
-		"components":
-		[
-			"ogresClubOfHavoc",
-			"targOfTheRampagingOgre",
-			"crownOfTheSupremeMagi",
-			"tunicOfTheCyclopsKing"
-		]
-	},
-	
 	"dragonheart":
 	{
 		"bonuses" : [

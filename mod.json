@@ -39,6 +39,7 @@
 	"artifacts" :
 	[
 		"config/artifacts/crimsonShieldOfRetribution.json",
+		"config/artifacts/barbarianLordsAxeOfFerocity.json",
 		"config/artifactsWoG2.json"
 	],
 
