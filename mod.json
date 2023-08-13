@@ -49,6 +49,7 @@
 		"config/creatures/messengers/arcticSharpshooter.json",
 		"config/creatures/messengers/lavaSharpshooter.json",
 		"config/creatures/messengers/nightmare.json",
+		"config/creatures/messengers/hellSteed.json",
 		"config/creatures/messengers/santaGremlin.json",
 		"config/creatures/messengers/sylvanCentaur.json",
 		"config/creatures/messengers/wogSorceress.json",

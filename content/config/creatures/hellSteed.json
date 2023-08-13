@@ -1,0 +1,156 @@
+{
+	"hellSteed" :
+	{
+		"name" :
+		{
+			"singular" : "Hell Steed",
+			"plural" : "Hell Steeds"
+		},
+		"upgrades": ["nightmare"],
+		"faction": "neutral",
+		"level": 6,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"doubleWide" : true,
+		"speed" : 8,
+		"hitPoints" : 100,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 18,
+			 "max" : 24
+		},
+		"fightValue" : 1850,
+		"aiValue" : 2150,
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"immuneToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0 //this IS important
+			},
+			"fireShield" :
+			{
+				"type" : "FIRE_SHIELD",
+				"val" : 30
+			},
+			"spellFireWall" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fireWall",
+				"val" : 12,
+				"addInfo" : 3
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/hellSteed/ZM195Z",
+			"map" : "creatures/hellSteed/zmm195z",
+			"iconSmall" : "creatures/hellSteed/CPrS195N",
+			"iconLarge" : "creatures/hellSteed/CPrL195Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.2,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.fireball",
+					"addInfo" : [ 3, 2 ]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}
