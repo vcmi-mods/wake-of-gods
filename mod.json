@@ -38,7 +38,7 @@
 	},
 	"artifacts" :
 	[
-		"config/artifactsWoG.json",
+		"config/artifacts/crimsonShieldOfRetribution.json",
 		"config/artifactsWoG2.json"
 	],
 

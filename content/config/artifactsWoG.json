@@ -1,46 +1,4 @@
-{	
-	"crimsonShieldOfRetribution":
-	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : 0,
-				"type" : "CREATURE_DAMAGE",
-				"val" : -50,
-				"valueType" : "PERCENT_TO_BASE",
-				"propagator": "BATTLE_WIDE",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters": [
-					"OPPOSITE_SIDE",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters": [ "BLOCKS_RETALIATION" ]
-					}
-				]		
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "LEFT_HAND",
-		"value" : 6000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt157", 
-			"large" : "artifacts/HrArt157L", 
-			"map" : "artifacts/zart157.def" 
-		},
-		"text" : {
-//			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and gives all creatures in a hero's ranks the ability to retaliate against creatures that cannot normally be retaliated against.",
-			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and decreases damage of enemy blocking retaliation creatures by 50%.",
-			"event" : "Strapping on the Crimson Shield of Retribution, you notice the look of steely resolve upon the faces of your troops, and now know that they will always be able to answer blood with blood in the heat of battle.",
-			"name" : "Crimson Shield of Retribution"
-		}
-	},
-	
+{
 	"barbarianLordsAxeOfFerocity":
 	{
 		"bonuses" : [
