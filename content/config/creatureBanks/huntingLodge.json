@@ -1,0 +1,99 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"huntingLodge" : {
+				"name" : "Hunting Lodge",
+				"sounds" : {
+					"ambient" : ["LOOPFRST"],
+					"visit" : ["ROGUE"]
+				},
+				"templates" : {
+					"base" : { 
+						"animation" : "banks/ZCrBank1.def", 
+						"visitableFrom" : [ "---", "-+-", "-++" ], 
+						"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"]
+					}
+				},
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 50,
+					"zoneLimit" : 1
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type" : "dendroidGuard" },
+							{ "amount": 4, "type" : "woodElf" },
+							{ "amount": 3, "type" : "dendroidGuard" },
+							{ "amount": 4, "type" : "woodElf" }
+						],
+						"combat_value": 100,
+						"reward" : {
+							"resources":
+							{
+								"wood" : 15,
+								"gold" : 500
+							},
+							"value": 2000
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 4, "type" : "dendroidGuard" },
+							{ "amount": 6, "type" : "woodElf" },
+							{ "amount": 4, "type" : "dendroidGuard" },
+							{ "amount": 6, "type" : "woodElf" }
+						],
+						"combat_value": 150,
+						"reward" : {
+							"resources":
+							{
+								"wood" : 20,
+								"gold" : 500
+							},
+							"value": 3000
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type" : "dendroidGuard" },
+							{ "amount": 8, "type" : "woodElf" },
+							{ "amount": 5, "type" : "dendroidGuard" },
+							{ "amount": 8, "type" : "woodElf" }
+						],
+						"combat_value": 200,
+						"reward" : {
+							"resources":
+							{
+								"wood" : 25,
+								"gold" : 500
+							},
+							"value": 4000
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 6,  "type" : "dendroidSoldier" },
+							{ "amount": 10, "type" : "grandElf" },
+							{ "amount": 6,  "type" : "dendroidSoldier" },
+							{ "amount": 10, "type" : "grandElf" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"resources":
+							{
+								"wood" : 40,
+								"gold" : 1000
+							},
+							"value": 6000
+						}
+					}
+				]
+			}
+		}
+	}
+}

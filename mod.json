@@ -83,6 +83,7 @@
 	[
 		"config/dwellings.json",
 		"config/creatureBanks.json",
+		"config/huntingLodge.json",
 		"config/mushrooms.json",
 		"config/objects.json",
 		"config/sphinx.json",
