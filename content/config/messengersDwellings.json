@@ -1,0 +1,62 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"naturalCalamityAir" : { 
+				"name" : "Natural Calamity",
+				"creatures" : [[ "airMessenger" ]],
+				"sounds": {
+					"ambient": ["LOOPCALA"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/messengers/zavg174a",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			},
+			"naturalCalamityWater" : { 
+				"name" : "Natural Calamity",
+				"creatures" : [[ "waterMessenger" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPCALA"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/messengers/zavg174a",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			},
+			"naturalCalamityFire" : { 
+				"name" : "Natural Calamity",
+				"creatures" : [[ "fireMessenger" ]],
+				"sounds": {
+					"ambient": ["LOOPCALA"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/messengers/zavg174a",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			},
+			"naturalCalamityEarth" : { 
+				"name" : "Natural Calamity",
+				"creatures" : [[ "earthMessenger" ]],
+				"sounds": {
+					"ambient": ["LOOPCALA"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/messengers/zavg174a",
+						"mask" : [ "VVV", "VVV", "VVVV", "VVBA" ]
+					}
+				}
+			}
+		}
+	}
+}

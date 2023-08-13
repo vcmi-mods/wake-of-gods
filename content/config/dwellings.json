@@ -199,67 +199,6 @@
 				},			
 				"creatures" : [[ "nightmare" ]] 
 			},
-
-			"naturalCalamityAir" : { 
-				"name" : "Natural Calamity",
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},			
-				"creatures" : [[ "airMessenger" ]] 
-			},			
-
-			"naturalCalamityWater" : { 
-				"name" : "Natural Calamity",
-				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},			
-				"creatures" : [[ "waterMessenger" ]] 
-			},		
-			
-			"naturalCalamityFire" : { 
-				"name" : "Natural Calamity",
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},			
-				"creatures" : [[ "fireMessenger" ]] 
-			},
-			
-			"naturalCalamityEarth" : { 
-				"name" : "Natural Calamity",
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVV", "VVV", "VVVV", "VVBA" ]
-					}
-				},			
-				"creatures" : [[ "earthMessenger" ]] 
-			},			
-			
 			"lostFiary" : { 
 				"name" : "Lost Fiary",
 				"guards" : true,

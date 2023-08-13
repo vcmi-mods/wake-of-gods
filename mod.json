@@ -82,6 +82,7 @@
 	"objects" :
 	[
 		"config/dwellings.json",
+		"config/messengersDwellings.json",
 
 		"config/huntingLodge.json",
 		"config/grotto.json",
