@@ -1,35 +1,4 @@
 {
-	"deepIronHelmet":	
-	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],	
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : "HEAD",
-		"value" : 6000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt161", 
-			"large" : "artifacts/HrArt161", 
-			"map" : "artifacts/zart161.def" 
-		},
-		"text" : {
-			"description" : "{Deep Iron Helmet}\r\n\r\nWhen worn, this Helmet gives hero bonus to knowledge that grows with hero level.",
-			"event" : "You pick up the Deep Iron Helmet. This artifact gives hero bonus to knowledge that grows with hero level.",
-			"name" : "Deep Iron Helmet"
-		}
-	},
-	
-//	"art162":
 	"noctivigantBlade":
 	{
 		"bonuses" : [
