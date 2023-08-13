@@ -1,34 +1,4 @@
 {
-//	"art168":
-	"cuirassOfVelocity":
-	{
-		"bonuses" : [
-			{
-				"type" : "STACKS_SPEED",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"updater" : {
-					"parameters" : [ 2 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
-			}
-		],
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : "SHOULDERS",
-		"value" : 14000,
-		"graphics" : { 
-			"image" : "artifacts/HrArt168", 
-			"large" : "artifacts/HrArt168", 
-			"map" : "artifacts/zart168.def" 
-		},
-		"text" : {
-			"description" : "{Cuirass of Velocity}\r\n\r\nWhen worn, this Cuirass gives hero bonus to creatures speed that slowly grows with hero level.",
-			"event" : "You pick up the Cuirass of Velocity. This artifact gives hero bonus to creatures speed that slowly grows with hero level.",
-			"name" : "Cuirass of Velocity" //surcoat
-		}
-	},
-	
 //	"art169":
 	"runedMithrilBoots":
 	{
