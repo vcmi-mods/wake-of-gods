@@ -6,7 +6,7 @@
 				"name" : "Home of the Bat",
 				"templates" : {
 					"base" : { 
-						"animation" : "banks/zcrbvm18.def",
+						"animation" : "creatureBanks/zcrbvm18.def",
 						"visitableFrom" : [ "---", "-+-", "++-" ],
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}

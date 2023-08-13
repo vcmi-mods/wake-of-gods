@@ -10,7 +10,7 @@
 				},
 				"templates" : {
 					"base" : { 
-						"animation" : "banks/zcrbjn19.def",
+						"animation" : "creatureBanks/zcrbjn19.def",
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "V", "A" ],
 						"allowedTerrains": [ "water" ]

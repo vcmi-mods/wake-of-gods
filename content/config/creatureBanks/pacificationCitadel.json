@@ -10,7 +10,7 @@
 				},
 				"templates" : {
 					"base" : {
-						"animation" : "banks/ZCrBGod2.def",
+						"animation" : "creatureBanks/ZCrBGod2.def",
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBBVBV", "VVBVVV" ]
 					}

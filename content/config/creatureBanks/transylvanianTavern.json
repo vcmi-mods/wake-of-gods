@@ -10,7 +10,7 @@
 				},
 				"templates" : {
 					"base" : { 
-						"animation" : "banks/zcrbvm17.def",
+						"animation" : "creatureBanks/zcrbvm17.def",
 						"visitableFrom" : [ "---", "-+-", "++-" ],
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}

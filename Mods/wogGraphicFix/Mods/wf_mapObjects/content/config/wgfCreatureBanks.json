@@ -5,7 +5,7 @@
 			{
 				"name" : "Palace of Martial Spirit",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod1.def", 
+					"small" : { "animation" : "creatureBanks/WGgod1.def", 
 					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
@@ -14,7 +14,7 @@
 			{
 				"name" : "Citadel of Pacification",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod2.def", 
+					"small" : { "animation" : "creatureBanks/WGgod2.def", 
 					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
@@ -23,7 +23,7 @@
 			{
 				"name" : "Monastery of Magicians",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod3.def", 
+					"small" : { "animation" : "creatureBanks/WGgod3.def", 
 					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
@@ -32,7 +32,7 @@
 			{
 				"name" : "Library of Legends",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod4.def", 
+					"small" : { "animation" : "creatureBanks/WGgod4.def", 
 					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
 				}
@@ -45,7 +45,7 @@
 			"crypt" : {
 				"templates" : {
 					"swamp" : {
-						"animation" : "banks/AVXgysw0", 
+						"animation" : "creatureBanks/AVXgysw0", 
 						"visitableFrom" :  [ "---", "-+-", "+++" ], 
 						"mask" : [ "VVV", "BAB"],
 						"allowedTerrains":["swamp"] 							

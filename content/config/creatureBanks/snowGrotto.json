@@ -10,7 +10,7 @@
 				},
 				"templates" : {
 					"base" : { 
-						"animation" : "banks/ZCrBank2.def",
+						"animation" : "creatureBanks/ZCrBank2.def",
 						"visitableFrom" : [ "---", "-+-", "++-" ],
 						"mask" : [ "VVVV", "VBBV", "VABV"],
 						"allowedTerrains": [ "snow" ]
