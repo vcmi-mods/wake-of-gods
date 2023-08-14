@@ -1,27 +1,21 @@
 {
 	"monstersPower":
 	{
-		"class" : "MAJOR",
-		"slot" : "MISC",
 		"type" : ["HERO"],
+		"slot" : "MISC",
+		"class" : "MAJOR",
 		"value" : 10000,
 		"graphics" : { 
-			"image" : "artifacts/HrArt143", 
-			"large" : "artifacts/HrArt143L", 
-			"map" : "artifacts/zart143.def" 
-		},
-		"text" : {
-			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on diffirent creatures depends on terrain battle is fought.\r\n\r\nAt dirt, lava, subterra and rough terrain - good creatures are affected.\r\nAt grass, snow, swamp and water terrain - evil creatures are affected.\r\nAt dirt, sand, subterra and snow terrain - neutral creatures are affected.",
-//			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on all monsters of one kind. Every week, a new random monster is selected from the hero’s army and Prayer will be cast on ALL monsters of this type that every hero has during that week.",
-			"event" : "You find the Monster's Power, dust it off, and stick it in your pack.",
-			"name" : "Monster's Power"
+			"image" : "artifacts/HrArt143",
+			"large" : "artifacts/HrArt143L",
+			"map" : "artifacts/zart143.def"
 		},
 		"bonuses" : [
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -34,10 +28,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -50,10 +44,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -66,10 +60,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -82,10 +76,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -98,10 +92,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -114,10 +108,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -130,10 +124,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -146,10 +140,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -162,10 +156,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"subtype" : "spell.prayer",
+				"type" : "ENCHANTED",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -178,10 +172,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"subtype" : "spell.prayer",
+				"type" : "ENCHANTED",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -194,10 +188,10 @@
 				]
 			},
 			{
-               "subtype" : "spell.prayer",
-               "type" : "ENCHANTED",
-			   "val" : 1,
-				"limiters" : [ 
+				"subtype" : "spell.prayer",
+				"type" : "ENCHANTED",
+				"val" : 1,
+				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
@@ -209,6 +203,12 @@
 					}
 				]
 			}
-		]
+		],
+		"text" : {
+			"name" : "Monster's Power",
+			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on diffirent creatures depends on terrain battle is fought.\r\n\r\nAt dirt, lava, subterra and rough terrain - good creatures are affected.\r\nAt grass, snow, swamp and water terrain - evil creatures are affected.\r\nAt dirt, sand, subterra and snow terrain - neutral creatures are affected.",
+//			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on all monsters of one kind. Every week, a new random monster is selected from the hero’s army and Prayer will be cast on ALL monsters of this type that every hero has during that week.",
+			"event" : "You find the Monster's Power, dust it off, and stick it in your pack."
+		}
 	}
 }

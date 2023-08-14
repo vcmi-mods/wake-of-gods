@@ -56,8 +56,7 @@
 
 		"config/artifacts/magicWand.json",
 		"config/artifacts/goldTowerArrow.json",
-
-		"config/artifactsWoG2.json"
+		"config/artifacts/monstersPower.json"
 	],
 
 	"creatures" :
