@@ -54,6 +54,8 @@
 		"config/artifacts/ornateMinotaursHorn.json",
 		"config/artifacts/bucklerOfBeelzebub.json",
 
+		"config/artifacts/magicWand.json",
+
 		"config/artifactsWoG2.json"
 	],
 

@@ -1,0 +1,66 @@
+{
+	"magicWand":
+	{
+		"type" : ["HERO"],
+		"slot" : "MISC",
+		"class" : "RELIC",
+		"value" : 18000,
+		"graphics" : { 
+			"image" : "artifacts/HrArt141",
+			"large" : "artifacts/HrArt141L",
+			"map" : "artifacts/zart141.def"
+		},
+		"bonuses" : [
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.archangel",
+				"addInfo" : "creature.supremeArchangel"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.goldDragon",
+				"addInfo" : "creature.diamondDragon"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.titan",
+				"addInfo" : "creature.lordOfThunder"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.archDevil",
+				"addInfo" : "creature.hellBaron"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.ghostDragon",
+				"addInfo" : "creature.bloodDragon"
+			},
+			{
+				"subtype" : "creature.blackDragon",
+				"addInfo" : "creature.darknessDragon",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.ancientBehemoth",
+				"addInfo" : "creature.ghostBehemoth"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.chaosHydra",
+				"addInfo" : "creature.hellHydra"
+			},
+			{
+				"type" : "SPECIAL_UPGRADE",
+				"subtype" : "creature.phoenix",
+				"addInfo" : "creature.sacredPhoenix"
+			}
+		],
+		"text" : {
+			"name" : "Magic Wand",
+			"description" : "{Magic Wand}\r\n\r\nAllows to upgrade lvl 7 upg. creature into corresponding 8 lvl one.",
+			"event" : "You find the Magic Wand, dust it off, and stick it in your pack."
+		}
+	}
+}
