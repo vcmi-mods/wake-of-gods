@@ -123,6 +123,7 @@
 	"spells" :
 	[
 		"config/spells/arrowTrigger.json",
+		"config/spells/towerJammer.json",
 		"config/arrowTrigger.json"
 	],
 	"skills" :
