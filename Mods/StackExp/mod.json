@@ -5,10 +5,6 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Mechanics",
-	"artifacts" : 
-	[
-		"config/stackArtifacts.json"
-	],
 	"creatures" :
 	[
 		"config/castle_exp.json",
