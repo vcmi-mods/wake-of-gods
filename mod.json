@@ -125,8 +125,7 @@
 		"config/spells/arrowTrigger.json",
 		"config/spells/towerJammer.json",
 		"config/spells/summonRedDragon.json",
-
-		"config/arrowTrigger.json"
+		"config/spells/boostSpot.json"
 	],
 	"skills" :
 	[
