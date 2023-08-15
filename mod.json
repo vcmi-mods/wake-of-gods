@@ -114,7 +114,7 @@
 		"config/creatureBanks/homeOfTheBat.json",
 		"config/creatureBanks/lostBottle.json",
 
-		"config/mushrooms.json",
+		"config/mapObjects/mushrooms.json",
 		"config/objects.json",
 		"config/mapObjects/sphinx.json",
 		"config/mapObjects/almsHouse.json",

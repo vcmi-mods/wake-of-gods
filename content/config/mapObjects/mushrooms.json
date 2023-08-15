@@ -9,6 +9,8 @@
 			"waterMagicMushroom":
 			{
 				"name" : "Magic Water Mushroom (grant expert Water Magic until end of the week)",
+				"onVisitedMessage": "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 20,
@@ -19,7 +21,7 @@
 					"visit" : ["LUCK"]
 				},
 				"rewards" :
-				[	
+				[
 					{
 						"bonuses" :
 						[
@@ -33,10 +35,8 @@
 						"message": "{Magic Water Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Water Magic spells at expert level until the end of the week."
 					}
 				],
-				"onVisitedMessage": "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-				"visitMode" : "bonus",
 				"templates" :
-				{	
+				{
 					"zobj008" :
 					{
 						"animation" : "objects/zobj008.def",
@@ -56,6 +56,8 @@
 			"airMagicMushroom":
 			{
 				"name" : "Magic Air Mushroom (grant expert Air Magic until end of the week)",
+				"onVisitedMessage": "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 20,
@@ -66,7 +68,7 @@
 					"visit" : ["LUCK"]
 				},
 				"rewards" :
-				[	
+				[
 					{
 						"bonuses" :
 						[
@@ -80,10 +82,8 @@
 						"message": "{Magic Air Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Air Magic spells at expert level until the end of the week."
 					}
 				],
-				"onVisitedMessage": "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-				"visitMode" : "bonus",
 				"templates" :
-				{	
+				{
 					"zobj012" : {
 						"animation" : "objects/zobj012.def",
 						"mask" : [ "VVV", "VVV", "VAV" ],
@@ -102,6 +102,8 @@
 			"earthMagicMushroom":
 			{
 				"name" : "Magic Earth Mushroom (grant expert Earth Magic until end of the week)",
+				"onVisitedMessage": "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 20,
@@ -112,7 +114,7 @@
 					"visit" : ["LUCK"]
 				},
 				"rewards" :
-				[	
+				[
 					{
 						"bonuses" :
 						[
@@ -126,10 +128,8 @@
 						"message": "{Magic Earth Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Earth Magic spells at expert level until the end of the week."
 					}
 				],
-				"onVisitedMessage": "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-				"visitMode" : "bonus",
 				"templates" :
-				{	
+				{
 					"zobj017" :
 					{
 						"animation" : "objects/zobj017.def",
@@ -149,6 +149,8 @@
 			"fireMagicMushroom":
 			{
 				"name" : "Magic Fire Mushroom (grant expert Fire Magic until end of the week)",
+				"onVisitedMessage": "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 20,
@@ -159,7 +161,7 @@
 					"visit" : ["LUCK"]
 				},
 				"rewards" :
-				[	
+				[
 					{
 						"bonuses" :
 						[
@@ -173,10 +175,8 @@
 						"message": "{Magic Fire Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Fire Magic spells at expert level until the end of the week."
 					}
 				],
-				"onVisitedMessage": "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
-				"visitMode" : "bonus",
 				"templates" :
-				{	
+				{
 					"zobj023" :
 					{
 						"animation" : "objects/zobj023.def",
