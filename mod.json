@@ -117,7 +117,7 @@
 		"config/mushrooms.json",
 		"config/objects.json",
 		"config/sphinx.json",
-		"config/almsHouse.json",
+		"config/mapObjects/almsHouse.json",
 		"config/mirrorOfTheHomeWay.json"
 	],
 	"spells" :
