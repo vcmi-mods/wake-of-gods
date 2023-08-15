@@ -23,8 +23,8 @@
 		"config/special_exp.json",
 
 		"config/wogCreaturesStackExp.json",
-		"config/messengersStackExp.json"
-
+		"config/messengersStackExp.json",
+		"config/godsStackExp.json"
 	],
 	"settings":
 	{
