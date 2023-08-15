@@ -116,7 +116,7 @@
 
 		"config/mushrooms.json",
 		"config/objects.json",
-		"config/sphinx.json",
+		"config/mapObjects/sphinx.json",
 		"config/mapObjects/almsHouse.json",
 		"config/mapObjects/mirrorOfTheHomeWay.json"
 	],

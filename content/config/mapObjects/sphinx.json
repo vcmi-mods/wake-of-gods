@@ -8,6 +8,14 @@
 			"sphinx":
 			{
 				"name" : "Sphinx (grant hero a random permanent bonus)",
+				"visitMode" : "once",
+				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base": 
+				{
+					"mask" : [ "VVV", "VVV", "VAB" ],
+					"visitableFrom" : [ "---", "++-", "+++" ]
+				},
 				"rmg" : {
 					"value"		: 20000,
 					"rarity"	: 15,
@@ -18,7 +26,7 @@
 					"visit" : ["MYSTERY"]
 				},
 				"rewards" :
-				[	
+				[
 					{
 						"appearChance": 
 						{
@@ -27,32 +35,32 @@
 						"bonuses" :
 						[
 							{
+								"type" : "GENERATE_RESOURCE",
 								"subtype" : "resource.crystal",
-								"type" : "GENERATE_RESOURCE",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
 								"duration" : "PERMANENT"
 							},
 							{
+								"type" : "GENERATE_RESOURCE",
 								"subtype" : "resource.gems",
-								"type" : "GENERATE_RESOURCE",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
 								"duration" : "PERMANENT"
 							},
 							{
+								"type" : "GENERATE_RESOURCE",
 								"subtype" : "resource.mercury",
-								"type" : "GENERATE_RESOURCE",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
 								"duration" : "PERMANENT"
 							},
 							{
-								"subtype" : "resource.sulfur",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.sulfur",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -70,8 +78,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.gems",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.gems",
 								"val" : 3,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -89,8 +97,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.crystal",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.crystal",
 								"val" : 3,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -108,8 +116,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.mercury",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.mercury",
 								"val" : 3,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -127,8 +135,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.sulfur",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.sulfur",
 								"val" : 3,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -146,8 +154,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.wood",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.wood",
 								"val" : 5,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -165,8 +173,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.ore",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.ore",
 								"val" : 5,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -184,8 +192,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.ore",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.ore",
 								"val" : 3,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -211,8 +219,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : "resource.gold",
 								"type" : "GENERATE_RESOURCE",
+								"subtype" : "resource.gold",
 								"val" : 1000,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -230,8 +238,8 @@
 						"bonuses" :
 						[
 							{
-								"subtype" : 1,
 								"type" : "MOVEMENT",
+								"subtype" : 1,
 								"val" : 250,
 								"valueType" : "ADDITIVE_VALUE"
 							}
@@ -274,15 +282,7 @@
 						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"visitMode" : "once",
-				"base": 
-				{
-					"mask" : [ "VVV", "VVV", "VAB" ],
-					"visitableFrom" : [ "---", "++-", "+++" ]
-				},
-				"templates" : {				
+				"templates" : {
 					"zsphnx10" : { "animation" : "objects/zsphnx10.def", "allowedTerrains": [ "sand" ] },
 					"zsphnx11" : { "animation" : "objects/zsphnx11.def", "allowedTerrains": [ "rough", "subterra", "water" ] },
 					"zsphnx12" : { "animation" : "objects/zsphnx12.def", "allowedTerrains": [ "dirt", "grass", "swamp", "lava" ] },
