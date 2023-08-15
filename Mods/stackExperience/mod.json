@@ -1,0 +1,37 @@
+{
+	"name" : "Stack Experience",
+	"description" : "This module enables stack experience feature from WoG",
+	"version" : "",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Mechanics",
+	"creatures" :
+	[
+		"config/castleCreaturesStackExp.json",
+		"config/rampartCreaturesStackExp.json",
+		"config/towerCreaturesStackExp.json",
+
+		"config/necropolisCreaturesStackExp.json",
+		"config/infernoCreaturesStackExp.json",
+		"config/dungeonCreaturesStackExp.json",
+
+		"config/strongholdCreaturesStackExp.json",
+		"config/fortressCreaturesStackExp.json",
+		"config/confluxCreaturesStackExp.json",
+
+		"config/neutralCreaturesStackExp.json",
+		"config/specialCreaturesStackExp.json",
+
+		"config/wogCreaturesStackExp.json",
+		"config/level8CreaturesStackExp.json",
+		"config/messengersStackExp.json",
+		"config/godsStackExp.json"
+	],
+	"settings":
+	{
+		"modules":
+		{
+			"stackExperience": true
+		}
+	}
+}
