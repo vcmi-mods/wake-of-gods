@@ -1,10 +1,13 @@
 {
 	"mirrorOfTheHomeWay" : {
-		"handler":"configurable",
 		"name" : "Mirror of the Home-Way",
+		"handler":"configurable",
 		"types" : {
 			"mirrorOfTheHomeWay" : {
 				"name": "Mirror of the Home-Way (Teleport hero to any allied town for 1000 gold)",
+				"onVisitedMessage": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
+				"visitMode" : "unlimited",
+				"canRefuse": true,
 				"rmg" : {
 					"value"	: 5000,
 					"rarity" : 20,
@@ -13,19 +16,9 @@
 				"sounds" : {
 					"visit" : ["MYSTERY"]
 				},
-				"onVisitedMessage": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
-				"visitMode" : "unlimited",
 				"rewards":
 				[
 					{
-						"limiter" :
-						{
-							"resources":
-							{
-								"gold" : 1000
-							}
-						},
-						"message": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
 						"resources":
 						{
 							"gold" : -1000
@@ -34,19 +27,23 @@
 						{
 							"spell" : "townPortal",
 							"schoolLevel": 3
-						}
+						},
+						"limiter" :
+						{
+							"resources": { "gold" : 1000 }
+						},
+						"message": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?"
 					}
 				],
-				"canRefuse": true,
 				"templates" : {
 					"sfzerk" :
 					{
 						"animation" : "objects/sfzerk.def",
-						"mask" : [ "VVV", "VBB", "VVA" ], 
+						"mask" : [ "VVV", "VBB", "VVA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

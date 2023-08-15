@@ -118,7 +118,7 @@
 		"config/objects.json",
 		"config/sphinx.json",
 		"config/mapObjects/almsHouse.json",
-		"config/mirrorOfTheHomeWay.json"
+		"config/mapObjects/mirrorOfTheHomeWay.json"
 	],
 	"spells" :
 	[
