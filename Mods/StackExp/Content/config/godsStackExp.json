@@ -1,5 +1,5 @@
 {
-	"godOfLore" :
+	"wake-of-gods:godOfLore" :
 	{
 		"stackExperience" :
 		[
@@ -53,7 +53,7 @@
 		]
 	},
 
-	"godOfMana" :
+	"wake-of-gods:godOfMana" :
 	{
 		"stackExperience" :
 		[
@@ -107,7 +107,7 @@
 		]
 	},
 
-	"godOfPeace" :
+	"wake-of-gods:godOfPeace" :
 	{
 		"stackExperience" :
 		[
@@ -170,7 +170,7 @@
 		]
 	},
 
-	"godOfWar" :
+	"wake-of-gods:godOfWar" :
 	{
 		"stackExperience" :
 		[
