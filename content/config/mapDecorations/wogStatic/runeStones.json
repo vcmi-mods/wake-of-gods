@@ -1,0 +1,29 @@
+{
+	"runeStonesWoG" : {
+		"name" : "Rune Stone",
+		"handler":"generic",
+		"types" : {
+			"object": {
+				"templates" : {
+					"zdec0001" : {
+						"animation" : "objects/zdec0001.def",
+						"mask": [ "VV", "VB" ]
+					},
+					"zdec0005" : {
+						"animation" : "objects/zdec0005.def",
+						"mask": [ "VV", "VB" ]
+					},
+					"zdec0007" : {
+						"animation" : "objects/zdec0007.def",
+						"mask": [ "VV", "VB" ]
+					},
+					"zdec0008" : {
+						"animation" : "objects/zdec0008.def",
+						"mask": [ "VV", "BB" ],
+						"allowedTerrains": [ "lava" ]
+					}
+				}
+			}
+		}
+	}
+}

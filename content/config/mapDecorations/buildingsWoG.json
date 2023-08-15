@@ -1,0 +1,313 @@
+{
+	"buildingsWoG" : { // generic buildings with no defined behaviour
+		"name" : "Building",
+		"handler":"generic",
+		"types" : {
+			"castles": {
+				"templates" : {
+					"zobj025" : {
+						"animation" : "objects/zobj025.def",
+						"mask" : [ "VVVVV", "VVVVV", "VVBVV", "VBBBV", "VVBAV" ],
+						"visitableFrom" : [ "---", "---", "-++" ]
+					},
+					"zobj026" : {
+						"animation" : "objects/zobj026.def",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBBV", "VVVBAV" ],
+						"visitableFrom" : [ "---", "---", "-++" ]
+					},
+					"zobj027" : {
+						"animation" : "objects/zobj027.def",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBVV", "VVBBAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj028" : {
+						"animation" : "objects/zobj028.def",
+						"mask" : [ "VVVVV", "VVVVV", "VVBVV", "VBBBV", "VVBAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj029" : {
+						"animation" : "objects/zobj029.def",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBBV", "VVABVV" ],
+						"visitableFrom" : [ "---", "++-", "++-" ]
+					},
+					"zobj041" : {
+						"animation" : "objects/zobj041.def",
+						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVVV", "VVBBV", "VVBAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					}
+				}
+			},
+
+			"buildings": {
+				"templates" : {
+					"zobj001" : {
+						"animation" : "objects/zobj001.def",
+						"mask" : [ "VVVVV", "VVVVV", "VBABV", "VVVVV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj002" : {
+						"animation" : "objects/zobj002.def",
+						"mask" : [ "VVVVV", "VBVBV", "BVAVB", "VVBVV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj003" : {
+						"animation" : "objects/zobj003.def",
+						"mask" : [ "VVVVVV", "VVBBBV", "VBBABB", "VVBVBV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj004" : {
+						"animation" : "objects/zobj004.def",
+						"mask" : [ "VVVVV", "VBABB", "VVVVV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj005" : {
+						"animation" : "objects/zobj005.def",
+						"mask" : [ "VVVVVV", "VBAVBV", "VVVBVV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj006" : {
+						"animation" : "objects/zobj006.def",
+						"mask" : [ "VVVVV", "VVVVV", "BBABV", "VVVVV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj007" : {
+						"animation" : "objects/zobj007.def",
+						"mask" : [ "VVV", "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj009" : {
+						"animation" : "objects/zobj009.def",
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"zobj010" : {
+						"animation" : "objects/zobj010.def",
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj011" : {
+						"animation" : "objects/zobj011.def",
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj013" : {
+						"animation" : "objects/zobj013.def",
+						"mask" : [ "VVV", "VBB", "VAB" ],
+						"visitableFrom" : [ "---", "++-", "++-" ]
+					},
+					"zobj014" : {
+						"animation" : "objects/zobj014.def",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj015" : {
+						"animation" : "objects/zobj015.def",
+						"mask" : [ "VVVV", "VVVV", "VBBB", "VVAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj016" : {
+						"animation" : "objects/zobj016.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"zobj019" : {
+						"animation" : "objects/zobj019.def",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj020" : {
+						"animation" : "objects/zobj020.def",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ],
+						"visitableFrom" : [ "---", "-+-", "++-" ]
+					},
+					"zobj021" : {
+						"animation" : "objects/zobj021.def",
+						"mask" : [ "VVV", "VVV", "VVA" ],
+						"visitableFrom" : [ "+-+", "+++", "+++" ]
+					},
+					"zobj022" : {
+						"animation" : "objects/zobj022.def",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj024" : {
+						"animation" : "objects/zobj024.def",
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj030" : {
+						"animation" : "objects/zobj030.def",
+						"mask" : [ "VVVVV", "VVVVV", "VBBBB", "VBBAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj031" : {
+						"animation" : "objects/zobj031.def",
+						"mask" : [ "VVVVV", "VVVBV", "VVBBB", "VBBBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj032" : {
+						"animation" : "objects/zobj032.def",
+						"mask" : [ "VVVVV", "VVBBV", "VBBAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj033" : {
+						"animation" : "objects/zobj033.def",
+						"mask" : [ "VVVVV", "VVVVV", "VBBBV", "VVABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj034" : {
+						"animation" : "objects/zobj034.def",
+						"mask" : [ "VVVVV", "VVVBV", "VBBBB", "VVBAV" ],
+						"visitableFrom" : [ "---", "++-", "++-" ]
+					},
+					"zobj035" : {
+						"animation" : "objects/zobj035.def",
+						"mask" : [ "VVVVV", "VVVBV", "VBBBB", "VVABV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj036" : {
+						"animation" : "objects/zobj036.def",
+						"mask" : [ "VVVVV", "VVBVV", "VBBBV", "VVABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj037" : {
+						"animation" : "objects/zobj037.def",
+						"mask" : [ "VVVVV", "VVBBB", "VBBBA" ],
+						"visitableFrom" : [ "---", "--+", "+++" ]
+					},
+					"zobj038" : {
+						"animation" : "objects/zobj038.def",
+						"mask" : [ "VVVVV", "VVVBV", "VVBBB", "VVABV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj039" : {
+						"animation" : "objects/zobj039.def",
+						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVBV", "VVVAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"zobj040" : {
+						"animation" : "objects/zobj040.def",
+						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVBV", "VVVAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"zobj042" : {
+						"animation" : "objects/zobj042.def",
+						"mask" : [ "VVV", "VVV", "VVA" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
+					},
+					"zobj043" : {
+						"animation" : "objects/zobj043.def",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
+					},
+					"zobj044" : {
+						"animation" : "objects/zobj044.def",
+						"mask" : [ "VVVV", "VVBB", "VBBA" ],
+						"visitableFrom" : [ "---", "---", "-++" ]
+					},
+					"zobj049" : {
+						"animation" : "objects/zobj049.def",
+						"mask" : [ "VVV", "VVB", "VAB" ],
+						"visitableFrom" : [ "---", "+--", "+++" ]
+					},
+					"zobj050" : {
+						"animation" : "objects/zobj050.def",
+						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"zlwork1" : {
+						"animation" : "objects/zlwork1.def",
+						"mask" : [ "VVVV", "VBAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zartif1" : {
+						"animation" : "objects/zartif1.def",
+						"mask" : [ "VVVV", "BABV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zmark1" : {
+						"animation" : "objects/zmark1.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zh4obj01" : {
+						"animation" : "objects/zh4obj01.def",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVBBV", "VVVBBV", "VVVAVV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zh4obj02" : {
+						"animation" : "objects/zh4obj02.def",
+						"mask" : [ "VVV", "BBB", "BAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"skull" : {
+						"animation" : "objects/skull.def",
+						"mask" : [ "VVV", "VBV", "VAV" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					},
+					"TPTempl1" : {
+						"animation" : "objects/TPTempl1.def",
+						"mask" : [ "VVVV", "VVBB", "VVBA" ],
+						"visitableFrom" : [ "---", "---", "-++" ]
+					},
+					"ztower1" : {
+						"animation" : "objects/ztower1.def",
+						"mask" : [ "VVV", "VVV", "VVV",  "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					}
+				}
+			},
+
+			"commanderCrystals": {
+				"templates" : {
+					"zcbon000" : {
+						"animation" : "objects/zcbon000.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+						},		//opal of magic				
+					"zcbon001" : {
+						"animation" : "objects/zcbon001.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+						},		//ruby of offence
+					"zcbon002" : {
+						"animation" : "objects/zcbon002.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+						},		//sapphire of defense
+					"zcbon003" : {
+						"animation" : "objects/zcbon000.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+						}		//emerald od speed
+				}
+			}
+		}
+	}
+
+//	"core:obelisk" : { //unused red obelisk hidden in h3sprites.lod
+//		"types" : {
+//			"object" : { 
+//				"templates" : { 
+//					"AvXOblR" : { "animation" : "AvXOblR.def", "visitableFrom" : [ "---", "+-+", "+++" ], "mask" : [ "VV", "VA" ] }
+//				}
+//			}
+//		}
+//	},
+	
+	
+//	"core:windmill" :{ //unused graphic hidden in h3sprites.lod
+//		"types" : {
+//			"windmill" : {
+//				"templates" : { 
+//					"ADVMWIND" : { 
+//						"animation" : "ADVMWIND.def", 
+//						"visitableFrom" : [ "---", "+-+", "+++" ], 
+//						"mask" : [ "VVVV", "VVVV", "VVAV" ]
+//					}
+//				}
+//			}
+//		}
+//	}
+
+}

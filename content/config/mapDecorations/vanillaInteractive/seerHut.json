@@ -1,0 +1,20 @@
+{
+	"core:seerHut" : {
+		"types" : {
+			"1" : {
+				"templates" : {
+					"zseer001" : {
+						"animation" : "objects/zseer001.def",
+						"mask" : [ "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"zseer002" : {
+						"animation" : "objects/zseer002.def",
+						"mask" : [ "VVVVV", "VBABV", "VVVVV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

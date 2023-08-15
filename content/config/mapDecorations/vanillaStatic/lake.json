@@ -1,0 +1,15 @@
+{
+	"core:lake" : {
+		"types" : {
+			"object": {
+				"templates" : {
+					"zdec0013" : {
+						"animation" : "objects/zdec0013.def",
+						"mask": [ "VVVV", "BBBB", "VBBV" ],
+						"allowedTerrains": [ "lava" ]
+					}
+				}
+			}
+		}
+	}
+}

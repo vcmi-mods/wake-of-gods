@@ -1,0 +1,14 @@
+{
+	"core:magicWell" : {
+		"types" : {
+			"magicWell" : {
+				"templates" : {
+					"zobj045" : { "animation" : "objects/zobj045.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

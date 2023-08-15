@@ -1,0 +1,46 @@
+{
+	"vortexWoG" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
+			"object": {
+				"base":
+				{
+					"mask" : [ "VVVV", "VBAV", "VVVV" ]
+				},
+				"templates" : {
+					"z358o11" : {
+						"animation" : "objects/z358o11.def",
+						"allowedTerrains": [ "dirt" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"z358o12" : {
+						"animation" : "objects/z358o12.def",
+						"allowedTerrains": [ "sand" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"z358o13" : {
+						"animation" : "objects/z358o13.def",
+						"allowedTerrains": [ "grass" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"z358o14" : {
+						"animation" : "objects/z358o14.def",
+						"allowedTerrains": [ "snow" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"z358o15" : {
+						"animation" : "objects/z358o15.def",
+						"allowedTerrains": [ "lava" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"z358o16" : {
+						"animation" : "objects/z358o16.def",
+						"allowedTerrains": [ "swamp" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

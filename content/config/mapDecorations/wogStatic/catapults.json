@@ -1,0 +1,22 @@
+{
+	"catapultsWoG" : {
+		"name" : "Catapult",
+		"handler":"generic",
+		"types" : {
+			"object": {
+				"templates" : {
+					"catap_ml" : {
+						"animation" : "objects/catap_ml.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"catap_mr" : {
+						"animation" : "objects/catap_ml.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

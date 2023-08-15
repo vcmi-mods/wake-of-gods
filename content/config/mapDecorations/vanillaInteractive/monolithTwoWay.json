@@ -1,0 +1,16 @@
+{
+	"core:monolithTwoWay" : {
+		"types" : {
+			"monolith8wog" : {
+				"templates" : {
+					"ztport01" : {
+						"animation" : "objects/ztport01.def",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"core:idolOfFortune" : {
+		"types" : {
+			"idolOfFortune" : {
+				"templates" : {
+					"z358o2" : {
+						"animation" : "objects/z358o2.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

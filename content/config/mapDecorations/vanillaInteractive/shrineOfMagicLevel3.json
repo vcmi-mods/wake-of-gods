@@ -1,0 +1,16 @@
+{
+	"core:shrineOfMagicLevel3" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"zobj046" : {
+						"animation" : "objects/zobj046.def",
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : [ "grass" ]
+					}
+				}
+			}
+		}
+	}
+}

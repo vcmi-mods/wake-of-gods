@@ -1,0 +1,17 @@
+{
+	"rainWoG" : {
+		"name" : "Rain",
+		"handler":"static",
+		"types" : {
+			"object": {
+				"templates" : {
+					"zrain00" : {
+						"animation" : "objects/zrain00.def",
+						"mask": [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ],
+						"allowedTerrains": [ "grass", "swamp", "water" ]
+					}
+				}
+			}
+		}
+	}
+}

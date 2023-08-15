@@ -1,0 +1,17 @@
+{
+	"snowWoG" : {
+		"name" : "Snow",
+		"handler":"static",
+		"types" : {
+			"object": {
+				"templates" : {
+					"zsnow001" : {
+						"animation" : "objects/zsnow001.def",
+						"mask": [ "VVV", "VVV", "VVB" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

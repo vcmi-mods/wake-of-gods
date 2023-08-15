@@ -1,0 +1,16 @@
+{
+	"core:libraryOfEnlightenment" : {
+		"types" : {
+			"libraryOfEnlightenment" : {
+				"templates" : {
+					"z358o3" : {
+						"animation" : "objects/z358o3.def",
+						"mask" : [ "VVVVV", "VVVBB", "VBBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"core:learningStone" : {
+		"types" : {
+			"learningStone" : {
+				"templates" : {
+					"z358o1" : {
+						"animation" : "objects/z358o1.def",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

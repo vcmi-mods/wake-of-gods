@@ -1,0 +1,17 @@
+{
+	"blackMarketWoG" : {
+		"name" : "Unused Black Market",
+		"handler":"generic",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVXMKTT0" : {
+						"animation" : "AVXMKTT0",
+						"visitableFrom" : [ "---", "--+", "+++" ],
+						"mask" : [ "VV", "BA"]
+					}
+				}
+			}
+		}
+	}
+}
