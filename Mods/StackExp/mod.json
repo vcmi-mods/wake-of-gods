@@ -20,7 +20,9 @@
 		"config/conflux_exp.json",
 
 		"config/neutral_exp.json",
-		"config/special_exp.json"
+		"config/special_exp.json",
+
+		"config/wogCreaturesStackExp.json"
 	],
 	"settings":
 	{
