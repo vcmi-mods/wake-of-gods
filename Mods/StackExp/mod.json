@@ -22,7 +22,9 @@
 		"config/neutral_exp.json",
 		"config/special_exp.json",
 
-		"config/wogCreaturesStackExp.json"
+		"config/wogCreaturesStackExp.json",
+		"config/messengersStackExp.json"
+
 	],
 	"settings":
 	{
