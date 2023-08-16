@@ -87,7 +87,7 @@
 			"defend": "ECNTDFND.wav",
 			"killed": "ECNTKILL.wav",
 			"move": "ECNTMOVE.wav",
-			"shoot": "ECNTSHOT.wav",
+			"shoot": "creatures/sylvanCentaur/ECNTSHOT.wav",
 			"wince": "ECNTWNCE.wav"
 		}
 	}

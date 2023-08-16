@@ -110,7 +110,7 @@
 			"defend": "GHDRDFND.wav",
 			"killed": "GHDRKILL.wav",
 			"move": "GHDRMOVE.wav",
-			"shoot": "GHDRSHOT.wav",
+			"shoot": "creatures/dracolich/GHDRSHOT.wav",
 			"wince": "GHDRWNCE.wav"
 		}
 	}
