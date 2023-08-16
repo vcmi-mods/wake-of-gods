@@ -7,35 +7,54 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Mechanics",
 	
-	"creatures" : 
+	"creatures" :
 	[
-		"config/commanders_"
+		"config/commanders/astralSpirit1.json",
+		"config/commanders/brute1.json",
+		"config/commanders/hierophant1.json",
+		"config/commanders/ogreLeader1.json",
+		"config/commanders/paladin1.json",
+		"config/commanders/shaman1.json",
+		"config/commanders/soulEater1.json",
+		"config/commanders/succubus1.json",
+		"config/commanders/templeGuardian1.json"
 	],
 
-	"heroClasses" : 
+	"heroClasses" :
 	[
 		"config/heroClasses_"
 	],
 	
-	"artifacts" : 
+	"artifacts" :
 	[
-		"config/comanderArtifacts/axeOfSmashing.json",
-		"config/comanderArtifacts/bootsOfHaste.json",
-		"config/comanderArtifacts/bowOfSeeking.json",
-		"config/comanderArtifacts/dragonEyeRing.json",
-		"config/comanderArtifacts/hardenedShield.json",
-		"config/comanderArtifacts/helmOfImmortality.json",
-		"config/comanderArtifacts/mithrilMail.json",
-		"config/comanderArtifacts/pendantOfSorcery.json",
-		"config/comanderArtifacts/slavasRingOfPower.json",
-		"config/comanderArtifacts/swordOfSharpness.json"
+		"config/commanderArtifacts/axeOfSmashing.json",
+		"config/commanderArtifacts/bootsOfHaste.json",
+		"config/commanderArtifacts/bowOfSeeking.json",
+		"config/commanderArtifacts/dragonEyeRing.json",
+		"config/commanderArtifacts/hardenedShield.json",
+		"config/commanderArtifacts/helmOfImmortality.json",
+		"config/commanderArtifacts/mithrilMail.json",
+		"config/commanderArtifacts/pendantOfSorcery.json",
+		"config/commanderArtifacts/slavasRingOfPower.json",
+		"config/commanderArtifacts/swordOfSharpness.json"
 	],
 	
-	"settings":
+	"settings" :
 	{
-		"modules":
+		"modules" :
 		{
-			"commanders": true
+			"commanders" : true
 		}
 	}
+
+	// for future reference
+	//crus ZM174NPC.def Paladin2
+	//monk ZM175NPC.def Hierophant2
+	//lich ZM176NPC.def TempleGuardian2
+	//sgrg ZM177NPC.def Succubus2
+	//gnol ZM178NPC.def SoulEater2
+	//pfoe ZM179NPC.def Brute2
+	//trll ZM180NPC.def OgreLeader2
+	//amag ZM181NPC.def Shaman2
+	//geni ZM182NPC.def AstralSpirit2
 }
