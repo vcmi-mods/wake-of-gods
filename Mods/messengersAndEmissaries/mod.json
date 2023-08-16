@@ -1,0 +1,32 @@
+{
+	"name" : "Messengers and Emissaries units",
+	"description" : "Adds Messengers and Emissaries of Gods units for WoG.\r\n ,",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"creatures" :
+	[
+		"config/creatures/fireMessenger.json",
+		"config/creatures/earthMessenger.json",
+		"config/creatures/airMessenger.json",
+		"config/creatures/waterMessenger.json",
+
+		"config/creatures/emissaryOfWar.json",
+		"config/creatures/emissaryOfPeace.json",
+		"config/creatures/emissaryOfMana.json",
+		"config/creatures/emissaryOfLore.json",
+
+		"config/creatures/stackExperience/messengers.json",
+		"config/creatures/stackExperience/emissaries.json"
+	],
+	"objects" :
+	[
+		"config/dwellings/messengers.json",
+
+		"config/creatureBanks/martialSpiritPalace.json",
+		"config/creatureBanks/pacificationCitadel.json",
+		"config/creatureBanks/magiciansMonastery.json",
+		"config/creatureBanks/legendsLibrary.json"
+	]
+}

@@ -22,9 +22,7 @@
 		"config/neutralCreaturesStackExp.json",
 		"config/specialCreaturesStackExp.json",
 
-		"config/wogCreaturesStackExp.json",
-		"config/messengersStackExp.json",
-		"config/godsStackExp.json"
+		"config/wogCreaturesStackExp.json"
 	],
 	"settings":
 	{

@@ -73,31 +73,16 @@
 		"config/creatures/werewolf.json",
 		"config/creatures/dracolich.json",
 
-		"config/creatures/redDragonClone.json",
-
-		"config/creatures/gods/godOfWar.json",
-		"config/creatures/gods/godOfPeace.json",
-		"config/creatures/gods/godOfMana.json",
-		"config/creatures/gods/godOfLore.json",
-
-		"config/creatures/messengers/fireMessenger.json",
-		"config/creatures/messengers/earthMessenger.json",
-		"config/creatures/messengers/airMessenger.json",
-		"config/creatures/messengers/waterMessenger.json"
+		"config/creatures/redDragonClone.json"
 	],
 
 	"objects" :
 	[
 		"config/dwellings.json",
-		"config/messengersDwellings.json",
 		
 		"config/creatureBanks/huntingLodge.json",
 		"config/creatureBanks/grotto.json",
 		"config/creatureBanks/snowGrotto.json",
-		"config/creatureBanks/martialSpiritPalace.json",
-		"config/creatureBanks/pacificationCitadel.json",
-		"config/creatureBanks/magiciansMonastery.json",
-		"config/creatureBanks/legendsLibrary.json",
 		"config/creatureBanks/transylvanianTavern.json",
 		"config/creatureBanks/homeOfTheBat.json",
 		"config/creatureBanks/lostBottle.json",
