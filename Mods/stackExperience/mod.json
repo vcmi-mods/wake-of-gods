@@ -23,7 +23,6 @@
 		"config/specialCreaturesStackExp.json",
 
 		"config/wogCreaturesStackExp.json",
-		"config/level8CreaturesStackExp.json",
 		"config/messengersStackExp.json",
 		"config/godsStackExp.json"
 	],

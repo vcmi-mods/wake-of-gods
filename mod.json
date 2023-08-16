@@ -54,7 +54,6 @@
 		"config/artifacts/ornateMinotaursHorn.json",
 		"config/artifacts/bucklerOfBeelzebub.json",
 
-		"config/artifacts/magicWand.json",
 		"config/artifacts/goldTowerArrow.json",
 		"config/artifacts/monstersPower.json"
 	],
@@ -76,16 +75,6 @@
 
 		"config/creatures/redDragonClone.json",
 
-		"config/creatures/level8/supremeArchangel.json",
-		"config/creatures/level8/diamondDragon.json",
-		"config/creatures/level8/lordOfThunder.json",
-		"config/creatures/level8/hellBaron.json",
-		"config/creatures/level8/bloodDragon.json",
-		"config/creatures/level8/darknessDragon.json",
-		"config/creatures/level8/ghostBehemoth.json",
-		"config/creatures/level8/hellHydra.json",
-		"config/creatures/level8/sacredPhoenix.json",
-
 		"config/creatures/gods/godOfWar.json",
 		"config/creatures/gods/godOfPeace.json",
 		"config/creatures/gods/godOfMana.json",
@@ -101,8 +90,7 @@
 	[
 		"config/dwellings.json",
 		"config/messengersDwellings.json",
-		"config/level8Dwellings.json",
-
+		
 		"config/creatureBanks/huntingLodge.json",
 		"config/creatureBanks/grotto.json",
 		"config/creatureBanks/snowGrotto.json",

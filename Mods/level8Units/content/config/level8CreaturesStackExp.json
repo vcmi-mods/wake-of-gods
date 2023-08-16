@@ -1,5 +1,5 @@
 {
-	"wake-of-gods:bloodDragon" :
+	"bloodDragon" :
 	{
 		"stackExperience" :
 		[
@@ -92,7 +92,7 @@
 		]
 	},
 
-	"wake-of-gods:darknessDragon" :
+	"darknessDragon" :
 	{
 		"stackExperience" :
 		[
@@ -162,7 +162,7 @@
 		]
 	},
 
-	"wake-of-gods:diamondDragon" :
+	"diamondDragon" :
 	{
 		"stackExperience" :
 		[
@@ -239,7 +239,7 @@
 		]
 	},
 
-	"wake-of-gods:ghostBehemoth" :
+	"ghostBehemoth" :
 	{
 		"stackExperience" :
 		[
@@ -316,7 +316,7 @@
 		]
 	},
 
-	"wake-of-gods:hellBaron" :
+	"hellBaron" :
 	{
 		"stackExperience" :
 		[
@@ -402,7 +402,7 @@
 		]
 	},
 
-	"wake-of-gods:hellHydra" :
+	"hellHydra" :
 	{
 		"stackExperience" :
 		[
@@ -504,7 +504,7 @@
 		]
 	},
 
-	"wake-of-gods:lordOfThunder" :
+	"lordOfThunder" :
 	{
 		"stackExperience" :
 		[
@@ -596,7 +596,7 @@
 		]
 	},
 
-	"wake-of-gods:sacredPhoenix" :
+	"sacredPhoenix" :
 	{
 		"stackExperience" :
 		[
@@ -671,7 +671,7 @@
 		]
 	},
 
-	"wake-of-gods:supremeArchangel" :
+	"supremeArchangel" :
 	{
 		"stackExperience" :
 		[

@@ -6,9 +6,9 @@
 		"class" : "RELIC",
 		"value" : 18000,
 		"graphics" : { 
-			"image" : "artifacts/HrArt141",
-			"large" : "artifacts/HrArt141L",
-			"map" : "artifacts/zart141.def"
+			"image" : "artifacts/magicWand/HrArt141",
+			"large" : "artifacts/magicWand/HrArt141L",
+			"map" : "artifacts/magicWand/zart141.def"
 		},
 		"bonuses" : [
 			{
