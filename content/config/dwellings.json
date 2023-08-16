@@ -6,7 +6,7 @@
 				"creatures" : [[ "lavaSharpshooter" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPARRW"]
+					"ambient": ["dwellings/LOOPARRW"]
 				},
 				"templates" : {
 					"default" : {
@@ -20,7 +20,7 @@
 				"creatures" : [[ "arcticSharpshooter" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPARRW"]
+					"ambient": ["dwellings/LOOPARRW"]
 				},
 				"templates" : {
 					"default" : {
@@ -34,7 +34,7 @@
 				"creatures" : [[ "gorynych" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPGRCH"]
+					"ambient": ["dwellings/LOOPGRCH"]
 				},
 				"templates" : {
 					"rockCavern" : {
@@ -53,7 +53,7 @@
 				"creatures" : [[ "nightmare" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPSHOE"]
+					"ambient": ["dwellings/LOOPSHOE"]
 				},
 				"templates" : {
 					"default" : {
@@ -67,7 +67,7 @@
 				"creatures" : [[ "hellSteed" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPHLLRFT"]
+					"ambient": ["dwellings/LOOPHLLRFT"]
 				},
 				"templates" : {
 					"default" : {
@@ -81,7 +81,7 @@
 				"creatures" : [[ "warZealot" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPWZEL"]
+					"ambient": ["dwellings/LOOPWZEL"]
 				},
 				"templates" : {
 					"default" : {
@@ -94,7 +94,7 @@
 				"name" : "Snowman",
 				"creatures" : [[ "santaGremlin" ]],
 				"sounds": {
-					"ambient": ["LOOPSNWMN"]
+					"ambient": ["dwellings/LOOPSNWMN"]
 				},
 				"templates" : {
 					"default" : {
@@ -107,7 +107,7 @@
 				"name" : "Sylvan Homestead",
 				"creatures" : [[ "sylvanCentaur" ]],
 				"sounds": {
-					"ambient": ["LOOPSLVN"]
+					"ambient": ["dwellings/LOOPSLVN"]
 				},
 				"templates" : {
 					"default" : {
@@ -121,7 +121,7 @@
 				"creatures" : [[ "wogSorceress" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPETWR"]
+					"ambient": ["dwellings/LOOPETWR"]
 				},
 				"templates" : {
 					"default" : {
@@ -134,7 +134,7 @@
 				"name" : "Howling Hollow",
 				"creatures" : [[ "werewolf" ]],
 				"sounds": {
-					"ambient": ["LOOPWRWF"]
+					"ambient": ["dwellings/LOOPWRWF"]
 				},
 				"templates" : {
 					"default" : {
@@ -148,7 +148,7 @@
 				"creatures" : [[ "dracolich" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPDRACO"]
+					"ambient": ["dwellings/LOOPDRACO"]
 				},
 				"templates" : {
 					"default" : {
