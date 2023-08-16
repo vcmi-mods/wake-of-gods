@@ -19,7 +19,16 @@
 	
 	"artifacts" : 
 	[
-		"config/artifacts_comanders"
+		"config/comanderArtifacts/axeOfSmashing.json",
+		"config/comanderArtifacts/bootsOfHaste.json",
+		"config/comanderArtifacts/bowOfSeeking.json",
+		"config/comanderArtifacts/dragonEyeRing.json",
+		"config/comanderArtifacts/hardenedShield.json",
+		"config/comanderArtifacts/helmOfImmortality.json",
+		"config/comanderArtifacts/mithrilMail.json",
+		"config/comanderArtifacts/pendantOfSorcery.json",
+		"config/comanderArtifacts/slavasRingOfPower.json",
+		"config/comanderArtifacts/swordOfSharpness.json"
 	],
 	
 	"settings":

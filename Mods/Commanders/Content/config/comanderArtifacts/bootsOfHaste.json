@@ -1,0 +1,39 @@
+{
+	"bootsOfHaste" :
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : [
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt151",
+			"large" : "artifacts/HrArt151L",
+			"map" : "artifacts/zart151.def"
+		},
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
+				{
+					"level" : 10,
+					"bonus" : 
+					{
+						"type" : "STACKS_SPEED",
+						"val" : 1
+					}
+				}
+			]
+		},
+		"text" : {
+			"name" : "Boots Of Haste",
+			"description" : "{Boots Of Haste}\r\n\r\nWhen worn by a commander this artifact gives +1 Speed plus +1 Speed after every 10 victorious battles.",
+			"event" : "You pick up the well-made Boots of Haste. These boots will surely lend wings to your Commander's feet on the battlefield!"
+		}
+	}
+}

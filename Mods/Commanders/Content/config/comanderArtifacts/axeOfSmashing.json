@@ -1,0 +1,41 @@
+{
+	"axeOfSmashing" : //TODO: move growing bonuses to this config, someday
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt146",
+			"large" : "artifacts/HrArt146L",
+			"map" : "artifacts/zart146.def"
+		},
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
+				{
+					"level" : 6,
+					"bonus" : 
+					{
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : 1
+					}
+				}
+			]
+		},
+		"text" : {
+			"name" : "Axe of Smashing",
+			"description" : "{Axe of Smashing}\r\n\r\nWhen worn by a commander this artifact gives +5 Attack plus +1 Attack after every 6 victorious battles.",
+			"event" : "You pick up the heavy Axe of Smashing. You're sure your Commander would love to smash a few heads with it!"
+		}
+	}
+}
