@@ -5,7 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Mechanics",
-	"artifacts" : 
+	"artifacts" :
 	[
 		"config/warMachinesArts.json"
 	]
