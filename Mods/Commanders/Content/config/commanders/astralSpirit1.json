@@ -100,7 +100,7 @@
 			"defend": "GENIDFND.wav",
 			"killed": "GENIKILL.wav",
 			"move": "GENIMOVE.wav",
-			"shoot": "GENISHOT.wav",
+			"shoot": "commanders/GENISHOT.wav",
 			"wince": "GENIWNCE.wav"
 		}
 	}

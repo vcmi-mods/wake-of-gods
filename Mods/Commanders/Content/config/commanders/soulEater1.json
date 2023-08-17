@@ -99,7 +99,7 @@
 			"attack": "GNOLATTK.wav",
 			"defend": "GNOLDFND.wav",
 			"killed": "GNOLKILL.wav",
-			"shoot" : "GNOLSHOT.wav",
+			"shoot" : "commanders/GNOLSHOT.wav",
 			"move": "GNOLMOVE.wav",
 			"wince": "GNOLWNCE.wav"
 		}

@@ -100,7 +100,7 @@
 			"defend": "PFOEDFND.wav",
 			"killed": "PFOEKILL.wav",
 			"move": "PFOEMOVE.wav",
-			"shoot": "PFOESHOT.wav",
+			"shoot": "commanders/PFOESHOT.wav",
 			"wince": "PFOEWNCE.wav"
 		}
 	}

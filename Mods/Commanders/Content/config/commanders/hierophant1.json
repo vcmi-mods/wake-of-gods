@@ -100,7 +100,7 @@
 			"defend": "MONKDFND.wav",
 			"killed": "MONKKILL.wav",
 			"move": "MONKMOVE.wav",
-			"shoot": "MONKSHOT.wav",
+			"shoot": "commanders/MONKSHOT.wav",
 			"wince": "MONKWNCE.wav"
 		}
 	}

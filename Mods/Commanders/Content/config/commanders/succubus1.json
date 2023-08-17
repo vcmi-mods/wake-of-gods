@@ -99,7 +99,7 @@
 			"attack": "SGRGATTK.wav",
 			"defend": "SGRGDFND.wav",
 			"killed": "SGRGKILL.wav",
-			"shoot" : "SGRGSHOT.wav",
+			"shoot" : "commanders/SGRGSHOT.wav",
 			"move": "SGRGMOVE.wav",
 			"wince": "SGRGWNCE.wav"
 		}

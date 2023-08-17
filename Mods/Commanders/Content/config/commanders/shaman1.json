@@ -100,7 +100,7 @@
 			"defend": "AMAGDFND.wav",
 			"killed": "AMAGKILL.wav",
 			"move": "AMAGMOVE.wav",
-			"shoot": "AMAGSHOT.wav",
+			"shoot": "commanders/AMAGSHOT.wav",
 			"wince": "AMAGWNCE.wav"
 		}
 	}

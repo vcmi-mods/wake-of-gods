@@ -100,7 +100,7 @@
 			"defend": "CRUSDFND.wav",
 			"killed": "CRUSKILL.wav",
 			"move": "CRUSMOVE.wav",
-			"shoot": "CRUSSHOT.wav",
+			"shoot": "commanders/CRUSSHOT.wav",
 			"wince": "CRUSWNCE.wav"
 		}
 	}

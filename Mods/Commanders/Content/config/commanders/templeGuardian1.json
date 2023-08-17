@@ -100,7 +100,7 @@
 			"defend": "LICHDFND.wav",
 			"killed": "LICHKILL.wav",
 			"move": "LICHMOVE.wav",
-			"shoot": "LICHSHOT.wav",
+			"shoot": "commanders/LICHSHOT.wav",
 			"wince": "LICHWNCE.wav"
 		}
 	}

@@ -100,7 +100,7 @@
 			"defend": "TRLLDFND.wav",
 			"killed": "TRLLKILL.wav",
 			"move": "TRLLMOVE.wav",
-			"shoot": "TRLLSHOT.wav",
+			"shoot": "commanders/TRLLSHOT.wav",
 			"wince": "TRLLWNCE.wav"
 		}
 	}
