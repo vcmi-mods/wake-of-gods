@@ -3,12 +3,13 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"avlxds13" : { "animation" : "mountains/avlxds13", 
-						"mask" : [ "BBB" ], 		
+					"avlxds13" : {
+						"animation" : "mountains/avlxds13",
+						"mask" : [ "BBB" ],
 						"allowedTerrains": ["sand" ]
 					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }

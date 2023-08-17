@@ -3,9 +3,10 @@
 		"types" : {
 			"temple" : {
 				"templates" : {
-					"AVStmpl1" : { "animation" : "objects/AVStmpl1", 
+					"AVStmpl1" : {
+						"animation" : "objects/AVStmpl1",
 						"mask" : [ "VV", "AB" ], 	
-						"visitableFrom" : [ "---", "++-", "+++" ],						
+						"visitableFrom" : [ "---", "++-", "+++" ],
 						"allowedTerrains": ["snow" ]
 					}
 				}
@@ -17,13 +18,15 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"AVSuniv1" : { "animation" : "objects/AVSuniv1", 
-						"mask" : [ "VBBBV", "VBBBB", "VBBAB" ], 
-						"visitableFrom" : [ "---", "---", "+++" ],							
+					"AVSuniv1" : {
+						"animation" : "objects/AVSuniv1",
+						"mask" : [ "VBBBV", "VBBBB", "VBBAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ],
 						"allowedTerrains": ["snow" ]
 					},
-					"AVSuniv2.def" : { "animation" : "objects/AVSuniv2", 
-						"mask" : [ "VVVVV", "VBBBV", "VBBBB", "VBBAB" ], 
+					"AVSuniv2.def" : {
+						"animation" : "objects/AVSuniv2",
+						"mask" : [ "VVVVV", "VBBBV", "VBBBB", "VBBAB" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
@@ -35,8 +38,9 @@
 		"types" : {
 			"schoolOfWar" : {
 				"templates" : {
-					"Avswar30" : { "animation" : "objects/Avswar30", 
-						"mask" : [ "VVV", "VVV", "VAV" ], 
+					"Avswar30" : {
+						"animation" : "objects/Avswar30",
+						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
@@ -46,7 +50,7 @@
 
 	"core:borderGate" : {
 		"types" : {
-			"lblue" :  { 
+			"lblue" : {
 				"templates" : {
 					"avxbgtv00" : {
 						"animation" : "borderGates/avxbgtv00",
@@ -55,7 +59,7 @@
 					}
 				}
 			},
-			"green" :  { 
+			"green" : {
 				"templates" : {
 					"1" : {
 						"animation" : "borderGates/avxbgtv10",
@@ -64,16 +68,16 @@
 					}
 				}
 			},
-			"red" :    {
+			"red" : {
 				"templates" : {
 					"avxbgtv20" : {
 						"animation" : "borderGates/avxbgtv20",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
-				}				
+				}
 			},
-			"dblue" :  { 				
+			"dblue" : {
 				"templates" : {
 					"avxbgtv30" : {
 						"animation" : "borderGates/avxbgtv30",
@@ -82,14 +86,14 @@
 					}
 				} 
 			},
-			"brown" :  { 				
+			"brown" : {
 				"templates" : {
 					"avxbgtv40" : {
 						"animation" : "borderGates/avxbgtv40",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
-				} 
+				}
 			},
 			"purple" : { 
 				"templates" : {
@@ -98,25 +102,25 @@
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
-				}			
+				}
 			},
-			"white" :  { 
+			"white" : { 
 				"templates" : {
 					"avxbgtv60" : {
 						"animation" : "borderGates/avxbgtv60",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
-				}			
+				}
 			},
-			"black" :  { 
+			"black" : {
 				"templates" : {
 					"avxbgtv70" : {
 						"animation" : "borderGates/avxbgtv70",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
-				}			
+				}
 			}
 		}
 	},
@@ -125,114 +129,124 @@
 		"types" : {
 			"oasis" : {
 				"templates" : {
-					"AVXosis1" : { "animation" : "objects/AVXosis1", 
-						"mask" : [ "VVVVV", "VVBBV", "VBAAB" ], 
+					"AVXosis1" : {
+						"animation" : "objects/AVXosis1",
+						"mask" : [ "VVVVV", "VVBBV", "VBAAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": ["sand" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 	
 	"core:stables" : {
 		"types" : {
 			"stables" : {
 				"templates" : {
-					"AVXstbl1" : { "animation" : "objects/AVXstbl1", 
-						"mask" : [ "VVV", "VBA" ], 
+					"AVXstbl1" : {
+						"animation" : "objects/AVXstbl1",
+						"mask" : [ "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "++-", "+++" ],
 						"allowedTerrains": ["snow" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 
 	"core:warriorTomb" : {
 		"types" : {
 			"warriorTomb" : {
 				"templates" : {
-					"AVXTOMB1" : { "animation" : "objects/AVXTOMB1", 
-						"mask" : [ "VVV", "VBA" ], 
+					"AVXTOMB1" : {
+						"animation" : "objects/AVXTOMB1",
+						"mask" : [ "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": ["snow" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 	
 	"core:dragonUtopia" : {
 		"types" : {
 			"dragonUtopia" : {
 				"templates" : {
-					"UtopiaSN" : { "animation" : "objects/UtopiaSN", 
-						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBB", "VVBBBAV" ], 
+					"UtopiaSN" : {
+						"animation" : "objects/UtopiaSN",
+						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBB", "VVBBBAV" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": ["snow" ]
 					},
-					"UtopiaWt" : { "animation" : "objects/UtopiaWt", 
-						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBB", "VVBBBAV" ], 
+					"UtopiaWt" : {
+						"animation" : "objects/UtopiaWt",
+						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBB", "VVBBBAV" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": ["water" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 	
 	"core:redwoodObservatory" : {
 		"types" : {
 			"object" : {
 				"templates" : {
-					"WaterOb" : { "animation" : "objects/WaterOb", 
-						"mask" : [ "VVV", "VVV", "VBA" ], 
+					"WaterOb" : {
+						"animation" : "objects/WaterOb",
+						"mask" : [ "VVV", "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": ["water" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 	
 	"core:treeOfKnowledge" : {
 		"types" : {
 			"treeOfKnowledge" : {
 				"templates" : {
-					"AVXTREK2" : { "animation" : "objects/AVXTREK2", 
-						"mask" : [ "VVV", "VVV", "VAV" ], 
+					"AVXTREK2" : {
+						"animation" : "objects/AVXTREK2",
+						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": ["swamp" ]
 					},
-					"AVXTREK3" : { "animation" : "objects/AVXTREK3", 
-						"mask" : [ "VVV", "VVV", "VAV" ], 
+					"AVXTREK3" : {
+						"animation" : "objects/AVXTREK3",
+						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": ["rough" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 
 	"core:tradingPost" : {
 		"types" : {
 			"object" : {
 				"templates" : {
-					"Waterpost" : { "animation" : "objects/Waterpost", 
-						"mask" : [ "VVVV", "VVVV", "VBAV" ], 
+					"Waterpost" : {
+						"animation" : "objects/Waterpost",
+						"mask" : [ "VVVV", "VVVV", "VBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ],
 						"allowedTerrains": ["water" ]
 					}
 				}
 			}
-		}	
-	},	
+		}
+	},
 	"core:prison"	: {
 		"types" : {
 			"prison" : {
 				"templates" : {	
-					"AVXprsn1wgf" : { "animation" : "objects/AVXprsn1", 
+					"AVXprsn1wgf" : {
+						"animation" : "objects/AVXprsn1",
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -245,7 +259,8 @@
 		"types" : {
 			"waterWheel" : {
 				"templates" : {	
-					"zdeswhl" : { "animation" : "objects/zdeswhl", 
+					"zdeswhl" : {
+						"animation" : "objects/zdeswhl",
 						"mask" : [ "VVVV", "VBBB", "VBBA" ],
 						"visitableFrom" : [ "---", "---", "-++" ],
 						"allowedTerrains": [ "sand" ]
@@ -259,8 +274,9 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"Watersp1" : { "animation" : "objects/Watersp1", 
-						"mask" : [ "VVV","VAV" ], 
+					"Watersp1" : {
+						"animation" : "objects/Watersp1",
+						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water" ]
 					}
@@ -273,8 +289,9 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"Watersp2" : { "animation" : "objects/Watersp2", 
-						"mask" : [ "VVV","VAV" ], 
+					"Watersp2" : {
+						"animation" : "objects/Watersp2",
+						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water" ]
 					}
@@ -283,12 +300,13 @@
 		}
 	},
 	
-	"core:shrineOfMagicLevel3"	: {
+	"core:shrineOfMagicLevel3" : {
 		"types" : {
 			"object" : {
 				"templates" : {
-					"Watersp3" : { "animation" : "objects/Watersp3", 
-						"mask" : [ "VVV","VAV" ], 
+					"Watersp3" : {
+						"animation" : "objects/Watersp3",
+						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water" ]
 					}
@@ -297,27 +315,30 @@
 		}
 	},
 	
-	"core:monolithTwoWay" : {	
-		"types" : {				
-			"monolith1wgf" : { 
+	"core:monolithTwoWay" : {
+		"types" : {
+			"monolith1wgf" : {
 				"templates" : {
-					"ztport01" : { "animation" : "monoliths/ztport01", 
+					"ztport01" : {
+						"animation" : "monoliths/ztport01",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},
-			"monolith2wgf" : { 
+			"monolith2wgf" : {
 				"templates" : {
-					"ztport02" : { "animation" : "monoliths/ztport02", 
+					"ztport02" : {
+						"animation" : "monoliths/ztport02",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},
-			"monolith3wgf" : { 
+			"monolith3wgf" : {
 				"templates" : {
-					"ztport03" : { "animation" : "monoliths/ztport03", 
+					"ztport03" : {
+						"animation" : "monoliths/ztport03",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -325,45 +346,50 @@
 			},
 			"monolith4wgf" : { 
 				"templates" : {
-					"ztport04" : { "animation" : "monoliths/ztport04", 
+					"ztport04" : {
+						"animation" : "monoliths/ztport04",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},
-			"monolith5wgf" : { 
+			"monolith5wgf" : {
 				"templates" : {
-					"ztport05" : { "animation" : "monoliths/ztport05", 
+					"ztport05" : {
+						"animation" : "monoliths/ztport05",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
-				}	
+				}
 			},
-			"monolith6wgf" : { 
+			"monolith6wgf" : {
 				"templates" : {
-					"ztport06" : { "animation" : "monoliths/ztport06", 
+					"ztport06" : {
+						"animation" : "monoliths/ztport06",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
-				}	
+				}
 			},
-			"monolith7wgf" : { 
+			"monolith7wgf" : {
 				"templates" : {
-					"ztport07" : { "animation" : "monoliths/ztport07", 
+					"ztport07" : {
+						"animation" : "monoliths/ztport07",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
-				}	
+				}
 			},
-			"monolith8wgf" : { 
+			"monolith8wgf" : {
 				"templates" : {
-					"ztport08" : { "animation" : "monoliths/ztport08", 
+					"ztport08" : {
+						"animation" : "monoliths/ztport08",
 							"mask" : [ "VVV", "VVV", "VAV" ],
 							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
-				}	
+				}
 			}
-		}			
+		}
 	},
 	
 	"core:mine" : {
@@ -411,49 +437,49 @@
 		"name" : "Empty object",
 		"types" : {
 			"object": {
-				"templates" : {				
+				"templates" : {
 					"WoGc001" : { 
-						"animation" : "objects/WoGc001", 
+						"animation" : "objects/WoGc001",
 						"mask" : [ "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "-++", "+++" ]
 					},
-					"WoGc002" : { 
-						"animation" : "objects/WoGc002", 
+					"WoGc002" : {
+						"animation" : "objects/WoGc002",
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					},
-					"WoGc005" : { 
-						"animation" : "objects/WoGc005", 
+					"WoGc005" : {
+						"animation" : "objects/WoGc005",
 						"mask" : [ "VVV", "VAB" ],
 						"visitableFrom" : [ "---", "++-", "+++" ]
 					},
-					"WoGc010" : { 
-						"animation" : "objects/WoGc010", 
+					"WoGc010" : {
+						"animation" : "objects/WoGc010",
 						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVBBBV", "VVBBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ]
 					},
-					"WoGc011" : { 
-						"animation" : "objects/WoGc011", 
+					"WoGc011" : {
+						"animation" : "objects/WoGc011",
 						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVBBBV", "VVBBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ]
 					},
-					"WoGc012" : { 
-						"animation" : "objects/WoGc012", 
+					"WoGc012" : {
+						"animation" : "objects/WoGc012",
 						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVBBV", "VVBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ]
 					},
-					"WoGc015" : { 
-						"animation" : "objects/WoGc015", 
+					"WoGc015" : {
+						"animation" : "objects/WoGc015",
 						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					},
-					"wfh4tw" : { 
-						"animation" : "objects/wfh4tw", 
+					"wfh4tw" : {
+						"animation" : "objects/wfh4tw",
 						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
-			}	
+			}
 		}
 	}
 }

@@ -2,29 +2,34 @@
 	"core:crater" : {
 		"types" : {
 			"object" : {
-				"templates" : {			
-					"avlct7g0" : { "animation" : "craters/avlct7g0", 
-						"mask" : [ "VV","VV" ], 
+				"templates" : {
+					"avlct7g0" : {
+						"animation" : "craters/avlct7g0",
+						"mask" : [ "VV","VV" ],
 						"allowedTerrains": [ "grass" ],
 						"zIndex": 100
 					},
-					"avlctru0" : { "animation" : "craters/avlctru0", 
-						"mask" : [ "BB" ], 
+					"avlctru0" : {
+						"animation" : "craters/avlctru0",
+						"mask" : [ "BB" ],
 						"allowedTerrains": [ "subterra" ],
 						"zIndex": 100
 					},
-					"avlctsn1" : { "animation" : "craters/avlctsn1", 
-						"mask" : [ "VBBV", "VBBV" ], 
+					"avlctsn1" : {
+						"animation" : "craters/avlctsn1",
+						"mask" : [ "VBBV", "VBBV" ],
 						"allowedTerrains": [ "snow" ],
 						"zIndex": 100
 					},
-					"avlct6d0" : { "animation" : "craters/avlct6d0", 
-						"mask" : [ "BBVV", "BBBB", "VVBB" ], 
+					"avlct6d0" : {
+						"animation" : "craters/avlct6d0",
+						"mask" : [ "BBVV", "BBBB", "VVBB" ],
 						"allowedTerrains": [ "dirt" ],
 						"zIndex": 100
 					},
-					"avlct7d0" : { "animation" : "craters/avlct7d0", 
-						"mask" : [ "VVBB", "BBBB", "BBVV" ], 
+					"avlct7d0" : {
+						"animation" : "craters/avlct7d0",
+						"mask" : [ "VVBB", "BBBB", "BBVV" ],
 						"allowedTerrains": [ "dirt" ],
 						"zIndex": 100
 					}

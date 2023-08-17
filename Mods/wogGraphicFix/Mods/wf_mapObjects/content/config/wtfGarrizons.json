@@ -29,7 +29,7 @@
 				"templates" : {
 					"zgarn0062" : {
 						"animation" : "garrisons/zgarn006",
-						"mask" : [ "VV","VV","VB","VA","VB" ], 
+						"mask" : [ "VV","VV","VB","VA","VB" ],
 						"visitableFrom" : [ "---", "+++", "+-+" ]
 					}
 				}

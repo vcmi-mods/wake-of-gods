@@ -1,12 +1,13 @@
 {
-	"name" : "Map objects",
+	"name" : "Patched map objects",
 	"description" : "New graphics for SoD/WoG map objects.",
-	"version" : "",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-    "objects" :
-    [ 
+	"version" : "",
+	"objects" :
+	[
+		"config/mapObjects/wgfShrineOfMagicMystery",
 		"config/wgfBones",
 		"config/wgfCanyons",
 		"config/wgfDecorativeObjects",
@@ -30,7 +31,6 @@
 		"config/wgfKelps",
 		"config/wgfSandDunes",
 		"config/wgfSandpits",
-		"config/wgfShrineOfMagicMystery",
 		"config/wgfShrubs",
 		"config/wgfSigns",
 		"config/wgfStumps",

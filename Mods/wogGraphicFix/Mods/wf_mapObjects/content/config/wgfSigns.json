@@ -2,9 +2,10 @@
 	"core:sign" : {
 		"types" : {
 			"object" : {
-				"templates" : {			
-					"avxsnrr0" : { "animation" : "signs/avxsnrr0", 
-						"mask" : [ "VA" ], 
+				"templates" : {
+					"avxsnrr0" : {
+						"animation" : "signs/avxsnrr0",
+						"mask" : [ "VA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "rough" ]
 					}

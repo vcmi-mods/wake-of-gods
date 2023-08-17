@@ -1,198 +1,243 @@
 {
-	"core:rock" :{
-		"types" : {		
+	"core:rock" : {
+		"types" : {
 			"object" : {
-				"templates" : {	
-					"Undercrb00" : { "animation" : "rocks/Undercrb00", 
-						"mask" : [ "VVV", "VBB" ], 
+				"templates" : {
+					"Undercrb00" : {
+						"animation" : "rocks/Undercrb00",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"Undercrb01" : { "animation" : "rocks/Undercrb01", 
-						"mask" : [ "VVV", "VBB" ], 
+					"Undercrb01" : {
+						"animation" : "rocks/Undercrb01",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"Undercrb02" : { "animation" : "rocks/Undercrb02", 
-						"mask" : [ "VVV", "VBB" ], 
+					"Undercrb02" : {
+						"animation" : "rocks/Undercrb02",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"Undercrb03" : { "animation" : "rocks/Undercrb03", 
-						"mask" : [ "VVV", "VBV" ], 
+					"Undercrb03" : {
+						"animation" : "rocks/Undercrb03",
+						"mask" : [ "VVV", "VBV" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"Undercrb04" : { "animation" : "rocks/Undercrb04", 
-						"mask" : [ "VV", "VB" ], 
+					"Undercrb04" : {
+						"animation" : "rocks/Undercrb04",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"Undercrb05" : { "animation" : "rocks/Undercrb05", 
-						"mask" : [ "VV", "VB" ], 
+					"Undercrb05" : {
+						"animation" : "rocks/Undercrb05",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
 					
-					"wfarkw" : { "animation" : "rocks/wfarkw", 
-						"mask" : [ "VVVV", "VVVV", "VBVB" ], 
+					"wfarkw" : {
+						"animation" : "rocks/wfarkw",
+						"mask" : [ "VVVV", "VVVV", "VBVB" ],
 						"allowedTerrains": [ "water" ]
 					},
-					"wicebr00" : { "animation" : "rocks/wicebr00", 
-						"mask" : [ "VB" ], 
+					"wicebr00" : {
+						"animation" : "rocks/wicebr00",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"wicebr01" : {
+						"animation" : "rocks/wicebr01",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"wicebr02" : {
+						"animation" : "rocks/wicebr02",
+						"mask" : [ "VBB" ],
 						"allowedTerrains": [ "water" ]
 					},	
-					"wicebr01" : { "animation" : "rocks/wicebr01", 
-						"mask" : [ "VB" ], 
+					"wicebr04" : {
+						"animation" : "rocks/wicebr04",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "water" ]
-					},	
-					"wicebr02" : { "animation" : "rocks/wicebr02", 
-						"mask" : [ "VBB" ], 
+					},
+					"wicebr05" : {
+						"animation" : "rocks/wicebr05",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "water" ]
-					},	
-					"wicebr04" : { "animation" : "rocks/wicebr04", 
-						"mask" : [ "VVV", "VBB" ], 
+					},
+					"wicebr06" : {
+						"animation" : "rocks/wicebr06",
+						"mask" : [ "VVVV", "VBBB" ],
 						"allowedTerrains": [ "water" ]
-					},	
-					"wicebr05" : { "animation" : "rocks/wicebr05", 
-						"mask" : [ "VVV", "VBB" ], 
+					},
+					"wicebr07" : {
+						"animation" : "rocks/wicebr07",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "water" ]
-					},	
-					"wicebr06" : { "animation" : "rocks/wicebr06", 
-						"mask" : [ "VVVV", "VBBB" ], 
+					},
+					"wicebr08" : {
+						"animation" : "rocks/wicebr08",
+						"mask" : [ "VVVV", "VVVV", "VBVB" ],
 						"allowedTerrains": [ "water" ]
-					},	
-					"wicebr07" : { "animation" : "rocks/wicebr07", 
-						"mask" : [ "VV", "VB" ], 
-						"allowedTerrains": [ "water" ]
-					},	
-					"wicebr08" : { "animation" : "rocks/wicebr08", 
-						"mask" : [ "VVVV", "VVVV", "VBVB" ], 
-						"allowedTerrains": [ "water" ]
-					},						
+					},
 
-					"WFDR00" : { "animation" : "rocks/WFDR00", 
-						"mask" : [ "VBB" ], 
+					"WFDR00" : {
+						"animation" : "rocks/WFDR00",
+						"mask" : [ "VBB" ],
 						"allowedTerrains": [ "sand" ]
 					},
-					"WFDR01" : { "animation" : "rocks/WFDR01", 
-						"mask" : [ "VVV", "VBB" ], 
+					"WFDR01" : {
+						"animation" : "rocks/WFDR01",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "sand" ]
 					},
-					"WFDR02" : { "animation" : "rocks/WFDR02", 
-						"mask" : [ "VB" ], 
+					"WFDR02" : {
+						"animation" : "rocks/WFDR02",
+						"mask" : [ "VB" ],
 						"allowedTerrains": [ "sand" ]
 					},
-					"WFDR03" : { "animation" : "rocks/WFDR03", 
-						"mask" : [ "VVV", "VBB" ], 
+					"WFDR03" : {
+						"animation" : "rocks/WFDR03",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "sand" ]
-					},		
+					},
 
-					"ZLR00" : { "animation" : "rocks/ZLR00", 
-						"mask" : [ "VV", "VB" ], 
-						"allowedTerrains": [ "lava" ]
-					},	
-					"ZLR01" : { "animation" : "rocks/ZLR01", 
-						"mask" : [ "VV", "VB" ], 
-						"allowedTerrains": [ "lava" ]
-					},	
-					"ZLR02" : { "animation" : "rocks/ZLR02", 
-						"mask" : [ "VV", "VB" ], 
+					"ZLR00" : {
+						"animation" : "rocks/ZLR00",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "lava" ]
 					},
-					"ZLR03" : { "animation" : "rocks/ZLR03", 
-						"mask" : [ "VV", "VB" ], 
-						"allowedTerrains": [ "lava" ]
-					},						
-					"ZLR04" : { "animation" : "rocks/ZLR04", 
-						"mask" : [ "VVV", "BBB" ], 
+					"ZLR01" : {
+						"animation" : "rocks/ZLR01",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "lava" ]
 					},	
-					"ZLR05" : { "animation" : "rocks/ZLR05", 
-						"mask" : [ "VVVB", "VBBB", "VBBB" ], 
+					"ZLR02" : {
+						"animation" : "rocks/ZLR02",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"ZLR03" : {
+						"animation" : "rocks/ZLR03",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"ZLR04" : {
+						"animation" : "rocks/ZLR04",
+						"mask" : [ "VVV", "BBB" ],
 						"allowedTerrains": [ "lava" ]
 					},	
-					"ZLR06" : { "animation" : "rocks/ZLR06", 
-						"mask" : [ "VVVV", "BBBB" ], 
+					"ZLR05" : {
+						"animation" : "rocks/ZLR05",
+						"mask" : [ "VVVB", "VBBB", "VBBB" ],
 						"allowedTerrains": [ "lava" ]
 					},	
-					"ZLR07" : { "animation" : "rocks/ZLR07", 
-						"mask" : [ "VVV", "VBV" ], 
+					"ZLR06" : {
+						"animation" : "rocks/ZLR06",
+						"mask" : [ "VVVV", "BBBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"ZLR07" : {
+						"animation" : "rocks/ZLR07",
+						"mask" : [ "VVV", "VBV" ],
 						"allowedTerrains": [ "lava" ]
 					},	
-					"ZLR08" : { "animation" : "rocks/ZLR08", 
-						"mask" : [ "VV", "VB" ], 
+					"ZLR08" : {
+						"animation" : "rocks/ZLR08",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "lava" ]
-					},	
+					},
 
-					"AVLbuzr0" : { "animation" : "rocks/AVLbuzr0", 
-						"mask" : [ "VV", "BB" ], 
+					"AVLbuzr0" : {
+						"animation" : "rocks/AVLbuzr0",
+						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "rough" ]
 					},
-					"AVLbuzr1" : { "animation" : "rocks/AVLbuzr1", 
-						"mask" : [ "VV", "VB" ], 
+					"AVLbuzr1" : {
+						"animation" : "rocks/AVLbuzr1",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "rough" ]
-					},	
-					"AVLbuzr2" : { "animation" : "rocks/AVLbuzr1", 
-						"mask" : [ "VVV", "VBB" ], 
+					},
+					"AVLbuzr2" : {
+						"animation" : "rocks/AVLbuzr1",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "rough" ]
 					},
 
-					"zdec00" : { "animation" : "rocks/zdec00", 
-						"mask" : [ "VV", "BB" ], 
+					"zdec00" : {
+						"animation" : "rocks/zdec00",
+						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "snow" ]
 					},
 					
-					"zdec01" : { "animation" : "rocks/zdec01", 
-						"mask" : [ "VV", "VB" ], 
+					"zdec01" : {
+						"animation" : "rocks/zdec01",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "snow" ]
 					},
 
-					"avlrk7s0" : { "animation" : "rocks/avlrk7s0", 
-						"mask" : [ "VV", "BB" ], 
+					"avlrk7s0" : {
+						"animation" : "rocks/avlrk7s0",
+						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "swamp" ]
 					},
-					"avlrk8s0" : { "animation" : "rocks/avlrk8s0", 
-						"mask" : [ "VVV", "VBB" ], 
+					"avlrk8s0" : {
+						"animation" : "rocks/avlrk8s0",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "swamp" ]
 					},
-					"avlrk9s0" : { "animation" : "rocks/avlrk9s0", 
-						"mask" : [ "VV", "VB" ], 
+					"avlrk9s0" : {
+						"animation" : "rocks/avlrk9s0",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "swamp" ]
-					}				
+					}
 				}
 			},
 			"pillars" : {
 				"name" : "Pillar",
 				"templates" : {	
-					"wfpillar00" : { "animation" : "rocks/wfpillar00", 
-						"mask" : [ "VVV", "VVV", "VVB" ], 
+					"wfpillar00" : {
+						"animation" : "rocks/wfpillar00",
+						"mask" : [ "VVV", "VVV", "VVB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar01" : { "animation" : "rocks/wfpillar01", 
-						"mask" : [ "VVV", "VVV", "VVB" ], 
+					"wfpillar01" : {
+						"animation" : "rocks/wfpillar01",
+						"mask" : [ "VVV", "VVV", "VVB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar02" : { "animation" : "rocks/wfpillar02", 
-						"mask" : [ "VV", "VB" ], 
+					"wfpillar02" : {
+						"animation" : "rocks/wfpillar02",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar03" : { "animation" : "rocks/wfpillar03", 
-						"mask" : [ "VVV", "VBB" ], 
+					"wfpillar03" : {
+						"animation" : "rocks/wfpillar03",
+						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar04" : { "animation" : "rocks/wfpillar04", 
-						"mask" : [ "VV", "BB" ], 
+					"wfpillar04" : {
+						"animation" : "rocks/wfpillar04",
+						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar05" : { "animation" : "rocks/wfpillar05", 
-						"mask" : [ "VV", "BB" ], 
+					"wfpillar05" : {
+						"animation" : "rocks/wfpillar05",
+						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar06" : { "animation" : "rocks/wfpillar06", 
-						"mask" : [ "VB" ], 
+					"wfpillar06" : {
+						"animation" : "rocks/wfpillar06",
+						"mask" : [ "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar07" : { "animation" : "rocks/wfpillar07", 
-						"mask" : [ "VV", "VV", "VB" ], 
+					"wfpillar07" : {
+						"animation" : "rocks/wfpillar07",
+						"mask" : [ "VV", "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar08" : { "animation" : "rocks/wfpillar08", 
-						"mask" : [ "VV", "VB" ], 
+					"wfpillar08" : {
+						"animation" : "rocks/wfpillar08",
+						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
 					}
 				}
