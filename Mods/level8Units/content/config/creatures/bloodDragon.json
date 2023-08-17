@@ -49,11 +49,11 @@
 				"type" : "FLYING",
 				"subtype" : 1
 			},
-			"unded" : 
+			"unded" :
 			{
 				"type" : "UNDEAD"
 			},
-			"drainsLife" : 
+			"drainsLife" :
 			{
 				"type" : "LIFE_DRAIN",
 				"val" : 40
