@@ -1,8 +1,8 @@
 {
 	"name" : "Heroes III data patch",
 	"description" : "Fixes & improvements to graphics and sounds for some of SoD game assets.",
-	"version" : "",
+	"modType" : "Graphical",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Graphical"
+	"version" : "1.0"
 }

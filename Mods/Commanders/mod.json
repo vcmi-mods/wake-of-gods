@@ -1,12 +1,10 @@
 {
 	"name" : "Commanders",
 	"description" : "This module enables commanders feature from WoG",
-
-	"version" : "",
+	"modType" : "Mechanics",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Mechanics",
-	
+	"version" : "1.0",
 	"creatures" :
 	[
 		"config/commanders/astralSpirit1.json",
@@ -19,12 +17,10 @@
 		"config/commanders/succubus1.json",
 		"config/commanders/templeGuardian1.json"
 	],
-
 	"heroClasses" :
 	[
 		"config/heroClasses_"
 	],
-	
 	"artifacts" :
 	[
 		"config/commanderArtifacts/axeOfSmashing.json",
@@ -38,7 +34,6 @@
 		"config/commanderArtifacts/slavasRingOfPower.json",
 		"config/commanderArtifacts/swordOfSharpness.json"
 	],
-	
 	"settings" :
 	{
 		"modules" :

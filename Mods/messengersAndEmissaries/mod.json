@@ -1,7 +1,7 @@
 {
 	"name" : "Messengers and Emissaries units",
 	"description" : "Adds Messengers and Emissaries of Gods units for WoG.\r\n ,",
-	"modType" : "Mechanics",
+	"modType" : "Creatures",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",

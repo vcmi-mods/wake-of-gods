@@ -1,10 +1,10 @@
 {
 	"name" : "Stack Experience",
 	"description" : "This module enables stack experience feature from WoG",
-	"version" : "",
+	"modType" : "Mechanics",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Mechanics",
+	"version" : "1.0",
 	"creatures" :
 	[
 		"config/castleCreaturesStackExp.json",

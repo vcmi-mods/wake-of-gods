@@ -1,10 +1,10 @@
 {
 	"name" : "War Machines on map",
 	"description" : "This module enables war machines and spellbook spawn on adventure map",
-	"version" : "",
+	"modType" : "Mechanics",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Mechanics",
+	"version" : "1.0",
 	"artifacts" :
 	[
 		"config/warMachinesArts.json"
