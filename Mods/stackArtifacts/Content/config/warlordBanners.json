@@ -18,9 +18,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases stack's Health by 2 plus doubles stack's current Health bonus in combat.",
@@ -50,9 +50,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases stack's Attack by 2 plus doubles stack's current Attack bonus in combat.",
@@ -82,9 +82,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases stack's Defense by 2 plus doubles stack's current Defense bonus in combat.",
@@ -114,9 +114,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases stack's Damage by 1 plus doubles stack's current Damage bonus in combat.",
@@ -144,9 +144,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases stack's Speed by 1 plus doubles stack's current Speed bonus in combat.",
@@ -170,9 +170,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases experience the stack gains from the battle by 50% (but not working due to VCMI bug).",
@@ -194,9 +194,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner reduces target's Defense by 25%",
@@ -219,9 +219,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner reduces damage that hero stack gains by 25%",
@@ -243,9 +243,9 @@
 		"slot" : "MISC",
 		"value" : 3000,
 		"graphics" : { 
-			"image" : "HrArt156", 
+			"image" : "artifacts/HrArt156",
 //			"large" : "", 
-			"map" : "zart156.def" 
+			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
 			"description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner stack can retaliate two more times.",
