@@ -1,0 +1,70 @@
+{
+	"fireMessenger" :
+	{
+		"name" :
+		{
+			"singular" : "Fire Messenger",
+			"plural" : "Fire Messengers"
+		},
+		"faction": "neutral",
+		"level": 5,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"speed" : 5,
+		"hitPoints" : 70,
+		"attack" : 14,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 13,
+			 "max" : 18
+		},
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"fireProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectFire",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/fireMessenger/ZM164GD",
+			"map" : "creatures/fireMessenger/zmm164d",
+			"iconSmall" : "creatures/fireMessenger/CPrS164N",
+			"iconLarge" : "creatures/fireMessenger/CPrL164M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.4,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		}
+	}
+}

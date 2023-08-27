@@ -1,0 +1,16 @@
+{
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"z358o6" : {
+						"animation" : "objects/z358o6.def",
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

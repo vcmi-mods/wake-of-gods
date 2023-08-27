@@ -1,0 +1,123 @@
+{
+	"darknessDragon" :
+	{
+		"name" :
+		{
+			"singular" : "Darkness Dragon",
+			"plural" : "Darkness Dragons"
+		},
+		"faction": "dungeon",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 8000,
+			"sulfur" : 3
+		},
+		"doubleWide" : true,
+		"speed" : 15,
+		"hitPoints" : 600,
+		"attack" : 33,
+		"defense" : 33,
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"fightValue" : 20000,
+		"aiValue" : 26000,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"strikeAndReturn" : 
+			{
+				"type" : "RETURN_AFTER_STRIKE",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"darkness" :
+			{
+				"type" : "DARKNESS",
+				"val" : 3,
+				"propagator" : "HERO"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fear" :
+			{
+				"type" : "FEAR"
+			},
+			"hateGiants" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.giant",
+				"val" : 50
+			},
+			"hateTitans" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.titan",
+				"val" : 50
+			},
+			"hateLords" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.lordOfThunder",
+				"val" : 50
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/darknessDragon/ZM155Z",
+			"map" : "creatures/darknessDragon/zmm155z",
+			"iconSmall" : "creatures/darknessDragon/CPrS155C",
+			"iconLarge" : "creatures/darknessDragon/CPrL155Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" :0.6,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "BKDRATTK.wav",
+			"defend": "BKDRDFND.wav",
+			"killed": "BKDRKILL.wav",
+			"move": "BKDRMOVE.wav",
+			"wince": "BKDRWNCE.wav"
+		}
+	}
+}

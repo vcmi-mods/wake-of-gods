@@ -1,14 +1,15 @@
 {
-	"core:volcano" :{
-		"types" : {		
+	"core:volcano" : {
+		"types" : {
 			"object" : {
 				"templates" : {
-					"RKSHR00" : { "animation" : "volcanos/zwvolc2", 
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBBB" ], 
+					"RKSHR00" : {
+						"animation" : "volcanos/zwvolc2",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBBB" ],
 						"allowedTerrains": [ "swamp" ]
 					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }

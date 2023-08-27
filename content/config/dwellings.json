@@ -1,175 +1,40 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			
-			"portalOfSplendor" : { 
-				"name" : "Portal Of Splendor",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg150z",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVV", "VVVV", "VBAV" ]
-					}
-				},			
-				"creatures" : [[ "supremeArchangel" ]],
-				"sounds": {
-					"ambient": ["LOOPSANC"]
-				}				
-			},
-			
-			"dragonPeaks" : { 
-				"name" : "Dragon Peaks",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg151z",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
-					}
-				},			
-				"creatures" : [[ "diamondDragon" ]],
-				"sounds": {
-					"ambient": ["LOOPDRAG"]
-				}				
-			},
-			
-			"stormTemple" : { 
-				"name" : "Storm Temple",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg152z",
-						"mask" : [ "VVV", "VVV", "VVV", "VBV", "VBA" ]
-					}
-				},		
-				"creatures" : [[ "lordofThunder" ]],
-				"sounds": {
-					"ambient": ["LOOPTITA"]
-				}				
-			},
-			
-			"unholyPalace" : { 
-				"name" : "Unholy Palace",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg153z",
-						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
-					}
-				},
-				"creatures" : [[ "hellBaron" ]],
-				"sounds": {
-					"ambient": ["LOOPDEVL"]
-				}				
-			},
-				
-			"spectralVault" : { 
-				"name" : "Spectral Vault",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg154z",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
-					}
-				},		
-				"creatures" : [[ "bloodDragon" ]],
-				"sounds": {
-					"ambient": ["LOOPDRAG"]
-				}				
-			},
-
-			"caveOfDarkness" : { 
-				"name" : "Cave of Darkness",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg155z",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVV", "VVVV", "VBAV" ]
-					}
-				},			
-				"creatures" : [[ "darknessDragon" ]],
-				"sounds": {
-					"ambient": ["LOOPDRAG"]
-				}				
-			},
-				
-			"behemothTomb" : { 
-				"name" : "Behemoth Tomb",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg156z",
-						"mask" : [ "VVV", "VVV", "VVV", "BAV" ]
-					}
-				},
-				"creatures" : [[ "ghostBehemoth" ]],
-				"sounds": {
-					"ambient": ["LOOPBEHE"]
-				}				
-			},
-			
-			"chaosPool" : { 
-				"name" : "Chaos Pool",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg157z",
-						"mask" : [ "VVV", "VVV", "VAB" ]
-					}
-				},
-				"creatures" : [[ "hellHydra" ]],
-				"sounds": {
-					"ambient": ["LOOPHYDR"]
-				}				
-			},
-				
-			"spiritPyre" : { 
-				"name" : "Spirit Pyre",
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg158z",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
-					}
-				},
-				"creatures" : [[ "sacredPhoenix" ]] 
-			},
-			
-			
-			"rockCoveredPosition" : { 
+			"rockCoveredPosition" : {
 				"name" : "Rock Covered Position",
+				"creatures" : [[ "lavaSharpshooter" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPARRW"]
+					"ambient": ["dwellings/LOOPARRW"]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg171z",
 						"mask" : [ "VVVV", "VVVV", "VVAB" ]
 					}
-				},			
-				"creatures" : [[ "lavaSharpshooter" ]] 
+				}
 			},
-
-			"snowCoveredPosition" : { 
+			"snowCoveredPosition" : {
 				"name" : "Snow Covered Position",
+				"creatures" : [[ "arcticSharpshooter" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPARRW"]
+					"ambient": ["dwellings/LOOPARRW"]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg170z",
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},			
-				"creatures" : [[ "arcticSharpshooter" ]] 
+				}
 			},
-				
 			"vastCavern" : {
 				"name" : "Vast Cavern",
+				"creatures" : [[ "gorynych" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPGRCH"]
+					"ambient": ["dwellings/LOOPGRCH"]
 				},
 				"templates" : {
 					"rockCavern" : {
@@ -181,185 +46,116 @@
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
 						"allowedTerrains": [ "swamp", "lava" ]
 					}
-				},			
-				"creatures" : [[ "gorynych" ]] 
+				}
 			},
-			
-			"dreamHorse-shoe" : { 
+			"dreamHorse-shoe" : {
 				"name" : "Dream Horse-shoe",
+				"creatures" : [[ "nightmare" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPSHOE"]
+					"ambient": ["dwellings/LOOPSHOE"]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg173a",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
-				},			
-				"creatures" : [[ "nightmare" ]] 
+				}
 			},
-
-			"naturalCalamityAir" : { 
-				"name" : "Natural Calamity",
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},			
-				"creatures" : [[ "airMessenger" ]] 
-			},			
-
-			"naturalCalamityWater" : { 
-				"name" : "Natural Calamity",
-				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},			
-				"creatures" : [[ "waterMessenger" ]] 
-			},		
-			
-			"naturalCalamityFire" : { 
-				"name" : "Natural Calamity",
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},			
-				"creatures" : [[ "fireMessenger" ]] 
-			},
-			
-			"naturalCalamityEarth" : { 
-				"name" : "Natural Calamity",
-				"sounds": {
-					"ambient": ["LOOPCALA"]
-				},
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVV", "VVV", "VVVV", "VVBA" ]
-					}
-				},			
-				"creatures" : [[ "earthMessenger" ]] 
-			},			
-			
-			"lostFiary" : { 
-				"name" : "Lost Fiary",
-				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPWZEL"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg169",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
-					}
-				},			
-				"creatures" : [[ "warZealot" ]] 
-			},
-
-			"snowman" : { 
-				"name" : "Snowman",
-				"sounds": {
-					"ambient": ["LOOPSNWMN"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg173",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
-					}
-				},
-				"creatures" : [[ "santaGremlin" ]] 
-			},
-						
-			"sylvanHomestead" : { 
-				"name" : "Sylvan Homestead",
-				"sounds": {
-					"ambient": ["LOOPSLVN"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg192",
-						"mask" : [ "VVV", "VVV", "VBA" ]
-					}
-				},			
-				"creatures" : [[ "sylvanCentaur" ]] 
-			},
-			
-			"enchantedTower" : { 
-				"name" : "Enchanted Tower",
-				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPETWR"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg193",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
-					}
-				},
-				"creatures" : [[ "wogSorceress" ]] 
-			},
-			
-			"howlingHollow" : { 
-				"name" : "Howling Hollow",
-				"sounds": {
-					"ambient": ["LOOPWRWF"]
-				},
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/zavg194",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
-					}
-				},			
-				"creatures" : [[ "werewolf" ]] 
-			},
-			
-			"hellRift" : { 
+			"hellRift" : {
 				"name" : "Hell Rift",
+				"creatures" : [[ "hellSteed" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPHLLRFT"]
+					"ambient": ["dwellings/LOOPHLLRFT"]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg195",
 						"mask" : [ "VVVV", "VBBB", "VBAB" ]
 					}
-				},			
-				"creatures" : [[ "hellSteed" ]] 
+				}
 			},
-
-			"dragonGraveyard" : { 
-				"name" : "Dragon Graveyard",
+			"lostFiary" : {
+				"name" : "Lost Fiary",
+				"creatures" : [[ "warZealot" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPDRACO"]
+					"ambient": ["dwellings/LOOPWZEL"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg169",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
+					}
+				}
+			},
+			"snowman" : {
+				"name" : "Snowman",
+				"creatures" : [[ "santaGremlin" ]],
+				"sounds": {
+					"ambient": ["dwellings/LOOPSNWMN"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg173",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			},
+			"sylvanHomestead" : {
+				"name" : "Sylvan Homestead",
+				"creatures" : [[ "sylvanCentaur" ]],
+				"sounds": {
+					"ambient": ["dwellings/LOOPSLVN"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg192",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"enchantedTower" : {
+				"name" : "Enchanted Tower",
+				"creatures" : [[ "wogSorceress" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["dwellings/LOOPETWR"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg193",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"howlingHollow" : {
+				"name" : "Howling Hollow",
+				"creatures" : [[ "werewolf" ]],
+				"sounds": {
+					"ambient": ["dwellings/LOOPWRWF"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg194",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"dragonGraveyard" : {
+				"name" : "Dragon Graveyard",
+				"creatures" : [[ "dracolich" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["dwellings/LOOPDRACO"]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg196",
 						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
 					}
-				},			
-				"creatures" : [[ "dracolich" ]] 
+				}
 			}
 		}
 	}

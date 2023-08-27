@@ -1,0 +1,20 @@
+{
+	"firesWoG" : {
+		"name" : "Fire",
+		"handler":"generic",
+		"types" : {
+			"object": {
+				"templates" : {
+					"zflame1" : {
+						"animation" : "objects/zflame1.def",
+						"mask" : [ "VVV" ]
+					},
+					"zzzz" : {
+						"animation" : "objects/zzzz.def",
+						"mask" : [ "VVVVVV" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"mithrilMail" :
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 12,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt147",
+			"large" : "artifacts/HrArt147L",
+			"map" : "artifacts/zart147.def"
+		},
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
+				{
+					"level" : 1,
+					"bonus" : 
+					{
+						"type" : "STACK_HEALTH",
+						"val" : 1
+					}
+				}
+			]
+		},
+		"text" : {
+			"name" : "Mithril Mail",
+			"description" : "{Mithril Mail}\r\n\r\nWhen worn by a commander this artifact gives +12% Health plus +1% Health after every victorious battle.",
+			"event" : "You pick up the gleaming suit of Mithril Mail. This armor will surely extend your Commander's life when worn in battle!"
+		}
+	}
+}

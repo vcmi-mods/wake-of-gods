@@ -2,51 +2,54 @@
 	"core:flowers" : {
 		"types" : {
 			"object" : {
-				"templates" : {				
-					"wfflw00" : { "animation" : "flowers/wfflw00", 
-						"mask" : [ "VB" ], 
+				"templates" : {
+					"wfflw00" : {
+						"animation" : "flowers/wfflw00",
+						"mask" : [ "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfflw01" : { "animation" : "flowers/wfflw01", 
-						"mask" : [ "VBB" ], 
+					"wfflw01" : {
+						"animation" : "flowers/wfflw01",
+						"mask" : [ "VBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfflw02" : { "animation" : "flowers/wfflw02", 
-						"mask" : [ "VB" ], 
+					"wfflw02" : {
+						"animation" : "flowers/wfflw02",
+						"mask" : [ "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfflw03" : { "animation" : "flowers/wfflw03", 
-						"mask" : [ "VBB" ], 
+					"wfflw03" : {
+						"animation" : "flowers/wfflw03",
+						"mask" : [ "VBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfflw04" : { "animation" : "flowers/wfflw04", 
-						"mask" : [ "VVVV", "VBBB" ], 
+					"wfflw04" : {
+						"animation" : "flowers/wfflw04",
+						"mask" : [ "VVVV", "VBBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"WFsunf0" : { "animation" : "flowers/WFsunf0", 
-						"mask" : [ "VVV", "VBV" ], 
+					"WFsunf0" : {
+						"animation" : "flowers/WFsunf0",
+						"mask" : [ "VVV", "VBV" ],
 						"allowedTerrains": [ "grass" ]
 					},		
-					"WFsunf1" : { "animation" : "flowers/WFsunf1", 
-						"mask" : [ "VVVV", "VBBV" ], 
+					"WFsunf1" : {
+						"animation" : "flowers/WFsunf1",
+						"mask" : [ "VVVV", "VBBV" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"avlf13g0" : { "animation" : "flowers/avlf13g0", 
-						"mask" : [ "VB" ], 
+					"avlf13g0" : {
+						"animation" : "flowers/avlf13g0",
+						"mask" : [ "VB" ],
 						"allowedTerrains": [ "swamp" ]
 					},
-					"avlf14g0" : { "animation" : "flowers/avlf14g0", 
-						"mask" : [ "VV", "BB" ], 
+					"avlf14g0" : {
+						"animation" : "flowers/avlf14g0",
+						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "swamp" ]
-					}					
+					}
 				}
-			}		
+			}
 		}
 	}
 }
-	
-	
-	
-
-
-	

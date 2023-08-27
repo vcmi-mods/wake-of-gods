@@ -1,0 +1,78 @@
+{
+	"werewolf" :
+	{
+		"name" :
+		{
+			"singular" : "Werewolf",
+			"plural" : "Werewolves"
+		},
+		"faction": "neutral",
+		"level": 4,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"speed" : 7,
+		"hitPoints" : 35,
+		"attack" : 5,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"fightValue" : 460,
+		"aiValue" : 460,
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"growth" : 4,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"val" : 20,
+				"subtype" : 0
+			},
+			"selfBerserk" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.berserk",
+				"val" : 3,
+				"addInfo" : 15,
+				"turns" : 3,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "werewolf", false ]
+					}
+				]
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/werewolf/ZM194Z",
+			"map" : "creatures/werewolf/zmm194z",
+			"iconSmall" : "creatures/werewolf/CPrS194Z",
+			"iconLarge" : "creatures/werewolf/CPrL194Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/werewolf/wolfattk.wav",
+			"defend": "creatures/werewolf/wolfDFND.wav",
+			"killed": "creatures/werewolf/wolfKILL.wav",
+			"move": "creatures/werewolf/wolfMOVE.wav",
+			"wince": "creatures/werewolf/wolfWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"airMessenger" :
+	{
+		"name" :
+		{
+			"singular" : "Air Messenger",
+			"plural" : "Air Messengers"
+		},
+		"faction": "neutral",
+		"level": 5,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"speed" : 6,
+		"hitPoints" : 70,
+		"attack" : 13,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 14
+		},
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"airProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectAir",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/airMessenger/ZM166GD",
+			"map" : "creatures/airMessenger/zmm166d",
+			"iconSmall" : "creatures/airMessenger/CPrS166N",
+			"iconLarge" : "creatures/airMessenger/CPrL166M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.2,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		}
+	}
+}

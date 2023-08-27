@@ -1,0 +1,61 @@
+{
+	"slavasRingOfPower" : //TODO: implement if possible
+	{
+		"type" : ["COMMANDER"],
+		"class" : "RELIC",
+		"value" : 8000,
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 20
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 35
+//				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 70,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			{
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : 0,
+				"val" : 70,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"subtype" : 0,
+				"val" : 8
+			},
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 15
+
+			},
+			{
+				"type" : "CASTS",
+				"val" : 4
+			},
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 65
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt155",
+			"large" : "artifacts/HrArt155L",
+			"map" : "artifacts/zart155.def"
+		},
+		"text" : {
+			"description" : "{Slava's Ring Of Power}\r\n\r\nWhen worn by a commander this artifact gives Commander all bonuses from Master level.",
+//			"description" : "{Slava's Ring Of Power}\r\n\r\nWhen worn by a commander this artifact gives Commander all six Primary Skills at Advanced level.",
+			"event" : "You pick up Slava's Ring of Power and can feel its strong magic. On your Commander's finger, this ring will bestow great power!",
+			"name" : "Slava's Ring Of Power"
+		}
+	}
+}

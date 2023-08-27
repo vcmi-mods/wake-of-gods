@@ -1,0 +1,8 @@
+{
+	"name" : "Main menu theme",
+	"description" : "Changes main menu theme to one used by WoG mod.",
+	"modType" : "Interface",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0"
+}

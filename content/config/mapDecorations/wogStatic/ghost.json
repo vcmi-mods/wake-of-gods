@@ -1,0 +1,17 @@
+{
+	"ghostWoG" : {
+		"name" : "Ghost",
+		"handler":"generic",
+		"types" : {
+			"object": {
+				"templates" : {
+					"z358o8" : {
+						"animation" : "objects/z358o8.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"hellHydra" :
+	{
+		"name" :
+		{
+			"singular" : "Hell Hydra",
+			"plural" : "Hell Hydras"
+		},
+		"faction": "fortress",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 7000,
+			"sulfur" : 2
+		},
+		"doubleWide" : true,
+		"speed" : 10,
+		"hitPoints" : 500,
+		"attack" : 25,
+		"defense" : 27,
+		"damage" :
+		{
+			 "min" : 38,
+			 "max" : 68
+		},
+		"fightValue" : 15750,
+		"aiValue" : 17750,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"attackAll" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"additionalRetal" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			"regenerates" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 40
+			},
+			"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 20
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/hellhydra/ZM157Z",
+			"map" : "creatures/hellhydra/zmm157z",
+			"iconSmall" : "creatures/hellhydra/CPrS157F",
+			"iconLarge" : "creatures/hellhydra/CPrL157Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CHYDATTK.wav",
+			"defend": "CHYDDFND.wav",
+			"killed": "CHYDKILL.wav",
+			"move": "CHYDMOVE.wav",
+			"wince": "CHYDWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"pendantOfSorcery" :
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : [
+			{
+				"type" : "CASTS",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt150",
+			"large" : "artifacts/HrArt150L",
+			"map" : "artifacts/zart150.def"
+		},
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
+				{
+					"level" : 10,
+					"bonus" : 
+					{
+						"type" : "CREATURE_ENCHANT_POWER",
+						"val" : 1
+					}
+				},
+				{
+					"level" : 10,
+					"bonus" : 
+					{
+						"type" : "CASTS",
+						"val" : 1
+					}
+				}
+			]
+		},
+		"text" : {
+			"name" : "Pendant of Sorcery",
+			"description" : "{Pendant of Sorcery}\r\n\r\nWhen worn by a commander this artifact gives +1 Magic Power plus +1 Magic Power after every 10 victorious battles.",
+			"event" : "You pick up the ancient Pendant of Sorcery. With this magical pendant, your Commander's Magic Power will grow stronger!"
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"earthMessenger" :
+	{
+		"name" :
+		{
+			"singular" : "Earth Messenger",
+			"plural" : "Earth Messengers"
+		},
+		"faction": "neutral",
+		"level": 5,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"speed" : 5,
+		"hitPoints" : 70,
+		"attack" : 13,
+		"defense" : 14,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 14
+		},
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"earthProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectEarth",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/earthMessenger/ZM165GD",
+			"map" : "creatures/earthMessenger/zmm165d",
+			"iconSmall" : "creatures/earthMessenger/CPrS165N",
+			"iconLarge" : "creatures/earthMessenger/CPrL165M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.8,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		}
+	}
+}

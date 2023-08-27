@@ -2,11 +2,17 @@
 	"wake-of-gods:wallsWoG" : {
 		"types" : {
 			"object": {
-				"templates" : {				
-					"zwall004" : { "animation" : "objects/zwall004", "mask" : [ "VV", "VB", "VB" ] },
-					"zwall005" : { "animation" : "objects/zwall005", "mask" : [ "VVV", "VBV" ] }
+				"templates" : {
+					"zwall004" : {
+						"animation" : "objects/zwall004",
+						"mask" : [ "VV", "VB", "VB" ]
+					},
+					"zwall005" : {
+						"animation" : "objects/zwall005",
+						"mask" : [ "VVV", "VBV" ]
+					}
 				}
-			}	
+			}
 		}
 	}
 }

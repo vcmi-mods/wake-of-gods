@@ -1,0 +1,70 @@
+{
+	"waterMessenger" :
+	{
+		"name" :
+		{
+			"singular" : "Water Messenger",
+			"plural" : "Water Messengers"
+		},
+		"faction": "neutral",
+		"level": 5,
+		"cost" :
+		{
+			"gold" : 750
+		},
+		"speed" : 5,
+		"hitPoints" : 80,
+		"attack" : 13,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 14
+		},
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"waterProtection" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectWater",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/waterMessenger/ZM167GD",
+			"map" : "creatures/waterMessenger/zmm167d",
+			"iconSmall" : "creatures/waterMessenger/CPrS167N",
+			"iconLarge" : "creatures/waterMessenger/CPrL167M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.6,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		}
+	}
+}

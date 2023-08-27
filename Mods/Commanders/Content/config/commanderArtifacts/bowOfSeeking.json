@@ -1,0 +1,50 @@
+{
+	"bowOfSeeking" : //sprawdzic w WoGu jak to ejst z tym łukiem czy każdy bonus od razu
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : [
+			{
+				"type" : "NO_WALL_PENALTY"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt152",
+			"large" : "artifacts/HrArt152L",
+			"map" : "artifacts/zart152.def"
+		},
+		"growing" :
+		{
+			"thresholdBonuses" :
+			[
+				{
+					"level" : 5,
+					"bonus" :
+					{
+						"type" : "SHOOTER"
+					}
+				},
+				{
+					"level" : 25,
+					"bonus" : 
+					{
+						"type" : "NO_WALL_PENALTY"
+					}
+				},
+				{
+					"level" : 50,
+					"bonus" : 
+					{
+						"type" : "NO_DISTANCE_PENALTY"
+					}
+				}
+			]
+		},
+		"text" : {
+			"name" : "Bow of Seeking",
+			"description" : "{Bow of Seeking}\r\n\r\nWhen worn by a commander this artifact gives Shooting Ability after 5 victorius balles, No Obstacle Penalty after 25 victorious battle and No Long-Range Penalty after 50 victorious battles.",
+			"event" : "You pick up the finely-crafted Bow of Seeking. If used by a Commander skilled in archery, long distances and walls will never be a hindrance again!"
+		}
+	}
+}

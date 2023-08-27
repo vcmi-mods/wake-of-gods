@@ -1,0 +1,82 @@
+{
+	"gorynych" :
+	{
+		"name" :
+		{
+			"singular" : "Gorynych",
+			"plural" : "Gorynyches"
+		},
+		"faction": "neutral",
+		"level": 7,
+		"cost" :
+		{
+			"gold" : 3500
+		},
+		"doubleWide" : true,
+		"speed" : 8,
+		"hitPoints" : 250,
+		"attack" : 20,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 45
+		},
+		"fightValue" : 5272,
+		"aiValue" : 5931,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"multiHeaded" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/gorynych/ZM168DG",
+			"map" : "creatures/gorynych/zmm168g",
+			"iconSmall" : "creatures/gorynych/CPrS168Z",
+			"iconLarge" : "creatures/gorynych/CPrL168M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/gorynych/GORYATTK.wav",
+			"defend": "creatures/gorynych/GORYDFND.wav",
+			"killed": "creatures/gorynych/GORYKILL.wav",
+			"move": "creatures/gorynych/GORYMOVE.wav",
+			"wince": "creatures/gorynych/GORYWNCE.wav"
+		}
+	}
+}

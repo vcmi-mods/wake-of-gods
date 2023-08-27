@@ -1,14 +1,15 @@
 {
-	"core:sandPit" :{
-		"types" : {		
+	"core:sandPit" : {
+		"types" : {
 			"object" : {
 				"templates" : {
-					"avlspit1" : { "animation" : "sandpits/avlspit1", 
-						"mask" : [ "BB", "BB" ], 
+					"avlspit1" : {
+						"animation" : "sandpits/avlspit1",
+						"mask" : [ "BB", "BB" ],
 						"allowedTerrains": [ "sand" ]
 					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }

@@ -1,0 +1,98 @@
+{
+	"ghostBehemoth" :
+	{
+		"name" :
+		{
+			"singular" : "Ghost Behemot",
+			"plural" : "Ghost Behemots"
+		},
+		"faction": "stronghold",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 6000,
+			"crystal" : 2
+		},
+		"doubleWide" : true,
+		"speed" : 15,
+		"hitPoints" : 600,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"attack" : 25,
+		"defense" : 25,
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 75
+		},
+		"fightValue" : 20000,
+		"aiValue" : 26000,
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities" :
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"extraRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 2
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 100
+			},
+			"increaseLuck" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "HERO",
+				"stacking" : "Behemots"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fear" :
+			{
+				"type" : "FEAR"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ghostbehemoth/ZM156Z",
+			"map" : "creatures/ghostbehemoth/zmm156z",
+			"iconSmall" : "creatures/ghostbehemoth/CPrS156S",
+			"iconLarge" : "creatures/ghostbehemoth/CPrL156Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.17,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "BMTHATTK.wav",
+			"defend": "BMTHDFND.wav",
+			"killed": "BMTHKILL.wav",
+			"move": "BMTHMOVE.wav",
+			"wince": "BMTHWNCE.wav"
+		}
+	}
+}

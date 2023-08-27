@@ -1,0 +1,30 @@
+{
+	"name" : "8th level units",
+	"description" : "Adds level 8 units for WoG.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml",
+	"modType" : "Creatures",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"creatures" :
+	[
+		"config/creatures/supremeArchangel.json",
+		"config/creatures/diamondDragon.json",
+		"config/creatures/lordOfThunder.json",
+		"config/creatures/hellBaron.json",
+		"config/creatures/bloodDragon.json",
+		"config/creatures/darknessDragon.json",
+		"config/creatures/ghostBehemoth.json",
+		"config/creatures/hellHydra.json",
+		"config/creatures/sacredPhoenix.json",
+
+		"config/level8CreaturesStackExp.json"
+	],
+	"artifacts" :
+	[
+		"config/artifacts/magicWand.json"
+	],
+	"objects" :
+	[
+		"config/level8Dwellings.json"
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"warZealot" :
+	{
+		"name" :
+		{
+			"singular" : "War Zealot",
+			"plural" : "War Zealots"
+		},
+		"faction": "castle",
+		"level": 6,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"speed" : 8,
+		"hitPoints" : 40,
+		"shots" : 24,
+		"attack" : 14,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"fightValue" : 700,
+		"aiValue" : 1000,
+		"advMapAmount" :
+		{
+			 "min" : 6,
+			 "max" : 10
+		},
+		"growth" : 2,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellMagicMirror" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.magicMirror",
+				"val" : 3,
+				"addInfo" : 100
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/warZealot/ZM169ZL",
+			"map" : "creatures/warZealot/zmm169z",
+			"iconSmall" : "creatures/warZealot/CPrS169N",
+			"iconLarge" : "creatures/warZealot/CPrL169M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRZEAX.DEF",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : 3
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+		}
+	}
+}

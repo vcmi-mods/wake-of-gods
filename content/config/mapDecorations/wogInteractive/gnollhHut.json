@@ -1,0 +1,18 @@
+{
+	"gnollhHutWoG"	: {
+		"name" : "Gnoll Hut",
+		"handler":"static",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AvGnoll" : {
+						"animation" : "AvGnoll",
+//						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"mask" : [ "VBV","VBV" ],
+						"allowedTerrains": [ "swamp" ]
+					}
+				}
+			}
+		}
+	}
+}

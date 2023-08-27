@@ -1,0 +1,41 @@
+{
+	"hardenedShield" :
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt154",
+			"large" : "artifacts/HrArt154L",
+			"map" : "artifacts/zart154.def"
+		},
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
+				{
+					"level" : 6,
+					"bonus" : 
+					{
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : 1
+					}
+				}
+			]
+		},
+		"text" : {
+			"name" : "Hardened Shield",
+			"description" : "{Hardened Shield}\r\n\r\nWhen worn by a commander this artifact gives +5 Defense plus +1 Defense after every 6 victorious battles.",
+			"event" : "You pick up the Hardened Shield. With this excellent shield, your Commander's defenses will surely improve!"
+		}
+	}
+}

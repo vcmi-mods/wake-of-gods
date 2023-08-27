@@ -1,0 +1,16 @@
+{
+	"core:garrisonVertical": {
+		"types": {
+			"normal": {
+				"templates" : {
+					"zgarn002" : {
+						"animation" : "objects/zgarn002.def",
+						"visitableFrom" : [ "+-+", "+++", "+-+" ],
+						"mask" : [ "VV","VB","VA","VB" ],
+						"allowedTerrains":["snow"]
+					}
+				}
+			}
+		}
+	}
+}

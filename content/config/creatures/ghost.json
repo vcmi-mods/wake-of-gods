@@ -1,0 +1,82 @@
+{
+	"ghost" :
+	{
+		"name" :
+		{
+			"singular" : "Ghost",
+			"plural" : "Ghosts"
+		},
+		"faction": "neutral",
+		"level": 3,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"speed" : 8,
+		"hitPoints" : 5,
+		"attack" : 11,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 2
+		},
+		"fightValue" : 150,
+		"aiValue" : 250,
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 30
+		},
+		"growth" : 8,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+			"soulSteal" :
+			{
+				"type" : "SOUL_STEAL",
+				"subtype" : 0,
+				"val" : 1
+			},
+			"armageddonImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.armageddon"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/ghost/ZM159G",
+			"map" : "creatures/ghost/zmm159g",
+			"iconSmall" : "creatures/ghost/CPrS159G",
+			"iconLarge" : "creatures/ghost/CPrL159G",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "WRTHATTK.wav",
+			"defend": "WRTHDFND.wav",
+			"killed": "WRTHKILL.wav",
+			"move": "WRTHMOVE.wav",
+			"wince": "WRTHWNCE.wav"
+		}
+	}
+}

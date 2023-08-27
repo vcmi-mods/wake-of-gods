@@ -1,0 +1,83 @@
+{
+	"santaGremlin" :
+	{
+		"name" :
+		{
+			"singular" : "Santa Gremlin",
+			"plural" : "Santa Gremlins"
+		},
+		"faction": "tower",
+		"level": 3,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"speed" : 5,
+		"hitPoints" : 5,
+		"attack" : 5,
+		"defense" : 5,
+		"shots" : 32,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"fightValue" : 500,
+		"aiValue" : 200,
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"growth" : 16,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.gremlin",
+				"val" : 60
+			},
+			"castsIceBolt" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.iceBolt",
+				"addInfo" : 2,
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 100
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/santaGremlin/ZM173M",
+			"map" : "creatures/santaGremlin/zmm173m",
+			"iconSmall" : "creatures/santaGremlin/CPrS173M",
+			"iconLarge" : "creatures/santaGremlin/CPrL173M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		}
+	}
+}

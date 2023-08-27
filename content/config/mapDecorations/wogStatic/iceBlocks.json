@@ -1,0 +1,28 @@
+{
+	"iceBlockWoG" : {
+		"name" : "Ice blocks",
+		"handler":"static",
+		"types" : {
+			"iceBlocks": {
+				"base": 
+				{
+					"allowedTerrains": [ "snow" ]
+				},
+				"templates" : {
+					"zdec0002" : {
+						"animation" : "objects/zdec0002.def",
+						"mask" : [ "VV", "BB" ]
+					},
+					"zdec0003" : {
+						"animation" : "objects/zdec0003.def",
+						"mask" : [ "VV", "VB" ]
+					},
+					"zdec0004" : {
+						"animation" : "objects/zdec0004.def",
+						"mask" : [ "VV", "BB" ]
+					}
+				}
+			}
+		}
+	}
+}

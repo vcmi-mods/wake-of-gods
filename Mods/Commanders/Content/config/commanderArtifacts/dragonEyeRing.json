@@ -1,0 +1,27 @@
+{
+	"dragonEyeRing" : //TODO: implement
+	{
+		"type" : ["COMMANDER"],
+		"class" : "MINOR",
+		"value" : 1000,
+		"bonuses" : 
+		[
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		],
+		"graphics" : {
+			"image" : "artifacts/HrArt153",
+			"large" : "artifacts/HrArt153L",
+			"map" : "artifacts/zart153.def"
+		},
+		"text" : {
+			"name" : "Dragon Eye Ring",
+			"description" : "{Dragon Eye Ring}\r\n\r\nWhen worn by a commander this artifact gives Commander Breath Attack (two squares) and Dragon nature (gets bonuses as Dragons).",
+			"event" : "You pick up the beautiful Dragon Eye Ring. On your Commander's finger, this ring will bestow the power of dragons!"
+		}
+	}
+}

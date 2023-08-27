@@ -1,0 +1,16 @@
+{
+	"core:tavern" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"z358o7" : {
+						"animation" : "objects/z358o7.def",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"core:resource" : {
+		"types" : {
+			"gold" : {
+				"templates" : {
+					"zmithr": {
+						"animation" : "objects/zmithr.def"
+					}
+				}
+			}
+		}
+	}
+}

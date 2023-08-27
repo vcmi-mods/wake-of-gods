@@ -1,0 +1,108 @@
+{
+	"bloodDragon" :
+	{
+		"name" :
+		{
+			"singular" : "Blood Dragon",
+			"plural" : "Blood Dragons"
+		},
+		"faction": "necropolis",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 6000,
+			"mercury" : 2
+		},
+		"doubleWide" : true,
+		"speed" : 14,
+		"hitPoints" : 400,
+		"attack" : 25,
+		"defense" : 23,
+		"damage" :
+		{
+			 "min" : 38,
+			 "max" : 75
+		},
+		"fightValue" : 12000,
+		"aiValue" : 15000,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"unded" :
+			{
+				"type" : "UNDEAD"
+			},
+			"drainsLife" :
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 40
+			},
+			"age" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
+				"val" : 50
+			},
+			"descreaseMorale" :
+			{
+				"type" : "MORALE",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val" : -2,
+				"stacking" : "Undead Dragons"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fearsome" :
+			{
+				"type" : "FEAR"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/bloodDragon/ZM154Z",
+			"map" : "creatures/bloodDragon/zmm154z",
+			"iconSmall" : "creatures/bloodDragon/CPrS154C",
+			"iconLarge" : "creatures/bloodDragon/CPrL154Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.75,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "GHDRATTK.wav",
+			"defend": "GHDRDFND.wav",
+			"killed": "GHDRKILL.wav",
+			"move": "GHDRMOVE.wav",
+			"wince": "GHDRWNCE.wav"
+		}
+	}
+}

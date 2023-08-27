@@ -1,54 +1,62 @@
 {
 	"core:creatureBank" : {
 		"types" : {
-			"martialSpiritPalace" : 
+			"martialSpiritPalace" :
 			{
 				"name" : "Palace of Martial Spirit",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod1.def", 
-					"visitableFrom" : [ "---", "-+-", "+++" ], 
-					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+					"small" : {
+						"animation" : "creatureBanks/WGgod1.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+					}
 				}
 			},
-			"pacificationCitadel" : 
+			"pacificationCitadel" :
 			{
 				"name" : "Citadel of Pacification",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod2.def", 
-					"visitableFrom" : [ "---", "-+-", "+++" ], 
-					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+					"small" : {
+						"animation" : "creatureBanks/WGgod2.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+					}
 				}
 			},
-			"magiciansMonastery" : 
+			"magiciansMonastery" :
 			{
 				"name" : "Monastery of Magicians",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod3.def", 
-					"visitableFrom" : [ "---", "-+-", "+++" ], 
-					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+					"small" : {
+						"animation" : "creatureBanks/WGgod3.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+					}
 				}
 			},
-			"legendsLibrary" : 
+			"legendsLibrary" :
 			{
 				"name" : "Library of Legends",
 				"templates" : {
-					"small" : { "animation" : "banks/WGgod4.def", 
-					"visitableFrom" : [ "---", "-+-", "+++" ], 
-					"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"] }
+					"small" : {
+						"animation" : "creatureBanks/WGgod4.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+					}
 				}
-			}		
+			}
 		}
 	},
-	"core:crypt" : 
+	"core:crypt" :
 	{
 		"types" : {
 			"crypt" : {
 				"templates" : {
 					"swamp" : {
-						"animation" : "banks/AVXgysw0", 
-						"visitableFrom" :  [ "---", "-+-", "+++" ], 
+						"animation" : "creatureBanks/AVXgysw0",
+						"visitableFrom" :  [ "---", "-+-", "+++" ],
 						"mask" : [ "VVV", "BAB"],
-						"allowedTerrains":["swamp"] 							
+						"allowedTerrains":["swamp"]
 					}
 				}
 			}

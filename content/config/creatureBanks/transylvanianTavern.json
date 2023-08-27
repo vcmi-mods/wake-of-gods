@@ -1,0 +1,111 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"transylvanianTavern" :
+			{
+				"name" : "Transylvanian Tavern",
+				"sounds" : {
+					"ambient" : ["LOOPVAMP"],
+					"visit" : ["ROGUE"]
+				},
+				"templates" : {
+					"base" : { 
+						"animation" : "creatureBanks/zcrbvm17.def",
+						"visitableFrom" : [ "---", "-+-", "++-" ],
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				},
+				"rmg" : {
+					"value" : 5000,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 2, "type" :  "vampire" },
+							{ "amount": 2, "type" :  "vampire" },
+							{ "amount": 2, "type" :  "vampire" },
+							{ "amount": 2, "type" :  "vampire" },
+							{ "amount": 2, "type" :  "vampire" }
+						],
+						"combat_value": 100,
+						"reward" : {
+							"resources":
+							{
+								"gold" : 1500
+							},
+							"creatures": [
+								{ "amount": 3, "type" :  "vampireLord" }
+							]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type" :  "vampire" },
+							{ "amount": 3, "type" :  "vampire" },
+							{ "amount": 3, "type" :  "vampire" },
+							{ "amount": 3, "type" :  "vampire" },
+							{ "amount": 3, "type" :  "vampire" }
+						],
+						"combat_value": 150,
+						"reward" : {
+							"resources":
+							{
+								"gold" : 2500
+							},
+							"creatures": [
+								{ "amount": 5, "type" :  "vampireLord" }
+							],
+							"value": 3000
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 4, "type" :  "vampire" },
+							{ "amount": 4, "type" :  "vampire" },
+							{ "amount": 4, "type" :  "vampire" },
+							{ "amount": 4, "type" :  "vampire" },
+							{ "amount": 4, "type" :  "vampire" }
+						],
+						"combat_value": 200,
+						"reward" : {
+							"resources":
+							{
+								"gold" : 3500
+							},
+							"creatures": [
+								{ "amount": 7, "type" :  "vampireLord" }
+							],
+							"value": 4000
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 6, "type" :  "vampire" },
+							{ "amount": 6, "type" :  "vampire" },
+							{ "amount": 6, "type" :  "vampire" },
+							{ "amount": 6, "type" :  "vampire" },
+							{ "amount": 6, "type" :  "vampire" }
+						],
+						"combat_value": 250,
+						"reward" : {
+							"resources":
+							{
+								"gold" : 5000
+							},
+							"creatures": [
+								{ "amount": 9, "type" :  "vampireLord" }
+							],
+							"value": 5000
+						}
+					}
+				]
+			}
+		}
+	}
+}

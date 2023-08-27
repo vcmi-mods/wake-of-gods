@@ -1,0 +1,16 @@
+{
+		"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"z358o5" : {
+						"animation" : "objects/z358o5.def",
+						"mask" : [ "VVVV", "VVBV", "VBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

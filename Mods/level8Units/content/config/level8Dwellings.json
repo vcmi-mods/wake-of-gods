@@ -1,0 +1,129 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"portalOfSplendor" : { 
+				"name" : "Portal Of Splendor",
+				"creatures" : [[ "supremeArchangel" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg150z",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVV", "VVVV", "VBAV" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPSANC"]
+				}
+			},
+			"dragonPeaks" : { 
+				"name" : "Dragon Peaks",
+				"creatures" : [[ "diamondDragon" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg151z",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPDRAG"]
+				}
+			},
+			"stormTemple" : { 
+				"name" : "Storm Temple",
+				"creatures" : [[ "lordOfThunder" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg152z",
+						"mask" : [ "VVV", "VVV", "VVV", "VBV", "VBA" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPTITA"]
+				}
+			},
+			"unholyPalace" : { 
+				"name" : "Unholy Palace",
+				"creatures" : [[ "hellBaron" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg153z",
+						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPDEVL"]
+				}
+			},
+			"spectralVault" : { 
+				"name" : "Spectral Vault",
+				"creatures" : [[ "bloodDragon" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg154z",
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+					}
+				},		
+				"sounds": {
+					"ambient": ["LOOPDRAG"]
+				}
+			},
+			"caveOfDarkness" : { 
+				"name" : "Cave of Darkness",
+				"creatures" : [[ "darknessDragon" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg155z",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVV", "VVVV", "VBAV" ]
+					}
+				},			
+				"sounds": {
+					"ambient": ["LOOPDRAG"]
+				}
+			},
+			"behemothTomb" : { 
+				"name" : "Behemoth Tomb",
+				"creatures" : [[ "ghostBehemoth" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg156z",
+						"mask" : [ "VVV", "VVV", "VVV", "BAV" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPBEHE"]
+				}
+			},
+			"chaosPool" : { 
+				"name" : "Chaos Pool",
+				"creatures" : [[ "hellHydra" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg157z",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPHYDR"]
+				}
+			},
+			"spiritPyre" : { 
+				"name" : "Spirit Pyre",
+				"creatures" : [[ "sacredPhoenix" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/zavg158z",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
+					}
+				}
+			}
+		}
+	}
+}

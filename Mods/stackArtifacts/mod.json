@@ -1,0 +1,19 @@
+{
+	"name" : "Stack Artifacts",
+	"description" : "This module enables artifacts for unit stacks feature from WoG",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"artifacts" : 
+	[
+		"config/warlordBanners"
+	],
+	"settings":
+	{
+		"modules":
+		{
+			"stackArtifact": true
+		}
+	}
+}

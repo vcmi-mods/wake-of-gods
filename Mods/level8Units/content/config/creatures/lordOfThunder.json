@@ -1,0 +1,124 @@
+{
+	"lordOfThunder" :
+	{
+		"name" :
+		{
+			"singular" : "Lord of Thunder",
+			"plural" : "Lords of Thunder"
+		},
+		"faction": "tower",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 10000,
+			"gems" : 3
+		},
+		"doubleWide" : false,
+		"speed" : 12,
+		"hitPoints" : 600,
+		"shots" : 24,
+		"attack" : 32,
+		"defense" : 32,
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"fightValue" : 15000,
+		"aiValue" : 22500,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities" :  //no melee penalty?
+		{
+			"king3" :
+			{
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.thunderbolt",
+				"val" : 20,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			"thunderStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.thunderbolt",
+				"val" : 10
+			},
+			"airShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"fearless" : 
+			{
+				"type" : "FEARLESS"
+			},
+			"hateDarknessDragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.darknessDragon",
+				"val" : 50
+			}
+		},		
+		"graphics" :
+		{
+			"iconSmall" : "creatures/lordOfThunder/CPrS152T",
+			"iconLarge" : "creatures/lordOfThunder/CPrL152Z",
+			"map" : "creatures/lordOfThunder/zmm152z",
+			"animation": "creatures/lordOfThunder/ZM152Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.38,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRGTIX",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 11,
+					"upperY" : -131,
+					"middleX" : 76,
+					"middleY" : -87,
+					"lowerX" : 19,
+					"lowerY" : -1
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "GTITATTK.wav",
+			"defend": "GTITDFND.wav",
+			"killed": "GTITKILL.wav",
+			"move": "GTITMOVE.wav",
+			"shoot": "GTITSHOT.wav",
+			"wince": "GTITWNCE.wav"
+		}
+	}
+}

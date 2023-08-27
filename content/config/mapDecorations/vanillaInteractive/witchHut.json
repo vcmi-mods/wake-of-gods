@@ -1,0 +1,16 @@
+{
+	"core:witchHut" : {
+		"types" : {
+			"object" : {
+				"templates" :{
+					"z358o4" : {
+						"animation" : "objects/z358o4.def",
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

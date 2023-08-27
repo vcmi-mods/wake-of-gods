@@ -1,0 +1,102 @@
+{
+	"diamondDragon" :
+	{
+		"name" :
+		{
+			"singular" : "Diamond Dragon",
+			"plural" : "Diamond Dragons"
+		},
+		"faction": "rampart",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 8000,
+			"crystal" : 3
+		},
+		"doubleWide" : true,
+		"speed" : 16,
+		"hitPoints" : 500,
+		"attack" : 36,
+		"defense" : 36,
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"fightValue" : 18750,
+		"aiValue" : 25500,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 100
+			},
+			"generateGems" :
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gems",
+				"val" : 1,
+				"propagator" : "HERO"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/diamondDragon/ZM151Z",
+			"map" : "creatures/diamondDragon/zmm151z",
+			"iconSmall" : "creatures/diamondDragon/CPrS151C",
+			"iconLarge" : "creatures/diamondDragon/CPrL151Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.6,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "GODRATTK.wav",
+			"defend": "GODRDFND.wav",
+			"killed": "GODRKILL.wav",
+			"move": "GODRMOVE.wav",
+			"wince": "GODRWNCE.wav"
+		}
+	}
+}

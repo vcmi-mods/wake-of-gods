@@ -1,0 +1,95 @@
+{
+	"lavaSharpshooter" :
+	{
+		"name" :
+		{
+			"singular" : "Lava Sharpshooter",
+			"plural" : "Lava Sharpshooters"
+		},
+		"faction": "neutral",
+		"level": 5,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"speed" : 9,
+		"hitPoints" : 15,
+		"shots" : 32,
+		"attack" : 12,
+		"defense" : 11,
+		"damage" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"fightValue" : 500,
+		"aiValue" : 700,
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"airShield" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.fireShield",
+				"val" : 3,
+				"addInfo" : 1
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/lavaSharpshooter/ZM171SR",
+			"map" : "creatures/lavaSharpshooter/zmm171s",
+			"iconSmall" : "creatures/lavaSharpshooter/CPrS171N",
+			"iconLarge" : "creatures/lavaSharpshooter/CPrL171M",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.02,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX",
+				"attackClimaxFrame" : 11,
+				"offset" :
+				{
+					"upperX" : 32,
+					"upperY" : -77,
+					"middleX" : 40,
+					"middleY" : -61,
+					"lowerX" : 18,
+					"lowerY" : -55
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"hellBaron" :
+	{
+		"name" :
+		{
+			"singular" : "Hell Baron",
+			"plural" : "Hell Barons"
+		},
+		"faction": "inferno",
+		"level" : 8,
+		"cost" :
+		{
+			"gold" : 9000,
+			"mercury" : 3
+		},
+		"doubleWide" : false,
+		"speed" : 17,
+		"hitPoints" : 400,
+		"attack" : 35,
+		"defense" : 37,
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 60
+		},
+		"fightValue" : 19250,
+		"aiValue" : 25700,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"king2" :
+			{
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"FLYING_ARMY" :
+			{
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"descreaseLuck" :
+			{
+				"type" : "LUCK",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val" : -2,
+				"stacking" : "Devils"
+			},
+			"blockRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 50,
+				"turns" : 3
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archangel",
+				"val" : 50
+			},
+			"hateSupremeAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.supremeArchangel",
+				"val" : 50
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/hellBaron/ZM153Z.DEF",
+			"map" : "creatures/hellBaron/zmm153z",
+			"iconSmall" : "creatures/hellBaron/CPrS153C",
+			"iconLarge" : "creatures/hellBaron/CPrL153Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "ADVLATTK.wav",
+			"defend": "ADVLDFND.wav",
+			"killed": "ADVLKILL.wav",
+			"move": "ADVLMOVE.wav",
+			"wince": "ADVLWNCE.wav",
+			"startMoving": "ADVLEXT1.wav",
+			"endMoving": "ADVLEXT2.wav"
+		}
+	}
+}

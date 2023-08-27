@@ -1,0 +1,16 @@
+{
+	"core:denOfThieves" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"zdent001" : {
+						"animation" : "objects/zdent001.def",
+						"mask" : [ "VV", "BA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

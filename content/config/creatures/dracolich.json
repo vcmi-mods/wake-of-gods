@@ -1,0 +1,117 @@
+{
+	"dracolich" :
+	{
+		"name" :
+		{
+			"singular" : "Dracolich",
+			"plural" : "Dracoliches"
+		},
+		"faction": "neutral",
+		"level": 10,
+		"cost" :
+		{
+			"gold" : 25000,
+			"mercury" : 15
+		},
+		"doubleWide" : true,
+		"speed" : 16,
+		"hitPoints" : 800,
+		"shots" : 5,
+		"attack" : 45,
+		"defense" : 45,
+		"damage" :
+		{
+			 "min" : 50,
+			 "max" : 80
+		},
+		"fightValue" : 40000,
+		"aiValue" : 55000,
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"deathCloud" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.deathCloud"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
+			},
+			"descreaseMorale" :
+			{
+				"type" : "MORALE",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val" : -2,
+				"stacking" : "Undead Dragons"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "creatures/dracolich/ZM196Z",
+			"map" : "creatures/dracolich/zmm196z",
+			"iconSmall" : "creatures/dracolich/CPrS196N",
+			"iconLarge" : "creatures/dracolich/CPrL196Z",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.75,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "creatures/dracolich/ZSHOT196",  //sprawdzic czy to wogowy strzal czy z h3
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "GHDRATTK.wav",
+			"defend": "GHDRDFND.wav",
+			"killed": "GHDRKILL.wav",
+			"move": "GHDRMOVE.wav",
+			"shoot": "creatures/dracolich/GHDRSHOT.wav",
+			"wince": "GHDRWNCE.wav"
+		}
+	}
+}
