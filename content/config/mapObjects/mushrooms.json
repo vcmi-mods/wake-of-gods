@@ -27,7 +27,7 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": 4, //water
+								"subtype": "spellSchool.water",
 								"val": 3,
 								"duration" : "ONE_WEEK"
 							}
@@ -74,7 +74,7 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": 1, //Air
+								"subtype": "spellSchool.air",
 								"val": 3,
 								"duration" : "ONE_WEEK"
 							}
@@ -120,7 +120,7 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": 8, //Earth
+								"subtype": "spellSchool.earth",
 								"val": 3,
 								"duration" : "ONE_WEEK"
 							}
@@ -167,7 +167,7 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": 2, //Fire
+								"subtype": "spellSchool.fire",
 								"val": 3,
 								"duration" : "ONE_WEEK"
 							}
