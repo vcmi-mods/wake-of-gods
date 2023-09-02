@@ -122,6 +122,12 @@
 					}
 				],
 				"templates" : {
+					"zobj018_1.def" :
+					{
+						"animation" : "objects/zobj018_1.def",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VVV", "VVV", "VAV" ]
+					},
 					"zobj018" :
 					{
 						"animation" : "objects/zobj018.def",

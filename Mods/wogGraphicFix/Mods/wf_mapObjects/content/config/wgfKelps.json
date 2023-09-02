@@ -72,6 +72,27 @@
 						"animation" : "kelps/wtlily09",
 						"mask" : [ "BBBB", "BBBB" ],
 						"allowedTerrains": [ "water" ]
+					},
+					
+					"AVLklp30" : {
+						"animation" : "kelps/AVLklp30",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"AVLklp40" : {
+						"animation" : "kelps/AVLklp40",
+						"mask" : [ "VVV" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"AVLklp50" : {
+						"animation" : "kelps/AVLklp50",
+						"mask" : [ "VVV", "VVV" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"AVLklp60" : {
+						"animation" : "kelps/AVLklp60",
+						"mask" : [ "VVVV", "VVVV" ],
+						"allowedTerrains": [ "water" ]
 					}
 				}
 			}
