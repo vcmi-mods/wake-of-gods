@@ -110,13 +110,25 @@
 						"mask" : [ "VV", "VA" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ]
 					},
-					"zobj019" : {
-						"animation" : "objects/zobj019.def",
+					"zobj019_1" : {
+						"animation" : "objects/zobj019_1.def",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					},
+					"zobj019" : {
+						"animation" : "objects/zobj019.def",
+						"allowedTerrains": [ "snow" ],
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"zobj020_1" : {
+						"animation" : "objects/zobj020_1.def",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ],
+						"visitableFrom" : [ "---", "-+-", "++-" ]
+					},
 					"zobj020" : {
 						"animation" : "objects/zobj020.def",
+						"allowedTerrains": [ "snow" ],
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VABB" ],
 						"visitableFrom" : [ "---", "-+-", "++-" ]
 					},

@@ -3,10 +3,15 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"RKSHR00" : {
+					"zwvolc2" : {
 						"animation" : "volcanos/zwvolc2",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBBB" ],
 						"allowedTerrains": [ "swamp" ]
+					},
+					"AVLvol60" : {
+						"animation" : "volcanos/AVLvol60",
+						"mask" : [ "VVV", "BBB" ],
+						"allowedTerrains": [ "lava" ]
 					}
 				}
 			}

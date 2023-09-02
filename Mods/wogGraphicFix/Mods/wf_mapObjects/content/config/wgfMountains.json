@@ -200,6 +200,42 @@
 						"animation" : "mountains/wfsnmt06",
 						"mask" : [ "VVVV", "VBBV", "VVBB" ],
 						"allowedTerrains": ["snow" ]
+					},
+					
+					"WFlv00" : {
+						"animation" : "mountains/WFlv00",
+						"mask" : [ "VVVV", "VVVV", "VBVB" ],
+						"allowedTerrains": ["lava" ]
+					},
+					"WFlv01" : {
+						"animation" : "mountains/WFlv01",
+						"mask" : [ "VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB" ],
+						"allowedTerrains": ["lava" ]
+					},
+					"WFlv02" : {
+						"animation" : "mountains/WFlv02",
+						"mask" : [ "VVVVVV", "VVBBBB", "VBBBBB", "VBBBVV" ],
+						"allowedTerrains": ["lava" ]
+					},
+					"WFlv03" : {
+						"animation" : "mountains/WFlv03",
+						"mask" : [ "VVVV", "VBBB", "VVBB" ],
+						"allowedTerrains": ["lava" ]
+					},
+					"WFlv04" : {
+						"animation" : "mountains/WFlv04",
+						"mask" : [ "VVVV", "VBBB", "VBBV" ],
+						"allowedTerrains": ["lava" ]
+					},
+					"WFlv05" : {
+						"animation" : "mountains/WFlv05",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": ["lava" ]
+					},
+					"WFlv06" : {
+						"animation" : "mountains/WFlv06",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": ["lava" ]
 					}
 				}
 			}
