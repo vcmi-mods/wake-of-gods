@@ -261,21 +261,13 @@
 			{
 				"bonus" :
 				{
-					"type" : "WATER_IMMUNITY",
-					"subtype" : 2
-				},
-				"values" : [ false, false, false, false, false, false, false, true, true, true ]
-			},
-			{
-				"bonus" : 
-				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "spell.iceBolt"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{
-				"bonus" : 
+				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "spell.frostRing"
@@ -339,8 +331,9 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 2
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.fire", // including Magic Arrow
+					"val" : 100
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
