@@ -46,28 +46,6 @@
 			"translation/wake-of-gods/polish.json"
 		]
 	},
-	"artifacts" :
-	[
-		"config/artifacts/crimsonShieldOfRetribution.json",
-		"config/artifacts/barbarianLordsAxeOfFerocity.json",
-		"config/artifacts/dragonheart.json",
-		"config/artifacts/gateKey.json",
-		"config/artifacts/deepIronHelmet.json",
-		"config/artifacts/noctivigantBlade.json",
-		"config/artifacts/bloodmarkedBuckler.json",
-		"config/artifacts/gnollToothRing.json",
-		"config/artifacts/gemEncrustedRing.json",
-		"config/artifacts/shadowSectMedallion.json",
-		"config/artifacts/seaKnightsTabbard.json",
-		"config/artifacts/cuirassOfVelocity.json",
-		"config/artifacts/runedMithrilBoots.json",
-		"config/artifacts/ornateMinotaursHorn.json",
-		"config/artifacts/bucklerOfBeelzebub.json",
-
-		"config/artifacts/goldTowerArrow.json",
-		"config/artifacts/monstersPower.json"
-	],
-
 	"creatures" :
 	[
 		"config/creatures/ghost.json",
@@ -149,13 +127,6 @@
 		"config/mapDecorations/wogInteractive/gnollhHut.json",
 
 		"config/mapDecorations/buildingsWoG.json"
-	],
-	"spells" :
-	[
-		"config/spells/arrowTrigger.json",
-		"config/spells/towerJammer.json",
-		"config/spells/summonRedDragon.json",
-		"config/spells/boostSpot.json"
 	],
 	"skills" :
 	[
