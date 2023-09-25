@@ -1,0 +1,16 @@
+{
+	"name" : "Skills",
+	"description" : "This module enables new skills.",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"depends" :
+	[
+		"wake-of-gods.spells"
+	],
+	"skills" :
+	[
+		"config/skills/ballisticsGoldTowerArrow.json"
+	]
+}

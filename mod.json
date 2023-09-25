@@ -127,9 +127,5 @@
 		"config/mapDecorations/wogInteractive/gnollhHut.json",
 
 		"config/mapDecorations/buildingsWoG.json"
-	],
-	"skills" :
-	[
-		"config/skills/ballisticsGoldTowerArrow.json"
 	]
 }
