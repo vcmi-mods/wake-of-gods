@@ -202,8 +202,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1 //ecept beneficial
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -272,8 +272,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1 //except beneficial
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -969,8 +969,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "AIR_IMMUNITY", 
-					"subtype" : 1 //only hostile
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.air"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
 			}
@@ -1053,8 +1053,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "AIR_IMMUNITY", 
-					"subtype" : 1 //only hostile
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.air"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
 			},

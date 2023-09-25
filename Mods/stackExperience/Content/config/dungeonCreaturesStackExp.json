@@ -148,8 +148,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1 //all except positive
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.fire"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}

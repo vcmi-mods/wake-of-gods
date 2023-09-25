@@ -973,8 +973,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "WATER_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}
@@ -1072,8 +1072,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "WATER_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}

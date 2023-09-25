@@ -1123,16 +1123,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1227,16 +1227,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
