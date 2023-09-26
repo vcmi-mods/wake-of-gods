@@ -48,7 +48,7 @@
 				"battleEffects":{
 					"summon":{
 						"exclusive":true,
-						"id":"wake-of-gods:redDragonClone",
+						"id":"redDragonClone",
 						"permanent":false,
 						"summonByHealth" : true,
 						"type":"core:summon",

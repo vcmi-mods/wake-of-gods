@@ -11,5 +11,9 @@
 		"config/spells/towerJammer.json",
 		"config/spells/summonRedDragon.json",
 		"config/spells/boostSpot.json"
+	],
+	"creatures" :
+	[
+		"config/creatures/redDragonClone.json"
 	]
 }

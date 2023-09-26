@@ -46,28 +46,8 @@
 			"translation/wake-of-gods/polish.json"
 		]
 	},
-	"creatures" :
-	[
-		"config/creatures/ghost.json",
-		"config/creatures/gorynych.json",
-		"config/creatures/warZealot.json",
-		"config/creatures/arcticSharpshooter.json",
-		"config/creatures/lavaSharpshooter.json",
-		"config/creatures/nightmare.json",
-		"config/creatures/hellSteed.json",
-		"config/creatures/santaGremlin.json",
-		"config/creatures/sylvanCentaur.json",
-		"config/creatures/wogSorceress.json",
-		"config/creatures/werewolf.json",
-		"config/creatures/dracolich.json",
-
-		"config/creatures/redDragonClone.json"
-	],
-
 	"objects" :
 	[
-		"config/dwellings.json",
-		
 		"config/creatureBanks/huntingLodge.json",
 		"config/creatureBanks/grotto.json",
 		"config/creatureBanks/snowGrotto.json",
