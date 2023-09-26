@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.2",
+	"version" : "9.1.3",
 	"downloadSize" : 64.5,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.3"   : [ "Polish translation made by Dru", "Fixes in stack experience system", "vivid-battlefields submods added" ],
 		"9.1.2"   : [ "WoG Graphics Fix mod updated based on Grossmaster's 2.14 version", "Fixed Magic Mushrooms" ],
 		"9.1.1"  :  [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"9.1.0"  :  [ "Update to vcmi-1.3" ],
@@ -36,6 +37,13 @@
 		"description" : "Unoffizielles Addon für Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/german.json"
+		]
+	},
+	"polish" : {
+		"name" : "In The Wake of Gods",
+		"description" : "Nieoficjalna modyfikacja do Heroes of Might and Magic III",
+		"translations" : [
+			"translation/wake-of-gods/polish.json"
 		]
 	},
 	"artifacts" :

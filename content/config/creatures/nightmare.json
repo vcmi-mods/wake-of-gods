@@ -6,7 +6,6 @@
 			"singular" : "Nightmare",
 			"plural" : "Nightmares"
 		},
-		"upgrades": ["hellSteed"],
 		"faction": "neutral",
 		"level": 6,
 		"cost" :

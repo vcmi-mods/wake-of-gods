@@ -6,7 +6,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -15,7 +15,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -79,7 +79,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -88,7 +88,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -152,7 +152,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -161,7 +161,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -225,7 +225,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -234,7 +234,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -298,7 +298,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -307,7 +307,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -369,7 +369,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -378,7 +378,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -441,7 +441,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -450,7 +450,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -511,7 +511,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -520,7 +520,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -581,7 +581,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -590,7 +590,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -647,7 +647,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -656,7 +656,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -713,7 +713,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -722,7 +722,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -779,7 +779,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -788,7 +788,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -845,7 +845,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -854,7 +854,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -948,7 +948,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -957,7 +957,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 
 				},

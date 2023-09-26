@@ -6,7 +6,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
@@ -14,7 +14,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
@@ -99,7 +99,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -107,7 +107,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
@@ -192,7 +192,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
@@ -200,7 +200,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
@@ -261,18 +261,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.iceBolt"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.water",
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.frostRing"
-				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 100, 100, 100 ]
 			}
 		]
 	},
@@ -284,7 +276,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -292,7 +284,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -333,9 +325,8 @@
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "spellSchool.fire", // including Magic Arrow
-					"val" : 100
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
 			},
 			{
 				"bonus" :
@@ -355,7 +346,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
@@ -363,7 +354,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
@@ -433,7 +424,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
@@ -441,7 +432,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
@@ -510,7 +501,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
@@ -518,7 +509,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
@@ -580,7 +571,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
@@ -588,7 +579,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
@@ -655,7 +646,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -663,7 +654,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -726,7 +717,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -734,7 +725,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
@@ -796,7 +787,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
@@ -804,7 +795,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
@@ -866,7 +857,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
@@ -874,7 +865,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
@@ -943,7 +934,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -951,7 +942,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -1020,7 +1011,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -1028,7 +1019,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]

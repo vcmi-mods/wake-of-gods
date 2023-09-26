@@ -1,0 +1,102 @@
+{
+	"ogreLeader1" :
+	{
+		"name" :
+		{
+			"singular" : "Ogre Leader",
+			"plural" : "Ogre Leaders"
+		},
+		"faction": "stronghold",
+		"special" : true,
+		"level": 0,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"speed" : 5,
+		"hitPoints" : 60,
+		"shots" : 24,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 15
+		},
+		"fightValue" : 130,
+		"aiValue" : 156,
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 3
+			}
+		},
+		"graphics" :
+		{
+			"animation": "commanders/ZM180NPC.DEF",
+			"iconSmall" : "commanders/CPrS180n",
+			"iconLarge" : "commanders/CPrL180n",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.2,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX",
+				"attackClimaxFrame" : 9,
+				"offset" :
+				{
+					"upperX" : 39,
+					"upperY" : -76,
+					"middleX" : 49,
+					"middleY" : -66,
+					"lowerX" : 25,
+					"lowerY" : -56
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "TRLLATTK.wav",
+			"defend": "TRLLDFND.wav",
+			"killed": "TRLLKILL.wav",
+			"move": "TRLLMOVE.wav",
+			"shoot": "commanders/TRLLSHOT.wav",
+			"wince": "TRLLWNCE.wav"
+		}
+	}
+}

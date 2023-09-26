@@ -7,15 +7,15 @@
 	"version" : "1.0",
 	"creatures" :
 	[
-		"config/commanders/astralSpirit1.json",
-		"config/commanders/brute1.json",
-		"config/commanders/hierophant1.json",
-		"config/commanders/ogreLeader1.json",
-		"config/commanders/paladin1.json",
-		"config/commanders/shaman1.json",
-		"config/commanders/soulEater1.json",
-		"config/commanders/succubus1.json",
-		"config/commanders/templeGuardian1.json"
+		"config/commanders/astralSpirit.json",
+		"config/commanders/brute.json",
+		"config/commanders/hierophant.json",
+		"config/commanders/ogreLeader.json",
+		"config/commanders/paladin.json",
+		"config/commanders/shaman.json",
+		"config/commanders/soulEater.json",
+		"config/commanders/succubus.json",
+		"config/commanders/templeGuardian.json"
 	],
 	"heroClasses" :
 	[

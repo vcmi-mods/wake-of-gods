@@ -7,8 +7,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0, //bonus do ataku, check if it works
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -16,7 +15,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -61,8 +60,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0, //bonus do ataku, check if it works
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -70,7 +68,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -115,8 +113,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0, //bonus do ataku, check if it works
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -124,7 +121,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -178,8 +175,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 0, //bonus do ataku, check if it works
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -187,7 +183,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : 1
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
