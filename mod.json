@@ -48,11 +48,6 @@
 	},
 	"objects" :
 	[
-		"config/mapObjects/almsHouse.json",
-		"config/mapObjects/mirrorOfTheHomeWay.json",
-		"config/mapObjects/mushrooms.json",
-		"config/mapObjects/sphinx.json",
-
 		"config/mapDecorations/vanillaStatic/lake.json",
 		"config/mapDecorations/vanillaStatic/lavaLake.json",
 		"config/mapDecorations/vanillaStatic/log.json",

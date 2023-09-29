@@ -38,7 +38,7 @@
 				"templates" : {
 					"sfzerk" :
 					{
-						"animation" : "objects/sfzerk.def",
+						"animation" : "mapObjects/sfzerk.def",
 						"mask" : [ "VVV", "VBB", "VVA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}

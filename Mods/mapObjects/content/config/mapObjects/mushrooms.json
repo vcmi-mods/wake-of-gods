@@ -39,7 +39,7 @@
 				{
 					"zobj008" :
 					{
-						"animation" : "objects/zobj008.def",
+						"animation" : "mapObjects/zobj008.def",
 						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -85,7 +85,7 @@
 				"templates" :
 				{
 					"zobj012" : {
-						"animation" : "objects/zobj012.def",
+						"animation" : "mapObjects/zobj012.def",
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -132,7 +132,7 @@
 				{
 					"zobj017" :
 					{
-						"animation" : "objects/zobj017.def",
+						"animation" : "mapObjects/zobj017.def",
 						"mask" : [ "VVVV", "VVBV", "VVAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -179,7 +179,7 @@
 				{
 					"zobj023" :
 					{
-						"animation" : "objects/zobj023.def",
+						"animation" : "mapObjects/zobj023.def",
 						"mask" : [ "VVV", "VVV", "VVV", "VAV"],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
