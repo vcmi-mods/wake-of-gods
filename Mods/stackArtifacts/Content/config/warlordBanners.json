@@ -157,14 +157,15 @@
 
 	"warlordsBannerExperience":
 	{
-		"bonuses" : [
-			{
-				"type" : "EXP_MULTIPLIER",
-				"val" : 50,
-				"valueType" : "PERCENT_TO_BASE"
-//				"valueType" : "BASE_NUMBER"
-			}
-		],
+// EXP_MULTIPLIER is not implemented and was removed form VCMI 
+// 		"bonuses" : [
+// 			{
+// 				"type" : "EXP_MULTIPLIER",
+// 				"val" : 50,
+// 				"valueType" : "PERCENT_TO_BASE"
+// //				"valueType" : "BASE_NUMBER"
+// 			}
+// 		],
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
