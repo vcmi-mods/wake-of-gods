@@ -4,7 +4,7 @@
 			"huntingLodge" : {
 				"name" : "Hunting Lodge",
 				"sounds" : {
-					"ambient" : ["LOOPFRST"],
+					"ambient" : ["creatureBanks/LOOPFRST"],
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {

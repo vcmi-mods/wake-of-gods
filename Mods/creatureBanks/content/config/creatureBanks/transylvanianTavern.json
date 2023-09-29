@@ -5,7 +5,7 @@
 			{
 				"name" : "Transylvanian Tavern",
 				"sounds" : {
-					"ambient" : ["LOOPVAMP"],
+					"ambient" : ["creatureBanks/LOOPVAMP"],
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {

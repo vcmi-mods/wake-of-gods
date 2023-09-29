@@ -48,13 +48,6 @@
 	},
 	"objects" :
 	[
-		"config/creatureBanks/huntingLodge.json",
-		"config/creatureBanks/grotto.json",
-		"config/creatureBanks/snowGrotto.json",
-		"config/creatureBanks/transylvanianTavern.json",
-		"config/creatureBanks/homeOfTheBat.json",
-		"config/creatureBanks/lostBottle.json",
-
 		"config/mapObjects/almsHouse.json",
 		"config/mapObjects/mirrorOfTheHomeWay.json",
 		"config/mapObjects/mushrooms.json",

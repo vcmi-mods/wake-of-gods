@@ -5,7 +5,7 @@
 			{
 				"name" : "Snow-covered Grotto",
 				"sounds" : {
-					"ambient" : ["LOOPSNOW"],
+					"ambient" : ["creatureBanks/LOOPSNOW"],
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {

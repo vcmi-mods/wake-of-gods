@@ -5,7 +5,7 @@
 			{
 				"name" : "Lost Bottle",
 				"sounds" : {
-					"ambient" : ["LOOPBTTL"],
+					"ambient" : ["creatureBanks/LOOPBTTL"],
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {

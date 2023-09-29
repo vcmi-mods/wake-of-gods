@@ -5,7 +5,7 @@
 			{
 				"name" : "Grotto",
 				"sounds" : {
-					"ambient" : ["LOOPUDGR"],
+					"ambient" : ["creatureBanks/LOOPUDGR"],
 					"visit" : ["ROGUE"]
 				},
 				"templates" : {
