@@ -1,5 +1,5 @@
 {
-	"wake-of-gods:wallsWoG" : {
+	"wake-of-gods.mapdecorations:wallsWoG" : {
 		"types" : {
 			"object": {
 				"templates" : {

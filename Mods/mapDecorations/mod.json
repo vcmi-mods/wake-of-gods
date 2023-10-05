@@ -1,0 +1,58 @@
+{
+	"name" : "Map Decorations",
+	"description" : "This module enables new map decorations.",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"objects" :
+	[
+		"config/mapDecorations/vanillaStatic/lake.json",
+		"config/mapDecorations/vanillaStatic/lavaLake.json",
+		"config/mapDecorations/vanillaStatic/log.json",
+		"config/mapDecorations/vanillaStatic/resource.json",
+		"config/mapDecorations/vanillaStatic/volcano.json",
+
+		"config/mapDecorations/vanillaInteractive/campfire.json",
+		"config/mapDecorations/vanillaInteractive/denOfThieves.json",
+		"config/mapDecorations/vanillaInteractive/fountainOfFortune.json",
+		"config/mapDecorations/vanillaInteractive/garrisonHorizontal.json",
+		"config/mapDecorations/vanillaInteractive/garrisonVertical.json",
+		"config/mapDecorations/vanillaInteractive/hillFort.json",
+		"config/mapDecorations/vanillaInteractive/idolOfFortune.json",
+		"config/mapDecorations/vanillaInteractive/learningStone.json",
+		"config/mapDecorations/vanillaInteractive/libraryOfEnlightenment.json",
+		"config/mapDecorations/vanillaInteractive/magicWell.json",
+		"config/mapDecorations/vanillaInteractive/mermaids.json",
+		"config/mapDecorations/vanillaInteractive/monolithTwoWay.json",
+		"config/mapDecorations/vanillaInteractive/schoolOfMagic.json",
+		"config/mapDecorations/vanillaInteractive/seerHut.json",
+		"config/mapDecorations/vanillaInteractive/shrineOfMagicLevel3.json",
+		"config/mapDecorations/vanillaInteractive/sign.json",
+		"config/mapDecorations/vanillaInteractive/subterraneanGate.json",
+		"config/mapDecorations/vanillaInteractive/tavern.json",
+		"config/mapDecorations/vanillaInteractive/treasureChest.json",
+		"config/mapDecorations/vanillaInteractive/treeOfKnowledge.json",
+		"config/mapDecorations/vanillaInteractive/witchHut.json",
+
+		"config/mapDecorations/wogStatic/catapults.json",
+		"config/mapDecorations/wogStatic/caves.json",
+		"config/mapDecorations/wogStatic/fires.json",
+		"config/mapDecorations/wogStatic/ghost.json",
+		"config/mapDecorations/wogStatic/huts.json",
+		"config/mapDecorations/wogStatic/iceBlocks.json",
+		"config/mapDecorations/wogStatic/lava.json",
+		"config/mapDecorations/wogStatic/rain.json",
+		"config/mapDecorations/wogStatic/runeStones.json",
+		"config/mapDecorations/wogStatic/snow.json",
+		"config/mapDecorations/wogStatic/statues.json",
+		"config/mapDecorations/wogStatic/vortex.json",
+		"config/mapDecorations/wogStatic/walls.json",
+		"config/mapDecorations/wogStatic/waterfalls.json",
+
+		"config/mapDecorations/wogInteractive/blackMarket.json",
+		"config/mapDecorations/wogInteractive/gnollhHut.json",
+
+		"config/mapDecorations/buildingsWoG.json"
+	]
+}

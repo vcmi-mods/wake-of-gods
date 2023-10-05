@@ -1,5 +1,5 @@
 {
-	"wake-of-gods:arcticSharpshooter" :
+	"wake-of-gods.creatures:arcticSharpshooter" :
 	{
 		"stackExperience" :
 		[
@@ -76,7 +76,7 @@
 		]
 	},
 
-	"wake-of-gods:dracolich" :
+	"wake-of-gods.creatures:dracolich" :
 	{
 		"stackExperience" :
 		[
@@ -155,7 +155,7 @@
 		]
 	},
 
-	"wake-of-gods:ghost" :
+	"wake-of-gods.creatures:ghost" :
 	{
 		"stackExperience" :
 		[
@@ -216,7 +216,7 @@
 		]
 	},
 
-	"wake-of-gods:gorynych" :
+	"wake-of-gods.creatures:gorynych" :
 	{
 		"stackExperience" :
 		[
@@ -300,7 +300,7 @@
 		]
 	},
 
-	"wake-of-gods:hellSteed" :
+	"wake-of-gods.creatures:hellSteed" :
 	{
 		"stackExperience" :
 		[
@@ -377,7 +377,7 @@
 		]
 	},
 
-	"wake-of-gods:lavaSharpshooter" :
+	"wake-of-gods.creatures:lavaSharpshooter" :
 	{
 		"stackExperience" :
 		[
@@ -446,7 +446,7 @@
 		]
 	},
 
-	"wake-of-gods:nightmare" :
+	"wake-of-gods.creatures:nightmare" :
 	{
 		"stackExperience" :
 		[
@@ -531,7 +531,7 @@
 		]
 	},
 
-	"wake-of-gods:santaGremlin" :
+	"wake-of-gods.creatures:santaGremlin" :
 	{
 		"stackExperience" :
 		[
@@ -600,7 +600,7 @@
 		]
 	},
 
-	"wake-of-gods:sylvanCentaur" :
+	"wake-of-gods.creatures:sylvanCentaur" :
 	{
 		"stackExperience" :
 		[
@@ -662,7 +662,7 @@
 		]
 	},
 
-	"wake-of-gods:warZealot" :
+	"wake-of-gods.creatures:warZealot" :
 	{
 		"stackExperience" :
 		[
@@ -763,7 +763,7 @@
 		]
 	},
 
-	"wake-of-gods:werewolf" :
+	"wake-of-gods.creatures:werewolf" :
 	{
 		"stackExperience" :
 		[
@@ -857,7 +857,7 @@
 		]
 	},
 
-	"wake-of-gods:wogSorceress" :
+	"wake-of-gods.creatures:wogSorceress" :
 	{
 		"stackExperience" :
 		[

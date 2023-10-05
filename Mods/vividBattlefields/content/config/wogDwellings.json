@@ -1,0 +1,40 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+
+			"rockCoveredPosition": {
+				"battleground": "wake-of-gods.vividbattlefields:rock_covered_position"
+			},
+			"snowCoveredPosition": {
+				"battleground": "wake-of-gods.vividbattlefields:snow_covered_position"
+			},
+			"vastCavern": {
+				"battleground": "wake-of-gods.vividbattlefields:vast_cavern"
+			},
+			"dreamHorse-shoe": {
+				"battleground": "wake-of-gods.vividbattlefields:dream_horse-shoe"
+			},
+			"hellRift": {
+				"battleground": "wake-of-gods.vividbattlefields:hell_rift"
+			},
+			"lostFiary": {
+				"battleground": "wake-of-gods.vividbattlefields:lost_fiary"
+			},
+			"snowman": {
+				"battleground": "wake-of-gods.vividbattlefields:snowman"
+			},
+			"sylvanHomestead": {
+				"battleground": "wake-of-gods.vividbattlefields:sylvan_homestead"
+			},
+			"enchantedTower": {
+				"battleground": "wake-of-gods.vividbattlefields:enchanted_tower"
+			},
+			"howlingHollow": {
+				"battleground": "wake-of-gods.vividbattlefields:howling_hollow"
+			},
+			"dragonGraveyard": {
+				"battleground": "wake-of-gods.vividbattlefields:dragon_graveyard"
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name" : "Creatures",
+	"description" : "This module enables new creatures.",
+	"modType" : "Creatures",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"creatures" :
+	[
+		"config/creatures/ghost.json",
+		"config/creatures/gorynych.json",
+		"config/creatures/warZealot.json",
+		"config/creatures/arcticSharpshooter.json",
+		"config/creatures/lavaSharpshooter.json",
+		"config/creatures/nightmare.json",
+		"config/creatures/hellSteed.json",
+		"config/creatures/santaGremlin.json",
+		"config/creatures/sylvanCentaur.json",
+		"config/creatures/wogSorceress.json",
+		"config/creatures/werewolf.json",
+		"config/creatures/dracolich.json"
+	],
+	"objects" :
+	[
+		"config/dwellings.json"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name" : "Map Objects",
+	"description" : "This module enables new map objects.",
+	"modType" : "Objects",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"objects" :
+	[
+		"config/mapObjects/almsHouse.json",
+		"config/mapObjects/mirrorOfTheHomeWay.json",
+		"config/mapObjects/mushrooms.json",
+		"config/mapObjects/sphinx.json"
+	]
+}
