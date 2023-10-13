@@ -284,9 +284,11 @@
 				],
 				"templates" : {
 					"zsphnx10" : { "animation" : "mapObjects/zsphnx10.def", "allowedTerrains": [ "sand" ] },
-					"zsphnx11" : { "animation" : "mapObjects/zsphnx11.def", "allowedTerrains": [ "rough", "subterra", "water" ] },
-					"zsphnx12" : { "animation" : "mapObjects/zsphnx12.def", "allowedTerrains": [ "dirt", "grass", "swamp", "lava" ] },
-					"zsphnx13" : { "animation" : "mapObjects/zsphnx13.def", "allowedTerrains": [ "snow" ] }
+					"zsphnx11" : { "animation" : "mapObjects/zsphnx11.def", "allowedTerrains": [ "rough", "water" ] },
+					"zsphnx12" : { "animation" : "mapObjects/zsphnx12.def", "allowedTerrains": [ "dirt", "grass", "lava" ] },
+					"zsphnx13" : { "animation" : "mapObjects/zsphnx13.def", "allowedTerrains": [ "snow" ] },
+					"zsphnx14" : { "animation" : "mapObjects/zsphnx14.def", "allowedTerrains": [ "subterra" ] },
+					"zsphnx15" : { "animation" : "mapObjects/zsphnx15.def", "allowedTerrains": [ "swamp" ] }
 				}
 			}	
 		}
