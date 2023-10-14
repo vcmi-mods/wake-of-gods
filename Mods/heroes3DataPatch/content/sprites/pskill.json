@@ -1,0 +1,13 @@
+{
+	"basepath" : "pskill/",
+ 
+	"images" :
+	[
+		{ "frame" : 0, "file" : "pskil82a.png" },
+		{ "frame" : 1, "file" : "pskil82b.png" },
+		{ "frame" : 2, "file" : "pskil82c.png" },
+		{ "frame" : 3, "file" : "pskil82d.png" },
+		{ "frame" : 4, "file" : "pskil82e.png" },
+		{ "frame" : 5, "file" : "pskil82f.png" }
+	]
+}
