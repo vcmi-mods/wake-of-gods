@@ -262,7 +262,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.water",
+					"subtype" : "spellSchool.water"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 100, 100, 100 ]
 			}
@@ -324,7 +324,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.fire", // including Magic Arrow
+					"subtype" : "spellSchool.fire" // including Magic Arrow
 				},
 				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
 			},

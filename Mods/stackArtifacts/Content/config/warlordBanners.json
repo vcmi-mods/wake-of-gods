@@ -33,13 +33,13 @@
 	{
 		"bonuses" : [
 			{
-				"subtype" : "primSkill.attack",
+				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "primSkill.attack",
+				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
@@ -65,13 +65,13 @@
 	{
 		"bonuses" : [
 			{
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"

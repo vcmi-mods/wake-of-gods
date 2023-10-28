@@ -8,7 +8,7 @@
 		"bonuses" : [
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.attack",
+				"subtype" : "primarySkill.attack",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER",
 				"updater" : {
