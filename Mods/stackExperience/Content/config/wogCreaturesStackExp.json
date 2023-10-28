@@ -277,8 +277,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -501,7 +500,7 @@
 				"bonus" : 
 				{
 					"type" : "DEATH_STARE",
-					"subtype" : 0
+					"subtype" : "deathStareGorgon"
 				},
 				"values" : [ 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ]
 			},
@@ -817,8 +816,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
 			},

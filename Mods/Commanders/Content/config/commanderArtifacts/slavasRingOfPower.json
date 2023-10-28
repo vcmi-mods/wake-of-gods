@@ -23,13 +23,12 @@
 			},
 			{
 				"type" : "CREATURE_DAMAGE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"val" : 70,
 				"valueType" : "PERCENT_TO_ALL"
 			},
 			{
 				"type" : "STACKS_SPEED",
-				"subtype" : 0,
 				"val" : 8
 			},
 			{
