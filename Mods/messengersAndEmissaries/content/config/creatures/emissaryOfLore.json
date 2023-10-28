@@ -36,7 +36,7 @@
 			"teleporting" :
 			{
 				"type" : "FLYING",
-				"subtype" : 1
+				"subtype" : "movementTeleporting"
 			},
 			"addKnowledge" :
 			{

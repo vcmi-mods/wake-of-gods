@@ -51,7 +51,7 @@
 			"flying" :
 			{
 				"type" : "FLYING",
-				"subtype" : 0
+				"subtype" : "movementFlying"
 			},
 			"spellImmunity" :
 			{
