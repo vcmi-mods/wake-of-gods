@@ -773,7 +773,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : -1
+					"subtype" : "spellSchool.any"
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
 			}
@@ -843,7 +843,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : -1
+					"subtype" : "spellSchool.any"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			}
