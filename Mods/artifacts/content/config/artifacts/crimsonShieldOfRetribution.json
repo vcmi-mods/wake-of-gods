@@ -14,7 +14,7 @@
 			},
 			{
 				"type" : "CREATURE_DAMAGE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"val" : -50,
 				"valueType" : "PERCENT_TO_BASE",
 				"propagator": "BATTLE_WIDE",

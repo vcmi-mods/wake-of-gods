@@ -97,14 +97,14 @@
 	{
 		"bonuses" : [
 			{
-				"subtype" : 0,
 				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : 0,
 				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
@@ -211,7 +211,7 @@
 		"bonuses" : [
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"val" : 25
 			}
 		],

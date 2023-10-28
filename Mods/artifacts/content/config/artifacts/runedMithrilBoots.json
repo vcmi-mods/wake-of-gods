@@ -8,7 +8,7 @@
 		"bonuses" : [
 			{
 				"type" : "MOVEMENT",
-				"subtype" : 1,
+				"subtype" : "heroMovementLand",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE",
 				"updater" : {
