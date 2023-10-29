@@ -23,7 +23,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
@@ -31,7 +31,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
@@ -101,7 +101,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -109,7 +109,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -179,7 +179,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 0
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -240,7 +240,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -248,7 +248,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -277,8 +277,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -324,7 +323,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
@@ -332,7 +331,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
@@ -401,7 +400,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
@@ -409,7 +408,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
@@ -470,7 +469,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
@@ -478,7 +477,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
@@ -501,7 +500,7 @@
 				"bonus" : 
 				{
 					"type" : "DEATH_STARE",
-					"subtype" : 0
+					"subtype" : "deathStareGorgon"
 				},
 				"values" : [ 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ]
 			},
@@ -555,7 +554,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -563,7 +562,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -624,7 +623,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -632,7 +631,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -654,8 +653,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					// "subtype" : 1 // positive only?
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			}
@@ -686,7 +685,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
@@ -694,7 +693,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
@@ -724,8 +723,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},
@@ -787,7 +786,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -795,7 +794,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
@@ -817,8 +816,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
 			},
@@ -881,7 +879,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 2
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
@@ -889,7 +887,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 1
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},

@@ -43,7 +43,7 @@
 			"soulSteal" :
 			{
 				"type" : "SOUL_STEAL",
-				"subtype" : 0,
+				"subtype" : "soulStealPermanent",
 				"val" : 1
 			},
 			"armageddonImmunity" : 

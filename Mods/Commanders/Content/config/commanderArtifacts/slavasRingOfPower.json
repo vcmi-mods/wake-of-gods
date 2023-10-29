@@ -7,12 +7,12 @@
 		"bonuses" : [
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.attack",
+				"subtype" : "primarySkill.attack",
 				"val" : 20
 			},
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"val" : 35
 //				"valueType" : "ADDITIVE_VALUE"
 			},
@@ -23,13 +23,12 @@
 			},
 			{
 				"type" : "CREATURE_DAMAGE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"val" : 70,
 				"valueType" : "PERCENT_TO_ALL"
 			},
 			{
 				"type" : "STACKS_SPEED",
-				"subtype" : 0,
 				"val" : 8
 			},
 			{

@@ -7,12 +7,7 @@
 		"bonuses" : [
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 0,
-				"val" : 90
-			},
-			{
-				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 1,
+				"subtype" : "damageTypeAll",
 				"val" : 90
 			}
 		],

@@ -7,7 +7,7 @@
 		"bonuses" : [
 			{
 				"type" : "CREATURE_DAMAGE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"val" : 12,
 				"valueType" : "PERCENT_TO_ALL"
 			}

@@ -41,7 +41,7 @@
 			"flying" :
 			{
 				"type" : "FLYING",
-				"subtype" : 0
+				"subtype" : "movementFlying"
 			},
 			"fireBreath" :
 			{

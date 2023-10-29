@@ -8,13 +8,13 @@
 		"bonuses" : [
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
 				"type" : "CREATURE_DAMAGE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"val" : -50,
 				"valueType" : "PERCENT_TO_BASE",
 				"propagator": "BATTLE_WIDE",

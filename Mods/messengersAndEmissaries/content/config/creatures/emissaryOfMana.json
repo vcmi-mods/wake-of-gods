@@ -37,12 +37,12 @@
 			"teleporting" :
 			{
 				"type" : "FLYING",
-				"subtype" : 1
+				"subtype" : "movementTeleporting"
 			},
 			"addSpellpower" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.spellpower",
+				"subtype" : "primarySkill.spellpower",
 				"updater" : {
 					"type" : "GROWS_WITH_LEVEL",
 					"parameters" : [ 4 ]

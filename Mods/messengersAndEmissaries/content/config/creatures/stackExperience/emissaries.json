@@ -31,7 +31,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 0
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -84,7 +84,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 0
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -137,7 +137,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 0
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
@@ -199,7 +199,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : 0
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},

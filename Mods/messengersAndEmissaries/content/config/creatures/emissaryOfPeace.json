@@ -36,12 +36,12 @@
 			"teleporting" :
 			{
 				"type" : "FLYING",
-				"subtype" : 1
+				"subtype" : "movementTeleporting"
 			},
 			"addDefence" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"updater" : {
 					"type" : "GROWS_WITH_LEVEL",
 					"parameters" : [ 4 ]

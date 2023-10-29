@@ -35,8 +35,8 @@
 			"transmutation" :
 			{
 				"type" : "TRANSMUTATION",
-				"val" : 20,
-				"subtype" : 0
+				"subtype" : "transmutationPerHealth",
+				"val" : 20
 			},
 			"selfBerserk" :
 			{
