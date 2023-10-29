@@ -218,8 +218,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //not sure it works for except beneficial with this bonus
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}
@@ -289,8 +289,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //not sure it works for except beneficial with this bonus
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}
@@ -646,8 +646,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //not sure it works for except beneficial with this bonus
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 2 ]
 			}
@@ -725,8 +725,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //not sure it works for except beneficial with this bonus
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 2 ]
 			}

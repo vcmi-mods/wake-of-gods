@@ -427,7 +427,7 @@
 				"bonus" :
 				{
 					"type" : "DEATH_STARE",
-					"subtype" : 0
+					"subtype" : "deathStareGorgon"
 				},
 				"values" : [ 13, 16, 19, 22, 25, 28, 31, 34, 37, 40 ]
 			}
@@ -918,8 +918,8 @@
 			{
 				"bonus" : 
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //not sure it works for except beneficial with this bonus
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -1019,15 +1019,16 @@
 				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
 			},
 			{
-				"bonus" : 
+				"bonus" :
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //not sure it works for except beneficial with this bonus
+					//"subtype" : 1, // except beneficial - TODO - Implement
+					"val" : 5
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 ]
 			},
 			{
-				"bonus" : 
+				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "spell.blind"

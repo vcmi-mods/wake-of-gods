@@ -191,7 +191,8 @@
 				"bonus" :
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //all except beneficial - check if it works
+					//"subtype" : 1, //all except beneficial - TODO - Implement
+					"val" : 5
 				},
 				"values" : [ 3, 3, 3, 3, 4, 4, 5, 5, 5, 5 ]
 			},
@@ -260,8 +261,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY",
-					"subtype" : 0
+					"type" : "MIND_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]	
 			},
@@ -362,15 +362,15 @@
 					"subtype" : "spell.clone",
 					"addInfo" : [3, 0]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "FEARLESS"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
-			},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
 //			{
 //				"bonus" :
 //				{
@@ -451,16 +451,15 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 0, 0, 0, 25, 50, 75, 125, 250, 250, 250 ]
 			},
@@ -528,8 +527,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //all except beneficial - check if it works
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 4 ]
 			}
@@ -1078,7 +1077,7 @@
 				"bonus" :
 				{
 					"type" : "REBIRTH",
-					"subtype" : 0
+					"subtype" : "rebirthRegular"
 				},
 				"values" : [ 0, 0, 20, 20, 20, 20, 20, 20, 20, 20 ]
 			},

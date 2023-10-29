@@ -24,19 +24,19 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1, //min
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2, //max
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
-			},			
+			},
 			{
 				"bonus" :
 				{
@@ -97,7 +97,7 @@
 					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+			},
 			{
 				"bonus" :
 				{
@@ -106,23 +106,23 @@
 					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1, //min
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2, //max
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
-			},			
+			},
 			{
 				"bonus" :
 				{
@@ -636,16 +636,15 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
 			}
@@ -714,16 +713,15 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
 			}
@@ -943,8 +941,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1012,8 +1010,8 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -1042,8 +1040,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]
 			},

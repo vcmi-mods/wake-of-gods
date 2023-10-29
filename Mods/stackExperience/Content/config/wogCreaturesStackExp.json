@@ -653,8 +653,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					// "subtype" : 1 // positive only?
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			}
@@ -723,8 +723,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},

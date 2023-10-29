@@ -754,8 +754,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]	
 			}
@@ -842,8 +842,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]	
 			}
@@ -931,10 +931,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" //powinno być Not Immune Beneficial Mind Spells
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{	
 				"bonus" :
@@ -1035,10 +1035,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" //powinno być Not Immune Beneficial Mind Spells
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{	
 				"bonus" :
@@ -1116,7 +1116,6 @@
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
-
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 3 ]
 			},
@@ -1146,17 +1145,17 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" //powinno być Not Immune Beneficial Mind Spells
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]	
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]	
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
 			{
 				"bonus" :
@@ -1250,17 +1249,17 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" //powinno być Not Immune Beneficial Mind Spells
+					//"subtype" : 1 //all except positive - TODO - Implement
 				},
-				"values" : [ false, false, false, false, false, false, false, true, true, true ]	
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]	
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
 			{
 				"bonus" :
@@ -1269,7 +1268,7 @@
 					"subtype" : "spell.berserk",
 					"addInfo" : [1, 0]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
 		]
 	}

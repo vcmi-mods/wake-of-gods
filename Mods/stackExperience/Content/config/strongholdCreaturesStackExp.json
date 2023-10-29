@@ -646,8 +646,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 ]
 			}
@@ -717,8 +716,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 ]
 			}

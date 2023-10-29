@@ -438,8 +438,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -637,8 +637,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "HP_REGENERATION",
-					"subtype" : 1
+					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},

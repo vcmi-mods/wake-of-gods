@@ -116,8 +116,8 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},

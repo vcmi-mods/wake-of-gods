@@ -422,8 +422,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}

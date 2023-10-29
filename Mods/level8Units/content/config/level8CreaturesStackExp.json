@@ -378,8 +378,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY", //powinno być Not Immune Beneficial Mind Spells 
-					"subtype" : 1 //all except positive - może nie działać
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]
 			},
@@ -480,8 +480,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",
-					"subtype" : 1 //only hostile - check if it works
+					"type" : "LEVEL_SPELL_IMMUNITY"
+					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -565,8 +565,8 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY",
-					"subtype" : 1 //all except positive, colud not work
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
 			},

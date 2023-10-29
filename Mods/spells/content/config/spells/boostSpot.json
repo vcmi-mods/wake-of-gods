@@ -63,7 +63,7 @@
 						"bonus": {
 							"boost": {
 								"type" : "CREATURE_DAMAGE",
-								"subtype" : 0,
+								"subtype" : "creatureDamageBoth",
 								"val" : 25,
 								"valueType" : "PERCENT_TO_ALL",
 								"duration" : "N_TURNS"
