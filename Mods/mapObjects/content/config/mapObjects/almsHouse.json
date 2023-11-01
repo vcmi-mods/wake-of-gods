@@ -8,7 +8,7 @@
 			"almsHouse":
 			{
 				"name" : "Alms House",
-				"selectMode" : "selectFirst",
+				"selectMode" : "selectAll",
 				"visitMode" : "hero",
 				"onVisitedMessage": "{Alms House}\r\n\r\nYou already visited the Alms House.",
 				"onEmptyMessage": "{Alms House}\r\n\r\nAlms house only helps the ones in need.",
