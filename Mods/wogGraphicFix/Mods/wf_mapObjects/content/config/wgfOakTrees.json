@@ -7,6 +7,26 @@
 						"animation" : "trees/avlsptr9.def",
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
+					},
+					"avlsptr10" : {
+						"animation" : "trees/avlsptr10.def",
+						"mask" : [ "VV", "VBV", "VBV" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"avlsptr11" : {
+						"animation" : "trees/avlsptr11.def",
+						"mask" : [ "VV", "VBV", "VBV" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"AVLAUTR10" : {
+						"animation" : "trees/AVLAUTR10.def",
+						"mask" : [ "VVV", "VBV", "VBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"AVLAUTR11" : {
+						"animation" : "trees/AVLAUTR11.def",
+						"mask" : [ "VVV", "VBV", "VBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
 					}
 				}
 			}

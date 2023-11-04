@@ -9,6 +9,10 @@
 						"animation" : "objects/zdec0001.def",
 						"mask": [ "VV", "VB" ]
 					},
+					"zdec1001" : {
+						"animation" : "objects/zdec1001.def",
+						"mask": [ "VV", "VB" ]
+					},
 					"zdec0005" : {
 						"animation" : "objects/zdec0005.def",
 						"mask": [ "VV", "VB" ]

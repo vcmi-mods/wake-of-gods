@@ -53,7 +53,42 @@
 						"animation" : "mushrooms/wmshr10",
 						"mask" : [ "VB" ],
 						"allowedTerrains": [ "subterra", "swamp" ]
-					}
+					},
+					"wmshrx05" : {
+						"animation" : "mushrooms/wmshrx05",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshrx06" : {
+						"animation" : "mushrooms/wmshrx06",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshrx04" : {
+						"animation" : "mushrooms/wmshrx04",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshrx03" : {
+						"animation" : "mushrooms/wmshrx03",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshrx02" : {
+						"animation" : "mushrooms/wmshrx02",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshrx01" : {
+						"animation" : "mushrooms/wmshrx01",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
+					"wmshrx00" : {
+						"animation" : "mushrooms/wmshrx00",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "subterra", "swamp" ]
+					},
 				}
 			}
 		}
