@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.6",
+	"version" : "9.1.7",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.7"   : [ "Fixed Mirror of Home-Way mask. Also, gold will not use Mithril skin anymore." ],
 		"9.1.6"   : [ "WoG Graphics Fix mod updated based on Grossmaster's 2.15 version" ],
 		"9.1.5"   : [ "Alms House will now use new selectAll feature for rewards"],
 		"9.1.4"   : [ "WoG Graphics Fix mod updated based on Grossmaster's 2.141 version" ],
