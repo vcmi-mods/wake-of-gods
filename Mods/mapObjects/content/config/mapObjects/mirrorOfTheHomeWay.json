@@ -39,7 +39,7 @@
 					"sfzerk" :
 					{
 						"animation" : "mapObjects/sfzerk.def",
-						"mask" : [ "VVV", "VBB", "VVA" ],
+						"mask" : [ "VVV", "VBB", "VBA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
