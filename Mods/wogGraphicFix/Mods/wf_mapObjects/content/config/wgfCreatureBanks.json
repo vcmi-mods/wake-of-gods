@@ -7,8 +7,8 @@
 				"templates" : {
 					"small" : {
 						"animation" : "creatureBanks/WGgod1.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+						"visitableFrom" : [ "---", "-+-", "-+-" ],
+						"mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBB0BV", "000000" ]
 					}
 				}
 			},
@@ -18,8 +18,8 @@
 				"templates" : {
 					"small" : {
 						"animation" : "creatureBanks/WGgod2.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+						"visitableFrom" : [ "---", "-+-", "-+-" ],
+						"mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBB0BV", "000000" ]
 					}
 				}
 			},
@@ -29,8 +29,8 @@
 				"templates" : {
 					"small" : {
 						"animation" : "creatureBanks/WGgod3.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+						"visitableFrom" : [ "---", "-+-", "-+-" ], 
+						"mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBB0BV", "000000" ]
 					}
 				}
 			},
@@ -40,8 +40,8 @@
 				"templates" : {
 					"small" : {
 						"animation" : "creatureBanks/WGgod4.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVVVV", "VVVVVV", "VBBBBV", "VBBABV", "VBBVBV", "VVVVVV"]
+						"visitableFrom" : [ "---", "-+-", "-+-" ], 
+						"mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBABB", "VBB0BV", "000000" ]
 					}
 				}
 			}
