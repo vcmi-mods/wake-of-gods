@@ -13,15 +13,15 @@
 		{
 			"gold" : 140
 		},
-		"speed" : 5,
-		"hitPoints" : 60,
+		"speed" : 4,
+		"hitPoints" : 40,
 		"shots" : 24,
 		"attack" : 5,
 		"defense" : 5,
 		"damage" :
 		{
-			 "min" : 7,
-			 "max" : 15
+			 "min" : 6,
+			 "max" : 12
 		},
 		"fightValue" : 130,
 		"aiValue" : 156,
