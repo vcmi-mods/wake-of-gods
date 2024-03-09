@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.11",
+	"version" : "9.1.12",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.12"   : [ "Add spanish translation by macomarivas." ],
 		"9.1.11"   : [ "Add description for Alms House." ],
 		"9.1.10"   : [ "Fixed the translations' bugs." ],
 		"9.1.9"   : [ "Adjusted Commanders stats." ],
@@ -52,6 +53,13 @@
 		"description" : "Nieoficjalna modyfikacja do Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/polish.json"
+		]
+	},
+	"spanish" : {
+		"name" : "In The Wake of Gods",
+		"description" : "Spanish translation",
+		"translations" : [
+			"translation/wake-of-gods/spanish.json"
 		]
 	}
 }
