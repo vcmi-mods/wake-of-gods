@@ -8,6 +8,7 @@
 			"almsHouse":
 			{
 				"name" : "Alms House",
+				"description" : "Grant experience, primary skills or resources to hero who has none",
 				"selectMode" : "selectAll",
 				"visitMode" : "hero",
 				"onVisitedMessage": "{Alms House}\r\n\r\nYou already visited the Alms House.",
