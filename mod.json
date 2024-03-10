@@ -57,7 +57,7 @@
 	},
 	"spanish" : {
 		"name" : "In The Wake of Gods",
-		"description" : "Spanish translation",
+		"description" : "Addon no oficial para Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/spanish.json"
 		]
