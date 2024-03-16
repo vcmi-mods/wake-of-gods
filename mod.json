@@ -35,8 +35,8 @@
 		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
 	},
 	"chinese" : {
-		"name" : "In The Wake of Gods (在众神的注视下)",
-		"description" : "Unofficial addon for Heroes of Might and Magic III",
+		"name" : "追随神迹（WoG）",
+		"description" : "追随神迹（In The Wake of God）是《英雄无敌 III》的非官方资料片。该模组最大的特征是追随者（Henchmen）系统和生物经验系统，并增加了新的生物，技能，设施和机制。",
 		"translations" : [
 			"translation/wake-of-gods/chinese.json"
 		]
