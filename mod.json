@@ -4,14 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.13",
+	"version" : "9.1.14",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.0"
 	},
 	"changelog" :
 	{
+		"9.1.14"  : [ "Add biomes config for Graphic Fix submod" ],
 		"9.1.13"  : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
 		"9.1.12"  : [ "Add spanish translation by macomarivas." ],
 		"9.1.11"  : [ "Add description for Alms House." ],

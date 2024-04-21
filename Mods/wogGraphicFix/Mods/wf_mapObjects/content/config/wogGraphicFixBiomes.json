@@ -1,0 +1,317 @@
+{
+	"bones1": {
+		"biome": {
+			"terrain": ["sand", "rough"],
+			"objectType": "animal"
+		},
+		"templates": ["bone00", "bone03", "bone04"]
+	},
+	"bones2": {
+		"biome": {
+			"terrain": ["sand", "rough"],
+			"objectType": "animal"
+		},
+		"templates": ["bone01", "bone02", "bone05", "bone06"]
+	},
+	"jaws": {
+		"biome": {
+			"terrain": ["sand", "rough"],
+			"objectType": "animal"
+		},
+		"templates": ["jaws00", "jaws01", "jaws02", "jaws03"]
+	},
+	"wogCactus": {
+		"biome": {
+			"terrain": [
+				"sand"
+			],
+			"objectType": "plant"
+		},
+		"templates": ["CactW00", "CactW01", "CactW02", "wcac02", "wcac03", "wcac04", "wcac07"]
+	},
+	"wogCanyon": {
+		"biome": {
+			"terrain": "rough",
+			"objectType": "crater"
+		},
+		"templates": ["avlglly1"]
+	},
+	"core:desertHills": { // TODO: Extend
+		"biome": {
+			"terrain": [
+				"sand"
+			],
+			"objectType": "other"
+		},
+		"templates": ["avlxds13"]
+	},
+	"wogHills": {
+		"biome": {
+			"terrain": [
+				"dirt"
+			],
+			"objectType": "rock"
+		},
+		"templates": ["avlxdt12", "avlxdt13", "avlxdt14", "avlxdt15"]
+	},
+	"wgfSunflowers": {
+		"biome": {
+			"terrain": "grass",
+			"objectType": "plant"
+		},
+		"templates": ["WFsunf0", "WFsunf1"]
+	},
+	"core:frozenLake": { // TODO: Extend
+		"biome": {
+			"terrain": "snow",
+			"objectType": "other"
+		},
+		"templates": ["avlflk40"]
+	},
+	"core:grassHills": { // TODO: Extend
+		"biome": {
+			"terrain":"grass",
+			"objectType": "other"
+		},
+		"templates": ["avlxgr13"]
+	},
+	"waterLillies": {
+		"biome": {
+			"terrain": "water",
+			"objectType": "plant"
+		},
+		"templates": ["wtlily00", "wtlily01", "wtlily02", "wtlily03", "wtlily04", "wtlily05", "wtlily06", "wtlily07", "wtlily08", "wtlily09"]
+	},
+	"wogDirtLake": {
+		"biome": {
+			"terrain": "dirt",
+			"objectType": "lake"
+		},
+		"templates": ["pud0", "pud1", "pud2", "pud3", "pud4", "pud5", "pud6", "pud7"]
+	},
+	"core:mound": { // TODO: Extend or new?
+		"biome": {
+			"terrain": ["dirt", "grass"],
+			"objectType": "other"
+		},
+		"templates": ["AVLmd3d0", "AVLmd3g0"]
+	},
+	"roughMountains": {
+		"biome": {
+			"terrain": "rough",
+			"objectType": "mountain"
+		},
+		"templates": ["RKMN1", "RKMN2", "RKMN3", "RKMN4", "RKMN5", "RKMN6", "RKWF1"]
+	},
+	"swampMountains": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "mountain"
+		},
+		"templates": ["SWMN01", "SWMN02", "SWMN03", "SWMN04", "SWMN05", "SWMN06", "swmn07", "swwt0", "swwt1", "swwt2", "swwt3", "swwt4"]//, "swwt5"]
+	},
+	"dirtMountains": {
+		"biome": {
+			"terrain": "dirt",
+			"objectType": "mountain"
+		},
+		"templates": ["wfdirt01", "wfdirt02", "wfdirt03", "wfdirt04", "wfdirt05", "wfdirt06"]
+	},
+	"sandMountains": {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "mountain"
+		},
+		"templates": ["wfdn01", "wfdn02", "wfdn03", "wfdn04", "wfdn05", "wfdn06", "zsdmn"]
+	},
+	"snowMountains": {
+		"biome": {
+			"terrain": "snow",
+			"objectType": "mountain"
+		},
+		"templates": ["wfsnmt01", "wfsnmt02", "wfsnmt03", "wfsnmt04", "wfsnmt05", "wfsnmt06"]
+	},
+	"lavaMountains": {
+		"biome": {
+			"terrain": "lava",
+			"objectType": "mountain"
+		},
+		"templates": ["WFlv00", "WFlv01", "WFlv02", "WFlv03", "WFlv04", "WFlv05", "WFlv06"]
+	},
+	"wgfSwampMushrooms": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": ["wmshr01", "wmshr02", "wmshr03", "wmshr04", "wmshr05", "wmshr06"]
+	},
+	"wgfMushrooms1" : {
+		"biome": {
+			"terrain" : [ "subterra", "swamp" ],
+			"objectType": "plant"
+		},
+		"templates": ["wmshr07", "wmshr08", "wmshr09", "wmshr10"]
+	},
+	"wgfMushrooms2" : {
+		"biome": {
+			"terrain" : [ "subterra", "swamp" ],
+			"objectType": "plant"
+		},
+		"templates": ["wmshrx00", "wmshrx01", "wmshrx02", "wmshrx03", "wmshrx04", "wmshrx05", "wmshrx06"]
+	},
+	"wgfOakTrees": {
+		"biome": {
+			"terrain": ["grass", "dirt"],
+			"objectType": "tree"
+		},
+		"templates": ["avlsptr9", "avlsptr10", "avlsptr11", "AVLAUTR10", "AVLAUTR11"] // FIXME: Only last 2 should spawn on dirt?
+	},
+	"wgfGrassPine": {
+		"biome": {
+			"terrain": "grass",
+			"objectType": "tree"
+		},
+		"templates": ["pin01", "pin02", "pin03", "pin04", "pin05", "pin06", "pin07", "pin08", "pin09", "pin10", "pin11", "pin12", "pin13", "pin14", "pin15", "pin16", "avlpntr10", "avlpntr11"] // TODO: Spawn last 2 on dirt, also?
+	},
+	"snowPine": {
+		"biome": {
+			"terrain": "snow",
+			"objectType": "tree"
+		},
+		"templates": ["wfpsn00", "wfpsn01", "wfpsn02", "wfpsn03", "wfpsn04", "wfpsn05", "wfpsn06", "wfpsn07", "wfpsn08", "wfpsn09", "wfpsn10", "wfpsn11", "wfpsn12", "wfpsn13", "wfpsn14", "wfpsn15", "avlsntr10", "avlsntr11"]
+	},
+	"wgfIceReef": {
+		"biome": {
+			"terrain": "water",
+			"objectType": "rock"
+		},
+		"templates": ["wicebr03", "wicebr09", "wicebr10", "wicebr11"]
+	},
+	"subRock": {
+		"biome": {
+			"terrain": "subterra",
+			"objectType": "rock"
+		},
+		"templates": ["Undercrb00", "Undercrb01", "Undercrb02", "Undercrb03", "Undercrb04", "Undercrb05"]
+	},
+	"waterRock": {
+		"biome": {
+			"terrain": "water",
+			"objectType": "rock"
+		},
+		"templates": ["wfarkw", "wicebr00", "wicebr01", "wicebr02", "wicebr03", "wicebr04", "wicebr05", "wicebr06", "wicebr07", "wicebr08"]
+	},
+	"sandRock": {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "rock"
+		},
+		"templates": ["WFDR00", "WFDR01", "WFDR02", "WFDR03"]
+	},
+	"lavaRock": {
+		"biome": {
+			"terrain": "lava",
+			"objectType": "rock"
+		},
+		"templates": ["ZLR00", "ZLR01", "ZLR02", "ZLR03", "ZLR04", "ZLR05", "ZLR06", "ZLR07", "ZLR08"]
+	},
+	"roughRock": {
+		"biome": {
+			"terrain": "rough",
+			"objectType": "rock"
+		},
+		"templates": ["AVLbuzr0", "AVLbuzr1", "AVLbuzr2"]
+	},
+	"snowRock": {
+		"biome": {
+			"terrain": "snow",
+			"objectType": "rock"
+		},
+		"templates": ["zdec00", "zdec01"]
+	},
+	"swampRock": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "rock"
+		},
+		"templates": ["avlrk7s0", "avlrk8s0", "avlrk9s0"]
+	},
+	"pillars": {
+		"biome":{
+			"terrain" : "grass",
+			"alignment" : "good",
+			"objectType" : "structure"
+		},
+		"templates": ["wfpillar00", "wfpillar01", "wfpillar02", "wfpillar03", "wfpillar04", "wfpillar05", "wfpillar06", "wfpillar07", "wfpillar08"]
+	},
+	"wgfSandDunes": {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "rock"
+		},
+		"templates": ["avldun31", "avldun32", "avldun33", "avldun34", "avldun35"]
+	},
+	"core:sandPit": { // TODO: Extend?
+		"biome": {
+			"terrain": ["sand"],
+			"objectType": "other"
+		},
+		"templates": ["avlspit1"]
+	},
+	"wgfSandShrub": {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "plant"
+		},
+		"templates": ["RKSHR00", "RKSHR01", "RKSHR02"]
+	},
+	"wgfGrassShrub": {
+		"biome": {
+			"terrain": "grass",
+			"objectType": "plant"
+		},
+		"templates": ["whwp01", "whwp02", "whwp03", "whwp04"]
+	},
+	"wgfSwampShrub1": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": ["AVLswp80", "AVLswp90", "AVLswp91"]
+	},
+	"wgfSwampShrub2": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": ["wcattail00", "wcattail01"]
+	},
+	"wgfRoughShrub": {
+		"biome": {
+			"terrain": "rough",
+			"objectType": "plant"
+		},
+		"templates": ["AVLSH6R0", "AVLSHR90", "avlsh9x0"]
+	},
+	"stumps": {
+		"biome": {
+			"terrain": ["snow", "grass"],
+			"objectType": "other"
+		},
+		"templates": ["avlp3sn0", "avlp4sn0", "avlstm4"]
+	},
+	"wgfSandTrees": {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "tree"
+		},
+		"templates": ["WFplm00", "WFplm01", "WFplm02", "WFplm03", "WFplm04", "WFplm05", "WFplm06", "WFplm07", "WFplm08", "WFplm09", "WFplm10", "WFplm11", "WFplm12", "WFplm13"]
+	},
+	"wgfRoughTrees": {
+		"biome": {
+			"terrain": "rough",
+			"objectType": "tree"
+		},
+		"templates": ["avltro13wgf", "avltro14wgf", "AVLtRro8", "AVLtRro9", "avltrro10", "avltrro11"]
+	}
+}
