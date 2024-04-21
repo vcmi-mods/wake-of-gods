@@ -40,5 +40,9 @@
 		"config/wgfCreatureBanks",
 		"config/wgfDwellings",
 		"config/wgfYuccaTrees"
+	],
+	"biomes":
+	[
+		"config/wogGraphicFixBiomes"
 	]
 }
