@@ -89,6 +89,36 @@
 		},
 		"templates": ["pud0", "pud1", "pud2", "pud3", "pud4", "pud5", "pud6", "pud7"]
 	},
+	"wogSnowLake": {
+		"biome": {
+			"terrain": "snow",
+			"objectType": "lake"
+		},
+		"templates": ["spdl00", "spdl01", "spdl02", "spdl03", "spdl04", "spdl05", "spdl06", "spdl07"]
+	},
+	"wogUnderLake": {
+		"biome": {
+			"terrain": "subterra",
+			"alignment" : "evil",
+			"objectType": "lake"
+		},
+		"templates": ["underlake00", "underlake01", "underlake02", "underlake03", "underlake04"]
+	},
+	"wogSwampLake": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "lake"
+		},
+		"templates": ["wf_bog0", "wf_bog1", "wf_bog2", "wf_bog3"]
+	},
+	"wogRoughLake": {
+		"biome": {
+			"terrain": "rough",
+			"objectType": "lake"
+		},
+		"templates": ["RLAKE00", "rlake01", "rlake02", "AVLlk1r"]
+	},
+	// TODO? Extend original laava lakes: "wogLavaLake" : "lakes/Zdec0016
 	"core:mound": { // TODO: Extend or new?
 		"biome": {
 			"terrain": ["dirt", "grass"],
