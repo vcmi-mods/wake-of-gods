@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.15",
+	"version" : "9.1.16",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.16"  : [ "Update chinese translation" ],
 		"9.1.15"  : [ "Add missing lakes to biomes" ],
 		"9.1.14"  : [ "Add biomes config for Graphic Fix submod" ],
 		"9.1.13"  : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
