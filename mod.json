@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.17",
+	"version" : "9.1.18",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.18"  : [ "Update WoG Graphic Fix to v2.18" ],
 		"9.1.17"  : [ "Update polish translation" ],
 		"9.1.16"  : [ "Update chinese translation" ],
 		"9.1.15"  : [ "Add missing lakes to biomes" ],
