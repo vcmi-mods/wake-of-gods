@@ -403,7 +403,7 @@
 						"allowedTerrains":["snow"]
 					}
 				}
-			},	
+			},
 			"goldMine" : {
 				"templates": {
 					"wFsnGD" : {
@@ -411,6 +411,22 @@
 						"mask" : ["VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains":["snow"]
+					}
+				}
+			},
+			"sawmill" : {
+				"templates": {
+					"wfmnsw0" : {
+						"animation" : "mines/wfmnsw0",
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["grass"]
+					},
+					"wfmnsw1" : {
+						"animation" : "mines/wfmnsw1",
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["rough"]
 					}
 				}
 			}
