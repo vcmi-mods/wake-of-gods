@@ -1,0 +1,40 @@
+{
+	"core:corpse" : {
+		"types" : {
+			"corpse" : {
+				"templates" : {
+					"avxskds1": {
+						"animation": "corpses/avxskds1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"sand",
+							"rough"
+						]
+					},
+					"avxskds2": {
+						"animation": "corpses/avxskds2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"sand",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}
