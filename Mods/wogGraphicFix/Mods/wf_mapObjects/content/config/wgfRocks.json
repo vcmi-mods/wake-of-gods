@@ -126,6 +126,47 @@
 						"allowedTerrains": [ "sand" ]
 					},
 
+					"WFLR00" : {
+						"animation" : "rocks/WFLR00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR01" : {
+						"animation" : "rocks/WFLR01",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR02" : {
+						"animation" : "rocks/WFLR02",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR03" : {
+						"animation" : "rocks/WFLR03",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR04" : {
+						"animation" : "rocks/WFLR04",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR05" : {
+						"animation" : "rocks/WFLR05",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR06" : {
+						"animation" : "rocks/WFLR06",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR07" : {
+						"animation" : "rocks/WFLR07",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+
 					"ZLR00" : {
 						"animation" : "rocks/ZLR00",
 						"mask" : [ "VV", "VB" ],
