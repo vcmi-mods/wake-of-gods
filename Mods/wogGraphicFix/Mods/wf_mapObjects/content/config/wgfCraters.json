@@ -21,6 +21,36 @@
 						"allowedTerrains": [ "snow" ],
 						"zIndex": 100
 					},
+					"avlctsn2" : {
+						"animation" : "craters/avlctsn2",
+						"mask" : [ "VBBV", "VBBV" ],
+						"allowedTerrains": [ "snow" ],
+						"zIndex": 100
+					},
+					"avlctsn3" : {
+						"animation" : "craters/avlctsn3",
+						"mask" : [ "VBBV", "VBBV" ],
+						"allowedTerrains": [ "snow" ],
+						"zIndex": 100
+					},
+					"avlctsn4" : {
+						"animation" : "craters/avlctsn4",
+						"mask" : [ "VBBV", "VBBV" ],
+						"allowedTerrains": [ "snow" ],
+						"zIndex": 100
+					},
+					"avlctsn5" : {
+						"animation" : "craters/avlctsn5",
+						"mask" : [ "VBBV", "VBBV" ],
+						"allowedTerrains": [ "snow" ],
+						"zIndex": 100
+					},
+					"avlctsn6" : {
+						"animation" : "craters/avlctsn6",
+						"mask" : [ "VBBBV", "VBBBV" ],
+						"allowedTerrains": [ "snow" ],
+						"zIndex": 100
+					},
 					"avlct6d0" : {
 						"animation" : "craters/avlct6d0",
 						"mask" : [ "BBVV", "BBBB", "VVBB" ],
