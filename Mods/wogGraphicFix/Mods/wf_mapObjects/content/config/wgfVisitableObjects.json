@@ -130,7 +130,7 @@
 			"oasis" : {
 				"templates" : {
 					"AVXosis1" : {
-						"animation" : "objects/AVXosis1",
+						"animation" : "oasis/AVXosis1",
 						"mask" : [ "VVVVV", "VVBBV", "VBAAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": ["sand" ]

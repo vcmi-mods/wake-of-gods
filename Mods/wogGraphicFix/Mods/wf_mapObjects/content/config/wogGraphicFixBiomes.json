@@ -102,7 +102,7 @@
 			"alignment" : "evil",
 			"objectType": "lake"
 		},
-		"templates": ["underlake00", "underlake01", "underlake02", "underlake03", "underlake04"]
+		"templates": ["underlake0", "underlake1", "underlake2", "underlake3", "underlake4"]
 	},
 	"wogSwampLake": {
 		"biome": {
