@@ -1,0 +1,25 @@
+{
+	"core:log" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avldlog": {
+						"animation": "logs/avldlog",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

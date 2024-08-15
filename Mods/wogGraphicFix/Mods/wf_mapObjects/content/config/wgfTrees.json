@@ -117,6 +117,31 @@
 						"animation" : "trees/AVLFRTR02",
 						"mask" : [ "B" ],
 						"allowedTerrains": [ "lava" ]
+					},
+					"avlsntr10" : {
+						"animation" : "trees/avlsntr10.def",
+						"mask" : [ "VVV", "VBV", "VBV" ],
+						"allowedTerrains": [ "snow" ]
+					},
+					"avlsntr11" : {
+						"animation" : "trees/avlsntr11.def",
+						"mask" : [ "VVV", "VBV", "VBV" ],
+						"allowedTerrains": [ "snow" ]
+					},
+					"AVLwlw10" : {
+						"animation" : "trees/AVLwlw10",
+						"mask" : [ "VVV", "BBB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"AVLwlw20" : {
+						"animation" : "trees/AVLwlw20",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"AVLwlw30" : {
+						"animation" : "trees/AVLwlw30",
+						"mask" : [ "V", "B" ],
+						"allowedTerrains": [ "swamp" ]
 					}
 				}
 			}

@@ -185,7 +185,17 @@
 						"animation" : "pineTrees/wfpsn05",
 						"mask" : [ "VVVV", "VBBV", "VVBB" ],
 						"allowedTerrains": [ "snow" ]
-					}
+					},
+					"avlsptr10" : {
+						"animation" : "pineTrees/avlsptr10.def",
+						"mask" : [ "VV", "VBV", "VBV" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"avlsptr11" : {
+						"animation" : "pineTrees/avlsptr11.def",
+						"mask" : [ "VV", "VBV", "VBV" ],
+						"allowedTerrains": [ "swamp" ]
+					},
 				}
 			}
 		}
