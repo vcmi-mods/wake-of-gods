@@ -102,6 +102,21 @@
 						"animation" : "trees/avltrro11",
 						"mask" : ["VVV","VBV","VBV"],
 						"allowedTerrains": [ "rough" ]
+					},
+					"AVLFRTR00" : {
+						"animation" : "trees/AVLFRTR00",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AVLFRTR01" : {
+						"animation" : "trees/AVLFRTR01",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AVLFRTR02" : {
+						"animation" : "trees/AVLFRTR02",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "lava" ]
 					}
 				}
 			}
