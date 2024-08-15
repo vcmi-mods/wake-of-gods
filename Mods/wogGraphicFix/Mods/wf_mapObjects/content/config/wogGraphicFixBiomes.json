@@ -272,7 +272,7 @@
 			"alignment" : "good",
 			"objectType" : "structure"
 		},
-		"templates": ["wfpillar00", "wfpillar01", "wfpillar02", "wfpillar03", "wfpillar04", "wfpillar05", "wfpillar06", "wfpillar07", "wfpillar08"]
+		"templates": ["wfpilr00", "wfpilr01", "wfpilr02", "wfpilr03", "wfpilr04", "wfpilr05", "wfpilr06", "wfpilr07", "wfpilr08"]
 	},
 	"wgfSandDunes": {
 		"biome": {

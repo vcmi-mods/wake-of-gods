@@ -3,8 +3,8 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"avldlog": {
-						"animation": "logs/avldlog",
+					"AVLlgdr1": {
+						"animation": "logs/AVLlgdr1",
 						"visitableFrom": [
 							"---",
 							"+++",

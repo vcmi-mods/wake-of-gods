@@ -287,7 +287,7 @@
 						"allowedTerrains": [ "grass" ]
 					},
 					"wfpilr03" : {
-						"animation" : "pillars/wfpilr3",
+						"animation" : "pillars/wfpilr03",
 						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
