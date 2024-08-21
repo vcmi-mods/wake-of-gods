@@ -7,11 +7,11 @@
 						"animation" : "objects/AVStmpl1",
 						"mask" : [ "VV", "AB" ], 	
 						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains": ["snow" ]
+						"allowedTerrains": [ "snow" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 
 	"core:university" : {
@@ -232,7 +232,7 @@
 			"object" : {
 				"templates" : {
 					"Waterpost" : {
-						"animation" : "objects/Waterpost",
+						"animation" : "objects/Wtrpost",
 						"mask" : [ "VVVV", "VVVV", "VBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ],
 						"allowedTerrains": ["water" ]
