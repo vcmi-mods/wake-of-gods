@@ -93,7 +93,7 @@
 						"animation" : "trees/birch13.def",
 						"mask" : [
 							"VVV",
-							"VVV",
+							"VBV",
 							"VBV"
 						],
 						"allowedTerrains": [ "grass" ]
@@ -102,7 +102,7 @@
 						"animation" : "trees/birch14.def",
 						"mask" : [
 							"VVV",
-							"VVV",
+							"VBV",
 							"VBV"
 						],
 						"allowedTerrains": [ "grass" ]
