@@ -14,8 +14,7 @@
 							"VB"
 						],
 						"allowedTerrains": [
-							"dirt",
-							"swamp"
+							"dirt"
 						]
 					}
 				}
