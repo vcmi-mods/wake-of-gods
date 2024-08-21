@@ -102,7 +102,7 @@
 					},
 					"WFDR04" : {
 						"animation" : "rocks/WFDR04",
-						"mask" : [ "VV", "VV", "VB", "VB"],
+						"mask" : [ "VV", "VV", "VB" ],
 						"allowedTerrains": [ "sand" ]
 					},
 					"WFDR05" : {
@@ -112,12 +112,12 @@
 					},
 					"WFDR06" : {
 						"animation" : "rocks/WFDR06",
-						"mask" : [ "VVV", "VVB", "VVB" ],
+						"mask" : [ "VVV", "VVV", "VVB" ],
 						"allowedTerrains": [ "sand" ]
 					},
 					"WFDR07" : {
 						"animation" : "rocks/WFDR07",
-						"mask" : [ "VVV", "VBB", "VBB" ],
+						"mask" : [ "VVV", "VVV", "VBB" ],
 						"allowedTerrains": [ "sand" ]
 					},
 					"WFDR08" : {
