@@ -30,12 +30,12 @@
 					},
 					"wfflw05" : {
 						"animation" : "flowers/wfflw05",
-						"mask" : [ "VBB" ],
+						"mask" : [ "VVVV", "VBBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
 					"wfflw06" : {
 						"animation" : "flowers/wfflw06",
-						"mask" : [ "VVVV", "VBBB" ],
+						"mask" : [ "VBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
 					"wfflw07" : {
