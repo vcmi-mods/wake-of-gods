@@ -241,6 +241,12 @@
 						"allowedTerrains": [ "snow" ]
 					},
 
+					"zdec1001" : {
+						"animation" : "rocks/zdec1001",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+
 					"avlrk7s0" : {
 						"animation" : "rocks/avlrk7s0",
 						"mask" : [ "VV", "BB" ],
