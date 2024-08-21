@@ -77,6 +77,17 @@
 						"mask" : [ "VB" ],
 						"allowedTerrains": [ "swamp" ]
 					},
+
+					"wctail0" : {
+						"animation" : "shrubs/wctail0",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wctail1" : {
+						"animation" : "shrubs/wctail1",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
 					
 					"AVLSH6R0" : {
 						"animation" : "shrubs/AVLSH6R0",
