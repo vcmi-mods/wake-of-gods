@@ -1,0 +1,114 @@
+{
+	"core:trees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"birch00" : {
+						"animation" : "trees/birch00.def",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch01" : {
+						"animation" : "trees/birch01.def",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch02" : {
+						"animation" : "trees/birch02.def",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch03" : {
+						"animation" : "trees/birch03.def",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch04" : {
+						"animation" : "trees/birch04.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch05" : {
+						"animation" : "trees/birch05.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch06" : {
+						"animation" : "trees/birch06.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch07" : {
+						"animation" : "trees/birch07.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch08" : {
+						"animation" : "trees/birch08.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch09" : {
+						"animation" : "trees/birch09.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch11" : {
+						"animation" : "trees/birch11.def",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch12" : {
+						"animation" : "trees/birch12.def",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch13" : {
+						"animation" : "trees/birch13.def",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains": [ "grass" ]
+					},
+					"birch14" : {
+						"animation" : "trees/birch14.def",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains": [ "grass" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -83,27 +83,27 @@
 						"allowedTerrains": [ "snow" ]
 					},
 
-					"underlake00" : {
-						"animation" : "lakes/underlake00",
+					"underlake0" : {
+						"animation" : "lakes/underlake0",
 						"mask" : [ "VBBBB", "VBBBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"underlake01" : { "animation" : "lakes/underlake01",  
+					"underlake1" : { "animation" : "lakes/underlake1",  
 						"mask" : [ "VBBV", "BBBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"underlake02" : {
-						"animation" : "lakes/underlake02",
+					"underlake2" : {
+						"animation" : "lakes/underlake2",
 						"mask" : [ "BBB", "BBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"underlake03" : {
-						"animation" : "lakes/underlake03",
+					"underlake3" : {
+						"animation" : "lakes/underlake3",
 						"mask" : [ "VVV", "BBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},
-					"underlake04" : {
-						"animation" : "lakes/underlake04",
+					"underlake4" : {
+						"animation" : "lakes/underlake4",
 						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "subterra" ]
 					},

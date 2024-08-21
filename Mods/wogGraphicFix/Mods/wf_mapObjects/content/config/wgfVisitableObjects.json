@@ -7,11 +7,11 @@
 						"animation" : "objects/AVStmpl1",
 						"mask" : [ "VV", "AB" ], 	
 						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains": ["snow" ]
+						"allowedTerrains": [ "snow" ]
 					}
 				}
 			}
-		}	
+		}
 	},
 
 	"core:university" : {
@@ -130,7 +130,7 @@
 			"oasis" : {
 				"templates" : {
 					"AVXosis1" : {
-						"animation" : "objects/AVXosis1",
+						"animation" : "oasis/AVXosis1",
 						"mask" : [ "VVVVV", "VVBBV", "VBAAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": ["sand" ]
@@ -232,7 +232,7 @@
 			"object" : {
 				"templates" : {
 					"Waterpost" : {
-						"animation" : "objects/Waterpost",
+						"animation" : "objects/Wtrpost",
 						"mask" : [ "VVVV", "VVVV", "VBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ],
 						"allowedTerrains": ["water" ]
@@ -403,7 +403,7 @@
 						"allowedTerrains":["snow"]
 					}
 				}
-			},	
+			},
 			"goldMine" : {
 				"templates": {
 					"wFsnGD" : {
@@ -411,6 +411,22 @@
 						"mask" : ["VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains":["snow"]
+					}
+				}
+			},
+			"sawmill" : {
+				"templates": {
+					"wfmnsw0" : {
+						"animation" : "mines/wfmnsw0",
+						"mask" : ["VVVV","VVBB","BBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["grass"]
+					},
+					"wfmnsw1" : {
+						"animation" : "mines/wfmnsw1",
+						"mask" : ["VVVV","VVBB","BBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["grass"]
 					}
 				}
 			}

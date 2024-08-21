@@ -28,6 +28,21 @@
 						"mask" : [ "VVVV", "VBBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
+					"wfflw05" : {
+						"animation" : "flowers/wfflw05",
+						"mask" : [ "VVVV", "VBBB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"wfflw06" : {
+						"animation" : "flowers/wfflw06",
+						"mask" : [ "VBB" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"wfflw07" : {
+						"animation" : "flowers/wfflw07",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "grass" ]
+					},
 					"WFsunf0" : {
 						"animation" : "flowers/WFsunf0",
 						"mask" : [ "VVV", "VBV" ],

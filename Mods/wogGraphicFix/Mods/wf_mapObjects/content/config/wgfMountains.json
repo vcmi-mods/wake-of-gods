@@ -134,7 +134,16 @@
 						"mask" : [ "VVVV", "VBBV","VVBB" ],
 						"allowedTerrains": ["dirt" ]
 					},
-
+					"wfdirt07" : {
+						"animation" : "mountains/wfdirt07",
+						"mask" : [ "VVVVVV","VVVBBB","VBBBVV" ],
+						"allowedTerrains": ["dirt" ]
+					},
+					"wfdirt08" : {
+						"animation" : "mountains/wfdirt08",
+						"mask" : [ "VVVVVV","VBBBVV","VVVBBB" ],
+						"allowedTerrains": ["dirt" ]
+					},
 					"wfdn01" : {
 						"animation" : "mountains/wfdn01",
 						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ],

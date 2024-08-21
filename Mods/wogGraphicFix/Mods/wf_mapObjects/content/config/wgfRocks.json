@@ -100,6 +100,72 @@
 						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "sand" ]
 					},
+					"WFDR04" : {
+						"animation" : "rocks/WFDR04",
+						"mask" : [ "VV", "VV", "VB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFDR05" : {
+						"animation" : "rocks/WFDR05",
+						"mask" : [ "VVV", "VVV", "VBB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFDR06" : {
+						"animation" : "rocks/WFDR06",
+						"mask" : [ "VVV", "VVV", "VVB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFDR07" : {
+						"animation" : "rocks/WFDR07",
+						"mask" : [ "VVV", "VVV", "VBB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"WFDR08" : {
+						"animation" : "rocks/WFDR08",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+
+					"WFLR00" : {
+						"animation" : "rocks/WFLR00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR01" : {
+						"animation" : "rocks/WFLR01",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR02" : {
+						"animation" : "rocks/WFLR02",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR03" : {
+						"animation" : "rocks/WFLR03",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR04" : {
+						"animation" : "rocks/WFLR04",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR05" : {
+						"animation" : "rocks/WFLR05",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR06" : {
+						"animation" : "rocks/WFLR06",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"WFLR07" : {
+						"animation" : "rocks/WFLR07",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "lava" ]
+					},
 
 					"ZLR00" : {
 						"animation" : "rocks/ZLR00",
@@ -175,6 +241,12 @@
 						"allowedTerrains": [ "snow" ]
 					},
 
+					"zdec1001" : {
+						"animation" : "rocks/zdec1001",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+
 					"avlrk7s0" : {
 						"animation" : "rocks/avlrk7s0",
 						"mask" : [ "VV", "BB" ],
@@ -189,56 +261,161 @@
 						"animation" : "rocks/avlrk9s0",
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "swamp" ]
+					},
+					"RKVC00" : {
+						"animation" : "rocks/RKVC00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "rough" ]
+					},
+					"RKVC01" : {
+						"animation" : "rocks/RKVC01",
+						"mask" : [ "VVV", "BBB" ],
+						"allowedTerrains": [ "rough" ]
 					}
 				}
 			},
 			"pillars" : {
 				"name" : "Pillar",
-				"templates" : {	
-					"wfpillar00" : {
-						"animation" : "rocks/wfpillar00",
+				"templates" : {
+					"wfpilr00" : {
+						"animation" : "pillars/wfpilr00",
 						"mask" : [ "VVV", "VVV", "VVB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar01" : {
-						"animation" : "rocks/wfpillar01",
+					"wfpilr01" : {
+						"animation" : "pillars/wfpilr01",
 						"mask" : [ "VVV", "VVV", "VVB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar02" : {
-						"animation" : "rocks/wfpillar02",
+					"wfpilr02" : {
+						"animation" : "pillars/wfpilr02",
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar03" : {
-						"animation" : "rocks/wfpillar03",
+					"wfpilr03" : {
+						"animation" : "pillars/wfpilr03",
 						"mask" : [ "VVV", "VBB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar04" : {
-						"animation" : "rocks/wfpillar04",
+					"wfpilr04" : {
+						"animation" : "pillars/wfpilr04",
 						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar05" : {
-						"animation" : "rocks/wfpillar05",
+					"wfpilr05" : {
+						"animation" : "pillars/wfpilr05",
 						"mask" : [ "VV", "BB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar06" : {
-						"animation" : "rocks/wfpillar06",
+					"wfpilr06" : {
+						"animation" : "pillars/wfpilr06",
 						"mask" : [ "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar07" : {
-						"animation" : "rocks/wfpillar07",
+					"wfpilr07" : {
+						"animation" : "pillars/wfpilr07",
 						"mask" : [ "VV", "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
-					"wfpillar08" : {
-						"animation" : "rocks/wfpillar08",
+					"wfpilr08" : {
+						"animation" : "pillars/wfpilr08",
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "grass" ]
+					}
+				}
+			},
+			"ruins" : {
+				"name" : "Ruin",
+				"templates" : {
+					"wfruis00" : {
+						"animation" : "pillars/wfruis00",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis01" : {
+						"animation" : "pillars/wfruis01",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis02" : {
+						"animation" : "pillars/wfruis02",
+						"mask" : [ "VV", "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis03" : {
+						"animation" : "pillars/wfruis03",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VBBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis04" : {
+						"animation" : "pillars/wfruis04",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VBBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis05" : {
+						"animation" : "pillars/wfruis05",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis06" : {
+						"animation" : "pillars/wfruis06",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis07" : {
+						"animation" : "pillars/wfruis07",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis08" : {
+						"animation" : "pillars/wfruis08",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis09" : {
+						"animation" : "pillars/wfruis09",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis10" : {
+						"animation" : "pillars/wfruis10",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis11" : {
+						"animation" : "pillars/wfruis11",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis12" : {
+						"animation" : "pillars/wfruis12",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"wfruis13" : {
+						"animation" : "pillars/wfruis13",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains": [ "swamp" ]
 					}
 				}
 			}

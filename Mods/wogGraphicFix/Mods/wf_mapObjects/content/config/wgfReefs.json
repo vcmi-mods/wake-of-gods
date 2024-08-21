@@ -22,6 +22,16 @@
 						"animation" : "reefs/wicebr11",
 						"mask" : [ "BBV","BBB", "VBB" ],
 						"allowedTerrains": ["water" ]
+					},
+					"wicebr12" : {
+						"animation" : "reefs/wicebr12",
+						"mask" : [ "VVV","VBB", "BBV" ],
+						"allowedTerrains": ["water" ]
+					},
+					"wicebr13" : {
+						"animation" : "reefs/wicebr13",
+						"mask" : [ "VVV","BBV", "VBB" ],
+						"allowedTerrains": ["water" ]
 					}
 				}
 			}
