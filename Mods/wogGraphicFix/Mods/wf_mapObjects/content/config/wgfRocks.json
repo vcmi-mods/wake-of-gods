@@ -341,7 +341,7 @@
 						"mask" : [
 							"VVVV",
 							"VVVV",
-							"VBBB",
+							"VVVV",
 							"VBBB"
 						],
 						"allowedTerrains": [ "swamp" ]
@@ -351,7 +351,7 @@
 						"mask" : [
 							"VVVV",
 							"VVVV",
-							"VBBB",
+							"VVVV",
 							"VBBB"
 						],
 						"allowedTerrains": [ "swamp" ]
@@ -359,17 +359,17 @@
 					"wfruis05" : {
 						"animation" : "pillars/wfruis05",
 						"mask" : [
-							"VVBV",
-							"VVBB"
+							"VVV",
+							"VBB"
 						],
 						"allowedTerrains": [ "swamp" ]
 					},
 					"wfruis06" : {
 						"animation" : "pillars/wfruis06",
 						"mask" : [
-							"VVVV",
-							"VVBV",
-							"VVBB"
+							"VVV",
+							"VVV",
+							"VBB"
 						],
 						"allowedTerrains": [ "swamp" ]
 					},
@@ -406,8 +406,8 @@
 					"wfruis13" : {
 						"animation" : "pillars/wfruis13",
 						"mask" : [
-							"VVVV",
-							"VVBB"
+							"VVV",
+							"VBB"
 						],
 						"allowedTerrains": [ "swamp" ]
 					}
