@@ -418,15 +418,15 @@
 				"templates": {
 					"wfmnsw0" : {
 						"animation" : "mines/wfmnsw0",
-						"mask" : ["VVVV","VBBB","VBAB"],
+						"mask" : ["VVVV","VVBB","BBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains":["grass"]
 					},
 					"wfmnsw1" : {
 						"animation" : "mines/wfmnsw1",
-						"mask" : ["VVVV","VBBB","VBAB"],
+						"mask" : ["VVVV","VVBB","BBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["rough"]
+						"allowedTerrains":["grass"]
 					}
 				}
 			}
