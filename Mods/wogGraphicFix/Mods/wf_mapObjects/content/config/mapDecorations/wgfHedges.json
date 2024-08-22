@@ -1,0 +1,48 @@
+{
+	"hedgesWoG" : {
+		"name" : "Hedge",
+		"handler":"generic",
+		"types" : {
+			"object": {
+				"templates" : {
+					"zbvin00" : {
+						"animation" : "objects/hedges/zbvin00.def",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV"
+						]
+					},
+					"zbvin01" : {
+						"animation" : "objects/hedges/zbvin01.def",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						]
+					},
+					"zbvin02" : {
+						"animation" : "objects/hedges/zbvin02.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBVV"
+						]
+					},
+					"zbvin03" : {
+						"animation" : "objects/hedges/zbvin03.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBV"
+						]
+					},
+					"zbvin04" : {
+						"animation" : "objects/hedges/zbvin04.def",
+						"mask" : [ "VV", "VB" ]
+					}
+				}
+			}
+		}
+	}
+}
