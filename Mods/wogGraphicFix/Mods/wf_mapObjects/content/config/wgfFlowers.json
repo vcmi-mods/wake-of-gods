@@ -43,6 +43,11 @@
 						"mask" : [ "VB" ],
 						"allowedTerrains": [ "grass" ]
 					},
+					"wfflw08" : {
+						"animation" : "flowers/wfflw08",
+						"mask" : [ "VBB" ],
+						"allowedTerrains": [ "grass" ]
+					},
 					"WFsunf0" : {
 						"animation" : "flowers/WFsunf0",
 						"mask" : [ "VVV", "VBV" ],
