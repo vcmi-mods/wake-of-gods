@@ -489,6 +489,52 @@
 						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					},
+					"Wogc030" : {
+						"animation" : "objects/WoGc030",
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc031" : {
+						"animation" : "objects/WoGc031",
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc032" : {
+						"animation" : "objects/WoGc032",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc033" : {
+						"animation" : "objects/WoGc033",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc034" : {
+						"animation" : "objects/WoGc034",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc035" : {
+						"animation" : "objects/WoGc035",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc036" : {
+						"animation" : "objects/WoGc036",
+						"mask" : [ "VVVV", "VVVV", "VABB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc037" : {
+						"animation" : "objects/WoGc037",
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+					"Wogc038" : {
+						"animation" : "objects/WoGc038",
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					},
+
 					"wfh4tw" : {
 						"animation" : "objects/wfh4tw",
 						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VBA" ],
