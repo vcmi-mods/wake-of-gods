@@ -25,12 +25,49 @@
 					},
 					"wicebr12" : {
 						"animation" : "reefs/wicebr12",
-						"mask" : [ "VVV","VBB", "BBV" ],
+						"mask" : [ "VVV", "VBB", "BBV" ],
 						"allowedTerrains": ["water" ]
 					},
 					"wicebr13" : {
 						"animation" : "reefs/wicebr13",
-						"mask" : [ "VVV","BBV", "VBB" ],
+						"mask" : [ "VVV", "BBV", "VBB" ],
+						"allowedTerrains": ["water" ]
+					},
+
+					"avlrfx01" : {
+						"animation" : "reefs/avlrfx01",
+						"mask" : [ "VB", "VB" ],
+						"allowedTerrains": ["water" ]
+					},
+					"avlrfx02" : {
+						"animation" : "reefs/avlrfx02",
+						"mask" : [ "VVV", "BBV", "VBB" ],
+						"allowedTerrains": ["water" ]
+					},
+					"avlrfx03" : {
+						"animation" : "reefs/avlrfx03",
+						"mask" : [ "VVV", "VBB", "BBV" ],
+						"allowedTerrains": ["water" ]
+					},
+					"avlrfx04" : {
+						"animation" : "reefs/avlrfx04",
+						"mask" : [ "B" ],
+						"allowedTerrains": ["water" ]
+					},
+					"avlrfx06" : {
+						"animation" : "reefs/avlrfx06",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": ["water" ]
+					},
+
+					"ZREEF4" : {
+						"animation" : "reefs/ZREEF4",
+						"mask" : [ "VV","VV", "BB" ],
+						"allowedTerrains": ["water" ]
+					},
+					"ZREEF5" : {
+						"animation" : "reefs/ZREEF5",
+						"mask" : [ "VVV", "VVV", "BBB" ],
 						"allowedTerrains": ["water" ]
 					}
 				}
