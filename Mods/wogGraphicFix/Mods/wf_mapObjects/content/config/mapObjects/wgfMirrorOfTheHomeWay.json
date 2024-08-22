@@ -1,0 +1,19 @@
+{
+	"wake-of-gods.mapobjects:mirrorOfTheHomeWay" : {
+		"types" : {
+			"mirrorOfTheHomeWay" : {
+				"templates" : {
+					"SFzerk2" : {
+						"animation" : "objects/SFzerk2.def",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}
