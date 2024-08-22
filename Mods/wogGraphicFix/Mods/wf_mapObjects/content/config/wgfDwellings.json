@@ -1,6 +1,6 @@
 {
 	"core:creatureGeneratorCommon" : {
-		"types" : {		
+		"types" : {
 			"vastCavern" : {
 				"name" : "Vast Cavern",
 				"templates" : {
