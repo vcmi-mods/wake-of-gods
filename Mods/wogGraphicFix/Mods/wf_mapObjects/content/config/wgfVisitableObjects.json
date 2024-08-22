@@ -427,6 +427,12 @@
 						"mask" : ["VVVV","VVBB","BBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains":["grass"]
+					},
+					"WFddSW_0" : {
+						"animation" : "mines/WFddSW_0",
+						"mask" : ["VVVVV","VVVBB","VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["dirt"]
 					}
 				}
 			}
