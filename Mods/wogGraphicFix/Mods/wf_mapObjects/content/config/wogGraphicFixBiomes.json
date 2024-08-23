@@ -118,7 +118,6 @@
 		},
 		"templates": ["RLAKE00", "rlake01", "rlake02", "AVLlk1r"]
 	},
-	// TODO? Extend original laava lakes: "wogLavaLake" : "lakes/Zdec0016
 	"core:mound": { // TODO: Extend or new?
 		"biome": {
 			"terrain": ["dirt", "grass"],
@@ -346,10 +345,10 @@
 	},
 	"stumps": {
 		"biome": {
-			"terrain": ["snow", "grass"],
+			"terrain": ["snow"],
 			"objectType": "other"
 		},
-		"templates": ["avlp3sn0", "avlp4sn0", "avlstm4"]
+		"templates": ["avlp3sn0", "avlp4sn0"]
 	},
 	"wgfSandTrees": {
 		"biome": {
@@ -429,5 +428,13 @@
 			"objectType": "tree"
 		},
 		"templates": ["WfddTR00", "WfddTR01", "WfddTR02", "WfddTR03", "WfddTR04", "WfddTR05", "WfddTR06", "WfddTR07", "WfddTR08", "WfddTR09"]
+	},
+	"wgfWaterLakeOnLava": {
+		"biome": {
+			"terrain": "lava",
+			"level" : "surface",
+			"objectType": "lake"
+		},
+		"templates": ["zdec0013", "Zdec0016"]
 	}
 }
