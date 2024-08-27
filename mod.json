@@ -12,7 +12,7 @@
 	},
 	"changelog" :
 	{
-		"9.1.20"  : [ "Update WoG Graphic Fix biomes for 2.19" ],
+		"9.1.20"  : [ "Update WoG Graphic Fix biomes for 2.19. Added russian translation" ],
 		"9.1.19"  : [ "Update WoG Graphic Fix to v2.18 part2" ],
 		"9.1.18"  : [ "Update WoG Graphic Fix to v2.18" ],
 		"9.1.17"  : [ "Update polish translation" ],
