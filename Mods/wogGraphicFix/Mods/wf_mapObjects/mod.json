@@ -7,7 +7,9 @@
 	"version" : "",
 	"objects" :
 	[
+		"config/mapDecorations/wgfHedges",
 		"config/mapObjects/wgfShrineOfMagicMystery",
+		"config/mapObjects/wgfMirrorOfTheHomeWay",
 		"config/wgfBones",
 		"config/wgfCanyons",
 		"config/wgfCorpses",

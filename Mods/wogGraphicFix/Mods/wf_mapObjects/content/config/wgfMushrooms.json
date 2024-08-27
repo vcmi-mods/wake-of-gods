@@ -3,6 +3,11 @@
 		"types" : {
 			"object" : {
 				"templates" : {
+					"wmshr00" : {
+						"animation" : "mushrooms/wmshr00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
 					"wmshr01" : {
 						"animation" : "mushrooms/wmshr01",
 						"mask" : [ "VB" ],

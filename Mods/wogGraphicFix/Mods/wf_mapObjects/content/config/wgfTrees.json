@@ -142,6 +142,67 @@
 						"animation" : "trees/AVLwlw30",
 						"mask" : [ "V", "B" ],
 						"allowedTerrains": [ "swamp" ]
+					},
+
+					"WFddTR00" : {
+						"animation" : "trees/WFddTR00",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR01" : {
+						"animation" : "trees/WFddTR01",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR02" : {
+						"animation" : "trees/WFddTR02",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR03" : {
+						"animation" : "trees/WFddTR03",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR04" : {
+						"animation" : "trees/WFddTR04",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR05" : {
+						"animation" : "trees/WFddTR05",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR06" : {
+						"animation" : "trees/WFddTR06",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR07" : {
+						"animation" : "trees/WFddTR07",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR08" : {
+						"animation" : "trees/WFddTR08",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"WFddTR09" : {
+						"animation" : "trees/WFddTR09",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains": [ "dirt" ]
 					}
 				}
 			}
