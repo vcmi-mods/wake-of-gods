@@ -70,6 +70,13 @@
 			"translation/wake-of-gods/polish.json"
 		]
 	},
+	"ukrainian" : {
+		"name" : "In the Wake of Gods / Слідом за Богами",
+		"description" : "Неофіційний аддон для Героїв Меча і Магії III",
+		"translations" : [
+			"translation/wake-of-gods/ukrainian.json"
+    ]
+  },
 	"spanish" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Addon no oficial para Heroes of Might and Magic III",
