@@ -41,7 +41,8 @@
 				"val" : 4
 			},
 			{
-				"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
 				"val" : 65
 			}
 		],

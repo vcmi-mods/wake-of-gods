@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.22",
+	"version" : "9.1.23",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.23"  : [ "Fixed commanders' Magic Resistance bonus" ],
 		"9.1.22"  : [ "Reworked wog creature icons by Aphra" ],
 		"9.1.21"  : [ "Ukrainian translation by MyroSlave", "Updated some wog creature icons by Aphra" ],
 		"9.1.20"  : [ "Update WoG Graphic Fix biomes for 2.19", "Russian translation by Anton Sergeew" ],
