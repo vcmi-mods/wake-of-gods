@@ -16,5 +16,9 @@
 	"compatibility" :
 	{
 		"min" : "1.2.0"
+	},
+	"czech" : {
+		"name" : "Oprava grafiky",
+		"description" : "Nová grafika pro objekty na mapě."
 	}
 }

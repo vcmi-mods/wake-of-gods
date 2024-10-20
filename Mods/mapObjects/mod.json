@@ -11,5 +11,11 @@
 		"config/mapObjects/mirrorOfTheHomeWay.json",
 		"config/mapObjects/mushrooms.json",
 		"config/mapObjects/sphinx.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Objekty na mapě",
+		"description" : "Tento modul aktivuje nové objekty na mapě."
+	}
+	
 }

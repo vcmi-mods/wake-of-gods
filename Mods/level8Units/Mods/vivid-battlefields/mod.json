@@ -20,5 +20,10 @@
 	"battlefields" :
 	[
 		"config/8thbattlefields"
-	]
+	],
+	
+	"czech" : {
+		"name" : "Nová bojiště - obydlí 8. úrovně",
+		"description" : "Unikátní bojiště pro každé obydlí 8. úrovně. Port z ERA3 do VCMI."
+	}
 }

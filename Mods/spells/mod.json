@@ -15,5 +15,10 @@
 	"creatures" :
 	[
 		"config/creatures/redDragonClone.json"
-	]
+	],
+	
+	"czech" : {
+		"name" : "Kouzla",
+		"description" : "Tento modul aktivuje nové kouzla."
+	}
 }

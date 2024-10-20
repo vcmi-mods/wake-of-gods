@@ -8,5 +8,9 @@
 	"artifacts" :
 	[
 		"config/warMachinesArts.json"
-	]
+	],
+	"czech" : {
+		"name" : "Válečné stroje na mapě",
+		"description" : "Tento modul aktivuje objevení válečných strojů a knihy kouzel na mapě dobrodružství"
+	}
 }

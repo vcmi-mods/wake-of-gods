@@ -4,5 +4,10 @@
 	"modType" : "Graphical",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0"
+	"version" : "1.0",
+
+	"czech" : {
+		"name" : "Bojové dekorace",
+		"description" : "Tento modul aktivuje animované překážky na bojištích."
+	}
 }

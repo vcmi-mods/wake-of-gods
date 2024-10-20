@@ -5,6 +5,12 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Velitelé",
+		"description" : "Tento modul aktivuje funkci velitelů"
+	},
+	
 	"creatures" :
 	[
 		"config/commanders/astralSpirit.json",

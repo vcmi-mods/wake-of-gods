@@ -4,5 +4,10 @@
 	"modType" : "Interface",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0"
+	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Vzhled hlavního menu",
+		"description" : "Mění vzhled hlavního menu na ikonické menu In The Wake of Gods."
+	}
 }

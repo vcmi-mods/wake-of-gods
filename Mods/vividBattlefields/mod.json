@@ -20,5 +20,9 @@
 	"battlefields" :
 	[
 		"config/wogbattlefields"
-	]
+	],
+	"czech" : {
+		"name" : "Živá bojiště",
+		"description" : "Unikátní bojiště pro každé obydlí. Port z ERA3 do VCMI."
+	}
 }

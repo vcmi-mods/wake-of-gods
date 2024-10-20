@@ -17,5 +17,11 @@
 		"config/creatureBanks/transylvanianTavern.json",
 		"config/creatureBanks/homeOfTheBat.json",
 		"config/creatureBanks/lostBottle.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Nová obydlí",
+		"description" : "Tento modul aktivuje nové obydlí jednotek"
+	}
+
 }

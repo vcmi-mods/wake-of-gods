@@ -5,6 +5,12 @@
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
 	"version" : "",
+
+	"czech" : {
+		"name" : "Opravené objekty",
+		"description" : "Nová grafika pro objekty z SoD/WoG."
+	},
+	
 	"objects" :
 	[
 		"config/mapDecorations/wgfHedges",

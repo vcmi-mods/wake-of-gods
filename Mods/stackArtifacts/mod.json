@@ -15,5 +15,10 @@
 		{
 			"stackArtifact": true
 		}
+	},
+	
+	"czech" : {
+		"name" : "Artefakty pro jednotky",
+		"description" : "Tento modul aktivuje artefakty pro jednotky."
 	}
 }
