@@ -4,5 +4,10 @@
 	"version" : "",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"modType" : "Graphical"
+	"modType" : "Graphical",
+	
+	"czech" : {
+		"name" : "Opravené jednotky",
+		"description" : "Nová grafika pro jednotky z SoD/WoG."
+	}
 }

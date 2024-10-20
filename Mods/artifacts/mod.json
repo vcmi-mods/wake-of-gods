@@ -29,5 +29,9 @@
 
 		"config/artifacts/goldTowerArrow.json",
 		"config/artifacts/monstersPower.json"
-	]
+	],
+	"czech" : {
+		"name" : "Artefakty",
+		"description" : "Tento modul aktivuje nové artefakty."
+	}
 }

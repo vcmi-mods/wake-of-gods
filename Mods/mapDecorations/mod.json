@@ -5,6 +5,12 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Dekorace map",
+		"description" : "Tento modul aktivuje nové dekorace map."
+	},
+	
 	"objects" :
 	[
 		"config/mapDecorations/vanillaStatic/lake.json",

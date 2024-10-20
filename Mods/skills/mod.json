@@ -12,5 +12,10 @@
 	"skills" :
 	[
 		"config/skills/ballisticsGoldTowerArrow.json"
-	]
+	],
+	
+	"czech" : {
+		"name" : "Dovednosti",
+		"description" : "Tento modul aktivuje nové dovednosti."
+	}
 }

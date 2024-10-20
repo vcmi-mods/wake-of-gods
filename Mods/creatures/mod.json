@@ -5,6 +5,12 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+
+	"czech" : {
+		"name" : "Nové jednotky",
+		"description" : "Tento modul aktivuje nové jednotky"
+	},
+	
 	"creatures" :
 	[
 		"config/creatures/ghost.json",

@@ -5,6 +5,12 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Jednotky 8. úrovně",
+		"description" : "Přidává jednotky 8. úrovně.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
+	},
+	
 	"creatures" :
 	[
 		"config/creatures/supremeArchangel.json",

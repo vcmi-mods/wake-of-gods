@@ -20,5 +20,10 @@
 	"battlefields" :
 	[
 		"config/messbattlefields"
-	]
+	],
+	
+	"czech" : {
+		"name" : "Nová bojiště - obydlí poslů",
+		"description" : "Unikátní bojiště pro každé obydlí poslů. Port z ERA3 do VCMI."
+	},
 }

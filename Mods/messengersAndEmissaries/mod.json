@@ -5,6 +5,12 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+
+	"czech" : {
+		"name" : "Jednotky poslů",
+		"description" : "Přidává jednotky nové jednotky poslů"
+	},
+	
 	"creatures" :
 	[
 		"config/creatures/fireMessenger.json",

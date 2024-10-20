@@ -1,8 +1,13 @@
 {
-	"name" : "Animated Objects",
+	"name" : "Animated flags",
 	"description" : "This module enables animated flags at dwellings and mines.",
 	"modType" : "Graphical",
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0"
+	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Animované vlajky",
+		"description" : "Tento modul aktivuje vlající vlajky u obydlí a dolů."
+	}
 }

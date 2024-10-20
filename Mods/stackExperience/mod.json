@@ -34,5 +34,10 @@
 		{
 			"stackExperience": true
 		}
+	},
+	
+	"czech" : {
+		"name" : "Zkušenosti jednotek",
+		"description" : "Tento modul aktivuje funkci zkušeností jednotek"
 	}
 }
