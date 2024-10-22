@@ -193,7 +193,7 @@
 	
 	"core:redwoodObservatory" : {
 		"types" : {
-			"object" : {
+			"redwoodObservatory" : {
 				"templates" : {
 					"WaterOb" : {
 						"animation" : "objects/WaterOb",
@@ -272,7 +272,7 @@
 
 	"core:shrineOfMagicLevel1"	: {
 		"types" : {
-			"object" : {
+			"shrineOfMagicLevel1" : {
 				"templates" : {
 					"Watersp1" : {
 						"animation" : "objects/Watersp1",
@@ -287,7 +287,7 @@
 	
 	"core:shrineOfMagicLevel2"	: {
 		"types" : {
-			"object" : {
+			"shrineOfMagicLevel2" : {
 				"templates" : {
 					"Watersp2" : {
 						"animation" : "objects/Watersp2",
@@ -302,7 +302,7 @@
 	
 	"core:shrineOfMagicLevel3" : {
 		"types" : {
-			"object" : {
+			"shrineOfMagicLevel3" : {
 				"templates" : {
 					"Watersp3" : {
 						"animation" : "objects/Watersp3",

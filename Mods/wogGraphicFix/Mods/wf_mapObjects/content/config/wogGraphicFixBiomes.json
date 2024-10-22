@@ -277,7 +277,7 @@
 			"terrain": "lava",
 			"objectType": "rock"
 		},
-		"templates": ["WFLR00", "WFLR01", "WFLR02", "WFLR03", "WFLR04", "WFLR50", "WFLR06", "WFLR07"]
+		"templates": ["WFLR00", "WFLR01", "WFLR02", "WFLR03", "WFLR04", "WFLR05", "WFLR06", "WFLR07"]
 	},
 	"pillars": {
 		"biome":{

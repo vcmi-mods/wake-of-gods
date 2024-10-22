@@ -1,7 +1,7 @@
 {
 	"core:shrineOfMagicLevel3" : {
 		"types" : {
-			"object" : {
+			"shrineOfMagicLevel3" : {
 				"templates" : {
 					"zobj046" : {
 						"animation" : "objects/zobj046.def",

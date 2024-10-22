@@ -239,7 +239,7 @@
 						[
 							{
 								"type" : "MOVEMENT",
-								"subtype" : 1,
+								"subtype" : "heroMovementLand",
 								"val" : 250,
 								"valueType" : "ADDITIVE_VALUE"
 							}

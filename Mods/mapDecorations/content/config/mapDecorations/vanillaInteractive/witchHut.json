@@ -1,7 +1,7 @@
 {
 	"core:witchHut" : {
 		"types" : {
-			"object" : {
+			"witchHut" : {
 				"templates" :{
 					"z358o4" : {
 						"animation" : "objects/z358o4.def",

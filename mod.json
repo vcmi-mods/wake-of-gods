@@ -4,14 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.24",
+	"version" : "9.1.25",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
-		"min" : "1.5.0"
+		"min" : "1.6.0"
 	},
 	"changelog" :
 	{
+		"9.1.25"  : [ "Fixed new commanders icon path", "Fixed some rewardable objects format" ],
 		"9.1.24"  : [ "Czech translation by George King" ],
 		"9.1.23"  : [ "Fixed commanders' Magic Resistance bonus" ],
 		"9.1.22"  : [ "Reworked wog creature icons by Aphra" ],
