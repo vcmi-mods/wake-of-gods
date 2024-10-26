@@ -8,7 +8,10 @@
 	
 	"czech" : {
 		"name" : "Velitelé",
-		"description" : "Tento modul aktivuje funkci velitelů"
+		"description" : "Tento modul aktivuje funkci velitelů",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/czech.json"
+		]
 	},
 	
 	"creatures" :
@@ -46,7 +49,11 @@
 		{
 			"commanders" : true
 		}
-	}
+	},
+	
+	"translations" : [
+		"config/translation/wake-of-gods-commanders/english.json"
+	]
 
 	// for future reference
 	//crus ZM174NPC.def Paladin2
