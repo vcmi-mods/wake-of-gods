@@ -99,7 +99,7 @@
 						"mask" : [ "BB" ],
 						"allowedTerrains": [ "rough" ]
 					},
-					"avlsh9x0" : {
+					"wgfavlsh9x0" : {
 						"animation" : "shrubs/avlsh9x0",
 						"mask" : [ "BBB" ],
 						"allowedTerrains": [ "rough" ]

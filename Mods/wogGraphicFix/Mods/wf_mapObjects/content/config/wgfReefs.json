@@ -60,12 +60,12 @@
 						"allowedTerrains": ["water" ]
 					},
 
-					"ZREEF4" : {
+					"wgfZREEF4" : {
 						"animation" : "reefs/ZREEF4",
 						"mask" : [ "VV","VV", "BB" ],
 						"allowedTerrains": ["water" ]
 					},
-					"ZREEF5" : {
+					"wgfZREEF5" : {
 						"animation" : "reefs/ZREEF5",
 						"mask" : [ "VVV", "VVV", "BBB" ],
 						"allowedTerrains": ["water" ]

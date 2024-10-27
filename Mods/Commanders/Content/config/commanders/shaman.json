@@ -59,7 +59,7 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.haste",
-				"val" : 3
+				"val" : 1
 			}
 		},
 		"graphics" :

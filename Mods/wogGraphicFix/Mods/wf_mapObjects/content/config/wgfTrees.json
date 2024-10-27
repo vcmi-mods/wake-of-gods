@@ -83,12 +83,12 @@
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains": [ "rough" ]
 					},
-					"AVLtRro8" : {
+					"wgfAVLtRro8" : {
 						"animation" : "trees/AVLtRro8",
 						"mask" : ["VVVV","VBBV","VBBB","VVBB"],
 						"allowedTerrains": [ "rough" ]
 					},
-					"AVLtRro9" : {
+					"wgfAVLtRro9" : {
 						"animation" : "trees/AVLtRro9",
 						"mask" : ["VVVV","VVBB","VBBB","VBBV"],
 						"allowedTerrains": [ "rough" ]

@@ -8,7 +8,7 @@
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VBBB" ],
 						"allowedTerrains": [ "swamp" ]
 					},
-					"AVLvol60" : {
+					"wgfAVLvol60" : {
 						"animation" : "volcanos/AVLvol60",
 						"mask" : [ "VVV", "BBB" ],
 						"allowedTerrains": [ "lava" ]

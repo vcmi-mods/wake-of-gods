@@ -19,77 +19,70 @@
 					"rarity"	: 50,
 					"zoneLimit" : 1
 				},
-				"levels": [
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 3, "type" : "dendroidGuard" },
 							{ "amount": 4, "type" : "woodElf" },
 							{ "amount": 3, "type" : "dendroidGuard" },
 							{ "amount": 4, "type" : "woodElf" }
 						],
-						"combat_value": 100,
-						"reward" : {
-							"resources":
-							{
-								"wood" : 15,
-								"gold" : 500
-							},
-							"value": 2000
+						"resources":
+						{
+							"wood" : 15,
+							"gold" : 500
 						}
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 4, "type" : "dendroidGuard" },
 							{ "amount": 6, "type" : "woodElf" },
 							{ "amount": 4, "type" : "dendroidGuard" },
 							{ "amount": 6, "type" : "woodElf" }
 						],
-						"combat_value": 150,
-						"reward" : {
-							"resources":
-							{
-								"wood" : 20,
-								"gold" : 500
-							},
-							"value": 3000
+						"resources":
+						{
+							"wood" : 20,
+							"gold" : 500
 						}
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 5, "type" : "dendroidGuard" },
 							{ "amount": 8, "type" : "woodElf" },
 							{ "amount": 5, "type" : "dendroidGuard" },
 							{ "amount": 8, "type" : "woodElf" }
 						],
-						"combat_value": 200,
-						"reward" : {
-							"resources":
-							{
-								"wood" : 25,
-								"gold" : 500
-							},
-							"value": 4000
-						}
+						"resources":
+						{
+							"wood" : 25,
+							"gold" : 500
+						}	
 					},
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 6,  "type" : "dendroidSoldier" },
 							{ "amount": 10, "type" : "grandElf" },
 							{ "amount": 6,  "type" : "dendroidSoldier" },
 							{ "amount": 10, "type" : "grandElf" }
 						],
-						"combat_value": 300,
-						"reward" : {
-							"resources":
-							{
-								"wood" : 40,
-								"gold" : 1000
-							},
-							"value": 6000
+						"resources":
+						{
+							"wood" : 40,
+							"gold" : 1000
 						}
 					}
 				]

@@ -59,7 +59,7 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireShield",
-				"val" : 3
+				"val" : 1
 			}
 		},
 		"graphics" :

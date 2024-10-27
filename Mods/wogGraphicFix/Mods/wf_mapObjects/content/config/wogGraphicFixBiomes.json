@@ -132,12 +132,12 @@
 		},
 		"templates": ["RKMN1", "RKMN2", "RKMN3", "RKMN4", "RKMN5", "RKMN6", "RKWF1"]
 	},
-	"swampMountains": {
+	"wogSwampMountains": {
 		"biome": {
 			"terrain": "swamp",
 			"objectType": "mountain"
 		},
-		"templates": ["SWMN01", "SWMN02", "SWMN03", "SWMN04", "SWMN05", "SWMN06", "swmn07", "swwt0", "swwt1", "swwt2", "swwt3", "swwt4"]//, "swwt5"]
+		"templates": ["SWMN01", "SWMN02", "SWMN03", "SWMN04", "SWMN05", "SWMN06", "swmn07", "swwt0", "swwt1", "swwt2", "swwt3", "swwt4", "swwt5"]
 	},
 	"dirtMountains": {
 		"biome": {
@@ -223,7 +223,7 @@
 		},
 		"templates": ["Undercrb00", "Undercrb01", "Undercrb02", "Undercrb03", "Undercrb04", "Undercrb05"]
 	},
-	"waterRock": {
+	"wogWaterRock": {
 		"biome": {
 			"terrain": "water",
 			"objectType": "rock"
@@ -341,7 +341,7 @@
 			"terrain": "rough",
 			"objectType": "plant"
 		},
-		"templates": ["AVLSH6R0", "AVLSHR90", "avlsh9x0"]
+		"templates": ["AVLSH6R0", "AVLSHR90", "wgfavlsh9x0"]
 	},
 	"stumps": {
 		"biome": {
@@ -362,7 +362,7 @@
 			"terrain": "rough",
 			"objectType": "tree"
 		},
-		"templates": ["avltro13wgf", "avltro14wgf", "AVLtRro8", "AVLtRro9", "avltrro10", "avltrro11"]
+		"templates": ["avltro13wgf", "avltro14wgf", "wgfAVLtRro8", "wgfAVLtRro9", "avltrro10", "avltrro11"]
 	},
 	"wgfSnowCracks": {
 		"biome": {

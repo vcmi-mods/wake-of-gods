@@ -20,9 +20,15 @@
 					"rarity" : 20,
 					"zoneLimit" : 1
 				},
-				"levels": [
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 2, "type" :  "vampire" },
 							{ "amount": 2, "type" :  "vampire" },
@@ -30,22 +36,20 @@
 							{ "amount": 2, "type" :  "vampire" },
 							{ "amount": 2, "type" :  "vampire" }
 						],
-						"combat_value": 100,
-						"reward" : {
-							"resources":
-							{
-								"mercury" : 2,
-								"sulfur" : 2,
-								"crystal" : 2,
-								"gems" : 2
-							},
-							"creatures": [
-								{ "amount": 3, "type" :  "vampireLord" }
-							]
-						}
+						"resources":
+						{
+							"mercury" : 2,
+							"sulfur" : 2,
+							"crystal" : 2,
+							"gems" : 2
+						},
+						"creatures": [
+							{ "amount": 3, "type" :  "vampireLord" }
+						]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 3, "type" :  "vampire" },
 							{ "amount": 3, "type" :  "vampire" },
@@ -53,23 +57,20 @@
 							{ "amount": 3, "type" :  "vampire" },
 							{ "amount": 3, "type" :  "vampire" }
 						],
-						"combat_value": 150,
-						"reward" : {
-							"resources":
-							{
-								"mercury" : 3,
-								"sulfur" : 3,
-								"crystal" : 3,
-								"gems" : 3
-							},
-							"creatures": [
-								{ "amount": 5, "type" :  "vampireLord" }
-							],
-							"value": 3000
-						}
+						"resources":
+						{
+							"mercury" : 3,
+							"sulfur" : 3,
+							"crystal" : 3,
+							"gems" : 3
+						},
+						"creatures": [
+							{ "amount": 5, "type" :  "vampireLord" }
+						]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 4, "type" :  "vampire" },
 							{ "amount": 4, "type" :  "vampire" },
@@ -77,23 +78,20 @@
 							{ "amount": 4, "type" :  "vampire" },
 							{ "amount": 4, "type" :  "vampire" }
 						],
-						"combat_value": 200,
-						"reward" : {
-							"resources":
-							{
-								"mercury" : 4,
-								"sulfur" : 4,
-								"crystal" : 4,
-								"gems" : 4
-							},
-							"creatures": [
-								{ "amount": 7, "type" :  "vampireLord" }
-							],
-							"value": 4000
-						}
+						"resources":
+						{
+							"mercury" : 4,
+							"sulfur" : 4,
+							"crystal" : 4,
+							"gems" : 4
+						},
+						"creatures": [
+							{ "amount": 7, "type" :  "vampireLord" }
+						]
 					},
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 6, "type" :  "vampire" },
 							{ "amount": 6, "type" :  "vampire" },
@@ -101,20 +99,16 @@
 							{ "amount": 6, "type" :  "vampire" },
 							{ "amount": 6, "type" :  "vampire" }
 						],
-						"combat_value": 250,
-						"reward" : {
-							"resources":
-							{
-								"mercury" : 5,
-								"sulfur" : 5,
-								"crystal" : 5,
-								"gems" : 5
-							},
-							"creatures": [
-								{ "amount": 9, "type" :  "vampireLord" }
-							],
-							"value": 5000
-						}
+						"resources":
+						{
+							"mercury" : 5,
+							"sulfur" : 5,
+							"crystal" : 5,
+							"gems" : 5
+						},
+						"creatures": [
+							{ "amount": 9, "type" :  "vampireLord" }
+						]
 					}
 				]
 			}

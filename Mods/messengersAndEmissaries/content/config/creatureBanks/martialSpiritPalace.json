@@ -20,70 +20,63 @@
 					"rarity" : 10,
 					"zoneLimit" : 1
 				},
-				"levels": [
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 10, "type" : "fireMessenger" },
 							{ "amount": 10, "type" : "earthMessenger" },
 							{ "amount": 10, "type" : "airMessenger" },
 							{ "amount": 10, "type" : "waterMessenger" }
 						],
-						"combat_value": 2000,
-						"reward" : {
-							"creatures": [
-								{ "amount": 1, "type" : "emissaryOfWar" }
-							],
-							"value": 38000
-						}
+						"creatures": [
+							{ "amount": 1, "type" : "emissaryOfWar" }
+						]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 15, "type" : "fireMessenger" },
 							{ "amount": 15, "type" : "earthMessenger" },
 							{ "amount": 15, "type" : "airMessenger" },
 							{ "amount": 15, "type" : "waterMessenger" }
 						],
-						"combat_value": 2000,
-						"reward" : {
-							"creatures": [
-								{ "amount": 1, "type" : "emissaryOfWar" }
-							],
-							"value": 57000
-						}
+						"creatures": [
+							{ "amount": 1, "type" : "emissaryOfWar" }
+						]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 20, "type" : "fireMessenger" },
 							{ "amount": 20, "type" : "earthMessenger" },
 							{ "amount": 20, "type" : "airMessenger" },
 							{ "amount": 20, "type" : "waterMessenger" }
 						],
-						"combat_value": 2000,
-						"reward" : {
-							"creatures": [
-								{ "amount": 1, "type" : "emissaryOfWar" }
-							],
-							"value": 75000
-						}
+						"creatures": [
+							{ "amount": 1, "type" : "emissaryOfWar" }
+						]
 					},
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 30, "type" : "fireMessenger" },
 							{ "amount": 30, "type" : "earthMessenger" },
 							{ "amount": 30, "type" : "airMessenger" },
 							{ "amount": 30, "type" : "waterMessenger" }
 						],
-						"combat_value": 2000,
-						"reward" : {
-							"creatures": [
-								{ "amount": 1, "type" : "emissaryOfWar" }
-							],
-							"value": 90000
-						}
+						"creatures": [
+							{ "amount": 1, "type" : "emissaryOfWar" }
+						]
 					}
 				]
 			}
