@@ -1,0 +1,553 @@
+{
+	"vcmi.commander.skill.attack.0"  : "No Attack Skill\n\
+\n\
+This skill gives only Basic 5 Attack\n\
+\n\
+The next levels of Attack Skill can give\n\
+Basic: 7 Attack\n\
+Advanced: 10 Attack\n\
+Expert: 14 Attack\n\
+Master: 20 Attack\n\
+Grandmaster: 30 Attack\n\
+\n\
+With Master Attack, your Commander can get Extra skills\n\
+with Master Defense skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Fearsome\n\
+with Master Damage skill: Maximum damage always\n\
+with Master Magic Power skill: No Enemy Retaliation\n\
+with Master Speed skill: Can Shoot",
+	"vcmi.commander.skill.attack.1"  : "Basic Attack Skill\n\
+\n\
+This skill gives 7 Attack\n\
+\n\
+The next levels of Attack Skill can give\n\
+Advanced: 10 Attack\n\
+Expert: 14 Attack\n\
+Master: 20 Attack\n\
+Grandmaster: 30 Attack\n\
+\n\
+With Master Attack, your Commander can get Extra skills\n\
+with Master Defense skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Fearsome\n\
+with Master Damage skill: Maximum damage always\n\
+with Master Magic Power skill: No Enemy Retaliation\n\
+with Master Speed skill: Can Shoot",
+	"vcmi.commander.skill.attack.2"  : "Advanced Attack Skill\n\
+\n\
+This skill gives 10 Attack\n\
+\n\
+The next levels of Attack Skill can give\n\
+Expert: 14 Attack\n\
+Master: 20 Attack\n\
+Grandmaster: 30 Attack\n\
+\n\
+With Master Attack, your Commander can get Extra skills\n\
+with Master Defense skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Fearsome\n\
+with Master Damage skill: Maximum damage always\n\
+with Master Magic Power skill: No Enemy Retaliation\n\
+with Master Speed skill: Can Shoot",
+	"vcmi.commander.skill.attack.3"  : "Expert Attack Skill\n\
+\n\
+This skill gives 14 Attack\n\
+\n\
+The next levels of Attack Skill can give\n\
+Master: 20 Attack\n\
+Grandmaster: 30 Attack\n\
+\n\
+With Master Attack, your Commander can get Extra skills\n\
+with Master Defense skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Fearsome\n\
+with Master Damage skill: Maximum damage always\n\
+with Master Magic Power skill: No Enemy Retaliation\n\
+with Master Speed skill: Can Shoot",
+	"vcmi.commander.skill.attack.4"  : "Master Attack Skill\n\
+\n\
+This skill gives 20 Attack\n\
+\n\
+The next level of Attack Skill can give\n\
+Grandmaster: 30 Attack\n\
+\n\
+With Master Attack, your Commander can get Extra skills\n\
+with Master Defense skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Fearsome\n\
+with Master Damage skill: Maximum damage always\n\
+with Master Magic Power skill: No Enemy Retaliation\n\
+with Master Speed skill: Can Shoot",
+	"vcmi.commander.skill.attack.5"  : "Grandmaster Attack Skill\n\
+\n\
+This skill gives 30 Attack\n\
+\n\
+This is the last level of Attack Skill\n\
+\n\
+With Master Attack, your Commander can get Extra skills\n\
+with Master Defense skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Fearsome\n\
+with Master Damage skill: Maximum damage always\n\
+with Master Magic Power skill: No Enemy Retaliation\n\
+with Master Speed skill: Can Shoot",
+	"vcmi.commander.skill.defence.0" : "No Defense Skill\n\
+\n\
+This skill gives only Basic 5 Defense\n\
+\n\
+The next levels of Defense Skill can give\n\
+Basic: 9 Defense\n\
+Advanced: 15 Defense\n\
+Expert: 23 Defense\n\
+Master: 35 Defense\n\
+Grandmaster: 55 Defense\n\
+\n\
+With Master Defense, your Commander can get Extra skills\n\
+with Master Attack skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Endless Retaliation\n\
+with Master Damage skill: Strike all Enemies around\n\
+with Master Magic Power skill: Permanent Fire Shield\n\
+with Master Speed skill: Block Physical Damage",
+	"vcmi.commander.skill.defence.1" : "Basic Defense Skill\n\
+\n\
+This skill gives 9 Defense\n\
+\n\
+The next levels of Defense Skill can give\n\
+Advanced: 15 Defense\n\
+Expert: 23 Defense\n\
+Master: 35 Defense\n\
+Grandmaster: 55 Defense\n\
+\n\
+With Master Defense, your Commander can get Extra skills\n\
+with Master Attack skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Endless Retaliation\n\
+with Master Damage skill: Strike all Enemies around\n\
+with Master Magic Power skill: Permanent Fire Shield\n\
+with Master Speed skill: Block Physical Damage",
+	"vcmi.commander.skill.defence.2" : "Advanced Defense Skill\n\
+\n\
+This skill gives 15 Defense\n\
+\n\
+The next levels of Defense Skill can give\n\
+Expert: 23 Defense\n\
+Master: 35 Defense\n\
+Grandmaster: 55 Defense\n\
+\n\
+With Master Defense, your Commander can get Extra skills\n\
+with Master Attack skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Endless Retaliation\n\
+with Master Damage skill: Strike all Enemies around\n\
+with Master Magic Power skill: Permanent Fire Shield\n\
+with Master Speed skill: Block Physical Damage",
+	"vcmi.commander.skill.defence.3" : "Expert Defense Skill\n\
+\n\
+This skill gives 23 Defense\n\
+\n\
+The next levels of Defense Skill can give\n\
+Master: 35 Defense\n\
+Grandmaster: 55 Defense\n\
+\n\
+With Master Defense, your Commander can get Extra skills\n\
+with Master Attack skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Endless Retaliation\n\
+with Master Damage skill: Strike all Enemies around\n\
+with Master Magic Power skill: Permanent Fire Shield\n\
+with Master Speed skill: Block Physical Damage",
+	"vcmi.commander.skill.defence.4" : "Master Defense Skill\n\
+\n\
+This skill gives 35 Defense\n\
+\n\
+The next level of Defense Skill can give\n\
+Grandmaster: 55 Defense\n\
+\n\
+With Master Defense, your Commander can get Extra skills\n\
+with Master Attack skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Endless Retaliation\n\
+with Master Damage skill: Strike all Enemies around\n\
+with Master Magic Power skill: Permanent Fire Shield\n\
+with Master Speed skill: Block Physical Damage",
+	"vcmi.commander.skill.defence.5" : "Grandmaster Defense Skill\n\
+\n\
+This skill gives 55 Defense\n\
+\n\
+This is the last level of Defense Skill\n\
+\n\
+With Master Defense, your Commander can get Extra skills\n\
+with Master Attack skill: Reduce Enemy Defense by 50%\n\
+with Master Hit Points skill: Endless Retaliation\n\
+with Master Damage skill: Strike all Enemies around\n\
+with Master Magic Power skill: Permanent Fire Shield\n\
+with Master Speed skill: Block Physical Damage",
+	"vcmi.commander.skill.health.0"  : "No Hit Points Skill\n\
+\n\
+This skill gives only\n\
+Basic 20HP+Level*20\n\
+\n\
+The next levels of Hit Points Skill can give\n\
+Basic: plus 10% to HP\n\
+Advanced: plus 25% to HP\n\
+Expert: plus 45% to HP\n\
+Master: plus 70% to HP\n\
+Grandmaster: plus 100% to HP\n\
+\n\
+With Master Hit Points, your Commander can get Extra skills\n\
+with Master Attack skill: Fearsome\n\
+with Master Defense skill: Endless Retaliation\n\
+with Master Damage skill: Attack Twice\n\
+with Master Magic Power skill: Melee Attack may Paralyze\n\
+with Master Speed skill: Regeneration 50 HP every turn",
+	"vcmi.commander.skill.health.1"  : "Basic Hit Points Skill\n\
+\n\
+This skill gives\n\
+Basic 20HP+Level*20 plus 10%\n\
+\n\
+The next levels of Hit Points Skill can give\n\
+Advanced: plus 25% to HP\n\
+Expert: plus 45% to HP\n\
+Master: plus 70% to HP\n\
+Grandmaster: plus 100% to HP\n\
+\n\
+With Master Hit Points, your Commander can get Extra skills\n\
+with Master Attack skill: Fearsome\n\
+with Master Defense skill: Endless Retaliation\n\
+with Master Damage skill: Attack Twice\n\
+with Master Magic Power skill: Melee Attack may Paralyze\n\
+with Master Speed skill: Regeneration 50 HP every turn",
+	"vcmi.commander.skill.health.2"  : "Advanced Hit Points Skill\n\
+\n\
+This skill gives\n\
+Basic 20HP+Level*20 plus 25%\n\
+\n\
+The next levels of Hit Points Skill can give\n\
+Expert: plus 45% to HP\n\
+Master: plus 70% to HP\n\
+Grandmaster: plus 100% to HP\n\
+\n\
+With Master Hit Points, your Commander can get Extra skills\n\
+with Master Attack skill: Fearsome\n\
+with Master Defense skill: Endless Retaliation\n\
+with Master Damage skill: Attack Twice\n\
+with Master Magic Power skill: Melee Attack may Paralyze\n\
+with Master Speed skill: Regeneration 50 HP every turn",
+	"vcmi.commander.skill.health.3"  : "Expert Hit Points Skill\n\
+\n\
+This skill gives\n\
+Basic 20HP+Level*20 plus 45%\n\
+\n\
+The next levels of Hit Points Skill can give\n\
+Master: plus 70% to HP\n\
+Grandmaster: plus 100% to HP\n\
+\n\
+With Master Hit Points, your Commander can get Extra skills\n\
+with Master Attack skill: Fearsome\n\
+with Master Defense skill: Endless Retaliation\n\
+with Master Damage skill: Attack Twice\n\
+with Master Magic Power skill: Melee Attack may Paralyze\n\
+with Master Speed skill: Regeneration 50 HP every turn",
+	"vcmi.commander.skill.health.4"  : "Master Hit Points Skill\n\
+\n\
+This skill gives\n\
+Basic 20HP+Level*20 plus 70%\n\
+\n\
+The next levels of Hit Points Skill can give\n\
+Grandmaster: plus 100% to HP\n\
+\n\
+With Master Hit Points, your Commander can get Extra skills\n\
+with Master Attack skill: Fearsome\n\
+with Master Defense skill: Endless Retaliation\n\
+with Master Damage skill: Attack Twice\n\
+with Master Magic Power skill: Melee Attack may Paralyze\n\
+with Master Speed skill: Regeneration 50 HP every turn",
+	"vcmi.commander.skill.health.5"  : "Grandmaster Hit Points Skill\n\
+\n\
+This skill gives\n\
+Basic 20HP+Level*20 plus 100%\n\
+\n\
+This is the last level of Hit Points Skill\n\
+\n\
+With Master Hit Points, your Commander can get Extra skills\n\
+with Master Attack skill: Fearsome\n\
+with Master Defense skill: Endless Retaliation\n\
+with Master Damage skill: Attack Twice\n\
+with Master Magic Power skill: Melee Attack may Paralyze\n\
+with Master Speed skill: Regeneration 50 HP every turn",
+	"vcmi.commander.skill.damage.0"  : "No Damage Skill\n\
+\n\
+This skill gives\n\
+Basic 8+Level*4 Damage\n\
+\n\
+The next levels of Damage Skill can give\n\
+Basic: plus 10% to Damage\n\
+Advanced: plus 25% to Damage\n\
+Expert: plus 45% to Damage\n\
+Master: plus 70% to Damage\n\
+Grandmaster: plus 100% to Damage\n\
+\n\
+With Master Damage, your Commander can get Extra skills\n\
+with Master Attack skill: Maximum damage always\n\
+with Master Defense skill: Strike all Enemies around\n\
+with Master Hit Points skill: Attack Twice\n\
+with Master Magic Power skill: DeathStare\n\
+with Master Speed skill: Champion Distance Bonus",
+	"vcmi.commander.skill.damage.1"  : "Basic Damage Skill\n\
+\n\
+This skill gives\n\
+Basic 8+Level*4 Damage + 10%\n\
+\n\
+The next levels of Damage Skill can give\n\
+Advanced: plus 25% to Damage\n\
+Expert: plus 45% to Damage\n\
+Master: plus 70% to Damage\n\
+Grandmaster: plus 100% to Damage\n\
+\n\
+With Master Damage, your Commander can get Extra skills\n\
+with Master Attack skill: Maximum damage always\n\
+with Master Defense skill: Strike all Enemies around\n\
+with Master Hit Points skill: Attack Twice\n\
+with Master Magic Power skill: DeathStare\n\
+with Master Speed skill: Champion Distance Bonus",
+	"vcmi.commander.skill.damage.2"  : "Advanced Damage Skill\n\
+\n\
+This skill gives\n\
+Basic 8+Level*4 Damage + 25%\n\
+\n\
+The next levels of Damage Skill can give\n\
+Expert: plus 45% to Damage\n\
+Master: plus 70% to Damage\n\
+Grandmaster: plus 100% to Damage\n\
+\n\
+With Master Damage, your Commander can get Extra skills\n\
+with Master Attack skill: Maximum damage always\n\
+with Master Defense skill: Strike all Enemies around\n\
+with Master Hit Points skill: Attack Twice\n\
+with Master Magic Power skill: DeathStare\n\
+with Master Speed skill: Champion Distance Bonus",
+	"vcmi.commander.skill.damage.3"  : "Expert Damage Skill\n\
+\n\
+This skill gives\n\
+Basic 8+Level*4 Damage + 45%\n\
+\n\
+The next levels of Damage Skill can give\n\
+Master: plus 70% to Damage\n\
+Grandmaster: plus 100% to Damage\n\
+\n\
+With Master Damage, your Commander can get Extra skills\n\
+with Master Attack skill: Maximum damage always\n\
+with Master Defense skill: Strike all Enemies around\n\
+with Master Hit Points skill: Attack Twice\n\
+with Master Magic Power skill: DeathStare\n\
+with Master Speed skill: Champion Distance Bonus",
+	"vcmi.commander.skill.damage.4"  : "Master Damage Skill\n\
+\n\
+This skill gives\n\
+Basic 8+Level*4 Damage + 70%\n\
+\n\
+The next levels of Damage Skill can give\n\
+Grandmaster: plus 100% to Damage\n\
+With Master Damage, your Commander can get Extra skills\n\
+with Master Attack skill: Maximum damage always\n\
+with Master Defense skill: Strike all Enemies around\n\
+with Master Hit Points skill: Attack Twice\n\
+with Master Magic Power skill: DeathStare\n\
+with Master Speed skill: Champion Distance Bonus",
+	"vcmi.commander.skill.damage.5"  : "Grandmaster Damage Skill\n\
+\n\
+This skill gives\n\
+Basic 8+Level*4 Damage + 100%\n\
+\n\
+This is the last level of Damage Skill\n\
+\n\
+With Master Damage, your Commander can get Extra skills\n\
+with Master Attack skill: Maximum damage always\n\
+with Master Defense skill: Strike all Enemies around\n\
+with Master Hit Points skill: Attack Twice\n\
+with Master Magic Power skill: DeathStare\n\
+with Master Speed skill: Champion Distance Bonus",
+	"vcmi.commander.skill.speed.0"   : "No Speed Skill\n\
+\n\
+This skill gives only Basic 4 Speed\n\
+\n\
+The next levels of Speed Skill can give\n\
+Basic: 5 Speed\n\
+Advanced: 6 Speed\n\
+Expert: 7 Speed\n\
+Master: 8 Speed\n\
+Grandmaster: 10 Speed\n\
+\n\
+With Master Speed, your Commander can get Extra skills\n\
+with Master Attack skill: Can Shoot\n\
+with Master Defense skill:Block Physical Damage\n\
+with Master Hit Points skill: Regeneration 50 HP every turn\n\
+with Master Damage skill: Champion Distance Bonus\n\
+with Master Magic Power skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.speed.1"   : "Basic Speed Skill\n\
+\n\
+This skill gives 5 Speed\n\
+\n\
+The next levels of Speed Skill can give\n\
+Advanced: 6 Speed\n\
+Expert: 7 Speed\n\
+Master: 8 Speed\n\
+Grandmaster: 10 Speed\n\
+\n\
+with Master Speed, your Commander can get Extra skills\n\
+with Master Attack skill: Can Shoot\n\
+with Master Defense skill: Block Physical Damage\n\
+with Master Hit Points skill: Regeneration 50 HP every turn\n\
+with Master Damage skill: Champion Distance Bonus\n\
+with Master Magic Power skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.speed.2"   : "Advanced Speed Skill\n\
+\n\
+This skill gives 6 Speed\n\
+\n\
+The next levels of Speed Skill can give\n\
+Expert: 7 Speed\n\
+Master: 8 Speed\n\
+Grandmaster: 10 Speed\n\
+\n\
+with Master Speed, your Commander can get Extra skills\n\
+with Master Attack skill: Can Shoot\n\
+with Master Defense skill: Block Physical Damage\n\
+with Master Hit Points skill: Regeneration 50 HP every turn\n\
+with Master Damage skill: Champion Distance Bonus\n\
+with Master Magic Power skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.speed.3"   : "Expert Speed Skill\n\
+\n\
+This skill gives 7 Speed\n\
+\n\
+The next levels of Speed Skill can give\n\
+Master: 8 Speed\n\
+Grandmaster: 10 Speed\n\
+\n\
+with Master Speed, your Commander can get Extra skills\n\
+with Master Attack skill: Can Shoot\n\
+with Master Defense skill: Block Physical Damage\n\
+with Master Hit Points skill: Regeneration 50 HP every turn\n\
+with Master Damage skill: Champion Distance Bonus\n\
+with Master Magic Power skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.speed.4"   : "Master Speed Skill\n\
+\n\
+This skill gives 8 Speed\n\
+\n\
+The next levels of Speed Skill can give\n\
+Grandmaster: 10 Speed\n\
+\n\
+with Master Speed, your Commander can get Extra skills\n\
+with Master Attack skill: Can Shoot\n\
+with Master Defense skill: Block Physical Damage\n\
+with Master Hit Points skill: Regeneration 50 HP every turn\n\
+with Master Damage skill: Champion Distance Bonus\n\
+with Master Magic Power skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.speed.5"   : "Grandmaster Speed Skill\n\
+\n\
+This skill gives 10 Speed\n\
+\n\
+This is the last level of Speed Skill\n\
+\n\
+with Master Speed, your Commander can get Extra skills\n\
+with Master Attack skill: Can Shoot\n\
+with Master Defense skill: Block Physical Damage\n\
+with Master Hit Points skill: Regeneration 50 HP every turn\n\
+with Master Damage skill: Champion Distance Bonus\n\
+with Master Magic Power skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.magic.0"   : "No Magic Power Skill\n\
+\n\
+This skill gives only\n\
+Basic 1 Magic Power\n\
+May cast 1 time\n\
+Basic 5% Magic Resistance\n\
+\n\
+The next levels of Magic Power Skill can give\n\
+Basic: 2 Power, casts 2 times, 10% Magic Resistance\n\
+Advanced: 4 Power, casts 3 times, 20% Magic Resistance\n\
+Expert: 7 Power, casts 4 times, 40% Magic Resistance\n\
+Master: 15 Power, casts 5 times, 65% Magic Resistance\n\
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance\n\
+\n\
+With Master Magic Power, your Commander can get Extra skills\n\
+with Master Attack skill: No Enemy Retaliation\n\
+with Master Defense skill: Permanent Fire Shield\n\
+with Master Hit Points skill: Melee Attack may Paralyze\n\
+with Master Damage skill: DeathStare\n\
+with Master Speed skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.magic.1"   : "Basic Magic Power Skill\n\
+\n\
+This skill gives\n\
+2 Magic Power\n\
+May cast 2 times\n\
+10% Magic Resistance\n\
+\n\
+The next levels of Magic Power Skill can give\n\
+Advanced: 4 Power, casts 3 times, 20% Magic Resistance\n\
+Expert: 7 Power, casts 4 times, 40% Magic Resistance\n\
+Master: 15 Power, casts 5 times, 65% Magic Resistance\n\
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance\n\
+\n\
+With Master Magic Power, your Commander can get Extra skills\n\
+with Master Attack skill: No Enemy Retaliation\n\
+with Master Defense skill: Permanent Fire Shield\n\
+with Master Hit Points skill: Melee Attack may Paralyze\n\
+with Master Damage skill: DeathStare\n\
+with Master Speed skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.magic.2"   : "Advanced Magic Power Skill\n\
+\n\
+This skill gives\n\
+4 Magic Power\n\
+May cast 3 times\n\
+20% Magic Resistance\n\
+\n\
+The next levels of Magic Power Skill can give\n\
+Expert: 7 Power, casts 4 times, 40% Magic Resistance\n\
+Master: 15 Power, casts 5 times, 65% Magic Resistance\n\
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance\n\
+\n\
+With Master Magic Power, your Commander can get Extra skills\n\
+with Master Attack skill: No Enemy Retaliation\n\
+with Master Defense skill: Permanent Fire Shield\n\
+with Master Hit Points skill: Melee Attack may Paralyze\n\
+with Master Damage skill: DeathStare\n\
+with Master Speed skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.magic.3"   : "Expert Magic Power Skill\n\
+\n\
+This skill gives\n\
+7 Magic Power\n\
+May cast 4 times\n\
+40% Magic Resistance\n\
+\n\
+The next levels of Magic Power Skill can give\n\
+Master: 15 Power, casts 5 times, 65% Magic Resistance\n\
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance\n\
+\n\
+With Master Magic Power, your Commander can get Extra skills\n\
+with Master Attack skill: No Enemy Retaliation\n\
+with Master Defense skill: Permanent Fire Shield\n\
+with Master Hit Points skill: Melee Attack may Paralyze\n\
+with Master Damage skill: DeathStare\n\
+with Master Speed skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.magic.4"   : "Master Magic Power Skill\n\
+\n\
+This skill gives\n\
+15 Magic Power\n\
+May cast 5 times\n\
+65% Magic Resistance\n\
+\n\
+The next levels of Magic Power Skill can give\n\
+Grandmaster: 30 Power, casts 6 times, 95% Magic Resistance\n\
+\n\
+With Master Magic Power, your Commander can get Extra skills\n\
+with Master Attack skill: No Enemy Retaliation\n\
+with Master Defense skill: Permanent Fire Shield\n\
+with Master Hit Points skill: Melee Attack may Paralyze\n\
+with Master Damage skill: DeathStare\n\
+with Master Speed skill:  Ignore Obstacles [fly]",
+	"vcmi.commander.skill.magic.5"   : "Grandmaster Magic Power Skill\n\
+\n\
+This skill gives\n\
+30 Magic Power\n\
+May cast 6 times\n\
+95% Magic Resistance\n\
+\n\
+This is the last level of Magic Power Skill\n\
+\n\
+With Master Magic Power, your Commander can get Extra skills\n\
+with Master Attack skill: No Enemy Retaliation\n\
+with Master Defense skill: Permanent Fire Shield\n\
+with Master Hit Points skill: Melee Attack may Paralyze\n\
+with Master Damage skill: DeathStare\n\
+with Master Speed skill:  Ignore Obstacles [fly]",
+}

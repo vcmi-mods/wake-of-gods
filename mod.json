@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.26",
+	"version" : "9.1.27",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.27"  : [ "Updated commander translation for VCMI 1.6" ],
 		"9.1.26"  : [ "Creatures bank code rewritten into vcmi-1.6 format", "Adjusted commander's spellcast" ],
 		"9.1.25"  : [ "Fixed new commanders icon path", "Fixes some rewardable objects format" ],
 		"9.1.24"  : [ "Czech translation by George King" ],
