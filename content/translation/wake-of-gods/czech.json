@@ -189,7 +189,7 @@
 	"creatures.wake-of-gods.spells.redDragonClone.name.plural" : "Rudí draci",
 	"creatures.wake-of-gods.spells.redDragonClone.name.singular" : "Rudý drak",
 	"mapObject.wake-of-gods.creaturebanks.creatureBank.grotto.name" : "Jeskyně",
-	"mapObject.wake-of-gods.creaturebanks.creatureBank.homeOfTheBat.name": "Doupě netopýrů",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.homeOfTheBat.name": "Upíří doupě",
 	"mapObject.wake-of-gods.creaturebanks.creatureBank.huntingLodge.name": "Lovecká chata",
 	"mapObject.wake-of-gods.creaturebanks.creatureBank.lostBottle.name": "Ztracená láhev",
 	"mapObject.wake-of-gods.creaturebanks.creatureBank.snowGrotto.name": "Sněžná jeskyně",
@@ -253,8 +253,7 @@
 	"mapObject.wake-of-gods.messengersandemissaries.creatureGeneratorCommon.naturalCalamityEarth.name" : "Zemská katastrova",
 	"mapObject.wake-of-gods.messengersandemissaries.creatureGeneratorCommon.naturalCalamityFire.name" : "Ohnivá katastrofa",
 	"mapObject.wake-of-gods.messengersandemissaries.creatureGeneratorCommon.naturalCalamityWater.name" : "Vodní katastrofa",
-	"mapObject.wake-of-gods.woggraphicfix.wf_mapobjects.shrineOfMagicMystery.shrineOfMagicMystery.name": "Oltář kouzelného tajemství (naučí hrdinu kouzlo 4. úrovně)",
-	"mapObject.wake-of-gods.woggraphicfix.wf_mapobjects.shrineOfMagicMystery.shrineOfMagicMystery.rewards.0" : "{Svatyně magických záhad}\r\n\r\nNarazíte na starobylou svatyni, kterou obývá skupina poustevníků. Výměnou za vaši ochranu vás naučí kouzlo: %s.",
+	"mapObject.wake-of-gods.woggraphicfix.wf_mapobjects.shrineOfMagicLevel1.wogShrineOfMagicMystery.name" : "Oltář kouzelného tajemství (naučí hrdinu kouzlo 4. úrovně)",
 	"object.wake-of-gods.mapdecorations.blackMarketWoG.name": "Nepoužitý černý trh",
 	"object.wake-of-gods.mapdecorations.buildingsWoG.name" : "Budova",
 	"object.wake-of-gods.mapdecorations.catapultsWoG.name" : "Katapult",
@@ -281,7 +280,6 @@
 	"object.wake-of-gods.mapobjects.watermagicMushroom.name": "Kouzelný vodní hřib",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.emptyObjects.name" : "Prázdný objekt",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.hedgesWoG.name" : "Živý plot",
-	"object.wake-of-gods.woggraphicfix.wf_mapobjects.shrineOfMagicMystery.name" : "Svatyně magických záhad",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfFireflies.name" : "Světlušky",
 	"spell.wake-of-gods.spells.arrowtrigger.name": "Stříbrná střela",
 	"spell.wake-of-gods.spells.boostSpot.description.advanced" : "{Boost Spot}\r\n\r\nNepoužito.",
@@ -290,26 +288,5 @@
 	"spell.wake-of-gods.spells.boostSpot.description.none" : "{Boost Spot}\r\n\r\nNepoužito.",
 	"spell.wake-of-gods.spells.boostSpot.name" : "Posilující Bod",
 	"spell.wake-of-gods.spells.summonRedDragon.name" : "Přivolání rudého draka",
-	"spell.wake-of-gods.spells.towerJammer.name": "Stříbrná střela",
-	
-	// wake-of-gods_creatures.json
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.dragonGraveyard.name" : "Dračí hřbitov",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.dreamHorse-shoe.name" : "Podkova snů",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.enchantedTower.name" : "Očarovaná věž",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.howlingHollow.name" : "Vlčí roklinka",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.lostFiary.name" : "Ztracená víla",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.rockCoveredPosition.name" : "Skalnaté útočiště",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.snowCoveredPosition.name" : "Zasněžené útočiště",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.snowman.name" : "Sněhulák",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.sylvanHomestead.name" : "Lesní usedlost",
-	
-	// wake-of-gods_woggraphicfix_wf_mapobjects.json
-	"mapObject.core.creatureGeneratorCommon.behemothCrag.name" : "Skála behemotů",
-	"mapObject.core.creatureGeneratorCommon.cyclopsCave.name" : "Jeskyně kyklopů",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.hellRift.name" : "Pekelná trhlina",
-	"mapObject.new-monsters-pack.extra-creature-pack.creatureGeneratorCommon.vastCavern.name" : "Rozlehlá jeskyně",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name" : "Knihovna legend",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name" : "Klášter mágů",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name" : "Palác bojového ducha",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name" : "Citadela usmíření"
+	"spell.wake-of-gods.spells.towerJammer.name": "Zlatá střela"
 }
