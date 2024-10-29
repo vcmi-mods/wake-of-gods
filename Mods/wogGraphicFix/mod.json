@@ -20,9 +20,6 @@
 	},
 	"czech" : {
 		"name" : "Oprava grafiky",
-		"description" : "Nová grafika pro objekty na mapě.",
-		"translations" : [
-			"translation/czech.json"
-		]
+		"description" : "Nová grafika pro objekty na mapě."
 	}
 }
