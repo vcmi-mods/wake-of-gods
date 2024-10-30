@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.28",
+	"version" : "9.1.29",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.29"  : [ "Moved objects description from name to standalone description", "Updated Czech translation" ],
 		"9.1.28"  : [ "Updated translations format" ],
 		"9.1.27"  : [ "Updated commander translation for VCMI 1.6" ],
 		"9.1.26"  : [ "Creatures bank code rewritten into vcmi-1.6 format", "Adjusted commander's spellcast" ],
