@@ -27,11 +27,6 @@
 						"animation" : "objects/zchst5.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
-					},
-					"zchst6" : {
-						"animation" : "objects/zchst6.def",
-						"mask" : [ "VA" ],
-						"visitableFrom" : [ "+++", "+-+", "+++" ]
 					}
 				}
 			}
