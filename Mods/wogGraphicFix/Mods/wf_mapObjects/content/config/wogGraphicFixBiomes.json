@@ -429,6 +429,13 @@
 		},
 		"templates": ["WfddTR00", "WfddTR01", "WfddTR02", "WfddTR03", "WfddTR04", "WfddTR05", "WfddTR06", "WfddTR07", "WfddTR08", "WfddTR09"]
 	},
+	"wgfMangroveTrees": {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "tree"
+		},
+		"templates": ["mangro00", "mangro01", "mangro02", "mangro03", "mangro04", "mangro05", "mangro06", "mangro07", "mangro08", "mangro09"]
+	},
 	"wgfWaterLakeOnLava": {
 		"biome": {
 			"terrain": "lava",

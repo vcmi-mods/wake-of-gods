@@ -203,6 +203,95 @@
 							"VBBV"
 						],
 						"allowedTerrains": [ "dirt" ]
+					},
+
+					"mangro00" : {
+						"animation" : "trees/mangro00",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro01" : {
+						"animation" : "trees/mangro01",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro02" : {
+						"animation" : "trees/mangro02",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro03" : {
+						"animation" : "trees/mangro03",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro04" : {
+						"animation" : "trees/mangro04",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro05" : {
+						"animation" : "trees/mangro05",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro06" : {
+						"animation" : "trees/mangro06",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro07" : {
+						"animation" : "trees/mangro07",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro08" : {
+						"animation" : "trees/mangro08",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB",
+							"VVBB"
+						],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"mangro09" : {
+						"animation" : "trees/mangro09",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains": [ "swamp" ]
 					}
 				}
 			}
