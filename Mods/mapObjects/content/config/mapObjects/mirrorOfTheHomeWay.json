@@ -4,7 +4,8 @@
 		"handler":"configurable",
 		"types" : {
 			"mirrorOfTheHomeWay" : {
-				"name": "Mirror of the Home-Way (Teleport hero to any allied town for 1000 gold)",
+				"name": "Mirror of the Home-Way",
+				"description": "(Teleport hero to any allied town for 1000 gold)",
 				"onVisitedMessage": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
 				"visitMode" : "unlimited",
 				"canRefuse": true,
