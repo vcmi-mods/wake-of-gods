@@ -1,13 +1,14 @@
 {
 	"sphinxesWoG" :
 	{
-		"name" : "Sphinx (grant hero a random permanent bonus)",
+		"name" : "Sphinx",
 		"handler": "configurable",
 		"types" :
 		{
 			"sphinx":
 			{
-				"name" : "Sphinx (grant hero a random permanent bonus)",
+				"name" : "Sphinx",
+				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
 				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
 				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",

@@ -8,7 +8,8 @@
 		{
 			"waterMagicMushroom":
 			{
-				"name" : "Magic Water Mushroom (grant expert Water Magic until end of the week)",
+				"name" : "Magic Water Mushroom",
+				"description" : "(grant expert Water Magic until end of the week)",
 				"onVisitedMessage": "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
@@ -55,7 +56,8 @@
 		{
 			"airMagicMushroom":
 			{
-				"name" : "Magic Air Mushroom (grant expert Air Magic until end of the week)",
+				"name" : "Magic Air Mushroom",
+				"description" : "(grant expert Air Magic until end of the week)",
 				"onVisitedMessage": "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
@@ -101,7 +103,8 @@
 		{
 			"earthMagicMushroom":
 			{
-				"name" : "Magic Earth Mushroom (grant expert Earth Magic until end of the week)",
+				"name" : "Magic Earth Mushroom",
+				"description" : "(grant expert Earth Magic until end of the week)",
 				"onVisitedMessage": "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
@@ -148,7 +151,8 @@
 		{
 			"fireMagicMushroom":
 			{
-				"name" : "Magic Fire Mushroom (grant expert Fire Magic until end of the week)",
+				"name" : "Magic Fire Mushroom",
+				"description" : "(grant expert Fire Magic until end of the week)",
 				"onVisitedMessage": "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {

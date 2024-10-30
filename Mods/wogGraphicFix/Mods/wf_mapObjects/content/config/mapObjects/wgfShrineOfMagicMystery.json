@@ -5,7 +5,8 @@
 		"types" : {
 			"wogShrineOfMagicMystery" :
 			{
-				"name" : "Shrine of Magic Mystery (learn level 4 spell)",
+				"name" : "Shrine of Magic Mystery",
+				"description" : "(learn level 4 spell)",
 				"rmg" : {
 					"value"		: 7000,
 					"rarity"	: 100,
@@ -19,7 +20,7 @@
 				
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
-				"description" : "@core.xtrainfo.21",
+				//"description" : "@core.xtrainfo.21",
 				"showScoutedPreview" : true,
 
 				"variables" : {
@@ -48,7 +49,7 @@
 						"message" : [ 129, "%s." ] // You learn new spell
 					}
 				],
-				"onVisitedMessage" : [ 129, "%s.", 174 ], // You already known this spell
+				"onVisitedMessage" : [ 129, "%s. ", 174 ], // You already known this spell
 				"onEmpty" : [
 					{
 						"limiter" : {
@@ -58,10 +59,10 @@
 								}
 							]
 						},
-						"message" : [ 129, "%s.", 130 ] // No Wisdom
+						"message" : [ 129, "%s. ", 130 ] // No Wisdom
 					},
 					{
-						"message" : [ 129, "%s.", 131 ] // No spellbook
+						"message" : [ 129, "%s. ", 131 ] // No spellbook
 					}
 				],
 				"templates" :
