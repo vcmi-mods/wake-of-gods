@@ -76,8 +76,8 @@
 					}
 				}
 			},
-			"lostFiary" : {
-				"name" : "Lost Fiary",
+			"lostFriary" : {
+				"name" : "Lost Friary",
 				"creatures" : [[ "warZealot" ]],
 				"guards" : true,
 				"sounds": {

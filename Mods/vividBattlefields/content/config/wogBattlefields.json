@@ -19,8 +19,8 @@
 		"graphics": "hell_rift.png",
 		"isSpecial" : true
 	},	
-	"lost_fiary": {
-		"graphics": "lost_fiary.png",
+	"lost_friary": {
+		"graphics": "lost_friary.png",
 		"isSpecial" : true
 	},
 	"snowman": {
