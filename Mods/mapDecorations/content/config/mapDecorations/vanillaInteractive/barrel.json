@@ -1,6 +1,6 @@
 {
 	"barrel" : {
-		"name" : "Lost barrel",
+		"name" : "Lost Barrel",
 		"handler" : "configurable",
 		"types" : {
 			"treasureChest" : {
@@ -11,7 +11,7 @@
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
 					}
 				},
-				"name":"Lost barrel",
+				"name":"Lost Barrel",
 				"aiValue" : 2000,
 				"rmg" : {
 					"value"		: 1500,
