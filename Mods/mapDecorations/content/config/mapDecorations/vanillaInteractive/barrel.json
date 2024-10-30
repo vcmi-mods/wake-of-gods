@@ -1,0 +1,67 @@
+{
+	"barrel" : {
+		"name" : "Lost barrel",
+		"handler" : "configurable",
+		"types" : {
+			"treasureChest" : {
+				"templates" : {
+					"zchst6" : {
+						"animation" : "objects/zchst6.def",
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
+				},
+				"name":"Lost barrel",
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 350
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"blockedVisitable" : true,
+				"onSelectMessage" : "{Lost Barrel}\n\nAfter scouring the area, you stumble upon a hidden barrel filled with treasure. You may either take the gold for yourself or share it with the peasants for experience. Which do you choose?",
+				"visitMode" : "unlimited",
+				"selectMode" : "selectPlayer",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 33 },
+						"resources" : { "gold" : 2000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "max" : 33 },
+						"heroExperience" : 1500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"resources" : { "gold" : 1500 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"heroExperience" : 1000,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"resources" : { "gold" : 1000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"heroExperience" : 500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 95 },
+						"message" : "{Lost Barrel}\n\nAfter scouring the area, you stumble upon a hidden barrel, containing the ancient artifact '%s'.",
+						"removeObject" : true,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					}
+				]
+			}
+		}
+	}
+}
