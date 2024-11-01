@@ -6,6 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 
+	"chinese" : {
+		"name" : "英雄无敌3数据补丁",
+		"description" : "修复改进一些死亡阴影图像和声音资源。"
+	},
 	"czech" : {
 		"name" : "Opravy a vylepšení",
 		"description" : "Opravy a vylepšení grafiky a zvuků pro některé herní prvky"

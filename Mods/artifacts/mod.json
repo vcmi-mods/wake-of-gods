@@ -30,6 +30,10 @@
 		"config/artifacts/goldTowerArrow.json",
 		"config/artifacts/monstersPower.json"
 	],
+	"chinese" : {
+		"name" : "宝物",
+		"description" : "这个模组启用WoG宝物。"
+	},
 	"czech" : {
 		"name" : "Artefakty",
 		"description" : "Tento modul aktivuje nové artefakty."

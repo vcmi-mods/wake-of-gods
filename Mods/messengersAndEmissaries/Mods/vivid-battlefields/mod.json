@@ -22,6 +22,10 @@
 		"config/messbattlefields"
 	],
 	
+	"chinese" : {
+		"name" : "丰富的战场 — 元素使者巢穴",
+		"description" : "为每个元素使者巢穴提供独一无二的战场。这是从ERA3迁移到VCMI的。"
+	},
 	"czech" : {
 		"name" : "Nová bojiště - obydlí poslů",
 		"description" : "Unikátní bojiště pro každé obydlí poslů. Port z ERA3 do VCMI."

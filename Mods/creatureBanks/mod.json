@@ -19,6 +19,10 @@
 		"config/creatureBanks/lostBottle.json"
 	],
 
+	"chinese" : {
+		"name" : "生物宝屋",
+		"description" : "这个模组启用新生物宝屋。"
+	},
 	"czech" : {
 		"name" : "Nová obydlí",
 		"description" : "Tento modul aktivuje nové obydlí jednotek"

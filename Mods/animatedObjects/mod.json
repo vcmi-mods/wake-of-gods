@@ -6,6 +6,11 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	
+	"chinese" : {
+		"name" : "旗帜动画",
+		"description" : "这个模组在野外巢穴和矿井中启用旗帜动画。"
+	},
+	
 	"czech" : {
 		"name" : "Animované vlajky",
 		"description" : "Tento modul aktivuje vlající vlajky u obydlí a dolů."

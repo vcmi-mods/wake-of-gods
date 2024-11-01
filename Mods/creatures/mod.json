@@ -6,6 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 
+	"chinese" : {
+		"name" : "生物",
+		"description" : "这个模组启用新生物。"
+	},
 	"czech" : {
 		"name" : "Nové jednotky",
 		"description" : "Tento modul aktivuje nové jednotky"

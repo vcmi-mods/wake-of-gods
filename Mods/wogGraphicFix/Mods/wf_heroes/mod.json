@@ -5,7 +5,11 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	
+
+	"chinese" : {
+		"name" : "英雄补丁",
+		"description" : "SoD/WoG英雄的新图像。"
+	},
 	"czech" : {
 		"name" : "Opravení hrdinové",
 		"description" : "Nová grafika pro hrdiny z SoD/WoG."
