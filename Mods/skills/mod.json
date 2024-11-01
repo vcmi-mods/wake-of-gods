@@ -14,6 +14,10 @@
 		"config/skills/ballisticsGoldTowerArrow.json"
 	],
 	
+	"chinese" : {
+		"name" : "技能",
+		"description" : "这个模组启用新技能。"
+	},
 	"czech" : {
 		"name" : "Dovednosti",
 		"description" : "Tento modul aktivuje nové dovednosti."

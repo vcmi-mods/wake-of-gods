@@ -21,6 +21,10 @@
 	[
 		"config/wogbattlefields"
 	],
+	"chinese" : {
+		"name" : "丰富的战场 - WoG野外巢穴",
+		"description" : "为每个WoG的野外巢穴提供独一无二的战场。这是从ERA3迁移到VCMI的。"
+	},
 	"czech" : {
 		"name" : "Živá bojiště",
 		"description" : "Unikátní bojiště pro každé obydlí. Port z ERA3 do VCMI."

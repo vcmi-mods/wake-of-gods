@@ -18,6 +18,10 @@
 	{
 		"min" : "1.2.0"
 	},
+	"chinese" : {
+		"name" : "WoG图像修复",
+		"description" : "SoD/WoG地图物体的新图像。"
+	},
 	"czech" : {
 		"name" : "Oprava grafiky",
 		"description" : "Nová grafika pro objekty na mapě."

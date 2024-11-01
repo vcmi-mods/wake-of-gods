@@ -1,0 +1,11 @@
+{
+	"mapObject.core.creatureGeneratorCommon.behemothCrag.name" : "比蒙崖",
+	"mapObject.core.creatureGeneratorCommon.cyclopsCave.name" : "独眼洞穴",
+	"mapObject.wake-of-gods.creatures.creatureGeneratorCommon.hellRift.name" : "地狱间隙",
+	"mapObject.wake-of-gods.creatures.creatureGeneratorCommon.vastCavern.name" : "巨大山洞",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name" : "传奇图书馆",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name" : "魔法神庙",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name" : "战神宫殿",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name" : "平静之墙",
+	"object.core.shrineOfMagicLevel1.name" : "初级魔法圣殿"
+}

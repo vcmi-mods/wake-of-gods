@@ -22,6 +22,10 @@
 		"config/8thbattlefields"
 	],
 	
+	"chinese" : {
+		"name" : "丰富的战场——8级生物巢穴",
+		"description" : "为每个8级生物巢穴提供独一无二的战场。这是从ERA3移植到VCMI。"
+	},
 	"czech" : {
 		"name" : "Nová bojiště - obydlí 8. úrovně",
 		"description" : "Unikátní bojiště pro každé obydlí 8. úrovně. Port z ERA3 do VCMI."

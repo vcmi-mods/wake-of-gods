@@ -6,6 +6,11 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 
+	"chinese" : {
+		"name" : "树木动画",
+		"description" : "这个模组在冒险地图上启用树木动画。"
+	},
+	
 	"czech" : {
 		"name" : "Animované stromy",
 		"description" : "Tento modul aktivuje animované stromy na mapě dobrodružství."

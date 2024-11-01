@@ -9,6 +9,10 @@
 	[
 		"config/warMachinesArts.json"
 	],
+	"chinese" : {
+		"name" : "地图上的战争机器",
+		"description" : "这个模组允许战争机器和魔法书在冒险地图上生成。"
+	},
 	"czech" : {
 		"name" : "Válečné stroje na mapě",
 		"description" : "Tento modul aktivuje objevení válečných strojů a knihy kouzel na mapě dobrodružství"

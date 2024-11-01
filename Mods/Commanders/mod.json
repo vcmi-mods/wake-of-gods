@@ -6,6 +6,14 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	
+	"chinese" : {
+		"name" : "指挥官",
+		"description" : "这个模组启用WoG的指挥官功能",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/chinese.json"
+		]
+	},
+	
 	"czech" : {
 		"name" : "Velitelé",
 		"description" : "Tento modul aktivuje funkci velitelů",

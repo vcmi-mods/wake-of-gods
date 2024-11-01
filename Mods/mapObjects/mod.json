@@ -12,7 +12,11 @@
 		"config/mapObjects/mushrooms.json",
 		"config/mapObjects/sphinx.json"
 	],
-
+	
+	"chinese" : {
+		"name" : "地图物体",
+		"description" : "这个模组启用新地图物体。"
+	},
 	"czech" : {
 		"name" : "Objekty na mapě",
 		"description" : "Tento modul aktivuje nové objekty na mapě."

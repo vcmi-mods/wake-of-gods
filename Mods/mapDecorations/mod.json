@@ -6,6 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	
+	"chinese" : {
+		"name" : "地图装饰",
+		"description" : "这个模组启用新地图装饰。"
+	},
 	"czech" : {
 		"name" : "Dekorace map",
 		"description" : "Tento modul aktivuje nové dekorace map."

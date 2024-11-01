@@ -6,6 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 
+	"chinese" : {
+		"name" : "元素使者和神使单位",
+		"description" : "为WoG添加元素使者和神使单位。"
+	},
 	"czech" : {
 		"name" : "Jednotky poslů",
 		"description" : "Přidává jednotky nové jednotky poslů"

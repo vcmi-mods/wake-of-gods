@@ -17,6 +17,10 @@
 		"config/creatures/redDragonClone.json"
 	],
 	
+	"chinese" : {
+		"name" : "法术",
+		"description" : "这个模组启用新法术。"
+	},
 	"czech" : {
 		"name" : "Kouzla",
 		"description" : "Tento modul aktivuje nové kouzla."

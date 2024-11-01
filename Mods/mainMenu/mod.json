@@ -6,6 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	
+	"chinese" : {
+		"name" : "主菜单主题",
+		"description" : "将主菜单主题修改为WoG曾用的一个。"
+	},
 	"czech" : {
 		"name" : "Vzhled hlavního menu",
 		"description" : "Mění vzhled hlavního menu na ikonické menu In The Wake of Gods."
