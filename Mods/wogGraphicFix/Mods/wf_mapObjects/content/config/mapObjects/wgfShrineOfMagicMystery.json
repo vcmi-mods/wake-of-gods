@@ -46,10 +46,10 @@
 							"@gainedSpell"
 						],
 						"description" : "@core.genrltxt.355",
-						"message" : [ 129, "%s." ] // You learn new spell
+						"message" : [ 129, "{%s}." ] // You learn new spell
 					}
 				],
-				"onVisitedMessage" : [ 129, "%s. ", 174 ], // You already known this spell
+				"onVisitedMessage" : [ 129, "{%s}. ", 174 ], // You already known this spell
 				"onEmpty" : [
 					{
 						"limiter" : {
@@ -59,10 +59,10 @@
 								}
 							]
 						},
-						"message" : [ 129, "%s. ", 130 ] // No Wisdom
+						"message" : [ 129, "{%s}. ", 130 ] // No Wisdom
 					},
 					{
-						"message" : [ 129, "%s. ", 131 ] // No spellbook
+						"message" : [ 129, "{%s}. ", 131 ] // No spellbook
 					}
 				],
 				"templates" :
