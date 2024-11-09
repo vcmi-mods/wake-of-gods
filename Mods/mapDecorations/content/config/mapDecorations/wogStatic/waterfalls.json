@@ -3,24 +3,16 @@
 		"name" : "Waterfall",
 		"handler":"generic",
 		"types" : {
-			"zwfall01": {
+			"object": {
 				"templates" : {
 					"zwfall01" : {
 						"animation" : "objects/zwfall01.def",
 						"mask" : [ "VBBVV", "VBBBV", "VVVBV", "VVVVV" ]
-					}
-				}
-			},
-			"zwfall02": {
-				"templates" : {
+					},
 					"zwfall02" : {
 						"animation" : "objects/zwfall02.def",
 						"mask" : [ "VVVBV", "VBBBB", "VBBVV", "VVVVV" ]
-					}
-				}
-			},
-			"zwfall03": {
-				"templates" : {
+					},
 					"zwfall03" : {
 						"animation" : "objects/zwfall03.def",
 						"mask" : [ "VVVVV", "VVBVV", "VVVVV" ]

@@ -3,63 +3,41 @@
 		"name" : "Vortex",
 		"handler":"generic",
 		"types" : {
-			"z358o11": {
+			"object": {
+				"base":
+				{
+					"mask" : [ "VVVV", "VBAV", "VVVV" ]
+				},
 				"templates" : {
 					"z358o11" : {
 						"animation" : "objects/z358o11.def",
 						"allowedTerrains": [ "dirt" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VBAV", "VVVV" ]
-					}
-				}
-			},
-			"z358o12": {
-				"templates" : {
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
 					"z358o12" : {
 						"animation" : "objects/z358o12.def",
 						"allowedTerrains": [ "sand" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VBAV", "VVVV" ]
-					}
-				}
-			},
-			"z358o13": {
-				"templates" : {
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
 					"z358o13" : {
 						"animation" : "objects/z358o13.def",
 						"allowedTerrains": [ "grass" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VBAV", "VVVV" ]
-					}
-				}
-			},
-			"z358o14": {
-				"templates" : {
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
 					"z358o14" : {
 						"animation" : "objects/z358o14.def",
 						"allowedTerrains": [ "snow" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VBAV", "VVVV" ]
-					}
-				}
-			},
-			"z358o15": {
-				"templates" : {
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
 					"z358o15" : {
 						"animation" : "objects/z358o15.def",
 						"allowedTerrains": [ "lava" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VBAV", "VVVV" ]
-					}
-				}
-			},
-			"z358o16": {
-				"templates" : {
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
 					"z358o16" : {
 						"animation" : "objects/z358o16.def",
 						"allowedTerrains": [ "swamp" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VBAV", "VVVV" ]
+						"visitableFrom" : [ "+++", "+++", "+++" ]
 					}
 				}
 			}

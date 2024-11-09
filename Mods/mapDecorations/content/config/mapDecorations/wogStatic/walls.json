@@ -3,40 +3,24 @@
 		"name" : "Wall",
 		"handler":"generic",
 		"types" : {
-			"wall1": {
+			"object": {
 				"templates" : {
 					"wall1" : {
 						"animation" : "objects/wall1.def",
 						"mask" : [ "VVB", "BBB", "BVV" ]
-					}
-				}
-			},
-			"wall2": {
-				"templates" : {
+					},
 					"wall2" : {
 						"animation" : "objects/wall2.def",
 						"mask" : [ "BVV", "BBB", "VVB" ]
-					}
-				}
-			},
-			"zwall001": {
-				"templates" : {
+					},
 					"zwall001" : {
 						"animation" : "objects/zwall001.def",
 						"mask" : [ "VVVV", "VBBB", "VVVV" ]
-					}
-				}
-			},
-			"zwall002": {
-				"templates" : {
+					},
 					"zwall002" : {
 						"animation" : "objects/zwall002.def",
 						"mask" : [ "VVV", "VBV", "BBV" ]
-					}
-				}
-			},
-			"zwall003": {
-				"templates" : {
+					},
 					"zwall003" : {
 						"animation" : "objects/zwall003.def",
 						"mask" : [ "VVV", "VBV", "VBB" ]

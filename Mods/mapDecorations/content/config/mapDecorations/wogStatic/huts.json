@@ -3,21 +3,19 @@
 		"name" : "Hut",
 		"handler":"generic",
 		"types" : {
-			"zyzop1" : {			
-				"templates" : {		
+			"object": {
+				"base": 
+				{
+					"mask" : [ "VVV", "VVV", "VAV" ]
+				},
+				"templates" : {
 					"zyzop1" : {
 						"animation" : "objects/zyzop1.def",
-						"visitableFrom" : [ "---", "---", "++-" ],
-						"mask" : [ "VVV", "VVV", "VAV" ]
-					}
-				}
-			},
-			"zyzop2" : {			
-				"templates" : {		
+						"visitableFrom" : [ "---", "---", "++-" ]
+					},
 					"zyzop2" : {
 						"animation" : "objects/zyzop2.def",
 						"visitableFrom" : [ "---", "---", "-++" ]
-						"mask" : [ "VVV", "VVV", "VAV" ]
 					}
 				}
 			}

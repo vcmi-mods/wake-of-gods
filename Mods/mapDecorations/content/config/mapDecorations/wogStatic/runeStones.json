@@ -3,40 +3,24 @@
 		"name" : "Rune Stone",
 		"handler":"generic",
 		"types" : {
-			"zdec0001": {
+			"object": {
 				"templates" : {
 					"zdec0001" : {
 						"animation" : "objects/zdec0001.def",
 						"mask": [ "VV", "VB" ]
-					}
-				}
-			},
-			"zdec1001": {
-				"templates" : {
+					},
 					"zdec1001" : {
 						"animation" : "objects/zdec1001.def",
 						"mask": [ "VV", "VB" ]
-					}
-				}
-			},
-			"zdec0005": {
-				"templates" : {
+					},
 					"zdec0005" : {
 						"animation" : "objects/zdec0005.def",
 						"mask": [ "VV", "VB" ]
-					}
-				}
-			},
-			"zdec0007": {
-				"templates" : {
+					},
 					"zdec0007" : {
 						"animation" : "objects/zdec0007.def",
 						"mask": [ "VV", "VB" ]
-					}
-				}
-			},
-			"zdec0008": {
-				"templates" : {
+					},
 					"zdec0008" : {
 						"animation" : "objects/zdec0008.def",
 						"mask": [ "VV", "BB" ],

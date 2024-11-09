@@ -3,19 +3,15 @@
 		"name" : "Fire",
 		"handler":"generic",
 		"types" : {
-			"zflame1": {
+			"object": {
 				"templates" : {
 					"zflame1" : {
 						"animation" : "objects/zflame1.def",
 						"mask" : [ "VVV" ]
-					}
-				}
-			},
-			"zzzz": {
-				"templates" : {
+					},
 					"zzzz" : {
 						"animation" : "objects/zzzz.def",
-						"mask" : [ "VVV" ]
+						"mask" : [ "VVVVVV" ]
 					}
 				}
 			}

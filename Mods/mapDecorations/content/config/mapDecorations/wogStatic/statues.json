@@ -3,35 +3,23 @@
 		"name" : "Statue",
 		"handler":"generic",
 		"types" : {
-			"zdec0009": {
+			"object": {
 				"templates" : {
 					"zdec0009" : {
 						"animation" : "objects/zdec0009.def",
 						"mask": [ "VV", "VV", "BB" ],
 						"allowedTerrains" : [ "grass"]
-					}
-				}
-			},
-			"zdec0010": {
-				"templates" : {
+					},
 					"zdec0010" : {
 						"animation" : "objects/zdec0010.def",
 						"mask": [ "VVVV", "VVVV", "VVVV", "VVVV", "VVBV" ],
 						"allowedTerrains" : [ "rough" ]
-					}
-				}
-			},
-			"zdec0011": {
-				"templates" : {
+					},
 					"zdec0011" : {
 						"animation" : "objects/zdec0011.def",
 						"mask": [ "VVV", "VVV", "VVV", "VBV" ],
 						"allowedTerrains" : [ "dirt" ]
-					}
-				}
-			},
-			"zdec0012": {
-				"templates" : {
+					},
 					"zdec0012" : {
 						"animation" : "objects/zdec0012.def",
 						"mask": [ "VVVV", "VVVV", "BBBB", "VBBV" ],
