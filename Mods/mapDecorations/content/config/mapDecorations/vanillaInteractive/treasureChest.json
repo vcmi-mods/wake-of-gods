@@ -1,28 +1,289 @@
 {
 	"core:treasureChest" : {
 		"types" : {
-			"treasureChest" : {
+			"zchst1" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 1000
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"blockedVisitable" : true,
+				"onSelectMessage" : 146,
+				"visitMode" : "unlimited",
+				"selectMode" : "selectPlayer",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 33 },
+						"resources" : { "gold" : 2000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "max" : 33 },
+						"heroExperience" : 1500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"resources" : { "gold" : 1500 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"heroExperience" : 1000,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"resources" : { "gold" : 1000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"heroExperience" : 500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 95 },
+						"message" : 145,
+						"removeObject" : true,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					}
+				],
 				"templates" : {
 					"zchst1" : {
 						"animation" : "objects/zchst1.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
+				}
+			},
+			"zchst2" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 1000
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"blockedVisitable" : true,
+				"onSelectMessage" : 146,
+				"visitMode" : "unlimited",
+				"selectMode" : "selectPlayer",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 33 },
+						"resources" : { "gold" : 2000 },
+						"removeObject" : true,
 					},
+					{
+						"appearChance" : { "max" : 33 },
+						"heroExperience" : 1500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"resources" : { "gold" : 1500 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"heroExperience" : 1000,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"resources" : { "gold" : 1000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"heroExperience" : 500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 95 },
+						"message" : 145,
+						"removeObject" : true,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					}
+				],
+				"templates" : {
 					"zchst2" : {
 						"animation" : "objects/zchst2.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
+				}
+			},	
+			"zchst3" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 1000
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"blockedVisitable" : true,
+				"onSelectMessage" : 146,
+				"visitMode" : "unlimited",
+				"selectMode" : "selectPlayer",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 33 },
+						"resources" : { "gold" : 2000 },
+						"removeObject" : true,
 					},
+					{
+						"appearChance" : { "max" : 33 },
+						"heroExperience" : 1500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"resources" : { "gold" : 1500 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"heroExperience" : 1000,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"resources" : { "gold" : 1000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"heroExperience" : 500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 95 },
+						"message" : 145,
+						"removeObject" : true,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					}
+				],
+				"templates" : {
 					"zchst3" : {
 						"animation" : "objects/zchst3.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
+				}
+			},
+			"zchst4" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 1000
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"blockedVisitable" : true,
+				"onSelectMessage" : 146,
+				"visitMode" : "unlimited",
+				"selectMode" : "selectPlayer",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 33 },
+						"resources" : { "gold" : 2000 },
+						"removeObject" : true,
 					},
+					{
+						"appearChance" : { "max" : 33 },
+						"heroExperience" : 1500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"resources" : { "gold" : 1500 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"heroExperience" : 1000,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"resources" : { "gold" : 1000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"heroExperience" : 500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 95 },
+						"message" : 145,
+						"removeObject" : true,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					}
+				],
+				"templates" : {
 					"zchst4" : {
 						"animation" : "objects/zchst4.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
+				}
+			},				
+			"zchst5" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 1000
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"blockedVisitable" : true,
+				"onSelectMessage" : 146,
+				"visitMode" : "unlimited",
+				"selectMode" : "selectPlayer",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 33 },
+						"resources" : { "gold" : 2000 },
+						"removeObject" : true,
 					},
+					{
+						"appearChance" : { "max" : 33 },
+						"heroExperience" : 1500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"resources" : { "gold" : 1500 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 33, "max" : 65 },
+						"heroExperience" : 1000,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"resources" : { "gold" : 1000 },
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 65, "max" : 95 },
+						"heroExperience" : 500,
+						"removeObject" : true,
+					},
+					{
+						"appearChance" : { "min" : 95 },
+						"message" : 145,
+						"removeObject" : true,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					}
+				],
+				"templates" : {
 					"zchst5" : {
 						"animation" : "objects/zchst5.def",
 						"mask" : [ "VA" ],

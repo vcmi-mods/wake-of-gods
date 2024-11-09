@@ -1,0 +1,65 @@
+{
+	"wake-of-gods.commanders:paladin1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm174n"
+		}
+	},
+	"wake-of-gods.commanders:hierophant1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm175n"
+		}
+	},
+	"wake-of-gods.commanders:templeGuardian1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm176n"
+		}
+	},
+	"wake-of-gods.commanders:succubus1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm177n"
+		}
+	},
+	"wake-of-gods.commanders:soulEater1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm178n"
+		}
+	},
+	"wake-of-gods.commanders:brute1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm179n"
+		}
+	},
+	"wake-of-gods.commanders:ogreLeader1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm180n"
+		}
+	},
+	"wake-of-gods.commanders:shaman1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm181n"
+		}
+	},
+	"wake-of-gods.commanders:astralSpirit1" :
+	{
+		"graphics" :
+		{
+			"map" : "commanders/zmm182n"
+		}
+	}
+}

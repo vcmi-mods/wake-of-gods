@@ -1,7 +1,50 @@
 {
 	"core:idolOfFortune" : {
 		"types" : {
-			"idolOfFortune" : {
+			"wogIdolOfFortune" : {
+				"aiValue" : 100,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 100
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+				"onVisitedMessage" : 63,
+				"description" : "@core.xtrainfo.22",
+				"visitMode" : "bonus",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"message" : 62,
+						"limiter" : { 
+							"anyOf" : [
+								{ "dayOfWeek" : 1 },
+								{ "dayOfWeek" : 3 },
+								{ "dayOfWeek" : 5 }
+							]
+						},
+						"bonuses" : [ { "type" : "LUCK", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 } ]
+					},
+					{
+						"message" : 62,
+						"limiter" : { 
+							"anyOf" : [
+								{ "dayOfWeek" : 2 },
+								{ "dayOfWeek" : 4 },
+								{ "dayOfWeek" : 6 }
+							]
+						},
+						"bonuses" : [ { "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 } ]
+					},
+					{
+						"message" : 62,
+						"limiter" : { "dayOfWeek" : 7 },
+						"bonuses" : [ 
+							{ "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 },
+							{ "type" : "LUCK", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 }  
+						]
+					}
+				],
 				"templates" : {
 					"z358o2" : {
 						"animation" : "objects/z358o2.def",

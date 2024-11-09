@@ -1,7 +1,24 @@
 {
 	"core:learningStone" : {
 		"types" : {
-			"learningStone" : {
+			"wogLearningStone" : {
+				"aiValue" : 1500,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 200
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"onVisitedMessage" : 144,
+				"description" : "@core.xtrainfo.5",
+				"visitMode" : "hero",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"message" : 143,
+						"heroExperience" : 1000
+					}
+				],
 				"templates" : {
 					"z358o1" : {
 						"animation" : "objects/z358o1.def",

@@ -21,6 +21,7 @@
 		"config/mapDecorations/vanillaStatic/lavaLake.json",
 		"config/mapDecorations/vanillaStatic/log.json",
 		"config/mapDecorations/vanillaStatic/volcano.json",
+		"config/mapDecorations/vanillaStatic/reefs.json",
 
 		"config/mapDecorations/vanillaInteractive/campfire.json",
 		"config/mapDecorations/vanillaInteractive/denOfThieves.json",
@@ -59,9 +60,9 @@
 		"config/mapDecorations/wogStatic/vortex.json",
 		"config/mapDecorations/wogStatic/walls.json",
 		"config/mapDecorations/wogStatic/waterfalls.json",
-
-		"config/mapDecorations/wogInteractive/blackMarket.json",
-		"config/mapDecorations/wogInteractive/gnollhHut.json",
+		"config/mapDecorations/wogStatic/mithril.json",
+		
+//		"config/mapDecorations/wogInteractive/gnollhHut.json",
 
 		"config/mapDecorations/buildingsWoG.json"
 	]

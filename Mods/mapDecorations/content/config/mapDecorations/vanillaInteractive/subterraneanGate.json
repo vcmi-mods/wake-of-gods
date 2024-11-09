@@ -1,7 +1,7 @@
 {
-		"core:subterraneanGate" : {
+	"core:subterraneanGate" : {
 		"types" : {
-			"object" : {
+			"wogSubterraneanGate" : {
 				"templates" : {
 					"z358o5" : {
 						"animation" : "objects/z358o5.def",

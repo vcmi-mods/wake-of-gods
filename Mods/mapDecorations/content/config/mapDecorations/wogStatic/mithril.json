@@ -1,0 +1,17 @@
+{
+	"mithril" : {
+		"name" : "Mithril (does nothing yet)",
+		"handler": "generic",
+		"types" : {
+			"mithril": {
+				"templates" : {
+					"zmithr" : {
+						"animation" : "objects/zmithr.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}
