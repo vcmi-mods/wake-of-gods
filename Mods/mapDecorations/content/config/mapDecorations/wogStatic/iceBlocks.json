@@ -1,5 +1,5 @@
 {
-	"iceBlockWoG" : {
+	"zdec0002" : {
 		"name" : "Ice blocks",
 		"handler":"static",
 		"types" : {
@@ -11,7 +11,13 @@
 						"allowedTerrains": [ "snow" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0003" : {
+		"name" : "Ice blocks",
+		"handler":"static",
+		"types" : {
 			"zdec0003": {
 				"templates" : {
 					"zdec0003" : {
@@ -20,7 +26,13 @@
 						"allowedTerrains": [ "snow" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0004" : {
+		"name" : "Ice blocks",
+		"handler":"static",
+		"types" : {
 			"zdec0004": {
 				"templates" : {
 					"zdec0004" : {

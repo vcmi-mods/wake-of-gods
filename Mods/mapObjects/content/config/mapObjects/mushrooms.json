@@ -1,6 +1,6 @@
 {
 	//Every object has to have different ID, otherwise game will recognize the hero already has a bonus from this ID
-	"watermagicMushroom" :
+	"waterMagicMushroom" :
 	{
 		"name" : "Water Magic Mushroom",
 		"handler": "configurable",

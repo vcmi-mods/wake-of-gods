@@ -1,5 +1,5 @@
 {
-	"firesWoG" : {
+	"zflame1" : {
 		"name" : "Fire",
 		"handler":"generic",
 		"types" : {
@@ -10,7 +10,13 @@
 						"mask" : [ "VVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zzzz" : {
+		"name" : "Fire",
+		"handler":"generic",
+		"types" : {
 			"zzzz": {
 				"templates" : {
 					"zzzz" : {

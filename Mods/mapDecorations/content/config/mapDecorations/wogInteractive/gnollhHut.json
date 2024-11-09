@@ -1,13 +1,13 @@
 {
-	"gnollhHutWoG"	: {
+	"avGnoll"	: {
 		"name" : "Gnoll Hut",
 		"handler":"static",
 		"types" : {
-			"object" : {
+			"avGnoll" : {
 				"templates" : {
 					"AvGnoll" : {
 						"animation" : "AvGnoll",
-//						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ],
 						"mask" : [ "VBV","VBV" ],
 						"allowedTerrains": [ "swamp" ]
 					}

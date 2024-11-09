@@ -1,9 +1,9 @@
 {
-	"blackMarketWoG" : {
-		"name" : "Unused Black Market",
+	"marketOfTimeoG" : {
+		"name" : "Market Of Time",
 		"handler":"generic",
 		"types" : {
-			"object" : {
+			"marketOfTimeWoG" : {
 				"templates" : {
 					"AVXMKTT0" : {
 						"animation" : "AVXMKTT0",

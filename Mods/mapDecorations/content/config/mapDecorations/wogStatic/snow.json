@@ -1,9 +1,9 @@
 {
-	"snowWoG" : {
+	"zsnow001" : {
 		"name" : "Snow",
 		"handler":"static",
 		"types" : {
-			"object": {
+			"zsnow001": {
 				"templates" : {
 					"zsnow001" : {
 						"animation" : "objects/zsnow001.def",

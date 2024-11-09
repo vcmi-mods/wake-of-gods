@@ -1,5 +1,5 @@
 {
-	"waterfallsWoG" : {
+	"zwfall01" : {
 		"name" : "Waterfall",
 		"handler":"generic",
 		"types" : {
@@ -10,7 +10,13 @@
 						"mask" : [ "VBBVV", "VBBBV", "VVVBV", "VVVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zwfall02" : {
+		"name" : "Waterfall",
+		"handler":"generic",
+		"types" : {
 			"zwfall02": {
 				"templates" : {
 					"zwfall02" : {
@@ -18,7 +24,13 @@
 						"mask" : [ "VVVBV", "VBBBB", "VBBVV", "VVVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zwfall03" : {
+		"name" : "Waterfall",
+		"handler":"generic",
+		"types" : {
 			"zwfall03": {
 				"templates" : {
 					"zwfall03" : {

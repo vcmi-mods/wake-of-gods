@@ -1,5 +1,5 @@
 {
-	"hutsWoG" : {
+	"zyzop1" : {
 		"name" : "Hut",
 		"handler":"generic",
 		"types" : {
@@ -11,12 +11,18 @@
 						"mask" : [ "VVV", "VVV", "VAV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zyzop2" : {
+		"name" : "Hut",
+		"handler":"generic",
+		"types" : {
 			"zyzop2" : {			
 				"templates" : {		
 					"zyzop2" : {
 						"animation" : "objects/zyzop2.def",
-						"visitableFrom" : [ "---", "---", "-++" ]
+						"visitableFrom" : [ "---", "---", "-++" ],
 						"mask" : [ "VVV", "VVV", "VAV" ]
 					}
 				}

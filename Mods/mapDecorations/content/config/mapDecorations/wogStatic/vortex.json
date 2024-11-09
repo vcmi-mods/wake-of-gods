@@ -1,5 +1,5 @@
 {
-	"vortexWoG" : {
+	"z358o11" : {
 		"name" : "Vortex",
 		"handler":"generic",
 		"types" : {
@@ -12,7 +12,13 @@
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o12" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
 			"z358o12": {
 				"templates" : {
 					"z358o12" : {
@@ -22,7 +28,13 @@
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o13" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
 			"z358o13": {
 				"templates" : {
 					"z358o13" : {
@@ -32,7 +44,13 @@
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o14" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
 			"z358o14": {
 				"templates" : {
 					"z358o14" : {
@@ -42,7 +60,13 @@
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o15" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
 			"z358o15": {
 				"templates" : {
 					"z358o15" : {
@@ -52,7 +76,13 @@
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o16" : {
+		"name" : "Vortex",
+		"handler":"generic",
+		"types" : {
 			"z358o16": {
 				"templates" : {
 					"z358o16" : {

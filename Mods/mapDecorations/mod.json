@@ -60,8 +60,8 @@
 		"config/mapDecorations/wogStatic/walls.json",
 		"config/mapDecorations/wogStatic/waterfalls.json",
 
-		"config/mapDecorations/wogInteractive/blackMarket.json",
-		"config/mapDecorations/wogInteractive/gnollhHut.json",
+//		"config/mapDecorations/wogInteractive/blackMarket.json",
+//		"config/mapDecorations/wogInteractive/gnollhHut.json",
 
 		"config/mapDecorations/buildingsWoG.json"
 	]

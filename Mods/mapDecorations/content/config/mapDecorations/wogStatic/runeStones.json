@@ -1,5 +1,5 @@
 {
-	"runeStonesWoG" : {
+	"zdec0001" : {
 		"name" : "Rune Stone",
 		"handler":"generic",
 		"types" : {
@@ -10,7 +10,13 @@
 						"mask": [ "VV", "VB" ]
 					}
 				}
-			},
+			}
+		}
+	},		
+	"zdec1001" : {
+		"name" : "Rune Stone",
+		"handler":"generic",
+		"types" : {
 			"zdec1001": {
 				"templates" : {
 					"zdec1001" : {
@@ -18,7 +24,13 @@
 						"mask": [ "VV", "VB" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0005" : {
+		"name" : "Rune Stone",
+		"handler":"generic",
+		"types" : {
 			"zdec0005": {
 				"templates" : {
 					"zdec0005" : {
@@ -26,7 +38,13 @@
 						"mask": [ "VV", "VB" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0007" : {
+		"name" : "Rune Stone",
+		"handler":"generic",
+		"types" : {
 			"zdec0007": {
 				"templates" : {
 					"zdec0007" : {
@@ -34,8 +52,15 @@
 						"mask": [ "VV", "VB" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0008" : {
+		"name" : "Rune Stone",
+		"handler":"generic",
+		"types" : {
 			"zdec0008": {
+				"name" : "Rune Stone",
 				"templates" : {
 					"zdec0008" : {
 						"animation" : "objects/zdec0008.def",

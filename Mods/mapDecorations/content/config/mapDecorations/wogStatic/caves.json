@@ -1,6 +1,6 @@
 {
-	"cavesWoG" : {
-		"name" : "Cave",
+	"zcave1" : {
+		"name" : "Adventure Cave",
 		"handler":"generic",
 		"types" : {
 			"zcave1": {
@@ -11,7 +11,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zcave2" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
 			"zcave2": {
 				"templates" : {
 					"zcave2" : {
@@ -20,7 +26,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zcave3" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
 			"zcave3": {
 				"templates" : {
 					"zcave3" : {
@@ -29,7 +41,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zcave4" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
 			"zcave4": {
 				"templates" : {
 					"zcave4" : {
@@ -38,7 +56,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zcave5" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
 			"zcave5": {
 				"templates" : {
 					"zcave5" : {
@@ -47,7 +71,13 @@
 						"visitableFrom" : [ "---", "+--", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o9" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
 			"z358o9": {
 				"templates" : {
 					"z358o9" : {
@@ -56,7 +86,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"z358o10" : {
+		"name" : "Cave",
+		"handler":"generic",
+		"types" : {
 			"z358o10": {
 				"templates" : {
 					"z358o10" : {

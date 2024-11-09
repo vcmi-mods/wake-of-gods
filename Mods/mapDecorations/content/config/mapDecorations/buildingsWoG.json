@@ -1,8 +1,68 @@
 {
-	"buildingsWoG" : {
-		"name" : "Building",
-		"handler":"generic",
+	"opalOfMagic" : {	
+		"name": "Opal of Magic (doesn't work yet)",
+		"handler": "generic",
 		"types" : {
+			"opalOfMagic": {
+				"templates" : {		
+					"zcbon000" : {
+						"animation" : "objects/zcbon000.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				}
+			}
+		}
+	},
+	"rubyOfOffence" :{	
+		"name": "Ruby of Offence (doesn't work yet)",
+		"handler": "generic",
+		"types" : {
+			"rubyOfOffence" : {		
+				"templates" : {		
+					"zcbon001" : {
+						"animation" : "objects/zcbon001.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				}
+			}
+		}
+	},
+	"sapphireOfDefense" :{	
+		"name" : "Sapphire of Defence (doesn't work yet)",	
+		"handler": "generic",
+		"types" : {
+			"sapphireOfDefense" : {				
+				"templates" : {		
+					"zcbon002" : {
+						"animation" : "objects/zcbon002.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				}
+			}
+		}
+	},
+	"crystalOfEmerald" :{	
+		"name" : "Crystal of Emerald (doesn't work yet)",	
+		"handler": "generic",
+		"types" : {
+			"crystalOfEmerald" : {
+				"templates" : {		
+					"zcbon003" : {
+						"animation" : "objects/zcbon003.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				}
+			}
+		}
+	},
+	"zobj001" :{	
+		"name": "Mysterious Creature Dwelling (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj001" : {			
 				"templates" : {		
 					"zobj001" : {
@@ -11,7 +71,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj002" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj002" : {			
 				"templates" : {		
 					"zobj002" : {
@@ -20,7 +86,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj003" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj003" : {			
 				"templates" : {		
 					"zobj003" : {
@@ -29,7 +101,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},	
+	"zobj004" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj004" : {			
 				"templates" : {		
 					"zobj004" : {
@@ -38,7 +116,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj005" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj005" : {			
 				"templates" : {		
 					"zobj005" : {
@@ -47,7 +131,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj006" :{	
+		"name": "Junk Merchant (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj006" : {			
 				"templates" : {		
 					"zobj006" : {
@@ -56,7 +146,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj007" :{	
+		"name": "Arcane Tower (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj007" : {			
 				"templates" : {		
 					"zobj007" : {
@@ -65,7 +161,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj009" :{	
+		"name": "Death Chamber (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj009" : {			
 				"templates" : {		
 					"zobj009" : {
@@ -74,7 +176,13 @@
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj010" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj010" : {			
 				"templates" : {		
 					"zobj010" : {
@@ -83,7 +191,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj011" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj011" : {			
 				"templates" : {		
 					"zobj011" : {
@@ -92,7 +206,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj013" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj013" : {			
 				"templates" : {		
 					"zobj013" : {
@@ -101,7 +221,13 @@
 						"visitableFrom" : [ "---", "++-", "++-" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj014" :{	
+		"name": "Altar of Transformation (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj014" : {			
 				"templates" : {		
 					"zobj014" : {
@@ -110,7 +236,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj015" :{	
+		"name": "Summoning Stones (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj015" : {			
 				"templates" : {		
 					"zobj015" : {
@@ -119,7 +251,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj016" :{	
+		"name": "Forgotten Shrine (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj016" : {			
 				"templates" : {		
 					"zobj016" : {
@@ -128,7 +266,13 @@
 						"visitableFrom" : [ "+++", "+++", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj019" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj019" : {			
 				"templates" : {		
 					"zobj019" : {
@@ -143,7 +287,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},			
+			}
+		}
+	},
+	"zobj020" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {				
 			"zobj020" : {			
 				"templates" : {		
 					"zobj020" : {
@@ -158,7 +308,13 @@
 						"visitableFrom" : [ "---", "-+-", "++-" ]
 					}
 				}
-			},
+			}
+		}
+	},	
+	"zobj021" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj021" : {			
 				"templates" : {		
 					"zobj021" : {
@@ -167,7 +323,13 @@
 						"visitableFrom" : [ "+-+", "+++", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj022" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj022" : {			
 				"templates" : {		
 					"zobj022" : {
@@ -176,7 +338,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj024" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj024" : {			
 				"templates" : {		
 					"zobj024" : {
@@ -185,7 +353,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj025" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj025" : {			
 				"templates" : {		
 					"zobj025" : {
@@ -194,7 +368,13 @@
 						"visitableFrom" : [ "---", "---", "-++" ]
 					}
 				}
-			},
+			}
+		}
+	},			
+	"zobj026" :{	
+		"name": "Battle Academy (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj026" : {			
 				"templates" : {		
 					"zobj026" : {
@@ -203,7 +383,13 @@
 						"visitableFrom" : [ "---", "---", "-++" ]
 					}
 				}
-			},
+			}
+		}
+	},			
+	"zobj027" :{	
+		"name": "Palace of Dreams (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj027" : {			
 				"templates" : {		
 					"zobj027" : {
@@ -212,7 +398,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},			
+	"zobj028" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj028" : {			
 				"templates" : {		
 					"zobj028" : {
@@ -221,7 +413,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj029" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj029" : {			
 				"templates" : {		
 					"zobj029" : {
@@ -230,7 +428,13 @@
 						"visitableFrom" : [ "---", "++-", "++-" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj030" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj030" : {			
 				"templates" : {		
 					"zobj030" : {
@@ -239,7 +443,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj031" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj031" : {			
 				"templates" : {		
 					"zobj031" : {
@@ -248,7 +458,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj032" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj032" : {			
 				"templates" : {		
 					"zobj032" : {
@@ -257,7 +473,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj033" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj033" : {			
 				"templates" : {		
 					"zobj033" : {
@@ -266,7 +488,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj034" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj034" : {			
 				"templates" : {		
 					"zobj034" : {
@@ -275,7 +503,13 @@
 						"visitableFrom" : [ "---", "++-", "++-" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj035" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj035" : {			
 				"templates" : {		
 					"zobj035" : {
@@ -284,7 +518,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj036" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj036" : {			
 				"templates" : {		
 					"zobj036" : {
@@ -293,7 +533,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj037" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj037" : {			
 				"templates" : {		
 					"zobj037" : {
@@ -302,7 +548,13 @@
 						"visitableFrom" : [ "---", "--+", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj038" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj038" : {			
 				"templates" : {		
 					"zobj038" : {
@@ -311,7 +563,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj039" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj039" : {			
 				"templates" : {		
 					"zobj039" : {
@@ -320,7 +578,13 @@
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj040" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj040" : {			
 				"templates" : {		
 					"zobj040" : {
@@ -329,7 +593,13 @@
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj041" :{	
+		"name": "Bank (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj041" : {			
 				"templates" : {		
 					"zobj041" : {
@@ -339,6 +609,12 @@
 					}
 				}
 			},
+		}
+	},
+	"zobj042" :{	
+		"name": "Valhalla's Fountain (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj042" : {			
 				"templates" : {		
 						"zobj042" : {
@@ -347,7 +623,13 @@
 						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
-			},			
+			}
+		}
+	},			
+	"zobj043" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {				
 			"zobj043" : {			
 				"templates" : {		
 					"zobj043" : {
@@ -356,43 +638,13 @@
 						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
-			},
-			"skull" : {
-				"templates" : {		
-					"skull" : {
-						"animation" : "objects/skull.def",
-						"mask" : [ "VVV", "VBV", "VAV" ],
-						"visitableFrom" : [ "---", "-+-", "+++" ]
-					}
-				}
-			},
-			"zartif1" : {			
-				"templates" : {		
-					"zartif1" : {
-						"animation" : "objects/zartif1.def",
-						"mask" : [ "VVVV", "BABV" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
-					}
-				}
-			},			
-			"zlwork1" : {			
-				"templates" : {		
-					"zlwork1" : {
-						"animation" : "objects/zlwork1.def",
-						"mask" : [ "VVVV", "VBAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
-					}
-				}
-			},
-			"zmark1" : {			
-				"templates" : {		
-					"zmark1" : {
-						"animation" : "objects/zmark1.def",
-						"mask" : [ "VVV", "VVV", "BAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
-					}
-				}
-			},			
+			}
+		}
+	},			
+	"zobj044" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {				
 			"zobj044" : {			
 				"templates" : {	
 					"zobj044" : {
@@ -401,7 +653,13 @@
 						"visitableFrom" : [ "---", "---", "-++" ],
 					}
 				}
-			},
+			}
+		}
+	},
+	"zobj049" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zobj049" : {			
 				"templates" : {		
 					"zobj049" : {
@@ -410,7 +668,13 @@
 						"visitableFrom" : [ "---", "+--", "+++" ]
 					}
 				}
-			},			
+			}
+		}
+	},
+	"zobj050" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {				
 			"zobj050" : {			
 				"templates" : {		
 					"zobj050" : {
@@ -419,16 +683,43 @@
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
-			},
-			"ztower1" : {			
+			}
+		}
+	},
+	"wogskull" : {	
+		"name": "Living Skull (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
+			"wogskull" : {
 				"templates" : {		
-					"ztower1" : {
-						"animation" : "objects/ztower1.def",
-						"mask" : [ "VVV", "VVV", "VVV",  "VVV", "VVV", "VBA" ],
+					"skull" : {
+						"animation" : "objects/skull.def",
+						"mask" : [ "VVV", "VBV", "VAV" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					}
+				}
+			}
+		}
+	},
+	"zartif1" :{	
+		"name": "Artificer (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
+			"zartif1" : {			
+				"templates" : {		
+					"zartif1" : {
+						"animation" : "objects/zartif1.def",
+						"mask" : [ "VVVV", "BABV" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zh4obj01" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zh4obj01" : {			
 				"templates" : {		
 					"zh4obj01" : {
@@ -437,7 +728,13 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zh4obj02" :{	
+		"name": "Venus's Blessing (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
 			"zh4obj02" : {	
 				"templates" : {
 					"zh4obj02" : {
@@ -446,80 +743,64 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},			
-			"TPTempl1" : {			
+			}
+		}
+	},
+	"zlwork1" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
+			"zlwork1" : {			
 				"templates" : {		
-					"TPTempl1" : { //no such graphic in map editor, but in .pac file
-						"animation" : "objects/TPTempl1.def",
-						"mask" : [ "VVVV", "VVBB", "VVBA" ],
-						"visitableFrom" : [ "---", "---", "-++" ]
+					"zlwork1" : {
+						"animation" : "objects/zlwork1.def",
+						"mask" : [ "VVVV", "VBAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
 			}
 		}
 	},
-
-	"commanderCystals" :{	
-		"name": "Commander Crystals",
+	"zmark1" :{	
+		"name": "Object (doesn't work yet)",
 		"handler": "generic",
-		"types" : {
-			"opalOfMagic": {
-				"name" : "Opal of Magic",
-				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 25,
-					"zoneLimit" : 1
-				},
+		"types" : {	
+			"zmark1" : {			
 				"templates" : {		
-					"zcbon000" : {
-						"animation" : "objects/zcbon000.def",
-						"mask" : [ "VV", "VA" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					"zmark1" : {
+						"animation" : "objects/zmark1.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
-			"rubyOfOffence" : {	
-				"name" : "Ruby of Offence",
-				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 25,
-					"zoneLimit" : 1
-				},			
+			}
+		}
+	},
+	"ztower1" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {	
+			"ztower1" : {			
 				"templates" : {		
-					"zcbon001" : {
-						"animation" : "objects/zcbon001.def",
-						"mask" : [ "VV", "VA" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					"ztower1" : {
+						"animation" : "objects/ztower1.def",
+						"mask" : [ "VVV", "VVV", "VVV",  "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				}
-			},
-			"sapphireOfDefense" : {		
-				"name" : "Sapphire of Defence",
-				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 25,
-					"zoneLimit" : 1
-				},				
+			}
+		}
+	},
+	"tptempl1" :{	
+		"name": "Object (doesn't work yet)",
+		"handler": "generic",
+		"types" : {				
+			"tptempl1" : {			
 				"templates" : {		
-					"zcbon002" : {
-						"animation" : "objects/zcbon002.def",
-						"mask" : [ "VV", "VA" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ]		
-					}
-				}
-			},
-			"crystalOfEmerald" : {	
-				"name" : "Crystal of Emerald",
-				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 25,
-					"zoneLimit" : 1
-				},				
-				"templates" : {		
-					"zcbon003" : {
-						"animation" : "objects/zcbon003.def",
-						"mask" : [ "VV", "VA" ],
-						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					"TPTempl1" : { //no such graphic in map editor, but in .pac file
+						"animation" : "objects/TPTempl1.def",
+						"mask" : [ "VVVV", "VVBB", "VVBA" ],
+						"visitableFrom" : [ "---", "---", "-++" ]
 					}
 				}
 			}

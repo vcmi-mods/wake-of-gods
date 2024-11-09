@@ -1,9 +1,9 @@
 {
-	"rainWoG" : {
+	"zrain00" : {
 		"name" : "Rain",
 		"handler":"static",
 		"types" : {
-			"object": {
+			"zrain00": {
 				"templates" : {
 					"zrain00" : {
 						"animation" : "objects/zrain00.def",

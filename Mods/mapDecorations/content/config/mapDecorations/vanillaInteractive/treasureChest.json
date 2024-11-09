@@ -1,28 +1,44 @@
 {
 	"core:treasureChest" : {
 		"types" : {
-			"treasureChest" : {
+			"zchst1" : {
 				"templates" : {
 					"zchst1" : {
 						"animation" : "objects/zchst1.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
-					},
+					}
+				}
+			},
+			"zchst2" : {
+				"templates" : {
 					"zchst2" : {
 						"animation" : "objects/zchst2.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
-					},
+					}
+				}
+			},	
+			"zchst3" : {
+				"templates" : {
 					"zchst3" : {
 						"animation" : "objects/zchst3.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
-					},
+					}
+				}
+			},
+			"zchst4" : {
+				"templates" : {
 					"zchst4" : {
 						"animation" : "objects/zchst4.def",
 						"mask" : [ "VA" ],
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
-					},
+					}
+				}
+			},				
+			"zchst5" : {
+				"templates" : {
 					"zchst5" : {
 						"animation" : "objects/zchst5.def",
 						"mask" : [ "VA" ],

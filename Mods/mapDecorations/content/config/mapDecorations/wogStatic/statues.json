@@ -1,9 +1,11 @@
 {
-	"statuesWoG" : {
+	"zdec0009" : {
 		"name" : "Statue",
 		"handler":"generic",
 		"types" : {
+			"name" : "Statue",
 			"zdec0009": {
+				"name" : "Statue",
 				"templates" : {
 					"zdec0009" : {
 						"animation" : "objects/zdec0009.def",
@@ -11,8 +13,16 @@
 						"allowedTerrains" : [ "grass"]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0010" : {
+		"name" : "Statue",
+		"handler":"generic",
+		"types" : {
+			"name" : "Statue",
 			"zdec0010": {
+				"name" : "Statue",
 				"templates" : {
 					"zdec0010" : {
 						"animation" : "objects/zdec0010.def",
@@ -20,8 +30,16 @@
 						"allowedTerrains" : [ "rough" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0011" : {
+		"name" : "Statue",
+		"handler":"generic",
+		"types" : {
+			"name" : "Statue",
 			"zdec0011": {
+				"name" : "Statue",
 				"templates" : {
 					"zdec0011" : {
 						"animation" : "objects/zdec0011.def",
@@ -29,9 +47,15 @@
 						"allowedTerrains" : [ "dirt" ]
 					}
 				}
-			},
+			}
+		}
+	},
+	"zdec0012" : {
+		"name" : "Statue",
+		"handler":"generic",
+		"types" : {
 			"zdec0012": {
-				"templates" : {
+				"templates" : {		
 					"zdec0012" : {
 						"animation" : "objects/zdec0012.def",
 						"mask": [ "VVVV", "VVVV", "BBBB", "VBBV" ],
