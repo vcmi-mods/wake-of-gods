@@ -3,7 +3,6 @@
 		"name" : "Statue",
 		"handler":"generic",
 		"types" : {
-			"name" : "Statue",
 			"zdec0009": {
 				"name" : "Statue",
 				"templates" : {
@@ -20,7 +19,6 @@
 		"name" : "Statue",
 		"handler":"generic",
 		"types" : {
-			"name" : "Statue",
 			"zdec0010": {
 				"name" : "Statue",
 				"templates" : {
@@ -37,7 +35,6 @@
 		"name" : "Statue",
 		"handler":"generic",
 		"types" : {
-			"name" : "Statue",
 			"zdec0011": {
 				"name" : "Statue",
 				"templates" : {

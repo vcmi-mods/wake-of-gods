@@ -222,6 +222,9 @@
 					"subterraneanGate" : {
 						"wogSubterraneanGate" : [103, 1]
 					},
+					"libraryOfEnlightenment" : {
+						"wogLibraryOfEnlightenment" : [41, 1]
+					},
 					"zrain00" : [40, 2],
 					"zsnow001" : [40, 0],						
 					"monolithTwoWay" : {
@@ -237,12 +240,12 @@
 					},
 //wog decorative objects
 //					"avGnoll"  : [40, 0], //gnoll hut from h3sprite
-					"zzzz" : 	 [40, 0],
-					"zflame1" :  [40, 0],
+					"zzzz" :	 [207, 1],
+					"zflame1" :	 [40, 0],
 					"zdec0002" : [40, 0],
 					"zdec0003" : [40, 0],
 					"zdec0004" : [40, 0],
-					"lavam" : 	 [40, 0],
+					"lavam" : 	 [40, 1],
 					"zdec0001" : [40, 0],
 					"zdec1001" : [40, 0],
 					"zdec0005" : [40, 0],
