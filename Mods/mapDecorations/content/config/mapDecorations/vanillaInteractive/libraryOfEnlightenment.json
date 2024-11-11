@@ -1,7 +1,7 @@
 {
 	"core:libraryOfEnlightenment" : {
 		"types" : {
-			"libraryOfEnlightenment" : {
+			"wogLibraryOfEnlightenment" : {
 				"templates" : {
 					"z358o3" : {
 						"animation" : "objects/z358o3.def",
