@@ -18,35 +18,12 @@
 					}
 				}
 			},
-			
 			"hellRift" : {
 				"name" : "Hell Rift",
 				"templates" : {
 					"small" : {
 						"animation" : "dwellings/zavg195b",
 						"mask" : [ "VVV", "VBA" ]
-					}
-				}
-			},
-			
-			"cyclopsCave": {
-				"name" : "Cyclops Cave",
-				"templates" : {
-					"rough" : {
-						"animation" : "dwellings/AVGcycl1",
-						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "rough" ]
-					}
-				}
-			},
-			
-			"behemothCrag": {
-				"name" : "Behemot Crag",
-				"templates" : {
-					"rough" : {
-						"animation" : "dwellings/avgbhmt1",
-						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "rough" ]
 					}
 				}
 			}

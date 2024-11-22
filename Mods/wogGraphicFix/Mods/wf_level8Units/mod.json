@@ -1,0 +1,17 @@
+{
+	"name" : "Patched Level 8 Units",
+	"description" : "New graphics for SoD/WoG level 8 units.",
+	"version" : "",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+	
+	"chinese" : {
+		"name" : "Patched Level 8 Units",
+		"description" : "New graphics for SoD/WoG level 8 units。"
+	},
+	"czech" : {
+		"name" : "Patched Level 8 Units",
+		"description" : "New graphics for SoD/WoG level 8 units."
+	}
+}
