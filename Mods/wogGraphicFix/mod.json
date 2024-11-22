@@ -7,7 +7,7 @@
 	"version" : "1.2.1",
 	"changelog" :
 	{
-		"1.2.1"   : [ "Czech translation by George King" ],
+		"1.2.2"   : [ "Split wf_creatures into independent submods" ],
 		"1.2.0"   : [ "Update based on Grossmaster's 2.18 version" ],
 		"1.1.2"   : [ "Update based on Grossmaster's 2.141 version" ],
 		"1.1.1"   : [ "Update based on Grossmaster's 2.14 version" ],

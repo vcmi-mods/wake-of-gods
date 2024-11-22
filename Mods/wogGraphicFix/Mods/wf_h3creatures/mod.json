@@ -1,6 +1,6 @@
 {
-	"name" : "Patched WoG Creatures",
-	"description" : "New graphics for WoG creatures.",
+	"name" : "Patched Creatures",
+	"description" : "New graphics for SoD creatures.",
 	"version" : "",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
@@ -8,10 +8,10 @@
 	
 	"chinese" : {
 		"name" : "生物补丁",
-		"description" : "SoD/WoG生物的新图像。"
+		"description" : "SoD生物的新图像。"
 	},
 	"czech" : {
 		"name" : "Opravené jednotky",
-		"description" : "Nová grafika pro jednotky z SoD/WoG."
+		"description" : "Nová grafika pro jednotky z SoD."
 	}
 }
