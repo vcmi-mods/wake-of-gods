@@ -1,0 +1,15 @@
+{
+	"name" : "Hero movement arrow",
+	"description" : "Hero movement arrow",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+	"version" : "",
+
+	"czech" : {
+		"name" : "Ukazatel pohybu hrdiny",
+		"description" : "Ukazatel pohybu hrdiny"
+	}
+	
+
+}
