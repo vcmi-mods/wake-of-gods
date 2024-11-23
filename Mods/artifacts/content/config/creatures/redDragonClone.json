@@ -1,0 +1,84 @@
+{
+	"redDragonClone":
+	{
+		"name" :
+		{
+			"singular" : "Red Dragon",
+			"plural" : "Red Dragons"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"level" : 7,
+		"cost" :
+		{
+			"gold" : 2500,
+			"sulfur" : 1
+		},
+		"doubleWide" : true,
+		"speed" : 11,
+		"attack" : 19,
+		"defense" : 19,
+		"hitPoints" : 180,
+		"damage" :
+		{
+			"min" : 40,
+			 "max" : 50
+		},
+		"fightValue" : 4702,
+		"aiValue" : 4702,
+		"advMapAmount" :
+		{
+			"min" : 4,
+			 "max" : 10
+		},
+		"growth" : 1,
+		"abilities" :
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			},
+			"positiveMorale" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		},
+		"graphics" :
+		{
+			"animation": "CRDRGN",
+			//			"map" : "",
+			"iconSmall" : "creatures/redDragonClone/CPrS082D",
+			"iconLarge" : "creatures/redDragonClone/CPrL082D",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.6
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" :
+		{
+			"attack": "RDDRATTK.wav",
+			"defend": "RDDRDFND.wav",
+			"killed": "RDDRKILL.wav",
+			"move": "RDDRMOVE.wav",
+			"wince": "RDDRWNCE.wav"
+		}
+	}	
+}

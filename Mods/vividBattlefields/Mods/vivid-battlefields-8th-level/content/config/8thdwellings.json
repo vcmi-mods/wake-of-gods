@@ -1,0 +1,34 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+
+			"portalOfSplendor": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:portal_of_splendor"
+			},
+			"dragonPeaks": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:dragon_peaks"
+			},
+			"stormTemple": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:storm_temple"
+			},
+			"unholyPalace": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:unholy_palace"
+			},
+			"spectralVault": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:spectral_vault"
+			},
+			"caveOfDarkness": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:cave_of_darkness"
+			},
+			"behemothTomb": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:behemoth_tomb"
+			},
+			"chaosPool": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:chaos_pool"
+			},
+			"spiritPyre": {
+				"battleground": "wake-of-gods.level8units.vivid-battlefields:spirit_pyre"
+			}
+		}
+	}
+}

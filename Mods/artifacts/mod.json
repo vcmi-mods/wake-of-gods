@@ -5,10 +5,6 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"depends" :
-	[
-		"wake-of-gods.spells"
-	],
 	"artifacts" :
 	[
 		"config/artifacts/crimsonShieldOfRetribution.json",
@@ -29,6 +25,21 @@
 
 		"config/artifacts/goldTowerArrow.json",
 		"config/artifacts/monstersPower.json"
+	],
+	"spells" :
+	[
+		"config/spells/arrowTrigger.json",
+		"config/spells/towerJammer.json",
+		"config/spells/summonRedDragon.json",
+		"config/spells/boostSpot.json"
+	],
+	"creatures" :
+	[
+		"config/creatures/redDragonClone.json"
+	],
+	"skills" :
+	[
+		"config/skills/ballisticsGoldTowerArrow.json"
 	],
 	"chinese" : {
 		"name" : "宝物",

@@ -1,0 +1,35 @@
+{
+    "basepath": "PSKIL42/",
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "pskil42a.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "pskil42d.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "pskil42p.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "pskil42k.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "pskil42e.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "pskil42s.png"
+        }
+    ]
+}
