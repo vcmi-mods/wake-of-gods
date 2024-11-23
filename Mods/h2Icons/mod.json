@@ -1,0 +1,9 @@
+{
+	"name" : "Heroes II primary skills icons",
+	"description" : "Change to WoG primary skills for being closer to H2 ones.",
+	"modType" : "Graphical",
+	"author" : "Aphra",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"depends" : ["wake-of-gods.heroes3datapatch"],
+}
