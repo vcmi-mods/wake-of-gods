@@ -3,31 +3,31 @@
 		"types": {
 
 			"portalOfSplendor": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:portal_of_splendor"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:portal_of_splendor"
 			},
 			"dragonPeaks": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:dragon_peaks"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:dragon_peaks"
 			},
 			"stormTemple": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:storm_temple"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:storm_temple"
 			},
 			"unholyPalace": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:unholy_palace"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:unholy_palace"
 			},
 			"spectralVault": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:spectral_vault"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:spectral_vault"
 			},
 			"caveOfDarkness": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:cave_of_darkness"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:cave_of_darkness"
 			},
 			"behemothTomb": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:behemoth_tomb"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:behemoth_tomb"
 			},
 			"chaosPool": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:chaos_pool"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:chaos_pool"
 			},
 			"spiritPyre": {
-				"battleground": "wake-of-gods.level8units.vivid-battlefields:spirit_pyre"
+				"battleground": "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:spirit_pyre"
 			}
 		}
 	}
