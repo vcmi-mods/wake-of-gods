@@ -11,7 +11,8 @@
 	],
 	"softDepends" :
 	[
-		"wake-of-gods.animatedobjects"
+		"wake-of-gods.animatedobjects",
+		"wake-of-gods.heroes3datapatch"
 	],
 	"chinese" : {
 		"name" : "生物补丁",
