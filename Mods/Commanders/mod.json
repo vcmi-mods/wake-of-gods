@@ -5,7 +5,10 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	
+	"softDepends" :
+	[
+		"wake-of-gods.artifacts"
+	],
 	"chinese" : {
 		"name" : "指挥官",
 		"description" : "这个模组启用WoG的指挥官功能",
