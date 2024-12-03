@@ -5,9 +5,10 @@
 	"author" : "Aphra",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	"keepDisabled" : true,
     "softDepends" :
     [
-	"wake-of-gods.heroes3datapatch",
+		"wake-of-gods.heroes3datapatch",
         "hota.heroes3datapatch"
     ],
 }
