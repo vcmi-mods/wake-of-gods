@@ -9,6 +9,10 @@
 	[
 		"config/wgfDwellings"
 	],
+	"softDepends" :
+	[
+		"wake-of-gods.creatures"
+	],
 	"chinese" : {
 		"name" : "生物补丁",
 		"description" : "SoD/WoG生物的新图像。"

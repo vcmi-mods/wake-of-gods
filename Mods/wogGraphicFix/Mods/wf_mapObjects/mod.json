@@ -5,7 +5,15 @@
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
 	"version" : "",
-	
+	"softDepends" :
+	[
+		"wake-of-gods.animatedobjects",
+		"wake-of-gods.animatedtrees",
+		"wake-of-gods.creaturebanks",
+		"wake-of-gods.mapdecorations",
+		"wake-of-gods.messengersandemissaries",
+		"wake-of-gods.heroes3datapatch"
+	],
 	"chinese" : {
 		"name" : "地图物体补丁",
 		"description" : "SoD/WoG地图物体新图像。",

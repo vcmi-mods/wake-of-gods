@@ -16,7 +16,10 @@
 			"stackArtifact": true
 		}
 	},
-	
+	"softDepends" :
+	[
+		"wake-of-gods.artifacts"
+	],
 	"chinese" : {
 		"name" : "生物宝物",
 		"description" : "这个模组开启WoG的生物宝物功能。"

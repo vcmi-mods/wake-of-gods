@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.40",
+	"version" : "9.1.41",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.41"  : [ "Added mods soft depencies" ],
 		"9.1.40"  : [ "Added fist attempt for WoG map format availabity" ],
 		"9.1.30"  : [ "Barrel treasure skin splitted into standalone treasure type" ],
 		"9.1.29"  : [ "Moved objects description from name to standalone description", "Updated Czech translation" ],
