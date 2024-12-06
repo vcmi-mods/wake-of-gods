@@ -1,0 +1,17 @@
+{
+	"name" : "Stack Experience Icons",
+	"description" : "This module adds new numbered stack experience icons",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"keepDisabled" : true,
+	"depends" :
+	[
+		"vcmi"
+	],
+	"czech" : {
+		"name": "Ikony zkušeností oddílů",
+		"description": "Tento modul přidává nové očíslované ikony zkušeností oddílů."
+	}
+}
