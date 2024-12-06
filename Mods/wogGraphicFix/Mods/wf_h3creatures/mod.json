@@ -20,6 +20,9 @@
 	},
 	"czech" : {
 		"name" : "Jednotky Heroes 3",
-		"description" : "Nová grafika pro jednotky z Heroes 3."
+		"description" : "Nová grafika pro jednotky z Heroes 3.",
+		"translations" : [
+			"translation/wf_h3creatures/czech.json"
+		]
 	}
 }
