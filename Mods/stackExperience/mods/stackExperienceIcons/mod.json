@@ -11,7 +11,7 @@
 		"vcmi"
 	],
 	"czech" : {
-		"name": "Ikony zkušeností oddílů",
-		"description": "Tento modul přidává nové očíslované ikony zkušeností oddílů."
+		"name": "Ikony zkušeností jednotek",
+		"description": "Tento modul přidává nové očíslované ikony zkušeností jednotek."
 	}
 }
