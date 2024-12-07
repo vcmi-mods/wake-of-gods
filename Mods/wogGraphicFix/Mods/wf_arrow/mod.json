@@ -5,11 +5,12 @@
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
 	"version" : "",
-
+	"conflicts" :
+    [
+        "hota.heroes3DataPatch.arrow"
+    ],
 	"czech" : {
 		"name" : "Ukazatel pohybu hrdiny",
 		"description" : "Ukazatel pohybu hrdiny"
 	}
-	
-
 }
