@@ -11,8 +11,8 @@
 				"templates" : {
 					"base" : {
 						"animation" : "creatureBanks/ZCrBGod3.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBBBB", "VBBBBV", "VBBABV" ]
+						"visitableFrom": [ "---", "++-", "---" ],
+						"mask": [ "VVVVVV", "VVBBVV", "VBBBBB", "BBBBBB", "VBBABV", "VVVVVV" ]
 					}
 				},
 				"rmg" : {

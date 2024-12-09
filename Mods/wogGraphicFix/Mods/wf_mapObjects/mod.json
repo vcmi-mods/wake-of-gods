@@ -23,8 +23,8 @@
 		
 	},
 	"czech" : {
-		"name" : "Opravené objekty",
-		"description" : "Nová grafika pro objekty z SoD/WoG.",
+		"name" : "Objekty",
+		"description" : "Nová grafika pro objekty z Heroes 3 a Wake of Gods.",
 		"translations" : [
 			"translation/wf_mapObjects/czech.json"
 		]

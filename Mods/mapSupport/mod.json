@@ -25,6 +25,12 @@
 		"config/commandersMap",
 		"config/emmisariesMap"
 	],
+	
+	"czech" : {
+		"name": "Podpora formátu map",
+		"description": "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"
+	},
+	
 	"settings": {
 		"mapFormat" : {
 			"inTheWakeOfGods" : {

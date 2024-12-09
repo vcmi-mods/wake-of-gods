@@ -10,5 +10,9 @@
     [
 		"wake-of-gods.heroes3datapatch",
         "hota.heroes3datapatch"
-    ]
+    ],
+	"czech" : {
+		"name": "Ikony primárních dovedností z Heroes II",
+		"description": "Nahrazuje primární ikony dovednosti vzhledem z Heroes II."
+	}
 }

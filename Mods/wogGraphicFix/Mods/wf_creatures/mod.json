@@ -18,7 +18,10 @@
 		"description" : "SoD/WoG生物的新图像。"
 	},
 	"czech" : {
-		"name" : "Opravené jednotky",
-		"description" : "Nová grafika pro jednotky z SoD/WoG."
+		"name" : "Jednotky Wake of Gods",
+		"description" : "Nová grafika pro jednotky z Wake of Gods.",
+		"translations" : [
+			"translation/wf_creatures/czech.json"
+		]
 	}
 }

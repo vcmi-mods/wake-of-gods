@@ -18,7 +18,7 @@
 		"description" : "SoD/WoG宝物的新图像。"
 	},	
 	"czech" : {
-		"name" : "Opravené artefakty",
-		"description" : "Nová grafika pro artefakty z SoD/WoG."
+		"name" : "Artefakty",
+		"description" : "Nová grafika pro artefakty."
 	}
 }
