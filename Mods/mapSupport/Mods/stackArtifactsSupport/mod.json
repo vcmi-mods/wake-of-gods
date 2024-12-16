@@ -1,0 +1,36 @@
+{
+	"name" : "Stack Artifacts Support",
+	"description" : "This module enables stack artifacts support for some WoG maps",
+	"modType" : "Compatibility",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"depends" :
+	[
+		"wake-of-gods.stackartifacts"
+	],
+	"settings" :
+	{
+		"mapFormat" : {
+			"inTheWakeOfGods" : {
+				"supported" : true,
+				"iconIndex" : 6,
+
+				"artifacts" : {
+					"warlordsBannerHealth": 156, //problem with banners?
+					"warlordsBannerAttack": 156,
+					"warlordsBannerDefence": 156,
+					"warlordsBannerDamage": 156,
+					"warlordsBannerSpeed": 156,
+					"warlordsBannerExperience": 156,
+					"warlordsBannerReducer": 156,
+					"warlordsBannerBlocker": 156,
+					"warlordsBannerRetaliate": 156,
+				},
+				"templates" : {
+					"artifacts/zart156.def" : "zart156.def"
+				}
+			}
+		}	
+	}
+}
