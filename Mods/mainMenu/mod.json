@@ -5,7 +5,34 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	
+	"conflicts" :
+	[
+		"h3-themes.ab",
+		"h3-themes.beta",
+		"h3-themes.complete",
+		"h3-themes.hc-1",
+		"h3-themes.hc-2",
+		"h3-themes.hc-3",
+		"h3-themes.hc-4",
+		"h3-themes.hc-5",
+		"h3-themes.hc-6",
+		"h3-themes.hc-7",
+		"h3-themes.hc-8",
+		"h3-themes.hd",
+		"h3-themes.hota-16",
+		"h3-themes.hota-17",
+		"h3-themes.legends",
+		"h3-themes.roe",
+		"h3-themes.sod",
+		"h3-themes.tow",
+		"h3-themes.vcmi",		
+		"h3-themes.wog",
+		"h3-themes",
+		"hota.mainmenu",
+		"hota.mainmenu.mainMenuLegacy",
+		"tides-of-war.tow-main-menu",
+		"hi-rez-menu"
+	],
 	"chinese" : {
 		"name" : "主菜单主题",
 		"description" : "将主菜单主题修改为WoG曾用的一个。"
