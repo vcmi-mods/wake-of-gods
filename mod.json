@@ -4,7 +4,7 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.42",
+	"version" : "9.1.43",
 	"downloadSize" : 68.9,
 	"compatibility" :
 	{
@@ -12,6 +12,7 @@
 	},
 	"changelog" :
 	{
+		"9.1.43"  : [ "Fixed Grotto visitable point", "Added movement arrow depencies" ],
 		"9.1.42"  : [ "Fixed wog map format mapping" ],
 		"9.1.41"  : [ "Added mods soft depencies" ],
 		"9.1.40"  : [ "Added fist attempt for WoG map format availabity" ],
