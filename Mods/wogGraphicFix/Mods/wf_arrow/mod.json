@@ -1,29 +1,28 @@
 {
-	"name" : "WoG Graphics Fix",
-	"description" : "New graphics for SoD/WoG map objects.",
-	"modType" : "Graphical",
+	"name" : "Hero movement arrow",
+	"description" : "Hero movement arrow",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"version" : "1.2.1",
-	"changelog" :
-	{
-		"1.2.2"   : [ "Split wf_creatures into independent submods" ],
-		"1.2.0"   : [ "Update based on Grossmaster's 2.18 version" ],
-		"1.1.2"   : [ "Update based on Grossmaster's 2.141 version" ],
-		"1.1.1"   : [ "Update based on Grossmaster's 2.14 version" ],
-		"1.1.0"   : [ "Update based on Grossmaster's 2.13 version" ],
-		"1.0.0"   : [ "Initial release based on Grossmaster's 2.9 version" ]
-	},
-	"compatibility" :
-	{
-		"min" : "1.2.0"
-	},
-	"chinese" : {
-		"name" : "WoG图像修复",
-		"description" : "SoD/WoG地图物体的新图像。"
-	},
+	"modType" : "Graphical",
+	"version" : "",
+
+	"conflicts" :
+    [
+        "hota.heroes3DataPatch.arrow",
+		"small-era-mods.Bubble Arrows",
+        "movement-arrows.hota_blue",
+        "movement-arrows.hota_cyan",
+        "movement-arrows.hota_magenta",
+        "movement-arrows.hota_neon_cyan",
+        "movement-arrows.hota_neon_green",
+        "movement-arrows.hota_orange",
+        "movement-arrows.hota_pink",
+        "movement-arrows.hota_yellow",
+        "movement-arrows.hota_yellow-orange"
+    ],
+
 	"czech" : {
-		"name" : "Oprava grafiky",
-		"description" : "Nová grafika pro objekty na mapě."
+		"name" : "Ukazatel pohybu hrdiny",
+		"description" : "Ukazatel pohybu hrdiny"
 	}
 }
