@@ -1,5 +1,5 @@
 {
-	"name" : "Map format support",
+	"name" : "Map format support (WoG)",
 	"description" : "This mod contains support files needed for loading maps in 'In The Wake of Gods' format in VCMI", 
 	"modType" : "Other",
 	"author": "Ivan, misiokles, krs0",
@@ -22,7 +22,7 @@
 	],
 	
 	"czech" : {
-		"name": "Podpora formátu map",
+		"name": "Podpora formátu map (WoG)",
 		"description": "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"
 	},
 	
