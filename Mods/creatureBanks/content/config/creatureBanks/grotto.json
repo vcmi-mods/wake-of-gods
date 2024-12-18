@@ -12,7 +12,7 @@
 					"base" : { 
 						"animation" : "creatureBanks/ZCrBank3.def",
 						"visitableFrom" : [ "---", "---", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VABV" ]
+						"mask" : [ "VVVV", "BBBV", "BABV", "VVVV" ]
 					}
 				},
 				"rmg" : {
