@@ -1,19 +1,19 @@
 {
-	"name": "Messengers and Emissaries units",
-	"description": "Adds Messengers and Emissaries of Gods units for WoG.\r\n ,",
-	"modType": "Creatures",
-	"author": "WoG Team",
-	"contact": "http://forum.vcmi.eu/index.php",
-	"version": "1.0",
-	"chinese": {
-		"name": "元素使者和神使单位",
-		"description": "为WoG添加元素使者和神使单位。"
+	"name" : "Messengers and Emissaries units",
+	"description" : "Adds Messengers and Emissaries of Gods units for WoG.\r\n ,",
+	"modType" : "Creatures",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"chinese" : {
+		"name" : "元素使者和神使单位",
+		"description" : "为WoG添加元素使者和神使单位。"
 	},
-	"czech": {
-		"name": "Jednotky poslů",
-		"description": "Přidává jednotky nové jednotky poslů"
+	"czech" : {
+		"name" : "Jednotky poslů",
+		"description" : "Přidává jednotky nové jednotky poslů"
 	},
-	"creatures": [
+	"creatures" : [
 		"config/creatures/fireMessenger.json",
 		"config/creatures/earthMessenger.json",
 		"config/creatures/airMessenger.json",
@@ -25,15 +25,15 @@
 		"config/creatures/stackExperience/messengers.json",
 		"config/creatures/stackExperience/emissaries.json"
 	],
-	"objects": [
+	"objects" : [
 		"config/dwellings/messengers.json",
 		"config/creatureBanks/martialSpiritPalace.json",
 		"config/creatureBanks/pacificationCitadel.json",
 		"config/creatureBanks/magiciansMonastery.json",
 		"config/creatureBanks/legendsLibrary.json"
 	],
-	"polish": {
-		"name": "Jednostki Posłańców i Emisariuszy",
-		"description": "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG."
+	"polish" : {
+		"name" : "Jednostki Posłańców i Emisariuszy",
+		"description" : "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG."
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"gateKey":
+	"gateKey" :
 	{
 		"type" : ["HERO"],
 		"slot" : "SHOULDERS",
@@ -9,9 +9,9 @@
 			{
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.inferno",
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "arrowTower", false ]
+				"limiters" : [ {
+					"type" :"CREATURE_TYPE_LIMITER",
+						"parameters" : [ "arrowTower", false ]
 					}
 				]
 			},
@@ -20,13 +20,13 @@
 				"subtype" : "spell.berserk",
 				"val" : 100,
 				"addInfo" : [3, 1],
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters": [ 
+				"limiters" : [ 
 					"OPPOSITE_SIDE",
 					{
-					"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "arrowTower", false ]
+					"type" :"CREATURE_TYPE_LIMITER",
+						"parameters" : [ "arrowTower", false ]
 					}
 				]
 			}

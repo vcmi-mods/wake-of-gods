@@ -6,9 +6,9 @@
 			"singular" : "Brute",
 			"plural" : "Brutes"
 		},
-		"faction": "dungeon",
+		"faction" : "dungeon",
 		"special" : true,
-		"level": 0,
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -64,7 +64,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM179NPC.DEF",
+			"animation" : "commanders/ZM179NPC.DEF",
 			"iconSmall" : "commanders/CPrS179n",
 			"iconLarge" : "commanders/CPrL179n",
 			"timeBetweenFidgets" : 1,
@@ -76,7 +76,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -92,12 +92,12 @@
 		},
 		"sound" :
 		{
-			"attack": "PFOEATTK.wav",
-			"defend": "PFOEDFND.wav",
-			"killed": "PFOEKILL.wav",
-			"move": "PFOEMOVE.wav",
-			"shoot": "commanders/PFOESHOT.wav",
-			"wince": "PFOEWNCE.wav"
+			"attack" : "PFOEATTK.wav",
+			"defend" : "PFOEDFND.wav",
+			"killed" : "PFOEKILL.wav",
+			"move" : "PFOEMOVE.wav",
+			"shoot" : "commanders/PFOESHOT.wav",
+			"wince" : "PFOEWNCE.wav"
 		}
 	}
 }

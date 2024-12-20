@@ -3,32 +3,32 @@
 		"types" : {
 			"corpse" : {
 				"templates" : {
-					"avxskds1": {
-						"animation": "corpses/avxskds1",
-						"visitableFrom": [
+					"avxskds1" : {
+						"animation" : "corpses/avxskds1",
+						"visitableFrom" : [
 							"---",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"VA"
 						],
-						"allowedTerrains": [
+						"allowedTerrains" : [
 							"sand",
 							"rough"
 						]
 					},
-					"avxskds2": {
-						"animation": "corpses/avxskds2",
-						"visitableFrom": [
+					"avxskds2" : {
+						"animation" : "corpses/avxskds2",
+						"visitableFrom" : [
 							"---",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"VA"
 						],
-						"allowedTerrains": [
+						"allowedTerrains" : [
 							"sand",
 							"rough"
 						]

@@ -1,5 +1,5 @@
 {
-	"goldTowerArrow":
+	"goldTowerArrow" :
 	{
 		"type" : ["HERO"],
 		"slot" : "MISC",
@@ -14,19 +14,19 @@
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.towerJammer",
-				"limiters": {
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "arrowTower", false ]
+				"limiters" : {
+					"type" :"CREATURE_TYPE_LIMITER",
+					"parameters" : [ "arrowTower", false ]
 				  }
 			},
 			{
-				"type": "NOT_ACTIVE",
+				"type" : "NOT_ACTIVE",
 				"propagator" : "BATTLE_WIDE",
-				"limiters": [
+				"limiters" : [
 					[
 						{
-							"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "arrowTower", false ]
+							"type" :"CREATURE_TYPE_LIMITER",
+							"parameters" : [ "arrowTower", false ]
 						}
 					],
 					[
@@ -39,11 +39,11 @@
 				]
 			},
 //			{
-//				"type": "NOT_ACTIVE",
+//				"type" : "NOT_ACTIVE",
 //				"effectRange" : "ONLY_ENEMY_ARMY",
-//				"limiters": [ {
-//					"type":"CREATURE_TYPE_LIMITER",
-//						"parameters": [ "arrowTower", false ]
+//				"limiters" : [ {
+//					"type" :"CREATURE_TYPE_LIMITER",
+//						"parameters" : [ "arrowTower", false ]
 //					}
 //				]
 //			},
@@ -54,9 +54,9 @@
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "arrowTower", false ]
+				"limiters" : [ {
+					"type" :"CREATURE_TYPE_LIMITER",
+						"parameters" : [ "arrowTower", false ]
 					}
 				]
 			}

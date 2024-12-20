@@ -1,23 +1,23 @@
 {
-	"name": "Patched Messengers And Emissaries",
-	"description": "New graphics for Messengers And Emissaries.",
-	"version": "",
-	"author": "Grossmaster",
-	"contact": "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"modType": "Graphical",
-	"softDepends": [
+	"name" : "Patched Messengers And Emissaries",
+	"description" : "New graphics for Messengers And Emissaries.",
+	"version" : "",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+	"softDepends" : [
 		"wake-of-gods.messengersandemissaries"
 	],
-	"chinese": {
-		"name": "Patched Messengers And Emissaries",
-		"description": "New graphics for Messengers And Emissaries."
+	"chinese" : {
+		"name" : "Patched Messengers And Emissaries",
+		"description" : "New graphics for Messengers And Emissaries."
 	},
-	"czech": {
-		"name": "Jednotky poslů",
-		"description": "Nová grafika pro jednotky poslů"
+	"czech" : {
+		"name" : "Jednotky poslů",
+		"description" : "Nová grafika pro jednotky poslů"
 	},
-	"polish": {
-		"name": "Poprawieni Posłańcy i Emisariusze",
-		"description": "Nowe grafiki Posłańców i Emisariuszy."
+	"polish" : {
+		"name" : "Poprawieni Posłańcy i Emisariusze",
+		"description" : "Nowe grafiki Posłańców i Emisariuszy."
 	}
 }

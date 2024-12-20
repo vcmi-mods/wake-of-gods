@@ -1,11 +1,11 @@
 {
-	"name": "Main menu theme",
-	"description": "Changes main menu theme to one used by WoG mod.",
-	"modType": "Interface",
-	"author": "WoG Team",
-	"contact": "http://forum.vcmi.eu/index.php",
-	"version": "1.0",
-	"conflicts": [
+	"name" : "Main menu theme",
+	"description" : "Changes main menu theme to one used by WoG mod.",
+	"modType" : "Interface",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"conflicts" : [
 		"h3-themes.ab",
 		"h3-themes.beta",
 		"h3-themes.complete",
@@ -32,16 +32,16 @@
 		"tides-of-war.tow-main-menu",
 		"hi-rez-menu"
 	],
-	"chinese": {
-		"name": "主菜单主题",
-		"description": "将主菜单主题修改为WoG曾用的一个。"
+	"chinese" : {
+		"name" : "主菜单主题",
+		"description" : "将主菜单主题修改为WoG曾用的一个。"
 	},
-	"czech": {
-		"name": "Vzhled hlavního menu",
-		"description": "Mění vzhled hlavního menu na ikonické menu In The Wake of Gods."
+	"czech" : {
+		"name" : "Vzhled hlavního menu",
+		"description" : "Mění vzhled hlavního menu na ikonické menu In The Wake of Gods."
 	},
-	"polish": {
-		"name": "Motyw menu głównego",
-		"description": "Zmienia motyw menu głównego na używany w modzie WoG."
+	"polish" : {
+		"name" : "Motyw menu głównego",
+		"description" : "Zmienia motyw menu głównego na używany w modzie WoG."
 	}
 }

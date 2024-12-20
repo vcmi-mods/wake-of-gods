@@ -1,19 +1,19 @@
 {
 	"wgfFireflies" : {
 		"name" : "Fireflies",
-		"handler": "static",
+		"handler" : "static",
 		"types" : {
 			"object" : {
 				"templates" : {
 					"wfirefly" : {
 						"animation" : "fireflies/wfirefly",
 						"mask" : ["VV","VV"],
-						"allowedTerrains": ["swamp"]
+						"allowedTerrains" : ["swamp"]
 					},
 					"wfirefly1" : {
 						"animation" : "fireflies/wfirefly1",
 						"mask" : ["VVV","VVV"],
-						"allowedTerrains": ["swamp"]
+						"allowedTerrains" : ["swamp"]
 					}
 				}
 			}

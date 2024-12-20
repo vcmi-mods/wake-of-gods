@@ -6,8 +6,8 @@
 			"singular" : "Nightmare",
 			"plural" : "Nightmares"
 		},
-		"faction": "neutral",
-		"level": 6,
+		"faction" : "neutral",
+		"level" : 6,
 		"cost" :
 		{
 			"gold" : 1500
@@ -31,8 +31,8 @@
 			 "max" : 10
 		},
 		"growth" : 2,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"deathStare" : 
 			{
@@ -51,7 +51,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/nightmare/ZM172N",
+			"animation" : "creatures/nightmare/ZM172N",
 			"map" : "creatures/nightmare/zmm172n",
 			"iconSmall" : "creatures/nightmare/CPrS172N",
 			"iconLarge" : "creatures/nightmare/CPrL172M",
@@ -65,11 +65,11 @@
 		},
 		"sound" :
 		{
-			"attack": "BGORATTK.wav",
-			"defend": "BGORDFND.wav",
-			"killed": "BGORKILL.wav",
-			"move": "BGORMOVE.wav",
-			"wince": "BGORWNCE.wav"
+			"attack" : "BGORATTK.wav",
+			"defend" : "BGORDFND.wav",
+			"killed" : "BGORKILL.wav",
+			"move" : "BGORMOVE.wav",
+			"wince" : "BGORWNCE.wav"
 		}
 	}
 }

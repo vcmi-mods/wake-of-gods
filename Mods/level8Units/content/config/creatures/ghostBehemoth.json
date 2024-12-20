@@ -6,7 +6,7 @@
 			"singular" : "Ghost Behemot",
 			"plural" : "Ghost Behemots"
 		},
-		"faction": "stronghold",
+		"faction" : "stronghold",
 		"level" : 8,
 		"cost" :
 		{
@@ -31,7 +31,7 @@
 		"fightValue" : 20000,
 		"aiValue" : 26000,
 		"growth" : 1,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"abilities" :
 		{
 			"king1" :
@@ -74,7 +74,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/ghostbehemoth/ZM156Z",
+			"animation" : "creatures/ghostbehemoth/ZM156Z",
 			"map" : "creatures/ghostbehemoth/zmm156z",
 			"iconSmall" : "creatures/ghostbehemoth/CPrS156S",
 			"iconLarge" : "creatures/ghostbehemoth/CPrL156Z",
@@ -88,11 +88,11 @@
 		},
 		"sound" :
 		{
-			"attack": "BMTHATTK.wav",
-			"defend": "BMTHDFND.wav",
-			"killed": "BMTHKILL.wav",
-			"move": "BMTHMOVE.wav",
-			"wince": "BMTHWNCE.wav"
+			"attack" : "BMTHATTK.wav",
+			"defend" : "BMTHDFND.wav",
+			"killed" : "BMTHKILL.wav",
+			"move" : "BMTHMOVE.wav",
+			"wince" : "BMTHWNCE.wav"
 		}
 	}
 }

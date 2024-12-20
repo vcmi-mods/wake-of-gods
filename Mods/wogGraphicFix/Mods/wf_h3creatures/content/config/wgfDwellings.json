@@ -1,23 +1,23 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"cyclopsCave": {
+			"cyclopsCave" : {
 				"name" : "Cyclops Cave",
 				"templates" : {
 					"rough" : {
 						"animation" : "dwellings/AVGcycl1",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "rough" ]
+						"allowedTerrains" : [ "rough" ]
 					}
 				}
 			},
-			"behemothCrag": {
+			"behemothCrag" : {
 				"name" : "Behemot Crag",
 				"templates" : {
 					"rough" : {
 						"animation" : "dwellings/avgbhmt1",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains": [ "rough" ]
+						"allowedTerrains" : [ "rough" ]
 					}
 				}
 			}

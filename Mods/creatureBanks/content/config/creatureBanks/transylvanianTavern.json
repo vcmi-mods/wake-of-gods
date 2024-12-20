@@ -25,77 +25,77 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 2, "type" :  "vampire" },
-							{ "amount": 2, "type" :  "vampire" },
-							{ "amount": 2, "type" :  "vampire" },
-							{ "amount": 2, "type" :  "vampire" },
-							{ "amount": 2, "type" :  "vampire" }
+						"guards" : [
+							{ "amount" : 2, "type" :  "vampire" },
+							{ "amount" : 2, "type" :  "vampire" },
+							{ "amount" : 2, "type" :  "vampire" },
+							{ "amount" : 2, "type" :  "vampire" },
+							{ "amount" : 2, "type" :  "vampire" }
 						],
-						"resources":
+						"resources" :
 						{
 							"gold" : 1500
 						},
-						"creatures": [
-							{ "amount": 3, "type" :  "vampireLord" }
+						"creatures" : [
+							{ "amount" : 3, "type" :  "vampireLord" }
 						]
 					},
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 3, "type" :  "vampire" },
-							{ "amount": 3, "type" :  "vampire" },
-							{ "amount": 3, "type" :  "vampire" },
-							{ "amount": 3, "type" :  "vampire" },
-							{ "amount": 3, "type" :  "vampire" }
+						"guards" : [
+							{ "amount" : 3, "type" :  "vampire" },
+							{ "amount" : 3, "type" :  "vampire" },
+							{ "amount" : 3, "type" :  "vampire" },
+							{ "amount" : 3, "type" :  "vampire" },
+							{ "amount" : 3, "type" :  "vampire" }
 						],
-						"resources":
+						"resources" :
 						{
 							"gold" : 2500
 						},
-						"creatures": [
-							{ "amount": 5, "type" :  "vampireLord" }
+						"creatures" : [
+							{ "amount" : 5, "type" :  "vampireLord" }
 						]
 					},
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 4, "type" :  "vampire" },
-							{ "amount": 4, "type" :  "vampire" },
-							{ "amount": 4, "type" :  "vampire" },
-							{ "amount": 4, "type" :  "vampire" },
-							{ "amount": 4, "type" :  "vampire" }
+						"guards" : [
+							{ "amount" : 4, "type" :  "vampire" },
+							{ "amount" : 4, "type" :  "vampire" },
+							{ "amount" : 4, "type" :  "vampire" },
+							{ "amount" : 4, "type" :  "vampire" },
+							{ "amount" : 4, "type" :  "vampire" }
 						],
-						"resources":
+						"resources" :
 						{
 							"gold" : 3500
 						},
-						"creatures": [
-							{ "amount": 7, "type" :  "vampireLord" }
+						"creatures" : [
+							{ "amount" : 7, "type" :  "vampireLord" }
 						]
 					},
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 6, "type" :  "vampire" },
-							{ "amount": 6, "type" :  "vampire" },
-							{ "amount": 6, "type" :  "vampire" },
-							{ "amount": 6, "type" :  "vampire" },
-							{ "amount": 6, "type" :  "vampire" }
+						"guards" : [
+							{ "amount" : 6, "type" :  "vampire" },
+							{ "amount" : 6, "type" :  "vampire" },
+							{ "amount" : 6, "type" :  "vampire" },
+							{ "amount" : 6, "type" :  "vampire" },
+							{ "amount" : 6, "type" :  "vampire" }
 						],
-						"resources":
+						"resources" :
 						{
 							"gold" : 5000
 						},
-						"creatures": [
-							{ "amount": 9, "type" :  "vampireLord" }
+						"creatures" : [
+							{ "amount" : 9, "type" :  "vampireLord" }
 						]
 					}
 				]

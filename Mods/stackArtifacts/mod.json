@@ -1,31 +1,31 @@
 {
-	"name": "Stack Artifacts",
-	"description": "This module enables artifacts for unit stacks feature from WoG",
-	"modType": "Mechanics",
-	"author": "WoG Team",
-	"contact": "http://forum.vcmi.eu/index.php",
-	"version": "1.0",
-	"artifacts": [
+	"name" : "Stack Artifacts",
+	"description" : "This module enables artifacts for unit stacks feature from WoG",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"artifacts" : [
 		"config/warlordBanners"
 	],
-	"settings": {
-		"modules": {
-			"stackArtifact": true
+	"settings" : {
+		"modules" : {
+			"stackArtifact" : true
 		}
 	},
-	"softDepends": [
+	"softDepends" : [
 		"wake-of-gods.artifacts"
 	],
-	"chinese": {
-		"name": "生物宝物",
-		"description": "这个模组开启WoG的生物宝物功能。"
+	"chinese" : {
+		"name" : "生物宝物",
+		"description" : "这个模组开启WoG的生物宝物功能。"
 	},
-	"czech": {
-		"name": "Artefakty pro jednotky",
-		"description": "Tento modul aktivuje artefakty pro jednotky."
+	"czech" : {
+		"name" : "Artefakty pro jednotky",
+		"description" : "Tento modul aktivuje artefakty pro jednotky."
 	},
-	"polish": {
-		"name": "Artefakty jednostek",
-		"description": "Ten moduł dodaje funkcję artefaktów dla jednostek."
+	"polish" : {
+		"name" : "Artefakty jednostek",
+		"description" : "Ten moduł dodaje funkcję artefaktów dla jednostek."
 	}
 }

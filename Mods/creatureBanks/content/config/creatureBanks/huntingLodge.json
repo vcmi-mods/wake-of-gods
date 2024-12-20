@@ -24,17 +24,17 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 3, "type" : "dendroidGuard" },
-							{ "amount": 4, "type" : "woodElf" },
-							{ "amount": 3, "type" : "dendroidGuard" },
-							{ "amount": 4, "type" : "woodElf" }
+						"guards" : [
+							{ "amount" : 3, "type" : "dendroidGuard" },
+							{ "amount" : 4, "type" : "woodElf" },
+							{ "amount" : 3, "type" : "dendroidGuard" },
+							{ "amount" : 4, "type" : "woodElf" }
 						],
-						"resources":
+						"resources" :
 						{
 							"wood" : 15,
 							"gold" : 500
@@ -43,13 +43,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 4, "type" : "dendroidGuard" },
-							{ "amount": 6, "type" : "woodElf" },
-							{ "amount": 4, "type" : "dendroidGuard" },
-							{ "amount": 6, "type" : "woodElf" }
+						"guards" : [
+							{ "amount" : 4, "type" : "dendroidGuard" },
+							{ "amount" : 6, "type" : "woodElf" },
+							{ "amount" : 4, "type" : "dendroidGuard" },
+							{ "amount" : 6, "type" : "woodElf" }
 						],
-						"resources":
+						"resources" :
 						{
 							"wood" : 20,
 							"gold" : 500
@@ -58,13 +58,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 5, "type" : "dendroidGuard" },
-							{ "amount": 8, "type" : "woodElf" },
-							{ "amount": 5, "type" : "dendroidGuard" },
-							{ "amount": 8, "type" : "woodElf" }
+						"guards" : [
+							{ "amount" : 5, "type" : "dendroidGuard" },
+							{ "amount" : 8, "type" : "woodElf" },
+							{ "amount" : 5, "type" : "dendroidGuard" },
+							{ "amount" : 8, "type" : "woodElf" }
 						],
-						"resources":
+						"resources" :
 						{
 							"wood" : 25,
 							"gold" : 500
@@ -73,13 +73,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 6,  "type" : "dendroidSoldier" },
-							{ "amount": 10, "type" : "grandElf" },
-							{ "amount": 6,  "type" : "dendroidSoldier" },
-							{ "amount": 10, "type" : "grandElf" }
+						"guards" : [
+							{ "amount" : 6,  "type" : "dendroidSoldier" },
+							{ "amount" : 10, "type" : "grandElf" },
+							{ "amount" : 6,  "type" : "dendroidSoldier" },
+							{ "amount" : 10, "type" : "grandElf" }
 						],
-						"resources":
+						"resources" :
 						{
 							"wood" : 40,
 							"gold" : 1000

@@ -6,9 +6,9 @@
 			"singular" : "Emissary of Lore",
 			"plural" : "Emissaries of Lore"
 		},
-		"faction": "neutral",
+		"faction" : "neutral",
 		"special" : true,
-		"level": 6,
+		"level" : 6,
 		"cost" :
 		{
 			"gold" : 30000
@@ -30,8 +30,8 @@
 			 "max" : 1
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"teleporting" :
 			{
@@ -56,7 +56,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/emissaryOfLore/ZM163g",
+			"animation" : "creatures/emissaryOfLore/ZM163g",
 //			"map" : "creatures/emissaryOfLore/zmm163g",
 			"iconSmall" : "creatures/emissaryOfLore/CPrS163G",
 			"iconLarge" : "creatures/emissaryOfLore/CPrL163G",
@@ -70,11 +70,11 @@
 		},
 		"sound" :
 		{
-			"attack": "AAGLATTK.wav",
-			"defend": "AAGLDFND.wav",
-			"killed": "AAGLKILL.wav",
-			"move": "AAGLMOVE.wav",
-			"wince": "AAGLWNCE.wav"
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
 		}
 	}
 }

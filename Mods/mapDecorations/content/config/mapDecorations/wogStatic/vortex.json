@@ -1,13 +1,13 @@
 {
 	"z358o11" : {
 		"name" : "Vortex",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o11": {
+			"z358o11" : {
 				"templates" : {
 					"z358o11" : {
 						"animation" : "objects/z358o11.def",
-						"allowedTerrains": [ "dirt" ],
+						"allowedTerrains" : [ "dirt" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
@@ -17,13 +17,13 @@
 	},
 	"z358o12" : {
 		"name" : "Vortex",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o12": {
+			"z358o12" : {
 				"templates" : {
 					"z358o12" : {
 						"animation" : "objects/z358o12.def",
-						"allowedTerrains": [ "sand" ],
+						"allowedTerrains" : [ "sand" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
@@ -33,13 +33,13 @@
 	},
 	"z358o13" : {
 		"name" : "Vortex",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o13": {
+			"z358o13" : {
 				"templates" : {
 					"z358o13" : {
 						"animation" : "objects/z358o13.def",
-						"allowedTerrains": [ "grass" ],
+						"allowedTerrains" : [ "grass" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
@@ -49,13 +49,13 @@
 	},
 	"z358o14" : {
 		"name" : "Vortex",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o14": {
+			"z358o14" : {
 				"templates" : {
 					"z358o14" : {
 						"animation" : "objects/z358o14.def",
-						"allowedTerrains": [ "snow" ],
+						"allowedTerrains" : [ "snow" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
@@ -65,13 +65,13 @@
 	},
 	"z358o15" : {
 		"name" : "Vortex",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o15": {
+			"z358o15" : {
 				"templates" : {
 					"z358o15" : {
 						"animation" : "objects/z358o15.def",
-						"allowedTerrains": [ "lava" ],
+						"allowedTerrains" : [ "lava" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}
@@ -81,13 +81,13 @@
 	},
 	"z358o16" : {
 		"name" : "Vortex",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o16": {
+			"z358o16" : {
 				"templates" : {
 					"z358o16" : {
 						"animation" : "objects/z358o16.def",
-						"allowedTerrains": [ "swamp" ],
+						"allowedTerrains" : [ "swamp" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVVV", "VBAV", "VVVV" ]
 					}

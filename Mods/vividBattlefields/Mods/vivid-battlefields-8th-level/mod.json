@@ -1,37 +1,37 @@
 {
-	"name": "Vivid Battlefields - 8 lvl dwellings",
-	"description": "Unique battlefields for each 8th lvl dwellings. ERA3 port to VCMI.",
-	"author": "fanofheroes",
-	"contact": "http://heroescommunity.com/viewthread.php3?TID=47183",
-	"modType": "Graphical",
-	"version": "1.0.0",
-	"changelog": {
-		"1.0.0": [
+	"name" : "Vivid Battlefields - 8 lvl dwellings",
+	"description" : "Unique battlefields for each 8th lvl dwellings. ERA3 port to VCMI.",
+	"author" : "fanofheroes",
+	"contact" : "http://heroescommunity.com/viewthread.php3?TID=47183",
+	"modType" : "Graphical",
+	"version" : "1.0.0",
+	"changelog" : {
+		"1.0.0" : [
 			"Initial release"
 		]
 	},
-	"depends": [
+	"depends" : [
 		"wake-of-gods.level8units"
 	],
-	"compatibility": {
-		"min": "1.3.0"
+	"compatibility" : {
+		"min" : "1.3.0"
 	},
-	"objects": [
+	"objects" : [
 		"config/8thdwellings"
 	],
-	"battlefields": [
+	"battlefields" : [
 		"config/8thbattlefields"
 	],
-	"chinese": {
-		"name": "丰富的战场——8级生物巢穴",
-		"description": "为每个8级生物巢穴提供独一无二的战场。这是从ERA3移植到VCMI。"
+	"chinese" : {
+		"name" : "丰富的战场——8级生物巢穴",
+		"description" : "为每个8级生物巢穴提供独一无二的战场。这是从ERA3移植到VCMI。"
 	},
-	"czech": {
-		"name": "Nová bojiště - obydlí 8. úrovně",
-		"description": "Unikátní bojiště pro každé obydlí 8. úrovně. Port z ERA3 do VCMI."
+	"czech" : {
+		"name" : "Nová bojiště - obydlí 8. úrovně",
+		"description" : "Unikátní bojiště pro každé obydlí 8. úrovně. Port z ERA3 do VCMI."
 	},
-	"polish": {
-		"name": "Żywe pola bitew - siedliska 8-go poziomu",
-		"description": "Unikalne pola bitew dla siedlisk 8-go poziomu. Port z ERA3 do VCMI."
+	"polish" : {
+		"name" : "Żywe pola bitew - siedliska 8-go poziomu",
+		"description" : "Unikalne pola bitew dla siedlisk 8-go poziomu. Port z ERA3 do VCMI."
 	}
 }

@@ -6,8 +6,8 @@
 			"singular" : "Sylwan Centaur",
 			"plural" : "Sylvan Centaurs"
 		},
-		"faction": "rampart",
-		"level": 3,
+		"faction" : "rampart",
+		"level" : 3,
 		"cost" :
 		{
 			"gold" : 250
@@ -31,7 +31,7 @@
 			 "max" : 15
 		},
 		"growth" : 7,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"abilities" :
 		{
 			"shooter" :
@@ -54,7 +54,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/sylvanCentaur/ZM192Z",
+			"animation" : "creatures/sylvanCentaur/ZM192Z",
 			"map" : "creatures/sylvanCentaur/zmm192z",
 			"iconSmall" : "creatures/sylvanCentaur/CPrS192Z",
 			"iconLarge" : "creatures/sylvanCentaur/CPrL192Z",
@@ -67,7 +67,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PELFX",
+				"projectile" : "PELFX",
 				"attackClimaxFrame" : 7,
 				"offset" :
 				{
@@ -83,12 +83,12 @@
 		},
 		"sound" :
 		{
-			"attack": "ECNTATTK.wav",
-			"defend": "ECNTDFND.wav",
-			"killed": "ECNTKILL.wav",
-			"move": "ECNTMOVE.wav",
-			"shoot": "creatures/sylvanCentaur/ECNTSHOT.wav",
-			"wince": "ECNTWNCE.wav"
+			"attack" : "ECNTATTK.wav",
+			"defend" : "ECNTDFND.wav",
+			"killed" : "ECNTKILL.wav",
+			"move" : "ECNTMOVE.wav",
+			"shoot" : "creatures/sylvanCentaur/ECNTSHOT.wav",
+			"wince" : "ECNTWNCE.wav"
 		}
 	}
 }

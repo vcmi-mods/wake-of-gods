@@ -1,14 +1,14 @@
 {
 	"zrain00" : {
 		"name" : "Rain",
-		"handler":"static",
+		"handler" :"static",
 		"types" : {
-			"zrain00": {
+			"zrain00" : {
 				"templates" : {
 					"zrain00" : {
 						"animation" : "objects/zrain00.def",
-						"mask": [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ],
-						"allowedTerrains": [ "grass", "swamp", "water" ]
+						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVVVB" ],
+						"allowedTerrains" : [ "grass", "swamp", "water" ]
 					}
 				}
 			}

@@ -1,20 +1,20 @@
 {
-	"name": "Battle Decorations",
-	"description": "This module enables animated obstacles at battlefields.",
-	"modType": "Graphical",
-	"author": "WoG Team",
-	"contact": "http://forum.vcmi.eu/index.php",
-	"version": "1.0",
-	"chinese": {
-		"name": "战场装饰",
-		"description": "这个模组启用战场上的障碍动画。"
+	"name" : "Battle Decorations",
+	"description" : "This module enables animated obstacles at battlefields.",
+	"modType" : "Graphical",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"chinese" : {
+		"name" : "战场装饰",
+		"description" : "这个模组启用战场上的障碍动画。"
 	},
-	"czech": {
-		"name": "Bojové dekorace",
-		"description": "Tento modul aktivuje animované překážky na bojištích."
+	"czech" : {
+		"name" : "Bojové dekorace",
+		"description" : "Tento modul aktivuje animované překážky na bojištích."
 	},
-	"polish": {
-		"name": "Dekoracje pola bitwy",
-		"description": "Ten moduł dodaje animowane przeszkody na polach bitew."
+	"polish" : {
+		"name" : "Dekoracje pola bitwy",
+		"description" : "Ten moduł dodaje animowane przeszkody na polach bitew."
 	}
 }

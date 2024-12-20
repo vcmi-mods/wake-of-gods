@@ -1,11 +1,11 @@
 {
-	"name": "Hero movement arrow",
-	"description": "Hero movement arrow",
-	"author": "Grossmaster",
-	"contact": "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"modType": "Graphical",
-	"version": "",
-	"conflicts": [
+	"name" : "Hero movement arrow",
+	"description" : "Hero movement arrow",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+	"version" : "",
+	"conflicts" : [
 		"hota.heroes3DataPatch.arrow",
 		"small-era-mods.Bubble Arrows",
 		"movement-arrows.hota_blue",
@@ -18,12 +18,12 @@
 		"movement-arrows.hota_yellow",
 		"movement-arrows.hota_yellow-orange"
 	],
-	"czech": {
-		"name": "Ukazatel pohybu hrdiny",
-		"description": "Ukazatel pohybu hrdiny"
+	"czech" : {
+		"name" : "Ukazatel pohybu hrdiny",
+		"description" : "Ukazatel pohybu hrdiny"
 	},
-	"polish": {
-		"name": "Strzałka ruchu bohatera",
-		"description": "Strzałka ruchu bohatera"
+	"polish" : {
+		"name" : "Strzałka ruchu bohatera",
+		"description" : "Strzałka ruchu bohatera"
 	}
 }

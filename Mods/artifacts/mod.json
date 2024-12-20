@@ -1,11 +1,11 @@
 {
-	"name": "Artifacts",
-	"description": "This module enables WoG artifacts.",
-	"modType": "Artifacts",
-	"author": "WoG Team",
-	"contact": "http://forum.vcmi.eu/index.php",
-	"version": "1.0",
-	"artifacts": [
+	"name" : "Artifacts",
+	"description" : "This module enables WoG artifacts.",
+	"modType" : "Artifacts",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"artifacts" : [
 		"config/artifacts/crimsonShieldOfRetribution.json",
 		"config/artifacts/barbarianLordsAxeOfFerocity.json",
 		"config/artifacts/dragonheart.json",
@@ -24,28 +24,28 @@
 		"config/artifacts/goldTowerArrow.json",
 		"config/artifacts/monstersPower.json"
 	],
-	"spells": [
+	"spells" : [
 		"config/spells/arrowTrigger.json",
 		"config/spells/towerJammer.json",
 		"config/spells/summonRedDragon.json",
 		"config/spells/boostSpot.json"
 	],
-	"creatures": [
+	"creatures" : [
 		"config/creatures/redDragonClone.json"
 	],
-	"skills": [
+	"skills" : [
 		"config/skills/ballisticsGoldTowerArrow.json"
 	],
-	"chinese": {
-		"name": "宝物",
-		"description": "这个模组启用WoG宝物。"
+	"chinese" : {
+		"name" : "宝物",
+		"description" : "这个模组启用WoG宝物。"
 	},
-	"czech": {
-		"name": "Artefakty",
-		"description": "Tento modul aktivuje nové artefakty."
+	"czech" : {
+		"name" : "Artefakty",
+		"description" : "Tento modul aktivuje nové artefakty."
 	},
-	"polish": {
-		"name": "Artefakty",
-		"description": "Ten moduł dodaje artefakty z WoG."
+	"polish" : {
+		"name" : "Artefakty",
+		"description" : "Ten moduł dodaje artefakty z WoG."
 	}
 }

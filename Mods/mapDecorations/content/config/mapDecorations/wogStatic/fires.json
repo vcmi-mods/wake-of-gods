@@ -1,9 +1,9 @@
 {
 	"zflame1" : {
 		"name" : "Fire",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zflame1": {
+			"zflame1" : {
 				"templates" : {
 					"zflame1" : {
 						"animation" : "objects/zflame1.def",
@@ -15,9 +15,9 @@
 	},
 	"zzzz" : {
 		"name" : "Fire",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zzzz": {
+			"zzzz" : {
 				"templates" : {
 					"zzzz" : {
 						"animation" : "objects/zzzz.def",

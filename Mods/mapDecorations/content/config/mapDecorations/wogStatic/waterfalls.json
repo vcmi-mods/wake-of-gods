@@ -1,9 +1,9 @@
 {
 	"zwfall01" : {
 		"name" : "Waterfall",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zwfall01": {
+			"zwfall01" : {
 				"templates" : {
 					"zwfall01" : {
 						"animation" : "objects/zwfall01.def",
@@ -15,9 +15,9 @@
 	},
 	"zwfall02" : {
 		"name" : "Waterfall",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zwfall02": {
+			"zwfall02" : {
 				"templates" : {
 					"zwfall02" : {
 						"animation" : "objects/zwfall02.def",
@@ -29,9 +29,9 @@
 	},
 	"zwfall03" : {
 		"name" : "Waterfall",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zwfall03": {
+			"zwfall03" : {
 				"templates" : {
 					"zwfall03" : {
 						"animation" : "objects/zwfall03.def",

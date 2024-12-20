@@ -11,7 +11,7 @@
 						"visitableFrom" : [ "+++", "+-+", "+++" ]
 					}
 				},
-				"name":"Lost Barrel",
+				"name" :"Lost Barrel",
 				"aiValue" : 2000,
 				"rmg" : {
 					"value"		: 1500,

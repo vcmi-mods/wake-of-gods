@@ -6,9 +6,9 @@
 			"singular" : "Soul Eater",
 			"plural" : "Soul Eaters"
 		},
-		"faction": "necropolis",
+		"faction" : "necropolis",
 		"special" : true,
-		"level": 0,
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -68,7 +68,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM178NPC.DEF",
+			"animation" : "commanders/ZM178NPC.DEF",
 			"iconSmall" : "commanders/CPrS178n",
 			"iconLarge" : "commanders/CPrL178n",
 			"timeBetweenFidgets" : 1,
@@ -80,7 +80,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -96,12 +96,12 @@
 		},
 		"sound" :
 		{
-			"attack": "GNOLATTK.wav",
-			"defend": "GNOLDFND.wav",
-			"killed": "GNOLKILL.wav",
+			"attack" : "GNOLATTK.wav",
+			"defend" : "GNOLDFND.wav",
+			"killed" : "GNOLKILL.wav",
 			"shoot" : "commanders/GNOLSHOT.wav",
-			"move": "GNOLMOVE.wav",
-			"wince": "GNOLWNCE.wav"
+			"move" : "GNOLMOVE.wav",
+			"wince" : "GNOLWNCE.wav"
 		}
 	}
 }

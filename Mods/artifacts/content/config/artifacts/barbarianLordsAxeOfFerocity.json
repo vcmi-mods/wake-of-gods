@@ -1,11 +1,11 @@
 {
-	"barbarianLordsAxeOfFerocity":
+	"barbarianLordsAxeOfFerocity" :
 	{
 		"type" : ["HERO"],
 		"slot" : "RIGHT_HAND",
 		"class" : "RELIC",
 		"value" : 16000,
-		"components":
+		"components" :
 		[
 			"ogresClubOfHavoc",
 			"targOfTheRampagingOgre",

@@ -6,7 +6,7 @@
 			"singular" : "Blood Dragon",
 			"plural" : "Blood Dragons"
 		},
-		"faction": "necropolis",
+		"faction" : "necropolis",
 		"level" : 8,
 		"cost" :
 		{
@@ -31,8 +31,8 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"king1" :
 			{
@@ -67,7 +67,7 @@
 			"descreaseMorale" :
 			{
 				"type" : "MORALE",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ],
 				"val" : -2,
@@ -84,7 +84,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/bloodDragon/ZM154Z",
+			"animation" : "creatures/bloodDragon/ZM154Z",
 			"map" : "creatures/bloodDragon/zmm154z",
 			"iconSmall" : "creatures/bloodDragon/CPrS154C",
 			"iconLarge" : "creatures/bloodDragon/CPrL154Z",
@@ -98,11 +98,11 @@
 		},
 		"sound" :
 		{
-			"attack": "GHDRATTK.wav",
-			"defend": "GHDRDFND.wav",
-			"killed": "GHDRKILL.wav",
-			"move": "GHDRMOVE.wav",
-			"wince": "GHDRWNCE.wav"
+			"attack" : "GHDRATTK.wav",
+			"defend" : "GHDRDFND.wav",
+			"killed" : "GHDRKILL.wav",
+			"move" : "GHDRMOVE.wav",
+			"wince" : "GHDRWNCE.wav"
 		}
 	}
 }

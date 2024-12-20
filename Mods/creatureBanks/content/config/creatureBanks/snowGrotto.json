@@ -13,7 +13,7 @@
 						"animation" : "creatureBanks/ZCrBank2.def",
 						"visitableFrom" : [ "---", "-+-", "++-" ],
 						"mask" : [ "VVVV", "VBBV", "VABV"],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				},
 				"rmg" : {
@@ -26,17 +26,17 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 5,  "type" :  "ironGolem" },
-							{ "amount": 20, "type" :  "masterGremlin" },
-							{ "amount": 5,  "type" :  "ironGolem" },
-							{ "amount": 20, "type" :  "masterGremlin" }
+						"guards" : [
+							{ "amount" : 5,  "type" :  "ironGolem" },
+							{ "amount" : 20, "type" :  "masterGremlin" },
+							{ "amount" : 5,  "type" :  "ironGolem" },
+							{ "amount" : 20, "type" :  "masterGremlin" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 15,
 							"gold" : 500
@@ -45,13 +45,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 6,  "type" :  "ironGolem" },
-							{ "amount": 30, "type" :  "masterGremlin" },
-							{ "amount": 6,  "type" :  "ironGolem" },
-							{ "amount": 30, "type" :  "masterGremlin" }
+						"guards" : [
+							{ "amount" : 6,  "type" :  "ironGolem" },
+							{ "amount" : 30, "type" :  "masterGremlin" },
+							{ "amount" : 6,  "type" :  "ironGolem" },
+							{ "amount" : 30, "type" :  "masterGremlin" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 20,
 							"gold" : 500
@@ -60,13 +60,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 7,  "type" :  "ironGolem" },
-							{ "amount": 40, "type" :  "masterGremlin" },
-							{ "amount": 7,  "type" :  "ironGolem" },
-							{ "amount": 40, "type" :  "masterGremlin" }
+						"guards" : [
+							{ "amount" : 7,  "type" :  "ironGolem" },
+							{ "amount" : 40, "type" :  "masterGremlin" },
+							{ "amount" : 7,  "type" :  "ironGolem" },
+							{ "amount" : 40, "type" :  "masterGremlin" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 30,
 							"gold" : 500
@@ -75,13 +75,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 8,  "type" :  "ironGolem" },
-							{ "amount": 50, "type" :  "masterGremlin" },
-							{ "amount": 8,  "type" :  "ironGolem" },
-							{ "amount": 50, "type" :  "masterGremlin" }
+						"guards" : [
+							{ "amount" : 8,  "type" :  "ironGolem" },
+							{ "amount" : 50, "type" :  "masterGremlin" },
+							{ "amount" : 8,  "type" :  "ironGolem" },
+							{ "amount" : 50, "type" :  "masterGremlin" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 40,
 							"gold" : 1000

@@ -1,9 +1,9 @@
 {
 	"z358o8" : {
 		"name" : "Ghost",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o8": {
+			"z358o8" : {
 				"templates" : {
 					"z358o8" : {
 						"animation" : "objects/z358o8.def",

@@ -13,7 +13,7 @@
 						"animation" : "creatureBanks/zcrbjn19.def",
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "V", "A" ],
-						"allowedTerrains": [ "water" ]
+						"allowedTerrains" : [ "water" ]
 					}
 				},
 				"rmg" : {
@@ -25,89 +25,89 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 2, "type" :  "genie" },
-							{ "amount": 2, "type" :  "genie" },
-							{ "amount": 2, "type" :  "genie", "upgrade_chance": 50 },
-							{ "amount": 2, "type" :  "genie" },
-							{ "amount": 2, "type" :  "genie" }
+						"guards" : [
+							{ "amount" : 2, "type" :  "genie" },
+							{ "amount" : 2, "type" :  "genie" },
+							{ "amount" : 2, "type" :  "genie", "upgrade_chance" : 50 },
+							{ "amount" : 2, "type" :  "genie" },
+							{ "amount" : 2, "type" :  "genie" }
 						],
-						"resources":
+						"resources" :
 						{
 							"mercury" : 2,
 							"sulfur" : 2,
 							"crystal" : 2,
 							"gems" : 2
 						},
-						"creatures": [
-							{ "amount": 3, "type" :  "genie" }
+						"creatures" : [
+							{ "amount" : 3, "type" :  "genie" }
 						]
 					},
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 3, "type" :  "genie" },
-							{ "amount": 3, "type" :  "genie" },
-							{ "amount": 3, "type" :  "genie", "upgrade_chance": 70 },
-							{ "amount": 3, "type" :  "genie" },
-							{ "amount": 3, "type" :  "genie" }
+						"guards" : [
+							{ "amount" : 3, "type" :  "genie" },
+							{ "amount" : 3, "type" :  "genie" },
+							{ "amount" : 3, "type" :  "genie", "upgrade_chance" : 70 },
+							{ "amount" : 3, "type" :  "genie" },
+							{ "amount" : 3, "type" :  "genie" }
 						],
-						"resources":
+						"resources" :
 						{
 							"mercury" : 3,
 							"sulfur" : 3,
 							"crystal" : 3,
 							"gems" : 3
 						},
-						"creatures": [
-							{ "amount": 5, "type" :  "genie" }
+						"creatures" : [
+							{ "amount" : 5, "type" :  "genie" }
 						]
 					},
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 4, "type" :  "genie" },
-							{ "amount": 4, "type" :  "genie" },
-							{ "amount": 4, "type" :  "genie", "upgrade_chance": 80 },
-							{ "amount": 4, "type" :  "genie" },
-							{ "amount": 4, "type" :  "genie" }
+						"guards" : [
+							{ "amount" : 4, "type" :  "genie" },
+							{ "amount" : 4, "type" :  "genie" },
+							{ "amount" : 4, "type" :  "genie", "upgrade_chance" : 80 },
+							{ "amount" : 4, "type" :  "genie" },
+							{ "amount" : 4, "type" :  "genie" }
 						],
-						"resources":
+						"resources" :
 						{
 							"mercury" : 4,
 							"sulfur" : 4,
 							"crystal" : 4,
 							"gems" : 4
 						},
-						"creatures": [
-							{ "amount": 7, "type" :  "genie" }
+						"creatures" : [
+							{ "amount" : 7, "type" :  "genie" }
 						]
 					},
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 6, "type" :  "genie" },
-							{ "amount": 6, "type" :  "genie" },
-							{ "amount": 6, "type" :  "genie", "upgrade_chance": 90 },
-							{ "amount": 6, "type" :  "genie" },
-							{ "amount": 6, "type" :  "genie" }
+						"guards" : [
+							{ "amount" : 6, "type" :  "genie" },
+							{ "amount" : 6, "type" :  "genie" },
+							{ "amount" : 6, "type" :  "genie", "upgrade_chance" : 90 },
+							{ "amount" : 6, "type" :  "genie" },
+							{ "amount" : 6, "type" :  "genie" }
 						],
-						"resources":
+						"resources" :
 						{
 							"mercury" : 5,
 							"sulfur" : 5,
 							"crystal" : 5,
 							"gems" : 5
 						},
-						"creatures": [
-							{ "amount": 9, "type" :  "genie" }
+						"creatures" : [
+							{ "amount" : 9, "type" :  "genie" }
 						]
 					}
 				]

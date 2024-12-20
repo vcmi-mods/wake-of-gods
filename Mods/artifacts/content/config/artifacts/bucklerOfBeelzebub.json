@@ -5,7 +5,7 @@
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 45000,
-		"components":
+		"components" :
 		[
 			"breastplateOfBrimstone",
 			"shieldOfTheDamned",

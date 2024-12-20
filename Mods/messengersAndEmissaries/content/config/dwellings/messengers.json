@@ -4,8 +4,8 @@
 			"naturalCalamityAir" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "airMessenger" ]],
-				"sounds": {
-					"ambient": ["LOOPCALA"]
+				"sounds" : {
+					"ambient" : ["LOOPCALA"]
 				},
 				"guards" : true,
 				"templates" : {
@@ -19,8 +19,8 @@
 				"name" : "Natural Calamity",
 				"creatures" : [[ "waterMessenger" ]],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPCALA"]
+				"sounds" : {
+					"ambient" : ["LOOPCALA"]
 				},
 				"templates" : {
 					"default" : {
@@ -32,8 +32,8 @@
 			"naturalCalamityFire" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "fireMessenger" ]],
-				"sounds": {
-					"ambient": ["LOOPCALA"]
+				"sounds" : {
+					"ambient" : ["LOOPCALA"]
 				},
 				"guards" : true,
 				"templates" : {
@@ -46,8 +46,8 @@
 			"naturalCalamityEarth" : {
 				"name" : "Natural Calamity",
 				"creatures" : [[ "earthMessenger" ]],
-				"sounds": {
-					"ambient": ["LOOPCALA"]
+				"sounds" : {
+					"ambient" : ["LOOPCALA"]
 				},
 				"guards" : true,
 				"templates" : {

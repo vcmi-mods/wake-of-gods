@@ -6,7 +6,7 @@
 					"avlspit1" : {
 						"animation" : "sandpits/avlspit1",
 						"mask" : [ "BB", "BB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					}
 				}
 			}

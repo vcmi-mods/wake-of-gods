@@ -1,46 +1,46 @@
 {
-	"rock_covered_position": {
-		"graphics": "rock_covered_position.png",
+	"rock_covered_position" : {
+		"graphics" : "rock_covered_position.png",
 		"isSpecial" : true
 	},
-	"snow_covered_position": {
-		"graphics": "snow_covered_position.png",
+	"snow_covered_position" : {
+		"graphics" : "snow_covered_position.png",
 		"isSpecial" : true
 	},
-	"vast_cavern": {
-		"graphics": "vast_cavern.png",
+	"vast_cavern" : {
+		"graphics" : "vast_cavern.png",
 		"isSpecial" : true
 	},
-	"dream_horse-shoe": {
-		"graphics": "dream_horse-shoe.png",
+	"dream_horse-shoe" : {
+		"graphics" : "dream_horse-shoe.png",
 		"isSpecial" : true
 	},
-	"hell_rift": {
-		"graphics": "hell_rift.png",
+	"hell_rift" : {
+		"graphics" : "hell_rift.png",
 		"isSpecial" : true
 	},	
-	"lost_friary": {
-		"graphics": "lost_friary.png",
+	"lost_friary" : {
+		"graphics" : "lost_friary.png",
 		"isSpecial" : true
 	},
-	"snowman": {
-		"graphics": "snowman.png",
+	"snowman" : {
+		"graphics" : "snowman.png",
 		"isSpecial" : true
 	},
-	"sylvan_homestead": {
-		"graphics": "sylvan_homestead.png",
+	"sylvan_homestead" : {
+		"graphics" : "sylvan_homestead.png",
 		"isSpecial" : true
 	},
-	"enchanted_tower": {
-		"graphics": "enchanted_tower.png",
+	"enchanted_tower" : {
+		"graphics" : "enchanted_tower.png",
 		"isSpecial" : true
 	},
-	"howling_hollow": {
-		"graphics": "howling_hollow.png",
+	"howling_hollow" : {
+		"graphics" : "howling_hollow.png",
 		"isSpecial" : true
 	},
-	"dragon_graveyard": {
-		"graphics": "dragon_graveyard.png",
+	"dragon_graveyard" : {
+		"graphics" : "dragon_graveyard.png",
 		"isSpecial" : true
 	}
 }

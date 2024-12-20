@@ -6,8 +6,8 @@
 			"singular" : "Ghost",
 			"plural" : "Ghosts"
 		},
-		"faction": "neutral",
-		"level": 3,
+		"faction" : "neutral",
+		"level" : 3,
 		"cost" :
 		{
 			"gold" : 500
@@ -29,8 +29,8 @@
 			 "max" : 30
 		},
 		"growth" : 8,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"undead" :
 			{
@@ -58,7 +58,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/ghost/ZM159G",
+			"animation" : "creatures/ghost/ZM159G",
 			"map" : "creatures/ghost/zmm159g",
 			"iconSmall" : "creatures/ghost/CPrS159G",
 			"iconLarge" : "creatures/ghost/CPrL159G",
@@ -72,11 +72,11 @@
 		},
 		"sound" :
 		{
-			"attack": "WRTHATTK.wav",
-			"defend": "WRTHDFND.wav",
-			"killed": "WRTHKILL.wav",
-			"move": "WRTHMOVE.wav",
-			"wince": "WRTHWNCE.wav"
+			"attack" : "WRTHATTK.wav",
+			"defend" : "WRTHDFND.wav",
+			"killed" : "WRTHKILL.wav",
+			"move" : "WRTHMOVE.wav",
+			"wince" : "WRTHWNCE.wav"
 		}
 	}
 }

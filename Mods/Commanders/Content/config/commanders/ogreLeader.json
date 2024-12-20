@@ -6,9 +6,9 @@
 			"singular" : "Ogre Leader",
 			"plural" : "Ogre Leaders"
 		},
-		"faction": "stronghold",
+		"faction" : "stronghold",
 		"special" : true,
-		"level": 0,
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -64,7 +64,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM180NPC.DEF",
+			"animation" : "commanders/ZM180NPC.DEF",
 			"iconSmall" : "commanders/CPrS180n",
 			"iconLarge" : "commanders/CPrL180n",
 			"timeBetweenFidgets" : 1,
@@ -76,7 +76,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -92,12 +92,12 @@
 		},
 		"sound" :
 		{
-			"attack": "TRLLATTK.wav",
-			"defend": "TRLLDFND.wav",
-			"killed": "TRLLKILL.wav",
-			"move": "TRLLMOVE.wav",
-			"shoot": "commanders/TRLLSHOT.wav",
-			"wince": "TRLLWNCE.wav"
+			"attack" : "TRLLATTK.wav",
+			"defend" : "TRLLDFND.wav",
+			"killed" : "TRLLKILL.wav",
+			"move" : "TRLLMOVE.wav",
+			"shoot" : "commanders/TRLLSHOT.wav",
+			"wince" : "TRLLWNCE.wav"
 		}
 	}
 }

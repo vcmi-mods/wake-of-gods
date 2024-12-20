@@ -2,8 +2,8 @@
 	"name" : "Map format support (WoG)",
 	"description" : "This mod contains support files needed for loading maps in 'In The Wake of Gods' format in VCMI", 
 	"modType" : "Other",
-	"author": "Ivan, misiokles, krs0",
-	"contact": "https://forum.vcmi.eu/",
+	"author" : "Ivan, misiokles, krs0",
+	"contact" : "https://forum.vcmi.eu/",
 	"version" : "1.0",
 	"compatibility" : {
 		"min" : "1.6.0"
@@ -22,11 +22,11 @@
 	],
 	
 	"czech" : {
-		"name": "Podpora formátu map (WoG)",
-		"description": "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"
+		"name" : "Podpora formátu map (WoG)",
+		"description" : "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"
 	},
 	
-	"settings": {
+	"settings" : {
 		"mapFormat" : {
 			"inTheWakeOfGods" : {
 				"supported" : true,
@@ -86,8 +86,8 @@
 //					"bucklerOfBeelzebub" : 171, scripted artifact, not in editor
 				},
 				"objects" : {
-					"zh4obj01": [63, 1],
-					"zh4obj02": [63, 2],
+					"zh4obj01" : [63, 1],
+					"zh4obj02" : [63, 2],
 					"zobj001" : [63, 3],
 					"zobj002" : [63, 4],
 					"zobj003" : [63, 5], //wgf duplicated this?
@@ -233,8 +233,8 @@
 					"mithril" : [79, 7],
 					"opalOfMagic" : [101, 7],
 					"rubyOfOffence" : [101, 8],
-					"sapphireOfDefense": [101, 9],
-					"crystalOfEmerald": [101, 10],
+					"sapphireOfDefense" : [101, 9],
+					"crystalOfEmerald" : [101, 10],
 					"creatureBank" : {
 						"huntingLodge" : [16, 11],
 						"snowGrotto" : [16, 12],

@@ -6,7 +6,7 @@
 		{
 			"missile" :
 			{
-				"projectile": "centprojectile",
+				"projectile" : "centprojectile",
 				"attackClimaxFrame" : 5,
 				"offset" :
 				{

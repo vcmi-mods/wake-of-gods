@@ -6,69 +6,69 @@
 					"wicebr03" : {
 						"animation" : "reefs/wicebr03",
 						"mask" : [ "VBB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"wicebr09" : {
 						"animation" : "reefs/wicebr09",
 						"mask" : [ "VB", "VB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"wicebr10" : {
 						"animation" : "reefs/wicebr10",
 						"mask" : [ "VBB","BBB", "BBV" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"wicebr11" : {
 						"animation" : "reefs/wicebr11",
 						"mask" : [ "BBV","BBB", "VBB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"wicebr12" : {
 						"animation" : "reefs/wicebr12",
 						"mask" : [ "VVV", "VBB", "BBV" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"wicebr13" : {
 						"animation" : "reefs/wicebr13",
 						"mask" : [ "VVV", "BBV", "VBB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 
 					"avlrfx01" : {
 						"animation" : "reefs/avlrfx01",
 						"mask" : [ "VB", "VB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"avlrfx02" : {
 						"animation" : "reefs/avlrfx02",
 						"mask" : [ "VVV", "BBV", "VBB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"avlrfx03" : {
 						"animation" : "reefs/avlrfx03",
 						"mask" : [ "VVV", "VBB", "BBV" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"avlrfx04" : {
 						"animation" : "reefs/avlrfx04",
 						"mask" : [ "B" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"avlrfx06" : {
 						"animation" : "reefs/avlrfx06",
 						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 
 					"wgfZREEF4" : {
 						"animation" : "reefs/ZREEF4",
 						"mask" : [ "VV","VV", "BB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					},
 					"wgfZREEF5" : {
 						"animation" : "reefs/ZREEF5",
 						"mask" : [ "VVV", "VVV", "BBB" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					}
 				}
 			}

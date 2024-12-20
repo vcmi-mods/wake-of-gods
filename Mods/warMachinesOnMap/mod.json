@@ -1,23 +1,23 @@
 {
-	"name": "War Machines on map",
-	"description": "This module enables war machines and spellbook spawn on adventure map",
-	"modType": "Mechanics",
-	"author": "WoG Team",
-	"contact": "http://forum.vcmi.eu/index.php",
-	"version": "1.0",
-	"artifacts": [
+	"name" : "War Machines on map",
+	"description" : "This module enables war machines and spellbook spawn on adventure map",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"artifacts" : [
 		"config/warMachinesArts.json"
 	],
-	"chinese": {
-		"name": "地图上的战争机器",
-		"description": "这个模组允许战争机器和魔法书在冒险地图上生成。"
+	"chinese" : {
+		"name" : "地图上的战争机器",
+		"description" : "这个模组允许战争机器和魔法书在冒险地图上生成。"
 	},
-	"czech": {
-		"name": "Válečné stroje na mapě",
-		"description": "Tento modul aktivuje objevení válečných strojů a knihy kouzel na mapě dobrodružství"
+	"czech" : {
+		"name" : "Válečné stroje na mapě",
+		"description" : "Tento modul aktivuje objevení válečných strojů a knihy kouzel na mapě dobrodružství"
 	},
-	"polish": {
-		"name": "Maszyny wojenne na mapie",
-		"description": "Ten moduł umożliwia pojawianie się maszyn wojennych i księgi czarów na mapie przygód."
+	"polish" : {
+		"name" : "Maszyny wojenne na mapie",
+		"description" : "Ten moduł umożliwia pojawianie się maszyn wojennych i księgi czarów na mapie przygód."
 	}
 }

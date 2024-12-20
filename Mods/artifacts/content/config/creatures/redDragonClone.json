@@ -1,5 +1,5 @@
 {
-	"redDragonClone":
+	"redDragonClone" :
 	{
 		"name" :
 		{
@@ -61,7 +61,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "CRDRGN",
+			"animation" : "CRDRGN",
 			//			"map" : "",
 			"iconSmall" : "creatures/redDragonClone/CPrS082D",
 			"iconLarge" : "creatures/redDragonClone/CPrL082D",
@@ -74,11 +74,11 @@
 		},
 		"sound" :
 		{
-			"attack": "RDDRATTK.wav",
-			"defend": "RDDRDFND.wav",
-			"killed": "RDDRKILL.wav",
-			"move": "RDDRMOVE.wav",
-			"wince": "RDDRWNCE.wav"
+			"attack" : "RDDRATTK.wav",
+			"defend" : "RDDRDFND.wav",
+			"killed" : "RDDRKILL.wav",
+			"move" : "RDDRMOVE.wav",
+			"wince" : "RDDRWNCE.wav"
 		}
 	}	
 }
