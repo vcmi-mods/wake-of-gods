@@ -56,7 +56,7 @@
 						"animation" : "creatureBanks/AVXgysw0",
 						"visitableFrom" :  [ "---", "-+-", "+++" ],
 						"mask" : [ "VVV", "BAB"],
-						"allowedTerrains":["swamp"]
+						"allowedTerrains" :["swamp"]
 					}
 				}
 			}

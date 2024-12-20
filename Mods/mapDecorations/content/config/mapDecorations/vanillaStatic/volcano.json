@@ -1,22 +1,22 @@
 {
 	"core:volcano" : {
 		"types" : {
-			"object": {
+			"object" : {
 				"templates" : {
 					"zdec0014" : {
 						"animation" : "objects/zdec0014.def",
-						"mask": [ "VVVV", "VBBB", "VBBV", "VVBV" ],
-						"allowedTerrains": [ "lava" ]
+						"mask" : [ "VVVV", "VBBB", "VBBV", "VVBV" ],
+						"allowedTerrains" : [ "lava" ]
 					},
 					"zdec0015" : {
 						"animation" : "objects/zdec0015.def",
-						"mask": [ "VVV", "VVV", "VBV" ],
-						"allowedTerrains": [ "lava" ]
+						"mask" : [ "VVV", "VVV", "VBV" ],
+						"allowedTerrains" : [ "lava" ]
 					},
 					"zwvolc1" : {
 						"animation" : "objects/zwvolc1.def",
-						"mask": [ "VVVV", "VVVV", "VBBV", "VVBB" ],
-						"allowedTerrains": [ "swamp" ]
+						"mask" : [ "VVVV", "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains" : [ "swamp" ]
 					}
 				}
 			}

@@ -7,8 +7,8 @@
 			"plural" : "Paladins"
 		},
 		"special" : true,
-		"faction": "castle",
-		"level": 0,
+		"faction" : "castle",
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -64,7 +64,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM174NPC.DEF",
+			"animation" : "commanders/ZM174NPC.DEF",
 			"iconSmall" : "commanders/CPrS174n",
 			"iconLarge" : "commanders/CPrL174n",
 			"timeBetweenFidgets" : 1,
@@ -76,7 +76,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -92,12 +92,12 @@
 		},
 		"sound" :
 		{
-			"attack": "CRUSATTK.wav",
-			"defend": "CRUSDFND.wav",
-			"killed": "CRUSKILL.wav",
-			"move": "CRUSMOVE.wav",
-			"shoot": "commanders/CRUSSHOT.wav",
-			"wince": "CRUSWNCE.wav"
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"shoot" : "commanders/CRUSSHOT.wav",
+			"wince" : "CRUSWNCE.wav"
 		}
 	}
 }

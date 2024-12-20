@@ -3,63 +3,63 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"AVLlgdr1":
+					"AVLlgdr1" :
 					{
-						"animation": "logs/AVLlgdr1",
-						"visitableFrom": [
+						"animation" : "logs/AVLlgdr1",
+						"visitableFrom" : [
 							"---",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"VB"
 						],
-						"allowedTerrains": [
+						"allowedTerrains" : [
 							"dirt"
 						]
 					},
-					"AVLlgdr2":
+					"AVLlgdr2" :
 					{
-						"animation": "logs/AVLlgdr2",
-						"visitableFrom": [
+						"animation" : "logs/AVLlgdr2",
+						"visitableFrom" : [
 							"---",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"BB"
 						],
-						"allowedTerrains": [
+						"allowedTerrains" : [
 							"dirt"
 						]
 					},
-					"AVLlgdr3":
+					"AVLlgdr3" :
 					{
-						"animation": "logs/AVLlgdr3",
-						"visitableFrom": [
+						"animation" : "logs/AVLlgdr3",
+						"visitableFrom" : [
 							"---",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"BB"
 						],
-						"allowedTerrains": [
+						"allowedTerrains" : [
 							"dirt"
 						]
 					},
-					"AVLlgdr4":
+					"AVLlgdr4" :
 					{
-						"animation": "logs/AVLlgdr4",
-						"visitableFrom": [
+						"animation" : "logs/AVLlgdr4",
+						"visitableFrom" : [
 							"---",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"VB"
 						],
-						"allowedTerrains": [
+						"allowedTerrains" : [
 							"dirt"
 						]
 					}

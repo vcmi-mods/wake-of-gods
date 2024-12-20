@@ -56,7 +56,7 @@
 						"animation" : "objects/z358o4.def",
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+-+", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

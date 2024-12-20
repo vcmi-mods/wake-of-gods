@@ -5,12 +5,10 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.creatures"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/creatureBanks/huntingLodge.json",
 		"config/creatureBanks/grotto.json",
 		"config/creatureBanks/snowGrotto.json",
@@ -18,7 +16,6 @@
 		"config/creatureBanks/homeOfTheBat.json",
 		"config/creatureBanks/lostBottle.json"
 	],
-
 	"chinese" : {
 		"name" : "生物宝屋",
 		"description" : "这个模组启用新生物宝屋。"
@@ -26,6 +23,9 @@
 	"czech" : {
 		"name" : "Nová obydlí",
 		"description" : "Tento modul aktivuje nové obydlí jednotek"
+	},
+	"polish" : {
+		"name" : "Banki stworzeń",
+		"description" : "Ten moduł dodaje nowe banki stworzeń."
 	}
-
 }

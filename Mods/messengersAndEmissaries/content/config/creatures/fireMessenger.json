@@ -6,8 +6,8 @@
 			"singular" : "Fire Messenger",
 			"plural" : "Fire Messengers"
 		},
-		"faction": "neutral",
-		"level": 5,
+		"faction" : "neutral",
+		"level" : 5,
 		"cost" :
 		{
 			"gold" : 750
@@ -29,8 +29,8 @@
 			 "max" : 10
 		},
 		"growth" : 2,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"fireProtection" :
 			{
@@ -46,7 +46,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/fireMessenger/ZM164GD",
+			"animation" : "creatures/fireMessenger/ZM164GD",
 			"map" : "creatures/fireMessenger/zmm164d",
 			"iconSmall" : "creatures/fireMessenger/CPrS164N",
 			"iconLarge" : "creatures/fireMessenger/CPrL164M",
@@ -60,11 +60,11 @@
 		},
 		"sound" :
 		{
-			"attack": "SGLMATTK.wav",
-			"defend": "SGLMDFND.wav",
-			"killed": "SGLMKILL.wav",
-			"move": "SGLMMOVE.wav",
-			"wince": "SGLMWNCE.wav"
+			"attack" : "SGLMATTK.wav",
+			"defend" : "SGLMDFND.wav",
+			"killed" : "SGLMKILL.wav",
+			"move" : "SGLMMOVE.wav",
+			"wince" : "SGLMWNCE.wav"
 		}
 	}
 }

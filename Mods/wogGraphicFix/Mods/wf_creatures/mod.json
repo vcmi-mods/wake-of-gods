@@ -5,12 +5,10 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	"objects" :
-	[
+	"objects" : [
 		"config/wgfDwellings"
 	],
-	"softDepends" :
-	[
+	"softDepends" : [
 		"wake-of-gods.creatures"
 	],
 	"chinese" : {
@@ -22,6 +20,13 @@
 		"description" : "Nová grafika pro jednotky z Wake of Gods.",
 		"translations" : [
 			"translation/wf_creatures/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Poprawione stworzenia WoG",
+		"description" : "Nowe grafiki stworzeń z WoG.",
+		"translations" : [
+			"translation/wf_creatures/polish.json"
 		]
 	}
 }

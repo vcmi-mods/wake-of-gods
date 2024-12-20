@@ -5,20 +5,17 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.warmachinesonmap"
 	],
-	"settings" :
-	{
+	"settings" : {
 		"mapFormat" : {
 			"inTheWakeOfGods" : {
 				"supported" : true,
 				"iconIndex" : 6,
-
 				"artifacts" : {
-					"spellBook": 0, 
-					"grail" :	 2,
+					"spellBook" : 0,
+					"grail" : 2,
 					"catapult" : 3,
 					"ballista" : 4,
 					"ammoCart" : 5,
@@ -35,6 +32,10 @@
 					"warArts/catap_mr.def" : "catap_mr.def"
 				}
 			}
-		}	
+		}
+	},
+	"polish" : {
+		"name" : "Wsparcie dla maszyn wojennych na mapie",
+		"description" : "Ten moduł umożliwia pojawianie się maszyn wojennych na mapie przygód."
 	}
 }

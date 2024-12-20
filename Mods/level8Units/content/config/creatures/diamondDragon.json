@@ -6,7 +6,7 @@
 			"singular" : "Diamond Dragon",
 			"plural" : "Diamond Dragons"
 		},
-		"faction": "rampart",
+		"faction" : "rampart",
 		"level" : 8,
 		"cost" :
 		{
@@ -31,8 +31,8 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"king1" :
 			{
@@ -78,7 +78,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/diamondDragon/ZM151Z",
+			"animation" : "creatures/diamondDragon/ZM151Z",
 			"map" : "creatures/diamondDragon/zmm151z",
 			"iconSmall" : "creatures/diamondDragon/CPrS151C",
 			"iconLarge" : "creatures/diamondDragon/CPrL151Z",
@@ -92,11 +92,11 @@
 		},
 		"sound" :
 		{
-			"attack": "GODRATTK.wav",
-			"defend": "GODRDFND.wav",
-			"killed": "GODRKILL.wav",
-			"move": "GODRMOVE.wav",
-			"wince": "GODRWNCE.wav"
+			"attack" : "GODRATTK.wav",
+			"defend" : "GODRDFND.wav",
+			"killed" : "GODRKILL.wav",
+			"move" : "GODRMOVE.wav",
+			"wince" : "GODRWNCE.wav"
 		}
 	}
 }

@@ -7,7 +7,7 @@
 						"animation" : "objects/zfohill0.def",
 						"mask" : [ "VVV", "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

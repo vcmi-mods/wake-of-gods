@@ -1,12 +1,12 @@
 {
-	"core:log": {
+	"core:log" : {
 		"types" : {
 			"object" : {
 				"templates" : {
 					"zobrevno" : {
 						"animation" : "objects/zobrevno.def",
-						"mask": [ "V" ],
-						"allowedTerrains": [ "water" ]
+						"mask" : [ "V" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}

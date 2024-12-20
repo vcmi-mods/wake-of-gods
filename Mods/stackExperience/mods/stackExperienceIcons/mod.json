@@ -6,12 +6,15 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	"keepDisabled" : true,
-	"depends" :
-	[
+	"depends" : [
 		"vcmi"
 	],
 	"czech" : {
-		"name": "Ikony zkušeností jednotek",
-		"description": "Tato modifikace přidává nové číselné ikony zkušeností jednotek."
+		"name" : "Ikony zkušeností jednotek",
+		"description" : "Tato modifikace přidává nové číselné ikony zkušeností jednotek."
+	},
+	"polish" : {
+		"name" : "Ikony doświadczenia jednostek",
+		"description" : "Ten moduł dodaje nowe, numerowane ikony doświadczenia jednostek."
 	}
 }

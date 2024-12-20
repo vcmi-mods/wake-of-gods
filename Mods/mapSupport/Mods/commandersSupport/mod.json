@@ -5,23 +5,18 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.commanders"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/commandersMap.json"
 	],
-	"settings" :
-	{
-
+	"settings" : {
 		"mapFormat" : {
 			"inTheWakeOfGods" : {
 				"supported" : true,
 				"iconIndex" : 6,
-				
-				"creatures" : {				
+				"creatures" : {
 					"paladin1" : 183,
 					"hierophant1" : 184,
 					"templeGuardian1" : 185,
@@ -33,12 +28,11 @@
 					"astralSpirit1" : 191
 				},
 				"artifacts" : {
-					
 					"axeOfSmashing" : 146,
 					"mithrilMail" : 147,
 					"swordOfSharpness" : 148,
-					"helmOfImmortality" : 149,					
-					"pendantOfSorcery" : 150,					
+					"helmOfImmortality" : 149,
+					"pendantOfSorcery" : 150,
 					"bootsOfHaste" : 151,
 					"bowOfSeeking" : 152,
 					"dragonEyeRing" : 153,
@@ -64,7 +58,6 @@
 					"commanders/zmm180n.DEF" : "zmm180n.DEF",
 					"commanders/zmm181n.DEF" : "zmm181n.DEF",
 					"commanders/zmm182n.DEF" : "zmm182n.DEF",
-					
 					"artifacts/zart146.def" : "zart146.def",
 					"artifacts/zart147.def" : "zart147.def",
 					"artifacts/zart148.def" : "zart148.def",
@@ -77,6 +70,10 @@
 					"artifacts/zart155.def" : "zart155.def"
 				}
 			}
-		}	
+		}
+	},
+	"polish" : {
+		"name" : "Wsparcie dowódców",
+		"description" : "Ten moduł dodaje wsparcie dla dowódców na wybranych mapach WoG."
 	}
 }

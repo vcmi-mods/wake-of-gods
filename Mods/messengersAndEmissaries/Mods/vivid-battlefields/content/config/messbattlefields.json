@@ -1,6 +1,6 @@
 {
-	"natural_calamity": {
-		"graphics": "natural_calamity.png",
+	"natural_calamity" : {
+		"graphics" : "natural_calamity.png",
 		"isSpecial" : true
 	}
 }

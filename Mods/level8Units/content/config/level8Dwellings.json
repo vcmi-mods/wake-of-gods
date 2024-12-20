@@ -11,8 +11,8 @@
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVV", "VVVV", "VBAV" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPSANC"]
+				"sounds" : {
+					"ambient" : ["LOOPSANC"]
 				}
 			},
 			"dragonPeaks" : { 
@@ -25,8 +25,8 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPDRAG"]
+				"sounds" : {
+					"ambient" : ["LOOPDRAG"]
 				}
 			},
 			"stormTemple" : { 
@@ -39,8 +39,8 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VBV", "VBA" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPTITA"]
+				"sounds" : {
+					"ambient" : ["LOOPTITA"]
 				}
 			},
 			"unholyPalace" : { 
@@ -53,8 +53,8 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPDEVL"]
+				"sounds" : {
+					"ambient" : ["LOOPDEVL"]
 				}
 			},
 			"spectralVault" : { 
@@ -67,8 +67,8 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
 					}
 				},		
-				"sounds": {
-					"ambient": ["LOOPDRAG"]
+				"sounds" : {
+					"ambient" : ["LOOPDRAG"]
 				}
 			},
 			"caveOfDarkness" : { 
@@ -81,8 +81,8 @@
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVV", "VVVV", "VBAV" ]
 					}
 				},			
-				"sounds": {
-					"ambient": ["LOOPDRAG"]
+				"sounds" : {
+					"ambient" : ["LOOPDRAG"]
 				}
 			},
 			"behemothTomb" : { 
@@ -95,8 +95,8 @@
 						"mask" : [ "VVV", "VVV", "VVV", "BAV" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPBEHE"]
+				"sounds" : {
+					"ambient" : ["LOOPBEHE"]
 				}
 			},
 			"chaosPool" : { 
@@ -109,8 +109,8 @@
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPHYDR"]
+				"sounds" : {
+					"ambient" : ["LOOPHYDR"]
 				}
 			},
 			"spiritPyre" : { 

@@ -6,9 +6,9 @@
 			"singular" : "Emissary of War",
 			"plural" : "Emissaries of War"
 		},
-		"faction": "neutral",
+		"faction" : "neutral",
 		"special" : true,
-		"level": 6,
+		"level" : 6,
 		"cost" :
 		{
 			"gold" : 30000
@@ -30,10 +30,10 @@
 			 "max" : 2
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"graphics" :
 		{
-			"animation": "creatures/emissaryOfWar/ZM160G",
+			"animation" : "creatures/emissaryOfWar/ZM160G",
 //			"map" : "creatures/emissaryOfWar/zmm160g",
 			"iconSmall" : "creatures/emissaryOfWar/CPrS160G",
 			"iconLarge" : "creatures/emissaryOfWar/CPrL160G",
@@ -47,13 +47,13 @@
 		},
 		"sound" :
 		{
-			"attack": "AAGLATTK.wav",
-			"defend": "AAGLDFND.wav",
-			"killed": "AAGLKILL.wav",
-			"move": "AAGLMOVE.wav",
-			"wince": "AAGLWNCE.wav"
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
 		},
-		"abilities":
+		"abilities" :
 		{
 			"teleporting" :
 			{

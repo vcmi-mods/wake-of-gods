@@ -5,8 +5,7 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	"softDepends" :
-	[
+	"softDepends" : [
 		"wake-of-gods.level8units"
 	],
 	"chinese" : {
@@ -16,5 +15,9 @@
 	"czech" : {
 		"name" : "Jednotky 8. úrovně",
 		"description" : "Nová grafika pro jednotky 8. úrovně."
+	},
+	"polish" : {
+		"name" : "Poprawione jednostki 8-go poziomu",
+		"description" : "Nowe grafiki jednostek 8-go poziomu z SoD/WoG."
 	}
 }

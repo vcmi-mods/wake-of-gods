@@ -1,7 +1,7 @@
 {
 	"marketOfTimeoG" : {
 		"name" : "Market Of Time",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
 			"marketOfTimeWoG" : {
 				"templates" : {

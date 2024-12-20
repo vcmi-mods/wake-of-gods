@@ -2,17 +2,17 @@
 	"almsHouse" :
 	{
 		"name" : "Alms House",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"almsHouse":
+			"almsHouse" :
 			{
 				"name" : "Alms House",
 				"description" : "Grant experience, primary skills or resources to hero who has none",
 				"selectMode" : "selectAll",
 				"visitMode" : "hero",
-				"onVisitedMessage": "{Alms House}\r\n\r\nYou already visited the Alms House.",
-				"onEmptyMessage": "{Alms House}\r\n\r\nAlms house only helps the ones in need.",
+				"onVisitedMessage" : "{Alms House}\r\n\r\nYou already visited the Alms House.",
+				"onEmptyMessage" : "{Alms House}\r\n\r\nAlms house only helps the ones in need.",
 				"rmg" : {
 					"value"		: 1500,
 					"rarity"	: 100,
@@ -29,97 +29,97 @@
 						"primary" : { "attack" : 1 },
 						"limiter" :
 						{
-							"noneOf": [ {"primary" : {"attack" : 1} } ] //invert the range - max allowed level is 0
+							"noneOf" : [ {"primary" : {"attack" : 1} } ] //invert the range - max allowed level is 0
 						},
-						"message": "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
+						"message" : "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
 					},
 					{
 						"primary" : { "defence" : 1 },
 						"limiter" :
 						{
-							"noneOf": [ {"primary" : {"defence" : 1} } ]
+							"noneOf" : [ {"primary" : {"defence" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
+						"message" : "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
 					},
 					{
 						"primary" : { "spellpower" : 1 },
 						"limiter" :
 						{
-							"noneOf": [ {"primary" : {"spellpower" : 2} } ] //invert the range - max allowed level is 1
+							"noneOf" : [ {"primary" : {"spellpower" : 2} } ] //invert the range - max allowed level is 1
 						},
-						"message": "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
+						"message" : "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
 					},
 					{
 						"primary" : { "knowledge" : 1 },
 						"limiter" :
 						{
-							"noneOf": [ {"primary" : {"knowledge" : 2} } ]
+							"noneOf" : [ {"primary" : {"knowledge" : 2} } ]
 						},
-						"message": "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
+						"message" : "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
 					},
 					{
 						"heroExperience" : 1000,
-						"limiter":
+						"limiter" :
 						{
-							"noneOf": [ { "heroLevel" : 2 } ]//invert the range - maximum allowed level is 1
+							"noneOf" : [ { "heroLevel" : 2 } ]//invert the range - maximum allowed level is 1
 						},
-						"message": "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
+						"message" : "{Alms House}\r\n\r\nAs a beginning adventurer, you learn something here."
 					},
 					{
-						"resources" : { "ore": 1 },
-						"limiter":
+						"resources" : { "ore" : 1 },
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"ore" : 1} } ]
+							"noneOf" : [ { "resources" : {"ore" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					},
 					{
-						"resources" : { "wood": 1 },
-						"limiter":
+						"resources" : { "wood" : 1 },
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"wood" : 1} } ]
+							"noneOf" : [ { "resources" : {"wood" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					},
 					{
-						"limiter":
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"mercury" : 1} } ]
+							"noneOf" : [ { "resources" : {"mercury" : 1} } ]
 						},
-						"resources" : { "mercury": 1 },
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"resources" : { "mercury" : 1 },
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					},
 					{
-						"resources" : { "sulfur": 1 },
-						"limiter":
+						"resources" : { "sulfur" : 1 },
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"sulfur" : 1} } ]
+							"noneOf" : [ { "resources" : {"sulfur" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					},
 					{
-						"resources" : { "crystal": 1 },
-						"limiter":
+						"resources" : { "crystal" : 1 },
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"crystal" : 1} } ]
+							"noneOf" : [ { "resources" : {"crystal" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					},
 					{
-						"resources" : { "gems": 1 },
-						"limiter":
+						"resources" : { "gems" : 1 },
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"gems" : 1} } ]
+							"noneOf" : [ { "resources" : {"gems" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					},
 					{
-						"resources" : { "gold": 1 },
-						"limiter":
+						"resources" : { "gold" : 1 },
+						"limiter" :
 						{
-							"noneOf": [ { "resources" : {"gold" : 1} } ]
+							"noneOf" : [ { "resources" : {"gold" : 1} } ]
 						},
-						"message": "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
+						"message" : "{Alms House}\r\n\r\nYou receive this gift, which will help you at the start of your journey."
 					}
 				],
 				"templates" : {
@@ -132,7 +132,7 @@
 					"zobj018" :
 					{
 						"animation" : "mapObjects/zobj018.def",
-						"allowedTerrains": [ "snow" ],
+						"allowedTerrains" : [ "snow" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"mask" : [ "VVV", "VVV", "VVV", "VAV" ]
 					}

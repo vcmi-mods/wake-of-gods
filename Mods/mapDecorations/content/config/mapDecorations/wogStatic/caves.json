@@ -1,9 +1,9 @@
 {
 	"zcave1" : {
 		"name" : "Adventure Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zcave1": {
+			"zcave1" : {
 				"templates" : {
 					"zcave1" : {
 						"animation" : "objects/zcave1.def",
@@ -16,9 +16,9 @@
 	},
 	"zcave2" : {
 		"name" : "Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zcave2": {
+			"zcave2" : {
 				"templates" : {
 					"zcave2" : {
 						"animation" : "objects/zcave2.def",
@@ -31,9 +31,9 @@
 	},
 	"zcave3" : {
 		"name" : "Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zcave3": {
+			"zcave3" : {
 				"templates" : {
 					"zcave3" : {
 						"animation" : "objects/zcave3.def",
@@ -46,9 +46,9 @@
 	},
 	"zcave4" : {
 		"name" : "Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zcave4": {
+			"zcave4" : {
 				"templates" : {
 					"zcave4" : {
 						"animation" : "objects/zcave4.def",
@@ -61,9 +61,9 @@
 	},
 	"zcave5" : {
 		"name" : "Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zcave5": {
+			"zcave5" : {
 				"templates" : {
 					"zcave5" : {
 						"animation" : "objects/zcave5.def",
@@ -76,9 +76,9 @@
 	},
 	"z358o9" : {
 		"name" : "Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o9": {
+			"z358o9" : {
 				"templates" : {
 					"z358o9" : {
 						"animation" : "objects/z358o9.def",
@@ -91,9 +91,9 @@
 	},
 	"z358o10" : {
 		"name" : "Cave",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"z358o10": {
+			"z358o10" : {
 				"templates" : {
 					"z358o10" : {
 						"animation" : "objects/z358o10.def",

@@ -5,43 +5,38 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.creatures"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/castleCreaturesStackExp.json",
 		"config/rampartCreaturesStackExp.json",
 		"config/towerCreaturesStackExp.json",
-
 		"config/necropolisCreaturesStackExp.json",
 		"config/infernoCreaturesStackExp.json",
 		"config/dungeonCreaturesStackExp.json",
-
 		"config/strongholdCreaturesStackExp.json",
 		"config/fortressCreaturesStackExp.json",
 		"config/confluxCreaturesStackExp.json",
-
 		"config/neutralCreaturesStackExp.json",
 		"config/specialCreaturesStackExp.json",
-
 		"config/wogCreaturesStackExp.json"
 	],
-	"settings":
-	{
-		"modules":
-		{
-			"stackExperience": true
+	"settings" : {
+		"modules" : {
+			"stackExperience" : true
 		}
 	},
-
 	"chinese" : {
 		"name" : "生物经验",
 		"description" : "这个模组启用WoG的生物经验功能。"
-	},	
+	},
 	"czech" : {
 		"name" : "Zkušenosti jednotek",
 		"description" : "Tato modifikace aktivuje funkci zkušeností jednotek"
+	},
+	"polish" : {
+		"name" : "Doświadczenie stacków",
+		"description" : "Ten moduł dodaje funkcję doświadczenia dla jednostek."
 	}
 }

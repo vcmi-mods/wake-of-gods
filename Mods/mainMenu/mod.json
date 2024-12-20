@@ -5,8 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"conflicts" :
-	[
+	"conflicts" : [
 		"h3-themes.ab",
 		"h3-themes.beta",
 		"h3-themes.complete",
@@ -25,7 +24,7 @@
 		"h3-themes.roe",
 		"h3-themes.sod",
 		"h3-themes.tow",
-		"h3-themes.vcmi",		
+		"h3-themes.vcmi",
 		"h3-themes.wog",
 		"h3-themes",
 		"hota.mainmenu",
@@ -40,5 +39,9 @@
 	"czech" : {
 		"name" : "Vzhled hlavního menu",
 		"description" : "Mění vzhled hlavního menu na ikonické menu In The Wake of Gods."
+	},
+	"polish" : {
+		"name" : "Motyw menu głównego",
+		"description" : "Zmienia motyw menu głównego na używany w modzie WoG."
 	}
 }

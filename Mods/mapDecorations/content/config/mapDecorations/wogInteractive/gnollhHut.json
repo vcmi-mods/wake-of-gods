@@ -1,7 +1,7 @@
 {
 	"avGnoll"	: {
 		"name" : "Gnoll Hut",
-		"handler":"static",
+		"handler" :"static",
 		"types" : {
 			"avGnoll" : {
 				"templates" : {
@@ -9,7 +9,7 @@
 						"animation" : "AvGnoll",
 						"visitableFrom" : [ "---", "+-+", "+++" ],
 						"mask" : [ "VBV","VBV" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					}
 				}
 			}

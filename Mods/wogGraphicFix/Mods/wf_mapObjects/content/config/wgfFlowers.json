@@ -6,67 +6,67 @@
 					"wfflw00" : {
 						"animation" : "flowers/wfflw00",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw01" : {
 						"animation" : "flowers/wfflw01",
 						"mask" : [ "VBB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw02" : {
 						"animation" : "flowers/wfflw02",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw03" : {
 						"animation" : "flowers/wfflw03",
 						"mask" : [ "VBB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw04" : {
 						"animation" : "flowers/wfflw04",
 						"mask" : [ "VVVV", "VBBB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw05" : {
 						"animation" : "flowers/wfflw05",
 						"mask" : [ "VVVV", "VBBB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw06" : {
 						"animation" : "flowers/wfflw06",
 						"mask" : [ "VBB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw07" : {
 						"animation" : "flowers/wfflw07",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"wfflw08" : {
 						"animation" : "flowers/wfflw08",
 						"mask" : [ "VBB" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"WFsunf0" : {
 						"animation" : "flowers/WFsunf0",
 						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},		
 					"WFsunf1" : {
 						"animation" : "flowers/WFsunf1",
 						"mask" : [ "VVVV", "VBBV" ],
-						"allowedTerrains": [ "grass" ]
+						"allowedTerrains" : [ "grass" ]
 					},
 					"avlf13g0" : {
 						"animation" : "flowers/avlf13g0",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"avlf14g0" : {
 						"animation" : "flowers/avlf14g0",
 						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					}
 				}
 			}

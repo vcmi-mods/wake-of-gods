@@ -6,8 +6,8 @@
 			"singular" : "Air Messenger",
 			"plural" : "Air Messengers"
 		},
-		"faction": "neutral",
-		"level": 5,
+		"faction" : "neutral",
+		"level" : 5,
 		"cost" :
 		{
 			"gold" : 750
@@ -29,8 +29,8 @@
 			 "max" : 10
 		},
 		"growth" : 2,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"airProtection" :
 			{
@@ -46,7 +46,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/airMessenger/ZM166GD",
+			"animation" : "creatures/airMessenger/ZM166GD",
 			"map" : "creatures/airMessenger/zmm166d",
 			"iconSmall" : "creatures/airMessenger/CPrS166N",
 			"iconLarge" : "creatures/airMessenger/CPrL166M",
@@ -60,11 +60,11 @@
 		},
 		"sound" :
 		{
-			"attack": "SGLMATTK.wav",
-			"defend": "SGLMDFND.wav",
-			"killed": "SGLMKILL.wav",
-			"move": "SGLMMOVE.wav",
-			"wince": "SGLMWNCE.wav"
+			"attack" : "SGLMATTK.wav",
+			"defend" : "SGLMDFND.wav",
+			"killed" : "SGLMKILL.wav",
+			"move" : "SGLMMOVE.wav",
+			"wince" : "SGLMWNCE.wav"
 		}
 	}
 }

@@ -1,14 +1,14 @@
 {
 	"zsnow001" : {
 		"name" : "Snow",
-		"handler":"static",
+		"handler" :"static",
 		"types" : {
-			"zsnow001": {
+			"zsnow001" : {
 				"templates" : {
 					"zsnow001" : {
 						"animation" : "objects/zsnow001.def",
-						"mask": [ "VVV", "VVV", "VVB" ],
-						"allowedTerrains": [ "snow" ]
+						"mask" : [ "VVV", "VVV", "VVB" ],
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

@@ -2,17 +2,17 @@
 	"zsphnx10" :
 	{
 		"name" : "Sphinx",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"zsphnx10":
+			"zsphnx10" :
 			{
 				"name" : "Sphinx",
 				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"base": 
+				"onVisitedMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base" : 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
 					"visitableFrom" : [ "---", "++-", "+++" ]
@@ -29,7 +29,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 10
 						},
@@ -68,10 +68,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 10,
 							"max" : 15
@@ -87,10 +87,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 20
@@ -106,10 +106,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 20,
 							"max" : 25
@@ -125,10 +125,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 25,
 							"max" : 30
@@ -144,10 +144,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 35
@@ -163,10 +163,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 35,
 							"max" : 40
@@ -182,10 +182,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 40,
 							"max" : 50
@@ -209,10 +209,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 65
@@ -228,10 +228,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 65,
 							"max" : 75
@@ -245,10 +245,10 @@
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 75,
 							"max" : 85
@@ -263,10 +263,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 85
 						},
@@ -280,11 +280,11 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
 				"templates" : {
-					"zsphnx10" : { "animation" : "mapObjects/zsphnx10.def", "allowedTerrains": [ "sand" ] }
+					"zsphnx10" : { "animation" : "mapObjects/zsphnx10.def", "allowedTerrains" : [ "sand" ] }
 				}
 			}	
 		}
@@ -292,17 +292,17 @@
 	"zsphnx11" :
 	{
 		"name" : "Sphinx",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"zsphnx11":
+			"zsphnx11" :
 			{
 				"name" : "Sphinx",
 				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"base": 
+				"onVisitedMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base" : 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
 					"visitableFrom" : [ "---", "++-", "+++" ]
@@ -319,7 +319,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 10
 						},
@@ -358,10 +358,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 10,
 							"max" : 15
@@ -377,10 +377,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 20
@@ -396,10 +396,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 20,
 							"max" : 25
@@ -415,10 +415,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 25,
 							"max" : 30
@@ -434,10 +434,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 35
@@ -453,10 +453,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 35,
 							"max" : 40
@@ -472,10 +472,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 40,
 							"max" : 50
@@ -499,10 +499,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 65
@@ -518,10 +518,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 65,
 							"max" : 75
@@ -535,10 +535,10 @@
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 75,
 							"max" : 85
@@ -553,10 +553,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 85
 						},
@@ -570,11 +570,11 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
 				"templates" : {
-					"zsphnx11" : { "animation" : "mapObjects/zsphnx11.def", "allowedTerrains": [ "rough", "water" ] }
+					"zsphnx11" : { "animation" : "mapObjects/zsphnx11.def", "allowedTerrains" : [ "rough", "water" ] }
 				}
 			}	
 		}
@@ -582,17 +582,17 @@
 	"zsphnx12" :
 	{
 		"name" : "Sphinx",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"zsphnx12":
+			"zsphnx12" :
 			{
 				"name" : "Sphinx",
 				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"base": 
+				"onVisitedMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base" : 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
 					"visitableFrom" : [ "---", "++-", "+++" ]
@@ -609,7 +609,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 10
 						},
@@ -648,10 +648,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 10,
 							"max" : 15
@@ -667,10 +667,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 20
@@ -686,10 +686,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 20,
 							"max" : 25
@@ -705,10 +705,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 25,
 							"max" : 30
@@ -724,10 +724,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 35
@@ -743,10 +743,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 35,
 							"max" : 40
@@ -762,10 +762,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 40,
 							"max" : 50
@@ -789,10 +789,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 65
@@ -808,10 +808,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 65,
 							"max" : 75
@@ -825,10 +825,10 @@
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 75,
 							"max" : 85
@@ -843,10 +843,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 85
 						},
@@ -860,11 +860,11 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
 				"templates" : {
-					"zsphnx12" : { "animation" : "mapObjects/zsphnx12.def", "allowedTerrains": [ "dirt", "grass", "lava" ] }
+					"zsphnx12" : { "animation" : "mapObjects/zsphnx12.def", "allowedTerrains" : [ "dirt", "grass", "lava" ] }
 				}
 			}	
 		}
@@ -872,17 +872,17 @@
 	"zsphnx13" :
 	{
 		"name" : "Sphinx",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"zsphnx13":
+			"zsphnx13" :
 			{
 				"name" : "Sphinx",
 				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"base": 
+				"onVisitedMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base" : 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
 					"visitableFrom" : [ "---", "++-", "+++" ]
@@ -899,7 +899,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 10
 						},
@@ -938,10 +938,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 10,
 							"max" : 15
@@ -957,10 +957,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 20
@@ -976,10 +976,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 20,
 							"max" : 25
@@ -995,10 +995,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 25,
 							"max" : 30
@@ -1014,10 +1014,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 35
@@ -1033,10 +1033,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 35,
 							"max" : 40
@@ -1052,10 +1052,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 40,
 							"max" : 50
@@ -1079,10 +1079,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 65
@@ -1098,10 +1098,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 65,
 							"max" : 75
@@ -1115,10 +1115,10 @@
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 75,
 							"max" : 85
@@ -1133,10 +1133,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 85
 						},
@@ -1150,11 +1150,11 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
 				"templates" : {
-					"zsphnx13" : { "animation" : "mapObjects/zsphnx13.def", "allowedTerrains": [ "snow" ] }
+					"zsphnx13" : { "animation" : "mapObjects/zsphnx13.def", "allowedTerrains" : [ "snow" ] }
 				}
 			}	
 		}
@@ -1162,17 +1162,17 @@
 	"zsphnx14" :
 	{
 		"name" : "Sphinx",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"zsphnx14":
+			"zsphnx14" :
 			{
 				"name" : "Sphinx",
 				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"base": 
+				"onVisitedMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base" : 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
 					"visitableFrom" : [ "---", "++-", "+++" ]
@@ -1189,7 +1189,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 10
 						},
@@ -1228,10 +1228,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 10,
 							"max" : 15
@@ -1247,10 +1247,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 20
@@ -1266,10 +1266,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 20,
 							"max" : 25
@@ -1285,10 +1285,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 25,
 							"max" : 30
@@ -1304,10 +1304,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 35
@@ -1323,10 +1323,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 35,
 							"max" : 40
@@ -1342,10 +1342,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 40,
 							"max" : 50
@@ -1369,10 +1369,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 65
@@ -1388,10 +1388,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 65,
 							"max" : 75
@@ -1405,10 +1405,10 @@
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 75,
 							"max" : 85
@@ -1423,10 +1423,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 85
 						},
@@ -1440,11 +1440,11 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
 				"templates" : {
-					"zsphnx14" : { "animation" : "mapObjects/zsphnx14.def", "allowedTerrains": [ "subterra" ] }
+					"zsphnx14" : { "animation" : "mapObjects/zsphnx14.def", "allowedTerrains" : [ "subterra" ] }
 				}
 			}	
 		}
@@ -1452,17 +1452,17 @@
 	"zsphnx15" :
 	{
 		"name" : "Sphinx",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" :
 		{
-			"zsphnx15":
+			"zsphnx15" :
 			{
 				"name" : "Sphinx",
 				"description" : "(grant hero a random permanent bonus)",
 				"visitMode" : "once",
-				"onVisitedMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"onEmptyMessage": "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
-				"base": 
+				"onVisitedMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"onEmptyMessage" : "{Sphinx}\r\n\r\nThe Sphinx has no more riddles.",
+				"base" : 
 				{
 					"mask" : [ "VVV", "VVV", "VAB" ],
 					"visitableFrom" : [ "---", "++-", "+++" ]
@@ -1479,7 +1479,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 10
 						},
@@ -1518,10 +1518,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive one unit of each precious resource every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 10,
 							"max" : 15
@@ -1537,10 +1537,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 gems every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 20
@@ -1556,10 +1556,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 crystals every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 20,
 							"max" : 25
@@ -1575,10 +1575,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of mercury every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 25,
 							"max" : 30
@@ -1594,10 +1594,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 units of sulfur every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 35
@@ -1613,10 +1613,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of wood every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 35,
 							"max" : 40
@@ -1632,10 +1632,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 5 wagons of ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 40,
 							"max" : 50
@@ -1659,10 +1659,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 3 pieces of wood and ore every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 65
@@ -1678,10 +1678,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 1000 pieces of gold every day."
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 65,
 							"max" : 75
@@ -1695,10 +1695,10 @@
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive additional 250 movement points permanently. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 75,
 							"max" : 85
@@ -1713,10 +1713,10 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will regenerate 6 extra points of mana every turn. "
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 85
 						},
@@ -1730,11 +1730,11 @@
 								"duration" : "PERMANENT"
 							}
 						],
-						"message": "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
+						"message" : "{Sphinx}\r\n\r\nAfter you solve the riddle of the Sphinx, he grants you a blessing. The hero will receive 25% more experience from now on. "
 					}
 				],
 				"templates" : {
-					"zsphnx15" : { "animation" : "mapObjects/zsphnx15.def", "allowedTerrains": [ "swamp" ] }
+					"zsphnx15" : { "animation" : "mapObjects/zsphnx15.def", "allowedTerrains" : [ "swamp" ] }
 				}
 			}	
 		}

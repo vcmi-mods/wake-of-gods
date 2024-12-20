@@ -1,9 +1,9 @@
 {
 	"zwall004" : {
 		"name" : "Wall",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zwall004": {
+			"zwall004" : {
 				"name" : "Wall",
 				"templates" : {
 					"zwall004" : {
@@ -16,9 +16,9 @@
 	},
 	"zwall005" : {
 		"name" : "Wall",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zwall005": {
+			"zwall005" : {
 				"name" : "Wall",
 				"templates" : {
 					"zwall005" : {

@@ -17,15 +17,15 @@
 				"iconIndex" : 6,
 
 				"artifacts" : {
-					"warlordsBannerHealth": 156, //problem with banners?
-					"warlordsBannerAttack": 156,
-					"warlordsBannerDefence": 156,
-					"warlordsBannerDamage": 156,
-					"warlordsBannerSpeed": 156,
-					"warlordsBannerExperience": 156,
-					"warlordsBannerReducer": 156,
-					"warlordsBannerBlocker": 156,
-					"warlordsBannerRetaliate": 156,
+					"warlordsBannerHealth" : 156, //problem with banners?
+					"warlordsBannerAttack" : 156,
+					"warlordsBannerDefence" : 156,
+					"warlordsBannerDamage" : 156,
+					"warlordsBannerSpeed" : 156,
+					"warlordsBannerExperience" : 156,
+					"warlordsBannerReducer" : 156,
+					"warlordsBannerBlocker" : 156,
+					"warlordsBannerRetaliate" : 156,
 				},
 				"templates" : {
 					"artifacts/zart156.def" : "zart156.def"

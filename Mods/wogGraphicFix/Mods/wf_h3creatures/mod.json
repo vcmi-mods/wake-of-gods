@@ -5,12 +5,10 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	"objects" :
-	[
+	"objects" : [
 		"config/wgfDwellings"
 	],
-	"softDepends" :
-	[
+	"softDepends" : [
 		"wake-of-gods.animatedobjects",
 		"wake-of-gods.heroes3datapatch"
 	],
@@ -23,6 +21,13 @@
 		"description" : "Nová grafika pro jednotky z Heroes 3.",
 		"translations" : [
 			"translation/wf_h3creatures/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Poprawione stworzenia SoD",
+		"description" : "Nowe grafiki stworzeń z SoD.",
+		"translations" : [
+			"translation/wf_h3creatures/polish.json"
 		]
 	}
 }

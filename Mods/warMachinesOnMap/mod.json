@@ -5,8 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/warMachinesArts.json"
 	],
 	"chinese" : {
@@ -16,5 +15,9 @@
 	"czech" : {
 		"name" : "Válečné stroje na mapě",
 		"description" : "Tento modul aktivuje objevení válečných strojů a knihy kouzel na mapě dobrodružství"
+	},
+	"polish" : {
+		"name" : "Maszyny wojenne na mapie",
+		"description" : "Ten moduł umożliwia pojawianie się maszyn wojennych i księgi czarów na mapie przygód."
 	}
 }

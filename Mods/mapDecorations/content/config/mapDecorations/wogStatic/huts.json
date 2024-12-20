@@ -1,7 +1,7 @@
 {
 	"zyzop1" : {
 		"name" : "Hut",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
 			"zyzop1" : {			
 				"templates" : {		
@@ -16,7 +16,7 @@
 	},
 	"zyzop2" : {
 		"name" : "Hut",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
 			"zyzop2" : {			
 				"templates" : {		

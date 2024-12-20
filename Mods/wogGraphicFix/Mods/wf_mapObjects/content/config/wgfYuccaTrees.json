@@ -7,17 +7,17 @@
 					"avlyuc40wgf" : {
 						"animation" : "trees/avlyuc40",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"avlyuc50wgf" : {
 						"animation" : "trees/avlyuc50",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"avlyuc60wgf" : {
 						"animation" : "trees/avlyuc60",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					}
 				}
 			}

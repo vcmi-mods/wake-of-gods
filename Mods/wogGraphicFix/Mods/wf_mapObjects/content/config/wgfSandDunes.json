@@ -6,27 +6,27 @@
 					"avldun31" : {
 						"animation" : "mountains/avldun31",
 						"mask" : [ "VVV","BBB" ],
-						"allowedTerrains": ["sand" ]
+						"allowedTerrains" : ["sand" ]
 					},
 					"avldun32" : {
 						"animation" : "mountains/avldun32",
 						"mask" : [ "VVV","VBV" ],
-						"allowedTerrains": ["sand" ]
+						"allowedTerrains" : ["sand" ]
 					},
 					"avldun33" : {
 						"animation" : "mountains/avldun33",
 						"mask" : [ "BB","BB" ],
-						"allowedTerrains": ["sand" ]
+						"allowedTerrains" : ["sand" ]
 					},
 					"avldun34" : {
 						"animation" : "mountains/avldun34",
 						"mask" : [ "BB" ],
-						"allowedTerrains": ["sand" ]
+						"allowedTerrains" : ["sand" ]
 					},
 					"avldun35" : {
 						"animation" : "mountains/avldun35",
 						"mask" : [ "BB" ],
-						"allowedTerrains": ["sand" ]
+						"allowedTerrains" : ["sand" ]
 					}
 				}
 			}

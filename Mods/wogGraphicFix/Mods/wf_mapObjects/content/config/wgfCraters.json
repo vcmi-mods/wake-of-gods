@@ -6,62 +6,62 @@
 					"avlct7g0" : {
 						"animation" : "craters/avlct7g0",
 						"mask" : [ "VV","VV" ],
-						"allowedTerrains": [ "grass" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "grass" ],
+						"zIndex" : 100
 					},
 					"avlctru0" : {
 						"animation" : "craters/avlctru0",
 						"mask" : [ "BB" ],
-						"allowedTerrains": [ "subterra" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "subterra" ],
+						"zIndex" : 100
 					},
 					"avlctsn1" : {
 						"animation" : "craters/avlctsn1",
 						"mask" : [ "VBBV", "VBBV" ],
-						"allowedTerrains": [ "snow" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "snow" ],
+						"zIndex" : 100
 					},
 					"avlctsn2" : {
 						"animation" : "craters/avlctsn2",
 						"mask" : [ "BB" ],
-						"allowedTerrains": [ "snow" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "snow" ],
+						"zIndex" : 100
 					},
 					"avlctsn3" : {
 						"animation" : "craters/avlctsn3",
 						"mask" : [ "BB" ],
-						"allowedTerrains": [ "snow" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "snow" ],
+						"zIndex" : 100
 					},
 					"avlctsn4" : {
 						"animation" : "craters/avlctsn4",
 						"mask" : [ "BB" ],
-						"allowedTerrains": [ "snow" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "snow" ],
+						"zIndex" : 100
 					},
 					"avlctsn5" : {
 						"animation" : "craters/avlctsn5",
 						"mask" : [ "BB" ],
-						"allowedTerrains": [ "snow" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "snow" ],
+						"zIndex" : 100
 					},
 					"avlctsn6" : {
 						"animation" : "craters/avlctsn6",
 						"mask" : [ "BBB" ],
-						"allowedTerrains": [ "snow" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "snow" ],
+						"zIndex" : 100
 					},
 					"avlct6d0" : {
 						"animation" : "craters/avlct6d0",
 						"mask" : [ "BBVV", "BBBB", "VVBB" ],
-						"allowedTerrains": [ "dirt" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "dirt" ],
+						"zIndex" : 100
 					},
 					"avlct7d0" : {
 						"animation" : "craters/avlct7d0",
 						"mask" : [ "VVBB", "BBBB", "BBVV" ],
-						"allowedTerrains": [ "dirt" ],
-						"zIndex": 100
+						"allowedTerrains" : [ "dirt" ],
+						"zIndex" : 100
 					}
 				}
 			}

@@ -5,7 +5,6 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-
 	"chinese" : {
 		"name" : "元素使者和神使单位",
 		"description" : "为WoG添加元素使者和神使单位。"
@@ -14,29 +13,27 @@
 		"name" : "Jednotky poslů",
 		"description" : "Přidává jednotky nové jednotky poslů"
 	},
-	
-	"creatures" :
-	[
+	"creatures" : [
 		"config/creatures/fireMessenger.json",
 		"config/creatures/earthMessenger.json",
 		"config/creatures/airMessenger.json",
 		"config/creatures/waterMessenger.json",
-
 		"config/creatures/emissaryOfWar.json",
 		"config/creatures/emissaryOfPeace.json",
 		"config/creatures/emissaryOfMana.json",
 		"config/creatures/emissaryOfLore.json",
-
 		"config/creatures/stackExperience/messengers.json",
 		"config/creatures/stackExperience/emissaries.json"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/dwellings/messengers.json",
-
 		"config/creatureBanks/martialSpiritPalace.json",
 		"config/creatureBanks/pacificationCitadel.json",
 		"config/creatureBanks/magiciansMonastery.json",
 		"config/creatureBanks/legendsLibrary.json"
-	]
+	],
+	"polish" : {
+		"name" : "Jednostki Posłańców i Emisariuszy",
+		"description" : "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG."
+	}
 }

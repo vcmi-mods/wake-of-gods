@@ -1,14 +1,14 @@
 {
 	"lavam" : {
 		"name" : "Lava",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"lavam": {
+			"lavam" : {
 				"templates" : {
 					"lavam" : {
 						"animation" : "objects/lavam.def",
 						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVVVVV", "VVVVVVV", "VVVVVVV" ],
-						"allowedTerrains": [ "lava" ]
+						"allowedTerrains" : [ "lava" ]
 					}
 				}
 			}

@@ -2,62 +2,62 @@
 	"core:skull" : {
 		"types" : {
 			"wgfBones" : {
-				"name": "Bones",
+				"name" : "Bones",
 				"templates" : {
 					"bone00" : {
 						"animation" : "bones/Bone00",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"bone01" : {
 						"animation" : "bones/Bone01",
 						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"bone02" : {
 						"animation" : "bones/Bone02",
 						"mask" : [ "VV", "BB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"bone03" : {
 						"animation" : "bones/Bone03",
 						"mask" : [ "VVV", "BBB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"bone04" : {
 						"animation" : "bones/Bone04",
 						"mask" : [ "VV", "BB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"bone05" : {
 						"animation" : "bones/Bone05",
 						"mask" : [ "VV", "BB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"bone06" : {
 						"animation" : "bones/Bone06",
 						"mask" : [ "VV", "VB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"jaws00" : {
 						"animation" : "bones/jaws00",
 						"mask" : [ "VBB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"jaws01" : {
 						"animation" : "bones/jaws01",
 						"mask" : [ "BB" ], 
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"jaws02" : {
 						"animation" : "bones/jaws02",
 						"mask" : [ "VVVV", "VBVV", "VVVV" ],
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					},
 					"jaws03" : {
 						"animation" : "bones/jaws03",
 						"mask" : [ "B" ],
-						"allowedTerrains": [ "sand", "rough" ]
+						"allowedTerrains" : [ "sand", "rough" ]
 					}
 				}
 			}

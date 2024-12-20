@@ -6,7 +6,7 @@
 			"singular" : "Supreme Archangel",
 			"plural" : "Supreme Archangels"
 		},
-		"faction": "castle",
+		"faction" : "castle",
 		"level" : 8,
 		"cost" :
 		{
@@ -31,8 +31,8 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"king2" :
 			{
@@ -97,7 +97,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/supremeArchangel/ZM150Z",
+			"animation" : "creatures/supremeArchangel/ZM150Z",
 			"map" : "creatures/supremeArchangel/zmm150z",
 			"iconSmall" : "creatures/supremeArchangel/CPrS150C",
 			"iconLarge" : "creatures/supremeArchangel/CPrL150Z",
@@ -111,11 +111,11 @@
 		},
 		"sound" :
 		{
-			"attack": "AAGLATTK.wav",
-			"defend": "AAGLDFND.wav",
-			"killed": "AAGLKILL.wav",
-			"move": "AAGLMOVE.wav",
-			"wince": "AAGLWNCE.wav"
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
 		}
 	}
 }

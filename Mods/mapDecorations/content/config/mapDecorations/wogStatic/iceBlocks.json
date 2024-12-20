@@ -1,14 +1,14 @@
 {
 	"zdec0002" : {
 		"name" : "Ice blocks",
-		"handler":"static",
+		"handler" :"static",
 		"types" : {
-			"zdec0002": {
+			"zdec0002" : {
 				"templates" : {
 					"zdec0002" : {
 						"animation" : "objects/zdec0002.def",
 						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}
@@ -16,14 +16,14 @@
 	},
 	"zdec0003" : {
 		"name" : "Ice blocks",
-		"handler":"static",
+		"handler" :"static",
 		"types" : {
-			"zdec0003": {
+			"zdec0003" : {
 				"templates" : {
 					"zdec0003" : {
 						"animation" : "objects/zdec0003.def",
 						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}
@@ -31,14 +31,14 @@
 	},
 	"zdec0004" : {
 		"name" : "Ice blocks",
-		"handler":"static",
+		"handler" :"static",
 		"types" : {
-			"zdec0004": {
+			"zdec0004" : {
 				"templates" : {
 					"zdec0004" : {
 						"animation" : "objects/zdec0004.def",
 						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

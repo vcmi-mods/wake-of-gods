@@ -6,8 +6,8 @@
 			"singular" : "Sorceress",
 			"plural" : "Sorceresses"
 		},
-		"faction": "neutral",
-		"level": 6,
+		"faction" : "neutral",
+		"level" : 6,
 		"cost" :
 		{
 			"gold" : 600
@@ -30,8 +30,8 @@
 			 "max" : 12
 		},
 		"growth" : 2,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"shots" :
 			{
@@ -162,7 +162,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/wogSorceress/ZM193Z",
+			"animation" : "creatures/wogSorceress/ZM193Z",
 			"map" : "creatures/wogSorceress/zmm193z",
 			"iconSmall" : "creatures/wogSorceress/CPrS193Z",
 			"iconLarge" : "creatures/wogSorceress/CPrL193Z",
@@ -175,7 +175,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "CPRZEAX",
+				"projectile" : "CPRZEAX",
 				"attackClimaxFrame" : 5,
 				"offset" :
 				{
@@ -191,12 +191,12 @@
 		},
 		"sound" :
 		{
-			"attack": "MONKATTK.wav",
-			"defend": "MONKDFND.wav",
-			"killed": "MONKKILL.wav",
-			"move": "MONKMOVE.wav",
-			"shoot": "MONKSHOT.wav",
-			"wince": "MONKWNCE.wav"
+			"attack" : "MONKATTK.wav",
+			"defend" : "MONKDFND.wav",
+			"killed" : "MONKKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"shoot" : "MONKSHOT.wav",
+			"wince" : "MONKWNCE.wav"
 		}
 	}
 }

@@ -5,18 +5,15 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-
 	"chinese" : {
 		"name" : "8级生物",
 		"description" : "添加WoG的8级生物。\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
-	},	
+	},
 	"czech" : {
 		"name" : "Jednotky 8. úrovně",
 		"description" : "Přidává jednotky 8. úrovně.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
 	},
-	
-	"creatures" :
-	[
+	"creatures" : [
 		"config/creatures/supremeArchangel.json",
 		"config/creatures/diamondDragon.json",
 		"config/creatures/lordOfThunder.json",
@@ -26,15 +23,16 @@
 		"config/creatures/ghostBehemoth.json",
 		"config/creatures/hellHydra.json",
 		"config/creatures/sacredPhoenix.json",
-
 		"config/level8CreaturesStackExp.json"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/artifacts/magicWand.json"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/level8Dwellings.json"
-	]
+	],
+	"polish" : {
+		"name" : "Jednostki 8-go poziomu",
+		"description" : "Dodaje jednostki 8-go poziomu z WoG.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
+	}
 }

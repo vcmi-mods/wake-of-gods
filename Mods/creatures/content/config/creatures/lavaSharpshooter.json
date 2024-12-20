@@ -6,8 +6,8 @@
 			"singular" : "Lava Sharpshooter",
 			"plural" : "Lava Sharpshooters"
 		},
-		"faction": "neutral",
-		"level": 5,
+		"faction" : "neutral",
+		"level" : 5,
 		"cost" :
 		{
 			"gold" : 500
@@ -30,8 +30,8 @@
 			 "max" : 12
 		},
 		"growth" : 3,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"shooter" :
 			{
@@ -55,7 +55,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/lavaSharpshooter/ZM171SR",
+			"animation" : "creatures/lavaSharpshooter/ZM171SR",
 			"map" : "creatures/lavaSharpshooter/zmm171s",
 			"iconSmall" : "creatures/lavaSharpshooter/CPrS171N",
 			"iconLarge" : "creatures/lavaSharpshooter/CPrL171M",
@@ -68,7 +68,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 11,
 				"offset" :
 				{
@@ -84,12 +84,12 @@
 		},
 		"sound" :
 		{
-			"attack": "HCRSATTK.wav",
-			"defend": "HCRSDFND.wav",
-			"killed": "HCRSKILL.wav",
-			"move": "HCRSMOVE.wav",
-			"shoot": "HCRSSHOT.wav",
-			"wince": "HCRSWNCE.wav"
+			"attack" : "HCRSATTK.wav",
+			"defend" : "HCRSDFND.wav",
+			"killed" : "HCRSKILL.wav",
+			"move" : "HCRSMOVE.wav",
+			"shoot" : "HCRSSHOT.wav",
+			"wince" : "HCRSWNCE.wav"
 		}
 	}
 }
