@@ -1,28 +1,33 @@
 {
-	"name" : "Patched SoD Creatures",
-	"description" : "New graphics for SoD creatures.",
-	"version" : "",
-	"author" : "Grossmaster",
-	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"modType" : "Graphical",
-	"objects" :
-	[
+	"name": "Patched SoD Creatures",
+	"description": "New graphics for SoD creatures.",
+	"version": "",
+	"author": "Grossmaster",
+	"contact": "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType": "Graphical",
+	"objects": [
 		"config/wgfDwellings"
 	],
-	"softDepends" :
-	[
+	"softDepends": [
 		"wake-of-gods.animatedobjects",
 		"wake-of-gods.heroes3datapatch"
 	],
-	"chinese" : {
-		"name" : "生物补丁",
-		"description" : "SoD生物的新图像。"
+	"chinese": {
+		"name": "生物补丁",
+		"description": "SoD生物的新图像。"
 	},
-	"czech" : {
-		"name" : "Jednotky Heroes 3",
-		"description" : "Nová grafika pro jednotky z Heroes 3.",
-		"translations" : [
+	"czech": {
+		"name": "Jednotky Heroes 3",
+		"description": "Nová grafika pro jednotky z Heroes 3.",
+		"translations": [
 			"translation/wf_h3creatures/czech.json"
+		]
+	},
+	"polish": {
+		"name": "Poprawione stworzenia SoD",
+		"description": "Nowe grafiki stworzeń z SoD.",
+		"translations": [
+			"translation/wf_h3creatures/polish.json"
 		]
 	}
 }

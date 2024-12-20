@@ -1,17 +1,20 @@
 {
-	"name" : "Patched Heroes",
-	"description" : "New graphics for SoD/WoG heroes.",
-	"version" : "",
-	"author" : "Grossmaster",
-	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"modType" : "Graphical",
-
-	"chinese" : {
-		"name" : "英雄补丁",
-		"description" : "SoD/WoG英雄的新图像。"
+	"name": "Patched Heroes",
+	"description": "New graphics for SoD/WoG heroes.",
+	"version": "",
+	"author": "Grossmaster",
+	"contact": "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType": "Graphical",
+	"chinese": {
+		"name": "英雄补丁",
+		"description": "SoD/WoG英雄的新图像。"
 	},
-	"czech" : {
-		"name" : "Hrdinové",
-		"description" : "Nová grafika pro hrdiny z Heroes 3 a Wake of Gods."
+	"czech": {
+		"name": "Hrdinové",
+		"description": "Nová grafika pro hrdiny z Heroes 3 a Wake of Gods."
+	},
+	"polish": {
+		"name": "Poprawieni bohaterowie",
+		"description": "Nowe grafiki bohaterów z SoD/WoG."
 	}
 }

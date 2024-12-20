@@ -1,21 +1,23 @@
 {
-	"name" : "Animated flags",
-	"description" : "This module enables animated flags at dwellings and mines.",
-	"modType" : "Graphical",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"softDepends" :
-	[
+	"name": "Animated flags",
+	"description": "This module enables animated flags at dwellings and mines.",
+	"modType": "Graphical",
+	"author": "WoG Team",
+	"contact": "http://forum.vcmi.eu/index.php",
+	"version": "1.0",
+	"softDepends": [
 		"wake-of-gods.heroes3datapatch"
 	],
-	"chinese" : {
-		"name" : "旗帜动画",
-		"description" : "这个模组在野外巢穴和矿井中启用旗帜动画。"
+	"chinese": {
+		"name": "旗帜动画",
+		"description": "这个模组在野外巢穴和矿井中启用旗帜动画。"
 	},
-	
-	"czech" : {
-		"name" : "Animované vlajky",
-		"description" : "Tento modul aktivuje vlající vlajky u obydlí a dolů."
+	"czech": {
+		"name": "Animované vlajky",
+		"description": "Tento modul aktivuje vlající vlajky u obydlí a dolů."
+	},
+	"polish": {
+		"name": "Animowane flagi",
+		"description": "Ten moduł dodaje animowane flagi przy siedliskach i kopalniach."
 	}
 }

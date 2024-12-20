@@ -1,40 +1,41 @@
 {
-	"name" : "War Machines on Map Support",
-	"description" : "This module enables war machines on map support for some WoG maps",
-	"modType" : "Compatibility",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"depends" :
-	[
+	"name": "War Machines on Map Support",
+	"description": "This module enables war machines on map support for some WoG maps",
+	"modType": "Compatibility",
+	"author": "WoG Team",
+	"contact": "http://forum.vcmi.eu/index.php",
+	"version": "1.0",
+	"depends": [
 		"wake-of-gods.warmachinesonmap"
 	],
-	"settings" :
-	{
-		"mapFormat" : {
-			"inTheWakeOfGods" : {
-				"supported" : true,
-				"iconIndex" : 6,
-
-				"artifacts" : {
-					"spellBook": 0, 
-					"grail" :	 2,
-					"catapult" : 3,
-					"ballista" : 4,
-					"ammoCart" : 5,
-					"firstAidTent" : 6
+	"settings": {
+		"mapFormat": {
+			"inTheWakeOfGods": {
+				"supported": true,
+				"iconIndex": 6,
+				"artifacts": {
+					"spellBook": 0,
+					"grail": 2,
+					"catapult": 3,
+					"ballista": 4,
+					"ammoCart": 5,
+					"firstAidTent": 6
 				},
-				"templates" : {
-					"warArts/ava0000.def" : "ava0000.def",
-					"warArts/ava0002.def" : "ava0002.def",
-					"warArts/ava0003.def" : "ava0003.def",
-					"warArts/ava0004.def" : "ava0004.def",
-					"warArts/ava0005.def" : "ava0005.def",
-					"warArts/ava0006.def" : "ava0006.def",
-					"warArts/catap_ml.def" : "catap_ml.def",
-					"warArts/catap_mr.def" : "catap_mr.def"
+				"templates": {
+					"warArts/ava0000.def": "ava0000.def",
+					"warArts/ava0002.def": "ava0002.def",
+					"warArts/ava0003.def": "ava0003.def",
+					"warArts/ava0004.def": "ava0004.def",
+					"warArts/ava0005.def": "ava0005.def",
+					"warArts/ava0006.def": "ava0006.def",
+					"warArts/catap_ml.def": "catap_ml.def",
+					"warArts/catap_mr.def": "catap_mr.def"
 				}
 			}
-		}	
+		}
+	},
+	"polish": {
+		"name": "Wsparcie dla maszyn wojennych na mapie",
+		"description": "Ten moduł umożliwia pojawianie się maszyn wojennych na mapie przygód."
 	}
 }

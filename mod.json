@@ -1,108 +1,205 @@
 {
-	"name" : "In The Wake of Gods",
-	"description" : "Unofficial addon for Heroes of Might and Magic III",
-	"modType" : "Expansion",
-	"author" : "WoG Team & epigones",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.43",
-	"downloadSize" : 68.9,
-	"compatibility" :
-	{
-		"min" : "1.6.0"
-	},
-	"changelog" :
-	{
-		"9.1.43"  : [ "Fixed Grotto visitable point", "Added movement arrow depencies" ],
-		"9.1.42"  : [ "Fixed wog map format mapping" ],
-		"9.1.41"  : [ "Added mods soft depencies" ],
-		"9.1.40"  : [ "Added fist attempt for WoG map format availabity" ],
-		"9.1.30"  : [ "Barrel treasure skin splitted into standalone treasure type" ],
-		"9.1.29"  : [ "Moved objects description from name to standalone description", "Updated Czech translation" ],
-		"9.1.28"  : [ "Updated translations format" ],
-		"9.1.27"  : [ "Updated commander translation for VCMI 1.6" ],
-		"9.1.26"  : [ "Creatures bank code rewritten into vcmi-1.6 format", "Adjusted commander's spellcast" ],
-		"9.1.25"  : [ "Fixed new commanders icon path", "Fixes some rewardable objects format" ],
-		"9.1.24"  : [ "Czech translation by George King" ],
-		"9.1.23"  : [ "Fixed commanders' Magic Resistance bonus" ],
-		"9.1.22"  : [ "Reworked wog creature icons by Aphra" ],
-		"9.1.21"  : [ "Ukrainian translation by MyroSlave", "Updated some wog creature icons by Aphra" ],
-		"9.1.20"  : [ "Update WoG Graphic Fix biomes for 2.19", "Russian translation by Anton Sergeew" ],
-		"9.1.19"  : [ "Update WoG Graphic Fix to v2.18 part2" ],
-		"9.1.18"  : [ "Update WoG Graphic Fix to v2.18" ],
-		"9.1.17"  : [ "Update polish translation" ],
-		"9.1.16"  : [ "Update chinese translation" ],
-		"9.1.15"  : [ "Add missing lakes to biomes" ],
-		"9.1.14"  : [ "Add biomes config for Graphic Fix submod" ],
-		"9.1.13"  : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"9.1.12"  : [ "Add spanish translation by macomarivas." ],
-		"9.1.11"  : [ "Add description for Alms House." ],
-		"9.1.10"  : [ "Fixed the translations' bugs." ],
-		"9.1.9"   : [ "Adjusted Commanders stats." ],
-		"9.1.8"   : [ "Changed mask of Emissary banks so they can spawn on random maps." ],
-		"9.1.7"   : [ "Fixed Mirror of Home-Way mask. Also, gold will not use Mithril skin anymore." ],
-		"9.1.6"   : [ "WoG Graphics Fix mod updated based on Grossmaster's 2.15 version" ],
-		"9.1.5"   : [ "Alms House will now use new selectAll feature for rewards"],
-		"9.1.4"   : [ "WoG Graphics Fix mod updated based on Grossmaster's 2.141 version" ],
-		"9.1.3"   : [ "Polish translation made by Dru", "Fixes in stack experience system", "vivid-battlefields submods added" ],
-		"9.1.2"   : [ "WoG Graphics Fix mod updated based on Grossmaster's 2.14 version", "Fixed Magic Mushrooms" ],
-		"9.1.1"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"9.1.0"   : [ "Update to vcmi-1.3" ],
-		"9.0.21"  : [ "Add Mirror of the Home-Way" ],
-		"9.0.20"  : [ "Update WoG Graphics Fix mod" ],
-		"9.0.10"  : [ "Fixed WoG Graphics Fix mod" ],
-		"9.0.9"   : [ "Added Alms House" ],
-		"9.0.8"   : [ "Removed 'flight' parameter", "New bonus system used" ],
-		"9.0.7"   : [ "Added Sphinx and Mushrooms object to the map" ],
-		"9.0.6"   : [ "WoG graphic fix submod added" ],
-		"9.0.5"   : [ "Fixed problem with some wog artifacts" ]
-	},
-	"chinese" : {
-		"name" : "追随神迹（WoG）",
-		"description" : "追随神迹（In The Wake of God）是《英雄无敌 III》的非官方资料片。该模组最大的特征是追随者（Henchmen）系统和生物经验系统，并增加了新的生物，技能，设施和机制。",
-		"translations" : [
-			"translation/wake-of-gods/chinese.json"
-		]
-	},
-	"russian" : {
-		"name" : "In The Wake of Gods",
-		"description" : "Неофициальный аддон для Heroes of Might and Magic III",
-		"translations" : [
-			"translation/wake-of-gods/russian.json"
-		]
-	},
-	"german" : {
-		"name" : "In The Wake of Gods",
-		"description" : "Unoffizielles Addon für Heroes of Might and Magic III",
-		"translations" : [
-			"translation/wake-of-gods/german.json"
-		]
-	},
-	"polish" : {
-		"name" : "In The Wake of Gods",
-		"description" : "Nieoficjalna modyfikacja do Heroes of Might and Magic III",
-		"translations" : [
-			"translation/wake-of-gods/polish.json"
-		]
-	},
-	"ukrainian" : {
-		"name" : "In the Wake of Gods / Слідом за Богами",
-		"description" : "Неофіційний аддон для Героїв Меча і Магії III",
-		"translations" : [
-			"translation/wake-of-gods/ukrainian.json"
-    ]
-  },
-	"spanish" : {
-		"name" : "In The Wake of Gods",
-		"description" : "Addon no oficial para Heroes of Might and Magic III",
-		"translations" : [
-			"translation/wake-of-gods/spanish.json"
-		]
-	},
-	"czech" : {
-		"name" : "In The Wake of Gods",
-		"description" : "Neoficiální datadisk pro Heroes of Might and Magic III",
-		"translations" : [
-			"translation/wake-of-gods/czech.json"
-		]
-	}
+    "name": "In The Wake of Gods",
+    "description": "Unofficial addon for Heroes of Might and Magic III",
+    "modType": "Expansion",
+    "author": "WoG Team & epigones",
+    "contact": "http://forum.vcmi.eu/index.php",
+    "version": "9.1.44",
+    "downloadSize": 68.9,
+    "compatibility": {
+        "min": "1.6.0"
+    },
+    "changelog": {
+        "9.1.44": [
+            "Added translation for missing entries by Manfred"
+        ],
+        "9.1.43": [
+            "Fixed Grotto visitable point",
+            "Added movement arrow depencies"
+        ],
+        "9.1.42": [
+            "Fixed wog map format mapping"
+        ],
+        "9.1.41": [
+            "Added mods soft depencies"
+        ],
+        "9.1.40": [
+            "Added fist attempt for WoG map format availabity"
+        ],
+        "9.1.30": [
+            "Barrel treasure skin splitted into standalone treasure type"
+        ],
+        "9.1.29": [
+            "Moved objects description from name to standalone description",
+            "Updated Czech translation"
+        ],
+        "9.1.28": [
+            "Updated translations format"
+        ],
+        "9.1.27": [
+            "Updated commander translation for VCMI 1.6"
+        ],
+        "9.1.26": [
+            "Creatures bank code rewritten into vcmi-1.6 format",
+            "Adjusted commander's spellcast"
+        ],
+        "9.1.25": [
+            "Fixed new commanders icon path",
+            "Fixes some rewardable objects format"
+        ],
+        "9.1.24": [
+            "Czech translation by George King"
+        ],
+        "9.1.23": [
+            "Fixed commanders' Magic Resistance bonus"
+        ],
+        "9.1.22": [
+            "Reworked wog creature icons by Aphra"
+        ],
+        "9.1.21": [
+            "Ukrainian translation by MyroSlave",
+            "Updated some wog creature icons by Aphra"
+        ],
+        "9.1.20": [
+            "Update WoG Graphic Fix biomes for 2.19",
+            "Russian translation by Anton Sergeew"
+        ],
+        "9.1.19": [
+            "Update WoG Graphic Fix to v2.18 part2"
+        ],
+        "9.1.18": [
+            "Update WoG Graphic Fix to v2.18"
+        ],
+        "9.1.17": [
+            "Update polish translation"
+        ],
+        "9.1.16": [
+            "Update chinese translation"
+        ],
+        "9.1.15": [
+            "Add missing lakes to biomes"
+        ],
+        "9.1.14": [
+            "Add biomes config for Graphic Fix submod"
+        ],
+        "9.1.13": [
+            "New town theme by Fabrice-TIERCELIN and AI Udio"
+        ],
+        "9.1.12": [
+            "Add spanish translation by macomarivas."
+        ],
+        "9.1.11": [
+            "Add description for Alms House."
+        ],
+        "9.1.10": [
+            "Fixed the translations' bugs."
+        ],
+        "9.1.9": [
+            "Adjusted Commanders stats."
+        ],
+        "9.1.8": [
+            "Changed mask of Emissary banks so they can spawn on random maps."
+        ],
+        "9.1.7": [
+            "Fixed Mirror of Home-Way mask. Also, gold will not use Mithril skin anymore."
+        ],
+        "9.1.6": [
+            "WoG Graphics Fix mod updated based on Grossmaster's 2.15 version"
+        ],
+        "9.1.5": [
+            "Alms House will now use new selectAll feature for rewards"
+        ],
+        "9.1.4": [
+            "WoG Graphics Fix mod updated based on Grossmaster's 2.141 version"
+        ],
+        "9.1.3": [
+            "Polish translation made by Dru",
+            "Fixes in stack experience system",
+            "vivid-battlefields submods added"
+        ],
+        "9.1.2": [
+            "WoG Graphics Fix mod updated based on Grossmaster's 2.14 version",
+            "Fixed Magic Mushrooms"
+        ],
+        "9.1.1": [
+            "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+        ],
+        "9.1.0": [
+            "Update to vcmi-1.3"
+        ],
+        "9.0.21": [
+            "Add Mirror of the Home-Way"
+        ],
+        "9.0.20": [
+            "Update WoG Graphics Fix mod"
+        ],
+        "9.0.10": [
+            "Fixed WoG Graphics Fix mod"
+        ],
+        "9.0.9": [
+            "Added Alms House"
+        ],
+        "9.0.8": [
+            "Removed 'flight' parameter",
+            "New bonus system used"
+        ],
+        "9.0.7": [
+            "Added Sphinx and Mushrooms object to the map"
+        ],
+        "9.0.6": [
+            "WoG graphic fix submod added"
+        ],
+        "9.0.5": [
+            "Fixed problem with some wog artifacts"
+        ]
+    },
+    "chinese": {
+        "name": "追随神迹（WoG）",
+        "description": "追随神迹（In The Wake of God）是《英雄无敌 III》的非官方资料片。该模组最大的特征是追随者（Henchmen）系统和生物经验系统，并增加了新的生物，技能，设施和机制。",
+        "translations": [
+            "translation/wake-of-gods/chinese.json"
+        ]
+    },
+    "russian": {
+        "name": "In The Wake of Gods",
+        "description": "Неофициальный аддон для Heroes of Might and Magic III",
+        "translations": [
+            "translation/wake-of-gods/russian.json"
+        ]
+    },
+    "german": {
+        "name": "In The Wake of Gods",
+        "description": "Unoffizielles Addon für Heroes of Might and Magic III",
+        "translations": [
+            "translation/wake-of-gods/german.json"
+        ]
+    },
+    "polish": {
+        "name": "In The Wake of Gods",
+        "description": "Nieoficjalna modyfikacja do Heroes of Might and Magic III",
+        "translations": [
+            "translation/wake-of-gods/polish.json"
+        ]
+    },
+    "ukrainian": {
+        "name": "In the Wake of Gods / Слідом за Богами",
+        "description": "Неофіційний аддон для Героїв Меча і Магії III",
+        "translations": [
+            "translation/wake-of-gods/ukrainian.json"
+        ]
+    },
+    "spanish": {
+        "name": "In The Wake of Gods",
+        "description": "Addon no oficial para Heroes of Might and Magic III",
+        "translations": [
+            "translation/wake-of-gods/spanish.json"
+        ]
+    },
+    "czech": {
+        "name": "In The Wake of Gods",
+        "description": "Neoficiální datadisk pro Heroes of Might and Magic III",
+        "translations": [
+            "translation/wake-of-gods/czech.json"
+        ]
+    }
 }

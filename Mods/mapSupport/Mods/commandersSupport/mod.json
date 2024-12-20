@@ -1,82 +1,79 @@
 {
-	"name" : "Commanders Support",
-	"description" : "This module enables commanders support for some WoG maps",
-	"modType" : "Compatibility",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"depends" :
-	[
+	"name": "Commanders Support",
+	"description": "This module enables commanders support for some WoG maps",
+	"modType": "Compatibility",
+	"author": "WoG Team",
+	"contact": "http://forum.vcmi.eu/index.php",
+	"version": "1.0",
+	"depends": [
 		"wake-of-gods.commanders"
 	],
-	"creatures" :
-	[
+	"creatures": [
 		"config/commandersMap.json"
 	],
-	"settings" :
-	{
-
-		"mapFormat" : {
-			"inTheWakeOfGods" : {
-				"supported" : true,
-				"iconIndex" : 6,
-				
-				"creatures" : {				
-					"paladin1" : 183,
-					"hierophant1" : 184,
-					"templeGuardian1" : 185,
-					"succubus1" : 186,
-					"soulEater1" : 187,
-					"brute1" : 188,
-					"ogreLeader1" : 189,
-					"shaman1" : 190,
-					"astralSpirit1" : 191
+	"settings": {
+		"mapFormat": {
+			"inTheWakeOfGods": {
+				"supported": true,
+				"iconIndex": 6,
+				"creatures": {
+					"paladin1": 183,
+					"hierophant1": 184,
+					"templeGuardian1": 185,
+					"succubus1": 186,
+					"soulEater1": 187,
+					"brute1": 188,
+					"ogreLeader1": 189,
+					"shaman1": 190,
+					"astralSpirit1": 191
 				},
-				"artifacts" : {
-					
-					"axeOfSmashing" : 146,
-					"mithrilMail" : 147,
-					"swordOfSharpness" : 148,
-					"helmOfImmortality" : 149,					
-					"pendantOfSorcery" : 150,					
-					"bootsOfHaste" : 151,
-					"bowOfSeeking" : 152,
-					"dragonEyeRing" : 153,
-					"hardenedShield" : 154,
-					"slavasRingOfPower" : 155
+				"artifacts": {
+					"axeOfSmashing": 146,
+					"mithrilMail": 147,
+					"swordOfSharpness": 148,
+					"helmOfImmortality": 149,
+					"pendantOfSorcery": 150,
+					"bootsOfHaste": 151,
+					"bowOfSeeking": 152,
+					"dragonEyeRing": 153,
+					"hardenedShield": 154,
+					"slavasRingOfPower": 155
 				},
-				"templates" : {
-					"commanders/ZM182NPC.DEF" : "ZM182NPC.DEF",
-					"commanders/ZM179NPC.DEF" : "ZM179NPC.DEF",
-					"commanders/ZM175NPC.DEF" : "ZM175NPC.DEF",
-					"commanders/ZM180NPC.DEF" : "ZM180NPC.DEF",
-					"commanders/ZM174NPC.DEF" : "ZM174NPC.DEF",
-					"commanders/ZM181NPC.DEF" : "ZM181NPC.DEF",
-					"commanders/ZM178NPC.DEF" : "ZM178NPC.DEF",
-					"commanders/ZM177NPC.DEF" : "ZM177NPC.DEF",
-					"commanders/ZM176NPC.DEF" : "ZM176NPC.DEF",
-					"commanders/zmm174n.DEF" : "zmm174n.DEF",
-					"commanders/zmm175n.DEF" : "zmm175n.DEF",
-					"commanders/zmm176n.DEF" : "zmm176n.DEF",
-					"commanders/zmm177n.DEF" : "zmm177n.DEF",
-					"commanders/zmm178n.DEF" : "zmm178n.DEF",
-					"commanders/zmm179n.DEF" : "zmm179n.DEF",
-					"commanders/zmm180n.DEF" : "zmm180n.DEF",
-					"commanders/zmm181n.DEF" : "zmm181n.DEF",
-					"commanders/zmm182n.DEF" : "zmm182n.DEF",
-					
-					"artifacts/zart146.def" : "zart146.def",
-					"artifacts/zart147.def" : "zart147.def",
-					"artifacts/zart148.def" : "zart148.def",
-					"artifacts/zart149.def" : "zart149.def",
-					"artifacts/zart150.def" : "zart150.def",
-					"artifacts/zart151.def" : "zart151.def",
-					"artifacts/zart152.def" : "zart152.def",
-					"artifacts/zart153.def" : "zart153.def",
-					"artifacts/zart154.def" : "zart154.def",
-					"artifacts/zart155.def" : "zart155.def"
+				"templates": {
+					"commanders/ZM182NPC.DEF": "ZM182NPC.DEF",
+					"commanders/ZM179NPC.DEF": "ZM179NPC.DEF",
+					"commanders/ZM175NPC.DEF": "ZM175NPC.DEF",
+					"commanders/ZM180NPC.DEF": "ZM180NPC.DEF",
+					"commanders/ZM174NPC.DEF": "ZM174NPC.DEF",
+					"commanders/ZM181NPC.DEF": "ZM181NPC.DEF",
+					"commanders/ZM178NPC.DEF": "ZM178NPC.DEF",
+					"commanders/ZM177NPC.DEF": "ZM177NPC.DEF",
+					"commanders/ZM176NPC.DEF": "ZM176NPC.DEF",
+					"commanders/zmm174n.DEF": "zmm174n.DEF",
+					"commanders/zmm175n.DEF": "zmm175n.DEF",
+					"commanders/zmm176n.DEF": "zmm176n.DEF",
+					"commanders/zmm177n.DEF": "zmm177n.DEF",
+					"commanders/zmm178n.DEF": "zmm178n.DEF",
+					"commanders/zmm179n.DEF": "zmm179n.DEF",
+					"commanders/zmm180n.DEF": "zmm180n.DEF",
+					"commanders/zmm181n.DEF": "zmm181n.DEF",
+					"commanders/zmm182n.DEF": "zmm182n.DEF",
+					"artifacts/zart146.def": "zart146.def",
+					"artifacts/zart147.def": "zart147.def",
+					"artifacts/zart148.def": "zart148.def",
+					"artifacts/zart149.def": "zart149.def",
+					"artifacts/zart150.def": "zart150.def",
+					"artifacts/zart151.def": "zart151.def",
+					"artifacts/zart152.def": "zart152.def",
+					"artifacts/zart153.def": "zart153.def",
+					"artifacts/zart154.def": "zart154.def",
+					"artifacts/zart155.def": "zart155.def"
 				}
 			}
-		}	
+		}
+	},
+	"polish": {
+		"name": "Wsparcie dowódców",
+		"description": "Ten moduł dodaje wsparcie dla dowódców na wybranych mapach WoG."
 	}
 }

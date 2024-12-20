@@ -1,13 +1,16 @@
 {
-	"name" : "Heroes III data patch",
-	"description" : "Fixes & improvements to graphics and sounds for some of SoD game assets.",
-	"modType" : "Graphical",
-	"author" : "WoG Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	
-	"czech" : {
+	"name": "Heroes III data patch",
+	"description": "Fixes & improvements to graphics and sounds for some of SoD game assets.",
+	"modType": "Graphical",
+	"author": "WoG Team",
+	"contact": "http://forum.vcmi.eu/index.php",
+	"version": "1.0",
+	"czech": {
 		"name": "Oprava grafiky pro Heroes 3",
 		"description": "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
+	},
+	"polish": {
+		"name": "Poprawki danych z Heroes III",
+		"description": "Poprawki i ulepszenia grafiki oraz dźwięków niektórych elementów SoD."
 	}
 }

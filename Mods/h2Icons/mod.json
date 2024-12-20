@@ -1,18 +1,21 @@
 {
-	"name" : "Heroes II primary skills icons",
-	"description" : "Change to WoG primary skills for being closer to H2 ones.",
-	"modType" : "Graphical",
-	"author" : "Aphra",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"keepDisabled" : true,
-    "softDepends" :
-    [
+	"name": "Heroes II primary skills icons",
+	"description": "Change to WoG primary skills for being closer to H2 ones.",
+	"modType": "Graphical",
+	"author": "Aphra",
+	"contact": "http://forum.vcmi.eu/index.php",
+	"version": "1.0",
+	"keepDisabled": true,
+	"softDepends": [
 		"wake-of-gods.heroes3datapatch",
-        "hota.heroes3datapatch"
-    ],
-	"czech" : {
+		"hota.heroes3datapatch"
+	],
+	"czech": {
 		"name": "Ikony primárních dovedností z Heroes II",
 		"description": "Nahrazuje primární ikony dovednosti vzhledem z Heroes II."
+	},
+	"polish": {
+		"name": "Ikony statystyk z Heroes II",
+		"description": "Zmienia statystyki WoG, aby bardziej przypominały te z H2."
 	}
 }
