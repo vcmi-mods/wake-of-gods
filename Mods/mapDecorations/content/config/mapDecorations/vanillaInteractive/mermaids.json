@@ -1,19 +1,19 @@
 {
 	"core:mermaids" : {
 		"types" : {
-			"mermaids": {
+			"mermaids" : {
 				"templates" : {
 					"zmermd01" : {
 						"animation" : "objects/zmermd01.def",
-						"mask": [ "VVV", "VBV", "BAB" ],
+						"mask" : [ "VVV", "VBV", "BAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": [ "water" ]
+						"allowedTerrains" : [ "water" ]
 					},
 					"zmermd02" : {
 						"animation" : "objects/zmermd02.def",
-						"mask": [ "VV", "AV" ],
+						"mask" : [ "VV", "AV" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": [ "water" ]
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}

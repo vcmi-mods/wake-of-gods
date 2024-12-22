@@ -6,8 +6,8 @@
 			"singular" : "Santa Gremlin",
 			"plural" : "Santa Gremlins"
 		},
-		"faction": "tower",
-		"level": 3,
+		"faction" : "tower",
+		"level" : 3,
 		"cost" :
 		{
 			"gold" : 200
@@ -30,8 +30,8 @@
 			 "max" : 50
 		},
 		"growth" : 16,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"summonGuardians" :
 			{
@@ -59,7 +59,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/santaGremlin/ZM173M",
+			"animation" : "creatures/santaGremlin/ZM173M",
 			"map" : "creatures/santaGremlin/zmm173m",
 			"iconSmall" : "creatures/santaGremlin/CPrS173M",
 			"iconLarge" : "creatures/santaGremlin/CPrL173M",
@@ -73,11 +73,11 @@
 		},
 		"sound" :
 		{
-			"attack": "AAGLATTK.wav",
-			"defend": "AAGLDFND.wav",
-			"killed": "AAGLKILL.wav",
-			"move": "AAGLMOVE.wav",
-			"wince": "AAGLWNCE.wav"
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
 		}
 	}
 }

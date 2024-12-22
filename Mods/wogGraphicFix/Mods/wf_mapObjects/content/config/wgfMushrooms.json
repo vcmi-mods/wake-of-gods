@@ -6,93 +6,93 @@
 					"wmshr00" : {
 						"animation" : "mushrooms/wmshr00",
 						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"wmshr01" : {
 						"animation" : "mushrooms/wmshr01",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"wmshr02" : {
 						"animation" : "mushrooms/wmshr02",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"wmshr03" : {
 						"animation" : "mushrooms/wmshr03",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"wmshr04" : {
 						"animation" : "mushrooms/wmshr04",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"wmshr05" : {
 						"animation" : "mushrooms/wmshr05",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 					"wmshr06" : {
 						"animation" : "mushrooms/wmshr06",
 						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "swamp" ]
+						"allowedTerrains" : [ "swamp" ]
 					},
 		
 					"wmshr07" : {
 						"animation" : "mushrooms/wmshr07",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshr08" : {
 						"animation" : "mushrooms/wmshr08",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshr09" : {
 						"animation" : "mushrooms/wmshr09",
 						"mask" : [ "VBB" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshr10" : {
 						"animation" : "mushrooms/wmshr10",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx05" : {
 						"animation" : "mushrooms/wmshrx05",
 						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx06" : {
 						"animation" : "mushrooms/wmshrx06",
 						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx04" : {
 						"animation" : "mushrooms/wmshrx04",
 						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx03" : {
 						"animation" : "mushrooms/wmshrx03",
 						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx02" : {
 						"animation" : "mushrooms/wmshrx02",
 						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx01" : {
 						"animation" : "mushrooms/wmshrx01",
 						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					},
 					"wmshrx00" : {
 						"animation" : "mushrooms/wmshrx00",
 						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "subterra", "swamp" ]
+						"allowedTerrains" : [ "subterra", "swamp" ]
 					}
 				}
 			}

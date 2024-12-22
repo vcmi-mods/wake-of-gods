@@ -5,18 +5,17 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"artifacts" : 
-	[
+	"artifacts" : [
 		"config/warlordBanners"
 	],
-	"settings":
-	{
-		"modules":
-		{
-			"stackArtifact": true
+	"settings" : {
+		"modules" : {
+			"stackArtifact" : true
 		}
 	},
-	
+	"softDepends" : [
+		"wake-of-gods.artifacts"
+	],
 	"chinese" : {
 		"name" : "生物宝物",
 		"description" : "这个模组开启WoG的生物宝物功能。"
@@ -24,5 +23,9 @@
 	"czech" : {
 		"name" : "Artefakty pro jednotky",
 		"description" : "Tento modul aktivuje artefakty pro jednotky."
+	},
+	"polish" : {
+		"name" : "Artefakty jednostek",
+		"description" : "Ten moduł dodaje funkcję artefaktów dla jednostek."
 	}
 }

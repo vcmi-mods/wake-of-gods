@@ -5,7 +5,6 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-
 	"chinese" : {
 		"name" : "生物",
 		"description" : "这个模组启用新生物。"
@@ -14,9 +13,7 @@
 		"name" : "Nové jednotky",
 		"description" : "Tento modul aktivuje nové jednotky"
 	},
-	
-	"creatures" :
-	[
+	"creatures" : [
 		"config/creatures/ghost.json",
 		"config/creatures/gorynych.json",
 		"config/creatures/warZealot.json",
@@ -30,8 +27,11 @@
 		"config/creatures/werewolf.json",
 		"config/creatures/dracolich.json"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/dwellings.json"
-	]
+	],
+	"polish" : {
+		"name" : "Stworzenia",
+		"description" : "Ten moduł dodaje nowe stworzenia."
+	}
 }

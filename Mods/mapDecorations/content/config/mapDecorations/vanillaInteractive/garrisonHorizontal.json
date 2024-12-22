@@ -1,13 +1,13 @@
 {
-	"core:garrisonHorizontal": {
-		"types": {
-			"normal": {
+	"core:garrisonHorizontal" : {
+		"types" : {
+			"normal" : {
 				"templates" : {
 					"zgarn001" : {
 						"animation" : "objects/zgarn001.def",
 						"visitableFrom" : [ "+++", "-+-", "+++" ],
 						"mask" : [ "VVVV", "VBAB" ],
-						"allowedTerrains":["snow"] 
+						"allowedTerrains" :["snow"] 
 					},
 					"zgarn003" : {
 						"animation" : "objects/zgarn003.def",

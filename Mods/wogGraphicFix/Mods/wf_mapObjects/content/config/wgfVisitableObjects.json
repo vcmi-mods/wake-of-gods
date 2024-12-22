@@ -7,7 +7,7 @@
 						"animation" : "objects/AVStmpl1",
 						"mask" : [ "VV", "AB" ], 	
 						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}
@@ -22,7 +22,7 @@
 						"animation" : "objects/AVSuniv1",
 						"mask" : [ "VBBBV", "VBBBB", "VBBAB" ],
 						"visitableFrom" : [ "---", "---", "+++" ],
-						"allowedTerrains": ["snow" ]
+						"allowedTerrains" : ["snow" ]
 					},
 					"AVSuniv2.def" : {
 						"animation" : "objects/AVSuniv2",
@@ -133,7 +133,7 @@
 						"animation" : "oasis/AVXosis1",
 						"mask" : [ "VVVVV", "VVBBV", "VBAAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": ["sand" ]
+						"allowedTerrains" : ["sand" ]
 					}
 				}
 			}
@@ -148,7 +148,7 @@
 						"animation" : "objects/AVXstbl1",
 						"mask" : [ "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains": ["snow" ]
+						"allowedTerrains" : ["snow" ]
 					}
 				}
 			}
@@ -163,7 +163,7 @@
 						"animation" : "objects/AVXTOMB1",
 						"mask" : [ "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": ["snow" ]
+						"allowedTerrains" : ["snow" ]
 					}
 				}
 			}
@@ -178,13 +178,13 @@
 						"animation" : "objects/UtopiaSN",
 						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBB", "VVBBBAV" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": ["snow" ]
+						"allowedTerrains" : ["snow" ]
 					},
 					"UtopiaWt" : {
 						"animation" : "objects/UtopiaWt",
 						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBB", "VVBBBAV" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					}
 				}
 			}
@@ -199,7 +199,7 @@
 						"animation" : "objects/WaterOb",
 						"mask" : [ "VVV", "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					}
 				}
 			}
@@ -214,13 +214,13 @@
 						"animation" : "objects/AVXTREK2",
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": ["swamp" ]
+						"allowedTerrains" : ["swamp" ]
 					},
 					"AVXTREK3" : {
 						"animation" : "objects/AVXTREK3",
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": ["rough" ]
+						"allowedTerrains" : ["rough" ]
 					}
 				}
 			}
@@ -235,7 +235,7 @@
 						"animation" : "objects/Wtrpost",
 						"mask" : [ "VVVV", "VVVV", "VBAV" ],
 						"visitableFrom" : [ "---", "--+", "+++" ],
-						"allowedTerrains": ["water" ]
+						"allowedTerrains" : ["water" ]
 					}
 				}
 			}
@@ -263,7 +263,7 @@
 						"animation" : "objects/zdeswhl",
 						"mask" : [ "VVVV", "VBBB", "VBBA" ],
 						"visitableFrom" : [ "---", "---", "-++" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					}
 				}
 			}
@@ -278,7 +278,7 @@
 						"animation" : "objects/Watersp1",
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "water" ]
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}
@@ -293,7 +293,7 @@
 						"animation" : "objects/Watersp2",
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "water" ]
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}
@@ -308,7 +308,7 @@
 						"animation" : "objects/Watersp3",
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "water" ]
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}
@@ -395,44 +395,44 @@
 	"core:mine" : {
 		"types" : {
 			"crystalCavern" : {
-				"templates": {
+				"templates" : {
 					"wFsnCR" : {
 						"animation" : "objects/WFsnCR",
 						"mask" : ["VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["snow"]
+						"allowedTerrains" :["snow"]
 					}
 				}
 			},
 			"goldMine" : {
-				"templates": {
+				"templates" : {
 					"wFsnGD" : {
 						"animation" : "objects/WFsnGD",
 						"mask" : ["VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["snow"]
+						"allowedTerrains" :["snow"]
 					}
 				}
 			},
 			"sawmill" : {
-				"templates": {
+				"templates" : {
 					"wfmnsw0" : {
 						"animation" : "mines/wfmnsw0",
 						"mask" : ["VVVV","VVBB","BBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["grass"]
+						"allowedTerrains" :["grass"]
 					},
 					"wfmnsw1" : {
 						"animation" : "mines/wfmnsw1",
 						"mask" : ["VVVV","VVBB","BBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["grass"]
+						"allowedTerrains" :["grass"]
 					},
 					"WFddSW_0" : {
 						"animation" : "mines/WFddSW_0",
 						"mask" : ["VVVVV","VVVBB","VBBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["dirt"]
+						"allowedTerrains" :["dirt"]
 					}
 				}
 			}
@@ -447,7 +447,7 @@
 						"animation" : "objects/WFsnAB",
 						"mask" : [ "VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": ["snow"]
+						"allowedTerrains" : ["snow"]
 					}
 				}
 			}
@@ -455,10 +455,10 @@
 	}, 
 	
 	"emptyObjects" : {
-		"handler":"generic",
+		"handler" :"generic",
 		"name" : "Empty object",
 		"types" : {
-			"object": {
+			"object" : {
 				"templates" : {
 					"WoGc001" : { 
 						"animation" : "objects/WoGc001",

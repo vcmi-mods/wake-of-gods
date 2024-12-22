@@ -5,20 +5,18 @@
 	"author" : "fanofheroes",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=47183",
 	"version" : "1.0.0",
-	"changelog" :
-	{
-		"1.0.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.3.0"
 	},
-	"objects" :
-	[
+	"objects" : [
 		"config/wogdwellings"
 	],
-	"battlefields" :
-	[
+	"battlefields" : [
 		"config/wogbattlefields"
 	],
 	"chinese" : {
@@ -28,5 +26,9 @@
 	"czech" : {
 		"name" : "Živá bojiště",
 		"description" : "Unikátní bojiště pro každé obydlí. Port z ERA3 do VCMI."
+	},
+	"polish" : {
+		"name" : "Żywe pola bitew - siedliska WoG",
+		"description" : "Unikalne pola bitew dla każdego siedliska WoG. Port z ERA3 do VCMI."
 	}
 }

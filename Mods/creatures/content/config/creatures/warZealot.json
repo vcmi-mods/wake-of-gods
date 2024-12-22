@@ -6,8 +6,8 @@
 			"singular" : "War Zealot",
 			"plural" : "War Zealots"
 		},
-		"faction": "castle",
-		"level": 6,
+		"faction" : "castle",
+		"level" : 6,
 		"cost" :
 		{
 			"gold" : 600
@@ -30,8 +30,8 @@
 			 "max" : 10
 		},
 		"growth" : 2,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"canShoot" :
 			{
@@ -55,7 +55,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/warZealot/ZM169ZL",
+			"animation" : "creatures/warZealot/ZM169ZL",
 			"map" : "creatures/warZealot/zmm169z",
 			"iconSmall" : "creatures/warZealot/CPrS169N",
 			"iconLarge" : "creatures/warZealot/CPrL169M",
@@ -68,7 +68,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "CPRZEAX.DEF",
+				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 6,
 				"offset" :
 				{
@@ -84,12 +84,12 @@
 		},
 		"sound" :
 		{
-			"attack": "ZELTATTK.wav",
-			"defend": "ZELTDFND.wav",
-			"killed": "ZELTKILL.wav",
-			"move": "ZELTMOVE.wav",
-			"shoot": "ZELTSHOT.wav",
-			"wince": "ZELTWNCE.wav"
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"shoot" : "ZELTSHOT.wav",
+			"wince" : "ZELTWNCE.wav"
 		}
 	}
 }

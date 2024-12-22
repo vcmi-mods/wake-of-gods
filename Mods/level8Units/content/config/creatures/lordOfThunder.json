@@ -6,7 +6,7 @@
 			"singular" : "Lord of Thunder",
 			"plural" : "Lords of Thunder"
 		},
-		"faction": "tower",
+		"faction" : "tower",
 		"level" : 8,
 		"cost" :
 		{
@@ -32,7 +32,7 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"abilities" :  //no melee penalty?
 		{
 			"king3" :
@@ -49,14 +49,14 @@
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"effectRange": "ONLY_DISTANCE_FIGHT"
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			},
 			"thunderOnAttack" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.thunderbolt",
 				"val" : 20,
-				"effectRange": "ONLY_MELEE_FIGHT"
+				"effectRange" : "ONLY_MELEE_FIGHT"
 			},
 			"thunderStrength" :
 			{
@@ -87,7 +87,7 @@
 			"iconSmall" : "creatures/lordOfThunder/CPrS152T",
 			"iconLarge" : "creatures/lordOfThunder/CPrL152Z",
 			"map" : "creatures/lordOfThunder/zmm152z",
-			"animation": "creatures/lordOfThunder/ZM152Z",
+			"animation" : "creatures/lordOfThunder/ZM152Z",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
@@ -97,7 +97,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "CPRGTIX",
+				"projectile" : "CPRGTIX",
 				"attackClimaxFrame" : 6,
 				"offset" :
 				{
@@ -113,12 +113,12 @@
 		},
 		"sound" :
 		{
-			"attack": "GTITATTK.wav",
-			"defend": "GTITDFND.wav",
-			"killed": "GTITKILL.wav",
-			"move": "GTITMOVE.wav",
-			"shoot": "GTITSHOT.wav",
-			"wince": "GTITWNCE.wav"
+			"attack" : "GTITATTK.wav",
+			"defend" : "GTITDFND.wav",
+			"killed" : "GTITKILL.wav",
+			"move" : "GTITMOVE.wav",
+			"shoot" : "GTITSHOT.wav",
+			"wince" : "GTITWNCE.wav"
 		}
 	}
 }

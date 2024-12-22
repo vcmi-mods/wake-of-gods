@@ -7,8 +7,8 @@
 			"plural" : "Hierophants"
 		},
 		"special" : true,
-		"faction": "rampart",
-		"level": 0,
+		"faction" : "rampart",
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -64,7 +64,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM175NPC.DEF",
+			"animation" : "commanders/ZM175NPC.DEF",
 			"iconSmall" : "commanders/CPrS175n",
 			"iconLarge" : "commanders/CPrL175n",
 			"timeBetweenFidgets" : 1,
@@ -76,7 +76,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "CPRZEAX",
+				"projectile" : "CPRZEAX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -92,12 +92,12 @@
 		},
 		"sound" :
 		{
-			"attack": "MONKATTK.wav",
-			"defend": "MONKDFND.wav",
-			"killed": "MONKKILL.wav",
-			"move": "MONKMOVE.wav",
-			"shoot": "commanders/MONKSHOT.wav",
-			"wince": "MONKWNCE.wav"
+			"attack" : "MONKATTK.wav",
+			"defend" : "MONKDFND.wav",
+			"killed" : "MONKKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"shoot" : "commanders/MONKSHOT.wav",
+			"wince" : "MONKWNCE.wav"
 		}
 	}
 }

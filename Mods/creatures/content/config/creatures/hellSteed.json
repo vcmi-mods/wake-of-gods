@@ -6,9 +6,9 @@
 			"singular" : "Hell Steed",
 			"plural" : "Hell Steeds"
 		},
-		"upgrades": ["nightmare"],
-		"faction": "neutral",
-		"level": 6,
+		"upgrades" : ["nightmare"],
+		"faction" : "neutral",
+		"level" : 6,
 		"cost" :
 		{
 			"gold" : 1100
@@ -31,8 +31,8 @@
 			 "max" : 10
 		},
 		"growth" : 2,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"immuneToFire" :
 			{
@@ -59,7 +59,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/hellSteed/ZM195Z",
+			"animation" : "creatures/hellSteed/ZM195Z",
 			"map" : "creatures/hellSteed/zmm195z",
 			"iconSmall" : "creatures/hellSteed/CPrS195N",
 			"iconLarge" : "creatures/hellSteed/CPrL195Z",
@@ -73,11 +73,11 @@
 		},
 		"sound" :
 		{
-			"attack": "BGORATTK.wav",
-			"defend": "BGORDFND.wav",
-			"killed": "BGORKILL.wav",
-			"move": "BGORMOVE.wav",
-			"wince": "BGORWNCE.wav"
+			"attack" : "BGORATTK.wav",
+			"defend" : "BGORDFND.wav",
+			"killed" : "BGORKILL.wav",
+			"move" : "BGORMOVE.wav",
+			"wince" : "BGORWNCE.wav"
 		}
 	}
 }

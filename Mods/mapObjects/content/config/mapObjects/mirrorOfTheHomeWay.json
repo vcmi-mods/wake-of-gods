@@ -1,14 +1,14 @@
 {
 	"mirrorOfTheHomeWay" : {
 		"name" : "Mirror of the Home-Way",
-		"handler":"configurable",
+		"handler" :"configurable",
 		"types" : {
 			"mirrorOfTheHomeWay" : {
-				"name": "Mirror of the Home-Way",
-				"description": "(Teleport hero to any allied town for 1000 gold)",
-				"onVisitedMessage": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
+				"name" : "Mirror of the Home-Way",
+				"description" : "(Teleport hero to any allied town for 1000 gold)",
+				"onVisitedMessage" : "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
 				"visitMode" : "unlimited",
-				"canRefuse": true,
+				"canRefuse" : true,
 				"rmg" : {
 					"value"	: 5000,
 					"rarity" : 20,
@@ -17,23 +17,23 @@
 				"sounds" : {
 					"visit" : ["MYSTERY"]
 				},
-				"rewards":
+				"rewards" :
 				[
 					{
-						"resources":
+						"resources" :
 						{
 							"gold" : -1000
 						},
 						"spellCast" :
 						{
 							"spell" : "townPortal",
-							"schoolLevel": 3
+							"schoolLevel" : 3
 						},
 						"limiter" :
 						{
-							"resources": { "gold" : 1000 }
+							"resources" : { "gold" : 1000 }
 						},
-						"message": "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?"
+						"message" : "{Mirror of the Home-Way}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?"
 					}
 				],
 				"templates" : {

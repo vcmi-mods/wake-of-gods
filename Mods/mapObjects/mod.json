@@ -5,14 +5,12 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"objects" :
-	[
+	"objects" : [
 		"config/mapObjects/almsHouse.json",
 		"config/mapObjects/mirrorOfTheHomeWay.json",
 		"config/mapObjects/mushrooms.json",
 		"config/mapObjects/sphinx.json"
 	],
-	
 	"chinese" : {
 		"name" : "地图物体",
 		"description" : "这个模组启用新地图物体。"
@@ -20,6 +18,9 @@
 	"czech" : {
 		"name" : "Objekty na mapě",
 		"description" : "Tento modul aktivuje nové objekty na mapě."
+	},
+	"polish" : {
+		"name" : "Obiekty na mapie",
+		"description" : "Ten moduł dodaje nowe obiekty na mapie."
 	}
-	
 }

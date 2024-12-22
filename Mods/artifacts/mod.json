@@ -5,8 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/artifacts/crimsonShieldOfRetribution.json",
 		"config/artifacts/barbarianLordsAxeOfFerocity.json",
 		"config/artifacts/dragonheart.json",
@@ -22,23 +21,19 @@
 		"config/artifacts/runedMithrilBoots.json",
 		"config/artifacts/ornateMinotaursHorn.json",
 		"config/artifacts/bucklerOfBeelzebub.json",
-
 		"config/artifacts/goldTowerArrow.json",
 		"config/artifacts/monstersPower.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/spells/arrowTrigger.json",
 		"config/spells/towerJammer.json",
 		"config/spells/summonRedDragon.json",
 		"config/spells/boostSpot.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/creatures/redDragonClone.json"
 	],
-	"skills" :
-	[
+	"skills" : [
 		"config/skills/ballisticsGoldTowerArrow.json"
 	],
 	"chinese" : {
@@ -48,5 +43,9 @@
 	"czech" : {
 		"name" : "Artefakty",
 		"description" : "Tento modul aktivuje nové artefakty."
+	},
+	"polish" : {
+		"name" : "Artefakty",
+		"description" : "Ten moduł dodaje artefakty z WoG."
 	}
 }

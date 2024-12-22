@@ -5,13 +5,23 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-
+	"softDepends" : [
+		"wake-of-gods.artifacts",
+		"wake-of-gods.commanders",
+		"wake-of-gods.level8units",
+		"wake-of-gods.stackartifacts",
+		"wake-of-gods.warmachinesonmap"
+	],
 	"chinese" : {
 		"name" : "宝物补丁",
 		"description" : "SoD/WoG宝物的新图像。"
-	},	
+	},
 	"czech" : {
-		"name" : "Opravené artefakty",
-		"description" : "Nová grafika pro artefakty z SoD/WoG."
+		"name" : "Artefakty",
+		"description" : "Nová grafika pro artefakty."
+	},
+	"polish" : {
+		"name" : "Poprawione artefakty",
+		"description" : "Nowe grafiki artefaktów z SoD/WoG."
 	}
 }

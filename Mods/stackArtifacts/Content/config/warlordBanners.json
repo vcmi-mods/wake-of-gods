@@ -1,5 +1,5 @@
 {		
-	"warlordsBannerHealth":
+	"warlordsBannerHealth" :
 	{
 		"bonuses" : [
 			{
@@ -29,7 +29,7 @@
 		}
 	},
 	
-	"warlordsBannerAttack":
+	"warlordsBannerAttack" :
 	{
 		"bonuses" : [
 			{
@@ -61,7 +61,7 @@
 		}
 	},
 
-	"warlordsBannerDefence":
+	"warlordsBannerDefence" :
 	{
 		"bonuses" : [
 			{
@@ -93,7 +93,7 @@
 		}
 	},
 	
-	"warlordsBannerDamage":
+	"warlordsBannerDamage" :
 	{
 		"bonuses" : [
 			{
@@ -125,7 +125,7 @@
 		}
 	},
 
-	"warlordsBannerSpeed":
+	"warlordsBannerSpeed" :
 	{
 		"bonuses" : [
 			{
@@ -155,7 +155,7 @@
 		}
 	},
 
-	"warlordsBannerExperience":
+	"warlordsBannerExperience" :
 	{
 // EXP_MULTIPLIER is not implemented and was removed form VCMI 
 // 		"bonuses" : [
@@ -182,7 +182,7 @@
 		}
 	},
 
-	"warlordsBannerReducer":
+	"warlordsBannerReducer" :
 	{
 		"bonuses" : [
 			{
@@ -206,7 +206,7 @@
 		}
 	},
 
-	"warlordsBannerBlocker":
+	"warlordsBannerBlocker" :
 	{
 		"bonuses" : [
 			{
@@ -231,7 +231,7 @@
 		}
 	},
 
-	"warlordsBannerRetaliate":
+	"warlordsBannerRetaliate" :
 	{
 		"bonuses" : [
 			{

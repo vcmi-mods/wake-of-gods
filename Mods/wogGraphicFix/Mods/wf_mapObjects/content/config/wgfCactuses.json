@@ -6,37 +6,37 @@
 					"CactW00" : {
 						"animation" : "cactuses/CactW00",
 						"mask" : [ "VV","VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"CactW01" : {
 						"animation" : "cactuses/CactW01",
 						"mask" : [ "VV","VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"CactW02" : {
 						"animation" : "cactuses/CactW02",
 						"mask" : [ "VB","VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"wcac02" : {
 						"animation" : "cactuses/wcac02",
 						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"wcac03" : {
 						"animation" : "cactuses/wcac03",
 						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"wcac04" : {
 						"animation" : "cactuses/wcac04",
 						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					},
 					"wcac07" : {
 						"animation" : "cactuses/wcac07",
 						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"allowedTerrains" : [ "sand" ]
 					}
 				}
 			}

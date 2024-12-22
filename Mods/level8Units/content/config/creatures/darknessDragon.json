@@ -6,7 +6,7 @@
 			"singular" : "Darkness Dragon",
 			"plural" : "Darkness Dragons"
 		},
-		"faction": "dungeon",
+		"faction" : "dungeon",
 		"level" : 8,
 		"cost" :
 		{
@@ -31,8 +31,8 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"king1" :
 			{
@@ -99,7 +99,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/darknessDragon/ZM155Z",
+			"animation" : "creatures/darknessDragon/ZM155Z",
 			"map" : "creatures/darknessDragon/zmm155z",
 			"iconSmall" : "creatures/darknessDragon/CPrS155C",
 			"iconLarge" : "creatures/darknessDragon/CPrL155Z",
@@ -113,11 +113,11 @@
 		},
 		"sound" :
 		{
-			"attack": "BKDRATTK.wav",
-			"defend": "BKDRDFND.wav",
-			"killed": "BKDRKILL.wav",
-			"move": "BKDRMOVE.wav",
-			"wince": "BKDRWNCE.wav"
+			"attack" : "BKDRATTK.wav",
+			"defend" : "BKDRDFND.wav",
+			"killed" : "BKDRKILL.wav",
+			"move" : "BKDRMOVE.wav",
+			"wince" : "BKDRWNCE.wav"
 		}
 	}
 }

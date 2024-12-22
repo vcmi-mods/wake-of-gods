@@ -5,13 +5,19 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	
+	"softDepends" : [
+		"wake-of-gods.commanders"
+	],
 	"chinese" : {
-		"name" : "",
-		"description" : ""
+		"name" : "Patched Commanders",
+		"description" : "New graphics for WoG commanders."
 	},
 	"czech" : {
-		"name" : "",
-		"description" : ""
+		"name" : "Velitelé",
+		"description" : "Nová grafika pro Velitele"
+	},
+	"polish" : {
+		"name" : "Poprawieni dowódcy",
+		"description" : "Nowe grafiki dowódców z WoG."
 	}
 }

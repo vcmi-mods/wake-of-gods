@@ -6,9 +6,9 @@
 			"singular" : "Succubus",
 			"plural" : "Succubi"
 		},
-		"faction": "inferno",
+		"faction" : "inferno",
 		"special" : true,
-		"level": 0,
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -64,7 +64,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM177NPC.DEF",
+			"animation" : "commanders/ZM177NPC.DEF",
 			"iconSmall" : "commanders/CPrS177n",
 			"iconLarge" : "commanders/CPrL177n",
 			"timeBetweenFidgets" : 1,
@@ -76,7 +76,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -92,12 +92,12 @@
 		},
 		"sound" :
 		{
-			"attack": "SGRGATTK.wav",
-			"defend": "SGRGDFND.wav",
-			"killed": "SGRGKILL.wav",
+			"attack" : "SGRGATTK.wav",
+			"defend" : "SGRGDFND.wav",
+			"killed" : "SGRGKILL.wav",
 			"shoot" : "commanders/SGRGSHOT.wav",
-			"move": "SGRGMOVE.wav",
-			"wince": "SGRGWNCE.wav"
+			"move" : "SGRGMOVE.wav",
+			"wince" : "SGRGWNCE.wav"
 		}
 	}
 }

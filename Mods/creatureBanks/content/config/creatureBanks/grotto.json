@@ -12,7 +12,7 @@
 					"base" : { 
 						"animation" : "creatureBanks/ZCrBank3.def",
 						"visitableFrom" : [ "---", "---", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VBBV", "VABV" ]
+						"mask" : [ "VVVV", "BBBV", "BABV", "VVVV" ]
 					}
 				},
 				"rmg" : {
@@ -25,17 +25,17 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 3, "type" :  "harpy" },
-							{ "amount": 3, "type" :  "beholder" },
-							{ "amount": 3, "type" :  "harpy" },
-							{ "amount": 3, "type" :  "beholder" }
+						"guards" : [
+							{ "amount" : 3, "type" :  "harpy" },
+							{ "amount" : 3, "type" :  "beholder" },
+							{ "amount" : 3, "type" :  "harpy" },
+							{ "amount" : 3, "type" :  "beholder" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 20,
 							"gold" : 1000
@@ -44,13 +44,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 4, "type" :  "harpy" },
-							{ "amount": 4, "type" :  "beholder" },
-							{ "amount": 4, "type" :  "harpy" },
-							{ "amount": 4, "type" :  "beholder" }
+						"guards" : [
+							{ "amount" : 4, "type" :  "harpy" },
+							{ "amount" : 4, "type" :  "beholder" },
+							{ "amount" : 4, "type" :  "harpy" },
+							{ "amount" : 4, "type" :  "beholder" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 25,
 							"gold" : 1000
@@ -59,13 +59,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 5, "type" :  "harpy" },
-							{ "amount": 5, "type" :  "beholder" },
-							{ "amount": 5, "type" :  "harpy" },
-							{ "amount": 5, "type" :  "beholder" }
+						"guards" : [
+							{ "amount" : 5, "type" :  "harpy" },
+							{ "amount" : 5, "type" :  "beholder" },
+							{ "amount" : 5, "type" :  "harpy" },
+							{ "amount" : 5, "type" :  "beholder" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 30,
 							"gold" : 1500
@@ -74,13 +74,13 @@
 					{
 						"message" : 34,
 						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 6, "type" :  "harpy" },
-							{ "amount": 6, "type" :  "beholder" },
-							{ "amount": 6, "type" :  "harpy" },
-							{ "amount": 6, "type" :  "beholder" }
+						"guards" : [
+							{ "amount" : 6, "type" :  "harpy" },
+							{ "amount" : 6, "type" :  "beholder" },
+							{ "amount" : 6, "type" :  "harpy" },
+							{ "amount" : 6, "type" :  "beholder" }
 						],
-						"resources":
+						"resources" :
 						{
 							"ore" : 35,
 							"gold" : 2000

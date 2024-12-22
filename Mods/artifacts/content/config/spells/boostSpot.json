@@ -1,47 +1,47 @@
 {
-	"boostSpot":
+	"boostSpot" :
 	{
-		"name": "Boost Spot",
-		"type": "combat",
-		"targetType": "NO_TARGET",
-		"school":
+		"name" : "Boost Spot",
+		"type" : "combat",
+		"targetType" : "NO_TARGET",
+		"school" :
 		{
-			"air": false,
-			"earth": false,
-			"fire": true,
-			"water": false
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
 		},
-		"level": 2,
-		"power": 0,
-		"defaultGainChance": 0,
-		"gainChance":
+		"level" : 2,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" :
 		{
 		},
-		"animation":{
+		"animation" :{
 		},
-		"flags" : { "positive": true, "special" : true },
-		"graphics":
+		"flags" : { "positive" : true, "special" : true },
+		"graphics" :
 		{
-			"iconBook": "CmNumWin",
-			"iconEffect": "CmNumWin",
-			"iconScroll": "CmNumWin",
-			"iconScenarioBonus": "CmNumWin"
+			"iconBook" : "CmNumWin",
+			"iconEffect" : "CmNumWin",
+			"iconScroll" : "CmNumWin",
+			"iconScenarioBonus" : "CmNumWin"
 		},
 
-		"sounds": {
-			"cast": null
+		"sounds" : {
+			"cast" : null
 		},
  
 		"levels" : {
-			"base":{
+			"base" :{
 				"range" : "X",
-				"cost": 0,
-				"aiValue": 10,
-				"power": 20,
-				"description": "{Boost Spot}\r\n\r\nUnused yet.",
+				"cost" : 0,
+				"aiValue" : 10,
+				"power" : 20,
+				"description" : "{Boost Spot}\r\n\r\nUnused yet.",
 				"battleEffects" : {
 					"obstacle" : {
-						"type":"core:obstacle",
+						"type" :"core:obstacle",
 						"hidden" : true,
 						"passable" : true,
 						"trap" : false,
@@ -58,10 +58,10 @@
 							"appearAnimation" : "C09SPF0"
 						}
 					},
-					"damageBoost":{
-						"type":"core:timed",
-						"bonus": {
-							"boost": {
+					"damageBoost" :{
+						"type" :"core:timed",
+						"bonus" : {
+							"boost" : {
 								"type" : "CREATURE_DAMAGE",
 								"subtype" : "creatureDamageBoth",
 								"val" : 25,
@@ -72,18 +72,18 @@
 					}
 				}
 			},
-			"none": {},
-			"basic": {},
-			"advanced":{
-				"battleEffects":{
-					"obstacle":{
+			"none" : {},
+			"basic" : {},
+			"advanced" :{
+				"battleEffects" :{
+					"obstacle" :{
 						"patchCount" : 6
 					}
 				}
 			},
-			"expert":{
-				"battleEffects":{
-					"obstacle":{
+			"expert" :{
+				"battleEffects" :{
+					"obstacle" :{
 						"patchCount" : 8
 					}
 				}

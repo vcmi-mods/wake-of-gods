@@ -7,7 +7,7 @@
 						"animation" : "objects/zdent001.def",
 						"mask" : [ "VV", "BA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

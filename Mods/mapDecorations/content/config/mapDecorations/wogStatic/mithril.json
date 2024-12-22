@@ -1,9 +1,9 @@
 {
 	"mithril" : {
 		"name" : "Mithril (does nothing yet)",
-		"handler": "generic",
+		"handler" : "generic",
 		"types" : {
-			"mithril": {
+			"mithril" : {
 				"templates" : {
 					"zmithr" : {
 						"animation" : "objects/zmithr.def",

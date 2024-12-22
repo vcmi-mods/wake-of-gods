@@ -1,9 +1,9 @@
 {
 	"hedgesWoG" : {
 		"name" : "Hedge",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"object": {
+			"object" : {
 				"templates" : {
 					"zbvin00" : {
 						"animation" : "objects/hedges/zbvin00.def",

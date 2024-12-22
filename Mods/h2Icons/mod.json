@@ -5,9 +5,17 @@
 	"author" : "Aphra",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-    "softDepends" :
-    [
-	"wake-of-gods.heroes3datapatch",
-        "hota.heroes3datapatch"
-    ],
+	"keepDisabled" : true,
+	"softDepends" : [
+		"wake-of-gods.heroes3datapatch",
+		"hota.heroes3datapatch"
+	],
+	"czech" : {
+		"name" : "Ikony primárních dovedností z Heroes II",
+		"description" : "Nahrazuje primární ikony dovednosti vzhledem z Heroes II."
+	},
+	"polish" : {
+		"name" : "Ikony statystyk z Heroes II",
+		"description" : "Zmienia statystyki WoG, aby bardziej przypominały te z H2."
+	}
 }

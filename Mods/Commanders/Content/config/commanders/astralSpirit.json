@@ -6,9 +6,9 @@
 			"singular" : "Astral Spirit",
 			"plural" : "Astral Spirits"
 		},
-		"faction": "conflux",
+		"faction" : "conflux",
 		"special" : true,
-		"level": 0,
+		"level" : 0,
 		"cost" :
 		{
 			"gold" : 140
@@ -31,8 +31,8 @@
 			 "max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"magicResistance" :
 			{
@@ -64,7 +64,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "commanders/ZM182NPC.DEF",
+			"animation" : "commanders/ZM182NPC.DEF",
 			"iconSmall" : "commanders/CPrS182n",
 			"iconLarge" : "commanders/CPrL182n",
 			"timeBetweenFidgets" : 1,
@@ -76,7 +76,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PLCBOWX",
+				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{
@@ -92,12 +92,12 @@
 		},
 		"sound" :
 		{
-			"attack": "GENIATTK.wav",
-			"defend": "GENIDFND.wav",
-			"killed": "GENIKILL.wav",
-			"move": "GENIMOVE.wav",
-			"shoot": "commanders/GENISHOT.wav",
-			"wince": "GENIWNCE.wav"
+			"attack" : "GENIATTK.wav",
+			"defend" : "GENIDFND.wav",
+			"killed" : "GENIKILL.wav",
+			"move" : "GENIMOVE.wav",
+			"shoot" : "commanders/GENISHOT.wav",
+			"wince" : "GENIWNCE.wav"
 		}
 	}
 }

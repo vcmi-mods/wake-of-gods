@@ -5,25 +5,29 @@
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
 	"version" : "",
-	
+	"softDepends" : [
+		"wake-of-gods.animatedobjects",
+		"wake-of-gods.animatedtrees",
+		"wake-of-gods.creaturebanks",
+		"wake-of-gods.mapdecorations",
+		"wake-of-gods.messengersandemissaries",
+		"wake-of-gods.heroes3datapatch"
+	],
 	"chinese" : {
 		"name" : "地图物体补丁",
 		"description" : "SoD/WoG地图物体新图像。",
 		"translations" : [
 			"translation/wf_mapObjects/chinese.json"
 		]
-		
 	},
 	"czech" : {
-		"name" : "Opravené objekty",
-		"description" : "Nová grafika pro objekty z SoD/WoG.",
+		"name" : "Objekty",
+		"description" : "Nová grafika pro objekty z Heroes 3 a Wake of Gods.",
 		"translations" : [
 			"translation/wf_mapObjects/czech.json"
 		]
 	},
-	
-	"objects" :
-	[
+	"objects" : [
 		"config/mapDecorations/wgfHedges",
 		"config/mapObjects/wgfShrineOfMagicMystery",
 		"config/mapObjects/wgfMirrorOfTheHomeWay",
@@ -62,8 +66,14 @@
 		"config/wgfCreatureBanks",
 		"config/wgfYuccaTrees"
 	],
-	"biomes":
-	[
+	"biomes" : [
 		"config/wogGraphicFixBiomes"
-	]
+	],
+	"polish" : {
+		"name" : "Poprawione obiekty na mapie",
+		"description" : "Nowe grafiki obiektów na mapie z SoD/WoG.",
+		"translations" : [
+			"translation/wf_mapObjects/polish.json"
+		]
+	}
 }

@@ -1,7 +1,7 @@
 {
 	"core:shrineOfMagicLevel1" : { // Warning: lvl1 required for proper h3m loading. Do not change.
 		"name" : "Shrine of Magic Mystery",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" : {
 			"wogShrineOfMagicMystery" :
 			{
@@ -26,7 +26,7 @@
 				"variables" : {
 					"spell" : {
 						"gainedSpell" : { // Note: this variable name is used by engine for H3M loading
-							"level": 4
+							"level" : 4
 						}
 					}
 				},
@@ -72,7 +72,7 @@
 						"animation" : "objects/Watersp4",
 						"mask" : [ "VVV"," VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "water"]
+						"allowedTerrains" : [ "water"]
 					}
 				}
 			}

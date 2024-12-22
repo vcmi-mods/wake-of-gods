@@ -7,7 +7,7 @@
 						"animation" : "objects/ztport01.def",
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"mask" : [ "VVV", "VVV", "VAV" ],
-						"allowedTerrains": [ "snow" ]
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

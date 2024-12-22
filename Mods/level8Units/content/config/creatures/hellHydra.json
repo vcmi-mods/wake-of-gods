@@ -6,7 +6,7 @@
 			"singular" : "Hell Hydra",
 			"plural" : "Hell Hydras"
 		},
-		"faction": "fortress",
+		"faction" : "fortress",
 		"level" : 8,
 		"cost" :
 		{
@@ -31,8 +31,8 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"king1" :
 			{
@@ -52,7 +52,7 @@
 			{
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 1,
-				"effectRange": "ONLY_MELEE_FIGHT"
+				"effectRange" : "ONLY_MELEE_FIGHT"
 			},
 			"regenerates" :
 			{
@@ -78,7 +78,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/hellhydra/ZM157Z",
+			"animation" : "creatures/hellhydra/ZM157Z",
 			"map" : "creatures/hellhydra/zmm157z",
 			"iconSmall" : "creatures/hellhydra/CPrS157F",
 			"iconLarge" : "creatures/hellhydra/CPrL157Z",
@@ -92,11 +92,11 @@
 		},
 		"sound" :
 		{
-			"attack": "CHYDATTK.wav",
-			"defend": "CHYDDFND.wav",
-			"killed": "CHYDKILL.wav",
-			"move": "CHYDMOVE.wav",
-			"wince": "CHYDWNCE.wav"
+			"attack" : "CHYDATTK.wav",
+			"defend" : "CHYDDFND.wav",
+			"killed" : "CHYDKILL.wav",
+			"move" : "CHYDMOVE.wav",
+			"wince" : "CHYDWNCE.wav"
 		}
 	}
 }

@@ -6,8 +6,8 @@
 			"singular" : "Gorynych",
 			"plural" : "Gorynyches"
 		},
-		"faction": "neutral",
-		"level": 7,
+		"faction" : "neutral",
+		"level" : 7,
 		"cost" :
 		{
 			"gold" : 3500
@@ -30,8 +30,8 @@
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		"abilities":
+		"hasDoubleWeek" : false,
+		"abilities" :
 		{
 			"king1" :
 			{
@@ -58,7 +58,7 @@
 		},
 		"graphics" :
 		{
-			"animation": "creatures/gorynych/ZM168DG",
+			"animation" : "creatures/gorynych/ZM168DG",
 			"map" : "creatures/gorynych/zmm168g",
 			"iconSmall" : "creatures/gorynych/CPrS168Z",
 			"iconLarge" : "creatures/gorynych/CPrL168M",
@@ -72,11 +72,11 @@
 		},
 		"sound" :
 		{
-			"attack": "creatures/gorynych/GORYATTK.wav",
-			"defend": "creatures/gorynych/GORYDFND.wav",
-			"killed": "creatures/gorynych/GORYKILL.wav",
-			"move": "creatures/gorynych/GORYMOVE.wav",
-			"wince": "creatures/gorynych/GORYWNCE.wav"
+			"attack" : "creatures/gorynych/GORYATTK.wav",
+			"defend" : "creatures/gorynych/GORYDFND.wav",
+			"killed" : "creatures/gorynych/GORYKILL.wav",
+			"move" : "creatures/gorynych/GORYMOVE.wav",
+			"wince" : "creatures/gorynych/GORYWNCE.wav"
 		}
 	}
 }

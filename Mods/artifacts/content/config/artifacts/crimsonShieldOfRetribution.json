@@ -1,5 +1,5 @@
 {
-	"crimsonShieldOfRetribution":
+	"crimsonShieldOfRetribution" :
 	{
 		"type" : ["HERO"],
 		"slot" : "LEFT_HAND",
@@ -17,13 +17,13 @@
 				"subtype" : "creatureDamageBoth",
 				"val" : -50,
 				"valueType" : "PERCENT_TO_BASE",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters": [
+				"limiters" : [
 					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters": [ "BLOCKS_RETALIATION" ]
+						"parameters" : [ "BLOCKS_RETALIATION" ]
 					}
 				]
 			}

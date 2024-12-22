@@ -4,18 +4,28 @@
 	"modType" : "Graphical",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"version" : "1.2.1",
-	"changelog" :
-	{
-		"1.2.2"   : [ "Split wf_creatures into independent submods" ],
-		"1.2.0"   : [ "Update based on Grossmaster's 2.18 version" ],
-		"1.1.2"   : [ "Update based on Grossmaster's 2.141 version" ],
-		"1.1.1"   : [ "Update based on Grossmaster's 2.14 version" ],
-		"1.1.0"   : [ "Update based on Grossmaster's 2.13 version" ],
-		"1.0.0"   : [ "Initial release based on Grossmaster's 2.9 version" ]
+	"version" : "1.2.2",
+	"changelog" : {
+		"1.2.2" : [
+			"Split wf_creatures into independent submods"
+		],
+		"1.2.0" : [
+			"Update based on Grossmaster's 2.18 version"
+		],
+		"1.1.2" : [
+			"Update based on Grossmaster's 2.141 version"
+		],
+		"1.1.1" : [
+			"Update based on Grossmaster's 2.14 version"
+		],
+		"1.1.0" : [
+			"Update based on Grossmaster's 2.13 version"
+		],
+		"1.0.0" : [
+			"Initial release based on Grossmaster's 2.9 version"
+		]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
 	"chinese" : {
@@ -25,5 +35,9 @@
 	"czech" : {
 		"name" : "Oprava grafiky",
 		"description" : "Nová grafika pro objekty na mapě."
+	},
+	"polish" : {
+		"name" : "Poprawki grafik WoG",
+		"description" : "Nowe grafiki obiektów na mapie SoD/WoG."
 	}
 }

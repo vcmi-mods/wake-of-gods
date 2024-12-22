@@ -1,13 +1,13 @@
 {
 	"zdec0001" : {
 		"name" : "Rune Stone",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zdec0001": {
+			"zdec0001" : {
 				"templates" : {
 					"zdec0001" : {
 						"animation" : "objects/zdec0001.def",
-						"mask": [ "VV", "VB" ]
+						"mask" : [ "VV", "VB" ]
 					}
 				}
 			}
@@ -15,13 +15,13 @@
 	},		
 	"zdec1001" : {
 		"name" : "Rune Stone",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zdec1001": {
+			"zdec1001" : {
 				"templates" : {
 					"zdec1001" : {
 						"animation" : "objects/zdec1001.def",
-						"mask": [ "VV", "VB" ]
+						"mask" : [ "VV", "VB" ]
 					}
 				}
 			}
@@ -29,13 +29,13 @@
 	},
 	"zdec0005" : {
 		"name" : "Rune Stone",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zdec0005": {
+			"zdec0005" : {
 				"templates" : {
 					"zdec0005" : {
 						"animation" : "objects/zdec0005.def",
-						"mask": [ "VV", "VB" ]
+						"mask" : [ "VV", "VB" ]
 					}
 				}
 			}
@@ -43,13 +43,13 @@
 	},
 	"zdec0007" : {
 		"name" : "Rune Stone",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zdec0007": {
+			"zdec0007" : {
 				"templates" : {
 					"zdec0007" : {
 						"animation" : "objects/zdec0007.def",
-						"mask": [ "VV", "VB" ]
+						"mask" : [ "VV", "VB" ]
 					}
 				}
 			}
@@ -57,15 +57,15 @@
 	},
 	"zdec0008" : {
 		"name" : "Rune Stone",
-		"handler":"generic",
+		"handler" :"generic",
 		"types" : {
-			"zdec0008": {
+			"zdec0008" : {
 				"name" : "Rune Stone",
 				"templates" : {
 					"zdec0008" : {
 						"animation" : "objects/zdec0008.def",
-						"mask": [ "VV", "BB" ],
-						"allowedTerrains": [ "lava" ]
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains" : [ "lava" ]
 					}
 				}
 			}

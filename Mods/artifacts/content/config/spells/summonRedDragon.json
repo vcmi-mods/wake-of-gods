@@ -1,71 +1,71 @@
 {
-	"summonRedDragon":
+	"summonRedDragon" :
 	{
-		"name": "Summon Red Dragon",
-		"type": "ability",
-		"school":
+		"name" : "Summon Red Dragon",
+		"type" : "ability",
+		"school" :
 		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 40,
-		"defaultGainChance": 0,
-		"gainChance":
+		"level" : 5,
+		"power" : 40,
+		"defaultGainChance" : 0,
+		"gainChance" :
 		{
 		},
 		"flags" : {
-			"indifferent": true,
-			"special": true
+			"indifferent" : true,
+			"special" : true
 		},
-		"graphics":
+		"graphics" :
 		{
-			"iconBook": "CmNumWin",
-			"iconScroll": "CmNumWin",
-			"iconScenarioBonus": "CmNumWin",
-			"iconEffect": "CmNumWin"
+			"iconBook" : "CmNumWin",
+			"iconScroll" : "CmNumWin",
+			"iconScenarioBonus" : "CmNumWin",
+			"iconEffect" : "CmNumWin"
 		},
-		"animation":
+		"animation" :
 		{
 		},
-		"sounds":
+		"sounds" :
 		{
-			"cast": "SUMNELM"
+			"cast" : "SUMNELM"
 		},
-		"targetType": "NO_TARGET",
-		"levels":
+		"targetType" : "NO_TARGET",
+		"levels" :
 		{
-			"base":
+			"base" :
 			{
-				"description": "{Summon Crystal Dragon}\r\n\r\nSummons might Moon Dragon at the beginning of the battle.",
-				"power": 20,
-				"aiValue": 10,
-				"cost": 0,
-				"range": "X",
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"summon":{
-						"exclusive":true,
-						"id":"redDragonClone",
-						"permanent":false,
+				"description" : "{Summon Crystal Dragon}\r\n\r\nSummons might Moon Dragon at the beginning of the battle.",
+				"power" : 20,
+				"aiValue" : 10,
+				"cost" : 0,
+				"range" : "X",
+				"targetModifier" :{"smart" :true},
+				"battleEffects" :{
+					"summon" :{
+						"exclusive" :true,
+						"id" :"redDragonClone",
+						"permanent" :false,
 						"summonByHealth" : true,
-						"type":"core:summon",
+						"type" :"core:summon",
 						"maxFullUnits" : 1
 					}
 				}
 			},
-			"none":
+			"none" :
 			{
 			},
-			"basic":
+			"basic" :
 			{
 			},
-			"advanced":
+			"advanced" :
 			{
 			},
-			"expert":
+			"expert" :
 			{
 			}
 		}

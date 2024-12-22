@@ -3,14 +3,14 @@
 	"waterMagicMushroom" :
 	{
 		"name" : "Water Magic Mushroom",
-		"handler": "configurable",
-		"types":
+		"handler" : "configurable",
+		"types" :
 		{
-			"waterMagicMushroom":
+			"waterMagicMushroom" :
 			{
 				"name" : "Magic Water Mushroom",
 				"description" : "(grant expert Water Magic until end of the week)",
-				"onVisitedMessage": "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"onVisitedMessage" : "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
@@ -28,12 +28,12 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": "spellSchool.water",
-								"val": 3,
+								"subtype" : "spellSchool.water",
+								"val" : 3,
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Water Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Water Magic spells at expert level until the end of the week."
+						"message" : "{Magic Water Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Water Magic spells at expert level until the end of the week."
 					}
 				],
 				"templates" :
@@ -51,14 +51,14 @@
 	"airMagicMushroom" :
 	{
 		"name" : "Air Magic Mushroom",
-		"handler": "configurable",
-		"types":
+		"handler" : "configurable",
+		"types" :
 		{
-			"airMagicMushroom":
+			"airMagicMushroom" :
 			{
 				"name" : "Magic Air Mushroom",
 				"description" : "(grant expert Air Magic until end of the week)",
-				"onVisitedMessage": "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"onVisitedMessage" : "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
@@ -76,12 +76,12 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": "spellSchool.air",
-								"val": 3,
+								"subtype" : "spellSchool.air",
+								"val" : 3,
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Air Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Air Magic spells at expert level until the end of the week."
+						"message" : "{Magic Air Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Air Magic spells at expert level until the end of the week."
 					}
 				],
 				"templates" :
@@ -98,14 +98,14 @@
 	"earthMagicMushroom" :
 	{
 		"name" : "Earth Magic Mushroom",
-		"handler": "configurable",
-		"types":
+		"handler" : "configurable",
+		"types" :
 		{
-			"earthMagicMushroom":
+			"earthMagicMushroom" :
 			{
 				"name" : "Magic Earth Mushroom",
 				"description" : "(grant expert Earth Magic until end of the week)",
-				"onVisitedMessage": "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"onVisitedMessage" : "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
@@ -123,12 +123,12 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": "spellSchool.earth",
-								"val": 3,
+								"subtype" : "spellSchool.earth",
+								"val" : 3,
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Earth Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Earth Magic spells at expert level until the end of the week."
+						"message" : "{Magic Earth Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Earth Magic spells at expert level until the end of the week."
 					}
 				],
 				"templates" :
@@ -146,14 +146,14 @@
 	"fireMagicMushroom" :
 	{
 		"name" : "Fire Magic Mushroom",
-		"handler": "configurable",
-		"types":
+		"handler" : "configurable",
+		"types" :
 		{
-			"fireMagicMushroom":
+			"fireMagicMushroom" :
 			{
 				"name" : "Magic Fire Mushroom",
 				"description" : "(grant expert Fire Magic until end of the week)",
-				"onVisitedMessage": "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
+				"onVisitedMessage" : "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
 					"value"		: 2000,
@@ -171,12 +171,12 @@
 						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
-								"subtype": "spellSchool.fire",
-								"val": 3,
+								"subtype" : "spellSchool.fire",
+								"val" : 3,
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"message": "{Magic Fire Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Fire Magic spells at expert level until the end of the week."
+						"message" : "{Magic Fire Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Fire Magic spells at expert level until the end of the week."
 					}
 				],
 				"templates" :
