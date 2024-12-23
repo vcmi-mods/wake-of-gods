@@ -1,0 +1,9 @@
+{
+	"name" : "AI main menu theme",
+	"description" : "Changes main menu theme to the AI generated one.",
+	"modType" : "Music",
+	"author" : "Fabrice-Tiercelin, mod by Olegmods.INC",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"keepDisabled" : true
+}
