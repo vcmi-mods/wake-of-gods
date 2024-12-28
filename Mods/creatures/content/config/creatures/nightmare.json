@@ -6,7 +6,7 @@
 			"singular" : "Nightmare",
 			"plural" : "Nightmares"
 		},
-		"faction" : "neutral",
+		"faction" : "inferno",
 		"level" : 6,
 		"cost" :
 		{

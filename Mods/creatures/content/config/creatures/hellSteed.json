@@ -7,7 +7,7 @@
 			"plural" : "Hell Steeds"
 		},
 		"upgrades" : ["nightmare"],
-		"faction" : "neutral",
+		"faction" : "inferno",
 		"level" : 6,
 		"cost" :
 		{
