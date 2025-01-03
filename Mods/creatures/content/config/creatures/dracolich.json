@@ -6,7 +6,7 @@
 			"singular" : "Dracolich",
 			"plural" : "Dracoliches"
 		},
-		"faction" : "neutral",
+		"faction" : "necropolis",
 		"level" : 10,
 		"cost" :
 		{
