@@ -4,12 +4,15 @@
     "modType" : "Expansion",
     "author" : "WoG Team & epigones",
     "contact" : "http://forum.vcmi.eu/index.php",
-    "version" : "9.1.44",
+    "version" : "9.1.45",
     "downloadSize" : 68.9,
     "compatibility" : {
         "min" : "1.6.0"
     },
     "changelog" : {
+	"9.1.45" : [
+            "WoG theme fixed"
+        ],
         "9.1.44" : [
             "Added translation for missing entries by Manfred",
 			"Fixed JSON files formatting"
