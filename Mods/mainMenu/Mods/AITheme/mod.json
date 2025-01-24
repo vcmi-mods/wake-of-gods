@@ -5,5 +5,9 @@
 	"author" : "Fabrice-Tiercelin, mod by Olegmods.INC",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"keepDisabled" : true
+	"keepDisabled" : true,
+	"polish" : {
+		"name" : "Motyw menu głównego AI",
+		"description" : "Zmienia motyw menu głównego na wygenerowany przez AI."
+	}
 }
