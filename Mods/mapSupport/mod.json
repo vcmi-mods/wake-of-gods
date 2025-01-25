@@ -130,10 +130,10 @@
 					"zobj041" : [63, 47],
 					"zobj042" : [63, 48],
 					"zobj043" : [63, 49],
-					"wogskull" :[63, 50],
+					"wogskull" : [63, 50],
 					"zartif1" : [63, 52],
 					"zlwork1" : [63, 53],
-					"zmark1" :  [63, 54],
+					"zmark1" : [63, 54],
 					"ztower1" : [63, 62],
 					"zobj044" : [63, 63],
 					"zobj049" : [63, 64],
@@ -177,13 +177,13 @@
 						"monolith8wog" : [45, 7]
 					},
 //wog decorative objects
-//					"avGnoll"  : [40, 0], //gnoll hut from h3sprite
-					"zzzz" :	 [207, 1],
-					"zflame1" :	 [40, 0],
+//					"avGnoll" : [40, 0], //gnoll hut from h3sprite
+					"zzzz" : [207, 1],
+					"zflame1" : [40, 0],
 					"zdec0002" : [40, 0],
 					"zdec0003" : [40, 0],
 					"zdec0004" : [40, 0],
-					"lavam" : 	 [40, 1],
+					"lavam" : [40, 1],
 					"zdec0001" : [40, 0],
 					"zdec1001" : [40, 0],
 					"zdec0005" : [40, 0],
@@ -196,21 +196,21 @@
 					"zwall001" : [40, 0],
 					"zwall002" : [40, 0],
 					"zwall003" : [40, 0],
-					"wall1" : 	 [40, 0],
-					"wall2" :	 [40, 0],
+					"wall1" : [40, 0],
+					"wall2" : [40, 0],
 					"zwfall01" : [40, 0],
 					"zwfall02" : [40, 0],
 					"zwfall03" : [40, 0],
 //					"marketOfTimeWoG" : [63, 51], //object from h3sprite
-					"zcave1" : 	[63, 57],
-					"zcave2" :  [63, 58],
-					"zcave3" :  [63, 59],
-					"zcave4" :  [63, 60],
-					"zcave5" :  [63, 61],
-					"z358o9" : 	[63, 67],
+					"zcave1" : [63, 57],
+					"zcave2" : [63, 58],
+					"zcave3" : [63, 59],
+					"zcave4" : [63, 60],
+					"zcave5" : [63, 61],
+					"z358o9" : [63, 67],
 					"z358o10" : [63, 68],
-					"zyzop1" : 	[63, 55],
-					"zyzop2" : 	[63, 56],
+					"zyzop1" : [63, 55],
+					"zyzop2" : [63, 56],
 					"z358o11" : [63, 69],	
 					"z358o12" : [63, 70],	
 					"z358o13" : [63, 71],	
@@ -536,5 +536,9 @@
 				}
 			}
 		}
+	},
+	"polish" : {
+		"name" : "Obsługa formatu map (WoG)",
+		"description" : "Ten mod zawiera pliki wspierające potrzebne do ładowania map w formacie 'In The Wake of Gods' w VCMI"
 	}
 }

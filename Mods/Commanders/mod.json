@@ -5,8 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"softDepends" :
-	[
+	"softDepends" : [
 		"wake-of-gods.artifacts"
 	],
 	"chinese" : {
@@ -25,8 +24,7 @@
 		]
 	},
 	
-	"creatures" :
-	[
+	"creatures" : [
 		"config/commanders/astralSpirit.json",
 		"config/commanders/brute.json",
 		"config/commanders/hierophant.json",
@@ -37,12 +35,10 @@
 		"config/commanders/succubus.json",
 		"config/commanders/templeGuardian.json"
 	],
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/heroClasses_"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/commanderArtifacts/axeOfSmashing.json",
 		"config/commanderArtifacts/bootsOfHaste.json",
 		"config/commanderArtifacts/bowOfSeeking.json",
@@ -54,17 +50,22 @@
 		"config/commanderArtifacts/slavasRingOfPower.json",
 		"config/commanderArtifacts/swordOfSharpness.json"
 	],
-	"settings" :
-	{
-		"modules" :
-		{
+	"settings" : {
+		"modules" : {
 			"commanders" : true
 		}
 	},
 	
 	"translations" : [
 		"config/translation/wake-of-gods-commanders/english.json"
-	]
+	],
+	"polish" : {
+		"name" : "Dowódcy",
+		"description" : "Ten moduł włącza funkcję dowódców z WoG",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/polish.json"
+		]
+	}
 
 	// for future reference
 	//crus ZM174NPC.def Paladin2
