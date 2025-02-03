@@ -230,7 +230,9 @@
 						"zchst4" : [101, 4],
 						"zchst5" : [101, 5]
 					},
-					"mithril" : [79, 7],
+					"resource" : {
+						"mithril" : [79, 7],
+					}
 					"opalOfMagic" : [101, 7],
 					"rubyOfOffence" : [101, 8],
 					"sapphireOfDefense" : [101, 9],
