@@ -168,7 +168,7 @@
         ]
     },
     "russian" : {
-        "name" : "In The Wake of Gods",
+        "name" : "Во Имя Богов / In the Wake of Gods",
         "description" : "Неофициальный аддон для Heroes of Might and Magic III",
         "translations" : [
             "translation/wake-of-gods/russian.json"
