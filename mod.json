@@ -4,17 +4,14 @@
     "modType" : "Expansion",
     "author" : "WoG Team & epigones",
     "contact" : "http://forum.vcmi.eu/index.php",
-    "version" : "9.1.48",
+    "version" : "9.1.47",
     "downloadSize" : 68.9,
     "compatibility" : {
         "min" : "1.6.0"
-    },
-    "changelog" : {
-        "9.1.48" : [
-            "Revert of some applied fixes"
-        ],
+    }, 
+	"changelog" : {
         "9.1.47" : [
-            "kdmcser fixes in some visitable objects"
+            "Palace of Dream object added"
         ],
         "9.1.46" : [
             "Fixed loading of wake of gods maps that contain mithril piles"
@@ -174,7 +171,7 @@
         ]
     },
     "russian" : {
-        "name" : "Во Имя Богов / In the Wake of Gods",
+        "name" : "In The Wake of Gods",
         "description" : "Неофициальный аддон для Heroes of Might and Magic III",
         "translations" : [
             "translation/wake-of-gods/russian.json"

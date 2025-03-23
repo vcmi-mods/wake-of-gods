@@ -113,7 +113,6 @@
 					"zobj024" : [63, 30],
 					"zobj025" : [63, 31],
 					"zobj026" : [63, 32],
-					"zobj027" : [63, 33],
 					"zobj028" : [63, 34],
 					"zobj029" : [63, 35],
 					"zobj030" : [63, 36],
@@ -143,6 +142,7 @@
 					"earthMagicMushroom" : [63, 23],
 					"almsHouse" : [63, 24],
 					"fireMagicMushroom" : [63, 29],
+					"palaceOfDreams" : [63, 33],
 					"mirrorOfTheHomeWay" : [63, 66],
 					"shrineOfMagicLevel3" : {
 						"wogShrineOfMagicLevel3" : [ 90, 1]
