@@ -15,13 +15,20 @@
 				"aiValue" : 8000,
 				"templates" : {		
 					"zobj027" : {
-						"animation" : "mapObjects/zobj027.def",
+						"animation" : "objects/zobj027.def",
 						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBVV", "VVBBAV" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				},
-				"visitMode" : "unlimited",
+				"resetParameters" : {
+					"period" : 1,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"visitMode" : "once",
 				"selectMode" : "selectRandom",
+				
+				"onVisitedMessage": "{Palace of Dreams}\r\n\r\nThe dreamkeeper bows politely.\n\n\"You have already played today, dreamer. Let your soul rest—and return tomorrow with fresh hopes.\"",
 				
 					"rewards" : [
 					{
