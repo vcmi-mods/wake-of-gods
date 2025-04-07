@@ -20,15 +20,8 @@
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
 				},
-				"resetParameters" : {
-					"period" : 1,
-					"visitors" : true,
-					"rewards" : true
-				},
-				"visitMode" : "once",
+				"visitMode" : "unlimited",
 				"selectMode" : "selectRandom",
-				
-				"onVisitedMessage": "{Palace of Dreams}\r\n\r\nThe dreamkeeper bows politely.\n\n\"You have already played today, dreamer. Let your soul rest—and return tomorrow with fresh hopes.\"",
 				
 					"rewards" : [
 					{
