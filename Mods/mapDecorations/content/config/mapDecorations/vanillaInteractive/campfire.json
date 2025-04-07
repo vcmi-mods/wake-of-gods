@@ -1,0 +1,15 @@
+{
+	"core:campfire" :{ //unused graphic hidden in h3sprites.lod
+		"types" : {
+			"campfire" : {
+				"templates" : {
+					"ADCFRA0" : {
+						"animation" : "ADCFRA0.def",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "A" ]
+					}
+				}
+			}
+		}
+	}
+}

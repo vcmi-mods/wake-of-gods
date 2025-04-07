@@ -1,0 +1,19 @@
+{
+	"core:resource" : { 
+		"types" : {
+			// WARNING: critical for maps support, if changed, ensure that maps with pre-placed mithril piles can still be loaded
+			"mithril" : {
+				"resource" : "gold",
+				"amounts" : [ 10, 15, 20 ],
+				"amountMultiplier" : 100,
+				"templates" : {
+					"zmithr" : {
+						"animation" : "objects/zmithr.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

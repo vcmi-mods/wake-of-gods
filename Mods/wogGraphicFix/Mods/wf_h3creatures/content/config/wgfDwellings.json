@@ -12,7 +12,7 @@
 				}
 			},
 			"behemothCrag" : {
-				"name" : "Behemoth Crag",
+				"name" : "Behemot Crag",
 				"templates" : {
 					"rough" : {
 						"animation" : "dwellings/avgbhmt1",

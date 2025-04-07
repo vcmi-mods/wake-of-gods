@@ -1,0 +1,30 @@
+{
+	"wake-of-gods.messengersandemissaries:emissaryOfWar" :
+	{
+		"graphics" :
+		{
+			"map" : "creatures/emissaryOfWar/zmm160g.def"
+		}
+	},
+	"wake-of-gods.messengersandemissaries:emissaryOfPeace" :
+	{
+		"graphics" :
+		{
+			"map" : "creatures/emissaryOfPeace/zmm161g.def"
+		}
+	},
+	"wake-of-gods.messengersandemissaries:emissaryOfMana" :
+	{
+		"graphics" :
+		{
+			"map" : "creatures/emissaryOfMana/zmm162g.def"
+		}
+	},
+	"wake-of-gods.messengersandemissaries:emissaryOfLore" :
+	{
+		"graphics" :
+		{
+			"map" : "creatures/emissaryOfLore/zmm163g.def"
+		}
+	}
+}
