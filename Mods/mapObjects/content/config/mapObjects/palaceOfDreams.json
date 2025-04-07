@@ -8,8 +8,8 @@
 				"description" : "(Trade gold for a chance to receive magical rewards)",
 				"rmg": {
 					"value" : 8000,
-					"mapLimit": 50,
-					"zoneLimit" : 20,
+					"mapLimit": 4,
+					"zoneLimit" : 1,
 					"rarity" : 50
 				},
 				"aiValue" : 8000,
