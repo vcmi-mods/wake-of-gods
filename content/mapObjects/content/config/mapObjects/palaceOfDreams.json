@@ -15,7 +15,7 @@
 				"aiValue" : 8000,
 				"templates" : {		
 					"zobj027" : {
-						"animation" : "mapObjects/zobj027.def",
+						"animation" : "objects/zobj027.def",
 						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBVV", "VVBBAV" ],
 						"visitableFrom" : [ "---", "---", "+++" ]
 					}
