@@ -386,21 +386,6 @@
 			}
 		}
 	},			
-	"zobj027" :{	
-		"name" : "Palace of Dreams (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {	
-			"zobj027" : {			
-				"templates" : {		
-					"zobj027" : {
-						"animation" : "objects/zobj027.def",
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBVV", "VVBBAV" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
-					}
-				}
-			}
-		}
-	},			
 	"zobj028" :{	
 		"name" : "Object (doesn't work yet)",
 		"handler" : "generic",

@@ -1,0 +1,105 @@
+{
+	"palaceOfDreams" :{	
+		"name" : "Palace of Dreams",
+		"handler" : "configurable",
+		"types" : {	
+			"palaceOfDreams" : {
+				"name" : "Palace of Dreams",
+				"description" : "(Trade gold for a chance to receive magical rewards)",
+				"rmg": {
+					"value" : 8000,
+					"mapLimit": 4,
+					"zoneLimit" : 1,
+					"rarity" : 50
+				},
+				"aiValue" : 8000,
+				"templates" : {		
+					"zobj027" : {
+						"animation" : "objects/zobj027.def",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVBVV", "VBBBVV", "VVBBAV" ],
+						"visitableFrom" : [ "---", "---", "+++" ]
+					}
+				},
+				"resetParameters" : {
+					"period" : 1,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"visitMode" : "once",
+				"selectMode" : "selectRandom",
+				
+				"onVisitedMessage": "{Palace of Dreams}\r\n\r\nThe dreamkeeper bows politely.\n\n\"You have already played today, dreamer. Let your soul rest—and return tomorrow with fresh hopes.\"",
+				
+					"rewards" : [
+					{
+						"resources" : {
+							"gold" : -1000
+						},
+						"limiter": 
+						{
+							"resources" : {"gold" : 1000}
+						},
+						"message": "{Palace of Dreams}\r\n\r\nYou offer 1,000 gold and the dreamkeeper unlocks a glowing chest...\n\nBut it vanishes into mist — no reward this time. Dreams are fickle."
+					},
+					{
+						"resources" : [
+							{
+								"anyOf" : [ "ore", "mercury", "gems", "sulfur", "crystal" ],
+								"min" : 1,
+								"max" : 6
+							},
+							{
+								"type" : "gold",
+								"amount" : -1000
+							}
+						],
+						"limiter": 
+						{
+							"resources" : {"gold" : 1000}
+						},
+						"message": "{Palace of Dreams}\r\n\r\nYou hand over 1,000 gold. The chest opens with a whisper...\n\nInside lie shimmering resources, glinting like echoes of forgotten dreams."
+					},
+					{
+						"artifacts" : [
+							{ "class" : "TREASURE" }
+						],
+						"resources" : {
+							"gold" : -1000
+						},
+						"limiter": 
+						{
+							"resources" : {"gold" : 1000}
+						},
+						"message": "{Palace of Dreams}\r\n\r\n1,000 gold is paid. The air shimmers as the chest creaks open...\n\nA wondrous artifact lies within. A small dream fulfilled."
+					},
+					{
+						"artifacts" : [
+							{ "class" : "MINOR" }
+						],
+						"resources" : {
+							"gold" : 2000
+						},
+						"limiter": 
+						{
+							"resources" : {"gold" : 1000}
+						},
+						"message": "{Palace of Dreams}\r\n\r\nYou offer 1,000 gold and the dreamkeeper smiles. The chest opens...\n\nA rare artifact appears—and as a gift, your gold is returned. A true stroke of luck!"
+					},
+					{
+						"artifacts" : [
+							{ "class" : "MAJOR" }
+						],
+						"resources" : {
+							"gold" : 5000
+						},
+						"limiter": 
+						{
+							"resources" : {"gold" : 1000}
+						},
+						"message": "{Palace of Dreams}\r\n\r\nYou step forward, gold in hand. The chest bursts with radiant light...\n\nA powerful artifact and a heap of gold await you. JACKPOT! Even the stars applaud your dream today!"
+					}
+				]
+			}
+		}
+	}
+}

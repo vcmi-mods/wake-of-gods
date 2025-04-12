@@ -113,7 +113,6 @@
 					"zobj024" : [63, 30],
 					"zobj025" : [63, 31],
 					"zobj026" : [63, 32],
-					"zobj027" : [63, 33],
 					"zobj028" : [63, 34],
 					"zobj029" : [63, 35],
 					"zobj030" : [63, 36],
@@ -143,6 +142,7 @@
 					"earthMagicMushroom" : [63, 23],
 					"almsHouse" : [63, 24],
 					"fireMagicMushroom" : [63, 29],
+					"palaceOfDreams" : [63, 33],
 					"mirrorOfTheHomeWay" : [63, 66],
 					"shrineOfMagicLevel3" : {
 						"wogShrineOfMagicLevel3" : [ 90, 1]
@@ -369,7 +369,6 @@
 					"creatures/supremeArchangel/zmm150z.def" : "zmm150z.def",
 					"objects/zobj025.def" : "zobj025.def",
 					"objects/zobj026.def" : "zobj026.def",
-					"objects/zobj027.def" : "zobj027.def",
 					"objects/zobj028.def" : "zobj028.def",
 					"objects/zobj029.def" : "zobj029.def",
 					"objects/zobj041.def" : "zobj041.def",
@@ -512,6 +511,7 @@
 					"mapObjects/zobj012.def" : "zobj012.def",
 					"mapObjects/zobj017.def" : "zobj017.def",
 					"mapObjects/zobj023.def" : "zobj023.def",
+					"mapObjects/zobj027.def" : "zobj027.def",		
 					"mapObjects/zsphnx10.def" : "zsphnx10.def",
 					"mapObjects/zsphnx11.def" : "zsphnx11.def",
 					"mapObjects/zsphnx12.def" : "zsphnx12.def",
