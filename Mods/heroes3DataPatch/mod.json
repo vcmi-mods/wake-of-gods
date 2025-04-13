@@ -5,6 +5,10 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+    "chinese" : {
+		"name" : "英雄无敌3数据补丁",
+		"description" : "修正并改进一些死亡阴影游戏的图像和声音资源。"
+	},
 	"czech" : {
 		"name" : "Oprava grafiky pro Heroes 3",
 		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
