@@ -20,6 +20,11 @@
 	"creatures" : [
 		"config/emmisariesMap"
 	],
+    
+    "chinese" : {
+		"name" : "地图格式支持（神之苏醒）",
+		"description" : "这个模组包含VCMI加载神之苏醒地图必备的支持文件。"
+	},
 	
 	"czech" : {
 		"name" : "Podpora formátu map (WoG)",

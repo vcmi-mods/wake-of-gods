@@ -6,6 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	"keepDisabled" : true,
+    "chinese" : {
+		"name" : "AI主菜单主题",
+		"description" : "将主菜单主改变成一个AI生成的主题。"
+	},
 	"polish" : {
 		"name" : "Motyw menu głównego AI",
 		"description" : "Zmienia motyw menu głównego na wygenerowany przez AI."
