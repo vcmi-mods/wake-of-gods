@@ -20,11 +20,6 @@
 	"creatures" : [
 		"config/emmisariesMap"
 	],
-    
-    "chinese" : {
-		"name" : "地图格式支持（神之苏醒）",
-		"description" : "这个模组包含VCMI加载神之苏醒地图必备的支持文件。"
-	},
 	
 	"czech" : {
 		"name" : "Podpora formátu map (WoG)",
@@ -238,10 +233,6 @@
 					"resource" : {
 						"mithril" : [79, 7]
 					},
-					"opalOfMagic" : [101, 7],
-					"rubyOfOffence" : [101, 8],
-					"sapphireOfDefense" : [101, 9],
-					"crystalOfEmerald" : [101, 10],
 					"creatureBank" : {
 						"huntingLodge" : [16, 11],
 						"snowGrotto" : [16, 12],
@@ -422,10 +413,6 @@
 					"objects/skull.def" : "skull.def",
 					"objects/TPTempl1.def" : "TPTempl1.def",
 					"objects/ztower1.def" : "ztower1.def",
-					"objects/zcbon000.def" : "zcbon000.def",
-					"objects/zcbon001.def" : "zcbon001.def",
-					"objects/zcbon002.def" : "zcbon002.def",
-					"objects/zcbon003.def" : "zcbon003.def",
 					"objects/zchst6.def" : "zchst6.def",
 					"objects/zdent001.def" : "zdent001.def",
 					"objects/zfntng01.def" : "zfntng01.def",

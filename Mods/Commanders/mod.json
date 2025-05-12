@@ -35,6 +35,9 @@
 		"config/commanders/succubus.json",
 		"config/commanders/templeGuardian.json"
 	],
+	"objects" : [
+		"config/commanderStones/stones.json"
+	],
 	"heroClasses" : [
 		"config/heroClasses_"
 	],

@@ -39,6 +39,12 @@
 					"hardenedShield" : 154,
 					"slavasRingOfPower" : 155
 				},
+				"objects" : {
+					"opalOfMagic" : [101, 7],
+					"rubyOfOffense" : [101, 8],
+					"sapphireOfDefense" : [101, 9],
+					"emeraldOfSpeed" : [101, 10],
+				},
 				"templates" : {
 					"commanders/ZM182NPC.DEF" : "ZM182NPC.DEF",
 					"commanders/ZM179NPC.DEF" : "ZM179NPC.DEF",
@@ -67,7 +73,11 @@
 					"artifacts/zart152.def" : "zart152.def",
 					"artifacts/zart153.def" : "zart153.def",
 					"artifacts/zart154.def" : "zart154.def",
-					"artifacts/zart155.def" : "zart155.def"
+					"artifacts/zart155.def" : "zart155.def",
+					"objects/zcbon000.def" : "zcbon000.def",
+					"objects/zcbon001.def" : "zcbon001.def",
+					"objects/zcbon002.def" : "zcbon002.def",
+					"objects/zcbon003.def" : "zcbon003.def"
 				}
 			}
 		}

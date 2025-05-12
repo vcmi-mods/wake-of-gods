@@ -1,0 +1,177 @@
+{
+	"opalOfMagic" :{
+		"name" : "Opal of Magic",
+		"handler": "configurable",
+		"base" : {
+			"blockedVisitable" : true,
+			"removable": true,
+			"sounds" : {
+				"ambient" : ["LOOPCAMP"],
+				"visit" : ["EXPERNCE"],
+				"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+			}
+		},
+		"types" : {
+			"opalOfMagic" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"zoneLimit"	: 4,
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"templates" : {		
+					"zcbon000" : {
+						"animation" : "objects/zcbon000.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				},
+				"visitMode" : "unlimited",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"limiter" : {
+							"commanderAlive" : true
+						},
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"message" : "You come upon an Opal of Magic. It shimmers with a mystic light and your Commander's Magic Power increases by 1.",
+						"removeObject" : true,
+						"commanderBonuses" : [ { "type" : "CASTS", "val" : 1 } ] 
+					}
+				]
+			}
+		}
+	},
+
+	"emeraldOfSpeed" :{
+		"handler": "configurable",
+		"name" : "Emerald of Speed",
+		"base" : {
+			"blockedVisitable" : true,
+			"removable": true,
+			"sounds" : {
+				"ambient" : ["LOOPCAMP"],
+				"visit" : ["EXPERNCE"],
+				"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+			}
+		},
+		"types" : {
+			"emeraldOfSpeed" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"zoneLimit"	: 4,
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"templates" : {		
+					"zcbon003" : {
+						"animation" : "objects/zcbon003.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				},
+				"visitMode" : "unlimited",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"limiter" : {
+							"commanderAlive" : true
+						},
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"message" : "You come upon an Emerald of Speed. It glows brightly and suddenly is gone. Your Commander's Speed increases by 1.",
+						"removeObject" : true,
+						"commanderBonuses" : [ { "type" : "STACKS_SPEED", "val" : 1 } ] 
+					}
+				]
+			}
+		}
+	},
+
+	"rubyOfOffense" :{
+		"handler": "configurable",
+		"name" : "Ruby of Offense",
+		"base" : {
+			"blockedVisitable" : true,
+			"removable": true,
+			"sounds" : {
+				"ambient" : ["LOOPCAMP"],
+				"visit" : ["EXPERNCE"],
+				"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+			}
+		},
+		"types" : {
+			"rubyOfOffense" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"zoneLimit"	: 4,
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"templates" : {			
+					"zcbon001" : {
+						"animation" : "objects/zcbon001.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				},
+				"visitMode" : "unlimited",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"limiter" : {
+							"commanderAlive" : true
+						},
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"message" : "You come upon a Ruby of Offense. It pulses with power, red as blood and your Commander's Attack increases by 2.",
+						"removeObject" : true,
+						"commanderBonuses" : [ { "type" : "PRIMARY_SKILL", "subtype" : "attack", "val" : 2 } ] 
+					}
+				]
+			}
+		}
+	},
+	
+	"sapphireOfDefense" :{
+		"handler": "configurable",
+		"name" : "Sapphire of Defense",
+		"base" : {
+			"blockedVisitable" : true,
+			"removable": true,
+			"sounds" : {
+				"ambient" : ["LOOPCAMP"],
+				"visit" : ["EXPERNCE"],
+				"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+			}
+		},
+		"types" : {
+			"sapphireOfDefense" : {
+				"aiValue" : 2000,
+				"rmg" : {
+					"zoneLimit"	: 4,
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"templates" : {		
+					"zcbon002" : {
+						"animation" : "objects/zcbon002.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]		
+					}
+				},
+				"visitMode" : "unlimited",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"limiter" : {
+							"commanderAlive" : true
+						},
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"message" : "You come upon a Sapphire of Defense. It sparkles with protective power and your Commander's Defense increases by 2.",
+						"removeObject" : true,
+						"commanderBonuses" : [ { "type" : "PRIMARY_SKILL", "subtype" : "defence", "val" : 2 } ] 
+					}
+				]
+			}
+		}
+	}	
+}
