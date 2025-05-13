@@ -1,1 +1,8 @@
-
+{
+	"name" : "New Graphic for Commander Stones",
+	"description" : "This mod changes Commander Stones Graphics",
+	"modType" : "Graphical",
+	"author" : "Olegmods.INC, graphics from old HotA Crew screenshots",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0"
+}
