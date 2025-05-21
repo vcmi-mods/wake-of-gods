@@ -6,7 +6,8 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 	"softDepends" : [
-		"wake-of-gods.heroes3datapatch"
+		"wake-of-gods.heroes3datapatch",
+		"wake-of-gods.animatedobjects"
 	],
 	"chinese" : {
 		"name" : "旗帜动画",

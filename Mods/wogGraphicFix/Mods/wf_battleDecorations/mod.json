@@ -5,6 +5,9 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	"softDepends" : [
+		"wake-of-gods.battledecorations"
+	],
 	"chinese" : {
 		"name" : "战场装饰",
 		"description" : "这个模组启用战场上的障碍动画。"
