@@ -1,8 +1,13 @@
 {
-	"name" : "New Graphic for Commander Stones",
-	"description" : "This mod changes Commander Stones Graphics",
+	"name" : "New Graphics for Commander Gems",
+	"description" : "This modification changes the appearance of the gems that empower Commanders. The new models better reflect their magical nature.",
 	"modType" : "Graphical",
 	"author" : "Olegmods.INC, graphics from old HotA Crew screenshots",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0"
+	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Nová grafika drahokamů velitele",
+		"description" : "Tato modifikace mění vzhled drahokamů, které posilují velitele. Nové modely lépe odpovídají jejich magické podstatě."
+	}
 }
