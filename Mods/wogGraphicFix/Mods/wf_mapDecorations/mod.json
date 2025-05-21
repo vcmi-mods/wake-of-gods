@@ -1,0 +1,22 @@
+{
+	"name" : "Map Decorations",
+	"description" : "This module enables new map decorations.",
+	"modType" : "Mechanics",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	
+	"chinese" : {
+		"name" : "地图装饰",
+		"description" : "这个模组启用新地图装饰。"
+	},
+	"czech" : {
+		"name" : "Dekorace map",
+		"description" : "Tento modul aktivuje nové dekorace map."
+	},
+
+	"polish" : {
+		"name" : "Dekoracje mapy",
+		"description" : "Ten moduł włącza nowe dekoracje mapy."
+	}
+}
