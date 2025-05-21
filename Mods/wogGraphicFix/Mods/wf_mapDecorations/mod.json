@@ -5,7 +5,9 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	
+	"softDepends" : [
+		"wake-of-gods.mapdecorations"
+	],
 	"chinese" : {
 		"name" : "地图装饰",
 		"description" : "这个模组启用新地图装饰。"
