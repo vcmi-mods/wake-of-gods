@@ -15,8 +15,7 @@
 		"description" : "Tento modul aktivuje nové dekorace map."
 	},
 	
-	"objects" :
-	[
+	"objects" : [
 		"config/mapDecorations/vanillaStatic/lake.json",
 		"config/mapDecorations/vanillaStatic/lavaLake.json",
 		"config/mapDecorations/vanillaStatic/log.json",
@@ -65,5 +64,9 @@
 //		"config/mapDecorations/wogInteractive/gnollhHut.json",
 
 		"config/mapDecorations/buildingsWoG.json"
-	]
+	],
+	"polish" : {
+		"name" : "Dekoracje mapy",
+		"description" : "Ten moduł włącza nowe dekoracje mapy."
+	}
 }

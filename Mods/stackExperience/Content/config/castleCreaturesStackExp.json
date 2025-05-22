@@ -636,8 +636,14 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
-					// "subtype" : 1 //all except positive - TODO - implement
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
 			},
@@ -713,8 +719,14 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
-					// "subtype" : 1 //all except positive - TODO - implement
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
 			},

@@ -5,12 +5,10 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.stackartifacts"
 	],
-	"settings" :
-	{
+	"settings" : {
 		"mapFormat" : {
 			"inTheWakeOfGods" : {
 				"supported" : true,
@@ -32,5 +30,9 @@
 				}
 			}
 		}	
+	},
+	"polish" : {
+		"name" : "Wsparcie dla artefaktów jednostek",
+		"description" : "Ten moduł włącza wsparcie dla artefaktów jednostek na niektórych mapach WoG"
 	}
 }
