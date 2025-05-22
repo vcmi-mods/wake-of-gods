@@ -1,0 +1,19 @@
+{
+	"core:conflux" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "adventureMap/conflux/fort.def" },
+					"citadel" : { "animation" : "adventureMap/conflux/citadel.def" },
+					"castle" : { "animation" : "adventureMap/conflux/castle.def" },
+					"capitol" : { "animation" : "adventureMap/conflux/capitol.def" }
+				}
+			}
+		}
+	}
+}

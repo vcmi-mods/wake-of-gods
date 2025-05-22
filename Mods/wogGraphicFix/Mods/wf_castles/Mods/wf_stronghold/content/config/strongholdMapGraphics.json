@@ -1,0 +1,19 @@
+{
+	"core:stronghold" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "adventureMap/stronghold/fort.def" },
+					"citadel" : { "animation" : "adventureMap/stronghold/citadel.def" },
+					"castle" : { "animation" : "adventureMap/stronghold/castle.def" },
+					"capitol" : { "animation" : "adventureMap/stronghold/capitol.def" }
+				}
+			}
+		}
+	}
+}

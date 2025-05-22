@@ -1,0 +1,19 @@
+{
+	"core:castle" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "adventureMap/castle/fort.def" },
+					"citadel" : { "animation" : "adventureMap/castle/citadel.def" },
+					"castle" : { "animation" : "adventureMap/castle/castle.def" },
+					"capitol" : { "animation" : "adventureMap/castle/capitol.def" }
+				}
+			}
+		}
+	}
+}

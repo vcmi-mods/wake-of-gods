@@ -1,0 +1,14 @@
+{
+	"name" : "New Stronghold Graphics",
+	"description" : "New graphics for the Stronghold town on map.",
+	"version" : "",
+	"author" : "Grossmaster",
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
+	"modType" : "Graphical",
+	"softDepends" : [
+		"hota.newgraphics"
+	],
+	"factions" : [
+		"config/strongholdMapGraphics"
+	]
+}
