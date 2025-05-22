@@ -4,12 +4,15 @@
     "modType" : "Expansion",
     "author" : "WoG Team & epigones",
     "contact" : "http://forum.vcmi.eu/index.php",
-    "version" : "9.1.48",
+    "version" : "9.1.49",
     "downloadSize" : 68.9,
     "compatibility" : {
         "min" : "1.6.0"
     },
     "changelog" : {
+        "9.1.49" : [
+            "WoG Graphic Fix map town graphics submod added"
+        ],
         "9.1.48" : [
             "Revert of some applied fixes"
         ],
