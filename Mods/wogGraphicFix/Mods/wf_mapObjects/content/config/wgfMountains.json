@@ -245,7 +245,67 @@
 						"animation" : "mountains/WFlv06",
 						"mask" : [ "VVVV", "VVBB", "VBBV" ],
 						"allowedTerrains" : ["lava" ]
-					}
+					},
+					"avlmtgH1" : {
+						"animation" : "mountains/avlmtgH1",
+						"mask" : [ "VVVVVV","VVVVVV","VBBBBV","VBBBBB", "VVVBBB" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgH2" : {
+						"animation" : "mountains/avlmtgH2",
+						"mask" : [ "VVVVVV","VVVVVV","VVBBBB","VBBBBB", "VBBBVV" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgH3" : {
+						"animation" : "mountains/avlmtgH3",
+						"mask" : [ "VVVV","VBBB","VVBB" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgH4" : {
+						"animation" : "mountains/avlmtgH4",
+						"mask" : [ "VVVV", "VBBB","VBBV" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgH5" : {
+						"animation" : "mountains/avlmtgH5",
+						"mask" : [ "VVVV", "VBBV","VVBB" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgH6" : {
+						"animation" : "mountains/avlmtgH6",
+						"mask" : [ "VVVV", "VVBB","VBBV" ],
+						"allowedTerrains" : ["grass" ]
+					},			
+					"avlmtgs1" : {
+						"animation" : "mountains/avlmtgs1",
+						"mask" : [ "VVVVVV","VVVVVV","VBBBBV","VBBBBB", "VVVBBB" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgs2" : {
+						"animation" : "mountains/avlmtgs2",
+						"mask" : [ "VVVVVV","VVVVVV","VVBBBB","VBBBBB", "VBBBVV" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgs3" : {
+						"animation" : "mountains/avlmtgs3",
+						"mask" : [ "VVVV","VBBB","VVBB" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgs4" : {
+						"animation" : "mountains/avlmtgs4",
+						"mask" : [ "VVVV", "VBBB","VBBV" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgs5" : {
+						"animation" : "mountains/avlmtgs5",
+						"mask" : [ "VVVV", "VBBV","VVBB" ],
+						"allowedTerrains" : ["grass" ]
+					},
+					"avlmtgs6" : {
+						"animation" : "mountains/avlmtgs6",
+						"mask" : [ "VVVV", "VVBB","VBBV" ],
+						"allowedTerrains" : ["grass" ]
+					}				
 				}
 			}
 		}

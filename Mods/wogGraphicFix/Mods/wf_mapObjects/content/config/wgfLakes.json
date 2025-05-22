@@ -155,6 +155,62 @@
 						"animation" : "lakes/Zdec0016",
 						"mask" : [ "VVV", "BBB" ],
 						"allowedTerrains" : [ "lava" ]
+					},
+
+					"AVLlk1g0" : {
+						"animation" : "lakes/AVLlk1g0",
+						"mask" : [ "BBBBB", "BBBBB", "VBBBV" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"AVLlk1s0" : {
+						"animation" : "lakes/AVLlk1s0",
+						"mask" : [ "VBBBBBV", "VBBBBBV", "VVBBBBV" ],
+						"allowedTerrains" : [ "swamp" ]
+					},	
+					"AVLlk1u0" : {
+						"animation" : "lakes/AVLlk1u0",
+						"mask" : [ "VVBBBBBB", "VBBBBBBB", "VBBBBBBV" ],
+						"allowedTerrains" : [ "subterra" ]
+					},	
+					"AVLlk2d0" : {
+						"animation" : "lakes/AVLlk2d0",
+						"mask" : [ "BBBB", "BBBB" ],
+						"allowedTerrains" : [ "dirt" ]
+					},	
+					"AVLlk2g0" : {
+						"animation" : "lakes/AVLlk2g0",
+						"mask" : [ "BBBB", "BBBB" ],
+						"allowedTerrains" : [ "grass" ]
+					},	
+					"AVLlk2s0" : {
+						"animation" : "lakes/AVLlk2s0",
+						"mask" : [ "VBBB", "VBBV" ],
+						"allowedTerrains" : [ "swamp" ]
+					},	
+					"AVLlk2u0" : {
+						"animation" : "lakes/AVLlk2u0",
+						"mask" : [ "VVVV", "BBBB", "BBBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},	
+					"AVLlk3d0" : {
+						"animation" : "lakes/AVLlk3d0",
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "dirt" ]
+					},	
+					"AVLlk3g0" : {
+						"animation" : "lakes/AVLlk3g0",
+						"mask" : [ "BBB" ],
+						"allowedTerrains" : [ "grass" ]
+					},	
+					"AVLlk3s0" : {
+						"animation" : "lakes/AVLlk3s0",
+						"mask" : [ "BBV", "BBV", "BBV" ],
+						"allowedTerrains" : [ "swamp" ]
+					},	
+					"AVLlk3u0" : {
+						"animation" : "lakes/AVLlk3u0",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains" : [ "subterra" ]
 					}
 				}
 			}

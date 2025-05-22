@@ -87,8 +87,15 @@
 			"terrain" : "dirt",
 			"objectType" : "lake"
 		},
-		"templates" : ["pud0", "pud1", "pud2", "pud3", "pud4", "pud5", "pud6", "pud7"]
+		"templates" : ["pud0", "pud1", "pud2", "pud3", "pud4", "pud5", "pud6", "pud7", "AVLlk2d0", "AVLlk3d0"]
 	},
+	"wogGrassLake" : {
+		"biome" : {
+			"terrain" : "grass",
+			"objectType" : "lake"
+		},
+		"templates" : [ "AVLlk1g0", "AVLlk2g0", "AVLlk3g0"]
+	},	
 	"wogSnowLake" : {
 		"biome" : {
 			"terrain" : "snow",
@@ -96,20 +103,21 @@
 		},
 		"templates" : ["spdl00", "spdl01", "spdl02", "spdl03", "spdl04", "spdl05", "spdl06", "spdl07"]
 	},
+
 	"wogUnderLake" : {
 		"biome" : {
 			"terrain" : "subterra",
 			"alignment" : "evil",
 			"objectType" : "lake"
 		},
-		"templates" : ["underlake0", "underlake1", "underlake2", "underlake3", "underlake4"]
+		"templates" : ["underlake0", "underlake1", "underlake2", "underlake3", "underlake4", "AVLlk1u0", "AVLlk2u0", "AVLlk3u0"]
 	},
 	"wogSwampLake" : {
 		"biome" : {
 			"terrain" : "swamp",
 			"objectType" : "lake"
 		},
-		"templates" : ["wf_bog0", "wf_bog1", "wf_bog2", "wf_bog3"]
+		"templates" : ["wf_bog0", "wf_bog1", "wf_bog2", "wf_bog3", "AVLlk1s0", "AVLlk2s0", "AVLlk3s0"]
 	},
 	"wogRoughLake" : {
 		"biome" : {
@@ -131,6 +139,20 @@
 			"objectType" : "mountain"
 		},
 		"templates" : ["RKMN1", "RKMN2", "RKMN3", "RKMN4", "RKMN5", "RKMN6", "RKWF1"]
+	},
+	"grassMountains1" : {
+		"biome" : {
+			"terrain" : "grass",
+			"objectType" : "mountain"
+		},
+		"templates" : ["avlmtgH1", "avlmtgH2", "avlmtgH3", "avlmtgH4", "avlmtgH5", "avlmtgH6"]
+	},
+	"grassMountains2" : {
+		"biome" : {
+			"terrain" : "grass",
+			"objectType" : "mountain"
+		},
+		"templates" : ["avlmtgs1", "avlmtgs2", "avlmtgs3", "avlmtgs4", "avlmtgs5", "avlmtgs6"]
 	},
 	"wogSwampMountains" : {
 		"biome" : {
@@ -429,6 +451,14 @@
 		},
 		"templates" : ["WfddTR00", "WfddTR01", "WfddTR02", "WfddTR03", "WfddTR04", "WfddTR05", "WfddTR06", "WfddTR07", "WfddTR08", "WfddTR09"]
 	},
+	"wgfDeadSnowTrees" : {
+		"biome" : {
+			"terrain" : "snow",
+			"alignment" : "good",
+			"objectType" : "tree"
+		},
+		"templates" : ["AVLDEAS0", "AVLDEAS1", "AVLDEAS2", "AVLDEAS3", "AVLDEAS4", "AVLDEAS5", "AVLDEAS6", "AVLDEAS7" ]
+	},
 	"wgfMangroveTrees" : {
 		"biome" : {
 			"terrain" : "swamp",
@@ -443,5 +473,22 @@
 			"objectType" : "lake"
 		},
 		"templates" : ["zdec0013", "Zdec0016"]
-	}
+	},
+	
+//Logs generate too often at random maps, look bad. Disabled for now.
+
+//	"wgfSnowLogs" : {
+//		"biome" : {
+//			"terrain" : "snow",
+//			"objectType" : "other"
+//		},
+//		"templates" : ["AvLlsdr0", "AvLlsdr1", "AvLlsdr2", "AvLlsdr3", "AvLlsdr4"]
+//	},
+//	"wgfDirtLogs" : {
+//		"biome" : {
+//			"terrain" : "dirt",
+//			"objectType" : "other"
+//		},
+//		"templates" : ["AVLlgdr1", "AVLlgdr2", "AVLlgdr3", "AVLlgdr4"]
+//	}
 }

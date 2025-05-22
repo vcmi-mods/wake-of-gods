@@ -2,6 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"cyclopsCave" : {
+				"bannedForRandomDwelling" : true,
 				"name" : "Cyclops Cave",
 				"templates" : {
 					"rough" : {
@@ -16,6 +17,26 @@
 				"templates" : {
 					"rough" : {
 						"animation" : "dwellings/avgbhmt1",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"allowedTerrains" : [ "rough" ]
+					}
+				}
+			},
+			"portalOfGlory" : {
+				"name" : "Portal Of Glory",
+				"templates" : {
+					"rough" : {
+						"animation" : "dwellings/AVG2ang0",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"allowedTerrains" : [ "rough" ]
+					}
+				}
+			},
+			"thatchedHut" : {
+				"name" : "Thatched Hut",
+				"templates" : {
+					"rough2" : {
+						"animation" : "dwellings/AVGpeas1",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ],
 						"allowedTerrains" : [ "rough" ]
 					}
