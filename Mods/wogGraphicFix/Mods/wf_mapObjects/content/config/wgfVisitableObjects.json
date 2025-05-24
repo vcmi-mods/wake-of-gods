@@ -13,6 +13,69 @@
 			}
 		}
 	},
+	
+	"core:eyeOfTheMagi" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVXeyem1" : {
+						"animation" : "objects/AVXeyem1",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem2" : {
+						"animation" : "objects/AVXeyem2",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem3" : {
+						"animation" : "objects/AVXeyem3",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem4" : {
+						"animation" : "objects/AVXeyem4",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem5" : {
+						"animation" : "objects/AVXeyem5",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem6" : {
+						"animation" : "objects/AVXeyem6",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem7" : {
+						"animation" : "objects/AVXeyem7",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+				"templates" : {
+					"AVXeyem8" : {
+						"animation" : "objects/AVXeyem8",
+						"mask" : [ "VV", "VA" ], 	
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				},
+			}
+		}
+	},	
 
 	"core:university" : {
 		"types" : {
@@ -52,8 +115,8 @@
 		"types" : {
 			"lblue" : {
 				"templates" : {
-					"avxbgtv00" : {
-						"animation" : "borderGates/avxbgtv00",
+					"avxbgv00" : {
+						"animation" : "borderGates/avxbgv00",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -61,8 +124,8 @@
 			},
 			"green" : {
 				"templates" : {
-					"1" : {
-						"animation" : "borderGates/avxbgtv10",
+					"avxbgv10" : {
+						"animation" : "borderGates/avxbgv10",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -70,8 +133,8 @@
 			},
 			"red" : {
 				"templates" : {
-					"avxbgtv20" : {
-						"animation" : "borderGates/avxbgtv20",
+					"avxbgv20" : {
+						"animation" : "borderGates/avxbgv20",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -79,8 +142,8 @@
 			},
 			"dblue" : {
 				"templates" : {
-					"avxbgtv30" : {
-						"animation" : "borderGates/avxbgtv30",
+					"avxbgv30" : {
+						"animation" : "borderGates/avxbgv30",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -88,8 +151,8 @@
 			},
 			"brown" : {
 				"templates" : {
-					"avxbgtv40" : {
-						"animation" : "borderGates/avxbgtv40",
+					"avxbgv40" : {
+						"animation" : "borderGates/avxbgv40",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -97,8 +160,8 @@
 			},
 			"purple" : { 
 				"templates" : {
-					"avxbgtv50" : {
-						"animation" : "borderGates/avxbgtv50",
+					"avxbgv50" : {
+						"animation" : "borderGates/avxbgv50",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -106,8 +169,8 @@
 			},
 			"white" : { 
 				"templates" : {
-					"avxbgtv60" : {
-						"animation" : "borderGates/avxbgtv60",
+					"avxbgv60" : {
+						"animation" : "borderGates/avxbgv60",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -115,8 +178,8 @@
 			},
 			"black" : {
 				"templates" : {
-					"avxbgtv70" : {
-						"animation" : "borderGates/avxbgtv70",
+					"avxbgv70" : {
+						"animation" : "borderGates/avxbgv70",
 						"mask" : [ "VV", "VB","VA", "VB" ],
 						"visitableFrom" : [ "++-", "+++", "--+" ]
 					}
@@ -254,7 +317,20 @@
 			}
 		}
 	},
-	
+	"core:fountainOfYouth"	: {
+		"types" : {
+			"fountainOfYouth" : {
+				"templates" : {	
+					"AVXfyth1" : {
+						"animation" : "objects/AVXfyth1",
+						"mask" : [ "VVV","VBB", "VBA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : ["dirt"]
+					}
+				}
+			}
+		}
+	},	
 	"core:waterWheel" : {
 		"types" : {
 			"waterWheel" : {
@@ -401,9 +477,31 @@
 						"mask" : ["VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains" :["snow"]
+					},
+					"AVMCRGH0" : {
+						"animation" : "mines/AVMCRGH0",
+						"mask" : ["VVV","BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" :["grass"]
+					},
+					"avmcrgs" : {
+						"animation" : "mines/avmcrgs",
+						"mask" : ["VVV","BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" :["grass"]
 					}
 				}
 			},
+			"gemPond" : {
+				"templates" : {
+					"AVMGEUN0" : {
+						"animation" : "mines/AVMGEUN0",
+						"mask" : ["BBB","BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" :["subterra"]
+					}
+				}
+			},			
 			"goldMine" : {
 				"templates" : {
 					"wFsnGD" : {
@@ -411,6 +509,18 @@
 						"mask" : ["VVVV","VBBB","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains" :["snow"]
+					},
+					"avmgogH0" : {
+						"animation" : "mines/avmgogH0",
+						"mask" : ["VVV","BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" :["grass"]
+					},
+					"avmgogs0" : {
+						"animation" : "mines/avmgogs0",
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" :["grass"]
 					}
 				}
 			},
@@ -433,6 +543,12 @@
 						"mask" : ["VVVVV","VVVBB","VBBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains" :["dirt"]
+					},
+					"avmswsn1" : {
+						"animation" : "mines/avmswsn1",
+						"mask" : ["VVVVV","VVVBB","VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" :["snow"]
 					}
 				}
 			}
@@ -445,9 +561,21 @@
 				"templates" : {
 					"wFsnAB" : {
 						"animation" : "objects/WFsnAB",
-						"mask" : [ "VVVV","VBBB","VBAB"],
+						"mask" : [ "VVVV","VBBB","VBAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains" : ["snow"]
+					},
+					"AVXamGH" : {
+						"animation" : "mines/AVXamGH",
+						"mask" : [ "VVV","BAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["grass"]
+					},
+					"avxamgs" : {
+						"animation" : "mines/avxamgs",
+						"mask" : [ "VVVV","VBBB","VBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["grass"]
 					}
 				}
 			}

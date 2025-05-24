@@ -271,6 +271,26 @@
 						"animation" : "rocks/RKVC01",
 						"mask" : [ "VVV", "BBB" ],
 						"allowedTerrains" : [ "rough" ]
+					},
+					"avlrk0d0" : {
+						"animation" : "rocks/avlrk0d0",
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "dirt" ]
+					},
+					"avlrk1d0" : {
+						"animation" : "rocks/avlrk1d0",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "dirt" ]
+					},
+					"avlrk2d0" : {
+						"animation" : "rocks/avlrk2d0",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "dirt" ]
+					},
+					"avlrk4d0" : {
+						"animation" : "rocks/avlrk4d0",
+						"mask" : [ "BV" ],
+						"allowedTerrains" : [ "dirt" ]
 					}
 				}
 			},

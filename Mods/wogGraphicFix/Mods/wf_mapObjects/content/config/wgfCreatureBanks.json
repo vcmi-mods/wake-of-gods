@@ -57,6 +57,12 @@
 						"visitableFrom" :  [ "---", "-+-", "+++" ],
 						"mask" : [ "VVV", "BAB"],
 						"allowedTerrains" :["swamp"]
+					},
+					"lava" : {
+						"animation" : "creatureBanks/AVXgynl0",
+						"visitableFrom" :  [ "---", "-+-", "+++" ],
+						"mask" : [ "VVV", "BAB"],
+						"allowedTerrains" :["lava"]
 					}
 				}
 			}

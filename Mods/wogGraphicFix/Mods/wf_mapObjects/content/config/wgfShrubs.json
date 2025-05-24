@@ -46,11 +46,36 @@
 						"allowedTerrains" : [ "swamp" ]
 					},
 					
+					"AVLs0sn0" : {
+						"animation" : "shrubs/AVLs0sn0",
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "snow" ]
+					},
+					"AVLs2sn0" : {
+						"animation" : "shrubs/AVLs2sn0",
+						"mask" : [ "B" ],
+						"allowedTerrains" : [ "snow" ]
+					},
 					"AVLs4sn0" : {
 						"animation" : "shrubs/AVLs4sn0",
 						"mask" : [ "BB" ],
 						"allowedTerrains" : [ "snow" ]
+					},					
+					"AVLs5sn0" : {
+						"animation" : "shrubs/AVLs5sn0",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "snow" ]
 					},
+					"AVLs6sn0" : {
+						"animation" : "shrubs/AVLs6sn0",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "snow" ]
+					},	
+					"AVLs7sn0" : {
+						"animation" : "shrubs/AVLs7sn0",
+						"mask" : [ "VVVV", "VVBB" ],
+						"allowedTerrains" : [ "snow" ]
+					},					
 					
 					"AVLswp80" : {
 						"animation" : "shrubs/AVLswp80",
@@ -88,7 +113,6 @@
 						"mask" : [ "VB" ],
 						"allowedTerrains" : [ "swamp" ]
 					},
-					
 					"AVLSH6R0" : {
 						"animation" : "shrubs/AVLSH6R0",
 						"mask" : [ "BB" ],
@@ -102,6 +126,21 @@
 					"wgfavlsh9x0" : {
 						"animation" : "shrubs/avlsh9x0",
 						"mask" : [ "BBB" ],
+						"allowedTerrains" : [ "rough" ]
+					},
+					"avlsh9r1" : {
+						"animation" : "shrubs/avlsh9r1",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "rough" ]
+					},
+					"avlsh9r2" : {
+						"animation" : "shrubs/avlsh9r2",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "rough" ]
+					},
+					"avlsh9r3" : {
+						"animation" : "shrubs/avlsh9r3",
+						"mask" : [ "VVVV", "VBBB" ],
 						"allowedTerrains" : [ "rough" ]
 					}
 				}

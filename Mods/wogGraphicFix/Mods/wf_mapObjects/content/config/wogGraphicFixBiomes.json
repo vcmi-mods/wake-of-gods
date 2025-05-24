@@ -20,6 +20,13 @@
 		},
 		"templates" : ["jaws00", "jaws01", "jaws02", "jaws03"]
 	},
+	"fireflies" : {
+		"biome" : {
+			"terrain" : ["swamp"],
+			"objectType" : "animal"
+		},
+		"templates" : ["wfirefly", "wfirefly1"]
+	},
 	"wogCactus" : {
 		"biome" : {
 			"terrain" : [
@@ -43,7 +50,7 @@
 			],
 			"objectType" : "other"
 		},
-		"templates" : ["avlxds03", "avlxds04", "avlxds07"]
+		"templates" : ["avlxds03", "avlxds04", "avlxds07", "avlxds13", "AVLXds08", "AVLXds08"]
 	},
 	"wogHills" : {
 		"biome" : {
@@ -222,14 +229,28 @@
 			"terrain" : "grass",
 			"objectType" : "tree"
 		},
-		"templates" : ["pin01", "pin02", "pin03", "pin04", "pin05", "pin06", "pin07", "pin08", "pin09", "pin10", "pin11", "pin12", "pin13", "pin14", "pin15", "pin16", "avlpntr10", "avlpntr11"] // TODO: Spawn last 2 on dirt, also?
+		"templates" : ["pin01", "pin02", "pin03", "pin04", "pin05", "pin06", "pin07", "pin08", "pin09", "pin10", "pin11", "pin12", "pin13", "pin14", "pin15", "pin16", "avlpntr10", "avlpntr11", "avlspt10", "avlspt11"] // TODO: Spawn last 2 on dirt, also?
 	},
+	"wgfGrassOakTree" : {
+		"biome" : {
+			"terrain" : "grass",
+			"objectType" : "tree"
+		},
+		"templates" : ["AVLAUT10", "AVLAUT11"]
+	},	
+	"wgfDirtPineTree" : {
+		"biome" : {
+			"terrain" : "dirt",
+			"objectType" : "tree"
+		},
+		"templates" : ["avlpnt10", "avlpnt11"]
+	},		
 	"snowPine" : {
 		"biome" : {
 			"terrain" : "snow",
 			"objectType" : "tree"
 		},
-		"templates" : ["wfpsn00", "wfpsn01", "wfpsn02", "wfpsn03", "wfpsn04", "wfpsn05", "wfpsn06", "wfpsn07", "wfpsn08", "wfpsn09", "wfpsn10", "wfpsn11", "wfpsn12", "wfpsn13", "wfpsn14", "wfpsn15", "avlsntr10", "avlsntr11"]
+		"templates" : ["wfpsn00", "wfpsn01", "wfpsn02", "wfpsn03", "wfpsn04", "wfpsn05", "wfpsn06", "wfpsn07", "wfpsn08", "wfpsn09", "wfpsn10", "wfpsn11", "wfpsn12", "wfpsn13", "wfpsn14", "wfpsn15", "avlsntr10", "avlsntr11", "avlsnt10", "avlsnt11"]
 	},
 	"wgfIceReef" : {
 		"biome" : {
@@ -273,6 +294,13 @@
 		},
 		"templates" : ["AVLbuzr0", "AVLbuzr1", "AVLbuzr2"]
 	},
+	"dirtRock" : {
+		"biome" : {
+			"terrain" : "dirt",
+			"objectType" : "rock"
+		},
+		"templates" : ["avlrk0d0", "avlrk1d0", "avlrk2d0", "avlrk4d0"]
+	},	
 	"snowRock" : {
 		"biome" : {
 			"terrain" : "snow",
@@ -349,21 +377,30 @@
 			"terrain" : "swamp",
 			"objectType" : "plant"
 		},
-		"templates" : ["AVLswp80", "AVLswp90", "AVLswp91"]
+		"templates" : ["avls02s1", "AVLswp80", "AVLswp90", "AVLswp91"]
 	},
 	"wgfSwampShrub2" : {
 		"biome" : {
 			"terrain" : "swamp",
 			"objectType" : "plant"
 		},
-		"templates" : ["wcattail00", "wcattail01"]
+		"templates" : ["wcattail00", "wcattail01", "wctail0", "wctail1"]
 	},
+	
+	"wgfSnowShrub" : {
+		"biome" : {
+			"terrain" : "snow",
+			"objectType" : "plant"
+		},
+		"templates" : ["AVLs0sn0", "AVLs1sn0", "AVLs2sn0", "AVLs3sn0", "AVLs4sn0", "AVLs5sn0", "AVLs6sn0", "AVLs7sn0"]
+	},
+	
 	"wgfRoughShrub" : {
 		"biome" : {
 			"terrain" : "rough",
 			"objectType" : "plant"
 		},
-		"templates" : ["AVLSH6R0", "AVLSHR90", "wgfavlsh9x0"]
+		"templates" : ["AVLSH6R0", "AVLSHR90", "wgfavlsh9x0", "avlsh9r1", "avlsh9r2", "avlsh9r3"]
 	},
 	"stumps" : {
 		"biome" : {
@@ -384,7 +421,7 @@
 			"terrain" : "rough",
 			"objectType" : "tree"
 		},
-		"templates" : ["avltro13wgf", "avltro14wgf", "wgfAVLtRro8", "wgfAVLtRro9", "avltrro10", "avltrro11"]
+		"templates" : ["avltro13wgf", "avltro14wgf", "wgfAVLtRro8", "wgfAVLtRro9", "avltrro10", "avltrro11", "avltrr10", "avltrr11"]
 	},
 	"wgfSnowCracks" : {
 		"biome" : {
@@ -443,6 +480,13 @@
 		},
 		"templates" : ["birch00", "birch01", "birch02", "birch03", "birch04", "birch05", "birch06", "birch07", "birch08", "birch09", "birch11", "birch12", "birch13", "birch14"]
 	},
+	"wgfSwampTrees" : {
+		"biome" : {
+			"terrain" : "swamp",
+			"objectType" : "tree"
+		},
+		"templates" : ["AVLSWMP0", "AVLSWMP1"]
+	},	
 	"wgfDeadTrees" : {
 		"biome" : {
 			"terrain" : "dirt",
@@ -474,7 +518,21 @@
 		},
 		"templates" : ["zdec0013", "Zdec0016"]
 	},
-	
+	"wgfSnowOutcropping" : {
+		"biome" : {
+			"terrain" : "snow",
+			"objectType" : "other"
+		},
+		"templates" : ["AVLo1sn0", "AVLo2sn0", "AVLo3sn0"]
+	},	
+	"wgfLavaOutcropping" : {
+		"biome" : {
+			"terrain" : "lava",
+			"alignment" : "evil",
+			"objectType" : "other"
+		},
+		"templates" : ["avlocLV0", "avlocLV1", "avlocLV2", "avlocLV3"]
+	}
 //Logs generate too often at random maps, look bad. Disabled for now.
 
 //	"wgfSnowLogs" : {
