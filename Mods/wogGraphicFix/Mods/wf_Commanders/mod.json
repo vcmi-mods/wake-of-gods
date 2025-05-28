@@ -6,7 +6,8 @@
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
 	"softDepends" : [
-		"wake-of-gods.commanders"
+		"wake-of-gods.commanders",
+		"wake-of-gods.commanders.NewStonesGraphic"
 	],
 	"chinese" : {
 		"name" : "指挥官补丁",
