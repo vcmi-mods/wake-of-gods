@@ -12,14 +12,15 @@
 			"crownOfTheSupremeMagi",
 			"tunicOfTheCyclopsKing"
 		],
-		"bonuses" : [
+		"bonuses" : {
+			"plusAttack" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ "noneOf", "SHOOTER_ONLY" ]
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt158",
 			"large" : "artifacts/HrArt158L",

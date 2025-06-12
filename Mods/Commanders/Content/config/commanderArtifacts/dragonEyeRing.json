@@ -5,14 +5,16 @@
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : 
-		[
+		{
+			"dragonNature" :
 			{
 				"type" : "DRAGON_NATURE"
 			},
+			"2hexAttack" :
 			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt153",
 			"large" : "artifacts/HrArt153L",

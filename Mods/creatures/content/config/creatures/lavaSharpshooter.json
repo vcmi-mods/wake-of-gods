@@ -45,8 +45,8 @@
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.fireShield",
-				"val" : 3,
-				"addInfo" : 1
+				"val" : 3
+//				"addInfo" : 1
 			},
 			"fearless" :
 			{

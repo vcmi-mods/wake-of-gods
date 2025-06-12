@@ -5,13 +5,14 @@
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 20000,
-		"bonuses" : [
+		"bonuses" : {
+			"summonDragon" :
 			{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.summonRedDragon",
 				"val" : 1
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt159",
 			"large" : "artifacts/HrArt159L",

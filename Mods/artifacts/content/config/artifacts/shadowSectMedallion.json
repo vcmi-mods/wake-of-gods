@@ -5,13 +5,14 @@
 		"slot" : "NECK",
 		"class" : "MAJOR",
 		"value" : 7000,
-		"bonuses" : [
+		"bonuses" : {
+			"slowImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.slow",
 				"val" : 100
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt166",
 			"large" : "artifacts/HrArt166",

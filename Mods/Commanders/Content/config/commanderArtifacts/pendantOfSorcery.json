@@ -4,13 +4,14 @@
 		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
-		"bonuses" : [
+		"bonuses" : {
+			"casts" :
 			{
 				"type" : "CASTS",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt150",
 			"large" : "artifacts/HrArt150L",

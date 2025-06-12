@@ -5,7 +5,8 @@
 		"slot" : "RING",
 		"class" : "MAJOR",
 		"value" : 8000,
-		"bonuses" : [
+		"bonuses" : {
+			"healthGrowth" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 1,
@@ -15,7 +16,7 @@
 					"parameters" : [ 6 ]
 				}
 			}
-		],
+		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt164", 
 			"large" : "artifacts/HrArt164", 

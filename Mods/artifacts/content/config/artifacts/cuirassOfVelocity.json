@@ -5,7 +5,8 @@
 		"slot" : "SHOULDERS",
 		"class" : "RELIC",
 		"value" : 14000,
-		"bonuses" : [
+		"bonuses" : {
+			"speedGrowth" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 1,
@@ -15,7 +16,7 @@
 					"parameters" : [ 2 ]
 				}
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt168",
 			"large" : "artifacts/HrArt168",

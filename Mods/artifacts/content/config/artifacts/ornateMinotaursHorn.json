@@ -5,7 +5,8 @@
 		"slot" : "MISC",
 		"class" : "MINOR",
 		"value" : 3500,
-		"bonuses" : [
+		"bonuses" : {
+			"manaGrowth" :
 			{
 				"type" : "MANA_REGENERATION",
 				"val" : 1,
@@ -15,7 +16,7 @@
 					"parameters" : [ 6 ]
 				}
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt170",
 			"large" : "artifacts/HrArt170",

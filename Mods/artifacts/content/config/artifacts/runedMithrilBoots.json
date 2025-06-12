@@ -5,7 +5,8 @@
 		"slot" : "FEET",
 		"class" : "MAJOR",
 		"value" : 6000,
-		"bonuses" : [
+		"bonuses" : {
+			"movementGrowth" :
 			{
 				"type" : "MOVEMENT",
 				"subtype" : "heroMovementLand",
@@ -16,7 +17,7 @@
 					"parameters" : [ 150 ]
 				}
 			}
-		],
+		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt169", 
 			"large" : "artifacts/HrArt169", 

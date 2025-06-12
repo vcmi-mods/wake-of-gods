@@ -4,14 +4,15 @@
 		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
-		"bonuses" : [
+		"bonuses" : {
+			"attack" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt146",
 			"large" : "artifacts/HrArt146L",

@@ -4,48 +4,56 @@
 		"type" : ["COMMANDER"],
 		"class" : "RELIC",
 		"value" : 8000,
-		"bonuses" : [
+		"bonuses" : {
+			"attack" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
 				"val" : 20
 			},
+			"defense" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.defence",
 				"val" : 35
 //				"valueType" : "ADDITIVE_VALUE"
 			},
+			"health" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 70,
 				"valueType" : "PERCENT_TO_ALL"
 			},
+			"damage" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 70,
 				"valueType" : "PERCENT_TO_ALL"
 			},
+			"speed" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 8
 			},
+			"creatureSpellpower" :
 			{
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 15
 
 			},
+			"casts" :
 			{
 				"type" : "CASTS",
 				"val" : 4
 			},
+			"spellDamageReduction" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
 				"val" : 65
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt155",
 			"large" : "artifacts/HrArt155L",

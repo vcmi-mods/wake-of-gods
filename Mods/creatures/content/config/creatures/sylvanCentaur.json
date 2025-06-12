@@ -48,8 +48,8 @@
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.mirth",
-				"val" : 1,
-				"addInfo" : 3 
+				"val" : 1
+//				"addInfo" : 3 
 			}
 		},
 		"graphics" :

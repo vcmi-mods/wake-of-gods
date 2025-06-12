@@ -12,37 +12,42 @@
 			"swordOfHellfire",
 			"hellstormHelmet"
 		],
-		"bonuses" : [
+		"bonuses" : {
+			"spellKnowledge" :
 			{
 				"type" : "SPELL",
 				"subtype" : "spell.dimensionDoor",
 				"val" : 0
 			},
+			"attack" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"defense" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"spellPower" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.spellpower",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"knowledge" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.knowledge",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/bucklerOfBeelzebub",
 			"large" : "artifacts/bucklerOfBeelzebubL",

@@ -72,8 +72,8 @@
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.slayer",
-				"val" : 3,
-				"addInfo" : 100
+				"val" : 3
+//				"addInfo" : 100
 			},
 			"spellpower" :
 			{

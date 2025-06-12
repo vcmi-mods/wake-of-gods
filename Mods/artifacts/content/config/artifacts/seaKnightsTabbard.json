@@ -5,7 +5,8 @@
 		"slot" : "TORSO",
 		"class" : "MAJOR",
 		"value" : 6000,
-		"bonuses" : [
+		"bonuses" : {
+			"spellpowerGrowth" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.spellpower",
@@ -16,7 +17,7 @@
 					"parameters" : [ 6 ]
 				}
 			}
-		],
+		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt167", 
 			"large" : "artifacts/HrArt167", 

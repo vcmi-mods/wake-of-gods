@@ -4,11 +4,12 @@
 		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
-		"bonuses" : [
+		"bonuses" : {
+			"noWallPenalty" :
 			{
 				"type" : "NO_WALL_PENALTY"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt152",
 			"large" : "artifacts/HrArt152L",

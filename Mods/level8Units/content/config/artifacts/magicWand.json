@@ -10,53 +10,62 @@
 			"large" : "artifacts/magicWand/HrArt141L",
 			"map" : "artifacts/magicWand/zart141.def"
 		},
-		"bonuses" : [
+		"bonuses" : {
+			"specialUpgrade1" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.archangel",
 				"addInfo" : "creature.supremeArchangel"
 			},
+			"specialUpgrade2" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.goldDragon",
 				"addInfo" : "creature.diamondDragon"
 			},
+			"specialUpgrade3" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.titan",
 				"addInfo" : "creature.lordOfThunder"
 			},
+			"specialUpgrade4" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.archDevil",
 				"addInfo" : "creature.hellBaron"
 			},
+			"specialUpgrade5" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.ghostDragon",
 				"addInfo" : "creature.bloodDragon"
 			},
+			"specialUpgrade6" :
 			{
 				"subtype" : "creature.blackDragon",
 				"addInfo" : "creature.darknessDragon",
 				"type" : "SPECIAL_UPGRADE"
 			},
+			"specialUpgrade7" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.ancientBehemoth",
 				"addInfo" : "creature.ghostBehemoth"
 			},
+			"specialUpgrade8" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.chaosHydra",
 				"addInfo" : "creature.hellHydra"
 			},
+			"specialUpgrade9" :
 			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.phoenix",
 				"addInfo" : "creature.sacredPhoenix"
 			}
-		],
+		},
 		"text" : {
 			"name" : "Magic Wand",
 			"description" : "{Magic Wand}\r\n\r\nAllows to upgrade lvl 7 upg. creature into corresponding 8 lvl one.",

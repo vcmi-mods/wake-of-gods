@@ -45,8 +45,8 @@
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.magicMirror",
-				"val" : 3,
-				"addInfo" : 100
+				"val" : 3
+//				"addInfo" : 100
 			},
 			"fearless" :
 			{

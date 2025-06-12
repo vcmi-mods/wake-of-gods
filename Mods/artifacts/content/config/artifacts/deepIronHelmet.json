@@ -5,7 +5,8 @@
 		"slot" : "HEAD",
 		"class" : "MAJOR",
 		"value" : 6000,
-		"bonuses" : [
+		"bonuses" : {
+			"knowledgeGrowth" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.knowledge",
@@ -16,7 +17,7 @@
 					"parameters" : [ 6 ]
 				}
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt161",
 			"large" : "artifacts/HrArt161",

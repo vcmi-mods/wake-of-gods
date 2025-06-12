@@ -1,18 +1,20 @@
 {		
 	"warlordsBannerHealth" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"health1" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"health2" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -31,20 +33,22 @@
 	
 	"warlordsBannerAttack" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"attack1" :
 			{
 				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"attack2" :
 			{
 				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -63,20 +67,22 @@
 
 	"warlordsBannerDefence" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"defense1" :
 			{
 				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"defense2" :
 			{
 				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -95,20 +101,22 @@
 	
 	"warlordsBannerDamage" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"damage1" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
+			"damage2" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -127,18 +135,20 @@
 
 	"warlordsBannerSpeed" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"speed1" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
+			"speed2" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -184,12 +194,13 @@
 
 	"warlordsBannerReducer" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"defenseReduction" :
 			{
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 25
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -208,13 +219,14 @@
 
 	"warlordsBannerBlocker" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"damageReduction" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "creatureDamageBoth",
 				"val" : 25
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
@@ -233,12 +245,13 @@
 
 	"warlordsBannerRetaliate" :
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"+2Retaliation" :
 			{
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 2
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",

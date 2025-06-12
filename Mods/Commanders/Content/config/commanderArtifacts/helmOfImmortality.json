@@ -4,13 +4,14 @@
 		"type" : ["COMMANDER"],
 		"class" : "RELIC",
 		"value" : 10000,
-		"bonuses" : [
+		"bonuses" : {
+			"damageReduction" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
 				"val" : 90
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt149",
 			"large" : "artifacts/HrArt149L",

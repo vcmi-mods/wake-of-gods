@@ -5,7 +5,8 @@
 		"slot" : "LEFT_HAND",
 		"class" : "MAJOR",
 		"value" : 6500,
-		"bonuses" : [
+		"bonuses" : {
+			"defenseGrowth" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.defence",
@@ -16,7 +17,7 @@
 					"parameters" : [ 6 ]
 				}
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt163",
 			"large" : "artifacts/HrArt163",

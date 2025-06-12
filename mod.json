@@ -4,12 +4,15 @@
     "modType" : "Expansion",
     "author" : "WoG Team & epigones",
     "contact" : "http://forum.vcmi.eu/index.php",
-    "version" : "9.1.49",
+    "version" : "9.1.50",
     "downloadSize" : 68.9,
     "compatibility" : {
-        "min" : "1.6.0"
+        "min" : "1.7.0"
     }, 
 	"changelog" : {	
+	    "9.1.50" : [
+            "Update artifacts format to vcmi-1.7"
+        ],
 	    "9.1.49" : [
             "Four commanders stones added"
         ],

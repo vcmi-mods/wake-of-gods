@@ -4,13 +4,14 @@
 		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
-		"bonuses" : [
+		"bonuses" : {
+			"health" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 12,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt147",
 			"large" : "artifacts/HrArt147L",

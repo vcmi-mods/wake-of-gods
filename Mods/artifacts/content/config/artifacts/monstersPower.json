@@ -10,7 +10,8 @@
 			"large" : "artifacts/HrArt143L",
 			"map" : "artifacts/zart143.def"
 		},
-		"bonuses" : [
+		"bonuses" : {
+			"enchant1" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -27,6 +28,7 @@
 					}
 				]
 			},
+			"enchant2" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -43,6 +45,7 @@
 					}
 				]
 			},
+			"enchant3" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -59,6 +62,7 @@
 					}
 				]
 			},
+			"enchant4" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -75,6 +79,7 @@
 					}
 				]
 			},
+			"enchant5" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -91,6 +96,7 @@
 					}
 				]
 			},
+			"enchant6" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -107,6 +113,7 @@
 					}
 				]
 			},
+			"enchant7" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -123,6 +130,7 @@
 					}
 				]
 			},
+			"enchant8" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -139,6 +147,7 @@
 					}
 				]
 			},
+			"enchant9" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.prayer",
@@ -155,6 +164,7 @@
 					}
 				]
 			},
+			"enchant10" :
 			{
 				"subtype" : "spell.prayer",
 				"type" : "ENCHANTED",
@@ -171,6 +181,7 @@
 					}
 				]
 			},
+			"enchant11" :
 			{
 				"subtype" : "spell.prayer",
 				"type" : "ENCHANTED",
@@ -187,6 +198,7 @@
 					}
 				]
 			},
+			"enchant12" :
 			{
 				"subtype" : "spell.prayer",
 				"type" : "ENCHANTED",
@@ -203,7 +215,7 @@
 					}
 				]
 			}
-		],
+		},
 		"text" : {
 			"name" : "Monster's Power",
 			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on diffirent creatures depends on terrain battle is fought.\r\n\r\nAt dirt, lava, subterra and rough terrain - good creatures are affected.\r\nAt grass, snow, swamp and water terrain - evil creatures are affected.\r\nAt dirt, sand, subterra and snow terrain - neutral creatures are affected.",

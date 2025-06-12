@@ -5,7 +5,8 @@
 		"slot" : "SHOULDERS",
 		"class" : "RELIC",
 		"value" : 15000,
-		"bonuses" : [
+		"bonuses" : {
+			"inferno" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.inferno",
@@ -15,6 +16,7 @@
 					}
 				]
 			},
+			"berserk" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.berserk",
@@ -31,7 +33,7 @@
 				]
 			}
 
-		],
+		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt160", 
 			"large" : "artifacts/HrArt160", 

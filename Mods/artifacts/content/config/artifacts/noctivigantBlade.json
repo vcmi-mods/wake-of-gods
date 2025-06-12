@@ -5,7 +5,8 @@
 		"slot" : "RIGHT_HAND",
 		"class" : "MAJOR",
 		"value" : 6500,
-		"bonuses" : [
+		"bonuses" : {
+			"attackGrowth" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
@@ -16,7 +17,7 @@
 					"parameters" : [ 6 ]
 				}
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt162",
 			"large" : "artifacts/HrArt162",

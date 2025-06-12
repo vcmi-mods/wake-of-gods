@@ -36,8 +36,8 @@
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "spell.protectFire",
-				"val" : 3,
-				"addInfo" : 3
+				"val" : 3
+//				"addInfo" : 3
 			},
 			"fearless" :
 			{

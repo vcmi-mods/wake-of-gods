@@ -4,14 +4,15 @@
 		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
-		"bonuses" : [
+		"bonuses" : {
+			"damage" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 12,
 				"valueType" : "PERCENT_TO_ALL"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "artifacts/HrArt148",
 			"large" : "artifacts/HrArt148L",

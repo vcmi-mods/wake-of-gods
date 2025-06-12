@@ -5,13 +5,15 @@
 		"slot" : "LEFT_HAND",
 		"class" : "MAJOR",
 		"value" : 6000,
-		"bonuses" : [
+		"bonuses" : {
+			"defence" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"reduceDamage" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
@@ -27,7 +29,7 @@
 					}
 				]
 			}
-		],
+		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt157", 
 			"large" : "artifacts/HrArt157L", 

@@ -5,7 +5,8 @@
 		"slot" : "RING",
 		"class" : "TREASURE",
 		"value" : 2500,
-		"bonuses" : [
+		"bonuses" : {
+			"spellDurationGrowth" :
 			{
 				"type" : "SPELL_DURATION",
 				"val" : 1,
@@ -15,7 +16,7 @@
 					"parameters" : [ 3 ]
 				}
 			}
-		],
+		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt165",
 			"large" : "artifacts/HrArt165",
