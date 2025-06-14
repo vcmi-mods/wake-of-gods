@@ -1,29 +1,19 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"vastCavern" : {
-				"name" : "Vast Cavern",
+			"vastCavern" : {				
 				"templates" : {
-					"rockCavern" : {
-						"animation" : "dwellings/zavg172a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ]
-					},
-					"swampCavern" : {
-						"animation" : "dwellings/zavg172b",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ]
-					},
 					"smallCavern" : {
 						"animation" : "dwellings/zavg172c",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				}
 			},
-			"hellRift" : {
-				"name" : "Hell Rift",
+			"hellRift" : {			
 				"templates" : {
 					"small" : {
 						"animation" : "dwellings/zavg195b",
-						"mask" : [ "VVV", "VBA" ]
+						"mask" : [ "VV", "BA" ]
 					}
 				}
 			}

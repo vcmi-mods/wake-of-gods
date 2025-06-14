@@ -210,7 +210,21 @@
 						"mask" : [ "VVVV", "VBBV", "VVBB" ],
 						"allowedTerrains" : ["snow" ]
 					},
-					
+					"zdec03" : {
+						"animation" : "mountains/zdec03",
+						"mask" : [ "VVVV", "VVBV", "VBBB" ],
+						"allowedTerrains" : ["snow" ]
+					},
+					"mntice01" : {
+						"animation" : "mountains/mntice01",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains" : ["snow" ]
+					},					
+					"mntice02" : {
+						"animation" : "mountains/mntice02",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains" : ["snow" ]
+					},						
 					"WFlv00" : {
 						"animation" : "mountains/WFlv00",
 						"mask" : [ "VVVV", "VVVV", "VBVB" ],

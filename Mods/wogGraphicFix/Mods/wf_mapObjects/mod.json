@@ -63,6 +63,7 @@
 		"config/wgfSigns",
 		"config/wgfStumps",
 		"config/wgfVisitableObjects",
+		"config/wgfVents",
 		"config/wgfMushrooms",
 		"config/wgfFireflies",
 		"config/wgfCreatureBanks",

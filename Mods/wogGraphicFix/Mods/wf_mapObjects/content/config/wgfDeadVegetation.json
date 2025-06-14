@@ -42,7 +42,22 @@
 						"animation" : "trees/AVLDEAS7",
 						"mask" : [ "VVVV","VVBB", "VBBB", "VBBV" ],
 						"allowedTerrains" : [ "snow" ]
-					}
+					},
+					"FRTR00" : {
+						"animation" : "trees/FRTR00",
+						"mask" : [ "B" ],
+						"allowedTerrains" : [ "lava" ]
+					},
+					"FRTR01" : {
+						"animation" : "trees/FRTR01",
+						"mask" : [ "B" ],
+						"allowedTerrains" : [ "lava" ]
+					},
+					"FRTR02" : {
+						"animation" : "trees/FRTR02",
+						"mask" : [ "B" ],
+						"allowedTerrains" : [ "lava" ]
+					}			
 				}
 			}
 		}

@@ -114,10 +114,10 @@
 	"wogUnderLake" : {
 		"biome" : {
 			"terrain" : "subterra",
-			"alignment" : "evil",
+//			"alignment" : "evil",
 			"objectType" : "lake"
 		},
-		"templates" : ["underlake0", "underlake1", "underlake2", "underlake3", "underlake4", "AVLlk1u0", "AVLlk2u0", "AVLlk3u0"]
+		"templates" : ["unlake0", "unlake1", "unlake2", "unlake3", "unlake4", "AVLlk1u0", "AVLlk2u0", "AVLlk3u0"]
 	},
 	"wogSwampLake" : {
 		"biome" : {
@@ -189,6 +189,13 @@
 		},
 		"templates" : ["wfsnmt01", "wfsnmt02", "wfsnmt03", "wfsnmt04", "wfsnmt05", "wfsnmt06"]
 	},
+	"snowMountains2" : {
+		"biome" : {
+			"terrain" : "snow",
+			"objectType" : "mountain"
+		},
+		"templates" : ["zdec03", "mntice01", "mntice02"]
+	},	
 	"lavaMountains" : {
 		"biome" : {
 			"terrain" : "lava",
@@ -196,6 +203,14 @@
 		},
 		"templates" : ["WFlv00", "WFlv01", "WFlv02", "WFlv03", "WFlv04", "WFlv05", "WFlv06"]
 	},
+	"lavaFires" : {
+		"biome" : {
+			"terrain" : "lava",
+			"alignment" : "evil",
+			"objectType" : "tree"
+		},
+		"templates" : ["FRTR00", "FRTR01", "FRTR02"]
+	},	
 	"wgfSwampMushrooms" : {
 		"biome" : {
 			"terrain" : "swamp",
@@ -243,7 +258,7 @@
 			"terrain" : "dirt",
 			"objectType" : "tree"
 		},
-		"templates" : ["avlpnt10", "avlpnt11"]
+		"templates" : [ "avlpntr0", "avlpntr1", "avlpntr2", "avlpntr3", "avlpntr4", "avlpntr5", "avlpntr6", "avlpntr7", "avlpntr8", "avlpntr9", "avlpnt10", "avlpnt11" ]
 	},		
 	"snowPine" : {
 		"biome" : {
@@ -259,12 +274,12 @@
 		},
 		"templates" : ["wicebr03", "wicebr09", "wicebr10", "wicebr11", "wicebr12", "wicebr13"]
 	},
-	"subRock" : {
+	"subMinerals" : {
 		"biome" : {
 			"terrain" : "subterra",
 			"objectType" : "rock"
 		},
-		"templates" : ["Undercrb00", "Undercrb01", "Undercrb02", "Undercrb03", "Undercrb04", "Undercrb05"]
+		"templates" : ["Uncrb00", "Uncrb01", "Uncrb02", "Uncrb03", "Uncrb04", "Uncrb05", "uncrv00", "uncrv01", "uncrv02", "uncrv03", "uncrv04", "uncrv05" ]
 	},
 	"wogWaterRock" : {
 		"biome" : {
@@ -280,6 +295,13 @@
 		},
 		"templates" : ["WFDR00", "WFDR01", "WFDR02", "WFDR03", "WFDR04", "WFDR05", "WFDR06", "WFDR07", "WFDR08"]
 	},
+	"volcanicVents" : {
+		"biome" : {
+			"terrain" : "rough",
+			"objectType" : "rock"
+		},
+		"templates" : ["RKVC00", "RKVC01", "RKVC02"]
+	},	
 	"lavaRock" : {
 		"biome" : {
 			"terrain" : "lava",
@@ -306,7 +328,7 @@
 			"terrain" : "snow",
 			"objectType" : "rock"
 		},
-		"templates" : ["zdec00", "zdec01"]
+		"templates" : ["zdec00", "zdec01", "zdec02"]
 	},
 	"swampRock" : {
 		"biome" : {
@@ -423,6 +445,13 @@
 		},
 		"templates" : ["avltro13wgf", "avltro14wgf", "wgfAVLtRro8", "wgfAVLtRro9", "avltrro10", "avltrro11", "avltrr10", "avltrr11"]
 	},
+	"wgfDirtTrees" : {
+		"biome" : {
+			"terrain" : "dirt",
+			"objectType" : "tree"
+		},
+		"templates" : ["wfdrtr01", "wfdrtr02", "wfdrtr03", "wfdrtr04", "wfdrtr05", "wfdrtr06", "wfdrtr07", "wfdrtr08", "wfdrtr09", "wfdrtr10", "wfdrtr11", "wfdrtr12"]
+	},	
 	"wgfSnowCracks" : {
 		"biome" : {
 			"terrain" : "snow",
@@ -516,7 +545,7 @@
 			"level" : "surface",
 			"objectType" : "lake"
 		},
-		"templates" : ["zdec0013", "Zdec0016"]
+		"templates" : ["zdec0013", "Zdec0016", "Zdec0017"]
 	},
 	"wgfSnowOutcropping" : {
 		"biome" : {

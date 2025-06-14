@@ -1,0 +1,27 @@
+{
+	"wgfVolcanicVent" : {
+		"handler" :"static",
+		"name" : "Volcanic Vent",		
+		"types" : {
+			"object" : {
+				"templates" : {	
+					"RKVC00" : {
+						"animation" : "vents/RKVC00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "rough" ]
+					},
+					"RKVC01" : {
+						"animation" : "vents/RKVC01",
+						"mask" : [ "VVV", "BBB" ],
+						"allowedTerrains" : [ "rough" ]
+					},
+					"RKVC02" : {
+						"animation" : "vents/RKVC02",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "rough" ]
+					}
+				}
+			}
+		}
+	}	
+}

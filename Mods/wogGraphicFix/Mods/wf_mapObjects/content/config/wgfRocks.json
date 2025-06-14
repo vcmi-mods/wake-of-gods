@@ -2,38 +2,7 @@
 	"core:rock" : {
 		"types" : {
 			"object" : {
-				"templates" : {
-					"Undercrb00" : {
-						"animation" : "rocks/Undercrb00",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains" : [ "subterra" ]
-					},
-					"Undercrb01" : {
-						"animation" : "rocks/Undercrb01",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains" : [ "subterra" ]
-					},
-					"Undercrb02" : {
-						"animation" : "rocks/Undercrb02",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains" : [ "subterra" ]
-					},
-					"Undercrb03" : {
-						"animation" : "rocks/Undercrb03",
-						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains" : [ "subterra" ]
-					},
-					"Undercrb04" : {
-						"animation" : "rocks/Undercrb04",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains" : [ "subterra" ]
-					},
-					"Undercrb05" : {
-						"animation" : "rocks/Undercrb05",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains" : [ "subterra" ]
-					},
-					
+				"templates" : {	
 					"wfarkw" : {
 						"animation" : "rocks/wfarkw",
 						"mask" : [ "VVVV", "VVVV", "VBVB" ],
@@ -240,6 +209,11 @@
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains" : [ "snow" ]
 					},
+					"zdec02" : {
+						"animation" : "rocks/zdec02",
+						"mask" : [ "VVVV", "VBBB" ],
+						"allowedTerrains" : [ "snow" ]
+					},
 
 					"zdec1001" : {
 						"animation" : "rocks/zdec1001",
@@ -262,16 +236,6 @@
 						"mask" : [ "VV", "VB" ],
 						"allowedTerrains" : [ "swamp" ]
 					},
-					"RKVC00" : {
-						"animation" : "rocks/RKVC00",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains" : [ "rough" ]
-					},
-					"RKVC01" : {
-						"animation" : "rocks/RKVC01",
-						"mask" : [ "VVV", "BBB" ],
-						"allowedTerrains" : [ "rough" ]
-					},
 					"avlrk0d0" : {
 						"animation" : "rocks/avlrk0d0",
 						"mask" : [ "BB" ],
@@ -293,9 +257,15 @@
 						"allowedTerrains" : [ "dirt" ]
 					}
 				}
-			},
-			"pillars" : {
-				"name" : "Pillar",
+			}
+		}
+	},
+	
+	"wgfSwampPillars" : {
+		"handler" :"static",
+		"name" : "Pillar",
+		"types" : {
+			"object" : {
 				"templates" : {
 					"wfpilr00" : {
 						"animation" : "pillars/wfpilr00",
@@ -343,9 +313,86 @@
 						"allowedTerrains" : [ "grass" ]
 					}
 				}
-			},
-			"ruins" : {
-				"name" : "Ruin",
+			}
+		}
+	},
+	
+	"wgfMinerals" : {
+		"handler" :"static",
+		"name" : "Mineral Crystal",			
+		"types" : {			
+			"object" : {
+				"templates" : {
+					"Uncrb00" : {
+						"animation" : "rocks/Uncrb00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"Uncrb01" : {
+						"animation" : "rocks/Uncrb01",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"Uncrb02" : {
+						"animation" : "rocks/Uncrb02",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"Uncrb03" : {
+						"animation" : "rocks/Uncrb03",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"Uncrb04" : {
+						"animation" : "rocks/Uncrb04",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"Uncrb05" : {
+						"animation" : "rocks/Uncrb05",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"uncrv00" : {
+						"animation" : "rocks/uncrv00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"uncrv01" : {
+						"animation" : "rocks/uncrv01",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"uncrv02" : {
+						"animation" : "rocks/uncrv02",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"uncrv03" : {
+						"animation" : "rocks/uncrv03",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"uncrv04" : {
+						"animation" : "rocks/uncrv04",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"uncrv05" : {
+						"animation" : "rocks/uncrv05",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "subterra" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"wgfRuins" : {
+		"handler" :"static",
+		"name" : "Ruin",
+		"types" : {
+			"object" : {			
 				"templates" : {
 					"wfruis00" : {
 						"animation" : "pillars/wfruis00",
