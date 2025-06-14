@@ -95,7 +95,7 @@
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.description" : "{Прапор полководця}\r\n\r\nЦей прапор збільшує Захист стеку на 2 та подвоює поточний бонус до Захисту в бою.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.event" : "Ви піднімаєте Прапор полководця.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.name" : "Прапор полководця",
-	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{Прапор полководця}\r\n\r\nЦей прапор збільшує досвід, що заробляє стек, на 50% (не працює через баг у VCMI).",
+	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{Прапор полководця}\r\n\r\nЦей прапор збільшує досвід, що заробляє стек, на 50%.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.event" : "Ви піднімаєте Прапор полководця.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.name" : "Прапор полководця",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerHealth.description" : "{Прапор полководця}\r\n\r\nЦей прапор збільшує здоров'я стеку на 2 та подвоює поточний бонус до здоров'я в бою.",

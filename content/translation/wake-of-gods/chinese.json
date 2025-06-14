@@ -94,7 +94,7 @@
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.description" : "{战神旗帜}\r\n\r\n装备战神旗帜可以使该部队的防御奖励×2+2。",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.event" : "你得到了战神旗帜。如果你将这件宝物授予你的部队，它将带领他们走向胜利！",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.name" : "战神旗帜",
-	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{战神旗帜}\r\n\r\n装备战神旗帜可以使该部队每次战斗多获得50%的经验(目前无效)。",
+	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{战神旗帜}\r\n\r\n装备战神旗帜可以使该部队每次战斗多获得50%的经验。",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.event" : "你得到了战神旗帜。如果你将这件宝物授予你的部队，它将带领他们走向胜利！",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.name" : "战神旗帜",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerHealth.description" : "{战神旗帜}\r\n\r\n装备战神旗帜可以使该部队的生命奖励×2+2。",

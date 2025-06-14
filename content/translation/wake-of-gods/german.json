@@ -86,7 +86,7 @@
     "artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.description" : "{Banner des Kriegsherrn}\r\n\r\nWenn dieses Banner ausgerüstet ist, erhöht es die Verteidigung des Stapels um 2 und verdoppelt den aktuellen Verteidigungsbonus des Stapels im Kampf.",
     "artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.event" : "Du hebst das Banner des Kriegsherrn auf.",
     "artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.name" : "Banner des Kriegsherrn",
-    "artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{Banner des Kriegsherrn}\r\n\r\nWenn es ausgerüstet ist, erhöht das Banner des Kriegsherrn die Erfahrung, die der Stapel in der Schlacht gewinnt, um 50% (funktioniert aber aufgrund eines VCMI-Bugs nicht).",
+    "artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{Banner des Kriegsherrn}\r\n\r\nWenn es ausgerüstet ist, erhöht das Banner des Kriegsherrn die Erfahrung, die der Stapel in der Schlacht gewinnt, um 50%.",
     "artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.event" : "Du hebst das Banner des Kriegsherrn auf.",
     "artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.name" : "Banner des Kriegsherrn",
     "artifact.wake-of-gods.stackartifacts.warlordsBannerHealth.description" : "{Banner des Kriegsherrn}\r\n\r\nWenn dieses Banner ausgerüstet ist, erhöht es die Lebenspunkte des Stapels um 2 und verdoppelt den aktuellen Lebenspunktebonus des Stapels im Kampf.",

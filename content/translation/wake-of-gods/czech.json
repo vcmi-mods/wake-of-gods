@@ -95,7 +95,7 @@
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.description" : "{Prapor válečníka}\r\n\r\nKdyž je nasazen, tento Prapor Válečníka zvyšuje Obranu jednotky o 2 a zdvojnásobuje aktuální bonus k Obraně jednotky v boji.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.event" : "Sebrali jste prapor válečníka.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerDefence.name" : "Prapor válečníka",
-	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{Prapor válečníka}\r\n\r\nKdyž je nasazen, tento Prapor Válečníka zvyšuje zkušenosti, které jednotka získá z bitvy, o 50% (nefunguje kvůli chybě ve VCMI).",
+	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.description" : "{Prapor válečníka}\r\n\r\nKdyž je nasazen, tento Prapor Válečníka zvyšuje zkušenosti, které jednotka získá z bitvy, o 50%.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.event" : "Sebrali jste prapor válečníka.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerExperience.name" : "Prapor válečníka",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerHealth.description" : "{Prapor válečníka}\r\n\r\nKdyž je nasazen, tento Prapor Válečníka zvyšuje Zdraví jednotky o 2 a zdvojnásobuje aktuální bonus k Zdraví jednotky v boji.",
