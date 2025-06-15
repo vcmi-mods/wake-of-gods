@@ -9,7 +9,7 @@
 			"defence" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
@@ -32,7 +32,7 @@
 		},
 		"graphics" : { 
 			"image" : "artifacts/HrArt157", 
-			"large" : "artifacts/HrArt157L", 
+			"scenarioBonus" : "artifacts/HrArt157L", 
 			"map" : "artifacts/zart157.def" 
 		},
 		"text" : {

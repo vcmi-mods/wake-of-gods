@@ -4,6 +4,7 @@
 		"class" : "MINOR",
 		"graphics" : {
 			"image" : "warArts/HrArt000",
+			"scenarioBonus" : "warArts/HrArt000L",
 			"map" : "warArts/ava0000" 
 		}
 	},
@@ -12,6 +13,7 @@
 		"class" : "RELIC",
 		"graphics" : {
 			"image" : "warArts/HrArt122",
+			"scenarioBonus" : "warArts/HrArt122L",
 			"map" : "warArts/ava0002"
 		}
 	},
@@ -20,6 +22,7 @@
 		"class" : "SPECIAL",
 		"graphics" : {
 			"image" : "warArts/HrArt123",
+			"scenarioBonus" : "warArts/HrArt123L",
 			"map" : "warArts/ava0003"
 		}
 	},
@@ -28,6 +31,7 @@
 		"class" : "MAJOR",
 		"graphics" : {
 			"image" : "warArts/HrArt124",
+			"scenarioBonus" : "warArts/HrArt124L",
 			"map" : "warArts/ava0004"
 		}
 	},
@@ -36,6 +40,7 @@
 		"class" : "MINOR",
 		"graphics" : {
 			"image" : "warArts/HrArt125",
+			"scenarioBonus" : "warArts/HrArt125L",
 			"map" : "warArts/ava0005"
 		}
 	},
@@ -44,6 +49,7 @@
 		"class" : "MINOR",
 		"graphics" : {
 			"image" : "warArts/HrArt126",
+			"scenarioBonus" : "warArts/HrArt126L",
 			"map" : "warArts/ava0006"
 		}
 	}

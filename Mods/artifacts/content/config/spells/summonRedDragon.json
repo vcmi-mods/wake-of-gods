@@ -41,7 +41,7 @@
 			{
 				"description" : "{Summon Crystal Dragon}\r\n\r\nSummons might Moon Dragon at the beginning of the battle.",
 				"power" : 20,
-				"aiValue" : 10,
+//				"aiValue" : 10,
 				"cost" : 0,
 				"range" : "X",
 				"targetModifier" :{"smart" :true},

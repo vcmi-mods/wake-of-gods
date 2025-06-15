@@ -73,13 +73,28 @@
 				"val" : -2,
 				"stacking" : "Undead Dragons"
 			},
+			"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "LIVING" ]
+					}
+				]
+			},
 			"fearless" :
 			{
-				"type" : "FEARLESS"
-			},
-			"fearsome" :
-			{
-				"type" : "FEAR"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+				
 			}
 		},
 		"graphics" :

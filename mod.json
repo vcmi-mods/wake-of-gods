@@ -4,11 +4,15 @@
     "modType" : "Expansion",
     "author" : "WoG Team & epigones",
     "contact" : "http://forum.vcmi.eu/index.php",
-    "version" : "9.1.51",
+    "version" : "9.1.52",
     "downloadSize" : 68.9,
     "compatibility" : {
         "min" : "1.7.0"
     }, 
+	"changelog" : {	
+	    "9.1.52" : [
+            "update for recent vcmi-1.7 format changes"
+        ],
 	"changelog" : {	
 	    "9.1.51" : [
             "Update WoG Graphic Fix biomes for 2.22",

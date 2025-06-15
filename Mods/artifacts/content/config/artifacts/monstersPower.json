@@ -7,7 +7,7 @@
 		"value" : 10000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt143",
-			"large" : "artifacts/HrArt143L",
+			"scenarioBonus" : "artifacts/HrArt143L",
 			"map" : "artifacts/zart143.def"
 		},
 		"bonuses" : {

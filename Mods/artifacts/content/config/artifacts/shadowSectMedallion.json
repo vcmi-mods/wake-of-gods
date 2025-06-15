@@ -15,7 +15,7 @@
 		},
 		"graphics" : {
 			"image" : "artifacts/HrArt166",
-			"large" : "artifacts/HrArt166",
+			"scenarioBonus" : "artifacts/HrArt166L",
 			"map" : "artifacts/zart166.def"
 		},
 		"text" : {

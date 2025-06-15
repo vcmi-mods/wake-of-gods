@@ -36,7 +36,7 @@
 			"base" :{
 				"range" : "X",
 				"cost" : 0,
-				"aiValue" : 10,
+//				"aiValue" : 10,
 				"power" : 20,
 				"description" : "{Boost Spot}\r\n\r\nUnused yet.",
 				"battleEffects" : {

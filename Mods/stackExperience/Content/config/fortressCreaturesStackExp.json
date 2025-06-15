@@ -348,9 +348,9 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEAR"
+					"type" : "FEARFUL" //old fear
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+				"values" : [ 0, 0, 0, 0, 10, 10, 10, 10, 10, 10 ]	
 			},
 			{
 				"bonus" :
@@ -419,9 +419,9 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEAR"
+					"type" : "FEARFUL" //old fear
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+				"values" : [ 0, 0, 0, 0, 10, 10, 10, 10, 10, 10 ]	
 			},
 			{
 				"bonus" :
@@ -931,13 +931,14 @@
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},
-			{
-				"bonus" :
-				{
-					"type" : "FEARLESS"
-				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-			}
+// temporary disabled due to difficulty to implement in vcmi-1.7			
+//			{
+//				"bonus" :
+//				{
+//					"type" : "FEARLESS"
+//				},
+//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+//			}
 		]
 	},
 	
@@ -1035,13 +1036,14 @@
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},
-			{
-				"bonus" :
-				{
-					"type" : "FEARLESS"
-				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-			}
+// temporary disabled due to difficulty to implement in vcmi-1.7			
+//			{
+//				"bonus" :
+//				{
+//					"type" : "FEARLESS"
+//				},
+//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+//			}
 		]
 	}
 }

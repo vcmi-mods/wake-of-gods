@@ -22,35 +22,35 @@
 			"attack" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
 			"defense" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
 			"spellPower" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.spellpower",
+				"subtype" : "spellpower",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
 			"knowledge" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.knowledge",
+				"subtype" : "knowledge",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			}
 		},
 		"graphics" : {
 			"image" : "artifacts/bucklerOfBeelzebub",
-			"large" : "artifacts/bucklerOfBeelzebubL",
+			"scenarioBonus" : "artifacts/bucklerOfBeelzebubL",
 			"map" : "artifacts/bucklerOfBeelzebub"
 		},
 		"text" : {

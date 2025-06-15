@@ -15,7 +15,7 @@
 		},
 		"graphics" : {
 			"image" : "artifacts/HrArt159",
-			"large" : "artifacts/HrArt159L",
+			"scenarioBonus" : "artifacts/HrArt159L",
 			"map" : "artifacts/zart159.def"
 		},
 		"text" : {

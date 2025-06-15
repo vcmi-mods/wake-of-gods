@@ -21,7 +21,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L", 
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -55,7 +55,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -89,7 +89,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -123,7 +123,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -155,7 +155,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -180,7 +180,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -205,7 +205,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -231,7 +231,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -256,7 +256,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-//			"large" : "", 
+			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {

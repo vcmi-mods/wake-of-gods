@@ -7,7 +7,7 @@
 		"value" : 18000,
 		"graphics" : { 
 			"image" : "artifacts/magicWand/HrArt141",
-			"large" : "artifacts/magicWand/HrArt141L",
+			"scenarioBonus" : "artifacts/magicWand/HrArt141L",
 			"map" : "artifacts/magicWand/zart141.def"
 		},
 		"bonuses" : {
