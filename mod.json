@@ -13,7 +13,6 @@
 	    "9.1.52" : [
             "update for recent vcmi-1.7 format changes"
         ],
-	"changelog" : {	
 	    "9.1.51" : [
             "Update WoG Graphic Fix biomes for 2.22",
 			"Fixed Warlod's Banner giving exp"
