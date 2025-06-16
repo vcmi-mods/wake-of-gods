@@ -10,7 +10,7 @@
 					"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.arrowtrigger" ]
+						"parameters" : [ null, null, { "type" : "MORE_DAMAGE_FROM_SPELL", "id" : "spell.arrowtrigger" } ]
 					},
 					{
 						"type" : "CREATURE_TYPE_LIMITER",
