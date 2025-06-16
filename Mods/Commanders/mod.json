@@ -65,6 +65,13 @@
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/polish.json"
 		]
+	},
+		"russian" : {
+		"name" : "Командиры",
+		"description" : "Этот модуль включает функционал Командиров из WoG",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/russian.json"
+		]
 	}
 
 	// for future reference
