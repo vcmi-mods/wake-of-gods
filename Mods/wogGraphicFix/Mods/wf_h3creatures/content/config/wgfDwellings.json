@@ -34,7 +34,7 @@
 				}
 			},
 
-			"core:hovel" : {
+			"hovel" : {
 				"name" : "Hovel",
 				"templates" : {
 					"rough2" : {
