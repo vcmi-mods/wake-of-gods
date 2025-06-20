@@ -1,0 +1,48 @@
+{
+	"name" : "14 Secondary Skills",
+	"description" : "Allows heroes to learn up to 14 secondary skills.",
+	"version" : "1.0",
+	"author"  : "",
+	"contact" : "",
+	"modType" : "Mechanics",
+	"compatibility":
+	{
+		"min" : "1.7.0"
+	},
+	"changelog":
+	{
+		"1.0"   : ["Initial version"]
+	},
+	"settings" : {
+		"heroes" : {
+			"skillPerHero" : 14
+		}
+	},
+	"conflicts" : [
+		"wake-of-gods.moreSkills.10",
+		"wake-of-gods.moreSkills.12",
+		"wake-of-gods.moreSkills.16",
+		"wake-of-gods.moreSkills.unlimited"
+	],
+	"keepDisabled" : true,
+	"czech": {
+		"name": "14 druhotných dovedností",
+		"description": "Umožňuje hrdinům naučit se až 14 druhotných dovedností."
+	},
+	"polish": {
+		"name": "14 umiejętności pobocznych",
+		"description": "Pozwala bohaterom nauczyć się do 14 umiejętności pobocznych."
+	},
+	"german": {
+		"name": "14 Nebentalente",
+		"description": "Ermöglicht Helden, bis zu 14 Nebentalente zu erlernen."
+	},
+	"ukrainian": {
+		"name": "14 другорядних навичок",
+		"description": "Дозволяє героям вивчати до 14 другорядних навичок."
+	},
+	"russian": {
+		"name": "14 вторичных навыков",
+		"description": "Позволяет героям изучать до 14 вторичных навыков."
+	}
+}
