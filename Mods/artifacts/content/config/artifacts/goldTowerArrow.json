@@ -35,7 +35,7 @@
 						"noneOf",
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER", 
-							"parameters" : [ null, null, { "type" : "MORE_DAMAGE_FROM_SPELL", "id" : "spell.towerJammer" } ]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.towerJammer", null ]
 						 }
 					]
 				]

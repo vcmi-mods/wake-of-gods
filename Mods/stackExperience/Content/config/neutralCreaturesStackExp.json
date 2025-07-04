@@ -272,14 +272,15 @@
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
-//			},
+
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]	
+			},
 			{
 				"bonus" :
 				{
@@ -365,14 +366,15 @@
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			}
+
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, null, 0, 0, 0, 0, 0 ]
+			},
 //			{
 //				"bonus" :
 //				{
@@ -464,15 +466,15 @@
 					"type" : "HP_REGENERATION"
 				},
 				"values" : [ 0, 0, 0, 25, 50, 75, 125, 250, 250, 250 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
 			}
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
-//			}
 		]
 	},
 	
@@ -675,14 +677,14 @@
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, false, false, true, true, true, true ]
-//			}
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, null, null, 0, 0, 0, 0 ]
+			}
 		]	
 	},
 	

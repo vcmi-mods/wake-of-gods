@@ -1074,9 +1074,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARFUL"
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
 				},
-				"values" : [ 0, 0, 0, 0, 10, 10, 10, 10, 10, 10 ]
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
 			},
 			{
 				"bonus" :

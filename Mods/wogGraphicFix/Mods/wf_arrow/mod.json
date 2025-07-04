@@ -4,7 +4,7 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	"version" : "",
+	"version" : "1.2.2",
 	"conflicts" : [
 		"hota.heroes3DataPatch.arrow",
 		"small-era-mods.Bubble Arrows",

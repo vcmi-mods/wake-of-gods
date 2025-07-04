@@ -75,14 +75,14 @@
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			}
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			}
 		]
 	},
 	
@@ -162,14 +162,14 @@
 //				},
 //				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 //			}
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			}
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			}
 		]
 	},
 	
@@ -489,14 +489,14 @@
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			}
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			}
 		]
 	},
 	
@@ -782,14 +782,14 @@
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			},
 			{
 				"bonus" :
 				{
@@ -859,14 +859,14 @@
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, true, true, true, true, true, true, true, true ]
-//			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
 			{
 				"bonus" :
 				{
@@ -936,14 +936,14 @@
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			},
 			{
 				"bonus" :
 				{
@@ -1036,14 +1036,14 @@
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			},
 			{
 				"bonus" :
 				{

@@ -289,14 +289,15 @@
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			}
+
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+			}
 		]
 	},
 
@@ -350,15 +351,15 @@
 					"type" : "STACKS_SPEED"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},		
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ null, null, null, false, 0, 0, 0, 0, 0, 0 ]
 			},
-// temporary disabled due to difficulty to implement in vcmi-1.7			
-//			{
-//				"bonus" :
-//				{
-//					"type" : "FEARLESS"
-//				},
-//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-//			},
 			{
 				"bonus" :
 				{
@@ -516,9 +517,19 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARFUL"
+				"type" : "FEARFUL", //old fear
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "LIVING" ]
+					}
+				]
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 10, 10, 10, 10 ]
+				"values" : [ null, null, null, null, null, null, 10, 10, 10, 10 ]
 			},
 			{
 				"bonus" :
