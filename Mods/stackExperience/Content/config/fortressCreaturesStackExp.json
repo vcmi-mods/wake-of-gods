@@ -6,7 +6,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -15,7 +15,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -79,7 +79,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -88,7 +88,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -152,7 +152,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -161,7 +161,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -225,7 +225,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -234,7 +234,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -298,7 +298,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -307,7 +307,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -349,9 +349,10 @@
 				"bonus" :
 				{
 					"type" : "FEARFUL", //old fearless
-					"valueType" : "INDEPENDENT_MAX"
+					"valueType" : "INDEPENDENT_MIN", 
+					"val" : 0
 				},
-				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
@@ -370,7 +371,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -379,7 +380,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -421,9 +422,10 @@
 				"bonus" :
 				{
 					"type" : "FEARFUL", //old fearless
-					"valueType" : "INDEPENDENT_MAX"
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
 				},
-				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
@@ -443,7 +445,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -452,7 +454,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -513,7 +515,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -522,7 +524,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -583,7 +585,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -592,7 +594,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -649,7 +651,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -658,7 +660,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -715,7 +717,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -724,7 +726,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -781,7 +783,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -790,7 +792,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -847,7 +849,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -856,7 +858,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -937,9 +939,10 @@
 				"bonus" :
 				{
 					"type" : "FEARFUL", //old fearless
-					"valueType" : "INDEPENDENT_MAX"
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
 				},
-				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
 		]
 	},
@@ -951,7 +954,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -960,7 +963,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 
 				},
@@ -1042,9 +1045,10 @@
 				"bonus" :
 				{
 					"type" : "FEARFUL", //old fearless
-					"valueType" : "INDEPENDENT_MAX"
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
 				},
-				"values" : [ null, null, null, null, 0, 0, 0, 0, 0, 0 ]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
 		]
 	}
