@@ -4,12 +4,15 @@
     "modType" : "Expansion",
     "author" : "WoG Team & epigones",
     "contact" : "http://forum.vcmi.eu/index.php",
-    "version" : "9.1.55",
+    "version" : "9.1.56",
     "downloadSize" : 68.9,
     "compatibility" : {
         "min" : "1.7.0"
     }, 
 	"changelog" : {	
+	    "9.1.56" : [
+            "Some new updates for vcmi-1.7 format"
+        ],
 	    "9.1.55" : [
             "Fix for FEARFUL bonus in stack exp system"
         ],

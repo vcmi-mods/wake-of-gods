@@ -48,13 +48,13 @@
 			"resurrection100hp" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.resurrection",
+				"subtype" : "resurrection",
 				"val" : 100
 			},
 			"resurrects" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.resurrection",
+				"subtype" : "resurrection",
 				"val" : 3
 			},
 			"spellpoints" :
@@ -75,7 +75,7 @@
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				
@@ -83,19 +83,19 @@
 			"hateDevils" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.devil",
+				"subtype" : "devil",
 				"val" : 50
 			},
 			"hateArchDevils" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.archDevil",
+				"subtype" : "archDevil",
 				"val" : 50
 			},
 			"hateHellBarons" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.hellBaron",
+				"subtype" : "hellBaron",
 				"val" : 50
 			}
 		},

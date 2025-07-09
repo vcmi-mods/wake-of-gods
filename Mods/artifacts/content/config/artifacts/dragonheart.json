@@ -9,7 +9,7 @@
 			"summonDragon" :
 			{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.summonRedDragon",
+				"subtype" : "summonRedDragon",
 				"val" : 1
 			}
 		},

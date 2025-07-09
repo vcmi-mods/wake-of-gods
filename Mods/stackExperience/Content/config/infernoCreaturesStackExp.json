@@ -57,7 +57,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.gremlin"
+					"subtype" : "gremlin"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -65,7 +65,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fortune"
+					"subtype" : "fortune"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -136,7 +136,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.masterGremlin"
+					"subtype" : "masterGremlin"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -144,7 +144,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fortune"
+					"subtype" : "fortune"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -223,7 +223,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -295,7 +295,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.fireball",
+					"subtype" : "fireball",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -304,7 +304,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -383,7 +383,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 2, 2, 2 ]
 			},
@@ -400,7 +400,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.griffin"
+					"subtype" : "griffin"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			}
@@ -472,7 +472,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 1, 2, 2, 2 ]
 			},
@@ -489,7 +489,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.royalGriffin"
+					"subtype" : "royalGriffin"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -497,7 +497,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disease",
+					"subtype" : "disease",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -570,7 +570,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 1, 1, 1, 1, 1, 1, 2, 2, 2, 2 ]
 			},
@@ -659,7 +659,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 1, 1, 1, 1, 1, 1, 2, 2, 2, 2 ]
 			},
@@ -748,7 +748,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -838,7 +838,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -921,7 +921,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.genie"
+					"subtype" : "genie"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -929,7 +929,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fireShield"
+					"subtype" : "fireShield"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 2, 3 ]
 			},
@@ -961,7 +961,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.fireElemental",
+					"subtype" : "fireElemental",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -1027,7 +1027,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.masterGenie"
+					"subtype" : "masterGenie"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -1035,7 +1035,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fireShield"
+					"subtype" : "fireShield"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 3 ]
 			},
@@ -1067,7 +1067,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.fireElemental",
+					"subtype" : "fireElemental",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -1139,7 +1139,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -1147,7 +1147,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1179,7 +1179,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.misfortune",
+					"subtype" : "misfortune",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -1245,7 +1245,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -1253,7 +1253,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1285,7 +1285,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.berserk",
+					"subtype" : "berserk",
 					"addInfo" : [1, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]

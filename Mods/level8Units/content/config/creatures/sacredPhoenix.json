@@ -66,12 +66,12 @@
 			"immuneToFire" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.fire"
+				"subtype" : "fire"
 			},
 			"spellSlayer" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.slayer",
+				"subtype" : "slayer",
 				"val" : 3
 //				"addInfo" : 100
 			},
@@ -83,7 +83,7 @@
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				

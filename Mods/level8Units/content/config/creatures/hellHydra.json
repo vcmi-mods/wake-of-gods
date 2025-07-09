@@ -68,13 +68,13 @@
 			"reduceDefence" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.acidBreath",
+				"subtype" : "acidBreath",
 				"val" : 100
 			},
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				

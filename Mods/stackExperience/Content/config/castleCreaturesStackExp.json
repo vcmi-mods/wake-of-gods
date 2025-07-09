@@ -56,7 +56,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.blackKnight"
+					"subtype" : "blackKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -64,7 +64,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.dreadKnight"
+					"subtype" : "dreadKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -144,7 +144,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.blackKnight"
+					"subtype" : "blackKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -152,7 +152,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.dreadKnight"
+					"subtype" : "dreadKnight"
 				},
 				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 90 ]
 			},
@@ -565,7 +565,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.vampire"
+					"subtype" : "vampire"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -573,7 +573,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.vampireLord"
+					"subtype" : "vampireLord"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
@@ -635,7 +635,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 3, 6, 9, 12, 15, 21, 24, 27, 30, 33 ]
 			},
@@ -712,7 +712,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 3, 6, 9, 12, 15, 21, 24, 27, 30, 33 ]
 			},
@@ -804,7 +804,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",  //enchanted czy enchaner? sprawdzić na czarodziejach
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 2, 3, 3 ]
 			}
@@ -881,7 +881,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 2, 3, 3 ]
 			}
@@ -960,7 +960,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.armageddon"
+					"subtype" : "armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -982,7 +982,7 @@
 				"bonus" : 
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.water"
+					"subtype" : "water"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}
@@ -1061,7 +1061,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.armageddon"
+					"subtype" : "armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -1083,7 +1083,7 @@
 				"bonus" : 
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.water"
+					"subtype" : "water"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}

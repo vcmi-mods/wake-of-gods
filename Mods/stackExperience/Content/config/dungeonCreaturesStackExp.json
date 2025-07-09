@@ -54,7 +54,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.pixie"
+					"subtype" : "pixie"
 				},
 				"values" : [ 10, 10, 20, 20, 30, 30, 40, 40, 50, 60 ]
 			},
@@ -62,7 +62,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.sprite"
+					"subtype" : "sprite"
 				},
 				"values" : [ 10, 10, 20, 20, 30, 30, 40, 40, 50, 60 ]
 			},
@@ -70,7 +70,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.slow",
+					"subtype" : "slow",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
@@ -133,7 +133,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.pixie"
+					"subtype" : "pixie"
 				},
 				"values" : [ 10, 10, 20, 20, 30, 30, 40, 40, 50, 60 ]
 			},
@@ -141,7 +141,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.sprite"
+					"subtype" : "sprite"
 				},
 				"values" : [ 10, 10, 20, 20, 30, 30, 40, 40, 50, 60 ]
 			},
@@ -149,7 +149,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			}
@@ -211,7 +211,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fortune"
+					"subtype" : "fortune"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 2 ]
 			},
@@ -219,7 +219,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.curse",
+					"subtype" : "curse",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -282,7 +282,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fortune"
+					"subtype" : "fortune"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 2 ]
 			},
@@ -290,7 +290,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disease",
+					"subtype" : "disease",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -353,7 +353,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.forgetfulness",
+					"subtype" : "forgetfulness",
 					"addInfo" : [ 1, 1 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -485,7 +485,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze",
+					"subtype" : "stoneGaze",
 					"addInfo" : [ 3, 0 ]
 				},
 				"values" : [ 0, 0, 5, 5, 10, 10, 15, 20, 25, 30 ]
@@ -700,7 +700,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.mirth"
+					"subtype" : "mirth"
 				},
 				"values" : [ 0, 0, 0, 0, 2, 2, 2, 2, 2, 2 ]
 			}
@@ -769,7 +769,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -832,7 +832,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.paralyze",
+					"subtype" : "paralyze",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 0, 0, 0, 0, 5, 5, 10, 10, 15, 20 ]
@@ -841,7 +841,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.acidBreath",
+					"subtype" : "acidBreath",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -850,7 +850,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.acidBreathDamage",
+					"subtype" : "acidBreathDamage",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -913,7 +913,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.giant"
+					"subtype" : "giant"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]
 			},
@@ -921,7 +921,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.titan"
+					"subtype" : "titan"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]
 			},
@@ -998,7 +998,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.giant"
+					"subtype" : "giant"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]
 			},
@@ -1006,7 +1006,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.titan"
+					"subtype" : "titan"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]
 			},
@@ -1038,7 +1038,7 @@
 						"OPPOSITE_SIDE", 
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "LIVING" ]
+							"bonusType" : "LIVING"
 						}
 					]
 				},
@@ -1048,7 +1048,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.dispelHelpful",
+					"subtype" : "dispelHelpful",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]

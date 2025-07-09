@@ -14,204 +14,204 @@
 			"enchant1" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["good"]
+						"alignment" : "good"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "dirt" ]
+					"terrain" :  "dirt"
 					}
 				]
 			},
 			"enchant2" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["good"]
+						"alignment" : "good"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "lava" ]
+					"terrain" : "lava"
 					}
 				]
 			},
 			"enchant3" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["good"]
+						"alignment" : "good"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "subterra" ]
+					"terrain" : "subterra"
 					}
 				]
 			},
 			"enchant4" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["good"]
+						"alignment" : "good"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "rough" ]
+					"terrain" : "rough"
 					}
 				]
 			},
 			"enchant5" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["evil"]
+						"alignment" : "evil"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "grass" ]
+					"terrain" : "grass"
 					}
 				]
 			},
 			"enchant6" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["evil"]
+						"alignment" : "evil"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "snow" ]
+					"terrain" : "snow"
 					}
 				]
 			},
 			"enchant7" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["evil"]
+						"alignment" : "evil"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "swamp" ]
+					"terrain" : "swamp"
 					}
 				]
 			},
 			"enchant8" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["evil"]
+						"alignment" : "evil"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "water" ]
+					"terrain" : "water"
 					}
 				]
 			},
 			"enchant9" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["neutral"]
+						"alignment" : "neutral"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "dirt" ]
+					"terrain" : "dirt"
 					}
 				]
 			},
 			"enchant10" :
 			{
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"type" : "ENCHANTED",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["neutral"]
+						"alignment" : "neutral"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "sand" ]
+					"terrain" : "sand"
 					}
 				]
 			},
 			"enchant11" :
 			{
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"type" : "ENCHANTED",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["neutral"]
+						"alignment" : "neutral"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "subterra" ]
+					"terrain" : "subterra"
 					}
 				]
 			},
 			"enchant12" :
 			{
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"type" : "ENCHANTED",
 				"val" : 1,
 				"limiters" : [
 					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"parameters" : ["neutral"]
+						"alignment" : "neutral"
 					},
 					{
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : [ "snow" ]
+					"terrain" : "snow"
 					}
 				]
 			}

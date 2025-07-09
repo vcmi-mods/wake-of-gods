@@ -8,15 +8,14 @@
 			"attack" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"val" : 20
 			},
 			"defense" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"val" : 35
-//				"valueType" : "ADDITIVE_VALUE"
 			},
 			"health" :
 			{
@@ -50,7 +49,7 @@
 			"spellDamageReduction" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 65
 			}
 		},

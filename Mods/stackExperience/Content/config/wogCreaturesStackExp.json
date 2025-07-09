@@ -61,7 +61,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.iceBolt"
+					"subtype" : "iceBolt"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -69,7 +69,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.frostRing"
+					"subtype" : "frostRing"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			}
@@ -147,7 +147,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [ 1, 0 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -201,7 +201,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.sorrow"
+					"subtype" : "sorrow"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},				
@@ -209,7 +209,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.slow"
+					"subtype" : "slow"
 				},
 				"values" : [ false, false, false, true, true, true, true, true, true, true ]
 			}
@@ -285,7 +285,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.greenDragon"
+					"subtype" : "greenDragon"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -373,7 +373,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.fireball",
+					"subtype" : "fireball",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -443,7 +443,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			}
@@ -528,7 +528,7 @@
 						"OPPOSITE_SIDE", 
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "LIVING" ]
+							"bonusType" : "LIVING"
 						}
 					]
 				},
@@ -538,7 +538,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.deathRipple",
+					"subtype" : "deathRipple",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -608,7 +608,7 @@
 //				"bonus" : 
 //				{
 //					"type" : "SUMMON_GUARDIANS",
-//					"subtype" : "creature.masterGremlin",
+//					"subtype" : "masterGremlin",
 //				},
 //				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 //			}
@@ -732,7 +732,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
@@ -748,7 +748,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.lich"
+					"subtype" : "lich"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -756,7 +756,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.powerLich"
+					"subtype" : "powerLich"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -840,7 +840,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.griffin"
+					"subtype" : "griffin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -848,7 +848,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.royalGriffin"
+					"subtype" : "royalGriffin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -856,7 +856,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.roc"
+					"subtype" : "roc"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -864,7 +864,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.thunderbird"
+					"subtype" : "thunderbird"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
@@ -926,7 +926,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.clone",
+					"subtype" : "clone",
 					"addInfo" : [ 3, 1 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]

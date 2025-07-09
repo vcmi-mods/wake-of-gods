@@ -47,7 +47,8 @@
 				"turns" : 3,
 				"limiters" : [ {
 					"type" :"CREATURE_TYPE_LIMITER",
-						"parameters" : [ "werewolf", false ]
+						"creature" : "werewolf",
+						"includeUpgrades" : false
 					}
 				]
 			}

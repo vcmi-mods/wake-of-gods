@@ -35,14 +35,14 @@
 			"airProtection" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.protectAir",
+				"subtype" : "protectAir",
 				"val" : 3
 //				"addInfo" : 3
 			},
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				

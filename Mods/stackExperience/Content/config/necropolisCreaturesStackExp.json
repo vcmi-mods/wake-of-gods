@@ -54,7 +54,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield"
+					"subtype" : "airShield"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 2, 2 ]
 			},
@@ -62,7 +62,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.dispel"
+					"subtype" : "dispel"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -70,7 +70,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY", //In WoG it is more complicated
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -132,7 +132,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield"
+					"subtype" : "airShield"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 2, 2 ]
 			},
@@ -140,7 +140,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.dispel"
+					"subtype" : "dispel"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -148,7 +148,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY", //In WoG it is more complicated
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -210,7 +210,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.slow",
+					"subtype" : "slow",
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -281,7 +281,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disease",
+					"subtype" : "disease",
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]	
@@ -352,7 +352,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.weakness",
+					"subtype" : "weakness",
 					"addInfo" : [2, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -422,7 +422,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.misfortune",
+					"subtype" : "misfortune",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -560,7 +560,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.hypnotize",
+					"subtype" : "hypnotize",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
@@ -630,7 +630,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.deathRipple",
+					"subtype" : "deathRipple",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -639,7 +639,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.mage"
+					"subtype" : "mage"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -709,7 +709,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.deathRipple",
+					"subtype" : "deathRipple",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -718,7 +718,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.archMage"
+					"subtype" : "archMage"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -788,7 +788,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.dispelHelpful",
+					"subtype" : "dispelHelpful",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]	
@@ -797,7 +797,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.cavalier"
+					"subtype" : "cavalier"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -873,7 +873,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.champion"
+					"subtype" : "champion"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -942,7 +942,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -950,7 +950,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.air"
+					"subtype" : "air"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -958,7 +958,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
@@ -966,7 +966,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.water"
+					"subtype" : "water"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -981,7 +981,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield"
+					"subtype" : "airShield"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 2, 2, 2 ]
 			}
@@ -1043,7 +1043,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
@@ -1051,7 +1051,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.air"
+					"subtype" : "air"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1059,7 +1059,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
@@ -1067,7 +1067,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.water"
+					"subtype" : "water"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -1084,7 +1084,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.age",
+					"subtype" : "age",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 0, 0, 0, 5, 5, 5, 10, 10, 15, 20 ]	

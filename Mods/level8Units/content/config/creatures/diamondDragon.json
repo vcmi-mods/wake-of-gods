@@ -61,7 +61,7 @@
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				
@@ -69,13 +69,13 @@
 			"blinds" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.blind",
+				"subtype" : "blind",
 				"val" : 100
 			},
 			"generateGems" :
 			{
 				"type" : "GENERATE_RESOURCE",
-				"subtype" : "resource.gems",
+				"subtype" : "gems",
 				"val" : 1,
 				"propagator" : "HERO"
 			}

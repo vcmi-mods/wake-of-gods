@@ -25,7 +25,7 @@
 					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "BLOCKS_RETALIATION" ]
+						"bonusType" : "BLOCKS_RETALIATION"
 					}
 				]
 			}

@@ -27,7 +27,7 @@
 					"bonus" : 
 					{
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 1
 					}
 				}

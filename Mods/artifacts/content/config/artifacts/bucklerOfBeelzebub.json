@@ -16,7 +16,7 @@
 			"spellKnowledge" :
 			{
 				"type" : "SPELL",
-				"subtype" : "spell.dimensionDoor",
+				"subtype" : "dimensionDoor",
 				"val" : 0
 			},
 			"attack" :

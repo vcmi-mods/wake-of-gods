@@ -354,7 +354,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.magicMirror"
+					"subtype" : "magicMirror"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
 			},
@@ -362,7 +362,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.clone",
+					"subtype" : "clone",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -441,7 +441,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.gorgon"
+					"subtype" : "gorgon"
 				},
 				"values" : [ 0, 0, 20, 30, 40, 50, 60, 70, 80, 90 ]
 			},
@@ -449,7 +449,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.mightyGorgon"
+					"subtype" : "mightyGorgon"
 				},
 				"values" : [ 0, 0, 20, 30, 40, 50, 60, 70, 80, 90 ]
 			},
@@ -659,7 +659,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.goblin"
+					"subtype" : "goblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -667,7 +667,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.hobgoblin"
+					"subtype" : "hobgoblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -675,7 +675,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]
 			},
@@ -808,7 +808,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disease",
+					"subtype" : "disease",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -878,7 +878,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.curse",
+					"subtype" : "curse",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
@@ -1023,7 +1023,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 20, 30, 40, 50 ]	

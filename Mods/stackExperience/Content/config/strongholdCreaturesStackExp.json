@@ -54,7 +54,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.dwarf"
+					"subtype" : "dwarf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -62,7 +62,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.battleDwarf"
+					"subtype" : "battleDwarf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -131,7 +131,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.dwarf"
+					"subtype" : "dwarf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -139,7 +139,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.battleDwarf"
+					"subtype" : "battleDwarf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -330,7 +330,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.woodElf"
+					"subtype" : "woodElf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -338,7 +338,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.grandElf"
+					"subtype" : "grandElf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -414,7 +414,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.woodElf"
+					"subtype" : "woodElf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -422,7 +422,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.grandElf"
+					"subtype" : "grandElf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -575,7 +575,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.bloodlust",
+					"subtype" : "bloodlust",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 0, 0, 4, 7, 10, 13, 16, 19, 22, 25 ]	
@@ -638,7 +638,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.thunderbolt",
+					"subtype" : "thunderbolt",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -708,7 +708,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.thunderbolt",
+					"subtype" : "thunderbolt",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
@@ -778,7 +778,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.earthquake",
+					"subtype" : "earthquake",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 5, 10, 20, 30, 40, 50, 60, 60, 60, 60 ]	
@@ -855,7 +855,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.earthquake",
+					"subtype" : "earthquake",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 5, 10, 20, 30, 40, 50, 60, 60, 60, 60 ]	
@@ -932,7 +932,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -948,7 +948,7 @@
 						"OPPOSITE_SIDE", 
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "LIVING" ]
+							"bonusType" : "LIVING"
 						}
 					]
 				},
@@ -967,7 +967,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.blind"
+					"subtype" : "blind"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -1036,7 +1036,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
@@ -1052,7 +1052,7 @@
 						"OPPOSITE_SIDE", 
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "LIVING" ]
+							"bonusType" : "LIVING"
 						}
 					]
 				},
@@ -1071,7 +1071,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.blind"
+					"subtype" : "blind"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},

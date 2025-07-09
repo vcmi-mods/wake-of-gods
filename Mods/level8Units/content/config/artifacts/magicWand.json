@@ -14,56 +14,56 @@
 			"specialUpgrade1" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.archangel",
-				"addInfo" : "creature.supremeArchangel"
+				"subtype" : "archangel",
+				"addInfo" : "supremeArchangel"
 			},
 			"specialUpgrade2" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.goldDragon",
-				"addInfo" : "creature.diamondDragon"
+				"subtype" : "goldDragon",
+				"addInfo" : "diamondDragon"
 			},
 			"specialUpgrade3" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.titan",
-				"addInfo" : "creature.lordOfThunder"
+				"subtype" : "titan",
+				"addInfo" : "lordOfThunder"
 			},
 			"specialUpgrade4" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.archDevil",
-				"addInfo" : "creature.hellBaron"
+				"subtype" : "archDevil",
+				"addInfo" : "hellBaron"
 			},
 			"specialUpgrade5" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.ghostDragon",
-				"addInfo" : "creature.bloodDragon"
+				"subtype" : "ghostDragon",
+				"addInfo" : "bloodDragon"
 			},
 			"specialUpgrade6" :
 			{
-				"subtype" : "creature.blackDragon",
-				"addInfo" : "creature.darknessDragon",
+				"subtype" : "blackDragon",
+				"addInfo" : "darknessDragon",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"specialUpgrade7" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.ancientBehemoth",
-				"addInfo" : "creature.ghostBehemoth"
+				"subtype" : "ancientBehemoth",
+				"addInfo" : "ghostBehemoth"
 			},
 			"specialUpgrade8" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.chaosHydra",
-				"addInfo" : "creature.hellHydra"
+				"subtype" : "chaosHydra",
+				"addInfo" : "hellHydra"
 			},
 			"specialUpgrade9" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.phoenix",
-				"addInfo" : "creature.sacredPhoenix"
+				"subtype" : "phoenix",
+				"addInfo" : "sacredPhoenix"
 			}
 		},
 		"text" : {

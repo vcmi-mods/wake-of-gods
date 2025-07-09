@@ -9,17 +9,18 @@
 			"inferno" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"limiters" : [ {
 					"type" :"CREATURE_TYPE_LIMITER",
-						"parameters" : [ "arrowTower", false ]
+						"creature" : "arrowTower",
+						"includeUpgrades" : false
 					}
 				]
 			},
 			"berserk" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.berserk",
+				"subtype" : "berserk",
 				"val" : 100,
 				"addInfo" : [3, 1],
 				"propagator" : "BATTLE_WIDE",
@@ -28,7 +29,8 @@
 					"OPPOSITE_SIDE",
 					{
 					"type" :"CREATURE_TYPE_LIMITER",
-						"parameters" : [ "arrowTower", false ]
+						"creature" : "arrowTower",
+						"includeUpgrades" : false
 					}
 				]
 			}

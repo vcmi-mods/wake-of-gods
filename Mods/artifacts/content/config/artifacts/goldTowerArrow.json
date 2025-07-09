@@ -14,10 +14,11 @@
 			"bonusTrigger1" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.towerJammer",
+				"subtype" : "towerJammer",
 				"limiters" : {
 					"type" :"CREATURE_TYPE_LIMITER",
-					"parameters" : [ "arrowTower", false ]
+					"creature" : "arrowTower",
+					"includeUpgrades" : false
 				  }
 			},
 			"disableArrowTrigger" :
@@ -28,15 +29,17 @@
 					[
 						{
 							"type" :"CREATURE_TYPE_LIMITER",
-							"parameters" : [ "arrowTower", false ]
+							"creature" : "arrowTower",
+							"includeUpgrades" : false
 						}
 					],
 					[
 						"noneOf",
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER", 
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.towerJammer", null ]
-						 }
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "towerJammer"
+						}
 					]
 				]
 			},
@@ -52,7 +55,7 @@
 			"bonusTrigger2" : 
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.arrowtrigger"
+				"subtype" : "arrowtrigger"
 			},
 			"additionalAttack" : 
 			{
@@ -60,7 +63,8 @@
 				"val" : 1,
 				"limiters" : [ {
 					"type" :"CREATURE_TYPE_LIMITER",
-						"parameters" : [ "arrowTower", false ]
+							"creature" : "arrowTower",
+							"includeUpgrades" : false
 					}
 				]
 			}

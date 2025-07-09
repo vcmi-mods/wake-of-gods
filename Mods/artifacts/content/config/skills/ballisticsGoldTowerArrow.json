@@ -10,11 +10,13 @@
 					"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.arrowtrigger", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "arrowtrigger"
 					},
 					{
 						"type" : "CREATURE_TYPE_LIMITER",
-						"parameters" : [ "arrowTower", "false" ]
+							"creature" : "arrowTower",
+							"includeUpgrades" : false
 					}
 					]
 				}

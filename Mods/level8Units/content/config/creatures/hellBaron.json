@@ -61,14 +61,14 @@
 			"petrify" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stoneGaze",
+				"subtype" : "stoneGaze",
 				"val" : 50,
 				"turns" : 3
 			},
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				
@@ -76,19 +76,19 @@
 			"hateAngels" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.angel",
+				"subtype" : "angel",
 				"val" : 50
 			},
 			"hateArchAngels" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.archangel",
+				"subtype" : "archangel",
 				"val" : 50
 			},
 			"hateSupremeAngels" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.supremeArchangel",
+				"subtype" : "supremeArchangel",
 				"val" : 50
 			}
 		},

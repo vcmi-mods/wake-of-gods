@@ -81,14 +81,14 @@
 					"OPPOSITE_SIDE", 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "LIVING" ]
+						"bonusType" : "LIVING"
 					}
 				]
 			},
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				
@@ -96,19 +96,19 @@
 			"hateGiants" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.giant",
+				"subtype" : "giant",
 				"val" : 50
 			},
 			"hateTitans" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.titan",
+				"subtype" : "titan",
 				"val" : 50
 			},
 			"hateLords" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.lordOfThunder",
+				"subtype" : "lordOfThunder",
 				"val" : 50
 			}
 		},

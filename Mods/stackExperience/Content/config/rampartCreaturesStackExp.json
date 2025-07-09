@@ -94,7 +94,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.gnoll"
+					"subtype" : "gnoll"
 				},
 				"values" : [ 20, 40, 60, 80, 100, 120, 140, 160, 180, 200 ]
 			}
@@ -163,7 +163,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.gnollMarauder"
+					"subtype" : "gnollMarauder"
 				},
 				"values" : [ 20, 40, 60, 80, 100, 120, 140, 160, 180, 200 ]
 			}
@@ -225,7 +225,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.shield"
+					"subtype" : "shield"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 2 ]
 			},
@@ -355,7 +355,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.orc"
+					"subtype" : "orc"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -431,7 +431,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.orcChieftain"
+					"subtype" : "orcChieftain"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
 			},
@@ -447,7 +447,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",  //enchanted czy enchaner? sprawdzić na czarodziejach
-					"subtype" : "spell.precision"
+					"subtype" : "precision"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}
@@ -645,7 +645,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
 			}
@@ -714,7 +714,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
 			}
@@ -776,7 +776,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.cure",
+					"subtype" : "cure",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 0, 0, 5, 5, 10, 10, 15, 15, 15, 20 ]	
@@ -848,7 +848,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.blind",
+					"subtype" : "blind",
 					"addInfo" : [3, 2]
 				},
 				"values" : [ 0, 5, 5, 10, 10, 15, 15, 20, 25, 30 ]	
@@ -920,7 +920,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.boneDragon"
+					"subtype" : "boneDragon"
 				},
 				"values" : [ 20, 40, 60, 80, 100, 120, 140, 160, 180, 200 ]
 			},
@@ -928,7 +928,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.ghostDragon"
+					"subtype" : "ghostDragon"
 				},
 				"values" : [ 20, 40, 60, 80, 100, 120, 140, 160, 180, 200 ]
 			},
@@ -1013,7 +1013,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.boneDragon"
+					"subtype" : "boneDragon"
 				},
 				"values" : [ 20, 40, 60, 80, 100, 120, 140, 160, 180, 200 ]
 			},
@@ -1021,7 +1021,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.ghostDragon"
+					"subtype" : "ghostDragon"
 				},
 				"values" : [ 20, 40, 60, 80, 100, 120, 140, 160, 180, 200 ]
 			},

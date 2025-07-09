@@ -9,7 +9,7 @@
 			"slowImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow",
+				"subtype" : "slow",
 				"val" : 100
 			}
 		},

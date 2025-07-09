@@ -61,7 +61,7 @@
 			"age" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.age",
+				"subtype" : "age",
 				"val" : 50
 			},
 			"descreaseMorale" :
@@ -84,14 +84,14 @@
 					"OPPOSITE_SIDE", 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "LIVING" ]
+						"bonusType" : "LIVING"
 					}
 				]
 			},
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				

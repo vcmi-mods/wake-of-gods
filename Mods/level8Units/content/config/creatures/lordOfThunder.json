@@ -54,27 +54,27 @@
 			"thunderOnAttack" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.thunderbolt",
+				"subtype" : "thunderbolt",
 				"val" : 20,
 				"effectRange" : "ONLY_MELEE_FIGHT"
 			},
 			"thunderStrength" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.thunderbolt",
+				"subtype" : "thunderbolt",
 				"val" : 10
 			},
 			"airShield" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.airShield",
+				"subtype" : "airShield",
 				"val" : 3
 //				"addInfo" : 1
 			},
 			"fearless" :
 			{
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 				
@@ -82,7 +82,7 @@
 			"hateDarknessDragon" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.darknessDragon",
+				"subtype" : "darknessDragon",
 				"val" : 50
 			}
 		},		
