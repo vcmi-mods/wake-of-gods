@@ -1,0 +1,10 @@
+{
+	"basepath" : "big/",
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "attack.png"
+        }
+    ]
+}
