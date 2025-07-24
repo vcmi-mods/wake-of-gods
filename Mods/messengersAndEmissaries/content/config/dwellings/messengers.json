@@ -3,57 +3,101 @@
 		"types" : {
 			"naturalCalamityAir" : {
 				"name" : "Natural Calamity",
-				"creatures" : [[ "airMessenger" ]],
+				"creatures" : [
+					[
+						"airMessenger"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPCALA"]
+					"ambient" : [
+						"LOOPCALA"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"naturalCalamityWater" : {
 				"name" : "Natural Calamity",
-				"creatures" : [[ "waterMessenger" ]],
+				"creatures" : [
+					[
+						"waterMessenger"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["LOOPCALA"]
+					"ambient" : [
+						"LOOPCALA"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"naturalCalamityFire" : {
 				"name" : "Natural Calamity",
-				"creatures" : [[ "fireMessenger" ]],
+				"creatures" : [
+					[
+						"fireMessenger"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPCALA"]
+					"ambient" : [
+						"LOOPCALA"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"naturalCalamityEarth" : {
 				"name" : "Natural Calamity",
-				"creatures" : [[ "earthMessenger" ]],
+				"creatures" : [
+					[
+						"earthMessenger"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPCALA"]
+					"ambient" : [
+						"LOOPCALA"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg174a",
-						"mask" : [ "VVV", "VVV", "VVVV", "VVBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVVV",
+							"VVBA"
+						]
 					}
 				}
 			}

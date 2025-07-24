@@ -1,15 +1,12 @@
 {
-	"wogSorceress" :
-	{
-		"name" :
-		{
+	"wogSorceress" : {
+		"name" : {
 			"singular" : "Sorceress",
 			"plural" : "Sorceresses"
 		},
 		"faction" : "neutral",
 		"level" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
 		"speed" : 8,
@@ -17,168 +14,189 @@
 		"attack" : 15,
 		"defense" : 13,
 		"shots" : 24,
-		"damage" :
-		{
-			 "min" : 10,
-			 "max" : 13
+		"damage" : {
+			"min" : 10,
+			"max" : 13
 		},
 		"fightValue" : 200,
 		"aiValue" : 1150,
-		"advMapAmount" :
-		{
-			 "min" : 5,
-			 "max" : 12
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
 		},
 		"growth" : 2,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"shots" :
-			{
+		"abilities" : {
+			"shots" : {
 				"type" : "SHOOTER"
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"castsPoison" :
-			{
+			"castsPoison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
-				"addInfo" : [0, 1],
+				"addInfo" : [
+					0,
+					1
+				],
 				"val" : 11,
 				"turns" : 3
 			},
-			"castsSorrow" :
-			{
+			"castsSorrow" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.sorrow",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 11,
 				"turns" : 3
 			},
-			"castsAcidBreath" :
-			{
+			"castsAcidBreath" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.acidBreath",
-				"addInfo" : [0, 1],
+				"addInfo" : [
+					0,
+					1
+				],
 				"val" : 11
 			},
-			"castsForgetfullness" :
-			{
+			"castsForgetfullness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.forgetfulness",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 11,
 				"turns" : 3
 			},
-			"castsSlow" :
-			{
+			"castsSlow" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.slow",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 8,
 				"turns" : 3
 			},
-			"castsCurse" :
-			{
+			"castsCurse" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 8,
 				"turns" : 3
 			},
-			"castsDispel" :
-			{
+			"castsDispel" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispelHelpful",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 8
 			},
-			"castsBlind" :
-			{
+			"castsBlind" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
-				"addInfo" : [3, 1],
+				"addInfo" : [
+					3,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			},
-			"castsBerserk" :
-			{
+			"castsBerserk" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.berserk",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			},
-			"castsAge" :
-			{
+			"castsAge" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.age",
-				"addInfo" : [0, 1],
+				"addInfo" : [
+					0,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			},
-			"castsHypnotize" :
-			{
+			"castsHypnotize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.hypnotize",
-				"addInfo" : [3, 1],
+				"addInfo" : [
+					3,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			},
-			"castsMisfortune" :
-			{
+			"castsMisfortune" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.misfortune",
-				"addInfo" : [3, 1],
+				"addInfo" : [
+					3,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			},
-			"castsDisruptingRay" :
-			{
+			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",
-				"addInfo" : [3, 1],
+				"addInfo" : [
+					3,
+					1
+				],
 				"val" : 4
 			},
-			"castsDisease" :
-			{
+			"castsDisease" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disease",
-				"addInfo" : [0, 1],
+				"addInfo" : [
+					0,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			},
-			"castsWeakness" :
-			{
+			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
-				"addInfo" : [2, 1],
+				"addInfo" : [
+					2,
+					1
+				],
 				"val" : 4,
 				"turns" : 3
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/wogSorceress/ZM193Z",
 			"map" : "creatures/wogSorceress/zmm193z",
 			"iconSmall" : "creatures/wogSorceress/CPrS193Z",
 			"iconLarge" : "creatures/wogSorceress/CPrL193Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX",
 				"attackClimaxFrame" : 5,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -98,
 					"middleX" : 62,
@@ -186,11 +204,23 @@
 					"lowerX" : 28,
 					"lowerY" : 3
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "MONKATTK.wav",
 			"defend" : "MONKDFND.wav",
 			"killed" : "MONKKILL.wav",

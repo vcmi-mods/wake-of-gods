@@ -4,32 +4,64 @@
 			"cyclopsCaveBig" : {
 				"bannedForRandomDwelling" : true,
 				"name" : "Cyclops Cave",
-				"creatures" : [ [ "cyclop" ] ],
-				"sounds": {
-					"ambient": ["LOOPCAVE.wav"]
-				},				
+				"creatures" : [
+					[
+						"cyclop"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPCAVE.wav"
+					]
+				},
 				"templates" : {
 					"rough" : {
 						"animation" : "dwellings/AVGcycl1",
-						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"visitableFrom" : [	"---", "+++", "+++" ],
-						"allowedTerrains" : [ "rough" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
 					}
 				}
 			},
 			"behemothCragBig" : {
 				"name" : "Behemoth Crag",
 				"bannedForRandomDwelling" : true,
-				"creatures" : [ [ "behemoth" ] ],
-				"sounds": {
-					"ambient": ["LOOPBEHE.wav"]
-				},				
+				"creatures" : [
+					[
+						"behemoth"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPBEHE.wav"
+					]
+				},
 				"templates" : {
 					"rough" : {
 						"animation" : "dwellings/avgbhmt1",
-						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"visitableFrom" : [	"---", "+++", "+++" ],
-						"allowedTerrains" : [ "rough" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
 					}
 				}
 			},
@@ -39,8 +71,15 @@
 				"templates" : {
 					"rough2" : {
 						"animation" : "dwellings/AVGpeas1",
-						"mask" : [ "VV", "BA" ],
-						"visitableFrom" : [	"---", "+++", "+++" ]
+						"mask" : [
+							"VV",
+							"BA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}

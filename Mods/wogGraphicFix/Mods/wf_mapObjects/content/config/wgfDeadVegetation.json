@@ -5,59 +5,119 @@
 				"templates" : {
 					"AVLDEAS0" : {
 						"animation" : "trees/AVLDEAS0",
-						"mask" : [ "VV","VB" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS1" : {
 						"animation" : "trees/AVLDEAS1",
-						"mask" : [ "VV","VB" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS2" : {
 						"animation" : "trees/AVLDEAS2",
-						"mask" : [ "VVVV","VBBV", "VVBB" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS3" : {
 						"animation" : "trees/AVLDEAS3",
-						"mask" : [ "VVVV","VVBB", "VBBV" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS4" : {
 						"animation" : "trees/AVLDEAS4",
-						"mask" : [ "VVVV","VBBV", "VVBB" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS5" : {
 						"animation" : "trees/AVLDEAS5",
-						"mask" : [ "VVVV","VVBB", "VBBV" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS6" : {
 						"animation" : "trees/AVLDEAS6",
-						"mask" : [ "VVVV","VBBV", "VBBB", "VVBB" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"AVLDEAS7" : {
 						"animation" : "trees/AVLDEAS7",
-						"mask" : [ "VVVV","VVBB", "VBBB", "VBBV" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
 					"FRTR00" : {
 						"animation" : "trees/FRTR00",
-						"mask" : [ "B" ],
-						"allowedTerrains" : [ "lava" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					},
 					"FRTR01" : {
 						"animation" : "trees/FRTR01",
-						"mask" : [ "B" ],
-						"allowedTerrains" : [ "lava" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					},
 					"FRTR02" : {
 						"animation" : "trees/FRTR02",
-						"mask" : [ "B" ],
-						"allowedTerrains" : [ "lava" ]
-					}			
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					}
 				}
 			}
 		}

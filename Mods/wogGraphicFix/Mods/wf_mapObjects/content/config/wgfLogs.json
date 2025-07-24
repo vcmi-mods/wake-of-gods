@@ -3,8 +3,7 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"AVLlgdr1" :
-					{
+					"AVLlgdr1" : {
 						"animation" : "logs/AVLlgdr1",
 						"mask" : [
 							"VB"
@@ -13,8 +12,7 @@
 							"dirt"
 						]
 					},
-					"AVLlgdr2" :
-					{
+					"AVLlgdr2" : {
 						"animation" : "logs/AVLlgdr2",
 						"mask" : [
 							"BB"
@@ -23,8 +21,7 @@
 							"dirt"
 						]
 					},
-					"AVLlgdr3" :
-					{
+					"AVLlgdr3" : {
 						"animation" : "logs/AVLlgdr3",
 						"mask" : [
 							"BB"
@@ -33,8 +30,7 @@
 							"dirt"
 						]
 					},
-					"AVLlgdr4" :
-					{
+					"AVLlgdr4" : {
 						"animation" : "logs/AVLlgdr4",
 						"mask" : [
 							"VB"
@@ -43,9 +39,8 @@
 							"dirt"
 						]
 					},
-					
-					"AvLlsdr0" :
-					{
+
+					"AvLlsdr0" : {
 						"animation" : "logs/AvLlsdr0",
 						"mask" : [
 							"VB"
@@ -54,8 +49,7 @@
 							"snow"
 						]
 					},
-					"AvLlsdr1" :
-					{
+					"AvLlsdr1" : {
 						"animation" : "logs/AvLlsdr1",
 						"mask" : [
 							"VB"
@@ -64,8 +58,7 @@
 							"snow"
 						]
 					},
-					"AvLlsdr2" :
-					{
+					"AvLlsdr2" : {
 						"animation" : "logs/AvLlsdr2",
 						"mask" : [
 							"BB"
@@ -74,8 +67,7 @@
 							"snow"
 						]
 					},
-					"AvLlsdr3" :
-					{
+					"AvLlsdr3" : {
 						"animation" : "logs/AvLlsdr3",
 						"mask" : [
 							"BB"
@@ -84,8 +76,7 @@
 							"snow"
 						]
 					},
-					"AvLlsdr4" :
-					{
+					"AvLlsdr4" : {
 						"animation" : "logs/AvLlsdr4",
 						"mask" : [
 							"VB"
@@ -93,7 +84,7 @@
 						"allowedTerrains" : [
 							"snow"
 						]
-					}					
+					}
 				}
 			}
 		}

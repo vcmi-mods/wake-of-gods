@@ -3,157 +3,282 @@
 		"types" : {
 			"rockCoveredPosition" : {
 				"name" : "Rock Covered Position",
-				"creatures" : [[ "lavaSharpshooter" ]],
+				"creatures" : [
+					[
+						"lavaSharpshooter"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPARRW"]
+					"ambient" : [
+						"dwellings/LOOPARRW"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg171z",
-						"mask" : [ "VVVV", "VVVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"snowCoveredPosition" : {
 				"name" : "Snow Covered Position",
-				"creatures" : [[ "arcticSharpshooter" ]],
+				"creatures" : [
+					[
+						"arcticSharpshooter"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPARRW"]
+					"ambient" : [
+						"dwellings/LOOPARRW"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg170z",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"vastCavern" : {
 				"name" : "Vast Cavern",
-				"creatures" : [[ "gorynych" ]],
+				"creatures" : [
+					[
+						"gorynych"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPGRCH"]
+					"ambient" : [
+						"dwellings/LOOPGRCH"
+					]
 				},
 				"templates" : {
 					"rockCavern" : {
 						"animation" : "dwellings/zavg172a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						]
 					},
 					"swampCavern" : {
 						"animation" : "dwellings/zavg172b",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAB" ],
-						"allowedTerrains" : [ "swamp", "lava" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"swamp",
+							"lava"
+						]
 					}
 				}
 			},
 			"dreamHorse-shoe" : {
 				"name" : "Dream Horse-shoe",
-				"creatures" : [[ "nightmare" ]],
+				"creatures" : [
+					[
+						"nightmare"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPSHOE"]
+					"ambient" : [
+						"dwellings/LOOPSHOE"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg173a",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"hellRift" : {
 				"name" : "Hell Rift",
-				"creatures" : [[ "hellSteed" ]],
+				"creatures" : [
+					[
+						"hellSteed"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPHLLRFT"]
+					"ambient" : [
+						"dwellings/LOOPHLLRFT"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg195",
-						"mask" : [ "VVVV", "VBBB", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						]
 					}
 				}
 			},
 			"lostFriary" : {
 				"name" : "Lost Friary",
-				"creatures" : [[ "warZealot" ]],
+				"creatures" : [
+					[
+						"warZealot"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPWZEL"]
+					"ambient" : [
+						"dwellings/LOOPWZEL"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg169",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VBAV"
+						]
 					}
 				}
 			},
 			"snowman" : {
 				"name" : "Snowman",
-				"creatures" : [[ "santaGremlin" ]],
+				"creatures" : [
+					[
+						"santaGremlin"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPSNWMN"]
+					"ambient" : [
+						"dwellings/LOOPSNWMN"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg173",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"sylvanHomestead" : {
 				"name" : "Sylvan Homestead",
-				"creatures" : [[ "sylvanCentaur" ]],
+				"creatures" : [
+					[
+						"sylvanCentaur"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPSLVN"]
+					"ambient" : [
+						"dwellings/LOOPSLVN"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg192",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"enchantedTower" : {
 				"name" : "Enchanted Tower",
-				"creatures" : [[ "wogSorceress" ]],
+				"creatures" : [
+					[
+						"wogSorceress"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPETWR"]
+					"ambient" : [
+						"dwellings/LOOPETWR"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg193",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"howlingHollow" : {
 				"name" : "Howling Hollow",
-				"creatures" : [[ "werewolf" ]],
+				"creatures" : [
+					[
+						"werewolf"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPWRWF"]
+					"ambient" : [
+						"dwellings/LOOPWRWF"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg194",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"dragonGraveyard" : {
 				"name" : "Dragon Graveyard",
-				"creatures" : [[ "dracolich" ]],
+				"creatures" : [
+					[
+						"dracolich"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/LOOPDRACO"]
+					"ambient" : [
+						"dwellings/LOOPDRACO"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/zavg196",
-						"mask" : [ "VVV", "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			}

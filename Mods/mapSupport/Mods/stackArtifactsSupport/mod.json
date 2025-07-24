@@ -23,13 +23,13 @@
 					"warlordsBannerExperience" : 156,
 					"warlordsBannerReducer" : 156,
 					"warlordsBannerBlocker" : 156,
-					"warlordsBannerRetaliate" : 156,
+					"warlordsBannerRetaliate" : 156
 				},
 				"templates" : {
 					"artifacts/zart156.def" : "zart156.def"
 				}
 			}
-		}	
+		}
 	},
 	"polish" : {
 		"name" : "Wsparcie dla artefaktów jednostek",

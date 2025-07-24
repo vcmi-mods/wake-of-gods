@@ -1,7 +1,6 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-
 			"rockCoveredPosition" : {
 				"battleground" : "wake-of-gods.vividbattlefields:rock_covered_position"
 			},

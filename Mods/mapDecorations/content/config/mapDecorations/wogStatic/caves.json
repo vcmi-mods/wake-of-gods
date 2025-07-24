@@ -1,14 +1,22 @@
 {
 	"zcave1" : {
 		"name" : "Adventure Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zcave1" : {
 				"templates" : {
 					"zcave1" : {
 						"animation" : "objects/zcave1.def",
-						"mask" : [ "VVVV", "VVVV", "VVAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
 					}
 				}
 			}
@@ -16,14 +24,22 @@
 	},
 	"zcave2" : {
 		"name" : "Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zcave2" : {
 				"templates" : {
 					"zcave2" : {
 						"animation" : "objects/zcave2.def",
-						"mask" : [ "VVV", "VVV", "BAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
 					}
 				}
 			}
@@ -31,14 +47,22 @@
 	},
 	"zcave3" : {
 		"name" : "Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zcave3" : {
 				"templates" : {
 					"zcave3" : {
 						"animation" : "objects/zcave3.def",
-						"mask" : [ "VVVV", "VVVV", "VVAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
 					}
 				}
 			}
@@ -46,14 +70,21 @@
 	},
 	"zcave4" : {
 		"name" : "Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zcave4" : {
 				"templates" : {
 					"zcave4" : {
 						"animation" : "objects/zcave4.def",
-						"mask" : [ "VVV", "BAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
 					}
 				}
 			}
@@ -61,14 +92,22 @@
 	},
 	"zcave5" : {
 		"name" : "Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zcave5" : {
 				"templates" : {
 					"zcave5" : {
 						"animation" : "objects/zcave5.def",
-						"mask" : [ "VVV", "VVV", "BAV" ],
-						"visitableFrom" : [ "---", "+--", "+++" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"BAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+--",
+							"+++"
+						]
 					}
 				}
 			}
@@ -76,14 +115,22 @@
 	},
 	"z358o9" : {
 		"name" : "Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"z358o9" : {
 				"templates" : {
 					"z358o9" : {
 						"animation" : "objects/z358o9.def",
-						"mask" : [ "VVVV", "VVBV", "VBAB" ],
-						"visitableFrom" : [ "---", "---", "+++" ]
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
 					}
 				}
 			}
@@ -91,14 +138,23 @@
 	},
 	"z358o10" : {
 		"name" : "Cave",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"z358o10" : {
 				"templates" : {
 					"z358o10" : {
 						"animation" : "objects/z358o10.def",
-						"mask" : [ "VVVVV", "VVVVV", "VVBBB", "VBBAB" ],
-						"visitableFrom" : [ "---", "--+", "--+" ]
+						"mask" : [
+							"VVVVV",
+							"VVVVV",
+							"VVBBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"--+",
+							"--+"
+						]
 					}
 				}
 			}

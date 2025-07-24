@@ -1,15 +1,12 @@
 {
-	"lavaSharpshooter" :
-	{
-		"name" :
-		{
+	"lavaSharpshooter" : {
+		"name" : {
 			"singular" : "Lava Sharpshooter",
 			"plural" : "Lava Sharpshooters"
 		},
 		"faction" : "neutral",
 		"level" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 500
 		},
 		"speed" : 9,
@@ -17,65 +14,53 @@
 		"shots" : 32,
 		"attack" : 12,
 		"defense" : 11,
-		"damage" :
-		{
-			 "min" : 8,
-			 "max" : 10
+		"damage" : {
+			"min" : 8,
+			"max" : 10
 		},
 		"fightValue" : 500,
 		"aiValue" : 700,
-		"advMapAmount" :
-		{
-			 "min" : 8,
-			 "max" : 12
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
 		},
 		"growth" : 3,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"airShield" :
-			{
+			"airShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.fireShield",
 				"val" : 3
-//				"addInfo" : 1
+				//				"addInfo" : 1
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MAX",
 				"description" : "PLACEHOLDER",
 				"val" : 0
-				
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/lavaSharpshooter/ZM171SR",
 			"map" : "creatures/lavaSharpshooter/zmm171s",
 			"iconSmall" : "creatures/lavaSharpshooter/CPrS171N",
 			"iconLarge" : "creatures/lavaSharpshooter/CPrL171M",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.02,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 11,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 32,
 					"upperY" : -77,
 					"middleX" : 40,
@@ -83,11 +68,23 @@
 					"lowerX" : 18,
 					"lowerY" : -55
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "HCRSATTK.wav",
 			"defend" : "HCRSDFND.wav",
 			"killed" : "HCRSKILL.wav",

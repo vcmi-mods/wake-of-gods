@@ -1,14 +1,22 @@
 {
 	"zyzop1" : {
 		"name" : "Hut",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
-			"zyzop1" : {			
-				"templates" : {		
+			"zyzop1" : {
+				"templates" : {
 					"zyzop1" : {
 						"animation" : "objects/zyzop1.def",
-						"visitableFrom" : [ "---", "---", "++-" ],
-						"mask" : [ "VVV", "VVV", "VAV" ]
+						"visitableFrom" : [
+							"---",
+							"---",
+							"++-"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						]
 					}
 				}
 			}
@@ -16,14 +24,22 @@
 	},
 	"zyzop2" : {
 		"name" : "Hut",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
-			"zyzop2" : {			
-				"templates" : {		
+			"zyzop2" : {
+				"templates" : {
 					"zyzop2" : {
 						"animation" : "objects/zyzop2.def",
-						"visitableFrom" : [ "---", "---", "-++" ],
-						"mask" : [ "VVV", "VVV", "VAV" ]
+						"visitableFrom" : [
+							"---",
+							"---",
+							"-++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						]
 					}
 				}
 			}

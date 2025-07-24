@@ -18,7 +18,7 @@
 		"movement-arrows.hota_yellow",
 		"movement-arrows.hota_yellow-orange"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "英雄移动箭头",
 		"description" : "改变英雄移动箭头样式。"
 	},

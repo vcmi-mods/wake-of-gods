@@ -1,12 +1,12 @@
 {
-	"bootsOfHaste" :
-	{
-		"type" : ["COMMANDER"],
+	"bootsOfHaste" : {
+		"type" : [
+			"COMMANDER"
+		],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"speed" :
-			{
+			"speed" : {
 				"type" : "STACKS_SPEED",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
@@ -17,14 +17,11 @@
 			"scenarioBonus" : "artifacts/HrArt151L",
 			"map" : "artifacts/zart151.def"
 		},
-		"growing" :
-		{
-			"bonusesPerLevel" :
-			[
+		"growing" : {
+			"bonusesPerLevel" : [
 				{
 					"level" : 10,
-					"bonus" : 
-					{
+					"bonus" : {
 						"type" : "STACKS_SPEED",
 						"val" : 1
 					}

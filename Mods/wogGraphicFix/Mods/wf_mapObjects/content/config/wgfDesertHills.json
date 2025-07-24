@@ -5,18 +5,30 @@
 				"templates" : {
 					"avlxds13" : {
 						"animation" : "mountains/avlxds13",
-						"mask" : [ "BBB" ],
-						"allowedTerrains" : ["sand" ]
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					},
 					"AVLXds08" : {
 						"animation" : "mountains/AVLXds08",
-						"mask" : [ "BBB" ],
-						"allowedTerrains" : ["sand" ]
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					},
 					"AVLXds09" : {
 						"animation" : "mountains/AVLXds09",
-						"mask" : [ "BBB" ],
-						"allowedTerrains" : ["sand" ]
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					}
 				}
 			}

@@ -1,12 +1,20 @@
 {
-	"core:schoolOfMagic" : { //unused graphic hidden in h3sprites.lod
+	"core:schoolOfMagic" : {
+		//unused graphic hidden in h3sprites.lod
 		"types" : {
 			"schoolOfMagic" : {
 				"templates" : {
 					"AvArtif" : {
 						"animation" : "AvArtif.def",
-						"visitableFrom" : [ "---", "+-+", "+++" ],
-						"mask" : [ "VV", "VA" ]
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"mask" : [
+							"VV",
+							"VA"
+						]
 					}
 				}
 			}

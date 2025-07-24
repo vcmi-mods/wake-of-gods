@@ -1,14 +1,18 @@
 {
 	"wall1" : {
 		"name" : "Wall",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"wall1" : {
 				"name" : "Wall",
 				"templates" : {
 					"wwall1" : {
 						"animation" : "objects/wall1.def",
-						"mask" : [ "VVB", "BBB", "BVV" ]
+						"mask" : [
+							"VVB",
+							"BBB",
+							"BVV"
+						]
 					}
 				}
 			}
@@ -16,14 +20,18 @@
 	},
 	"wall2" : {
 		"name" : "Wall",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"wall2" : {
 				"name" : "Wall",
 				"templates" : {
 					"wwall2" : {
 						"animation" : "objects/wall2.def",
-						"mask" : [ "BVV", "BBB", "VVB" ]
+						"mask" : [
+							"BVV",
+							"BBB",
+							"VVB"
+						]
 					}
 				}
 			}
@@ -31,14 +39,18 @@
 	},
 	"zwall001" : {
 		"name" : "Wall",
-		"handler" :"generic",
-		"types" : {			
+		"handler" : "generic",
+		"types" : {
 			"zwall001" : {
 				"name" : "Wall",
 				"templates" : {
 					"zwall001" : {
 						"animation" : "objects/zwall001.def",
-						"mask" : [ "VVVV", "VBBB", "VVVV" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVVV"
+						]
 					}
 				}
 			}
@@ -46,14 +58,18 @@
 	},
 	"zwall002" : {
 		"name" : "Wall",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zwall002" : {
 				"name" : "Wall",
 				"templates" : {
 					"zwall002" : {
 						"animation" : "objects/zwall002.def",
-						"mask" : [ "VVV", "VBV", "BBV" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"BBV"
+						]
 					}
 				}
 			}
@@ -61,14 +77,18 @@
 	},
 	"zwall003" : {
 		"name" : "Wall",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"zwall003" : {
 				"name" : "Wall",
 				"templates" : {
 					"zwall003" : {
 						"animation" : "objects/zwall003.def",
-						"mask" : [ "VVV", "VBV", "VBB" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBB"
+						]
 					}
 				}
 			}

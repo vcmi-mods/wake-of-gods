@@ -1,12 +1,13 @@
 {
-	"axeOfSmashing" : //TODO: move growing bonuses to this config, someday
-	{
-		"type" : ["COMMANDER"],
+	//TODO: move growing bonuses to this config, someday
+	"axeOfSmashing" : {
+		"type" : [
+			"COMMANDER"
+		],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"attack" :
-			{
+			"attack" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
 				"val" : 5,
@@ -18,14 +19,11 @@
 			"scenarioBonus" : "artifacts/HrArt146L",
 			"map" : "artifacts/zart146.def"
 		},
-		"growing" :
-		{
-			"bonusesPerLevel" :
-			[
+		"growing" : {
+			"bonusesPerLevel" : [
 				{
 					"level" : 6,
-					"bonus" : 
-					{
+					"bonus" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "attack",
 						"val" : 1

@@ -4,10 +4,12 @@
 			"wogLibraryOfEnlightenment" : {
 				"aiValue" : 12000,
 				"rmg" : {
-					"value"		: 12000,
-					"rarity"	: 20
+					"value" : 12000,
+					"rarity" : 20
 				},
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers" : [
+					"object"
+				],
 
 				"onVisitedMessage" : 67,
 				"onEmptyMessage" : 68,
@@ -18,14 +20,31 @@
 					{
 						"limiter" : {
 							"anyOf" : [
-								{ "heroLevel" : 10 },
-								{ "heroLevel" :  8, "secondary" : { "diplomacy" : 1 } },
-								{ "heroLevel" :  6, "secondary" : { "diplomacy" : 2 } },
-								{ "heroLevel" :  4, "secondary" : { "diplomacy" : 3 } }
+								{
+									"heroLevel" : 10
+								},
+								{
+									"heroLevel" : 8,
+									"secondary" : {
+										"diplomacy" : 1
+									}
+								},
+								{
+									"heroLevel" : 6,
+									"secondary" : {
+										"diplomacy" : 2
+									}
+								},
+								{
+									"heroLevel" : 4,
+									"secondary" : {
+										"diplomacy" : 3
+									}
+								}
 							]
 						},
 						"message" : 66,
-						"primary" : { 
+						"primary" : {
 							"attack" : 2,
 							"defence" : 2,
 							"spellpower" : 2,
@@ -33,13 +52,23 @@
 						}
 					}
 				],
-				
+
 				"templates" : {
 					"z358o3" : {
 						"animation" : "objects/z358o3.def",
-						"mask" : [ "VVVVV", "VVVBB", "VBBAB" ],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : [ "snow" ]
+						"mask" : [
+							"VVVVV",
+							"VVVBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}

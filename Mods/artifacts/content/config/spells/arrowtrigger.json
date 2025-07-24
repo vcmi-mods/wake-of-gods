@@ -1,11 +1,9 @@
 {
-	"arrowtrigger" :
-	{
-		"type" : "ability", 
-		"targetType" : "CREATURE", 
-		"name" : "Gold Tower Arrow", 
-		"school" :
-		{
+	"arrowtrigger" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "Gold Tower Arrow",
+		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : false,
@@ -13,18 +11,17 @@
 		},
 		"level" : 0,
 		"power" : 0,
-		
-		"defaultGainChance" : 0, 
-		"gainChance" :
-		{
-		},
 
-		"animation" :{
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"animation" : {},
+
+		"flags" : {
+			"positive" : true,
+			"special" : true
 		},
- 
-		"flags" : { "positive" : true, "special" : true },
-		"graphics" :
-		{
+		"graphics" : {
 			"iconBook" : "CmNumWin",
 			"iconEffect" : "CmNumWin",
 			"iconScroll" : "CmNumWin",
@@ -34,36 +31,23 @@
 		"sounds" : {
 			"cast" : null
 		},
- 
-		"levels" :
-		{
-			"base" :
-			{
+
+		"levels" : {
+			"base" : {
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
-//				"aiValue" : 70,
+				//				"aiValue" : 70,
 				"description" : "",
-				"targetModifier" :
-				{
+				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" :
-				{
-				}
+				"effects" : {}
 			},
-			"none" :
-			{
-			},
-			"basic" :
-			{ 
-			},
-			"advanced" :
-			{
-			},
-			"expert" :
-			{
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

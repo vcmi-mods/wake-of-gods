@@ -9,7 +9,7 @@
 	"depends" : [
 		"vcmi"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "生物经验图标",
 		"description" : "这个模组添加新的带数字的生物经验图标。"
 	},

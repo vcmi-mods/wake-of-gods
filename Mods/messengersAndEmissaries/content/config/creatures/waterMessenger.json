@@ -1,68 +1,57 @@
 {
-	"waterMessenger" :
-	{
-		"name" :
-		{
+	"waterMessenger" : {
+		"name" : {
 			"singular" : "Water Messenger",
 			"plural" : "Water Messengers"
 		},
 		"faction" : "neutral",
 		"level" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 750
 		},
 		"speed" : 5,
 		"hitPoints" : 80,
 		"attack" : 13,
 		"defense" : 12,
-		"damage" :
-		{
-			 "min" : 10,
-			 "max" : 14
+		"damage" : {
+			"min" : 10,
+			"max" : 14
 		},
 		"fightValue" : 775,
 		"aiValue" : 775,
-		"advMapAmount" :
-		{
-			 "min" : 8,
-			 "max" : 10
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 10
 		},
 		"growth" : 2,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"waterProtection" :
-			{
+		"abilities" : {
+			"waterProtection" : {
 				"type" : "ENCHANTED",
 				"subtype" : "protectWater",
 				"val" : 3
-//				"addInfo" : 3
+				//				"addInfo" : 3
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/waterMessenger/ZM167GD",
 			"map" : "creatures/waterMessenger/zmm167d",
 			"iconSmall" : "creatures/waterMessenger/CPrS167N",
 			"iconLarge" : "creatures/waterMessenger/CPrL167M",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.6,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "SGLMATTK.wav",
 			"defend" : "SGLMDFND.wav",
 			"killed" : "SGLMKILL.wav",

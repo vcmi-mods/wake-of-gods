@@ -5,8 +5,13 @@
 				"templates" : {
 					"zlava001" : {
 						"animation" : "objects/zlava001.def",
-						"mask" : [ "VBBV", "VBBV" ],
-						"allowedTerrains" : [ "lava" ]
+						"mask" : [
+							"VBBV",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					}
 				}
 			}
