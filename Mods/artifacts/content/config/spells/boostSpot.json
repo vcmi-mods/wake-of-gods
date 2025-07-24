@@ -45,7 +45,7 @@
 						"hidden" : true,
 						"passable" : true,
 						"trap" : false,
-						"trigger" : true,
+//						"trigger" : true,
 						"removeOnTrigger" : true,
 						"patchCount" : 4,
 						"turnsRemaining" : -1,

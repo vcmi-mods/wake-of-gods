@@ -51,8 +51,8 @@
 						"id" :"redDragonClone",
 						"permanent" :false,
 						"summonByHealth" : true,
-						"type" :"core:summon",
-						"maxFullUnits" : 1
+						"type" :"core:summon"
+//						"maxFullUnits" : 1
 					}
 				}
 			},
