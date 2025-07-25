@@ -1,64 +1,78 @@
 {
-	"emissaryOfPeace" : {
-		"name" : {
+	"emissaryOfPeace" :
+	{
+		"name" :
+		{
 			"singular" : "Emissary of Peace",
 			"plural" : "Emissaries of Peace"
 		},
 		"faction" : "neutral",
 		"special" : true,
 		"level" : 6,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 30000
 		},
 		"speed" : 4,
 		"hitPoints" : 2000,
 		"attack" : 0,
 		"defense" : 10,
-		"damage" : {
-			"min" : 1,
-			"max" : 1
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 1
 		},
 		"fightValue" : 10,
 		"aiValue" : 20000,
-		"advMapAmount" : {
-			"min" : 1,
-			"max" : 1
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 1
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" : {
-			"teleporting" : {
+		"abilities" :
+		{
+			"teleporting" :
+			{
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"addDefence" : {
+			"addDefence" :
+			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"updater" : {
 					"type" : "GROWS_WITH_LEVEL",
-					"valPer20" : 4,
-					"stepSize" : 1
+					    "valPer20" : 4,
+						"stepSize" : 1
 				},
-				"propagator" : "HERO"
+				"propagator" : "HERO",
+				"description" : "{Peace Emissary}\nGranst hero additional Defense points which grow with hero's levels",
+				"icon" : "icons/placeholder.png"				
 			},
-			"spellImmunity" : {
+			"spellImmunity" :
+			{
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			}
 		},
-		"graphics" : {
+		"graphics" :
+		{
 			"animation" : "creatures/emissaryOfPeace/ZM161G",
-			//			"map" : "creatures/emissaryOfPeace/zmm161g",
+//			"map" : "creatures/emissaryOfPeace/zmm161g",
 			"iconSmall" : "creatures/emissaryOfPeace/CPrS161G",
 			"iconLarge" : "creatures/emissaryOfPeace/CPrL161G",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
+			"animationTime" :
+			{
 				"walk" : 2,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" : {
+		"sound" :
+		{
 			"attack" : "AAGLATTK.wav",
 			"defend" : "AAGLDFND.wav",
 			"killed" : "AAGLKILL.wav",

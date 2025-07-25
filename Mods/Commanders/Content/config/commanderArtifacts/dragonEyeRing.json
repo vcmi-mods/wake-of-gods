@@ -1,16 +1,17 @@
 {
-	//TODO: implement
-	"dragonEyeRing" : {
-		"type" : [
-			"COMMANDER"
-		],
+	"dragonEyeRing" : //TODO: implement
+	{
+		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
-		"bonuses" : {
-			"dragonNature" : {
+		"bonuses" : 
+		{
+			"dragonNature" :
+			{
 				"type" : "DRAGON_NATURE"
 			},
-			"2hexAttack" : {
+			"2hexAttack" :
+			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			}
 		},

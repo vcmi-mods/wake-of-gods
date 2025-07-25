@@ -1,1974 +1,936 @@
 {
-	"wake-of-gods.creatures:arcticSharpshooter" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:arcticSharpshooter" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					3,
-					4,
-					4,
-					6,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					7
-				]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7
-				]
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "FREE_SHOOTING"
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "iceBolt"
 				},
-				"values" : [
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "frostRing"
 				},
-				"values" : [
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:dracolich" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:dracolich" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
+
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					2,
-					2,
-					2,
-					2,
-					3
-				]
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SHOTS",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [
-					1,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_RESISTANCE_AURA" //sprawdzić czy jest na obecnosc czy na powiekrzenie mocy aury
 				},
-				"values" : [
-					2,
-					4,
-					6,
-					8,
-					10,
-					12,
-					14,
-					16,
-					18,
-					20
-				]
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
-					"addInfo" : [
-						1,
-						0
-					]
+					"addInfo" : [ 1, 0 ]
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:ghost" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:ghost" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5,
-					5
-				]
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5,
-					5
-				]
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0
-				]
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "sorrow"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
-			},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},				
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "slow"
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:gorynych" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:gorynych" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
-			},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1
-				]
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HP_REGENERATION"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					50,
-					50,
-					50,
-					50,
-					50,
-					50
-				]
+				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "greenDragon"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					10,
-					20,
-					30,
-					40,
-					50
-				]
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
 
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "FEARFUL", //old fearless
 					"valueType" : "INDEPENDENT_MIN",
-					"val" : 0
+					"val" : 0 
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:hellSteed" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:hellSteed" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
-			},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
-			},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},		
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "FEARFUL", //old fearless
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 0
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "RECEPTIVE"
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "fireball",
-					"addInfo" : [
-						3,
-						2
-					]
+					"addInfo" : [ 3, 2 ]
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:lavaSharpshooter" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:lavaSharpshooter" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
-			},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					3,
-					4,
-					4,
-					6,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					7
-				]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7
-				]
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "FREE_SHOOTING"
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "fire"
 				},
-				"values" : [
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:nightmare" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:nightmare" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" : 
+				{
 					"type" : "DEATH_STARE",
 					"subtype" : "deathStareGorgon"
 				},
-				"values" : [
-					12,
-					14,
-					16,
-					18,
-					20,
-					22,
-					24,
-					26,
-					28,
-					30
-				]
+				"values" : [ 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "FEARFUL", //old fear
 					"val" : 10,
-					"propagator" : "BATTLE_WIDE",
+					"propagator": "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"description" : "PLACEHOLDER",
-					"limiters" : [
-						"OPPOSITE_SIDE",
+					"limiters" : [ 
+						"OPPOSITE_SIDE", 
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "LIVING"
 						}
 					]
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "deathRipple",
-					"addInfo" : [
-						3,
-						2
-					]
+					"addInfo" : [ 3, 2 ]
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:santaGremlin" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:santaGremlin" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5,
-					5
-				]
-			},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5,
-					5
-				]
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			}
-			//			{
-			//				"bonus" :
-			//				{
-			//					"type" : "SUMMON_GUARDIANS",
-			//				},
-			//				"values" : [ 10, 20, 30, 40, 5, 10, 20, 30, 40, 50 ]
-			//			},
-			//			{
-			//				"bonus" :
-			//				{
-			//					"type" : "SUMMON_GUARDIANS",
-			//					"subtype" : "masterGremlin",
-			//				},
-			//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
-			//			}
+//			{
+//				"bonus" : 
+//				{
+//					"type" : "SUMMON_GUARDIANS",
+//				},
+//				"values" : [ 10, 20, 30, 40, 5, 10, 20, 30, 40, 50 ]
+//			},
+//			{
+//				"bonus" : 
+//				{
+//					"type" : "SUMMON_GUARDIANS",
+//					"subtype" : "masterGremlin",
+//				},
+//				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+//			}
 		]
 	},
 
-	"wake-of-gods.creatures:sylvanCentaur" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:sylvanCentaur" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5,
-					5
-				]
-			},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5,
-					5
-				]
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "LEVEL_SPELL_IMMUNITY"
 					// "subtype" : 1 // positive only?
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:warZealot" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:warZealot" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
-			},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					7
-				]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7
-				]
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" : 
+				{
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "dispelHelpful"
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
 					// "subtype" : 1 //all except positive - TODO - implement
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "lich"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					10,
-					20,
-					30,
-					40,
-					50
-				]
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "powerLich"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					10,
-					20,
-					30,
-					40,
-					50
-				]
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "ADDITIONAL_ATTACK",
 					"effectRange" : "ONLY_DISTANCE_FIGHT"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1
-				]
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:werewolf" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:werewolf" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7,
-					8
-				]
-			},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					4
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HP_REGENERATION"
 				},
-				"values" : [
-					4,
-					8,
-					12,
-					16,
-					20,
-					24,
-					28,
-					32,
-					36,
-					40
-				]
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "griffin"
 				},
-				"values" : [
-					10,
-					20,
-					30,
-					40,
-					50,
-					60,
-					70,
-					80,
-					90,
-					100
-				]
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "royalGriffin"
 				},
-				"values" : [
-					10,
-					20,
-					30,
-					40,
-					50,
-					60,
-					70,
-					80,
-					90,
-					100
-				]
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "roc"
 				},
-				"values" : [
-					10,
-					20,
-					30,
-					40,
-					50,
-					60,
-					70,
-					80,
-					90,
-					100
-				]
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "HATE",
 					"subtype" : "thunderbird"
 				},
-				"values" : [
-					10,
-					20,
-					30,
-					40,
-					50,
-					60,
-					70,
-					80,
-					90,
-					100
-				]
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
 		]
 	},
 
-	"wake-of-gods.creatures:wogSorceress" : {
-		"stackExperience" : [
+	"wake-of-gods.creatures:wogSorceress" :
+	{
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
-			},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "clone",
-					"addInfo" : [
-						3,
-						1
-					]
+					"addInfo" : [ 3, 1 ]
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
-			//tu powinien być jeszcze bonus z przywoływaniem Czarodziejów w drugiej turze, raczej nie do zrobienia jak w WoG
+//tu powinien być jeszcze bonus z przywoływaniem Czarodziejów w drugiej turze, raczej nie do zrobienia jak w WoG
 		]
 	}
 }

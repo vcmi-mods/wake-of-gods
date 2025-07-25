@@ -1,206 +1,217 @@
 {
-	"monstersPower" : {
-		"type" : [
-			"HERO"
-		],
+	"monstersPower" :
+	{
+		"type" : ["HERO"],
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 10000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt143",
 			"scenarioBonus" : "artifacts/HrArt143L",
 			"map" : "artifacts/zart143.def"
 		},
 		"bonuses" : {
-			"enchant1" : {
+			"enchant1" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "good"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "dirt"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" :  "dirt"
 					}
 				]
 			},
-			"enchant2" : {
+			"enchant2" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "good"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "lava"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "lava"
 					}
 				]
 			},
-			"enchant3" : {
+			"enchant3" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "good"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "subterra"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "subterra"
 					}
 				]
 			},
-			"enchant4" : {
+			"enchant4" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "good"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "rough"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "rough"
 					}
 				]
 			},
-			"enchant5" : {
+			"enchant5" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "evil"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "grass"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "grass"
 					}
 				]
 			},
-			"enchant6" : {
+			"enchant6" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "evil"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "snow"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "snow"
 					}
 				]
 			},
-			"enchant7" : {
+			"enchant7" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "evil"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "swamp"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "swamp"
 					}
 				]
 			},
-			"enchant8" : {
+			"enchant8" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "evil"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "water"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "water"
 					}
 				]
 			},
-			"enchant9" : {
+			"enchant9" :
+			{
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "neutral"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "dirt"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "dirt"
 					}
 				]
 			},
-			"enchant10" : {
+			"enchant10" :
+			{
 				"subtype" : "prayer",
 				"type" : "ENCHANTED",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "neutral"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "sand"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "sand"
 					}
 				]
 			},
-			"enchant11" : {
+			"enchant11" :
+			{
 				"subtype" : "prayer",
 				"type" : "ENCHANTED",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "neutral"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "subterra"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "subterra"
 					}
 				]
 			},
-			"enchant12" : {
+			"enchant12" :
+			{
 				"subtype" : "prayer",
 				"type" : "ENCHANTED",
 				"val" : 1,
 				"limiters" : [
-					"allOf",
+					"allOf", 
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"alignment" : "neutral"
 					},
 					{
-						"type" : "CREATURE_TERRAIN_LIMITER",
-						"terrain" : "snow"
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"terrain" : "snow"
 					}
 				]
 			}
@@ -208,7 +219,7 @@
 		"text" : {
 			"name" : "Monster's Power",
 			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on diffirent creatures depends on terrain battle is fought.\r\n\r\nAt dirt, lava, subterra and rough terrain - good creatures are affected.\r\nAt grass, snow, swamp and water terrain - evil creatures are affected.\r\nAt dirt, sand, subterra and snow terrain - neutral creatures are affected.",
-			//			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on all monsters of one kind. Every week, a new random monster is selected from the hero’s army and Prayer will be cast on ALL monsters of this type that every hero has during that week.",
+//			"description" : "{Monster's Power}\r\n\r\nCasts Prayer on all monsters of one kind. Every week, a new random monster is selected from the hero’s army and Prayer will be cast on ALL monsters of this type that every hero has during that week.",
 			"event" : "You find the Monster's Power, dust it off, and stick it in your pack."
 		}
 	}

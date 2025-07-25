@@ -1,13 +1,15 @@
 {
-	"core:spellBook" : {
+	"core:spellBook" :
+	{
 		"class" : "MINOR",
 		"graphics" : {
 			"image" : "warArts/HrArt000",
 			"scenarioBonus" : "warArts/HrArt000L",
-			"map" : "warArts/ava0000"
+			"map" : "warArts/ava0000" 
 		}
 	},
-	"core:grail" : {
+	"core:grail" :
+	{
 		"class" : "RELIC",
 		"graphics" : {
 			"image" : "warArts/HrArt122",
@@ -15,7 +17,8 @@
 			"map" : "warArts/ava0002"
 		}
 	},
-	"core:catapult" : {
+	"core:catapult" :
+	{
 		"class" : "SPECIAL",
 		"graphics" : {
 			"image" : "warArts/HrArt123",
@@ -23,7 +26,8 @@
 			"map" : "warArts/ava0003"
 		}
 	},
-	"core:ballista" : {
+	"core:ballista" :
+	{
 		"class" : "MAJOR",
 		"graphics" : {
 			"image" : "warArts/HrArt124",
@@ -31,7 +35,8 @@
 			"map" : "warArts/ava0004"
 		}
 	},
-	"core:ammoCart" : {
+	"core:ammoCart" :
+	{
 		"class" : "MINOR",
 		"graphics" : {
 			"image" : "warArts/HrArt125",
@@ -39,7 +44,8 @@
 			"map" : "warArts/ava0005"
 		}
 	},
-	"core:firstAidTent" : {
+	"core:firstAidTent" :
+	{
 		"class" : "MINOR",
 		"graphics" : {
 			"image" : "warArts/HrArt126",

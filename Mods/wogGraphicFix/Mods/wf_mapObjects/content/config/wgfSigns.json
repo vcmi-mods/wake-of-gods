@@ -5,17 +5,9 @@
 				"templates" : {
 					"avxsnrr0" : {
 						"animation" : "signs/avxsnrr0",
-						"mask" : [
-							"VA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"rough"
-						]
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : [ "rough" ]
 					}
 				}
 			}

@@ -4,14 +4,12 @@
 			"wogWitchHut" : {
 				"aiValue" : 1500,
 				"rmg" : {
-					"zoneLimit" : 3,
-					"value" : 1500,
-					"rarity" : 80
+					"zoneLimit"	: 3,
+					"value"		: 1500,
+					"rarity"	: 80
 				},
-				"compatibilityIdentifiers" : [
-					"object"
-				],
-
+				"compatibilityIdentifiers" : [ "object" ],
+				
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
 				"description" : "@core.xtrainfo.12",
@@ -19,8 +17,7 @@
 
 				"variables" : {
 					"secondarySkill" : {
-						"gainedSkill" : {
-							// Note: this variable name is used by engine for H3M loading and by AI
+						"gainedSkill" : { // Note: this variable name is used by engine for H3M loading and by AI
 							"noneOf" : [
 								"leadership",
 								"necromancy"
@@ -54,22 +51,12 @@
 				],
 				"onVisitedMessage" : 172, // You already known this skill
 				"onEmptyMessage" : 173, // You know too much (no free slots)
-				"templates" : {
+				"templates" :{
 					"z358o4" : {
 						"animation" : "objects/z358o4.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

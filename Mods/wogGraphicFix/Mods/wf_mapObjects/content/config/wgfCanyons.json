@@ -5,14 +5,8 @@
 				"templates" : {
 					"avlglly1" : {
 						"animation" : "canyons/avlglly1",
-						"mask" : [
-							"VVBB",
-							"BBBB",
-							"BBVV"
-						],
-						"allowedTerrains" : [
-							"rough"
-						],
+						"mask" : [ "VVBB", "BBBB", "BBVV" ],
+						"allowedTerrains" : [ "rough" ],
 						"zIndex" : 100
 					}
 				}

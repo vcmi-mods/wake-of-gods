@@ -4,13 +4,11 @@
 			"wogShrineOfMagicLevel3" : {
 				"aiValue" : 3000,
 				"rmg" : {
-					"value" : 3000,
-					"rarity" : 100
+					"value"		: 3000,
+					"rarity"	: 100
 				},
-				"compatibilityIdentifiers" : [
-					"object"
-				],
-
+				"compatibilityIdentifiers" : [ "object" ],
+				
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
 				"description" : "@core.xtrainfo.21",
@@ -18,8 +16,7 @@
 
 				"variables" : {
 					"spell" : {
-						"gainedSpell" : {
-							// Note: this variable name is used by engine for H3M loading
+						"gainedSpell" : { // Note: this variable name is used by engine for H3M loading
 							"level" : 3
 						}
 					}
@@ -40,17 +37,10 @@
 							"@gainedSpell"
 						],
 						"description" : "@core.genrltxt.355",
-						"message" : [
-							129,
-							"{%s}."
-						] // You learn new spell
+						"message" : [ 129, "{%s}." ] // You learn new spell
 					}
 				],
-				"onVisitedMessage" : [
-					129,
-					"{%s}. ",
-					174
-				], // You already known this spell
+				"onVisitedMessage" : [ 129, "{%s}. ", 174 ], // You already known this spell
 				"onEmpty" : [
 					{
 						"limiter" : {
@@ -60,35 +50,18 @@
 								}
 							]
 						},
-						"message" : [
-							129,
-							"{%s}. ",
-							130
-						] // No Wisdom
+						"message" : [ 129, "{%s}. ", 130 ] // No Wisdom
 					},
 					{
-						"message" : [
-							129,
-							"{%s}. ",
-							131
-						] // No spellbook
+						"message" : [ 129, "{%s}. ", 131 ] // No spellbook
 					}
 				],
 				"templates" : {
 					"zobj046" : {
 						"animation" : "objects/zobj046.def",
-						"mask" : [
-							"V",
-							"A"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"grass"
-						]
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : [ "grass" ]
 					}
 				}
 			}

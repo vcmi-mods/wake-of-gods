@@ -1,73 +1,82 @@
-{
-	"wake-of-gods.stackartifacts:warlordsBannerHealth" : {
-		"graphics" : {
+{		
+	"wake-of-gods.stackartifacts:warlordsBannerHealth" :
+	{
+		"graphics" : { 
 			"image" : "small/health",
-			"scenarioBonus" : "scenarioBonus/health",
+			"scenarioBonus" : "scenarioBonus/health", 
 			"map" : "big/health"
 		}
 	},
-
-	"wake-of-gods.stackartifacts:warlordsBannerAttack" : {
-		"graphics" : {
+	
+	"wake-of-gods.stackartifacts:warlordsBannerAttack" :
+	{
+		"graphics" : { 
 			"image" : "small/attack",
-			"scenarioBonus" : "scenarioBonus/attack",
+			"scenarioBonus" : "scenarioBonus/attack", 
 			"map" : "big/attack"
 		}
 	},
 
-	"wake-of-gods.stackartifacts:warlordsBannerDefence" : {
-		"graphics" : {
+	"wake-of-gods.stackartifacts:warlordsBannerDefence" :
+	{
+		"graphics" : { 
 			"image" : "small/defense",
-			"scenarioBonus" : "scenarioBonus/defense",
+			"scenarioBonus" : "scenarioBonus/defense", 
 			"map" : "big/defense"
 		}
 	},
-
-	"wake-of-gods.stackartifacts:warlordsBannerDamage" : {
-		"graphics" : {
+	
+	"wake-of-gods.stackartifacts:warlordsBannerDamage" :
+	{
+		"graphics" : { 
 			"image" : "small/damage",
-			"scenarioBonus" : "scenarioBonus/damage",
+			"scenarioBonus" : "scenarioBonus/damage", 
 			"map" : "big/damage"
 		}
 	},
 
-	"wake-of-gods.stackartifacts:warlordsBannerSpeed" : {
-		"graphics" : {
+	"wake-of-gods.stackartifacts:warlordsBannerSpeed" :
+	{
+		"graphics" : { 
 			"image" : "small/speed",
-			"scenarioBonus" : "scenarioBonus/speed",
+			"scenarioBonus" : "scenarioBonus/speed", 
 			"map" : "big/speed"
 		}
 	},
 
-	"wake-of-gods.stackartifacts:warlordsBannerExperience" : {
-		"graphics" : {
+	"wake-of-gods.stackartifacts:warlordsBannerExperience" :
+	{
+		"graphics" : { 
 			"image" : "small/experience",
-			"scenarioBonus" : "scenarioBonus/experience",
+			"scenarioBonus" : "scenarioBonus/experience", 
 			"map" : "big/experience"
 		}
 	},
 
-	"wake-of-gods.stackartifacts:warlordsBannerReducer" : {
-		"graphics" : {
+	"wake-of-gods.stackartifacts:warlordsBannerReducer" :
+	{
+		"graphics" : { 
 			"image" : "small/defenseReduction",
-			"scenarioBonus" : "scenarioBonus/defenseReduction",
+			"scenarioBonus" : "scenarioBonus/defenseReduction", 
 			"map" : "big/defenseReduction"
 		}
 	},
 
-	"wake-of-gods.stackartifacts:warlordsBannerBlocker" : {
-		"graphics" : {
+	"wake-of-gods.stackartifacts:warlordsBannerBlocker" :
+	{
+		"graphics" : { 
 			"image" : "small/damageReduction",
-			"scenarioBonus" : "scenarioBonus/damageReduction",
+			"scenarioBonus" : "scenarioBonus/damageReduction", 
 			"map" : "big/damageReduction"
 		}
 	},
 
-	"wake-of-gods.stackartifacts:warlordsBannerRetaliate" : {
-		"graphics" : {
+	"wake-of-gods.stackartifacts:warlordsBannerRetaliate" :
+	{
+		"graphics" : { 
 			"image" : "small/retaliation",
-			"scenarioBonus" : "scenarioBonus/retaliation",
+			"scenarioBonus" : "scenarioBonus/retaliation", 
 			"map" : "big/retaliation"
 		}
-	}
+	}	
 }

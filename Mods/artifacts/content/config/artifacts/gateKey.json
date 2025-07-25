@@ -1,54 +1,52 @@
 {
-	"gateKey" : {
-		"type" : [
-			"HERO"
-		],
+	"gateKey" :
+	{
+		"type" : ["HERO"],
 		"slot" : "SHOULDERS",
 		"class" : "RELIC",
 		"value" : 15000,
 		"bonuses" : {
-			"inferno" : {
+			"inferno" :
+			{
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "inferno",
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
+				"limiters" : [ {
+					"type" :"CREATURE_TYPE_LIMITER",
 						"creature" : "arrowTower",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"berserk" : {
+			"berserk" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "berserk",
 				"val" : 100,
-				"addInfo" : [
-					3,
-					1
-				],
+				"addInfo" : [3, 1],
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [
+				"limiters" : [ 
 					"OPPOSITE_SIDE",
 					{
-						"type" : "CREATURE_TYPE_LIMITER",
+					"type" :"CREATURE_TYPE_LIMITER",
 						"creature" : "arrowTower",
 						"includeUpgrades" : false
 					}
 				]
 			}
+
 		},
-		"graphics" : {
-			"image" : "artifacts/HrArt160",
-			"scenarioBonus" : "artifacts/HrArt160L",
-			"map" : "artifacts/zart160.def"
+		"graphics" : { 
+			"image" : "artifacts/HrArt160", 
+			"scenarioBonus" : "artifacts/HrArt160L", 
+			"map" : "artifacts/zart160.def" 
 		},
 		"text" : {
 			"name" : "Gate Key",
 			"description" : "{Gate Key}\r\n\r\nWith this incredible relic, you'll be able to enchant your castle and boost arrow towers with Inferno and Berserk spell. Range of casting Berserk is 3 hexes wide!",
 			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle and boost tower arrows with berserk spell."
-			//			"description" : "{Gate Key}\r\n\r\nUpon entering a town you own, the Gate Key gives you the option to lock it for 5 days. Heroes can leave locked towns but no hero can enter except by Town Portal or Castle Gate, and the town cannot be attacked. The Gate Key will vanish when used and returns to the hero 10 days later. A town cannot be relocked by any Gate Key for 5 days after it becomes unlocked. If a player is vanquished, their locked towns will be unlocked for all players the following day.",
-			//			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle gates to keep even your most powerful enemies at bay!",
+//			"description" : "{Gate Key}\r\n\r\nUpon entering a town you own, the Gate Key gives you the option to lock it for 5 days. Heroes can leave locked towns but no hero can enter except by Town Portal or Castle Gate, and the town cannot be attacked. The Gate Key will vanish when used and returns to the hero 10 days later. A town cannot be relocked by any Gate Key for 5 days after it becomes unlocked. If a player is vanquished, their locked towns will be unlocked for all players the following day.",
+//			"event" : "You pick up the Gate Key. With this incredible relic, you'll be able to enchant your castle gates to keep even your most powerful enemies at bay!",
 		}
 	}
 }

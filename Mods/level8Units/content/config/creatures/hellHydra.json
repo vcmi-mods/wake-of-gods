@@ -1,12 +1,15 @@
 {
-	"hellHydra" : {
-		"name" : {
+	"hellHydra" :
+	{
+		"name" :
+		{
 			"singular" : "Hell Hydra",
 			"plural" : "Hell Hydras"
 		},
 		"faction" : "fortress",
 		"level" : 8,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 7000,
 			"sulfur" : 2
 		},
@@ -15,69 +18,94 @@
 		"hitPoints" : 500,
 		"attack" : 25,
 		"defense" : 27,
-		"damage" : {
-			"min" : 38,
-			"max" : 68
+		"damage" :
+		{
+			 "min" : 38,
+			 "max" : 68
 		},
 		"fightValue" : 15750,
 		"aiValue" : 17750,
-		"advMapAmount" : {
-			"min" : 2,
-			"max" : 5
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" : {
-			"king1" : {
+		"abilities" :
+		{
+			"king1" :
+			{
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"attackAll" : {
+			"attackAll" :
+			{
 				"type" : "ATTACKS_ALL_ADJACENT"
 			},
-			"noRetaliation" : {
+			"noRetaliation" : 
+			{
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"additionalRetal" : {
+			"additionalRetal" :
+			{
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 1,
 				"effectRange" : "ONLY_MELEE_FIGHT"
 			},
-			"regenerates" : {
+			"regenerates" :
+			{
 				"type" : "HP_REGENERATION",
 				"val" : 40
 			},
-			"acidBreath" : {
+			"acidBreath" :
+			{
 				"type" : "ACID_BREATH",
 				"val" : 25,
 				"addInfo" : 20
 			},
-			"reduceDefence" : {
+			"reduceDefence" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "acidBreath",
 				"val" : 100
 			},
-			"fearless" : {
+			"twoHexAttackBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},			
+			"fearless" :
+			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
-			}
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "icons/e_fearl.png"
+			},
+			"dragonSkeleton" : 
+			{
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon",
+				"icon" : "icons/darkfog2.png"
+			}			
 		},
-		"graphics" : {
+		"graphics" :
+		{
 			"animation" : "creatures/hellhydra/ZM157Z",
 			"map" : "creatures/hellhydra/zmm157z",
 			"iconSmall" : "creatures/hellhydra/CPrS157F",
 			"iconLarge" : "creatures/hellhydra/CPrL157Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
+			"animationTime" :
+			{
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" : {
+		"sound" :
+		{
 			"attack" : "CHYDATTK.wav",
 			"defend" : "CHYDDFND.wav",
 			"killed" : "CHYDKILL.wav",

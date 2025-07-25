@@ -1,46 +1,40 @@
 {
 	"core:ballistics" : {
-		"base" : {
-			"effects" : {
-				"goldTowerArrow" : {
-					"type" : "ADDITIONAL_ATTACK",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 1,
-					//                  "effectRange" : "ONLY_DISTANCE_FIGHT",
+        "base" : {
+            "effects" : {
+                "goldTowerArrow" : {
+                    "type" : "ADDITIONAL_ATTACK",
+                    "valueType" : "ADDITIVE_VALUE",
+                    "val" : 1,
+  //                  "effectRange" : "ONLY_DISTANCE_FIGHT",
 					"limiters" : [
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
 							"bonusSubtype" : "arrowtrigger"
-						},
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
+					},
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arrowTower",
 							"includeUpgrades" : false
-						}
+					}
 					]
 				}
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"goldTowerArrow" : {
-					"val" : 1
-				}
+				"goldTowerArrow" : {"val" : 1}
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"goldTowerArrow" : {
-					"val" : 2
-				}
+				"goldTowerArrow" : {"val" : 2}
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"goldTowerArrow" : {
-					"val" : 3
-				}
+				"goldTowerArrow" : {"val" : 3}
 			}
 		}
 	}

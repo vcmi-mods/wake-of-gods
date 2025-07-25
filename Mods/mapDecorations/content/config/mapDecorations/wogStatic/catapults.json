@@ -1,20 +1,14 @@
 {
 	"catap_ml" : {
 		"name" : "Catapult",
-		"handler" : "generic",
+		"handler" :"generic",
 		"types" : {
 			"catap_ml" : {
 				"templates" : {
 					"catap_ml" : {
 						"animation" : "objects/catap_ml.def",
-						"mask" : [
-							"VA"
-						],
-						"visitableFrom" : [
-							"+++",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
 					}
 				}
 			}
@@ -22,20 +16,14 @@
 	},
 	"catap_mr" : {
 		"name" : "Catapult",
-		"handler" : "generic",
+		"handler" :"generic",
 		"types" : {
 			"catap_mr" : {
 				"templates" : {
 					"catap_mr" : {
 						"animation" : "objects/catap_mr.def",
-						"mask" : [
-							"VA"
-						],
-						"visitableFrom" : [
-							"+++",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ]
 					}
 				}
 			}

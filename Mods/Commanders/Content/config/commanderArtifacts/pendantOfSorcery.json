@@ -1,12 +1,12 @@
 {
-	"pendantOfSorcery" : {
-		"type" : [
-			"COMMANDER"
-		],
+	"pendantOfSorcery" :
+	{
+		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"casts" : {
+			"casts" :
+			{
 				"type" : "CASTS",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
@@ -17,18 +17,22 @@
 			"scenarioBonus" : "artifacts/HrArt150L",
 			"map" : "artifacts/zart150.def"
 		},
-		"growing" : {
-			"bonusesPerLevel" : [
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
 				{
 					"level" : 10,
-					"bonus" : {
+					"bonus" : 
+					{
 						"type" : "CREATURE_ENCHANT_POWER",
 						"val" : 1
 					}
 				},
 				{
 					"level" : 10,
-					"bonus" : {
+					"bonus" : 
+					{
 						"type" : "CASTS",
 						"val" : 1
 					}

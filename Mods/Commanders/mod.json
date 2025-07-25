@@ -15,7 +15,7 @@
 			"config/translation/wake-of-gods-commanders/chinese.json"
 		]
 	},
-
+	
 	"czech" : {
 		"name" : "Velitelé",
 		"description" : "Tento modul aktivuje funkci velitelů",
@@ -23,7 +23,7 @@
 			"config/translation/wake-of-gods-commanders/czech.json"
 		]
 	},
-
+	
 	"creatures" : [
 		"config/commanders/astralSpirit.json",
 		"config/commanders/brute.json",
@@ -58,7 +58,7 @@
 			"commanders" : true
 		}
 	},
-
+	
 	"translations" : [
 		"config/translation/wake-of-gods-commanders/english.json"
 	],

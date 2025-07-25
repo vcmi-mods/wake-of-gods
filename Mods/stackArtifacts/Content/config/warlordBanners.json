@@ -1,26 +1,27 @@
-{
-	"warlordsBannerHealth" : {
+{		
+	"warlordsBannerHealth" :
+	{
 		"bonuses" : {
-			"health1" : {
+			"health1" :
+			{
 				"type" : "STACK_HEALTH",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"health2" : {
+			"health2" :
+			{
 				"type" : "STACK_HEALTH",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
-			"scenarioBonus" : "artifacts/HrArt156L",
+			"scenarioBonus" : "artifacts/HrArt156L", 
 			"map" : "artifacts/zart156.def"
 		},
 		"text" : {
@@ -29,29 +30,30 @@
 			"name" : "Warlord's Banner"
 		}
 	},
-
-	"warlordsBannerAttack" : {
+	
+	"warlordsBannerAttack" :
+	{
 		"bonuses" : {
-			"attack1" : {
+			"attack1" :
+			{
 				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"attack2" : {
+			"attack2" :
+			{
 				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -63,28 +65,29 @@
 		}
 	},
 
-	"warlordsBannerDefence" : {
+	"warlordsBannerDefence" :
+	{
 		"bonuses" : {
-			"defense1" : {
+			"defense1" :
+			{
 				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"defense2" : {
+			"defense2" :
+			{
 				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -95,29 +98,30 @@
 			"name" : "Warlord's Banner"
 		}
 	},
-
-	"warlordsBannerDamage" : {
+	
+	"warlordsBannerDamage" :
+	{
 		"bonuses" : {
-			"damage1" : {
+			"damage1" :
+			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
-			"damage2" : {
+			"damage2" :
+			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -129,26 +133,27 @@
 		}
 	},
 
-	"warlordsBannerSpeed" : {
+	"warlordsBannerSpeed" :
+	{
 		"bonuses" : {
-			"speed1" : {
+			"speed1" :
+			{
 				"type" : "STACKS_SPEED",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
-			"speed2" : {
+			"speed2" :
+			{
 				"type" : "STACKS_SPEED",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_ALL"
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -160,20 +165,20 @@
 		}
 	},
 
-	"warlordsBannerExperience" : {
-		"bonuses" : {
-			"expGaining" : {
-				"type" : "STACK_EXPERIENCE_GAIN_PERCENT",
-				"val" : 50
-			}
-		},
-		"type" : [
-			"CREATURE"
-		],
+	"warlordsBannerExperience" :
+	{
+ 		"bonuses" : {
+ 			"expGaining" :
+			{
+ 				"type" : "STACK_EXPERIENCE_GAIN_PERCENT",
+ 				"val" : 50
+ 			}
+ 		},
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -185,20 +190,20 @@
 		}
 	},
 
-	"warlordsBannerReducer" : {
+	"warlordsBannerReducer" :
+	{
 		"bonuses" : {
-			"defenseReduction" : {
+			"defenseReduction" :
+			{
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 25
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -210,21 +215,21 @@
 		}
 	},
 
-	"warlordsBannerBlocker" : {
+	"warlordsBannerBlocker" :
+	{
 		"bonuses" : {
-			"damageReduction" : {
+			"damageReduction" :
+			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "creatureDamageBoth",
 				"val" : 25
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -236,20 +241,20 @@
 		}
 	},
 
-	"warlordsBannerRetaliate" : {
+	"warlordsBannerRetaliate" :
+	{
 		"bonuses" : {
-			"+2Retaliation" : {
+			"+2Retaliation" :
+			{
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 2
 			}
 		},
-		"type" : [
-			"CREATURE"
-		],
+		"type" : ["CREATURE"],
 		"class" : "MAJOR",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/HrArt156",
 			"scenarioBonus" : "artifacts/HrArt156L",
 			"map" : "artifacts/zart156.def"
@@ -259,5 +264,5 @@
 			"event" : "You pick up the Warlord's Banner.",
 			"name" : "Warlord's Banner"
 		}
-	}
+	}	
 }

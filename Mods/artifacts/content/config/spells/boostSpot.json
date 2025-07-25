@@ -1,9 +1,11 @@
 {
-	"boostSpot" : {
+	"boostSpot" :
+	{
 		"name" : "Boost Spot",
 		"type" : "combat",
 		"targetType" : "NO_TARGET",
-		"school" : {
+		"school" :
+		{
 			"air" : false,
 			"earth" : false,
 			"fire" : true,
@@ -12,13 +14,14 @@
 		"level" : 2,
 		"power" : 0,
 		"defaultGainChance" : 0,
-		"gainChance" : {},
-		"animation" : {},
-		"flags" : {
-			"positive" : true,
-			"special" : true
+		"gainChance" :
+		{
 		},
-		"graphics" : {
+		"animation" :{
+		},
+		"flags" : { "positive" : true, "special" : true },
+		"graphics" :
+		{
 			"iconBook" : "CmNumWin",
 			"iconEffect" : "CmNumWin",
 			"iconScroll" : "CmNumWin",
@@ -28,35 +31,35 @@
 		"sounds" : {
 			"cast" : null
 		},
-
+ 
 		"levels" : {
-			"base" : {
+			"base" :{
 				"range" : "X",
 				"cost" : 0,
-				//				"aiValue" : 10,
+//				"aiValue" : 10,
 				"power" : 20,
 				"description" : "{Boost Spot}\r\n\r\nUnused yet.",
 				"battleEffects" : {
 					"obstacle" : {
-						"type" : "core:obstacle",
+						"type" :"core:obstacle",
 						"hidden" : true,
 						"passable" : true,
 						"trap" : false,
-						//						"trigger" : true,
+//						"trigger" : true,
 						"removeOnTrigger" : true,
 						"patchCount" : 4,
 						"turnsRemaining" : -1,
-						"attacker" : {
+						"attacker" :{
 							"animation" : "C09SPF1",
 							"appearAnimation" : "C09SPF0"
 						},
-						"defender" : {
+						"defender" :{
 							"animation" : "C09SPF1",
 							"appearAnimation" : "C09SPF0"
 						}
 					},
-					"damageBoost" : {
-						"type" : "core:timed",
+					"damageBoost" :{
+						"type" :"core:timed",
 						"bonus" : {
 							"boost" : {
 								"type" : "CREATURE_DAMAGE",
@@ -71,16 +74,16 @@
 			},
 			"none" : {},
 			"basic" : {},
-			"advanced" : {
-				"battleEffects" : {
-					"obstacle" : {
+			"advanced" :{
+				"battleEffects" :{
+					"obstacle" :{
 						"patchCount" : 6
 					}
 				}
 			},
-			"expert" : {
-				"battleEffects" : {
-					"obstacle" : {
+			"expert" :{
+				"battleEffects" :{
+					"obstacle" :{
 						"patchCount" : 8
 					}
 				}

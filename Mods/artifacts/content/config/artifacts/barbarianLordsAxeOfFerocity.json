@@ -1,26 +1,24 @@
 {
-	"barbarianLordsAxeOfFerocity" : {
-		"type" : [
-			"HERO"
-		],
+	"barbarianLordsAxeOfFerocity" :
+	{
+		"type" : ["HERO"],
 		"slot" : "RIGHT_HAND",
 		"class" : "RELIC",
 		"value" : 16000,
-		"components" : [
+		"components" :
+		[
 			"ogresClubOfHavoc",
 			"targOfTheRampagingOgre",
 			"crownOfTheSupremeMagi",
 			"tunicOfTheCyclopsKing"
 		],
 		"bonuses" : {
-			"plusAttack" : {
+			"plusAttack" :
+			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER",
-				"limiters" : [
-					"noneOf",
-					"SHOOTER_ONLY"
-				]
+				"limiters" : [ "noneOf", "SHOOTER_ONLY" ]
 			}
 		},
 		"graphics" : {

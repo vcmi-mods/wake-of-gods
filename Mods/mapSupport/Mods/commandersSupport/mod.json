@@ -40,22 +40,10 @@
 					"slavasRingOfPower" : 155
 				},
 				"objects" : {
-					"opalOfMagic" : [
-						101,
-						7
-					],
-					"rubyOfOffense" : [
-						101,
-						8
-					],
-					"sapphireOfDefense" : [
-						101,
-						9
-					],
-					"emeraldOfSpeed" : [
-						101,
-						10
-					]
+					"opalOfMagic" : [101, 7],
+					"rubyOfOffense" : [101, 8],
+					"sapphireOfDefense" : [101, 9],
+					"emeraldOfSpeed" : [101, 10],
 				},
 				"templates" : {
 					"commanders/ZM182NPC.DEF" : "ZM182NPC.DEF",

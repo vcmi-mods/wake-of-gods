@@ -1,30 +1,31 @@
 {
 	//Every object has to have different ID, otherwise game will recognize the hero already has a bonus from this ID
-	"waterMagicMushroom" : {
+	"waterMagicMushroom" :
+	{
 		"name" : "Water Magic Mushroom",
 		"handler" : "configurable",
-		"types" : {
-			"waterMagicMushroom" : {
+		"types" :
+		{
+			"waterMagicMushroom" :
+			{
 				"name" : "Magic Water Mushroom",
 				"description" : "(grant expert Water Magic until end of the week)",
 				"onVisitedMessage" : "{Magic Water Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
-					"value" : 2000,
-					"rarity" : 20,
+					"value"		: 2000,
+					"rarity"	: 20,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"ambient" : [
-						"LOOPFAER"
-					],
-					"visit" : [
-						"LUCK"
-					]
+					"ambient" : ["LOOPFAER"],
+					"visit" : ["LUCK"]
 				},
-				"rewards" : [
+				"rewards" :
+				[
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype" : "spellSchool.water",
@@ -35,50 +36,44 @@
 						"message" : "{Magic Water Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Water Magic spells at expert level until the end of the week."
 					}
 				],
-				"templates" : {
-					"zobj008" : {
+				"templates" :
+				{
+					"zobj008" :
+					{
 						"animation" : "mapObjects/zobj008.def",
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VVBV",
-							"VVAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}
 		}
 	},
-	"airMagicMushroom" : {
+	"airMagicMushroom" :
+	{
 		"name" : "Air Magic Mushroom",
 		"handler" : "configurable",
-		"types" : {
-			"airMagicMushroom" : {
+		"types" :
+		{
+			"airMagicMushroom" :
+			{
 				"name" : "Magic Air Mushroom",
 				"description" : "(grant expert Air Magic until end of the week)",
 				"onVisitedMessage" : "{Magic Air Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
-					"value" : 2000,
-					"rarity" : 20,
+					"value"		: 2000,
+					"rarity"	: 20,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"ambient" : [
-						"LOOPFAER"
-					],
-					"visit" : [
-						"LUCK"
-					]
+					"ambient" : ["LOOPFAER"],
+					"visit" : ["LUCK"]
 				},
-				"rewards" : [
+				"rewards" :
+				[
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype" : "spellSchool.air",
@@ -89,49 +84,43 @@
 						"message" : "{Magic Air Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Air Magic spells at expert level until the end of the week."
 					}
 				],
-				"templates" : {
+				"templates" :
+				{
 					"zobj012" : {
 						"animation" : "mapObjects/zobj012.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}
 		}
 	},
-	"earthMagicMushroom" : {
+	"earthMagicMushroom" :
+	{
 		"name" : "Earth Magic Mushroom",
 		"handler" : "configurable",
-		"types" : {
-			"earthMagicMushroom" : {
+		"types" :
+		{
+			"earthMagicMushroom" :
+			{
 				"name" : "Magic Earth Mushroom",
 				"description" : "(grant expert Earth Magic until end of the week)",
 				"onVisitedMessage" : "{Magic Earth Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
-					"value" : 2000,
-					"rarity" : 20,
+					"value"		: 2000,
+					"rarity"	: 20,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"ambient" : [
-						"LOOPFAER"
-					],
-					"visit" : [
-						"LUCK"
-					]
+					"ambient" : ["LOOPFAER"],
+					"visit" : ["LUCK"]
 				},
-				"rewards" : [
+				"rewards" :
+				[
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype" : "spellSchool.earth",
@@ -142,49 +131,44 @@
 						"message" : "{Magic Earth Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Earth Magic spells at expert level until the end of the week."
 					}
 				],
-				"templates" : {
-					"zobj017" : {
+				"templates" :
+				{
+					"zobj017" :
+					{
 						"animation" : "mapObjects/zobj017.def",
-						"mask" : [
-							"VVVV",
-							"VVBV",
-							"VVAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "VVVV", "VVBV", "VVAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}
 		}
 	},
-	"fireMagicMushroom" : {
+	"fireMagicMushroom" :
+	{
 		"name" : "Fire Magic Mushroom",
 		"handler" : "configurable",
-		"types" : {
-			"fireMagicMushroom" : {
+		"types" :
+		{
+			"fireMagicMushroom" :
+			{
 				"name" : "Magic Fire Mushroom",
 				"description" : "(grant expert Fire Magic until end of the week)",
 				"onVisitedMessage" : "{Magic Fire Mushroom}\r\n\r\nYou already visited this mushroom this week.",
 				"visitMode" : "bonus",
 				"rmg" : {
-					"value" : 2000,
-					"rarity" : 20,
+					"value"		: 2000,
+					"rarity"	: 20,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"ambient" : [
-						"LOOPFAER"
-					],
-					"visit" : [
-						"LUCK"
-					]
+					"ambient" : ["LOOPFAER"],
+					"visit" : ["LUCK"]
 				},
-				"rewards" : [
+				"rewards" :
+				[
 					{
-						"bonuses" : [
+						"bonuses" :
+						[
 							{
 								"type" : "MAGIC_SCHOOL_SKILL",
 								"subtype" : "spellSchool.fire",
@@ -195,20 +179,13 @@
 						"message" : "{Magic Fire Mushroom}\r\n\r\nThe influence of this mysterious mushroom allows you to cast Fire Magic spells at expert level until the end of the week."
 					}
 				],
-				"templates" : {
-					"zobj023" : {
+				"templates" :
+				{
+					"zobj023" :
+					{
 						"animation" : "mapObjects/zobj023.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "VVV", "VVV", "VVV", "VAV"],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}

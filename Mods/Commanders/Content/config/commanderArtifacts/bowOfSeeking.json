@@ -1,13 +1,12 @@
 {
-	//sprawdzic w WoGu jak to ejst z tym łukiem czy każdy bonus od razu
-	"bowOfSeeking" : {
-		"type" : [
-			"COMMANDER"
-		],
+	"bowOfSeeking" : //sprawdzic w WoGu jak to ejst z tym łukiem czy każdy bonus od razu
+	{
+		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"noWallPenalty" : {
+			"noWallPenalty" :
+			{
 				"type" : "NO_WALL_PENALTY"
 			}
 		},
@@ -16,23 +15,28 @@
 			"scenarioBonus" : "artifacts/HrArt152L",
 			"map" : "artifacts/zart152.def"
 		},
-		"growing" : {
-			"thresholdBonuses" : [
+		"growing" :
+		{
+			"thresholdBonuses" :
+			[
 				{
 					"level" : 5,
-					"bonus" : {
+					"bonus" :
+					{
 						"type" : "SHOOTER"
 					}
 				},
 				{
 					"level" : 25,
-					"bonus" : {
+					"bonus" : 
+					{
 						"type" : "NO_WALL_PENALTY"
 					}
 				},
 				{
 					"level" : 50,
-					"bonus" : {
+					"bonus" : 
+					{
 						"type" : "NO_DISTANCE_PENALTY"
 					}
 				}

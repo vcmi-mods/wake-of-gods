@@ -1,58 +1,66 @@
 {
-	"magicWand" : {
-		"type" : [
-			"HERO"
-		],
+	"magicWand" :
+	{
+		"type" : ["HERO"],
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 18000,
-		"graphics" : {
+		"graphics" : { 
 			"image" : "artifacts/magicWand/HrArt141",
 			"scenarioBonus" : "artifacts/magicWand/HrArt141L",
 			"map" : "artifacts/magicWand/zart141.def"
 		},
 		"bonuses" : {
-			"specialUpgrade1" : {
+			"specialUpgrade1" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "archangel",
 				"addInfo" : "supremeArchangel"
 			},
-			"specialUpgrade2" : {
+			"specialUpgrade2" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "goldDragon",
 				"addInfo" : "diamondDragon"
 			},
-			"specialUpgrade3" : {
+			"specialUpgrade3" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "titan",
 				"addInfo" : "lordOfThunder"
 			},
-			"specialUpgrade4" : {
+			"specialUpgrade4" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "archDevil",
 				"addInfo" : "hellBaron"
 			},
-			"specialUpgrade5" : {
+			"specialUpgrade5" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "ghostDragon",
 				"addInfo" : "bloodDragon"
 			},
-			"specialUpgrade6" : {
+			"specialUpgrade6" :
+			{
 				"subtype" : "blackDragon",
 				"addInfo" : "darknessDragon",
 				"type" : "SPECIAL_UPGRADE"
 			},
-			"specialUpgrade7" : {
+			"specialUpgrade7" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "ancientBehemoth",
 				"addInfo" : "ghostBehemoth"
 			},
-			"specialUpgrade8" : {
+			"specialUpgrade8" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "chaosHydra",
 				"addInfo" : "hellHydra"
 			},
-			"specialUpgrade9" : {
+			"specialUpgrade9" :
+			{
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "phoenix",
 				"addInfo" : "sacredPhoenix"

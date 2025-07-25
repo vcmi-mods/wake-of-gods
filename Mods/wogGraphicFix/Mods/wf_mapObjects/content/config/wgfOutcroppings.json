@@ -5,66 +5,38 @@
 				"templates" : {
 					"AVLo1sn0" : {
 						"animation" : "outcropping/AVLo1sn0",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "snow" ]
 					},
 					"AVLo2sn0" : {
 						"animation" : "outcropping/AVLo2sn0",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "snow" ]
 					},
 					"AVLo3sn0" : {
 						"animation" : "outcropping/AVLo3sn0",
-						"mask" : [
-							"BBB"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"mask" : [ "BBB" ],
+						"allowedTerrains" : [ "snow" ]
 					},
 					"avlocLV0" : {
 						"animation" : "outcropping/avlocLV0",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "lava" ]
 					},
 					"avlocLV1" : {
 						"animation" : "outcropping/avlocLV1",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "lava" ]
 					},
 					"avlocLV2" : {
 						"animation" : "outcropping/avlocLV2",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "lava" ]
 					},
 					"avlocLV3" : {
 						"animation" : "outcropping/avlocLV3",
-						"mask" : [
-							"BBB"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
+						"mask" : [ "BBB" ],
+						"allowedTerrains" : [ "lava" ]
 					}
 				}
 			}

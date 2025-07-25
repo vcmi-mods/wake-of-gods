@@ -5,12 +5,10 @@
 				"aiValue" : 250,
 				"rmg" : {
 					"zoneLimit" : 1,
-					"value" : 250,
-					"rarity" : 100
+					"value"		: 250,
+					"rarity"	: 100
 				},
-				"compatibilityIdentifiers" : [
-					"object"
-				],
+				"compatibilityIdentifiers" : [ "object" ],
 
 				"onEmptyMessage" : 79,
 				"onVisitedMessage" : 78,
@@ -20,34 +18,17 @@
 				"rewards" : [
 					{
 						"limiter" : {
-							"noneOf" : [
-								{
-									"manaPercentage" : 100
-								}
-							]
+							"noneOf" : [ { "manaPercentage" : 100 } ]
 						},
-						"bonuses" : [
-							{
-								"type" : "NONE",
-								"duration" : "ONE_DAY"
-							}
-						],
+						"bonuses" : [ { "type" : "NONE", "duration" : "ONE_DAY"} ],
 						"message" : 77,
 						"manaPercentage" : 100
 					}
 				],
 				"templates" : {
-					"zobj045" : {
-						"animation" : "objects/zobj045.def",
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						]
+					"zobj045" : { "animation" : "objects/zobj045.def",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+-+", "+++" ]
 					}
 				}
 			}

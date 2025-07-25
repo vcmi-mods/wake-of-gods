@@ -5,34 +5,15 @@
 				"templates" : {
 					"zmermd01" : {
 						"animation" : "objects/zmermd01.def",
-						"mask" : [
-							"VVV",
-							"VBV",
-							"BAB"
-						],
-						"visitableFrom" : [
-							"---",
-							"-+-",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VVV", "VBV", "BAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : [ "water" ]
 					},
 					"zmermd02" : {
 						"animation" : "objects/zmermd02.def",
-						"mask" : [
-							"VV",
-							"AV"
-						],
-						"visitableFrom" : [
-							"---",
-							"-+-",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VV", "AV" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}

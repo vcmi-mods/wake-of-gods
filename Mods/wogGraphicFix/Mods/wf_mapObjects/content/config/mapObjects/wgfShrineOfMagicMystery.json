@@ -1,29 +1,23 @@
 {
-	"core:shrineOfMagicLevel1" : {
-		// Warning: lvl1 required for proper h3m loading. Do not change.
+	"core:shrineOfMagicLevel1" : { // Warning: lvl1 required for proper h3m loading. Do not change.
 		"name" : "Shrine of Magic Mystery",
 		"handler" : "configurable",
 		"types" : {
-			"wogShrineOfMagicMystery" : {
+			"wogShrineOfMagicMystery" :
+			{
 				"name" : "Shrine of Magic Mystery",
 				"description" : "(learn level 4 spell)",
 				"rmg" : {
-					"value" : 7000,
-					"rarity" : 100,
+					"value"		: 7000,
+					"rarity"	: 100,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"ambient" : [
-						"LOOPSHRIN"
-					],
-					"visit" : [
-						"TEMPLE"
-					]
+					"ambient" : ["LOOPSHRIN"],
+					"visit" : ["TEMPLE"]
 				},
-				"compatibilityIdentifiers" : [
-					"object"
-				],
-
+				"compatibilityIdentifiers" : [ "object" ],
+				
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
 				//"description" : "@core.xtrainfo.21",
@@ -31,8 +25,7 @@
 
 				"variables" : {
 					"spell" : {
-						"gainedSpell" : {
-							// Note: this variable name is used by engine for H3M loading
+						"gainedSpell" : { // Note: this variable name is used by engine for H3M loading
 							"level" : 4
 						}
 					}
@@ -53,17 +46,10 @@
 							"@gainedSpell"
 						],
 						"description" : "@core.genrltxt.355",
-						"message" : [
-							129,
-							"%s."
-						] // You learn new spell
+						"message" : [ 129, "%s." ] // You learn new spell
 					}
 				],
-				"onVisitedMessage" : [
-					129,
-					"%s. ",
-					174
-				], // You already known this spell
+				"onVisitedMessage" : [ 129, "%s. ", 174 ], // You already known this spell
 				"onEmpty" : [
 					{
 						"limiter" : {
@@ -73,36 +59,20 @@
 								}
 							]
 						},
-						"message" : [
-							129,
-							"%s. ",
-							130
-						] // No Wisdom
+						"message" : [ 129, "%s. ", 130 ] // No Wisdom
 					},
 					{
-						"message" : [
-							129,
-							"%s. ",
-							131
-						] // No spellbook
+						"message" : [ 129, "%s. ", 131 ] // No spellbook
 					}
 				],
-				"templates" : {
-					"Watersp4" : {
+				"templates" :
+				{
+					"Watersp4" :
+					{
 						"animation" : "objects/Watersp4",
-						"mask" : [
-							"VVV",
-							" VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VVV"," VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : [ "water"]
 					}
 				}
 			}

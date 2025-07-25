@@ -5,18 +5,9 @@
 				"templates" : {
 					"zdent001" : {
 						"animation" : "objects/zdent001.def",
-						"mask" : [
-							"VV",
-							"BA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"mask" : [ "VV", "BA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

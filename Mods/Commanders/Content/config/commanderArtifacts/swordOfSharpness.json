@@ -1,12 +1,12 @@
 {
-	"swordOfSharpness" : {
-		"type" : [
-			"COMMANDER"
-		],
+	"swordOfSharpness" :
+	{
+		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"damage" : {
+			"damage" :
+			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 12,
@@ -18,11 +18,14 @@
 			"scenarioBonus" : "artifacts/HrArt148L",
 			"map" : "artifacts/zart148.def"
 		},
-		"growing" : {
-			"bonusesPerLevel" : [
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
 				{
 					"level" : 1,
-					"bonus" : {
+					"bonus" : 
+					{
 						"type" : "CREATURE_DAMAGE",
 						"val" : 1,
 						"valueType" : "PERCENT_TO_ALL"

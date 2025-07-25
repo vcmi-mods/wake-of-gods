@@ -10,11 +10,7 @@
 							"VVVV",
 							"VBAB"
 						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}

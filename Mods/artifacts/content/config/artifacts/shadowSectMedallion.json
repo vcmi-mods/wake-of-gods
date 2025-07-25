@@ -1,13 +1,13 @@
 {
-	"shadowSectMedallion" : {
-		"type" : [
-			"HERO"
-		],
+	"shadowSectMedallion" :
+	{
+		"type" : ["HERO"],
 		"slot" : "NECK",
 		"class" : "MAJOR",
 		"value" : 7000,
 		"bonuses" : {
-			"slowImmunity" : {
+			"slowImmunity" :
+			{
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "slow",
 				"val" : 100

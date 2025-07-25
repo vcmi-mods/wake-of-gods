@@ -1,13 +1,8 @@
 {
 	"basepath" : "buttons/",
-	"images" : [
-		{
-			"frame" : 0,
-			"file" : "commanderNormal.png"
-		},
-		{
-			"frame" : 1,
-			"file" : "commanderPressed.png"
-		}
+	"images" :
+	[
+		{ "frame" : 0, "file" : "commanderNormal.png"},
+		{ "frame" : 1, "file" : "commanderPressed.png"}
 	]
 }

@@ -5,12 +5,8 @@
 				"templates" : {
 					"zreef1" : {
 						"animation" : "objects/zreef1.def",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "BB" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			},
@@ -18,12 +14,8 @@
 				"templates" : {
 					"zreef2" : {
 						"animation" : "objects/zreef2.def",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			},
@@ -31,28 +23,17 @@
 				"templates" : {
 					"zreef3" : {
 						"animation" : "objects/zreef3.def",
-						"mask" : [
-							"VV",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
-			},
+			},					
 			"zreef4" : {
 				"templates" : {
 					"zreef4" : {
 						"animation" : "objects/zreef4.def",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VV", "VV", "VB" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			},
@@ -60,14 +41,8 @@
 				"templates" : {
 					"zreef5" : {
 						"animation" : "objects/zreef5.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"mask" : [ "VVV", "VVV", "VBB" ],
+						"allowedTerrains" : [ "water" ]
 					}
 				}
 			}

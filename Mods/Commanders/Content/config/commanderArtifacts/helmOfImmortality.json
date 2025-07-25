@@ -1,13 +1,12 @@
 {
-	//TODO: implement
-	"helmOfImmortality" : {
-		"type" : [
-			"COMMANDER"
-		],
+	"helmOfImmortality" : //TODO: implement
+	{
+		"type" : ["COMMANDER"],
 		"class" : "RELIC",
 		"value" : 10000,
 		"bonuses" : {
-			"damageReduction" : {
+			"damageReduction" :
+			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
 				"val" : 90
@@ -20,7 +19,7 @@
 		},
 		"text" : {
 			"name" : "Helm of Immortality",
-			//			"description" : "{Helm of Immortality}\r\n\r\nRevives a slain Commander immediately after battle (artifact incremental bonuses are not lost).",
+//			"description" : "{Helm of Immortality}\r\n\r\nRevives a slain Commander immediately after battle (artifact incremental bonuses are not lost).",
 			"description" : "{Helm of Immortality}\r\n\r\nWhen worn makes Commander almost invulnerable to physical attack.",
 			"event" : "You pick up the shining Helm of Immortality. If your Commander wears this, death will never last for long!"
 		}

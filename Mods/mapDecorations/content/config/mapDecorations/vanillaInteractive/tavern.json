@@ -4,27 +4,17 @@
 			"wogTavern" : {
 				"aiValue" : 100,
 				"rmg" : {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 20
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 20
 				},
 				"templates" : {
+					
 					"z358o7" : {
 						"animation" : "objects/z358o7.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VAB"
-						],
-						"visitableFrom" : [
-							"---",
-							"++-",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"mask" : [ "VVV", "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

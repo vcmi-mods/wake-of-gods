@@ -1,19 +1,20 @@
 {
-	"crimsonShieldOfRetribution" : {
-		"type" : [
-			"HERO"
-		],
+	"crimsonShieldOfRetribution" :
+	{
+		"type" : ["HERO"],
 		"slot" : "LEFT_HAND",
 		"class" : "MAJOR",
 		"value" : 6000,
 		"bonuses" : {
-			"defence" : {
+			"defence" :
+			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"reduceDamage" : {
+			"reduceDamage" :
+			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : -50,
@@ -29,14 +30,14 @@
 				]
 			}
 		},
-		"graphics" : {
-			"image" : "artifacts/HrArt157",
-			"scenarioBonus" : "artifacts/HrArt157L",
-			"map" : "artifacts/zart157.def"
+		"graphics" : { 
+			"image" : "artifacts/HrArt157", 
+			"scenarioBonus" : "artifacts/HrArt157L", 
+			"map" : "artifacts/zart157.def" 
 		},
 		"text" : {
 			"name" : "Crimson Shield of Retribution",
-			//			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and gives all creatures in a hero's ranks the ability to retaliate against creatures that cannot normally be retaliated against.",
+//			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and gives all creatures in a hero's ranks the ability to retaliate against creatures that cannot normally be retaliated against.",
 			"description" : "{Crimson Shield of Retribution}\r\n\r\nHeld in the left hand, this artifact increases Defense skill by +2 and decreases damage of enemy blocking retaliation creatures by 50%.",
 			"event" : "Strapping on the Crimson Shield of Retribution, you notice the look of steely resolve upon the faces of your troops, and now know that they will always be able to answer blood with blood in the heat of battle."
 		}

@@ -1,6 +1,7 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
+
 			"naturalCalamityAir" : {
 				"battleground" : "wake-of-gods.messengersandemissaries.vivid-battlefields:natural_calamity"
 			},

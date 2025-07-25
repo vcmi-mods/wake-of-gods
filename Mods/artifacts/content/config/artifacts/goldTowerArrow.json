@@ -1,33 +1,34 @@
 {
-	"goldTowerArrow" : {
-		"type" : [
-			"HERO"
-		],
+	"goldTowerArrow" :
+	{
+		"type" : ["HERO"],
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 15000,
-		"graphics" : {
-			"image" : "artifacts/HrArt142",
-			"scenarioBonus" : "artifacts/HrArt142L",
-			"map" : "artifacts/zart142.def"
+		"graphics" : { 
+			"image" : "artifacts/HrArt142", 
+			"scenarioBonus" : "artifacts/HrArt142L", 
+			"map" : "artifacts/zart142.def" 
 		},
 		"bonuses" : {
-			"bonusTrigger1" : {
+			"bonusTrigger1" :
+			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "towerJammer",
 				"limiters" : {
-					"type" : "CREATURE_TYPE_LIMITER",
+					"type" :"CREATURE_TYPE_LIMITER",
 					"creature" : "arrowTower",
 					"includeUpgrades" : false
-				}
+				  }
 			},
-			"disableArrowTrigger" : {
+			"disableArrowTrigger" :
+			{
 				"type" : "NOT_ACTIVE",
 				"propagator" : "BATTLE_WIDE",
 				"limiters" : [
 					[
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
+							"type" :"CREATURE_TYPE_LIMITER",
 							"creature" : "arrowTower",
 							"includeUpgrades" : false
 						}
@@ -35,34 +36,35 @@
 					[
 						"noneOf",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"type" : "HAS_ANOTHER_BONUS_LIMITER", 
 							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
 							"bonusSubtype" : "towerJammer"
 						}
 					]
 				]
 			},
-			//			{
-			//				"type" : "NOT_ACTIVE",
-			//				"effectRange" : "ONLY_ENEMY_ARMY",
-			//				"limiters" : [ {
-			//					"type" :"CREATURE_TYPE_LIMITER",
-			//						"parameters" : [ "arrowTower", false ]
-			//					}
-			//				]
-			//			},
-			"bonusTrigger2" : {
+//			{
+//				"type" : "NOT_ACTIVE",
+//				"effectRange" : "ONLY_ENEMY_ARMY",
+//				"limiters" : [ {
+//					"type" :"CREATURE_TYPE_LIMITER",
+//						"parameters" : [ "arrowTower", false ]
+//					}
+//				]
+//			},
+			"bonusTrigger2" : 
+			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "arrowtrigger"
 			},
-			"additionalAttack" : {
+			"additionalAttack" : 
+			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"limiters" : [
-					{
-						"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "arrowTower",
-						"includeUpgrades" : false
+				"limiters" : [ {
+					"type" :"CREATURE_TYPE_LIMITER",
+							"creature" : "arrowTower",
+							"includeUpgrades" : false
 					}
 				]
 			}

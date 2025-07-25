@@ -7,23 +7,13 @@
 				"templates" : {
 					"wfirefly" : {
 						"animation" : "fireflies/wfirefly",
-						"mask" : [
-							"VV",
-							"VV"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"mask" : ["VV","VV"],
+						"allowedTerrains" : ["swamp"]
 					},
 					"wfirefly1" : {
 						"animation" : "fireflies/wfirefly1",
-						"mask" : [
-							"VVV",
-							"VVV"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"mask" : ["VVV","VVV"],
+						"allowedTerrains" : ["swamp"]
 					}
 				}
 			}

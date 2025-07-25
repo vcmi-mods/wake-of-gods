@@ -1,12 +1,15 @@
 {
-	"hellBaron" : {
-		"name" : {
+	"hellBaron" :
+	{
+		"name" :
+		{
 			"singular" : "Hell Baron",
 			"plural" : "Hell Barons"
 		},
 		"faction" : "inferno",
 		"level" : 8,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 9000,
 			"mercury" : 3
 		},
@@ -15,82 +18,101 @@
 		"hitPoints" : 400,
 		"attack" : 35,
 		"defense" : 37,
-		"damage" : {
-			"min" : 45,
-			"max" : 60
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 60
 		},
 		"fightValue" : 19250,
 		"aiValue" : 25700,
-		"advMapAmount" : {
-			"min" : 2,
-			"max" : 5
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" : {
-			"king2" : {
+		"abilities" :
+		{
+			"king2" :
+			{
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"FLYING_ARMY" : {
+			"FLYING_ARMY" :
+			{
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"descreaseLuck" : {
+			"descreaseLuck" :
+			{
 				"type" : "LUCK",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [
-					"OPPOSITE_SIDE"
-				],
+				"limiters" : [ "OPPOSITE_SIDE" ],
 				"val" : -2,
-				"stacking" : "Devils"
+				"stacking" : "Devils",
+				"description" : "{Reduces enemy luck}\nHell Barons lower the Luck of enemy units by two",
+				"icon" : "icons/negativeluck.png"	
 			},
-			"blockRetaliation" : {
+			"blockRetaliation" :
+			{
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"petrify" : {
+			"petrify" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "stoneGaze",
 				"val" : 50,
 				"turns" : 3
 			},
-			"fearless" : {
+			"fearless" :
+			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "icons/e_fearl.png"
 			},
-			"hateAngels" : {
+			"hateAngels" : 
+			{
 				"type" : "HATE",
 				"subtype" : "angel",
-				"val" : 50
+				"val" : 50,
+				"hidden" : true
 			},
-			"hateArchAngels" : {
+			"hateArchAngels" : 
+			{
 				"type" : "HATE",
 				"subtype" : "archangel",
-				"val" : 50
+				"val" : 50,
+				"hidden" : true
 			},
-			"hateSupremeAngels" : {
+			"hateSupremeAngels" : 
+			{
 				"type" : "HATE",
 				"subtype" : "supremeArchangel",
-				"val" : 50
+				"val" : 50,
+				"description" : "{Hates Supreme Archangels}\nDoes 50% more damage to Angels, Archangels and Supreme Archangels",
 			}
 		},
-		"graphics" : {
+		"graphics" :
+		{
 			"animation" : "creatures/hellBaron/ZM153Z.DEF",
 			"map" : "creatures/hellBaron/zmm153z",
 			"iconSmall" : "creatures/hellBaron/CPrS153C",
 			"iconLarge" : "creatures/hellBaron/CPrL153Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
+			"animationTime" :
+			{
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" : {
+		"sound" :
+		{
 			"attack" : "ADVLATTK.wav",
 			"defend" : "ADVLDFND.wav",
 			"killed" : "ADVLKILL.wav",

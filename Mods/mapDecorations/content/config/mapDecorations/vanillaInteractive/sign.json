@@ -5,31 +5,13 @@
 				"templates" : {
 					"zobj047" : {
 						"animation" : "objects/zobj047.def",
-						"mask" : [
-							"A"
-						],
-						"allowedTerrains" : [
-							"snow"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "A" ], "allowedTerrains" : [ "snow" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					},
 					"zobj048" : {
 						"animation" : "objects/zobj048.def",
-						"mask" : [
-							"A"
-						],
-						"allowedTerrains" : [
-							"grass"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"mask" : [ "A" ], "allowedTerrains" : [ "grass" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}

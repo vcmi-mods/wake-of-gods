@@ -1,6 +1,7 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
+
 			"portalOfSplendor" : {
 				"battleground" : "wake-of-gods.vividbattlefields.vivid-battlefields-8th-level:portal_of_splendor"
 			},

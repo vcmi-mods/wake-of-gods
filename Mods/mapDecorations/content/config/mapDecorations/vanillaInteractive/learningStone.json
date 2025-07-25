@@ -4,12 +4,10 @@
 			"wogLearningStone" : {
 				"aiValue" : 1500,
 				"rmg" : {
-					"value" : 1500,
-					"rarity" : 200
+					"value"		: 1500,
+					"rarity"	: 200
 				},
-				"compatibilityIdentifiers" : [
-					"object"
-				],
+				"compatibilityIdentifiers" : [ "object" ],
 
 				"onVisitedMessage" : 144,
 				"description" : "@core.xtrainfo.5",
@@ -24,18 +22,9 @@
 				"templates" : {
 					"z358o1" : {
 						"animation" : "objects/z358o1.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}

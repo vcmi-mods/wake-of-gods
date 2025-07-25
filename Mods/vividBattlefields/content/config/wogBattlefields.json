@@ -18,7 +18,7 @@
 	"hell_rift" : {
 		"graphics" : "hell_rift.png",
 		"isSpecial" : true
-	},
+	},	
 	"lost_friary" : {
 		"graphics" : "lost_friary.png",
 		"isSpecial" : true

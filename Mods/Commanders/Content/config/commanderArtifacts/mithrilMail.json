@@ -1,12 +1,12 @@
 {
-	"mithrilMail" : {
-		"type" : [
-			"COMMANDER"
-		],
+	"mithrilMail" :
+	{
+		"type" : ["COMMANDER"],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"health" : {
+			"health" :
+			{
 				"type" : "STACK_HEALTH",
 				"val" : 12,
 				"valueType" : "PERCENT_TO_ALL"
@@ -17,11 +17,14 @@
 			"scenarioBonus" : "artifacts/HrArt147L",
 			"map" : "artifacts/zart147.def"
 		},
-		"growing" : {
-			"bonusesPerLevel" : [
+		"growing" :
+		{
+			"bonusesPerLevel" :
+			[
 				{
 					"level" : 1,
-					"bonus" : {
+					"bonus" : 
+					{
 						"type" : "STACK_HEALTH",
 						"val" : 1
 					}

@@ -5,13 +5,8 @@
 				"templates" : {
 					"avlxgr13" : {
 						"animation" : "mountains/avlxgr13",
-						"mask" : [
-							"VVV",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"grass"
-						]
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : ["grass" ]
 					}
 				}
 			}

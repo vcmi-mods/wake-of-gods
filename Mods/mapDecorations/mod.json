@@ -5,7 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-
+	
 	"chinese" : {
 		"name" : "地图装饰",
 		"description" : "这个模组启用新地图装饰。"
@@ -14,7 +14,7 @@
 		"name" : "Dekorace map",
 		"description" : "Tento modul aktivuje nové dekorace map."
 	},
-
+	
 	"objects" : [
 		"config/mapDecorations/vanillaStatic/lake.json",
 		"config/mapDecorations/vanillaStatic/lavaLake.json",
@@ -60,8 +60,8 @@
 		"config/mapDecorations/wogStatic/walls.json",
 		"config/mapDecorations/wogStatic/waterfalls.json",
 		"config/mapDecorations/wogStatic/mithril.json",
-
-		//		"config/mapDecorations/wogInteractive/gnollhHut.json",
+		
+//		"config/mapDecorations/wogInteractive/gnollhHut.json",
 
 		"config/mapDecorations/buildingsWoG.json"
 	],
