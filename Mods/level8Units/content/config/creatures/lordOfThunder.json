@@ -1,15 +1,12 @@
 {
-	"lordOfThunder" :
-	{
-		"name" :
-		{
+	"lordOfThunder" : {
+		"name" : {
 			"singular" : "Lord of Thunder",
 			"plural" : "Lords of Thunder"
 		},
 		"faction" : "tower",
 		"level" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 10000,
 			"gems" : 3
 		},
@@ -19,107 +16,91 @@
 		"shots" : 24,
 		"attack" : 32,
 		"defense" : 32,
-		"damage" :
-		{
-			 "min" : 60,
-			 "max" : 75
+		"damage" : {
+			"min" : 60,
+			"max" : 75
 		},
 		"fightValue" : 15000,
 		"aiValue" : 22500,
-		"advMapAmount" :
-		{
-			 "min" : 2,
-			 "max" : 5
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 5
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" :  //no melee penalty?
-		{
-			"king3" :
-			{
+		//no melee penalty?
+		"abilities" : {
+			"king3" : {
 				"type" : "KING",
 				"val" : 3,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"additionalAttack" :
-			{
+			"additionalAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			},
-			"thunderOnAttack" :
-			{
+			"thunderOnAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "thunderbolt",
 				"val" : 20,
 				"effectRange" : "ONLY_MELEE_FIGHT"
 			},
-			"thunderStrength" :
-			{
+			"thunderStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "thunderbolt",
 				"val" : 10
 			},
-			"airShield" :
-			{
+			"airShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "airShield",
 				"val" : 3
-//				"addInfo" : 1
+				//				"addInfo" : 1
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
-				"icon" : "icons/e_fearl.png"	
+				"icon" : "icons/e_fearl.png"
 			},
-			"hateRedDragons" :
-			{
+			"hateRedDragons" : {
 				"type" : "HATE",
 				"subtype" : "redDragon",
 				"val" : 50,
 				"hidden" : true
 			},
-			"hateBlackDragons" :
-			{
+			"hateBlackDragons" : {
 				"type" : "HATE",
 				"subtype" : "blackDragon",
 				"val" : 50,
 				"hidden" : true
-			},			
-			"hateDarknessDragon" : 
-			{
+			},
+			"hateDarknessDragon" : {
 				"type" : "HATE",
 				"subtype" : "darknessDragon",
 				"val" : 50,
-				"description" : "{Hates Darkness Dragons}\nDoes 50% more damage to Red, Black and Darkness Dragons",
+				"description" : "{Hates Darkness Dragons}\nDoes 50% more damage to Red, Black and Darkness Dragons"
 			}
-		},		
-		"graphics" :
-		{
+		},
+		"graphics" : {
 			"iconSmall" : "creatures/lordOfThunder/CPrS152T",
 			"iconLarge" : "creatures/lordOfThunder/CPrL152Z",
 			"map" : "creatures/lordOfThunder/zmm152z",
 			"animation" : "creatures/lordOfThunder/ZM152Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.38,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRGTIX",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 11,
 					"upperY" : -131,
 					"middleX" : 76,
@@ -127,11 +108,23 @@
 					"lowerX" : 19,
 					"lowerY" : -1
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "GTITATTK.wav",
 			"defend" : "GTITDFND.wav",
 			"killed" : "GTITKILL.wav",

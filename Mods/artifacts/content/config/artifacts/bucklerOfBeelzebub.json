@@ -1,47 +1,42 @@
 {
-	"bucklerOfBeelzebub" :
-	{
-		"type" : ["HERO"],
+	"bucklerOfBeelzebub" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 45000,
-		"components" :
-		[
+		"components" : [
 			"breastplateOfBrimstone",
 			"shieldOfTheDamned",
 			"swordOfHellfire",
 			"hellstormHelmet"
 		],
 		"bonuses" : {
-			"spellKnowledge" :
-			{
+			"spellKnowledge" : {
 				"type" : "SPELL",
 				"subtype" : "dimensionDoor",
 				"val" : 0
 			},
-			"attack" :
-			{
+			"attack" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"defense" :
-			{
+			"defense" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"spellPower" :
-			{
+			"spellPower" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "spellpower",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"knowledge" :
-			{
+			"knowledge" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "knowledge",
 				"val" : 2,

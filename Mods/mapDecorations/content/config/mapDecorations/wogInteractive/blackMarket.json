@@ -1,14 +1,21 @@
 {
 	"marketOfTimeoG" : {
 		"name" : "Market Of Time",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"marketOfTimeWoG" : {
 				"templates" : {
 					"AVXMKTT0" : {
 						"animation" : "AVXMKTT0",
-						"visitableFrom" : [ "---", "--+", "+++" ],
-						"mask" : [ "VV", "BA"]
+						"visitableFrom" : [
+							"---",
+							"--+",
+							"+++"
+						],
+						"mask" : [
+							"VV",
+							"BA"
+						]
 					}
 				}
 			}

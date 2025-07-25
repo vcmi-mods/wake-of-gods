@@ -5,7 +5,7 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-    "chinese" : {
+	"chinese" : {
 		"name" : "英雄无敌3数据补丁",
 		"description" : "修正并改进一些死亡阴影游戏的图像和声音资源。"
 	},

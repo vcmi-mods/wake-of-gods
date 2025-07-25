@@ -1,69 +1,58 @@
 {
-	"earthMessenger" :
-	{
-		"name" :
-		{
+	"earthMessenger" : {
+		"name" : {
 			"singular" : "Earth Messenger",
 			"plural" : "Earth Messengers"
 		},
 		"faction" : "neutral",
 		"level" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 750
 		},
 		"speed" : 5,
 		"hitPoints" : 70,
 		"attack" : 13,
 		"defense" : 14,
-		"damage" :
-		{
-			 "min" : 10,
-			 "max" : 14
+		"damage" : {
+			"min" : 10,
+			"max" : 14
 		},
 		"fightValue" : 775,
 		"aiValue" : 775,
-		"advMapAmount" :
-		{
-			 "min" : 8,
-			 "max" : 10
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 10
 		},
 		"growth" : 2,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"earthProtection" :
-			{
+		"abilities" : {
+			"earthProtection" : {
 				"type" : "ENCHANTED",
 				"subtype" : "protectEarth",
 				"val" : 3
-//				"addInfo" : 3
+				//				"addInfo" : 3
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
-				"icon" : "icons/e_fearl.png"	
+				"icon" : "icons/e_fearl.png"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/earthMessenger/ZM165GD",
 			"map" : "creatures/earthMessenger/zmm165d",
 			"iconSmall" : "creatures/earthMessenger/CPrS165N",
 			"iconLarge" : "creatures/earthMessenger/CPrL165M",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.8,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "SGLMATTK.wav",
 			"defend" : "SGLMDFND.wav",
 			"killed" : "SGLMKILL.wav",

@@ -1,15 +1,12 @@
 {
-	"supremeArchangel" :
-	{
-		"name" :
-		{
+	"supremeArchangel" : {
+		"name" : {
 			"singular" : "Supreme Archangel",
 			"plural" : "Supreme Archangels"
 		},
 		"faction" : "castle",
 		"level" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 10000,
 			"gems" : 4
 		},
@@ -18,56 +15,46 @@
 		"hitPoints" : 500,
 		"attack" : 40,
 		"defense" : 40,
-		"damage" :
-		{
-			 "min" : 75,
-			 "max" : 75
+		"damage" : {
+			"min" : 75,
+			"max" : 75
 		},
 		"fightValue" : 18250,
 		"aiValue" : 26300,
-		"advMapAmount" :
-		{
-			 "min" : 2,
-			 "max" : 5
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 5
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"king2" :
-			{
+		"abilities" : {
+			"king2" : {
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"resurrection100hp" : 
-			{
+			"resurrection100hp" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "resurrection",
 				"val" : 100
 			},
-			"resurrects" :
-			{
+			"resurrects" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "resurrection",
 				"val" : 3
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"blockRetal" :
-			{
+			"blockRetal" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"const_raises_morale" :
-			{
+			"const_raises_morale" : {
 				"type" : "MORALE",
 				"val" : 1,
 				"propagator" : "ARMY",
@@ -75,52 +62,45 @@
 				"description" : "{Increases allies morale}\nSupreme Archangels increase allies Morale by one",
 				"icon" : "icons/e_minot.png"
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "icons/e_fearl.png"
 			},
-			"hateDevils" :
-			{
+			"hateDevils" : {
 				"type" : "HATE",
 				"subtype" : "devil",
 				"val" : 50,
 				"hidden" : true
 			},
-			"hateArchDevils" :
-			{
+			"hateArchDevils" : {
 				"type" : "HATE",
 				"subtype" : "archDevil",
 				"val" : 50,
 				"hidden" : true
 			},
-			"hateHellBarons" :
-			{
+			"hateHellBarons" : {
 				"type" : "HATE",
 				"subtype" : "hellBaron",
 				"val" : 50,
-				"description" : "{Hates Hell Barons}\nDoes 50% more damage to Devils, Archdevils and Hell Barons",
+				"description" : "{Hates Hell Barons}\nDoes 50% more damage to Devils, Archdevils and Hell Barons"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/supremeArchangel/ZM150Z",
 			"map" : "creatures/supremeArchangel/zmm150z",
 			"iconSmall" : "creatures/supremeArchangel/CPrS150C",
 			"iconLarge" : "creatures/supremeArchangel/CPrL150Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.82,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "AAGLATTK.wav",
 			"defend" : "AAGLDFND.wav",
 			"killed" : "AAGLKILL.wav",

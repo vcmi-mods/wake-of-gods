@@ -1,69 +1,58 @@
 {
-	"ghostBehemoth" :
-	{
-		"name" :
-		{
+	"ghostBehemoth" : {
+		"name" : {
 			"singular" : "Ghost Behemot",
 			"plural" : "Ghost Behemots"
 		},
 		"faction" : "stronghold",
 		"level" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 6000,
 			"crystal" : 2
 		},
 		"doubleWide" : true,
 		"speed" : 15,
 		"hitPoints" : 600,
-		"advMapAmount" :
-		{
-			 "min" : 2,
-			 "max" : 5
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 5
 		},
 		"attack" : 25,
 		"defense" : 25,
-		"damage" :
-		{
-			 "min" : 45,
-			 "max" : 75
+		"damage" : {
+			"min" : 45,
+			"max" : 75
 		},
 		"fightValue" : 20000,
 		"aiValue" : 26000,
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"king1" :
-			{
+		"abilities" : {
+			"king1" : {
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"extraRetaliation" :
-			{
+			"extraRetaliation" : {
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 2
 			},
-			"reduceDefence" :
-			{
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 100
 			},
-			"increaseLuck" :
-			{
+			"increaseLuck" : {
 				"type" : "LUCK",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER",
 				"propagator" : "HERO",
 				"stacking" : "Behemots",
 				"description" : "{Increases allies luck}\nGhost Behemots increase allies Luck by one",
-				"icon" : "icons/positiveluck.png"					
+				"icon" : "icons/positiveluck.png"
 			},
 			"fearful" : {
 				"type" : "FEARFUL",
@@ -82,31 +71,27 @@
 				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
 				"icon" : "icons/e_fear.png"
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
-				"icon" : "icons/e_fearl.png"	
+				"icon" : "icons/e_fearl.png"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/ghostbehemoth/ZM156Z",
 			"map" : "creatures/ghostbehemoth/zmm156z",
 			"iconSmall" : "creatures/ghostbehemoth/CPrS156S",
 			"iconLarge" : "creatures/ghostbehemoth/CPrL156Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.17,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "BMTHATTK.wav",
 			"defend" : "BMTHDFND.wav",
 			"killed" : "BMTHKILL.wav",

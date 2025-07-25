@@ -18,7 +18,7 @@
 	"spectral_vault" : {
 		"graphics" : "spectral_vault.png",
 		"isSpecial" : true
-	},	
+	},
 	"cave_of_darkness" : {
 		"graphics" : "cave_of_darkness.png",
 		"isSpecial" : true

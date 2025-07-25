@@ -1,15 +1,12 @@
 {
-	"dracolich" :
-	{
-		"name" :
-		{
+	"dracolich" : {
+		"name" : {
 			"singular" : "Dracolich",
 			"plural" : "Dracoliches"
 		},
 		"faction" : "necropolis",
 		"level" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 25000,
 			"mercury" : 15
 		},
@@ -19,91 +16,77 @@
 		"shots" : 5,
 		"attack" : 45,
 		"defense" : 45,
-		"damage" :
-		{
-			 "min" : 50,
-			 "max" : 80
+		"damage" : {
+			"min" : 50,
+			"max" : 80
 		},
 		"fightValue" : 40000,
 		"aiValue" : 55000,
-		"advMapAmount" :
-		{
-			 "min" : 1,
-			 "max" : 3
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 3
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"dragon" : 
-			{
+		"abilities" : {
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"dragonBreath" :
-			{
+			"dragonBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"undead" :
-			{
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"canShoot" :
-			{
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"deathCloud" :
-			{
+			"deathCloud" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "deathCloud"
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 20
 			},
-			"descreaseMorale" :
-			{
+			"descreaseMorale" : {
 				"type" : "MORALE",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
 				"val" : -2,
 				"stacking" : "Undead Dragons",
 				"description" : "{Reduces enemy morale}\nDracoliches lower the morale of enemy units by two",
-				"icon" : "icons/e_moral.png"				
+				"icon" : "icons/e_moral.png"
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon",
 				"icon" : "icons/darkfog2.png"
-			}			
+			}
 		},
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "creatures/dracolich/ZM196Z",
 			"map" : "creatures/dracolich/zmm196z",
 			"iconSmall" : "creatures/dracolich/CPrS196N",
 			"iconLarge" : "creatures/dracolich/CPrL196Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.75,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
-				"projectile" : "creatures/dracolich/ZSHOT196",  //sprawdzic czy to wogowy strzal czy z h3
+			"missile" : {
+				"projectile" : "creatures/dracolich/ZSHOT196", //sprawdzic czy to wogowy strzal czy z h3
 				"attackClimaxFrame" : 1,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -111,11 +94,23 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "GHDRATTK.wav",
 			"defend" : "GHDRDFND.wav",
 			"killed" : "GHDRKILL.wav",

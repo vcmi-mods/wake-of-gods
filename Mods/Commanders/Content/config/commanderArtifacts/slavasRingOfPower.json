@@ -1,53 +1,46 @@
 {
-	"slavasRingOfPower" : //TODO: implement if possible
-	{
-		"type" : ["COMMANDER"],
+	//TODO: implement if possible
+	"slavasRingOfPower" : {
+		"type" : [
+			"COMMANDER"
+		],
 		"class" : "RELIC",
 		"value" : 8000,
 		"bonuses" : {
-			"attack" :
-			{
+			"attack" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 20
 			},
-			"defense" :
-			{
+			"defense" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 35
 			},
-			"health" :
-			{
+			"health" : {
 				"type" : "STACK_HEALTH",
 				"val" : 70,
 				"valueType" : "PERCENT_TO_ALL"
 			},
-			"damage" :
-			{
+			"damage" : {
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 70,
 				"valueType" : "PERCENT_TO_ALL"
 			},
-			"speed" :
-			{
+			"speed" : {
 				"type" : "STACKS_SPEED",
 				"val" : 8
 			},
-			"creatureSpellpower" :
-			{
+			"creatureSpellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 15
-
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 4
 			},
-			"spellDamageReduction" :
-			{
+			"spellDamageReduction" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 65
@@ -60,7 +53,7 @@
 		},
 		"text" : {
 			"description" : "{Slava's Ring Of Power}\r\n\r\nWhen worn by a commander this artifact gives Commander all bonuses from Master level.",
-//			"description" : "{Slava's Ring Of Power}\r\n\r\nWhen worn by a commander this artifact gives Commander all six Primary Skills at Advanced level.",
+			//			"description" : "{Slava's Ring Of Power}\r\n\r\nWhen worn by a commander this artifact gives Commander all six Primary Skills at Advanced level.",
 			"event" : "You pick up Slava's Ring of Power and can feel its strong magic. On your Commander's finger, this ring will bestow great power!",
 			"name" : "Slava's Ring Of Power"
 		}

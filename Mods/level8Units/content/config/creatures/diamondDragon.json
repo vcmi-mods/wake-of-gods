@@ -1,15 +1,12 @@
 {
-	"diamondDragon" :
-	{
-		"name" :
-		{
+	"diamondDragon" : {
+		"name" : {
 			"singular" : "Diamond Dragon",
 			"plural" : "Diamond Dragons"
 		},
 		"faction" : "rampart",
 		"level" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 8000,
 			"crystal" : 3
 		},
@@ -18,92 +15,77 @@
 		"hitPoints" : 500,
 		"attack" : 36,
 		"defense" : 36,
-		"damage" :
-		{
-			 "min" : 60,
-			 "max" : 75
+		"damage" : {
+			"min" : 60,
+			"max" : 75
 		},
 		"fightValue" : 18750,
 		"aiValue" : 25500,
-		"advMapAmount" :
-		{
-			 "min" : 2,
-			 "max" : 5
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 5
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"king1" :
-			{
+		"abilities" : {
+			"king1" : {
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"dragon" :
-			{
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"spellImmunity" :
-			{
+			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
-				"icon" : "icons/e_fearl.png"	
+				"icon" : "icons/e_fearl.png"
 			},
-			"blinds" :
-			{
+			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "blind",
 				"val" : 100
 			},
-			"generateGems" :
-			{
+			"generateGems" : {
 				"type" : "GENERATE_RESOURCE",
 				"subtype" : "gems",
 				"val" : 1,
 				"propagator" : "HERO",
 				"description" : "{Gem Supply}\nProduces one gem daily",
-				"icon" : "icons/resources.png"				
+				"icon" : "icons/resources.png"
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon",
 				"icon" : "icons/darkfog2.png"
-			}		
+			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/diamondDragon/ZM151Z",
 			"map" : "creatures/diamondDragon/zmm151z",
 			"iconSmall" : "creatures/diamondDragon/CPrS151C",
 			"iconLarge" : "creatures/diamondDragon/CPrL151Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.6,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "GODRATTK.wav",
 			"defend" : "GODRDFND.wav",
 			"killed" : "GODRKILL.wav",

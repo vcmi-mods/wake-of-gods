@@ -1,12 +1,12 @@
 {
-	"hardenedShield" :
-	{
-		"type" : ["COMMANDER"],
+	"hardenedShield" : {
+		"type" : [
+			"COMMANDER"
+		],
 		"class" : "MINOR",
 		"value" : 1000,
 		"bonuses" : {
-			"defense" :
-			{
+			"defense" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.defence",
 				"val" : 5,
@@ -18,14 +18,11 @@
 			"scenarioBonus" : "artifacts/HrArt154L",
 			"map" : "artifacts/zart154.def"
 		},
-		"growing" :
-		{
-			"bonusesPerLevel" :
-			[
+		"growing" : {
+			"bonusesPerLevel" : [
 				{
 					"level" : 6,
-					"bonus" : 
-					{
+					"bonus" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "defence",
 						"val" : 1

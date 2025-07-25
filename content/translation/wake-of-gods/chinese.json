@@ -252,7 +252,7 @@
 	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.name" : "梦境宫殿",
 	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.onVisited" : "{梦境宫殿}\r\n\r\n守梦人礼貌地鞠了一躬。\n\n“今天你已经参与过了，梦境旅人。让你的灵魂好好休息——明天带着新的希望再来吧。”",
 	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.rewards.0" : "{梦境宫殿}\r\n\r\n你献上了1000金币，守梦人打开了一只闪闪发光的宝箱……\n\n可是它化作雾气消散了——这次没有奖励。梦境，总是如此飘忽不定。",
-"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.rewards.1" : "{梦境宫殿}\r\n\r\n你交出了1000金币。宝箱随着一声低语缓缓打开……\n\n里面躺着闪烁着光亮的资源，闪闪发光，好像一个被遗忘的梦境在回响。",
+	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.rewards.1" : "{梦境宫殿}\r\n\r\n你交出了1000金币。宝箱随着一声低语缓缓打开……\n\n里面躺着闪烁着光亮的资源，闪闪发光，好像一个被遗忘的梦境在回响。",
 	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.rewards.2" : "{梦境宫殿}\r\n\r\n支付了1000金币。空气中泛起了光辉，宝箱嘎吱一声打开……\n\n一件奇妙的宝物出现在宝箱里。看来一个小小的梦想成真了。.",
 	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.rewards.3" : "{梦境宫殿}\r\n\r\n你献上了1000金币，守梦人微笑着。宝箱缓缓打开……\n\n一件稀有的宝物出现了——作为赠礼，你的金币归还给你。真是意外的幸运！",
 	"mapObject.wake-of-gods.mapobjects.palaceOfDreams.palaceOfDreams.rewards.4" : "{梦境宫殿}\r\n\r\n你迈步向前，手中握着金币。宝箱爆发出灿烂的光芒……\n\n一件强力的宝物和一堆金币在等着你。中大奖了！你感觉连星星都在为你今天的梦想实现而鼓掌！",

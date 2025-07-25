@@ -1,15 +1,12 @@
 {
-	"warZealot" :
-	{
-		"name" :
-		{
+	"warZealot" : {
+		"name" : {
 			"singular" : "War Zealot",
 			"plural" : "War Zealots"
 		},
 		"faction" : "castle",
 		"level" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
 		"speed" : 8,
@@ -17,36 +14,30 @@
 		"shots" : 24,
 		"attack" : 14,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 10,
-			 "max" : 12
+		"damage" : {
+			"min" : 10,
+			"max" : 12
 		},
 		"fightValue" : 700,
 		"aiValue" : 1000,
-		"advMapAmount" :
-		{
-			 "min" : 6,
-			 "max" : 10
+		"advMapAmount" : {
+			"min" : 6,
+			"max" : 10
 		},
 		"growth" : 2,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"spellMagicMirror" :
-			{
+			"spellMagicMirror" : {
 				"type" : "ENCHANTED",
 				"subtype" : "magicMirror",
 				"val" : 3
-//				"addInfo" : 100
+				//				"addInfo" : 100
 			},
 			"fearless" : {
 				"type" : "FEARFUL",
@@ -56,25 +47,21 @@
 				"icon" : "icons/e_fearl.png"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/warZealot/ZM169ZL",
 			"map" : "creatures/warZealot/zmm169z",
 			"iconSmall" : "creatures/warZealot/CPrS169N",
 			"iconLarge" : "creatures/warZealot/CPrL169M",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -98,
 					"middleX" : 62,
@@ -82,11 +69,23 @@
 					"lowerX" : 28,
 					"lowerY" : 3
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ZELTATTK.wav",
 			"defend" : "ZELTDFND.wav",
 			"killed" : "ZELTKILL.wav",

@@ -1,19 +1,64 @@
 {
-	"wog" :
-	{
-		"images" :
-		[
-			{"x": 0,   "y": 0,   "name":"CampaignBackground4"}
+	"wog" : {
+		"images" : [
+			{
+				"x" : 0,
+				"y" : 0,
+				"name" : "CampaignBackground4"
+			}
 		],
-		"nextbutton" : {"x": 715, "y": 5, "name":"campaigns/next" },
-		"backbutton" : {"x": 5, "y": 5, "name":"campaigns/back" },
-		"exitbutton" : {"x": 658, "y": 482, "name":"CMPSCAN" },
-		"items":
-		[
-			{ "id": 1, "x":90,  "y":72,  "file":"Maps/zc1", "image":"zc1", "video":"", "requires": []              },
-			{ "id": 2, "x":539, "y":72,  "file":"Maps/zc2", "image":"zc2", "video":"", "requires": []              },
-			{ "id": 3, "x":43,  "y":245, "file":"Maps/zc3", "image":"zc3", "video":"", "requires": []              },
-			{ "id": 4, "x":586, "y":246, "file":"Maps/zc4", "image":"zc4", "video":"", "requires": []              },
+		"nextbutton" : {
+			"x" : 715,
+			"y" : 5,
+			"name" : "campaigns/next"
+		},
+		"backbutton" : {
+			"x" : 5,
+			"y" : 5,
+			"name" : "campaigns/back"
+		},
+		"exitbutton" : {
+			"x" : 658,
+			"y" : 482,
+			"name" : "CMPSCAN"
+		},
+		"items" : [
+			{
+				"id" : 1,
+				"x" : 90,
+				"y" : 72,
+				"file" : "Maps/zc1",
+				"image" : "zc1",
+				"video" : "",
+				"requires" : []
+			},
+			{
+				"id" : 2,
+				"x" : 539,
+				"y" : 72,
+				"file" : "Maps/zc2",
+				"image" : "zc2",
+				"video" : "",
+				"requires" : []
+			},
+			{
+				"id" : 3,
+				"x" : 43,
+				"y" : 245,
+				"file" : "Maps/zc3",
+				"image" : "zc3",
+				"video" : "",
+				"requires" : []
+			},
+			{
+				"id" : 4,
+				"x" : 586,
+				"y" : 246,
+				"file" : "Maps/zc4",
+				"image" : "zc4",
+				"video" : "",
+				"requires" : []
+			}
 		]
 	}
 }

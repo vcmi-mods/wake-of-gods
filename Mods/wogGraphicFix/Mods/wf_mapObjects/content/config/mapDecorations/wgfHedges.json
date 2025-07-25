@@ -1,7 +1,7 @@
 {
 	"hedgesWoG" : {
 		"name" : "Hedge",
-		"handler" :"generic",
+		"handler" : "generic",
 		"types" : {
 			"object" : {
 				"templates" : {
@@ -39,7 +39,10 @@
 					},
 					"zbvin04" : {
 						"animation" : "objects/hedges/zbvin04.def",
-						"mask" : [ "VV", "VB" ]
+						"mask" : [
+							"VV",
+							"VB"
+						]
 					}
 				}
 			}

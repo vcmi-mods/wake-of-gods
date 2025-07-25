@@ -5,13 +5,25 @@
 				"templates" : {
 					"zwvolc2" : {
 						"animation" : "volcanos/zwvolc2",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VBBB" ],
-						"allowedTerrains" : [ "swamp" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					},
 					"wgfAVLvol60" : {
 						"animation" : "volcanos/AVLvol60",
-						"mask" : [ "VVV", "BBB" ],
-						"allowedTerrains" : [ "lava" ]
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					}
 				}
 			}

@@ -1,19 +1,26 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"vastCavern" : {				
+			"vastCavern" : {
 				"templates" : {
 					"smallCavern" : {
 						"animation" : "dwellings/zavg172c",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"hellRift" : {			
+			"hellRift" : {
 				"templates" : {
 					"small" : {
 						"animation" : "dwellings/zavg195b",
-						"mask" : [ "VV", "BA" ]
+						"mask" : [
+							"VV",
+							"BA"
+						]
 					}
 				}
 			}

@@ -1,16 +1,13 @@
 {
-	"succubus1" :
-	{
-		"name" :
-		{
+	"succubus1" : {
+		"name" : {
 			"singular" : "Succubus",
 			"plural" : "Succubi"
 		},
 		"faction" : "inferno",
 		"special" : true,
 		"level" : 0,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
 		"speed" : 4,
@@ -18,68 +15,56 @@
 		"shots" : 24,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 12
+		"damage" : {
+			"min" : 6,
+			"max" : 12
 		},
 		"fightValue" : 130,
 		"aiValue" : 156,
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
 		},
 		"growth" : 9,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "fireShield",
 				"val" : 1
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "commanders/ZM177NPC.DEF",
 			"iconSmall" : "commanders/CPrS177n",
 			"iconLarge" : "commanders/CPrL177n",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.2,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PLCBOWX",
 				"attackClimaxFrame" : 9,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 39,
 					"upperY" : -76,
 					"middleX" : 49,
@@ -87,11 +72,23 @@
 					"lowerX" : 25,
 					"lowerY" : -56
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "SGRGATTK.wav",
 			"defend" : "SGRGDFND.wav",
 			"killed" : "SGRGKILL.wav",

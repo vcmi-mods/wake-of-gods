@@ -1,15 +1,12 @@
 {
-	"darknessDragon" :
-	{
-		"name" :
-		{
+	"darknessDragon" : {
+		"name" : {
 			"singular" : "Darkness Dragon",
 			"plural" : "Darkness Dragons"
 		},
 		"faction" : "dungeon",
 		"level" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 8000,
 			"sulfur" : 3
 		},
@@ -18,59 +15,49 @@
 		"hitPoints" : 600,
 		"attack" : 33,
 		"defense" : 33,
-		"damage" :
-		{
-			 "min" : 60,
-			 "max" : 75
+		"damage" : {
+			"min" : 60,
+			"max" : 75
 		},
 		"fightValue" : 20000,
 		"aiValue" : 26000,
-		"advMapAmount" :
-		{
-			 "min" : 2,
-			 "max" : 5
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 5
 		},
 		"growth" : 1,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"king1" :
-			{
+		"abilities" : {
+			"king1" : {
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"dragon" :
-			{
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"spellImmunity" :
-			{
+			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			},
-			"strikeAndReturn" : 
-			{
+			"strikeAndReturn" : {
 				"type" : "RETURN_AFTER_STRIKE",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
-			"darkness" :
-			{
+			"darkness" : {
 				"type" : "DARKNESS",
 				"val" : 3,
 				"propagator" : "HERO",
 				"description" : "{Veil of Darkness}\nWhen the hero moves, the shroud covers him for all players who are not allies",
-				"icon" : "icons/darkfog.png"				
+				"icon" : "icons/darkfog.png"
 			},
 			"fearful" : {
 				"type" : "FEARFUL",
@@ -89,59 +76,50 @@
 				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
 				"icon" : "icons/e_fear.png"
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
-				"icon" : "icons/e_fearl.png"	
+				"icon" : "icons/e_fearl.png"
 			},
-			"hateGiants" :
-			{
+			"hateGiants" : {
 				"type" : "HATE",
 				"subtype" : "giant",
 				"val" : 50,
 				"hidden" : true
 			},
-			"hateTitans" :
-			{
+			"hateTitans" : {
 				"type" : "HATE",
 				"subtype" : "titan",
 				"val" : 50,
 				"hidden" : true
 			},
-			"hateLords" :
-			{
+			"hateLords" : {
 				"type" : "HATE",
 				"subtype" : "lordOfThunder",
 				"val" : 50,
-				"description" : "{Hates Lords of Thunders}\nDoes 50% more damage to Giants, Titans and Lords of Thunder",
-				
+				"description" : "{Hates Lords of Thunders}\nDoes 50% more damage to Giants, Titans and Lords of Thunder"
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon",
 				"icon" : "icons/darkfog2.png"
-			}			
+			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/darknessDragon/ZM155Z",
 			"map" : "creatures/darknessDragon/zmm155z",
 			"iconSmall" : "creatures/darknessDragon/CPrS155C",
 			"iconLarge" : "creatures/darknessDragon/CPrL155Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" :0.6,
+			"animationTime" : {
+				"walk" : 0.6,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "BKDRATTK.wav",
 			"defend" : "BKDRDFND.wav",
 			"killed" : "BKDRKILL.wav",

@@ -1,16 +1,15 @@
 {
-	"hellSteed" :
-	{
-		"name" :
-		{
+	"hellSteed" : {
+		"name" : {
 			"singular" : "Hell Steed",
 			"plural" : "Hell Steeds"
 		},
-		"upgrades" : ["nightmare"],
+		"upgrades" : [
+			"nightmare"
+		],
 		"faction" : "inferno",
 		"level" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
 		"doubleWide" : true,
@@ -18,61 +17,51 @@
 		"hitPoints" : 100,
 		"attack" : 15,
 		"defense" : 15,
-		"damage" :
-		{
-			 "min" : 18,
-			 "max" : 24
+		"damage" : {
+			"min" : 18,
+			"max" : 24
 		},
 		"fightValue" : 1850,
 		"aiValue" : 2150,
-		"advMapAmount" :
-		{
-			 "min" : 5,
-			 "max" : 10
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
 		},
 		"growth" : 2,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"immuneToFire" :
-			{
+		"abilities" : {
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 30
 			},
-			"spellFireWall" :
-			{
+			"spellFireWall" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "fireWall",
 				"val" : 12,
 				"addInfo" : 3
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/hellSteed/ZM195Z",
 			"map" : "creatures/hellSteed/zmm195z",
 			"iconSmall" : "creatures/hellSteed/CPrS195N",
 			"iconLarge" : "creatures/hellSteed/CPrL195Z",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.2,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "BGORATTK.wav",
 			"defend" : "BGORDFND.wav",
 			"killed" : "BGORKILL.wav",
