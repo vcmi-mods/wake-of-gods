@@ -705,7 +705,7 @@
 						"animation" : "rocks/uncrv03",
 						"mask" : [
 							"VVV",
-							"VBV"
+							"VVB"
 						],
 						"allowedTerrains" : [
 							"subterra"
