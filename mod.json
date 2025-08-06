@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.57",
+	"version" : "9.1.58",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.58" : [
+			"Fix underground crystals and lakes"
+		],
 		"9.1.57" : [
 			"Added few custom icons with creature abilities"
 		],

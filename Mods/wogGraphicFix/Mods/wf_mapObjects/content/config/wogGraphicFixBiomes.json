@@ -210,7 +210,7 @@
 	"wogUnderLake" : {
 		"biome" : {
 			"terrain" : "subterra",
-			//			"alignment" : "evil",
+			"alignment" : "evil",
 			"objectType" : "lake"
 		},
 		"templates" : [
@@ -218,10 +218,7 @@
 			"unlake1",
 			"unlake2",
 			"unlake3",
-			"unlake4",
-			"AVLlk1u0",
-			"AVLlk2u0",
-			"AVLlk3u0"
+			"unlake4"
 		]
 	},
 	"wogSwampLake" : {
@@ -576,7 +573,7 @@
 			"wicebr13"
 		]
 	},
-	"subMinerals" : {
+	"subMineralsTeal" : {
 		"biome" : {
 			"terrain" : "subterra",
 			"objectType" : "rock"
@@ -587,7 +584,15 @@
 			"Uncrb02",
 			"Uncrb03",
 			"Uncrb04",
-			"Uncrb05",
+			"Uncrb05"
+		]
+	},
+	"subMineralsPurple" : {
+		"biome" : {
+			"terrain" : "subterra",
+			"objectType" : "rock"
+		},
+		"templates" : [
 			"uncrv00",
 			"uncrv01",
 			"uncrv02",
