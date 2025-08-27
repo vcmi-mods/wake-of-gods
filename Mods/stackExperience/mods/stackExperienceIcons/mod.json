@@ -2,10 +2,9 @@
 	"name" : "Stack Experience Icons",
 	"description" : "This mod adds new numbered stack experience icons",
 	"modType" : "Mechanics",
-	"author" : "WoG Team",
+	"author" : "Aphra",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"keepDisabled" : true,
+	"version" : "1.1",
 	"depends" : [
 		"vcmi"
 	],
