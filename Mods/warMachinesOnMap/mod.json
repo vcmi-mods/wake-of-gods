@@ -19,5 +19,9 @@
 	"polish" : {
 		"name" : "Maszyny wojenne na mapie",
 		"description" : "Ten moduł umożliwia pojawianie się maszyn wojennych i księgi czarów na mapie przygód."
+	},
+	"portuguese" : {
+		"name" : "Máquinas de Guerra no Mapa",
+		"description" : "Este módulo permite que máquinas de guerra e o livro de feitiços apareçam no mapa de aventura."
 	}
 }

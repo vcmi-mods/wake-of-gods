@@ -39,5 +39,9 @@
 	"polish" : {
 		"name" : "Poprawki grafik WoG",
 		"description" : "Nowe grafiki obiektów na mapie SoD/WoG."
+	},
+	"portuguese" : {
+		"name" : "Correção Gráfica WoG",
+		"description" : "Novos gráficos para os objetos de mapa do SoD/WoG."
 	}
 }

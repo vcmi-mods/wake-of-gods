@@ -19,5 +19,9 @@
 	"polish" : {
 		"name" : "Animowane flagi",
 		"description" : "Ten moduł dodaje animowane flagi przy siedliskach i kopalniach."
+	},
+	"portuguese" : {
+		"name" : "Bandeiras Animadas",
+		"description" : "Este módulo ativa bandeiras animadas em moradias e minas."
 	}
 }

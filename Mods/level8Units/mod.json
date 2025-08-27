@@ -34,5 +34,9 @@
 	"polish" : {
 		"name" : "Jednostki 8-go poziomu",
 		"description" : "Dodaje jednostki 8-go poziomu z WoG.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
+	},
+	"portuguese" : {
+		"name" : "Unidades de 8º Nível",
+		"description" : "Adiciona unidades de nível 8 para o WoG.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
 	}
 }

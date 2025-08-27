@@ -21,5 +21,9 @@
 	"polish" : {
 		"name" : "Ikony statystyk z Heroes II",
 		"description" : "Zmienia statystyki WoG, aby bardziej przypominały te z H2."
+	},
+	"portuguese" : {
+		"name" : "Ícones de habilidades primárias do Heroes II",
+		"description" : "Altera as habilidades primárias do WoG para se parecerem mais com as do H2."
 	}
 }

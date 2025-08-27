@@ -30,5 +30,9 @@
 	"polish" : {
 		"name" : "Żywe pola bitew - siedliska WoG",
 		"description" : "Unikalne pola bitew dla każdego siedliska WoG. Port z ERA3 do VCMI."
+	},
+	"portuguese" : {
+		"name" : "Campos de Batalha Vívidos - Moradias WoG",
+		"description" : "Campos de batalha únicos para cada moradia WoG. Porte do ERA3 para VCMI."
 	}
 }
