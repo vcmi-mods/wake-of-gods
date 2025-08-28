@@ -16,5 +16,9 @@
 	"polish" : {
 		"name" : "Poprawki danych z Heroes III",
 		"description" : "Poprawki i ulepszenia grafiki oraz dźwięków niektórych elementów SoD."
+	},
+	"portuguese" : {
+		"name" : "Patch de Dados do Heroes III",
+		"description" : "Correções e melhorias nos gráficos e sons para alguns recursos do jogo SoD."
 	}
 }

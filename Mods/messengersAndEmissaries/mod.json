@@ -35,5 +35,9 @@
 	"polish" : {
 		"name" : "Jednostki Posłańców i Emisariuszy",
 		"description" : "Dodaje jednostki Posłańców i Emisariuszy Bogów z WoG."
+	},
+	"portuguese" : {
+		"name" : "Unidades de Mensageiros e Emissários",
+		"description" : "Adiciona as unidades Mensageiros e Emissários dos Deuses para o WoG."
 	}
 }

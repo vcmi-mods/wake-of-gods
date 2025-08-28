@@ -68,5 +68,9 @@
 	"polish" : {
 		"name" : "Dekoracje mapy",
 		"description" : "Ten moduł włącza nowe dekoracje mapy."
+	},
+	"portuguese" : {
+		"name" : "Decorações do Mapa",
+		"description" : "Este módulo ativa novas decorações de mapa."
 	}
 }

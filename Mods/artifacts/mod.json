@@ -47,5 +47,9 @@
 	"polish" : {
 		"name" : "Artefakty",
 		"description" : "Ten moduł dodaje artefakty z WoG."
+	},
+	"portuguese" : {
+		"name" : "Artefatos",
+		"description" : "Este módulo ativa os artefatos do WoG."
 	}
 }

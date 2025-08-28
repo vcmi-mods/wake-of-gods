@@ -23,5 +23,9 @@
 	"polish" : {
 		"name" : "Obiekty na mapie",
 		"description" : "Ten moduł dodaje nowe obiekty na mapie."
+	},
+	"portuguese" : {
+		"name" : "Objetos do Mapa",
+		"description" : "Este módulo ativa novos objetos de mapa."
 	}
 }

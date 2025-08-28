@@ -44,5 +44,9 @@
 	"polish" : {
 		"name" : "Motyw menu głównego",
 		"description" : "Zmienia motyw menu głównego na używany w modzie WoG."
+	},
+	"portuguese" : {
+		"name" : "Tema do Menu Principal",
+		"description" : "Altera o tema do menu principal para o utilizado no mod WoG."
 	}
 }

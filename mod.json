@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.58",
+	"version" : "9.1.59",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.59" : [
+			"Add portuguese translation by Altieres Lima."
+		],
 		"9.1.58" : [
 			"Fix underground crystals and lakes"
 		],
@@ -244,6 +247,13 @@
 		"description" : "Neoficiální datadisk pro Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/czech.json"
+		]
+	},
+	"portuguese" : {
+		"name" : "In The Wake of Gods",
+		"description" : "Addon não oficial para Heroes of Might and Magic III",
+		"translations" : [
+			"translation/wake-of-gods/portuguese.json"
 		]
 	}
 }

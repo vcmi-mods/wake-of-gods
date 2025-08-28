@@ -33,5 +33,9 @@
 	"polish" : {
 		"name" : "Stworzenia",
 		"description" : "Ten moduł dodaje nowe stworzenia."
+	},
+	"portuguese" : {
+		"name" : "Criaturas",
+		"description" : "Este módulo ativa novas criaturas."
 	}
 }

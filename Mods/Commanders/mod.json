@@ -68,6 +68,13 @@
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/polish.json"
 		]
+	},
+	"portuguese" : {
+		"name" : "Comandantes",
+		"description" : "Este módulo ativa a funcionalidade de comandantes do WoG",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/portuguese.json"
+		]
 	}
 
 	// for future reference
