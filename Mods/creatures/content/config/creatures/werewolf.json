@@ -52,8 +52,8 @@
 			"map" : "creatures/werewolf/zmm194z",
 			"iconSmall" : "creatures/werewolf/CPrS194Z",
 			"iconLarge" : "creatures/werewolf/CPrL194Z",
-			"mapAttackFromRight" : "avwattak/ZAvW194a",
-			"mapAttackFromLeft" : "avwattak/ZAvW194b",
+			"mapAttackFromRight": "avwattak/ZNPC194a",
+			"mapAttackFromLeft": "avwattak/ZNPC194b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.1,
