@@ -54,8 +54,8 @@
 			"map" : "creatures/gorynych/zmm168g",
 			"iconSmall" : "creatures/gorynych/CPrS168Z",
 			"iconLarge" : "creatures/gorynych/CPrL168M",
-			"mapAttackFromRight": "avwattak/ZAvW168a",
-			"mapAttackFromLeft": "avwattak/ZAvW168b",
+			"mapAttackFromRight" : "avwattak/ZAvW168a",
+			"mapAttackFromLeft" : "avwattak/ZAvW168b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

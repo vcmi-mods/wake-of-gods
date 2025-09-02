@@ -45,8 +45,8 @@
 			"map" : "creatures/fireMessenger/zmm164d",
 			"iconSmall" : "creatures/fireMessenger/CPrS164N",
 			"iconLarge" : "creatures/fireMessenger/CPrL164M",
-			"mapAttackFromRight": "avwattak/ZAvW164a",
-			"mapAttackFromLeft": "avwattak/ZAvW164b",
+			"mapAttackFromRight" : "avwattak/ZAvW164a",
+			"mapAttackFromLeft" : "avwattak/ZAvW164b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.4,

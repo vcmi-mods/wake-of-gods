@@ -49,8 +49,8 @@
 			"map" : "creatures/nightmare/zmm172n",
 			"iconSmall" : "creatures/nightmare/CPrS172N",
 			"iconLarge" : "creatures/nightmare/CPrL172M",
-			"mapAttackFromRight": "avwattak/ZAvW172a",
-			"mapAttackFromLeft": "avwattak/ZAvW172b",
+			"mapAttackFromRight" : "avwattak/ZAvW172a",
+			"mapAttackFromLeft" : "avwattak/ZAvW172b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.2,

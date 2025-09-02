@@ -77,8 +77,8 @@
 			"map" : "creatures/dracolich/zmm196z",
 			"iconSmall" : "creatures/dracolich/CPrS196N",
 			"iconLarge" : "creatures/dracolich/CPrL196Z",
-			"mapAttackFromRight": "avwattak/ZAvW196a",
-			"mapAttackFromLeft": "avwattak/ZAvW196b",
+			"mapAttackFromRight" : "avwattak/ZAvW196a",
+			"mapAttackFromLeft" : "avwattak/ZAvW196b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 0.75,

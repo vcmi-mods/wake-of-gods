@@ -65,7 +65,7 @@
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					"OPPOSITE_SIDE", 
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
@@ -110,8 +110,8 @@
 			"map" : "creatures/darknessDragon/zmm155z",
 			"iconSmall" : "creatures/darknessDragon/CPrS155C",
 			"iconLarge" : "creatures/darknessDragon/CPrL155Z",
-			"mapAttackFromRight": "avwattak/ZAvW155a",
-			"mapAttackFromLeft": "avwattak/ZAvW155b",
+			"mapAttackFromRight" : "avwattak/ZAvW155a",
+			"mapAttackFromLeft" : "avwattak/ZAvW155b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 0.6,

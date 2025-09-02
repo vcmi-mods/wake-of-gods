@@ -54,8 +54,8 @@
 			"map" : "creatures/ghost/zmm159g",
 			"iconSmall" : "creatures/ghost/CPrS159G",
 			"iconLarge" : "creatures/ghost/CPrL159G",
-			"mapAttackFromRight": "avwattak/ZAvW159a",
-			"mapAttackFromLeft": "avwattak/ZAvW159b",
+			"mapAttackFromRight" : "avwattak/ZAvW159a",
+			"mapAttackFromLeft" : "avwattak/ZAvW159b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

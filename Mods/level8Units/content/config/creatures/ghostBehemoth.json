@@ -60,7 +60,7 @@
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					"OPPOSITE_SIDE", 
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
@@ -82,8 +82,8 @@
 			"map" : "creatures/ghostbehemoth/zmm156z",
 			"iconSmall" : "creatures/ghostbehemoth/CPrS156S",
 			"iconLarge" : "creatures/ghostbehemoth/CPrL156Z",
-			"mapAttackFromRight": "avwattak/ZAvW156a",
-			"mapAttackFromLeft": "avwattak/ZAvW156b",
+			"mapAttackFromRight" : "avwattak/ZAvW156a",
+			"mapAttackFromLeft" : "avwattak/ZAvW156b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.17,

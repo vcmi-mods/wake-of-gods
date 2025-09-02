@@ -78,8 +78,8 @@
 			"map" : "creatures/diamondDragon/zmm151z",
 			"iconSmall" : "creatures/diamondDragon/CPrS151C",
 			"iconLarge" : "creatures/diamondDragon/CPrL151Z",
-			"mapAttackFromRight": "avwattak/ZAvW151a",
-			"mapAttackFromLeft": "avwattak/ZAvW151b",
+			"mapAttackFromRight" : "avwattak/ZAvW151a",
+			"mapAttackFromLeft" : "avwattak/ZAvW151b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 0.6,

@@ -93,8 +93,8 @@
 			"map" : "creatures/supremeArchangel/zmm150z",
 			"iconSmall" : "creatures/supremeArchangel/CPrS150C",
 			"iconLarge" : "creatures/supremeArchangel/CPrL150Z",
-			"mapAttackFromRight": "avwattak/ZAvW150a",
-			"mapAttackFromLeft": "avwattak/ZAvW150b",
+			"mapAttackFromRight" : "avwattak/ZAvW150a",
+			"mapAttackFromLeft" : "avwattak/ZAvW150b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 0.82,

@@ -70,7 +70,7 @@
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					"OPPOSITE_SIDE", 
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
@@ -97,8 +97,8 @@
 			"map" : "creatures/bloodDragon/zmm154z",
 			"iconSmall" : "creatures/bloodDragon/CPrS154C",
 			"iconLarge" : "creatures/bloodDragon/CPrL154Z",
-			"mapAttackFromRight": "avwattak/ZAvW154a",
-			"mapAttackFromLeft": "avwattak/ZAvW154b",
+			"mapAttackFromRight" : "avwattak/ZAvW154a",
+			"mapAttackFromLeft" : "avwattak/ZAvW154b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 0.75,
