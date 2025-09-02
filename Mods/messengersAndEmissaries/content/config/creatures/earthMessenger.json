@@ -45,6 +45,8 @@
 			"map" : "creatures/earthMessenger/zmm165d",
 			"iconSmall" : "creatures/earthMessenger/CPrS165N",
 			"iconLarge" : "creatures/earthMessenger/CPrL165M",
+			"mapAttackFromRight": "avwattak/ZAvW165a",
+			"mapAttackFromLeft": "avwattak/ZAvW165b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.8,

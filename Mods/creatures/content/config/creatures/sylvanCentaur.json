@@ -49,6 +49,8 @@
 			"map" : "creatures/sylvanCentaur/zmm192z",
 			"iconSmall" : "creatures/sylvanCentaur/CPrS192Z",
 			"iconLarge" : "creatures/sylvanCentaur/CPrL192Z",
+			"mapAttackFromRight": "avwattak/ZAvW192a",
+			"mapAttackFromLeft": "avwattak/ZAvW192b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 0.5,

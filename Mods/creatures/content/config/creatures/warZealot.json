@@ -52,6 +52,8 @@
 			"map" : "creatures/warZealot/zmm169z",
 			"iconSmall" : "creatures/warZealot/CPrS169N",
 			"iconLarge" : "creatures/warZealot/CPrL169M",
+			"mapAttackFromRight": "avwattak/ZAvW169a",
+			"mapAttackFromLeft": "avwattak/ZAvW169b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

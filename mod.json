@@ -4,14 +4,17 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.59",
+	"version" : "9.1.60",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.60" : [
+			"Add avwattak creature frames"
+		],
 		"9.1.59" : [
-			"Add portuguese translation by Altieres Lima."
+			"Add portuguese translation by Altieres Lim"
 		],
 		"9.1.58" : [
 			"Fix underground crystals and lakes"

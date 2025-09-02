@@ -78,6 +78,8 @@
 			"map" : "creatures/sacredphoenix/zmm158z",
 			"iconSmall" : "creatures/sacredphoenix/CPrS158E",
 			"iconLarge" : "creatures/sacredphoenix/CPrL158Z",
+			"mapAttackFromRight": "avwattak/ZAvW158a",
+			"mapAttackFromLeft": "avwattak/ZAvW158b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

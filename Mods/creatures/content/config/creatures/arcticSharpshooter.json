@@ -52,6 +52,8 @@
 			"map" : "creatures/arcticSharpshooter/zmm170s",
 			"iconSmall" : "creatures/arcticSharpshooter/CPrS170N",
 			"iconLarge" : "creatures/arcticSharpshooter/CPrL170M",
+			"mapAttackFromRight": "avwattak/ZAvW170a",
+			"mapAttackFromLeft": "avwattak/ZAvW170b",			
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.02,

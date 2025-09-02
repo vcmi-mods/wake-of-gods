@@ -89,6 +89,8 @@
 			"map" : "creatures/hellBaron/zmm153z",
 			"iconSmall" : "creatures/hellBaron/CPrS153C",
 			"iconLarge" : "creatures/hellBaron/CPrL153Z",
+			"mapAttackFromRight": "avwattak/ZAvW153a",
+			"mapAttackFromLeft": "avwattak/ZAvW153b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,
