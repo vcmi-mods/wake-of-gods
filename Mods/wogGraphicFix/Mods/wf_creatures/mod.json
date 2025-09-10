@@ -9,7 +9,9 @@
 		"config/wgfDwellings"
 	],
 	"softDepends" : [
-		"wake-of-gods.creatures"
+		"wake-of-gods.creatures",
+		"wake-of-gods.heroes3datapatch",
+		"wake-of-gods.heroes3datapatch.heroes3datapatchera"
 	],
 	"chinese" : {
 		"name" : "生物补丁",

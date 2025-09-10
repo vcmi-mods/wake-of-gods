@@ -1,0 +1,12 @@
+{
+	"name" : "Heroes III ERA data patch",
+	"description" : "Fixes & improvements to graphics for some of SoD game assets.",
+	"modType" : "Graphical",
+	"author" : "WoG Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"czech" : {
+		"name" : "Oprava grafiky z ERA pro Heroes 3",
+		"description" : "Opravy grafiky pro některé herní prvky z Heroes 3."
+	}
+}
