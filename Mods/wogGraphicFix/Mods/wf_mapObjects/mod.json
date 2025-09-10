@@ -11,7 +11,8 @@
 		"wake-of-gods.creaturebanks",
 		"wake-of-gods.mapdecorations",
 		"wake-of-gods.messengersandemissaries",
-		"wake-of-gods.heroes3datapatch"
+		"wake-of-gods.heroes3datapatch",
+		"wake-of-gods.heroes3datapatch.heroes3datapatchera"
 	],
 	"chinese" : {
 		"name" : "地图物体补丁",
