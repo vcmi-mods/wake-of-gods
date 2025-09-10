@@ -27,5 +27,9 @@
 	"polish" : {
 		"name" : "Banki stworzeń",
 		"description" : "Ten moduł dodaje nowe banki stworzeń."
+	},
+	"portuguese" : {
+		"name" : "Bancos de Criaturas",
+		"description" : "Este módulo ativa novos bancos de criaturas."
 	}
 }

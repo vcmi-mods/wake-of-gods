@@ -38,5 +38,9 @@
 	"polish" : {
 		"name" : "Doświadczenie stacków",
 		"description" : "Ten moduł dodaje funkcję doświadczenia dla jednostek."
+	},
+	"portuguese" : {
+		"name" : "Experiência de Pilha",
+		"description" : "Este módulo ativa a funcionalidade de experiência de pilha do WoG."
 	}
 }

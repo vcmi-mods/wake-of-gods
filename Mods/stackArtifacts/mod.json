@@ -27,5 +27,9 @@
 	"polish" : {
 		"name" : "Artefakty jednostek",
 		"description" : "Ten moduł dodaje funkcję artefaktów dla jednostek."
+	},
+	"portuguese" : {
+		"name" : "Artefatos de Pilha",
+		"description" : "Este módulo ativa a funcionalidade de artefatos para pilhas de unidades do WoG."
 	}
 }

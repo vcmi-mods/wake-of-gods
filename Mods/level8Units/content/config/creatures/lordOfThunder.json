@@ -91,6 +91,8 @@
 			"iconLarge" : "creatures/lordOfThunder/CPrL152Z",
 			"map" : "creatures/lordOfThunder/zmm152z",
 			"animation" : "creatures/lordOfThunder/ZM152Z",
+			"mapAttackFromRight" : "avwattak/ZAvW152a",
+			"mapAttackFromLeft" : "avwattak/ZAvW152b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.38,

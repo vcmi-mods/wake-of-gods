@@ -54,6 +54,8 @@
 			"map" : "creatures/hellSteed/zmm195z",
 			"iconSmall" : "creatures/hellSteed/CPrS195N",
 			"iconLarge" : "creatures/hellSteed/CPrL195Z",
+			"mapAttackFromRight" : "avwattak/ZNPC195a",
+			"mapAttackFromLeft" : "avwattak/ZNPC195b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.2,

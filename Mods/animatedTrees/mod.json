@@ -16,5 +16,9 @@
 	"polish" : {
 		"name" : "Animowane drzewa",
 		"description" : "Ten moduł dodaje animowane drzewa na mapie przygód."
+	},
+	"portuguese" : {
+		"name" : "Árvores Animadas",
+		"description" : "Este módulo ativa árvores animadas no mapa de aventura."
 	}
 }

@@ -45,6 +45,8 @@
 			"map" : "creatures/waterMessenger/zmm167d",
 			"iconSmall" : "creatures/waterMessenger/CPrS167N",
 			"iconLarge" : "creatures/waterMessenger/CPrL167M",
+			"mapAttackFromRight" : "avwattak/ZAvW167a",
+			"mapAttackFromLeft" : "avwattak/ZAvW167b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.6,

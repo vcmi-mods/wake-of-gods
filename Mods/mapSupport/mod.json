@@ -989,5 +989,9 @@
 	"polish" : {
 		"name" : "Obsługa formatu map (WoG)",
 		"description" : "Ten mod zawiera pliki wspierające potrzebne do ładowania map w formacie 'In The Wake of Gods' w VCMI"
+	},
+	"portuguese" : {
+		"name" : "Suporte para formato de mapa (WoG)",
+		"description" : "Este mod contém os arquivos de suporte necessários para carregar mapas no formato 'In The Wake of Gods' no VCMI"
 	}
 }

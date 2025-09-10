@@ -16,5 +16,9 @@
 	"polish" : {
 		"name" : "Dekoracje pola bitwy",
 		"description" : "Ten moduł dodaje animowane przeszkody na polach bitew."
+	},
+	"portuguese" : {
+		"name" : "Decorações de Batalha",
+		"description" : "Este módulo ativa obstáculos animados nos campos de batalha."
 	}
 }

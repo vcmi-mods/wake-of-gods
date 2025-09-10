@@ -69,7 +69,7 @@
 							"VVVV",
 							"VVVV",
 							"VVVV",
-							"VBAB"
+							"VVBA"
 						]
 					},
 					"swampCavern" : {
@@ -78,7 +78,7 @@
 							"VVVV",
 							"VVVV",
 							"VVVV",
-							"VBAB"
+							"VVBA"
 						],
 						"allowedTerrains" : [
 							"swamp",
@@ -130,8 +130,8 @@
 						"animation" : "dwellings/zavg195",
 						"mask" : [
 							"VVVV",
-							"VBBB",
-							"VBAB"
+							"VVBB",
+							"VVBA"
 						]
 					}
 				}

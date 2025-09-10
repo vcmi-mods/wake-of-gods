@@ -52,6 +52,8 @@
 			"map" : "creatures/santaGremlin/zmm173m",
 			"iconSmall" : "creatures/santaGremlin/CPrS173M",
 			"iconLarge" : "creatures/santaGremlin/CPrL173M",
+			"mapAttackFromRight" : "avwattak/ZAvW173a",
+			"mapAttackFromLeft" : "avwattak/ZAvW173b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

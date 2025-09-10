@@ -79,6 +79,8 @@
 			"map" : "creatures/hellhydra/zmm157z",
 			"iconSmall" : "creatures/hellhydra/CPrS157F",
 			"iconLarge" : "creatures/hellhydra/CPrL157Z",
+			"mapAttackFromRight" : "avwattak/ZAvW157a",
+			"mapAttackFromLeft" : "avwattak/ZAvW157b",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,
