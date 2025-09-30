@@ -26,7 +26,8 @@
 					"ambient" : [
 						"LOOPSANC"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell150.def"
 			},
 			"dragonPeaks" : {
 				"name" : "Dragon Peaks",
@@ -51,7 +52,8 @@
 					"ambient" : [
 						"LOOPDRAG"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell151.def"
 			},
 			"stormTemple" : {
 				"name" : "Storm Temple",
@@ -77,7 +79,8 @@
 					"ambient" : [
 						"LOOPTITA"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell152.def"
 			},
 			"unholyPalace" : {
 				"name" : "Unholy Palace",
@@ -102,7 +105,8 @@
 					"ambient" : [
 						"LOOPDEVL"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell153.def"
 			},
 			"spectralVault" : {
 				"name" : "Spectral Vault",
@@ -127,7 +131,8 @@
 					"ambient" : [
 						"LOOPDRAG"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell154.def"
 			},
 			"caveOfDarkness" : {
 				"name" : "Cave of Darkness",
@@ -154,7 +159,8 @@
 					"ambient" : [
 						"LOOPDRAG"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell155.def"
 			},
 			"behemothTomb" : {
 				"name" : "Behemoth Tomb",
@@ -179,7 +185,8 @@
 					"ambient" : [
 						"LOOPBEHE"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell156.def"
 			},
 			"chaosPool" : {
 				"name" : "Chaos Pool",
@@ -203,7 +210,8 @@
 					"ambient" : [
 						"LOOPHYDR"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell157.def"
 			},
 			"spiritPyre" : {
 				"name" : "Spirit Pyre",
@@ -223,7 +231,8 @@
 							"VBAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell158.def"
 			}
 		}
 	}

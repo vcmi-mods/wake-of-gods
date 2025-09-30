@@ -23,7 +23,8 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell171.def"
 			},
 			"snowCoveredPosition" : {
 				"name" : "Snow Covered Position",
@@ -47,7 +48,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell170.def"
 			},
 			"vastCavern" : {
 				"name" : "Vast Cavern",
@@ -85,7 +87,8 @@
 							"lava"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell172a.def"
 			},
 			"dreamHorse-shoe" : {
 				"name" : "Dream Horse-shoe",
@@ -110,7 +113,8 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell172.def"
 			},
 			"hellRift" : {
 				"name" : "Hell Rift",
@@ -134,7 +138,8 @@
 							"VVBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell195.def"
 			},
 			"lostFriary" : {
 				"name" : "Lost Friary",
@@ -159,7 +164,8 @@
 							"VBAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell169.def"
 			},
 			"snowman" : {
 				"name" : "Snowman",
@@ -183,7 +189,8 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell173.def"
 			},
 			"sylvanHomestead" : {
 				"name" : "Sylvan Homestead",
@@ -206,7 +213,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell192.def"
 			},
 			"enchantedTower" : {
 				"name" : "Enchanted Tower",
@@ -231,7 +239,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell193.def"
 			},
 			"howlingHollow" : {
 				"name" : "Howling Hollow",
@@ -255,7 +264,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell194.def"
 			},
 			"dragonGraveyard" : {
 				"name" : "Dragon Graveyard",
@@ -280,7 +290,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell196.def"
 			}
 		}
 	}

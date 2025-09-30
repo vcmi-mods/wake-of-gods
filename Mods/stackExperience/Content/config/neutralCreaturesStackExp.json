@@ -810,8 +810,7 @@
 				]
 			}
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR" //nie ma takiego WoG bonus
 			//				},
 			//				"values" : [ 5, 10, 15, 20, 25, 25, 25, 25, 25, 25 ]

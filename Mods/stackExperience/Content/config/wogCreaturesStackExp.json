@@ -1269,15 +1269,13 @@
 				]
 			}
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "SUMMON_GUARDIANS",
 			//				},
 			//				"values" : [ 10, 20, 30, 40, 5, 10, 20, 30, 40, 50 ]
 			//			},
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "SUMMON_GUARDIANS",
 			//					"subtype" : "masterGremlin",
 			//				},

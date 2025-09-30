@@ -46,7 +46,7 @@
 			//				"type" : "NOT_ACTIVE",
 			//				"effectRange" : "ONLY_ENEMY_ARMY",
 			//				"limiters" : [ {
-			//					"type" :"CREATURE_TYPE_LIMITER",
+			//					"type" : "CREATURE_TYPE_LIMITER",
 			//						"parameters" : [ "arrowTower", false ]
 			//					}
 			//				]

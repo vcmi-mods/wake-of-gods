@@ -31,7 +31,8 @@
 							"rough"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/AVGcycl1.def"
 			},
 			"behemothCragBig" : {
 				"name" : "Behemoth Crag",
@@ -52,7 +53,7 @@
 						"mask" : [
 							"VVVV",
 							"VVVV",
-							"VBAB"
+							"VVAB"
 						],
 						"visitableFrom" : [
 							"---",
@@ -63,17 +64,30 @@
 							"rough"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/avgbhmt1.def"
 			},
 
-			"hovel" : {
-				"name" : "Hovel",
+			"portalOfGloryBig" : {
+				"name" : "Portal of Glory",
+				"bannedForRandomDwelling" : true,
+				"creatures" : [
+					[
+						"angel"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPSANC.wav"
+					]
+				},
 				"templates" : {
-					"rough2" : {
-						"animation" : "dwellings/AVGpeas1",
+					"big" : {
+						"animation" : "dwellings/AVG2ang0",
 						"mask" : [
-							"VV",
-							"BA"
+							"VVV",
+							"VVV",
+							"VBA"
 						],
 						"visitableFrom" : [
 							"---",
@@ -81,8 +95,34 @@
 							"+++"
 						]
 					}
-				}
-			}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/AVG2ang0.def"
+			},
+			
+			"hovelSmall" : {
+				"name" : "Hovel",
+				"creatures" : [
+					[
+						"peasant"
+					]
+				],				
+				"templates" : {
+					"small" : {
+						"animation" : "dwellings/AVGpeas1",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/AVGpeas1.def"
+			}			
 		}
 	}
 }

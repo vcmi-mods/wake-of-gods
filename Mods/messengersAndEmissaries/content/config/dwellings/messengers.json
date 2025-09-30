@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"naturalCalamityAir" : {
-				"name" : "Natural Calamity",
+				"name" : "Air Calamity",
 				"creatures" : [
 					[
 						"airMessenger"
@@ -24,10 +24,11 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell174.def"
 			},
 			"naturalCalamityWater" : {
-				"name" : "Natural Calamity",
+				"name" : "Water Calamity",
 				"creatures" : [
 					[
 						"waterMessenger"
@@ -49,10 +50,11 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell174.def"
 			},
 			"naturalCalamityFire" : {
-				"name" : "Natural Calamity",
+				"name" : "Fire Calamity",
 				"creatures" : [
 					[
 						"fireMessenger"
@@ -74,10 +76,11 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell174.def"
 			},
 			"naturalCalamityEarth" : {
-				"name" : "Natural Calamity",
+				"name" : "Earth Calamity",
 				"creatures" : [
 					[
 						"earthMessenger"
@@ -99,7 +102,8 @@
 							"VVBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell174.def"
 			}
 		}
 	}

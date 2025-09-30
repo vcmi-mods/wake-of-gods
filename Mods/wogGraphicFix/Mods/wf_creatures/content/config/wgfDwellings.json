@@ -11,7 +11,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell172c.def"
 			},
 			"hellRift" : {
 				"templates" : {
@@ -22,7 +23,8 @@
 							"BA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "dwellings/flagports/dwell195b.def"
 			}
 		}
 	}

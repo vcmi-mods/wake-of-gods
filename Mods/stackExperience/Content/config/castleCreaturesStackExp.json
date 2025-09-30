@@ -333,8 +333,7 @@
 				]
 			},
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR", //nie ma takiego WoG bonus
 			//				},
 			//				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
@@ -763,8 +762,7 @@
 				]
 			}
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR", //nie ma takiego WoG bonus
 			//				},
 			//				"values" : [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 ]
@@ -882,8 +880,7 @@
 				]
 			}
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR", //nie ma takiego WoG bonus
 			//				},
 			//				"values" : [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 ]

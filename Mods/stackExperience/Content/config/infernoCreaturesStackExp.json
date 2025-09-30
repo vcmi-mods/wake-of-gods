@@ -1196,8 +1196,7 @@
 				]
 			},
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR", ale taki inny, szansa na odbicie 75% damage
 			//					"subtype" : 50,
 			//				},
@@ -1370,8 +1369,7 @@
 				]
 			},
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR", ale taki inny, szansa na odbicie 75% damage
 			//					"subtype" : 50,
 			//				},

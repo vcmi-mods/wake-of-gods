@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.60",
+	"version" : "9.1.61",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.61" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"9.1.60" : [
 			"Add avwattak creature frames"
 		],

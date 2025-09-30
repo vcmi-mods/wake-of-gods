@@ -505,8 +505,7 @@
 				]
 			}
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR", //nie ma takiego WoG bonus
 			//				},
 			//				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -1004,8 +1003,7 @@
 				]
 			},
 			//			{
-			//				"bonus" :
-			//				{
+			//				"bonus" : //				{
 			//					"type" : "DEFLECTOR",
 			//					"subtype" : 50,
 			//				},

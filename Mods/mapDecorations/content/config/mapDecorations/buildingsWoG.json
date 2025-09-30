@@ -1189,7 +1189,7 @@
 //		}
 //	},
 
-//	"core:windmill" :{ //unused graphic hidden in h3sprites.lod
+//	"core:windmill" : { //unused graphic hidden in h3sprites.lod
 //		"types" : {
 //			"windmill" : {
 //				"templates" : {
