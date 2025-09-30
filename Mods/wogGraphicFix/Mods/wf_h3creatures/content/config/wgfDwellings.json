@@ -98,14 +98,14 @@
 				},
 				"kingdomOverviewImage" : "dwellings/flagports/AVG2ang0.def"
 			},
-			
+
 			"hovelSmall" : {
 				"name" : "Hovel",
 				"creatures" : [
 					[
 						"peasant"
 					]
-				],				
+				],
 				"templates" : {
 					"small" : {
 						"animation" : "dwellings/AVGpeas1",
@@ -122,7 +122,7 @@
 					}
 				},
 				"kingdomOverviewImage" : "dwellings/flagports/AVGpeas1.def"
-			}			
+			}
 		}
 	}
 }
