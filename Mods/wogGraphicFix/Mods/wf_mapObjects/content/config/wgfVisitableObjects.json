@@ -990,6 +990,30 @@
 			}
 		}
 	},
+	
+	"core:pandoraBox" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"ava0128w" : {
+						"animation" : "objects/ava0128w",
+						"mask" : [
+							"V",
+							"A"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},	
 
 	"core:monolithTwoWay" : {
 		"types" : {
