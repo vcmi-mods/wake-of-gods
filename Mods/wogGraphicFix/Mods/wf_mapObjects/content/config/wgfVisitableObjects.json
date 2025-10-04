@@ -990,7 +990,7 @@
 			}
 		}
 	},
-	
+
 	"core:pandoraBox" : {
 		"types" : {
 			"object" : {
@@ -1013,7 +1013,7 @@
 				}
 			}
 		}
-	},	
+	},
 
 	"core:monolithTwoWay" : {
 		"types" : {
