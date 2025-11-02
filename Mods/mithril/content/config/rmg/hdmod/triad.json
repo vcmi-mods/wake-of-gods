@@ -3,12 +3,12 @@
 		"zones" : {
 			"4" : {
 				"mines" : {
-						"mithril" : 1
+					"mithril" : 1
 				}
 			},
 			"13" : {
 				"mines" : {
-						"mithril" : 1
+					"mithril" : 1
 				}
 			}
 		}
@@ -17,12 +17,12 @@
 		"zones" : {
 			"4" : {
 				"mines" : {
-						"mithril" : 1
+					"mithril" : 1
 				}
 			},
 			"13" : {
 				"mines" : {
-						"mithril" : 1
+					"mithril" : 1
 				}
 			}
 		}

@@ -3,9 +3,9 @@
 		"zones" : {
 			"2" : {
 				"mines" : {
-						"mithril" : 1
+					"mithril" : 1
 				}
 			}
 		}
-	}		
+	}
 }
