@@ -1,0 +1,53 @@
+{
+	"mithrilWarehouse" : {
+		"name" : "Warehouse of Mithril",
+		"handler" : "configurable",
+		"types" : {
+			"mithrilWarehouse" : {
+				"name" : "Warehouse of Mithril",
+				"rmg" : {
+					"value" : 2500,
+					"rarity" : 25,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : [
+						"WRHSCRST"
+					],
+					"visit" : [
+						"WERHOUSE"
+					]
+				},
+				"rewards" : [
+					{
+						"resources" : {
+							"mithril" : 6
+						},
+						"message" : "{Warehouse of Mithril}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all mithrils from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage" : "{Warehouse of Mithril}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mithril here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : {
+					"avwrhsmt" : {
+						"animation" : "mithril/avwrhsmt",
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			}
+		}
+	}
+}

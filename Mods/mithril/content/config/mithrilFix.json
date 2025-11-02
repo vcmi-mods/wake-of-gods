@@ -1,0 +1,23 @@
+// Overwerite mithril as gold from wake-of-gods\Mods\mapDecorations\content\config\mapDecorations\wogStatic\mithril.json
+{
+	"core:resource" : {
+		"types" : {
+			"mithril" : {
+				"resource" : "mithril",
+				"amounts" : [
+					1,
+					2,
+					3,
+					4,
+					5
+				],
+				"amountMultiplier" : 1,
+				"templates" : {
+					"zmithr" : {
+						"animation" : "mithril/zmithr.def"
+					}
+				}
+			}
+		}
+	}
+}
