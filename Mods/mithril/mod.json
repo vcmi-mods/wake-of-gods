@@ -6,11 +6,11 @@
 	"contact": "http://forum.vcmi.eu/index.php",
 	"modType": "Resources",
 	"keepDisabled" : true,
-	"compatibility": {
-		"min": "1.7.0"
+	"compatibility" : {
+		"min" : "1.7.0"
 	},
-	"changelog": {
-		"1.0.0": [
+	"changelog" : {
+		"1.0.0" : [
 			"Initial release"
 		]
 	},
@@ -28,6 +28,23 @@
 				"small": "mithril/small.png",
 				"medium": "mithril/medium.png",
 				"large": "mithril/large.png"
+			}
+		}
+	},
+	"depends" : [
+		"vcmi"
+	],
+	"softDepends" : [
+		"wake-of-gods.mapDecorations"
+	],
+	"resources" : {
+		"mithril" : {
+			"name" : "Mithril",
+			"price" : 4000,
+			"images" : {
+				"small" : "mithril/small.png",
+				"medium" : "mithril/medium.png",
+				"large" : "mithril/large.png"
 			}
 		}
 	},

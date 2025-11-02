@@ -10,10 +10,12 @@
 					"value" : 1500
 				},
 				"sounds" : {
-					"ambient" : ["LOOPLUMB"]
+					"ambient" : [
+						"LOOPLUMB"
+					]
 				},
 				"resource" : "mithril",
-				"defaultQuantity": 1,
+				"defaultQuantity" : 1,
 				"templates" : {
 					"avwrhsmt" : {
 						"animation" : "mithril/mithrilmine",
