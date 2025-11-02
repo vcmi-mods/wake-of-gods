@@ -1,0 +1,10 @@
+{
+	"basepath" : "mithril/mithrilmines/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "mithrilmines.png"
+		}
+	]
+}

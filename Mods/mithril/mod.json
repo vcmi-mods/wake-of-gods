@@ -1,0 +1,48 @@
+{
+	"name" : "Mithril",
+	"description" : "This modifications adds a new resource to the game.<br><br>Mithril is a magical metal worth 1,000 gold per unit.<br><br>- <b>Mithril Mine</b> produces 1 unit of mithril per day for its owner.<br>- <b>Warehouse of Mithril</b> provides 6-10 mithril once per week and refills after 7 days.<br><br>Currently, Mithril mine can appear on random maps using the Coldshadow's Fantasy template only.",
+	"version" : "1.0",
+	"author" : "George King",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Resources",
+	"keepDisabled" : true,
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"depends" : [
+		"vcmi"
+	],
+
+	"softDepends" : [
+		"wake-of-gods.mapDecorations"
+	],
+
+	"resources" : {
+		"mithril" : {
+			"name" : "Mithril",
+			//"amountMultiplier" : 100,
+			"price" : 10000,
+			"images" : {
+				"small" : "mithril/small.png",
+				"medium" : "mithril/medium.png",
+				"large" : "mithril/large.png"
+			}
+		}
+	},
+	"objects" : [
+		"config/mithril.json",
+		// Overwerite mithril as gold from wake-of-gods\Mods\mapDecorations\content\config\mapDecorations\wogStatic\mithril.json
+		"config/mithrilFix.json",
+		"config/mine.json",
+		"config/warehouse.json"
+	],
+	"templates" : [
+		"config/rmg/hdmod/coldshadowsFantasy.json"
+	]
+}

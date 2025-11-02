@@ -1,0 +1,11 @@
+{
+	"vcmi:Coldshadow's Fantasy" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

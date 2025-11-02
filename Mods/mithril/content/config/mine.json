@@ -1,0 +1,36 @@
+{
+	"core:mine" : {
+		"types" : {
+			"mithrilMine" : {
+				"name" : "Mithril mine",
+				"description" : "{Mithril mine}\n\nYou gain control of a Mithril mine. It will provide you with one unit of mithril per day.",
+				"kingdomOverviewImage" : "mithril/mithrilmines",
+				"aiValue" : 1500,
+				"rmg" : {
+					"value" : 1500
+				},
+				"sounds" : {
+					"ambient" : [
+						"LOOPLUMB"
+					]
+				},
+				"resource" : "mithril",
+				"defaultQuantity" : 1,
+				"templates" : {
+					"avwrhsmt" : {
+						"animation" : "mithril/mithrilmine",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}
