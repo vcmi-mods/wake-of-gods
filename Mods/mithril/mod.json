@@ -31,23 +31,6 @@
 			}
 		}
 	},
-	"depends" : [
-		"vcmi"
-	],
-	"softDepends" : [
-		"wake-of-gods.mapDecorations"
-	],
-	"resources" : {
-		"mithril" : {
-			"name" : "Mithril",
-			"price" : 4000,
-			"images" : {
-				"small" : "mithril/small.png",
-				"medium" : "mithril/medium.png",
-				"large" : "mithril/large.png"
-			}
-		}
-	},
 	"objects" : [
 		"config/mithril.json",
 		// Overwerite mithril as gold from wake-of-gods\Mods\mapDecorations\content\config\mapDecorations\wogStatic\mithril.json
