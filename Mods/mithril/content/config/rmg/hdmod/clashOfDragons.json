@@ -1,0 +1,16 @@
+{
+	"vcmi:Clash of Dragons" : {
+		"zones" : {
+			"2" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

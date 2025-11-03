@@ -1,0 +1,30 @@
+{
+	"vcmi:Triad L" : {
+		"zones" : {
+			"4" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"13" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	},
+	"vcmi:Triad XL" : {
+		"zones" : {
+			"4" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"13" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

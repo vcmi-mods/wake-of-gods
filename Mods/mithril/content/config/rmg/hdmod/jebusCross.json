@@ -1,0 +1,11 @@
+{
+	"vcmi:Jebus Cross" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

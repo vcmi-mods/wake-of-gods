@@ -1,0 +1,11 @@
+{
+	"vcmi:Oceans Eleven" : {
+		"zones" : {
+			"2" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

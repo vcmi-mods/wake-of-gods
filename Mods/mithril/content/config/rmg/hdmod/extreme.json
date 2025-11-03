@@ -1,0 +1,20 @@
+{
+	"vcmi:Extreme L" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	},
+	"vcmi:Extreme XL" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"vcmi:Headquarters" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"8" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

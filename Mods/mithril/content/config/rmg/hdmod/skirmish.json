@@ -1,0 +1,20 @@
+{
+	"vcmi:Skirmish M" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	},
+	"vcmi:Skirmish L" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

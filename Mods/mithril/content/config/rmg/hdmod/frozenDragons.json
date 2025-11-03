@@ -1,0 +1,11 @@
+{
+	"vcmi:Frozen Dragons" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

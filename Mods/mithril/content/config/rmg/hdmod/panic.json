@@ -1,0 +1,11 @@
+{
+	"vcmi:Panic" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"vcmi:Blockbuster M" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	},
+	"vcmi:Blockbuster L" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"7" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	},
+	"vcmi:Blockbuster XL" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"7" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

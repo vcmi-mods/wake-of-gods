@@ -1,0 +1,11 @@
+{
+	"vcmi:Schaafworld" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

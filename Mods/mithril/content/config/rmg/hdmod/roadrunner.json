@@ -1,0 +1,16 @@
+{
+	"vcmi:Roadrunner" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"5" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

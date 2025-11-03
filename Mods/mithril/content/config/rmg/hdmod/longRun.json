@@ -1,0 +1,60 @@
+{
+	"vcmi:Long Run M" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"2" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"4" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"5" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	},
+	"vcmi:Long Run XL" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"2" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"4" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			},
+			"5" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}

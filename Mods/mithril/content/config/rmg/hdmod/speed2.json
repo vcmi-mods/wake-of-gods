@@ -1,0 +1,11 @@
+{
+	"vcmi:Speed 2" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"mithril" : 1
+				}
+			}
+		}
+	}
+}
