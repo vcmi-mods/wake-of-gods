@@ -80,6 +80,28 @@
 							"rough"
 						]
 					},
+					"bone07" : {
+						"animation" : "bones/Bone07",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"rough"
+						]
+					},
+					"bone08" : {
+						"animation" : "bones/Bone08",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"rough"
+						]
+					},					
 					"jaws00" : {
 						"animation" : "bones/jaws00",
 						"mask" : [

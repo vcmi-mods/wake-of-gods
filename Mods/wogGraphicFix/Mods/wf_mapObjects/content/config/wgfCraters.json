@@ -14,6 +14,28 @@
 						],
 						"zIndex" : 100
 					},
+					"avlct8g0" : {
+						"animation" : "craters/avlct8g0",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						],
+						"zIndex" : 100
+					},
+					"avlct9g0" : {
+						"animation" : "craters/avlct9g0",
+						"mask" : [
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						],
+						"zIndex" : 100
+					},					
 					"avlctru0" : {
 						"animation" : "craters/avlctru0",
 						"mask" : [

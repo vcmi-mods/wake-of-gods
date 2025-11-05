@@ -25,7 +25,9 @@
 			"bone01",
 			"bone02",
 			"bone05",
-			"bone06"
+			"bone06",
+			"bone07",
+			"bone08"
 		]
 	},
 	"jaws" : {
@@ -982,7 +984,9 @@
 		"templates" : [
 			"wfflw02",
 			"wfflw03",
-			"wfflw04"
+			"wfflw04",
+			"avlf15g0",
+			"avlf16g0"
 		]
 	},
 	"wgfTealFlowers" : {
@@ -996,7 +1000,9 @@
 		"templates" : [
 			"wfflw05",
 			"wfflw06",
-			"wfflw07"
+			"wfflw07",
+			"avlf13g0",
+			"avlf14g0"
 		]
 	},
 	"wgfBurningBushes" : {

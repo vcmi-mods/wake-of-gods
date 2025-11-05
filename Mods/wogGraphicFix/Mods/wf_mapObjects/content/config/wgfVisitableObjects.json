@@ -1152,7 +1152,23 @@
 						]
 					}
 				}
-			}
+			},
+			"AVXMN2Pi" : {
+				"templates" : {
+					"ztport08" : {
+						"animation" : "monoliths/AVXMN2Pi",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}			
 		}
 	},
 

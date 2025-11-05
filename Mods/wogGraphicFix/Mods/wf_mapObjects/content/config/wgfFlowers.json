@@ -124,7 +124,25 @@
 						"allowedTerrains" : [
 							"swamp"
 						]
-					}
+					},
+					"avlf15g0" : {
+						"animation" : "flowers/avlf15g0",
+						"mask" : [
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"avlf16g0" : {
+						"animation" : "flowers/avlf16g0",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					}					
 				}
 			}
 		}

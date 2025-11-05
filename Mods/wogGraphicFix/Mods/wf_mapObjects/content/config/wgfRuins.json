@@ -1,0 +1,118 @@
+{
+	"wgfRuins" : {
+		"name" : "Ruins",
+		"handler" : "static",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"WFdest00" : {
+						"animation" : "ruins/WFdest00.def",
+						"mask" : [
+							"VVVV",
+							"VVBB"
+						]
+					},
+					"WFdest01" : {
+						"animation" : "ruins/WFdest01.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest02" : {
+						"animation" : "ruins/WFdest02.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest03" : {
+						"animation" : "ruins/WFdest03.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest04" : {
+						"animation" : "ruins/WFdest04.def",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBB"
+						]
+					},
+					"WFdest05" : {
+						"animation" : "ruins/WFdest05.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest06" : {
+						"animation" : "ruins/WFdest06.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest07" : {
+						"animation" : "ruins/WFdest07.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest08" : {
+						"animation" : "ruins/WFdest08.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest09" : {
+						"animation" : "ruins/WFdest09.def",
+						"mask" : [
+							"VVV",
+							"VBV"
+						]
+					},
+					"WFdest10" : {
+						"animation" : "ruins/WFdest10.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest11" : {
+						"animation" : "ruins/WFdest11.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						]
+					},
+					"WFdest12" : {
+						"animation" : "ruins/WFdest12.def",
+						"mask" : [
+							"VV",
+							"VB"
+						]
+					},
+					"WFdest13" : {
+						"animation" : "ruins/WFdest13.def",
+						"mask" : [
+							"VVVV",
+							"VBBB"
+						]
+					},
+					"WFdest14" : {
+						"animation" : "ruins/WFdest14.def",
+						"mask" : [
+							"VVVV",
+							"VBBB"
+						]
+					}					
+				}
+			}
+		}
+	}
+}

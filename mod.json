@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.62",
+	"version" : "9.1.63",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.63" : [
+			"Added missing decorations from from WoG Graphics fix 2.23"
+		],
 		"9.1.62" : [
 			"WoG Graphics fix files base updated to 2.23",
 			"Added new commanders skills and abilities icons from WoG Graphics fix 2.23",
