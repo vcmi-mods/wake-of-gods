@@ -1,0 +1,25 @@
+{
+	"core:mine" : {
+		"types" : {
+			"mithrilMine" : {
+				"templates" : {
+					"highlands" : {
+						"animation" : "mithrilmines/highlands",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]						
+					}
+				}
+			}
+		}
+	}
+}

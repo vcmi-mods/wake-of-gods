@@ -1,0 +1,25 @@
+{
+	"core:mine" : {
+		"types" : {
+			"mithrilMine" : {
+				"templates" : {
+					"wasteland" : {
+						"animation" : "mithrilmines/wasteland",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]						
+					}
+				}
+			}
+		}
+	}
+}

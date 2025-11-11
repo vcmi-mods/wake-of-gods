@@ -17,8 +17,8 @@
 				"resource" : "mithril",
 				"defaultQuantity" : 1,
 				"templates" : {
-					"avwrhsmt" : {
-						"animation" : "mithril/mithrilmine",
+					"grass" : {
+						"animation" : "mithril/mithrilmines/grass",
 						"mask" : [
 							"VVVV",
 							"VBAB"
@@ -27,8 +27,131 @@
 							"---",
 							"+-+",
 							"+++"
-						]
-					}
+						],
+						"allowedTerrains" : [
+							"grass"
+						]						
+					},
+					"dirt" : {
+						"animation" : "mithril/mithrilmines/dirt",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]						
+					},	
+					"snow" : {
+						"animation" : "mithril/mithrilmines/snow",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]						
+					},
+					"sand" : {
+						"animation" : "mithril/mithrilmines/sand",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]						
+					},
+					"rough" : {
+						"animation" : "mithril/mithrilmines/rough",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]						
+					},	
+					"swamp" : {
+						"animation" : "mithril/mithrilmines/swamp",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]						
+					},
+					"lava" : {
+						"animation" : "mithril/mithrilmines/lava",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]						
+					},	
+					"water" : {
+						"animation" : "mithril/mithrilmines/water",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]						
+					},	
+					"subterra" : {
+						"animation" : "mithril/mithrilmines/subterrean",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]						
+					}					
 				}
 			}
 		}
