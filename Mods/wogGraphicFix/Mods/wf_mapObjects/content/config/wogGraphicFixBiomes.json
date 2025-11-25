@@ -1164,7 +1164,10 @@
 	},
 	"wgfRuins" : {
 		"biome" : {
-			"terrain" : ["grass", "dirt"],
+			"terrain" : [
+				"grass",
+				"dirt"
+			],
 			"level" : "surface",
 			"objectType" : "structure"
 		},
