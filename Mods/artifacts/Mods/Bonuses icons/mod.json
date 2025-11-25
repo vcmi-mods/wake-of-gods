@@ -7,5 +7,5 @@
 	"modType" : "Graphical",
 	"creatures" : [
 		"config/redDragonClone.json"
-	]	
+	]
 }

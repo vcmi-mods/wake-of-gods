@@ -152,7 +152,7 @@
 				"bonus" : {
 					"type" : "TWO_HEX_ATTACK_BREATH",
 					"icon" : "bonuses/e_breath_pikeman.png",
-					"description" : "{Clean thrust}\nPikemen can thrust their spears two hexes wide",
+					"description" : "{Clean thrust}\nPikemen can thrust their spears two hexes wide"
 				},
 				"values" : [
 					false,

@@ -1011,7 +1011,7 @@
 			{
 				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION",
-					"icon" : "bonuses/e_retail_serpentfly.png",
+					"icon" : "bonuses/e_retail_serpentfly.png"
 				},
 				"values" : [
 					0,

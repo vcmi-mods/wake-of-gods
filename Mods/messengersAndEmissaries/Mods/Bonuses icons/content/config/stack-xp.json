@@ -262,7 +262,7 @@
 			}
 		]
 	},
-	
+
 	"wake-of-gods.messengersandemissaries:airMessenger" : {
 		"stackExperience" : [
 			{
@@ -839,5 +839,5 @@
 				]
 			}
 		]
-	}	
+	}
 }

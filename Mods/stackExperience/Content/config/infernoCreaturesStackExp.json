@@ -1899,7 +1899,7 @@
 				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "genie",
-					"icon" : "bonuses/hategenies.png",
+					"icon" : "bonuses/hategenies.png"
 				},
 				"values" : [
 					0,
@@ -2126,7 +2126,7 @@
 				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "masterGenie",
-					"icon" : "bonuses/hategenies1.png",
+					"icon" : "bonuses/hategenies1.png"
 				},
 				"values" : [
 					0,
