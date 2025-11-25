@@ -1,0 +1,21 @@
+{
+	"wake-of-gods.level8units:diamondDragon" : {
+		"abilities" : {
+			"flying" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"fireBreath" : {
+				"icon" : "bonuses/e_breathdiamond.png"
+			},
+			"blinds" : {
+				"icon" : "bonuses/blindattack.png"
+			},
+			"generateGems" : {
+				"icon" : "bonuses/resourcesgems.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}
+		}
+	}
+}

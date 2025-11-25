@@ -111,7 +111,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "pixie"
+					"subtype" : "pixie",
+					"icon" : "bonuses/hate_trogloxpixie.png"
 				},
 				"values" : [
 					10,
@@ -129,7 +130,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "sprite"
+					"subtype" : "sprite",
+					"icon" : "bonuses/hate_trogloxsprite.png"
 				},
 				"values" : [
 					10,
@@ -148,6 +150,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "slow",
+					"icon" : "bonuses/slowattack.png",
 					"addInfo" : [
 						1,
 						2
@@ -281,7 +284,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "pixie"
+					"subtype" : "pixie",
+					"icon" : "bonuses/hate_inftrogloxpixie.png"
 				},
 				"values" : [
 					10,
@@ -299,7 +303,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "sprite"
+					"subtype" : "sprite",
+					"icon" : "bonuses/hate_inftrogloxsprite.png"
 				},
 				"values" : [
 					10,
@@ -447,7 +452,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "fortune"
+					"subtype" : "fortune",
+					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
 					0,
@@ -466,6 +472,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "curse",
+					"icon" : "bonuses/curseattack.png",
 					"addInfo" : [
 						1,
 						2
@@ -599,7 +606,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "fortune"
+					"subtype" : "fortune",
+					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
 					0,
@@ -618,6 +626,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disease",
+					"icon" : "bonuses/diseaseattack.png",
 					"addInfo" : [
 						1,
 						2
@@ -752,6 +761,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "forgetfulness",
+					"icon" : "bonuses/forgetfulnessattack.png",
 					"addInfo" : [
 						1,
 						1
@@ -1347,7 +1357,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_minotaur.png"
 				},
 				"values" : [
 					4,
@@ -1494,7 +1505,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "mirth"
+					"subtype" : "mirth",
+					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [
 					0,
@@ -1623,7 +1635,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail1_manticore.png"
 				},
 				"values" : [
 					0,
@@ -1642,6 +1655,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						1,
 						2
@@ -1798,6 +1812,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "acidBreath",
+					"icon" : "bonuses/acidattack.png",
 					"addInfo" : [
 						1,
 						2
@@ -1820,6 +1835,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "acidBreathDamage",
+					"icon" : "bonuses/acidattack.png",
 					"addInfo" : [
 						1,
 						2
@@ -1953,7 +1969,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "giant"
+					"subtype" : "giant",
+					"icon" : "bonuses/hatereddragons.png"
 				},
 				"values" : [
 					70,
@@ -1971,7 +1988,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "titan"
+					"subtype" : "titan",
+					"icon" : "bonuses/hateblackdragons.png"
 				},
 				"values" : [
 					70,
@@ -2137,7 +2155,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "giant"
+					"subtype" : "giant",
+					"icon" : "bonuses/hatereddragons.png"
 				},
 				"values" : [
 					70,
@@ -2155,7 +2174,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "titan"
+					"subtype" : "titan",
+					"icon" : "bonuses/hateblackdragons.png"
 				},
 				"values" : [
 					70,
@@ -2237,6 +2257,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "dispelHelpful",
+					"icon" : "bonuses/dispelattack.png",
 					"addInfo" : [
 						1,
 						2

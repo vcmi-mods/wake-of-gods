@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:warZealot" : {
+		"abilities" : {
+			"spellMagicMirror" : {
+				"icon" : "bonuses/enchantedmagicmirror.png"
+			}
+		}
+	}
+}

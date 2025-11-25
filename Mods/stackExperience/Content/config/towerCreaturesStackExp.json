@@ -112,6 +112,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "landMine",
+					"icon" : "bonuses/landmineattack.png",
 					"addInfo" : [
 						2,
 						0
@@ -133,7 +134,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "imp"
+					"subtype" : "imp",
+					"icon" : "bonuses/hate_gremlinximp.png"
 				},
 				"values" : [
 					10,
@@ -264,6 +266,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "landMine",
+					"icon" : "bonuses/landmineattack.png",
 					"addInfo" : [
 						2,
 						0
@@ -285,7 +288,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "familiar"
+					"subtype" : "familiar",
+					"icon" : "bonuses/hate_gremlinmasterxfamiliar.png"
 				},
 				"values" : [
 					10,
@@ -450,7 +454,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "stoneSkin"
+					"subtype" : "stoneSkin",
+					"icon" : "bonuses/enchantedstoneskin.png"
 				},
 				"values" : [
 					0,
@@ -598,7 +603,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "stoneSkin"
+					"subtype" : "stoneSkin",
+					"icon" : "bonuses/enchantedstoneskin.png"
 				},
 				"values" : [
 					0,
@@ -1702,7 +1708,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retailnaga.png"
 				},
 				"values" : [
 					0,
@@ -1848,7 +1855,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retailnagaqueen.png"
 				},
 				"values" : [
 					0,
@@ -1995,7 +2003,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "redDragon"
+					"subtype" : "redDragon",
+					"icon" : "bonuses/hategiants.png"
 				},
 				"values" : [
 					60,

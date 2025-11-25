@@ -111,7 +111,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "dwarf"
+					"subtype" : "dwarf",
+					"icon" : "bonuses/hate_goblinxdwarf.png"
 				},
 				"values" : [
 					10,
@@ -129,7 +130,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "battleDwarf"
+					"subtype" : "battleDwarf",
+					"icon" : "bonuses/hate_goblinxbattledwarf.png"
 				},
 				"values" : [
 					10,
@@ -276,7 +278,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "dwarf"
+					"subtype" : "dwarf",
+					"icon" : "bonuses/hate_hobgoblinxdwarf.png"
 				},
 				"values" : [
 					10,
@@ -294,7 +297,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "battleDwarf"
+					"subtype" : "battleDwarf",
+					"icon" : "bonuses/hate_hobgoblinxbattledwarf.png"
 				},
 				"values" : [
 					10,
@@ -699,7 +703,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "woodElf"
+					"subtype" : "woodElf",
+					"icon" : "bonuses/hate_orc_woodelf.png"
 				},
 				"values" : [
 					10,
@@ -717,7 +722,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "grandElf"
+					"subtype" : "grandElf",
+					"icon" : "bonuses/hate_orc_grandelf.png"
 				},
 				"values" : [
 					10,
@@ -881,7 +887,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "woodElf"
+					"subtype" : "woodElf",
+					"icon" : "bonuses/hate_orcchieftainxwoodelf.png"
 				},
 				"values" : [
 					10,
@@ -899,7 +906,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "grandElf"
+					"subtype" : "grandElf",
+					"icon" : "bonuses/hate_orcchieftainxgrandelf.png"
 				},
 				"values" : [
 					10,
@@ -1207,6 +1215,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "bloodlust",
+					"icon" : "bonuses/bloodlustattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1643,6 +1652,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "earthquake",
+					"icon" : "bonuses/earthquakeattack.png",
 					"addInfo" : [
 						3,
 						1
@@ -1811,6 +1821,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "earthquake",
+					"icon" : "bonuses/earthquakeattack.png",
 					"addInfo" : [
 						3,
 						1

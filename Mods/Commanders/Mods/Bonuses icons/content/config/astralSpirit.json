@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:astralSpirit1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/counterstrike0.png"
+			}
+		}
+	}
+}

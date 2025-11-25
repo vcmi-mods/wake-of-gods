@@ -1,0 +1,19 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/astralSpirit.json",
+		"config/brute.json",
+		"config/hierophant.json",
+		"config/ogreLeader.json",
+		"config/paladin.json",
+		"config/shaman.json",
+		"config/soulEater.json",
+		"config/succubus.json",
+		"config/templeGuardian.json"
+	]	
+}

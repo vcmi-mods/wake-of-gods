@@ -1,0 +1,21 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/ghost.json",
+		"config/gorynych.json",
+		"config/warZealot.json",
+		"config/arcticSharpshooter.json",
+		"config/lavaSharpshooter.json",
+		"config/hellSteed.json",
+		"config/santaGremlin.json",
+		"config/sylvanCentaur.json",
+		"config/wogSorceress.json",
+		"config/werewolf.json",
+		"config/dracolich.json"
+	]	
+}

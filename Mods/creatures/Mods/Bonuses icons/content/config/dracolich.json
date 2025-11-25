@@ -1,0 +1,21 @@
+{
+	"wake-of-gods.creatures:dracolich" : {
+		"abilities" : {
+			"dragonBreath" : {
+				"icon" : "bonuses/e_breath_damnedDracolich.png"
+			},
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"deathCloud" : {
+				"icon" : "bonuses/deathcloudattack.png"
+			},
+			"descreaseMorale" : {
+				"icon" : "bonuses/bonusnegativemorale.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}
+		}
+	}
+}

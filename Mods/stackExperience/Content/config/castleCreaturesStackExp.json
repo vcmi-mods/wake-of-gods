@@ -113,7 +113,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "blackKnight"
+					"subtype" : "blackKnight",
+					"icon" : "bonuses/hate_pikemanxblackknight.png"
 				},
 				"values" : [
 					0,
@@ -131,7 +132,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "dreadKnight"
+					"subtype" : "dreadKnight",
+					"icon" : "bonuses/hate_pikemanxdreadknight.png"
 				},
 				"values" : [
 					0,
@@ -148,7 +150,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "TWO_HEX_ATTACK_BREATH"
+					"type" : "TWO_HEX_ATTACK_BREATH",
+					"icon" : "bonuses/e_breath_pikeman.png",
+					"description" : "{Clean thrust}\nPikemen can thrust their spears two hexes wide",
 				},
 				"values" : [
 					false,
@@ -299,7 +303,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "blackKnight"
+					"subtype" : "blackKnight",
+					"icon" : "bonuses/hate_halberdierxblackknight.png"
 				},
 				"values" : [
 					0,
@@ -317,7 +322,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "dreadKnight"
+					"subtype" : "dreadKnight",
+					"icon" : "bonuses/hate_halberdierxdreadknight.png"
 				},
 				"values" : [
 					0,
@@ -471,7 +477,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_archer.png"
 				},
 				"values" : [
 					4,
@@ -617,7 +624,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_marksman.png"
 				},
 				"values" : [
 					2,
@@ -1165,7 +1173,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "vampire"
+					"subtype" : "vampire",
+					"icon" : "bonuses/hate_crusaderxvampire.png"
 				},
 				"values" : [
 					10,
@@ -1183,7 +1192,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "vampireLord"
+					"subtype" : "vampireLord",
+					"icon" : "bonuses/hate_crusaderxvampirelord.png"
 				},
 				"values" : [
 					10,
@@ -1679,7 +1689,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED", //enchanted czy enchaner? sprawdzić na czarodziejach
-					"subtype" : "slayer"
+					"subtype" : "slayer",
+					"icon" : "bonuses/enchantedslayer.png"
 				},
 				"values" : [
 					0,
@@ -1845,7 +1856,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "slayer"
+					"subtype" : "slayer",
+					"icon" : "bonuses/enchantedslayer.png"
 				},
 				"values" : [
 					0,

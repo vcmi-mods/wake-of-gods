@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:templeGuardian1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/precision0.png"
+			}
+		}
+	}
+}

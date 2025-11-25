@@ -1,0 +1,24 @@
+{
+	"wake-of-gods.level8units:lordOfThunder" : {
+		"abilities" : {
+			"additionalAttack" : {
+				"icon" : "bonuses/doubleshoot.png"
+			},
+			"thunderOnAttack" : {
+				"icon" : "bonuses/thunderbird.png"
+			},
+			"airShield" : {
+				"icon" : "bonuses/enchantedairshield.png"
+			},
+			"hateRedDragons" : {
+				"icon" : "bonuses/hategiants.png"
+			},
+			"hateBlackDragons" : {
+				"icon" : "bonuses/hatetitan2.png"
+			},
+			"hateDarknessDragon" : {
+				"icon" : "bonuses/hatelordsofthunder.png"
+			}
+		}
+	}
+}

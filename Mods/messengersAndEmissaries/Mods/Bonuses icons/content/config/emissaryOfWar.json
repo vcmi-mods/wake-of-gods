@@ -1,0 +1,12 @@
+{
+	"wake-of-gods.messengersandemissaries:emissaryOfWar" : {
+		"abilities" : {
+			"teleporting" : {
+				"icon" : "bonuses/e_teleport.png"
+			},
+			"addAttack" : {
+				"icon" : "bonuses/wog_emissary_might.png"
+			}
+		}
+	}
+}

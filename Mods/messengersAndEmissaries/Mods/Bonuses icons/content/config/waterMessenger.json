@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.messengersandemissaries:waterMessenger" : {
+		"abilities" : {
+			"waterProtection" : {
+				"icon" : "bonuses/damage_reduction_water.png"
+			}
+		}
+	}
+}

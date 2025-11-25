@@ -1,0 +1,12 @@
+{
+	"wake-of-gods.messengersandemissaries:emissaryOfMana" : {
+		"abilities" : {
+			"teleporting" : {
+				"icon" : "bonuses/e_teleport.png"
+			},
+			"addSpellpower" : {
+				"icon" : "bonuses/wog_emissary_power.png"
+			}
+		}
+	}
+}

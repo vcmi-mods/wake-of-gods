@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:hellSteed" : {
+		"abilities" : {
+			"spellFireWall" : {
+				"icon" : "bonuses/firewallattackhellsteed.png"
+			}
+		}
+	}
+}

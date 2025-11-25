@@ -1,0 +1,21 @@
+{
+	"wake-of-gods.level8units:supremeArchangel" : {
+		"abilities" : {
+			"resurrects" : {
+				"icon" : "bonuses/resurrect3.png"
+			},
+			"const_raises_morale" : {
+				"icon" : "bonuses/bonusmoraleangel.png"
+			},
+			"hateDevils" : {
+				"icon" : "bonuses/hateangels.png"
+			},
+			"hateArchDevils" : {
+				"icon" : "bonuses/hatearchangels.png"
+			},
+			"hateHellBarons" : {
+				"icon" : "bonuses/hateseraphs.png"
+			}
+		}
+	}
+}

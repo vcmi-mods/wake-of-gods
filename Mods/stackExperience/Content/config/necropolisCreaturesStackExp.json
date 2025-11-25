@@ -111,7 +111,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"subtype" : "airShield",
+					"icon" : "bonuses/enchantedairshield_skeletal.png"
 				},
 				"values" : [
 					0,
@@ -277,7 +278,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"subtype" : "airShield",
+					"icon" : "bonuses/enchantedairshield_skeletal.png"
 				},
 				"values" : [
 					0,
@@ -444,6 +446,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "slow",
+					"icon" : "bonuses/slowattack.png",
 					"addInfo" : [
 						2,
 						0
@@ -465,7 +468,6 @@
 			{
 				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
-					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [
 					0,
@@ -597,6 +599,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disease",
+					"icon" : "bonuses/diseaseattack.png",
 					"addInfo" : [
 						2,
 						0
@@ -618,7 +621,6 @@
 			{
 				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
-					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [
 					0,
@@ -749,6 +751,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "weakness",
+					"icon" : "bonuses/weaknessattack.png",
 					"addInfo" : [
 						2,
 						2
@@ -900,6 +903,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "misfortune",
+					"icon" : "bonuses/misfortuneattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1066,7 +1070,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_vampire.png"
 				},
 				"values" : [
 					5,
@@ -1197,6 +1202,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "hypnotize",
+					"icon" : "bonuses/hipnotizeattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1217,7 +1223,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_vampirelord.png"
 				},
 				"values" : [
 					5,
@@ -1348,6 +1355,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "deathRipple",
+					"icon" : "bonuses/deathrippleattack.png",
 					"addInfo" : [
 						3,
 						0
@@ -1369,7 +1377,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "mage"
+					"subtype" : "mage",
+					"icon" : "bonuses/hate_lichxmage.png"
 				},
 				"values" : [
 					10,
@@ -1387,7 +1396,6 @@
 			{
 				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
-					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [
 					0,
@@ -1518,6 +1526,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "deathRipple",
+					"icon" : "bonuses/deathrippleattack.png",
 					"addInfo" : [
 						3,
 						0
@@ -1539,7 +1548,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "archMage"
+					"subtype" : "archMage",
+					"icon" : "bonuses/hate_powerlichxarchmage.png"
 				},
 				"values" : [
 					10,
@@ -1557,7 +1567,6 @@
 			{
 				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
-					//"subtype" : 1, // except beneficial - TODO - Implement
 				},
 				"values" : [
 					0,
@@ -1688,6 +1697,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "dispelHelpful",
+					"icon" : "bonuses/dispelattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1709,7 +1719,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "cavalier"
+					"subtype" : "cavalier",
+					"icon" : "bonuses/hate_blackknightxcavalier.png"
 				},
 				"values" : [
 					10,
@@ -1873,7 +1884,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "champion"
+					"subtype" : "champion",
+					"icon" : "bonuses/hate_dreadknightxchampion.png"
 				},
 				"values" : [
 					10,
@@ -2109,7 +2121,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"subtype" : "airShield",
+					"icon" : "bonuses/enchantedairshield_skeletal.png"
 				},
 				"values" : [
 					0,
@@ -2331,6 +2344,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "age",
+					"icon" : "bonuses/ageattack.png",
 					"addInfo" : [
 						3,
 						2

@@ -111,7 +111,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "gremlin"
+					"subtype" : "gremlin",
+					"icon" : "bonuses/hate_impxgremlin.png"
 				},
 				"values" : [
 					0,
@@ -129,7 +130,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "fortune"
+					"subtype" : "fortune",
+					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
 					1,
@@ -146,7 +148,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "FLYING"
+					"type" : "FLYING",
+					"icon" : "bonuses/e_fly2.png"
 				},
 				"values" : [
 					false,
@@ -275,7 +278,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "masterGremlin"
+					"subtype" : "masterGremlin",
+					"icon" : "bonuses/hate_familiarxmastergremlin.png"
 				},
 				"values" : [
 					0,
@@ -293,7 +297,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "fortune"
+					"subtype" : "fortune",
+					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
 					1,
@@ -310,7 +315,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "FLYING"
+					"type" : "FLYING",
+					"icon" : "bonuses/e_fly2.png"
 				},
 				"values" : [
 					false,
@@ -457,7 +463,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					0,
@@ -604,6 +611,7 @@
 			{
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
+					"icon" : "bonuses/fireballattack.png",
 					"subtype" : "fireball",
 					"addInfo" : [
 						3,
@@ -626,7 +634,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					0,
@@ -790,7 +799,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					0,
@@ -827,7 +837,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "griffin"
+					"subtype" : "griffin",
+					"icon" : "bonuses/hate_hellhoundxgriffin.png"
 				},
 				"values" : [
 					0,
@@ -956,7 +967,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_cerberus.png"
 				},
 				"values" : [
 					0,
@@ -974,7 +986,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					0,
@@ -1011,7 +1024,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "royalGriffin"
+					"subtype" : "royalGriffin",
+					"icon" : "bonuses/hate_cerberusxroyalgriffin.png"
 				},
 				"values" : [
 					0,
@@ -1030,6 +1044,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disease",
+					"icon" : "bonuses/diseaseattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1180,7 +1195,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					1,
@@ -1353,7 +1369,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					1,
@@ -1526,7 +1543,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					1,
@@ -1711,7 +1729,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "protectFire"
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
 					1,
@@ -1879,7 +1898,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "genie"
+					"subtype" : "genie",
+					"icon" : "bonuses/hategenies.png",
 				},
 				"values" : [
 					0,
@@ -1897,7 +1917,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "fireShield"
+					"subtype" : "fireShield",
+					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [
 					0,
@@ -1970,6 +1991,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "fireElemental",
+					"icon" : "bonuses/summonwithattack_fire.png",
 					"addInfo" : [
 						3,
 						0
@@ -2103,7 +2125,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "masterGenie"
+					"subtype" : "masterGenie",
+					"icon" : "bonuses/hategenies1.png",
 				},
 				"values" : [
 					0,
@@ -2121,7 +2144,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "fireShield"
+					"subtype" : "fireShield",
+					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [
 					0,
@@ -2194,6 +2218,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "fireElemental",
+					"icon" : "bonuses/summonwithattack_fire.png",
 					"addInfo" : [
 						3,
 						0
@@ -2435,6 +2460,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "misfortune",
+					"icon" : "bonuses/misfortuneattack.png",
 					"addInfo" : [
 						3,
 						0
@@ -2659,6 +2685,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "berserk",
+					"icon" : "bonuses/berserkattack.png",
 					"addInfo" : [
 						1,
 						0

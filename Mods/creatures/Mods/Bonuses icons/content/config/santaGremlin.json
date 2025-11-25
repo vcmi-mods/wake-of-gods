@@ -1,0 +1,12 @@
+{
+	"wake-of-gods.creatures:santaGremlin" : {
+		"abilities" : {
+			"summonGuardians" : {
+				"icon" : "bonuses/santagremlinsummon.png"
+			},
+			"castsIceBolt" : {
+				"icon" : "bonuses/icebolt2.png"
+			}
+		}
+	}
+}

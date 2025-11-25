@@ -1,0 +1,21 @@
+{
+	"wake-of-gods.level8units:hellHydra" : {
+		"abilities" : {
+			"attackAll" : {
+				"icon" : "bonuses/hellhydra.png"
+			},
+			"additionalRetal" : {
+				"icon" : "bonuses/e_retail1_hellhydra.png"
+			},
+			"acidBreath" : {
+				"icon" : "bonuses/acidattack.png"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "bonuses/e_breathhellhydra.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/e_dragon-like.png"
+			}
+		}
+	}
+}

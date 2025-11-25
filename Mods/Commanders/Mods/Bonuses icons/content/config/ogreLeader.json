@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:ogreLeader1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/cure0.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:ghost" : {
+		"abilities" : {
+			"flying" : {
+				"icon" : "bonuses/e_fly_levitate.png"
+			}
+		}
+	}
+}

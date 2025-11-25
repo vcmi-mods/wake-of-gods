@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:soulEater1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/animatedead0.png"
+			}
+		}
+	}
+}

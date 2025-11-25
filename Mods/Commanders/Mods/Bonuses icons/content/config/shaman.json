@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:shaman1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/haste0.png"
+			}
+		}
+	}
+}

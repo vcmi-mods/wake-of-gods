@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.64",
+	"version" : "9.1.65",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.65" : [
+			"Added additional creatures abilities icons by Kurek"
+		],
 		"9.1.64" : [
 			"Defined biomes for ruins from WoG Graphics fix 2.23"
 		],

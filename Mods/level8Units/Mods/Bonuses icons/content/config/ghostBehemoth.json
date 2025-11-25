@@ -1,0 +1,18 @@
+{
+	"wake-of-gods.level8units:ghostBehemoth" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_teleport.png"
+			},
+			"extraRetaliation" : {
+				"icon" : "bonuses/e_retail1_ghostbehemoth.png"
+			},
+			"reduceDefence" : {
+				"icon" : "bonuses/e_rdef_ghostbehemoth.png"
+			},
+			"increaseLuck" : {
+				"icon" : "bonuses/bonusluckscarab.png"
+			}
+		}
+	}
+}

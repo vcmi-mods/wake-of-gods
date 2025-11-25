@@ -1,0 +1,51 @@
+{
+	"wake-of-gods.creatures:wogSorceress" : {
+		"abilities" : {
+			"castsPoison" : {
+				"icon" : "bonuses/poison.png"
+			},
+			"castsSorrow" : {
+				"icon" : "bonuses/sorrowattack.png"
+			},
+			"castsAcidBreath" : {
+				"icon" : "bonuses/acidattack.png"
+			},
+			"castsForgetfullness" : {
+				"icon" : "bonuses/forgetfulnessattack.png"
+			},
+			"castsSlow" : {
+				"icon" : "bonuses/slowattack.png"
+			},
+			"castsCurse" : {
+				"icon" : "bonuses/curseattack.png"
+			},
+			"castsDispel" : {
+				"icon" : "bonuses/dispelattack.png"
+			},
+			"castsBlind" : {
+				"icon" : "bonuses/blindattack.png"
+			},
+			"castsBerserk" : {
+				"icon" : "bonuses/berserkattack.png"
+			},
+			"castsAge" : {
+				"icon" : "bonuses/ageattack.png"
+			},
+			"castsHypnotize" : {
+				"icon" : "bonuses/hipnotizeattack.png"
+			},
+			"castsMisfortune" : {
+				"icon" : "bonuses/misfortuneattack.png"
+			},
+			"castsDisruptingRay" : {
+				"icon" : "bonuses/disruptingattack.png"
+			},
+			"castsDisease" : {
+				"icon" : "bonuses/diseaseattack.png"
+			},
+			"castsWeakness" : {
+				"icon" : "bonuses/weaknessattack.png"
+			}
+		}
+	}
+}
