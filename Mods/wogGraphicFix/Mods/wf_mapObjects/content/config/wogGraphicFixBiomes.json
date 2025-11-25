@@ -1161,6 +1161,39 @@
 			"avlocLV2",
 			"avlocLV3"
 		]
+	},
+	"wgfRuins" : {
+		"biome" : {
+			"terrain" : ["grass", "dirt"],
+			"level" : "surface",
+			"objectType" : "structure"
+		},
+		"templates" : [
+			"WFdest05",
+			"WFdest06",
+			"WFdest07",
+			"WFdest08",
+			"WFdest09",
+			"WFdest10",
+			"WFdest11",
+			"WFdest12",
+			"WFdest13",
+			"WFdest14"
+		]
+	},
+	"wgfBurnedHouses" : {
+		"biome" : {
+			"terrain" : "lava",
+			"level" : "surface",
+			"objectType" : "structure"
+		},
+		"templates" : [
+			"WFdest00",
+			"WFdest01",
+			"WFdest02",
+			"WFdest03",
+			"WFdest04"
+		]
 	}
 	//Logs generate too often at random maps, look bad. Disabled for now.
 
