@@ -1,0 +1,19 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/fireMessenger.json",
+		"config/earthMessenger.json",
+		"config/airMessenger.json",
+		"config/waterMessenger.json",
+		"config/emissaryOfWar.json",
+		"config/emissaryOfPeace.json",
+		"config/emissaryOfMana.json",
+		"config/emissaryOfLore.json",
+		"config/stack-xp.json"
+	]
+}

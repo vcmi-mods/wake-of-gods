@@ -111,7 +111,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "centaur"
+					"subtype" : "centaur",
+					"icon" : "bonuses/hate_gnollxcentaur.png"
 				},
 				"values" : [
 					20,
@@ -129,7 +130,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "mirth"
+					"subtype" : "mirth",
+					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [
 					0,
@@ -259,7 +261,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "centaurCaptain"
+					"subtype" : "centaurCaptain",
+					"icon" : "bonuses/hate_gnollmarauderxcentaurcaptain.png"
 				},
 				"values" : [
 					20,
@@ -277,7 +280,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "mirth"
+					"subtype" : "mirth",
+					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [
 					0,
@@ -408,6 +412,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						3,
 						1
@@ -559,6 +564,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						3,
 						1
@@ -1004,7 +1010,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_serpentfly.png"
 				},
 				"values" : [
 					0,
@@ -1150,7 +1157,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_dragonfly.png"
 				},
 				"values" : [
 					0,
@@ -1566,6 +1574,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						3,
 						2
@@ -1700,6 +1709,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						3,
 						2
@@ -1857,7 +1867,8 @@
 			//			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_hydra.png"
 				},
 				"values" : [
 					0,
@@ -2066,7 +2077,8 @@
 			//			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail1_hellhydra.png"
 				},
 				"values" : [
 					0,

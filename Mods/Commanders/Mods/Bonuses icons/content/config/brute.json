@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:brute1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/stoneskin0.png"
+			}
+		}
+	}
+}

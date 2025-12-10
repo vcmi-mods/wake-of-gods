@@ -1,0 +1,21 @@
+{
+	"wake-of-gods.level8units:bloodDragon" : {
+		"abilities" : {
+			"flying" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"drainsLife" : {
+				"icon" : "bonuses/drainlife_blooddragon.png"
+			},
+			"age" : {
+				"icon" : "bonuses/ageattack.png"
+			},
+			"descreaseMorale" : {
+				"icon" : "bonuses/bonusnegativemorale.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.messengersandemissaries:fireMessenger" : {
+		"abilities" : {
+			"fireProtection" : {
+				"icon" : "bonuses/damage_reduction_fire.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"wake-of-gods.level8units:sacredPhoenix" : {
+		"abilities" : {
+			"fireBreath" : {
+				"icon" : "bonuses/e_breathsacredphoenix.png"
+			},
+			"rebirth" : {
+				"icon" : "bonuses/sacredrebirth.png"
+			},
+			"fireShield" : {
+				"icon" : "bonuses/fireshield.png"
+			},
+			"spellSlayer" : {
+				"icon" : "bonuses/enchantedslayer.png"
+			}
+		}
+	}
+}

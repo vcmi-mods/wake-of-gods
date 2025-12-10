@@ -1,0 +1,12 @@
+{
+	"wake-of-gods.messengersandemissaries:emissaryOfLore" : {
+		"abilities" : {
+			"teleporting" : {
+				"icon" : "bonuses/e_teleport.png"
+			},
+			"addKnowledge" : {
+				"icon" : "bonuses/wog_emissary_lore.png"
+			}
+		}
+	}
+}

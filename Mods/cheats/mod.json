@@ -1,0 +1,16 @@
+{
+	"name" : "Cheats",
+	"description" : "Adds aliases for cheats from WoG.",
+	"modType" : "Mechanics",
+	"author" : "",
+	"contact" : "",
+	"version" : "1.0.0",
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release of Wog cheats"
+		]
+	},
+	"compatibility" : {
+		"min" : "1.7.0"
+	}
+}

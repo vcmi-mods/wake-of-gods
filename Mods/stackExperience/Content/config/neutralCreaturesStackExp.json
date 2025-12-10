@@ -623,7 +623,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_crystaldragon.png"
 				},
 				"values" : [
 					3,
@@ -753,7 +754,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "magicMirror"
+					"subtype" : "magicMirror",
+					"icon" : "bonuses/enchantedmagicmirror.png"
 				},
 				"values" : [
 					1,
@@ -772,6 +774,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "clone",
+					"icon" : "bonuses/cloneattack.png",
 					"addInfo" : [
 						3,
 						0
@@ -930,7 +933,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "gorgon"
+					"subtype" : "gorgon",
+					"icon" : "bonuses/hate_rustxgorgons.png"
 				},
 				"values" : [
 					0,
@@ -948,7 +952,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "mightyGorgon"
+					"subtype" : "mightyGorgon",
+					"icon" : "bonuses/hate_rustxupgorgons.png"
 				},
 				"values" : [
 					0,
@@ -1392,7 +1397,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "goblin"
+					"subtype" : "goblin",
+					"icon" : "bonuses/hatehalflingxgoblin.png"
 				},
 				"values" : [
 					10,
@@ -1410,7 +1416,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "hobgoblin"
+					"subtype" : "hobgoblin",
+					"icon" : "bonuses/hatehalflingxhobgoblin.png"
 				},
 				"values" : [
 					10,
@@ -1428,7 +1435,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "slayer"
+					"subtype" : "slayer",
+					"icon" : "bonuses/enchantedslayer.png"
 				},
 				"values" : [
 					0,
@@ -1689,7 +1697,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "JOUSTING"
+					"type" : "JOUSTING",
+					"icon" : "bonuses/e_champ_boar.png"
 				},
 				"values" : [
 					false,
@@ -1708,6 +1717,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disease",
+					"icon" : "bonuses/diseaseattack.png",
 					"addInfo" : [
 						3,
 						0
@@ -2008,7 +2018,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "JOUSTING"
+					"type" : "JOUSTING",
+					"icon" : "bonuses/e_champ_nomad.png"
 				},
 				"values" : [
 					false,
@@ -2173,6 +2184,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						3,
 						2

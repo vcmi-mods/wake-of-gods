@@ -191,7 +191,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "gnoll"
+					"subtype" : "gnoll",
+					"icon" : "bonuses/hate_centaurxgnoll.png"
 				},
 				"values" : [
 					20,
@@ -320,7 +321,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "JOUSTING"
+					"type" : "JOUSTING",
+					"icon" : "bonuses/e_champ_centaurcaptain.png"
 				},
 				"values" : [
 					false,
@@ -338,7 +340,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "gnollMarauder"
+					"subtype" : "gnollMarauder",
+					"icon" : "bonuses/hate_centaurcaptainxgnollmarauder.png"
 				},
 				"values" : [
 					20,
@@ -468,7 +471,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "shield"
+					"subtype" : "shield",
+					"icon" : "bonuses/enchantedshield.png"
 				},
 				"values" : [
 					0,
@@ -744,7 +748,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "orc"
+					"subtype" : "orc",
+					"icon" : "bonuses/hate_woodelfxorc.png"
 				},
 				"values" : [
 					10,
@@ -908,7 +913,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "orcChieftain"
+					"subtype" : "orcChieftain",
+					"icon" : "bonuses/hate_grandelfxorcchieftain.png"
 				},
 				"values" : [
 					10,
@@ -944,7 +950,8 @@
 			{
 				"bonus" : {
 					"type" : "ENCHANTED", //enchanted czy enchaner? sprawdzić na czarodziejach
-					"subtype" : "precision"
+					"subtype" : "precision",
+					"icon" : "bonuses/enchantedprecision.png"
 				},
 				"values" : [
 					0,
@@ -1495,7 +1502,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENEMY_DEFENCE_REDUCTION"
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"icon" : "bonuses/e_rdef_dendroidsoldier.png"
 				},
 				"values" : [
 					4,
@@ -1644,6 +1652,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "cure",
+					"icon" : "bonuses/cureattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1797,6 +1806,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "blind",
+					"icon" : "bonuses/blindattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1949,7 +1959,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "boneDragon"
+					"subtype" : "boneDragon",
+					"icon" : "bonuses/hate_greenxbone.png"
 				},
 				"values" : [
 					20,
@@ -1967,7 +1978,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "ghostDragon"
+					"subtype" : "ghostDragon",
+					"icon" : "bonuses/hate_greenxghost.png"
 				},
 				"values" : [
 					20,
@@ -2021,7 +2033,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_greendragon.png"
 				},
 				"values" : [
 					0,
@@ -2151,7 +2164,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "boneDragon"
+					"subtype" : "boneDragon",
+					"icon" : "bonuses/hate_goldxbone.png"
 				},
 				"values" : [
 					20,
@@ -2169,7 +2183,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "ghostDragon"
+					"subtype" : "ghostDragon",
+					"icon" : "bonuses/hate_goldxghost.png"
 				},
 				"values" : [
 					20,

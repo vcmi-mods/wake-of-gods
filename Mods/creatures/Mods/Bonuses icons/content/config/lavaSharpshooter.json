@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:lavaSharpshooter" : {
+		"abilities" : {
+			"airShield" : {
+				"icon" : "bonuses/FireShield.png"
+			}
+		}
+	}
+}

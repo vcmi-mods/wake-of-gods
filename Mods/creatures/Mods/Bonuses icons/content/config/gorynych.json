@@ -1,0 +1,12 @@
+{
+	"wake-of-gods.creatures:gorynych" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"multiHeaded" : {
+				"icon" : "bonuses/hydra_gorynych.png"
+			}
+		}
+	}
+}

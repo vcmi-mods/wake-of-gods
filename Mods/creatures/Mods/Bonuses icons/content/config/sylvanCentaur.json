@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:sylvanCentaur" : {
+		"abilities" : {
+			"spellMirth" : {
+				"icon" : "bonuses/enchantedmirth.png"
+			}
+		}
+	}
+}

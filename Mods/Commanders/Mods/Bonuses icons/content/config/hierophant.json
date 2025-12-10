@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:hierophant1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/shield0.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"wake-of-gods.level8units:darknessDragon" : {
+		"abilities" : {
+			"fireBreath" : {
+				"icon" : "bonuses/e_breathdarkness.png"
+			},
+			"flying" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"darkness" : {
+				"icon" : "bonuses/darkfog.png"
+			},
+			"hateGiants" : {
+				"icon" : "bonuses/hatereddragons.png"
+			},
+			"hateTitans" : {
+				"icon" : "bonuses/hateblackdragons.png"
+			},
+			"hateLords" : {
+				"icon" : "bonuses/hatedarknessdragons.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}
+		}
+	}
+}

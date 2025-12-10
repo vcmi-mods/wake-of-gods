@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.messengersandemissaries:earthMessenger" : {
+		"abilities" : {
+			"earthProtection" : {
+				"icon" : "bonuses/damage_reduction_earth.png"
+			}
+		}
+	}
+}

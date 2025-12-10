@@ -1,0 +1,15 @@
+{
+	"wake-of-gods.artifacts:redDragonClone" : {
+		"abilities" : {
+			"flying" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"fireBreath" : {
+				"icon" : "bonuses/e_breathred.png"
+			},
+			"positiveMorale" : {
+				"icon" : "bonuses/e_minot.png"
+			}
+		}
+	}
+}

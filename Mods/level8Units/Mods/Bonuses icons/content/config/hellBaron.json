@@ -1,0 +1,24 @@
+{
+	"wake-of-gods.level8units:hellBaron" : {
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"icon" : "bonuses/e_teleport.png"
+			},
+			"descreaseLuck" : {
+				"icon" : "bonuses/misfortuneaura.png"
+			},
+			"petrify" : {
+				"icon" : "bonuses/turntostone0.png"
+			},
+			"hateAngels" : {
+				"icon" : "bonuses/hatedevils1.png"
+			},
+			"hateArchAngels" : {
+				"icon" : "bonuses/hatearchdevils.png"
+			},
+			"hateSupremeAngels" : {
+				"icon" : "bonuses/hatebarons.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:werewolf" : {
+		"abilities" : {
+			"selfBerserk" : {
+				"icon" : "bonuses/berserk3.png"
+			}
+		}
+	}
+}

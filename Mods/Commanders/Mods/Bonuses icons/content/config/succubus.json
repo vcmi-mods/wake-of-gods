@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.commanders:succubus1" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/fireShield0.png"
+			}
+		}
+	}
+}

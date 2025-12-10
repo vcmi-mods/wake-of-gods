@@ -1,0 +1,58 @@
+{
+	"localCheats" : {
+		"color" : {
+			"append" : "wogsarumanofmanycolors"
+		}
+	},
+	"townTargetedCheats" : {
+		"buildTown" : {
+			"append" : "wogminastirith"
+		}
+	},
+	"playerTargetedCheats" : {
+		"resources" : {
+			"append" : "wogisengard"
+		},
+		"defeat" : {
+			"append" : "wogdarklord"
+		},
+		"victory" : {
+			"append" : "wogonering"
+		},
+		"mapReveal" : {
+			"append" : "wogeyeofsauron"
+		},
+		"mapHide" : {
+			"append" : "wogmordor"
+		},
+		"revealPuzzle" : {
+			"append" : "wogpalantir"
+		}
+	},
+	"heroTargetedCheats" : {
+		"giveArchangel" : {
+			"append" : "woggaladriel"
+		},
+		"giveBlackKnight" : {
+			"append" : "wogpathofthedead"
+		},
+		"giveSpells" : {
+			"append" : "wogsaruman"
+		},
+		"giveMachines" : {
+			"append" : "wogoliphaunt"
+		},
+		"levelup" : {
+			"append" : "woggandalfwhite"
+		},
+		"movement" : {
+			"append" : "wogshadowfax"
+		},
+		"maxLuck" : {
+			"append" : "wogbilbo"
+		},
+		"maxMorale" : {
+			"append" : "wogfellowship"
+		}
+	}
+}

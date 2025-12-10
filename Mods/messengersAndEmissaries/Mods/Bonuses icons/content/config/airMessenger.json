@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.messengersandemissaries:airMessenger" : {
+		"abilities" : {
+			"airProtection" : {
+				"icon" : "bonuses/damage_reduction_air.png"
+			}
+		}
+	}
+}

@@ -312,6 +312,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
+					"icon" : "bonuses/poison.png",
 					"addInfo" : [
 						1,
 						0
@@ -426,7 +427,8 @@
 			{
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "sorrow"
+					"subtype" : "sorrow",
+					"icon" : "bonuses/sorrowattack.png"
 				},
 				"values" : [
 					5,
@@ -608,7 +610,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "greenDragon"
+					"subtype" : "greenDragon",
+					"icon" : "bonuses/hate_gorynychxgreendragon.png"
 				},
 				"values" : [
 					0,
@@ -795,6 +798,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "fireball",
+					"icon" : "bonuses/fireballattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1092,7 +1096,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ADDITIONAL_RETALIATION"
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_shadowmare.png"
 				},
 				"values" : [
 					0,
@@ -1138,6 +1143,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "deathRipple",
+					"icon" : "bonuses/deathcloudattack.png",
 					"addInfo" : [
 						3,
 						2
@@ -1562,7 +1568,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "lich"
+					"subtype" : "lich",
+					"icon" : "bonuses/hate_warzealotxlich.png"
 				},
 				"values" : [
 					0,
@@ -1580,7 +1587,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "powerLich"
+					"subtype" : "powerLich",
+					"icon" : "bonuses/hate_warzealotxpowerlich.png"
 				},
 				"values" : [
 					0,
@@ -1762,7 +1770,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "griffin"
+					"subtype" : "griffin",
+					"icon" : "bonuses/hate_lunarwerewolfxgriffin.png"
 				},
 				"values" : [
 					10,
@@ -1780,7 +1789,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "royalGriffin"
+					"subtype" : "royalGriffin",
+					"icon" : "bonuses/hate_lunarwerewolfxroyalgriffin.png"
 				},
 				"values" : [
 					10,
@@ -1798,7 +1808,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "roc"
+					"subtype" : "roc",
+					"icon" : "bonuses/hate_lunarwerewolfxroc.png"
 				},
 				"values" : [
 					10,
@@ -1816,7 +1827,8 @@
 			{
 				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "thunderbird"
+					"subtype" : "thunderbird",
+					"icon" : "bonuses/hate_lunarwerewolfxthunderbird.png"
 				},
 				"values" : [
 					10,
@@ -1947,6 +1959,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "clone",
+					"icon" : "bonuses/cloneattack.png",
 					"addInfo" : [
 						3,
 						1

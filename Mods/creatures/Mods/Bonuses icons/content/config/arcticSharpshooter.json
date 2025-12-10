@@ -1,0 +1,9 @@
+{
+	"wake-of-gods.creatures:arcticSharpshooter" : {
+		"abilities" : {
+			"airShield" : {
+				"icon" : "bonuses/enchantedairshield.png"
+			}
+		}
+	}
+}

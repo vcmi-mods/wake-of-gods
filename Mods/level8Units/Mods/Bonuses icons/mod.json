@@ -1,0 +1,20 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/supremeArchangel.json",
+		"config/diamondDragon.json",
+		"config/lordOfThunder.json",
+		"config/hellBaron.json",
+		"config/bloodDragon.json",
+		"config/darknessDragon.json",
+		"config/ghostBehemoth.json",
+		"config/hellHydra.json",
+		"config/sacredPhoenix.json",
+		"config/level8CreaturesStackExp.json"
+	]
+}
