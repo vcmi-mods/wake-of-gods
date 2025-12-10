@@ -1,0 +1,25 @@
+{
+	"core:mine" : {
+		"types" : {
+			"mithrilMine" : {
+				"templates" : {
+					"icelands" : {
+						"animation" : "mithrilmines/glacier",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"icelands"
+						]						
+					}
+				}
+			}
+		}
+	}
+}

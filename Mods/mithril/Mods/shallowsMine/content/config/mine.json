@@ -1,0 +1,25 @@
+{
+	"core:mine" : {
+		"types" : {
+			"mithrilMine" : {
+				"templates" : {
+					"shallows" : {
+						"animation" : "mithrilmines/shallows",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"shallows"
+						]						
+					}
+				}
+			}
+		}
+	}
+}

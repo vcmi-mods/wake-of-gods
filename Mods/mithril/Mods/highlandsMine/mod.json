@@ -1,0 +1,22 @@
+{
+	"name" : "Mithril mine for Highlands terrain",
+	"description" : "When Hota Highlands terrain in enabled, this mod ads Mithril Mine graphic to this terrain.",
+	"version" : "1.0",
+	"author" : "Kurek, misiokles",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Compatibility",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [
+		"hota.highlandsterrain"
+	],
+	"objects" : [
+		"config/mine.json"
+	]
+}

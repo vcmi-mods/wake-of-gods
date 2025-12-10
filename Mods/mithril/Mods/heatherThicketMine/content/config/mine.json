@@ -1,0 +1,25 @@
+{
+	"core:mine" : {
+		"types" : {
+			"mithrilMine" : {
+				"templates" : {
+					"heatherThicket" : {
+						"animation" : "mithrilmines/heather",
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"heatherThicket"
+						]						
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name" : "Mithril mine for Asphalt terrain",
+	"description" : "When Asphalt terrain in enabled, this mod ads Mithril Mine graphic to this terrain.",
+	"version" : "1.0",
+	"author" : "Kurek, misiokles",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Compatibility",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [
+		"asphalt-terrain"
+	],
+	"objects" : [
+		"config/mine.json"
+	]
+}
