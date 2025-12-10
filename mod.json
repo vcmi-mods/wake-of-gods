@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.66",
+	"version" : "9.1.67",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.67" : [
+			"Added Mithrill Mines for OH3 and HotA terrains"
+		],
 		"9.1.66" : [
 			"Added cheat aliases from WoG"
 		],
