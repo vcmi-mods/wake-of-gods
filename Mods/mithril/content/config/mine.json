@@ -30,7 +30,7 @@
 						],
 						"allowedTerrains" : [
 							"grass"
-						]						
+						]
 					},
 					"dirt" : {
 						"animation" : "mithril/mithrilmines/dirt",
@@ -45,8 +45,8 @@
 						],
 						"allowedTerrains" : [
 							"dirt"
-						]						
-					},	
+						]
+					},
 					"snow" : {
 						"animation" : "mithril/mithrilmines/snow",
 						"mask" : [
@@ -60,7 +60,7 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						]						
+						]
 					},
 					"sand" : {
 						"animation" : "mithril/mithrilmines/sand",
@@ -75,7 +75,7 @@
 						],
 						"allowedTerrains" : [
 							"sand"
-						]						
+						]
 					},
 					"rough" : {
 						"animation" : "mithril/mithrilmines/rough",
@@ -90,8 +90,8 @@
 						],
 						"allowedTerrains" : [
 							"rough"
-						]						
-					},	
+						]
+					},
 					"swamp" : {
 						"animation" : "mithril/mithrilmines/swamp",
 						"mask" : [
@@ -105,7 +105,7 @@
 						],
 						"allowedTerrains" : [
 							"swamp"
-						]						
+						]
 					},
 					"lava" : {
 						"animation" : "mithril/mithrilmines/lava",
@@ -120,8 +120,8 @@
 						],
 						"allowedTerrains" : [
 							"lava"
-						]						
-					},	
+						]
+					},
 					"water" : {
 						"animation" : "mithril/mithrilmines/water",
 						"mask" : [
@@ -135,8 +135,8 @@
 						],
 						"allowedTerrains" : [
 							"water"
-						]						
-					},	
+						]
+					},
 					"subterra" : {
 						"animation" : "mithril/mithrilmines/subterrean",
 						"mask" : [
@@ -150,8 +150,8 @@
 						],
 						"allowedTerrains" : [
 							"subterra"
-						]						
-					}					
+						]
+					}
 				}
 			}
 		}
