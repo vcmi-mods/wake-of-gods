@@ -30,8 +30,8 @@
 				}
 			}
 		}
-	},	
-    "chinese" : {
+	},
+	"chinese" : {
 		"name" : "宝物堆叠支持",
 		"description" : "这个模组为一些WoG地图启用宝物堆叠支持。"
 	},

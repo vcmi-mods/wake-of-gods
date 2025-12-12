@@ -11,7 +11,7 @@
 	"depends" : [
 		"wake-of-gods.mapsupport"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "地图",
 		"description" : "这个模组包含所有WoG团队添加的新地图。"
 	},

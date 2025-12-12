@@ -34,7 +34,7 @@
 			}
 		}
 	},
-    "chinese" : {
+	"chinese" : {
 		"name" : "地图放置战争机器支持",
 		"description" : "这个模组为一些WoG地图启用地图放置战争机器支持。"
 	},
