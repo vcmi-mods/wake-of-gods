@@ -12,7 +12,8 @@
 		"wake-of-gods.mapdecorations",
 		"wake-of-gods.messengersandemissaries",
 		"wake-of-gods.heroes3datapatch",
-		"wake-of-gods.heroes3datapatch.heroes3datapatchera"
+		"wake-of-gods.heroes3datapatch.heroes3datapatchera",
+		"hota.mapdecorations"
 	],
 	"chinese" : {
 		"name" : "地图物体补丁",

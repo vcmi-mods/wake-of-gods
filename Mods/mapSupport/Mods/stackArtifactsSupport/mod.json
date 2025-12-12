@@ -31,6 +31,10 @@
 			}
 		}
 	},
+	"chinese" : {
+		"name" : "宝物堆叠支持",
+		"description" : "这个模组为一些WoG地图启用宝物堆叠支持。"
+	},
 	"polish" : {
 		"name" : "Wsparcie dla artefaktów jednostek",
 		"description" : "Ten moduł włącza wsparcie dla artefaktów jednostek na niektórych mapach WoG"

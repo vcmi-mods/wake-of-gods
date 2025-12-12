@@ -15,5 +15,9 @@
 		"config/soulEater.json",
 		"config/succubus.json",
 		"config/templeGuardian.json"
-	]
+	],
+	"chinese" : {
+		"name" : "额外加成图标",
+		"description" : "生物能力的额外图标。"
+	}
 }
