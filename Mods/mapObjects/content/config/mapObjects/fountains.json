@@ -7,104 +7,132 @@
 				"rewards" : [
 					{
 						"message" : "{Fountain of Fortune}\r\n\r\nAs you drink the bittersweet water, you feel your luck changing. After that, you fill three flasks with Hydromel Potion from the fountain.",
-						"appearChance" : { "min" : 0, "max" : 25 },
-						"bonuses" : [ 
-							{ 
-								"type" : "LUCK", 
+						"appearChance" : {
+							"min" : 0,
+							"max" : 25
+						},
+						"bonuses" : [
+							{
+								"type" : "LUCK",
 								"val" : -1,
-								"duration" : "ONE_BATTLE", 
+								"duration" : "ONE_BATTLE",
 								"description" : 69
 							}
 						],
-						"artifacts": [
-							"hydromelPotion"						
+						"artifacts" : [
+							"hydromelPotion"
 						]
 					},
 					{
 						"message" : "{Fountain of Fortune}\r\n\r\nAs you drink the bittersweet water, you feel your luck changing. After that, you fill three flasks with {Hydromel Potion} from the fountain.",
-						"appearChance" : { "min" : 25, "max" : 50 },
-						"bonuses" : [ 
-							{ 
-								"type" : "LUCK", 
+						"appearChance" : {
+							"min" : 25,
+							"max" : 50
+						},
+						"bonuses" : [
+							{
+								"type" : "LUCK",
 								"val" : 1,
-								"duration" : "ONE_BATTLE", 
-								"description" : 69 
+								"duration" : "ONE_BATTLE",
+								"description" : 69
 							}
 						],
-						"artifacts": [
-							"hydromelPotion"						
+						"artifacts" : [
+							"hydromelPotion"
 						]
 					},
 					{
 						"message" : "{Fountain of Fortune}\r\n\r\nAs you drink the bittersweet water, you feel your luck changing. After that, you fill three flasks with {Hydromel Potion} from the fountain.",
-						"appearChance" : { "min" : 50, "max" : 75 },
-						"bonuses" : [ 
-							{ 
-								"type" : "LUCK", 
+						"appearChance" : {
+							"min" : 50,
+							"max" : 75
+						},
+						"bonuses" : [
+							{
+								"type" : "LUCK",
 								"val" : 2,
-								"duration" : "ONE_BATTLE", 
-								"description" : 69 
+								"duration" : "ONE_BATTLE",
+								"description" : 69
 							}
 						],
-						"artifacts": [
-							"hydromelPotion"						
+						"artifacts" : [
+							"hydromelPotion"
 						]
 					},
 					{
 						"message" : "{Fountain of Fortune}\r\n\r\nAs you drink the bittersweet water, you feel your luck changing. After that, you fill three flasks with {Hydromel Potion} from the fountain.",
-						"appearChance" : { "min" : 75, "max" : 100 },
-						"bonuses" : [ 
-							{ 
-								"type" : "LUCK", 
+						"appearChance" : {
+							"min" : 75,
+							"max" : 100
+						},
+						"bonuses" : [
+							{
+								"type" : "LUCK",
 								"val" : 3,
-								"duration" : "ONE_BATTLE", 
-								"description" : 69 
+								"duration" : "ONE_BATTLE",
+								"description" : 69
 							}
 						],
-						"artifacts": [
-							"hydromelPotion"						
+						"artifacts" : [
+							"hydromelPotion"
 						]
 					}
 				]
 			}
 		}
 	},
-	
+
 	"valhallasFountain" : {
-		"handler":"configurable",
-		"name" : "Valhalla's Fountain",		
+		"handler" : "configurable",
+		"name" : "Valhalla's Fountain",
 		"types" : {
 			"valhallasFountain" : {
 				"aiValue" : 100,
 				"rmg" : {
-					"zoneLimit"	: 1,
+					"zoneLimit" : 1,
 					"mapLimit" : 4,
-					"value"		: 100,
-					"rarity"	: 100
+					"value" : 100,
+					"rarity" : 100
 				},
 				"sounds" : {
-					"ambient" : ["LOOPFOUN"],
-					"visit" : ["LUCK"]
-				},	
+					"ambient" : [
+						"LOOPFOUN"
+					],
+					"visit" : [
+						"LUCK"
+					]
+				},
 				"templates" : {
-					"zobj042" : { "animation" : "mapObjects/zobj042.def", 
-						"mask" : [ "VVV", "VVV", "VVA" ], 
-						"visitableFrom" : [ "---", "-+-", "+++" ]
+					"zobj042" : {
+						"animation" : "mapObjects/zobj042.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						]
 					}
-				},				
+				},
 				"onVisitedMessage" : "{Valhalla's Fountain}\r\n\r\nYou drink from the enchanted fountain, but nothing happens.",
 				"description" : "Gives Berserker Potions once per week.",
 				"visitMode" : "once",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true
-				},				
+				},
 				"rewards" : [
 					{
 						"message" : "{Valhalla's Fountain}\r\n\r\nAs you drink the murky water, you feel your rage is growing. After that, you fill three flasks with {Berserker Potion} from the fountain.",
-						"appearChance" : { "min" : 0, "max" : 100 },					
-						"artifacts": [
-							"berserkerPotion"						
+						"appearChance" : {
+							"min" : 0,
+							"max" : 100
+						},
+						"artifacts" : [
+							"berserkerPotion"
 						]
 					}
 				]
@@ -113,44 +141,60 @@
 	},
 
 	"venusFountain" : {
-		"handler":"configurable",
-		"name" : "Venus's Fountain",		
+		"handler" : "configurable",
+		"name" : "Venus's Fountain",
 		"types" : {
 			"venusFountain" : {
 				"aiValue" : 100,
 				"rmg" : {
-					"zoneLimit"	: 1,
+					"zoneLimit" : 1,
 					"mapLimit" : 4,
-					"value"		: 100,
-					"rarity"	: 100
+					"value" : 100,
+					"rarity" : 100
 				},
 				"sounds" : {
-					"ambient" : ["LOOPFOUN"],
-					"visit" : ["LUCK"]
-				},	
+					"ambient" : [
+						"LOOPFOUN"
+					],
+					"visit" : [
+						"LUCK"
+					]
+				},
 				"templates" : {
-					"zh4obj02" : { "animation" : "mapObjects/zh4obj02.def", 
-						"mask" : [ "VVV", "VBB", "BAB" ], 
-						"visitableFrom" : [ "---", "-+-", "+++" ]
+					"zh4obj02" : {
+						"animation" : "mapObjects/zh4obj02.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						]
 					}
-				},				
+				},
 				"onVisitedMessage" : "{Venus's Fountain}\r\n\r\nYou drink from the enchanted fountain, but nothing happens.",
 				"description" : "Gives Venus's Blessing once per week.",
 				"visitMode" : "once",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true
-				},				
+				},
 				"rewards" : [
 					{
 						"message" : "{Venus's Fountain}\r\n\r\nAs you drink the crystal water, you feel your fortune is growing. After that, you fill three flasks with {Venus's  Blessing} from the fountain.",
-						"appearChance" : { "min" : 0, "max" : 100 },					
-						"artifacts": [
-							"venusBlessing"						
+						"appearChance" : {
+							"min" : 0,
+							"max" : 100
+						},
+						"artifacts" : [
+							"venusBlessing"
 						]
 					}
 				]
 			}
 		}
-	}		
+	}
 }
