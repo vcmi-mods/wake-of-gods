@@ -1,0 +1,43 @@
+{
+	"berserkerPotion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class" : "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Berserker Potion",
+			"description": "{Berserker Potion}\r\n\r\nIncreases Attack by 10 and boosts luck to maximum but prevents to cast spells during combat. Vanishes after 3 battles.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "artifacts/berserkerPotion.png",
+			"scenarioBonus" : "artifacts/null.png",
+			"map": "artifacts/null.def"
+		},
+		"charged" : {
+			"usageType": "BATTLE",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3,
+		},
+		"bonuses" : {
+			"luck" : {
+				"type" : "LUCK",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"attack" : {
+				"subtype" : "attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 10,
+				"valueType" : "BASE_NUMBER"
+			},
+			"blockCasting" : {
+				"type" : "BLOCK_MAGIC_BELOW",
+				"val" : 6
+			}			
+		}
+	}
+}

@@ -870,29 +870,6 @@
 			}
 		}
 	},
-	"zobj042" : {
-		"name" : "Valhalla's Fountain (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj042" : {
-				"templates" : {
-					"zobj042" : {
-						"animation" : "objects/zobj042.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVA"
-						],
-						"visitableFrom" : [
-							"---",
-							"++-",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zobj043" : {
 		"name" : "Object (doesn't work yet)",
 		"handler" : "generic",
@@ -1048,29 +1025,6 @@
 							"VVVBBV",
 							"VVVBBV",
 							"VVVAVV"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
-	"zh4obj02" : {
-		"name" : "Venus's Blessing (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zh4obj02" : {
-				"templates" : {
-					"zh4obj02" : {
-						"animation" : "objects/zh4obj02.def",
-						"mask" : [
-							"VVV",
-							"BBB",
-							"BAB"
 						],
 						"visitableFrom" : [
 							"---",
