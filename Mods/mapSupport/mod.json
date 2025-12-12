@@ -20,7 +20,12 @@
 	"creatures" : [
 		"config/emmisariesMap"
 	],
-
+    
+	"chinese" : {
+		"name" : "地图格式支持(WoG)",
+		"description" : "这个模组包含在VCMI中加载神之苏醒地图格式所需的支持文件。"
+	},
+    
 	"czech" : {
 		"name" : "Podpora formátu map (WoG)",
 		"description" : "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"

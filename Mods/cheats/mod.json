@@ -12,5 +12,9 @@
 	},
 	"compatibility" : {
 		"min" : "1.7.0"
+	},
+    "chinese": {
+        "name": "作弊码",
+		"description": "添加WoG作弊码别名。"
 	}
 }

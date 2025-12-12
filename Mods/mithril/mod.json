@@ -61,6 +61,10 @@
 		"config/rmg/hdmod/triad.json",
 		"config/rmg/hdmod/vortex.json"
 	],
+    "chinese" : {
+		"name" : "秘银",
+		"description" : "该模组为游戏新增了一种资源。<br><br>秘银是一种魔法金属，每单位价值 400 金币。<br><br>- <b>秘银矿</b>每天为其占领者产出1单位秘银。<br>- <b>秘银仓库</b>每周一次性提供 6–10 单位秘银，并在 7 天后刷新。<br><br>目前，秘银矿可在使用以下模板的随机地图中生成： Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad, and Vortex."
+	},
 	"czech" : {
 		"name" : "Mitril",
 		"description" : "Tato modifikace přidává do hry novou surovinu.<br><br>Mitril je magický kov v hodnotě 400 zlatých za kus.<br><br>- <b>Mitrilový důl</b> produkuje 1 kus mithrilu denně.<br>- <b>Skladiště mitrilu</b> poskytuje 6–10 kusů mitrilu jednou týdně a znovu se doplní po 7 dnech.<br><br>V současnosti se mitrilový důl může objevit na náhodně generovaných mapách při použití následujících šablon: Blockbuster, Clash of Dragons, Coldshadow's Fantasy, Extreme, Extreme 2, Frozen Dragons, Headquarters, Jebus Cross, Long Run, Oceans Eleven, Panic, Poor Jebus, Reckless, Roadrunner, Shaaafworld, Skirmish, Speed 2, Spider, Superslam, Triad a Vortex."
