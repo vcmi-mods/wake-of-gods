@@ -1,0 +1,38 @@
+{
+	"venusBlessing":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class" : "SPECIAL",
+		"value": 5500,	
+		"text":
+		{
+			"name": "Venus's Blessing",
+			"description": "{Venus's Blessing}\r\n\r\nGrants maximum Luck and Morale during combat. Vanishes after 3 battles.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "artifacts/venusBlessing.png",
+			"scenarioBonus" : "artifacts/null.png",
+			"map": "artifacts/null.def"
+		},
+		"charged" : {
+			"usageType": "BATTLE",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3,
+		},
+		"bonuses" : {
+			"luck" : {
+				"type" : "LUCK",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			}	
+		}
+	}
+}

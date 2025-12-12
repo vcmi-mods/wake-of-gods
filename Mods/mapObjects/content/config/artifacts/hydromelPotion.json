@@ -1,0 +1,40 @@
+{
+	"hydromelPotion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class" : "SPECIAL",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Hydromel Potion",
+			"description": "{Hydromel Potion}\r\n\r\nIncreases Attack and Defense by 2 during combat. Vanishes after 3 battles.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "artifacts/hydromelPotion.png",
+			"scenarioBonus" : "artifacts/null.png",
+			"map": "artifacts/null.def"
+		},
+		"charged" : {
+			"usageType": "BATTLE",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3,
+		},
+		"bonuses" : {
+			"defence" : {
+				"subtype" : "defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"attack" : {
+				"subtype" : "attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}		
+		}
+	}
+}
