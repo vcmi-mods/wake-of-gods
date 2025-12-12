@@ -11,10 +11,6 @@
 	"depends" : [
 		"wake-of-gods.mapsupport"
 	],
-	"chinese" : {
-		"name" : "地图",
-		"description" : "这个模组包含所有WoG团队添加的新地图。"
-	},
 	"czech" : {
 		"name" : "Mapy",
 		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem WoG"

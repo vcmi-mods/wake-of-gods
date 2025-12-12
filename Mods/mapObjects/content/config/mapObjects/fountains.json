@@ -6,7 +6,7 @@
 				"description" : "Changes luck until next battle and gives Hydromel Potions.",
 				"rewards" : [
 					{
-						"message" : "{Fountain of Fortune}\r\n\r\nAs you drink the bittersweet water, you feel your luck changing. After that, you fill three flasks with {Hydromel Potion} from the fountain.",
+						"message" : "{Fountain of Fortune}\r\n\r\nAs you drink the bittersweet water, you feel your luck changing. After that, you fill three flasks with Hydromel Potion from the fountain.",
 						"appearChance" : { "min" : 0, "max" : 25 },
 						"bonuses" : [ 
 							{ 
@@ -78,6 +78,7 @@
 				"aiValue" : 100,
 				"rmg" : {
 					"zoneLimit"	: 1,
+					"mapLimit" : 4,
 					"value"		: 100,
 					"rarity"	: 100
 				},
@@ -86,18 +87,17 @@
 					"visit" : ["LUCK"]
 				},	
 				"templates" : {
-					"zobj042" : { "animation" : "objects/zobj042.def", 
-						"mask" : [ "VVV", "VVV", "VBA" ], 
+					"zobj042" : { "animation" : "mapObjects/zobj042.def", 
+						"mask" : [ "VVV", "VVV", "VVA" ], 
 						"visitableFrom" : [ "---", "-+-", "+++" ]
 					}
 				},				
 				"onVisitedMessage" : "{Valhalla's Fountain}\r\n\r\nYou drink from the enchanted fountain, but nothing happens.",
 				"description" : "Gives Berserker Potions once per week.",
 				"visitMode" : "once",
-//				"selectMode" : "selectFirst",
 				"resetParameters" : {
 					"period" : 7,
-					"rewards" : true
+					"visitors" : true
 				},				
 				"rewards" : [
 					{
@@ -120,6 +120,7 @@
 				"aiValue" : 100,
 				"rmg" : {
 					"zoneLimit"	: 1,
+					"mapLimit" : 4,
 					"value"		: 100,
 					"rarity"	: 100
 				},
@@ -128,7 +129,7 @@
 					"visit" : ["LUCK"]
 				},	
 				"templates" : {
-					"zh4obj02" : { "animation" : "objects/zh4obj02.def", 
+					"zh4obj02" : { "animation" : "mapObjects/zh4obj02.def", 
 						"mask" : [ "VVV", "VBB", "BAB" ], 
 						"visitableFrom" : [ "---", "-+-", "+++" ]
 					}
@@ -136,21 +137,14 @@
 				"onVisitedMessage" : "{Venus's Fountain}\r\n\r\nYou drink from the enchanted fountain, but nothing happens.",
 				"description" : "Gives Venus's Blessing once per week.",
 				"visitMode" : "once",
-//				"selectMode" : "selectFirst",
 				"resetParameters" : {
 					"period" : 7,
-					"rewards" : true
+					"visitors" : true
 				},				
 				"rewards" : [
 					{
 						"message" : "{Venus's Fountain}\r\n\r\nAs you drink the crystal water, you feel your fortune is growing. After that, you fill three flasks with {Venus's  Blessing} from the fountain.",
-						"appearChance" : { "min" : 0, "max" : 100 },
-						"bonuses" : [ 
-							{ 
-								"type" : "NONE", 
-								"description" : 69 
-							}
-						],						
+						"appearChance" : { "min" : 0, "max" : 100 },					
 						"artifacts": [
 							"venusBlessing"						
 						]

@@ -17,9 +17,5 @@
 		"config/wogSorceress.json",
 		"config/werewolf.json",
 		"config/dracolich.json"
-	],
-	"chinese" : {
-		"name" : "额外加成图标",
-		"description" : "生物能力的额外图标。"
-	}
+	]
 }

@@ -6,10 +6,6 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
 
-	"chinese" : {
-		"name" : "指挥官宝石的新图像",
-		"description" : "该模组修改了用于强化指挥官的宝石外观，新模型更符合其魔法属性。"
-	},
 	"czech" : {
 		"name" : "Nová grafika drahokamů velitele",
 		"description" : "Tato modifikace mění vzhled drahokamů, které posilují velitele. Nové modely lépe odpovídají jejich magické podstatě."

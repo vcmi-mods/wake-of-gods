@@ -3,8 +3,8 @@
 	{
 		"type": ["HERO"],
 		"slot" : "MISC",
-		"class" : "MINOR",
-		"value": 4000,	
+		"class" : "SPECIAL",
+		"value": 5500,	
 		"text":
 		{
 			"name": "Venus's Blessing",

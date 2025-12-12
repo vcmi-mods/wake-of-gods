@@ -11,7 +11,7 @@
 		"config/mapObjects/palaceOfDreams.json",
 		"config/mapObjects/mushrooms.json",
 		"config/mapObjects/sphinx.json",
-		"config/mapObjects/fountains.json",
+		"config/mapObjects/fountains.json"
 	],
 	"artifacts" : [
 		"config/artifacts/berserkerPotion.json",

@@ -34,10 +34,6 @@
 			}
 		}
 	},
-	"chinese" : {
-		"name" : "地图放置战争机器支持",
-		"description" : "这个模组为一些WoG地图启用地图放置战争机器支持。"
-	},
 	"polish" : {
 		"name" : "Wsparcie dla maszyn wojennych na mapie",
 		"description" : "Ten moduł umożliwia pojawianie się maszyn wojennych na mapie przygód."

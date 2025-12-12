@@ -94,10 +94,6 @@
 			}
 		}
 	},
-	"chinese" : {
-		"name" : "指挥官支持",
-		"description" : "这个模组为一些WoG地图启用指挥官支持。"
-	},
 	"polish" : {
 		"name" : "Wsparcie dowódców",
 		"description" : "Ten moduł dodaje wsparcie dla dowódców na wybranych mapach WoG."
