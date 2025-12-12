@@ -21,6 +21,11 @@
 		"config/emmisariesMap"
 	],
 
+	"chinese" : {
+		"name" : "地图格式支持(WoG)",
+		"description" : "这个模组包含在VCMI中加载神之苏醒地图格式所需的支持文件。"
+	},
+
 	"czech" : {
 		"name" : "Podpora formátu map (WoG)",
 		"description" : "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"
@@ -89,7 +94,7 @@
 						63,
 						1
 					],
-					"venusFountain" : [
+					"zh4obj02" : [
 						63,
 						2
 					],
@@ -249,7 +254,7 @@
 						63,
 						47
 					],
-					"valhallasFountain" : [
+					"zobj042" : [
 						63,
 						48
 					],
@@ -855,6 +860,7 @@
 					"objects/zobj038.def" : "zobj038.def",
 					"objects/zobj039.def" : "zobj039.def",
 					"objects/zobj040.def" : "zobj040.def",
+					"objects/zobj042.def" : "zobj042.def",
 					"objects/zobj043.def" : "zobj043.def",
 					"objects/zobj044.def" : "zobj044.def",
 					"objects/zobj049.def" : "zobj049.def",
@@ -863,6 +869,7 @@
 					"objects/zartif1.def" : "zartif1.def",
 					"objects/zmark1.def" : "zmark1.def",
 					"objects/zh4obj01.def" : "zh4obj01.def",
+					"objects/zh4obj02.def" : "zh4obj02.def",
 					"objects/skull.def" : "skull.def",
 					"objects/TPTempl1.def" : "TPTempl1.def",
 					"objects/ztower1.def" : "ztower1.def",
@@ -963,8 +970,6 @@
 					"mapObjects/zsphnx13.def" : "zsphnx13.def",
 					"mapObjects/zsphnx14.def" : "zsphnx14.def",
 					"mapObjects/zsphnx15.def" : "zsphnx15.def",
-					"mapObjects/zh4obj02.def" : "zh4obj02.def",
-					"mapObjects/zobj042.def" : "zobj042.def",
 					"creatureBanks/ZCrBGod4.def" : "ZCrBGod4.def",
 					"creatureBanks/ZCrBGod3.def" : "ZCrBGod3.def",
 					"creatureBanks/ZCrBGod1.def" : "ZCrBGod1.def",

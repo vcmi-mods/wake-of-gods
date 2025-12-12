@@ -5,6 +5,10 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	"chinese" : {
+		"name" : "英雄无敌3ERA数据补丁",
+		"description" : "修复并改进一些死亡阴影的游戏的图像资源。"
+	},
 	"czech" : {
 		"name" : "Oprava grafiky z ERA pro Heroes 3",
 		"description" : "Opravy grafiky pro některé herní prvky z Heroes 3."
