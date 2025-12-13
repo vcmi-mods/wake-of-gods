@@ -1,0 +1,531 @@
+{
+	"junkMerchant" : {
+		"name" : "Junk Merchant",
+		"handler" : "configurable",
+		"types" : {
+			"arcaneTower" : {
+				"name" : "Junk Merchant",
+				"description" : "(offers trades for 32 artifacts, mostly weak ones, plus scrolls.)",
+				"rmg" : {
+					"value" : 7000,
+					"rarity" : 75,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : [
+						"LOOPMAGI"
+					],
+					"visit" : [
+						"MYSTERY"
+					]
+				},
+				"rewards" : [
+					{
+						"takenArtifacts": [
+							"centaurAxe"
+						],
+						"creatures" : [
+							{
+								"type" : "centaurCaptain",
+								"amount" : 50
+							}
+						],
+						"limiter" : {
+							"artifacts": [
+								"centaurAxe"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Centaur Axe! %Z329Centaurs! What's an Axe with no Centaurs! Am I right? I'll give you... oh, I can be generous... 50 Centaur Captains for the Axe."
+					},
+					{
+						"takenArtifacts": [
+							"shieldOfTheDwarvenLords"
+						],
+						"creatures" : [
+							{
+								"type" : "battleDwarf",
+								"amount" : 15,
+							}
+						],
+						"limiter" : {
+							"artifacts": [
+								"shieldOfTheDwarvenLords"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Shield Of The Dwarven Lords! %Z329Dwarves! They're better! I'm such a great guy, I'll give you... say... 15 Battle Dwarves for the Shield."
+					},
+					{
+						"takenArtifacts": [
+							"bucklerOfTheGnollKing"
+						],
+						"artifacts" : [
+							"targOfTheRampagingOgre"
+						],
+						"limiter" : {
+							"artifacts": [
+								"bucklerOfTheGnollKing"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Buckler Of The Gnoll King! %Z329A Targ Of The Rampaging Ogre! +5 instead of +4! It's just better! I must be crazy but I'll do it! I'll give you the Targ for the Buckler!"
+					},
+					{
+						"takenArtifacts": [
+							"helmOfTheAlabasterUnicorn"
+						],
+						"resources" : {
+							"gems" : 5
+						},
+						"limiter" : {
+							"artifacts": [
+								"helmOfTheAlabasterUnicorn"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Helm Of The Alabaster Unicorn! What junk! %Z329Unicorns! And to build their glade you need gems! Which is what I'll give you! 5 gems!"
+					},
+					{
+						"takenArtifacts": [
+							"breastplateOfPetrifiedWood"
+						],
+						"primary" : {
+							"spellpower" : 1
+						},
+						"limiter" : {
+							"artifacts": [
+								"breastplateOfPetrifiedWood"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Breastplate Of Petrified Wood! You're actually wearing that? Tell you what, give me the Breastplate, and I'll teach you +1 spell power! Like a Breastplate without having to wear it!"
+					},
+					{
+						"takenArtifacts": [
+							"cloverOfFortune"
+						],
+						"resources" : {
+							"gold" : 1500
+						},
+						"limiter" : {
+							"artifacts": [
+								"cloverOfFortune"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Clover Of Fortune! Blimey! You're still using garbage like that? I suppose I could take it off your hands for... I dunno... 1500 gold."
+					},
+					{
+						"takenArtifacts": [
+							"cardsOfProphecy"
+						],
+						"resources" : {
+							"gold" : 1500
+						},
+						"limiter" : {
+							"artifacts": [
+								"cardsOfProphecy"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nCards Of Prophecy! What junk! You wanna know the future, just wet your finger and hold it in the wind, pal! Tell you what, I'll take the Cards from you for... say... 1500 gold."
+					},
+					{
+						"takenArtifacts": [
+							"ladybirdOfLuck"
+						],
+						"resources" : {
+							"gold" : 1500
+						},
+						"limiter" : {
+							"artifacts": [
+								"ladybirdOfLuck"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Ladybird Of Luck! Are you superstitious or what, pal? Aw, I'm kidding you! That's a fine... thingie. I'll give you 1500 gold for it."
+					},
+					{	
+						"takenArtifacts": [
+							"crestOfValor"
+						],
+						"resources" : {
+							"gold" : 1500
+						},
+						"limiter" : {
+							"artifacts": [
+								"crestOfValor"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Crest Of Valor! Runs in the family, huh? Well, it's kind of pretty. I could part with... say... 1500 gold for it."
+					},
+					{	
+						"takenArtifacts": [
+							"badgeOfCourage"
+						],
+						"resources" : {
+							"gold" : 1500
+						},
+						"limiter" : {
+							"artifacts": [
+								"badgeOfCourage"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Badge Of Courage! What'd you do, save a dog from a burning building? I suppose I could melt it down... I'll give you 1500 gold for it."
+					},
+					{	
+						"takenArtifacts": [
+							"glyphOfGallantry"
+						],
+						"resources" : {
+							"gold" : 1500
+						},
+						"limiter" : {
+							"artifacts": [
+								"glyphOfGallantry"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Glyph Of Gallantry! Man, I thought they stopped making these! Don't they have +2 morale artifacts now? Well, for the nostalgia of it, I could give you... maybe... 1500 gold for it."
+					},
+					{	
+						"takenArtifacts": [
+							"spyglass"
+						],
+						"resources" : {
+							"gold" : 1830
+						},
+						"limiter" : {
+							"artifacts": [
+								"spyglass"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Spyglass! Man, isn't that like the worst artifact ever? Just totally useless! But I'm such a pal, I'll give you, I'll give you, thirt... no... fift... Uh... I'll give you 1830 gold for it!"
+					},
+					{	
+						"takenArtifacts": [
+							"speculum"
+						],
+						"bonuses" : 
+						[ 
+							{
+								"type" : "SIGHT_RADIUS", 
+								"val" : 10, 
+								"description" : 67  //check this description in arraytxt.txt
+							} 
+						],
+						"limiter" : {
+							"artifacts": [
+								"speculum"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Speculabob! I mean Speculum! What utter crud! %Z329A map! Just a map of the neighborhood! I'll give you a map of these parts for the Specuthingie."
+					},					
+					{	
+						"takenArtifacts": [
+							"amuletOfTheUndertaker"
+						],
+						"resources" : {
+							"gold" : 600
+						},
+						"limiter" : {
+							"artifacts": [
+								"amuletOfTheUndertaker"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nAn Amulet Of The Undertaker! Spooky! Those are bad luck, you know. I'll take it off of you for... I dunno... 600 gold. That's all it's worth, if you want to know the truth."
+					},
+					{	
+						"takenArtifacts": [
+							"vampiresCowl"
+						],
+						"resources" : {
+							"gold" : 2500
+						},
+						"limiter" : {
+							"artifacts": [
+								"vampiresCowl"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Vampire's Cowl! I thought you guys couldn't go out in daylight? Just kidding! Well it's a nice conversation piece. I'll give you... what... 2500 gold for it."
+					},	
+					{	
+						"takenArtifacts": [
+							"deadMansBoots"
+						],
+						"resources" : {
+							"gold" : 2000
+						},
+						"limiter" : {
+							"artifacts": [
+								"deadMansBoots"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nDead Man's Boots! Where did you get those? They're awfully scarce in these parts! In fact I'll give you... 2000 gold for them!"
+					},
+					{	
+						"takenArtifacts": [
+							"surcoatOfCounterpoise"
+						],
+						"resources" : {
+							"gold" : 4000
+						},
+						"limiter" : {
+							"artifacts": [
+								"surcoatOfCounterpoise"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Surcoat Of Counterpoise! That would go great with my Surpants Of Counterpoise! I've gotta have it! I'll give you... 4000 gold for it!"
+					},
+					{	
+						"takenArtifacts": [
+							"birdOfPerception"
+						],
+						"creatures" : [
+							{
+								"type" : "royalGriffin",
+								"amount" : 15,
+							}
+						],
+						"limiter" : {
+							"artifacts": [
+								"birdOfPerception"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Bird Of Perception! %Z329Birds! Griffins even! Much better than a little statue! I'm such a guy, I'll give you... 15 Royal Griffins for it!"
+					},
+					{	
+						"takenArtifacts": [
+							"statesmansMedal"
+						],
+						"resources" : {
+							"crystal" : 10
+						},
+						"limiter" : {
+							"artifacts": [
+								"statesmansMedal"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Statesman's Medal! I guess I should call you \"sir\" or something, huh pal? Just kidding! Well it's a little tarnished... I'll give you... 10 crystals for it."
+					},
+					{	
+						"takenArtifacts": [
+							"diplomatsRing"
+						],
+						"resources" : {
+							"gems" : 10
+						},
+						"limiter" : {
+							"artifacts": [
+								"diplomatsRing"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Diplomat's Ring! What did you do, take it off a corpse? Just kidding! Sheesh you're sensitive! Tell you what, to make it up to you, I'll give you... 10 gems for it."
+					},
+					{	
+						"takenArtifacts": [
+							"ambassadorsSash"
+						],
+						"resources" : {
+							"mercury" : 10
+						},
+						"limiter" : {
+							"artifacts": [
+								"ambassadorsSash"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nAn Ambassador's Sash! Where are you from, Enroth? Well what does an Ambaddador need but castles? And how do you build castles? Sometimes, with mercury! Lotsa mercury! I'll give you 10 mercury for the Sash."
+					},	
+					{	
+						"takenArtifacts": [
+							"necklaceOfOceanGuidance"
+						],
+						"resources" : {
+							"wood" : 15
+						},
+						"limiter" : {
+							"artifacts": [
+								"necklaceOfOceanGuidance"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Necklace Of Ocean Guidance! Man, somebody got to you before me, I can tell! What a gyp! You know what sailing around gets you? Nothing but wood! Mounds and mounds of sea debris! To save you time, I'll give you 15 wood for the Necklace."
+					},
+					{	
+						"takenArtifacts": [
+							"angelWings"
+						],
+						"creatures" : [
+							{
+//								"type" : "supremeArchangel",
+								"type" : "archangel",
+								"amount" : 3
+							}
+						],
+						"limiter" : {
+							"artifacts": [
+								"angelWings"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nAngel Wings! Overrated, pal! %Z329Angels! Archangels, even! No wait, Supreme Archangels! That's right! I'll give you... er... 2 Supreme Archangels for the wings."
+					},		
+					{	
+						"takenArtifacts": [
+							"collarOfConjuring"
+						],
+						"bonuses" : [ 
+							{ 
+								"type" : "SPELL",
+								"subtype" : "slow",								
+								"val" : 2, 
+								"description" : 67 //check this description in arraytxt.txt
+							}
+						],
+						"limiter" : {
+							"artifacts": [
+								"collarOfConjuring",
+								{
+								"type" : "spellBook"
+								}
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Collar Of Conjuring! Man, does that chafe your neck or what? Tell you what, to show you what a great guy I am, give me the Collar and I'll teach you the best spell ever! That's right, Slow!"
+					},
+					{	
+						"takenArtifacts": [
+							"charmOfMana"
+						],
+						"manaPoints": 60,
+						"limiter" : {
+							"artifacts": [
+								"charmOfMana"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Charm Of Mana! What a useless toy! One spell point a day! Tell you what, pal, I'll give you 60 spell points for it! That's like two months from the Charm!"
+					},
+					{	
+						"takenArtifacts": [
+							"recantersCloak"
+						],
+						"resources" : {
+							"gold" : 2500
+						},
+						"limiter" : {
+							"artifacts": [
+								"recantersCloak"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Recanter's Cloak! Well, at least it keeps the rain off your back! You know what else keeps the rain off your back? Money! If you buy a house with it! I'll give you 2500 gold for the Cloak."
+					},
+					{	
+						"takenArtifacts": [
+							"spiritOfOppression"
+						],
+						"resources" : {
+							"gold" : 2000
+						},
+						"limiter" : {
+							"artifacts": [
+								"spiritOfOppression"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Spirit Of Oppression! You've gotta be kidding! No-one would ever want that except maybe a necrom... hmmm. Hey, maybe if I shine it up, it might look good on my mantle. I'll give you 2000 gold for it."
+					},	
+					{	
+						"takenArtifacts": [
+							"hourglassOfTheEvilHour"
+						],
+						"resources" : {
+							"gold" : 500
+						},
+						"limiter" : {
+							"artifacts": [
+								"hourglassOfTheEvilHour"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nAn Hourglass Of The Evil something! What trash! I think I just threw one of those away - were you rooting around in my garbage? Just kidding! Aw, I'm a sucker for a sad face. I'll give you 500 gold for it."
+					},
+					{	
+						"takenArtifacts": [
+							"sphereOfPermanence"
+						],
+						"heroExperience" : 2000, 
+						"limiter" : {
+							"artifacts": [
+								"sphereOfPermanence"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Sphere Of Permanence! Wow, completely immune to Dispel! Hold me back! You know what you need, pal? Some experience! So you don't use junk like that! Give me the Sphere, I'll teach you a lesson worth 2000 experience."
+					},
+					{	
+						"takenArtifacts": [
+							"orbOfVulnerability"
+						],
+						"artifacts" : [
+							"orbOfTheFirmament"
+						],
+						"limiter" : {
+							"artifacts": [
+								"orbOfVulnerability"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nAn Orb Of Vulnerability! Makes a nice paperweight, doesn't it! Aw, I pity you, pal, I really do. Out of the goodness of my heart, I'll give you an Orb Of The Firmament for your Orb."
+					},
+					{	
+						"takenArtifacts": [
+							"pendantOfNegativity"
+						],
+						"bonuses" : [ 
+							{ 
+								"type" : "SPELL",
+								"subtype" : "lightningBolt",								
+								"val" : 2, 
+								"description" : 67 //check this description in arraytxt.txt
+							}
+						],
+						"limiter" : {
+							"artifacts": [
+								"pendantOfNegativity",
+								{
+									"type" : "spellBook"
+								}
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Pendant Of Negativity! What are you, a scaredy cat? %Z329A Lightning Bolt of your own! Just frying everything in sight! I'll teach you Lightning Bolt in exchange for the Pendant."
+					},
+					{	
+						"takenArtifacts": [
+							"legsOfLegion"
+						],
+						"resources" : {
+							"ore" : 15
+						},
+						"limiter" : {
+							"artifacts": [
+								"legsOfLegion"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nLegs Of Legion! Those belong in a museum! Just kidding! They aren't worth the rock they're carved out of! Which is what I'm offering you! 15 Ore for the Legs."
+					}		
+				],
+				"onSelectMessage" : "{Junk Merchant}\r\n\r\noffers trades for 32 artifacts, mostly weak ones, plus scrolls.",
+				"onEmptyMessage" : "{Junk Merchant}\r\n\r\nYou can't trick me! You have none to pay!",
+				"selectMode" : "selectRandom",
+				"visitMode" : "unlimited",
+				"canRefuse" : true,
+				"resetParameters" : {
+					"period" : 1,
+					"visitors" : true,
+//					"rewards" : true
+				},
+				"templates" : {
+					"zobj006" : {
+						"animation" : "mapObjects/zobj006",
+						"mask" : [
+							"VVVVV",
+							"VVVVV",
+							"VBBBV",
+							"VBABV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}
