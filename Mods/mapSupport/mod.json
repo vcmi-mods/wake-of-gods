@@ -122,7 +122,7 @@
 						63,
 						8
 					],
-					"zobj007" : [
+					"arcaneTower" : [
 						63,
 						9
 					],
@@ -834,7 +834,6 @@
 					"objects/zobj004.def" : "zobj004.def",
 					"objects/zobj005.def" : "zobj005.def",
 					"objects/zobj006.def" : "zobj006.def",
-					"objects/zobj007.def" : "zobj007.def",
 					"objects/zobj009.def" : "zobj009.def",
 					"objects/zobj010.def" : "zobj010.def",
 					"objects/zobj011.def" : "zobj011.def",
@@ -957,6 +956,7 @@
 					"mapObjects/zobj018_1.def" : "zobj018_1.def",
 					"mapObjects/zobj018.def" : "zobj018.def",
 					"mapObjects/sfzerk.def" : "sfzerk.def",
+					"mapObjects/zobj007.def" : "zobj007.def",
 					"mapObjects/zobj008.def" : "zobj008.def",
 					"mapObjects/zobj012.def" : "zobj012.def",
 					"mapObjects/zobj017.def" : "zobj017.def",

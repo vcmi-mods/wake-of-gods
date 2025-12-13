@@ -1,0 +1,265 @@
+{
+	"arcaneTower" : {
+		"name" : "Arcane Tower",
+		"handler" : "configurable",
+		"types" : {
+			"arcaneTower" : {
+				"name" : "Arcane Tower",
+				"description" : "(allows a hero to redistribute his or her primary skill points)",
+				"rmg" : {
+					"value" : 7000,
+					"rarity" : 75,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : [
+						"LOOPMAGI"
+					],
+					"visit" : [
+						"MYSTERY"
+					]
+				},
+				"rewards" : [
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at attack... in return, I require defense. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 0,
+							"max" : 8
+						},
+						"primary" :
+						{
+							"attack" : 1, "defence" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Defense for Attack",						
+						"limiter" : { "primary" : { "defence" : 1 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at attack... in return, I require spellpower. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 8,
+							"max" : 16
+						},
+						"primary" :
+						{
+							"attack" : 1, "spellpower" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Spellpower for Attack",
+						"limiter" : { "primary" : { "spellpower" : 2 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at attack... in return, I require knowledge. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 16,
+							"max" : 24
+						},
+						"primary" :
+						{
+							"attack" : 1, "knowledge" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Knowledge for Attack",
+						"limiter" : { "primary" : { "knowledge" : 2 } }
+					},	
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at defence... in return, I require attack. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 24,
+							"max" : 32
+						},
+						"primary" :
+						{
+							"defence" : 1, "attack" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Attack for Defence",
+						"limiter" : { "primary" : { "attack" : 1 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at defence... in return, I require spellpower. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 32,
+							"max" : 40
+						},
+						"primary" :
+						{
+							"defence" : 1, "spellpower" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Spellpower for Defence",
+						"limiter" : { "primary" : { "spellpower" : 2 } }
+					},					
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at defence... in return, I require knowledge. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 40,
+							"max" : 48
+						},
+						"primary" :
+						{
+							"defence" : 1, "knowledge" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Knowledge for Defence",
+						"limiter" : { "primary" : { "knowledge" : 2 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at spellpower... in return, I require attack. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 48,
+							"max" : 56
+						},
+						"primary" :
+						{
+							"spellpower" : 1, "attack" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Attack for Spellpower",
+						"limiter" : { "primary" : { "attack" : 1 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at spellpower... in return, I require defence. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 56,
+							"max" : 64
+						},
+						"primary" :
+						{
+							"spellpower" : 1, "defence" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Defense for Spellpower",
+						"limiter" : { "primary" : { "defence" : 1 } }
+					},	
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at spellpower... in return, I require knowledge. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 64,
+							"max" : 72
+						},
+						"primary" :
+						{
+							"spellpower" : 1, "knowledge" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Knowledge for Spellpower",
+						"limiter" : { "primary" : { "knowledge" : 2 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at knowledge... in return, I require attack. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 72,
+							"max" : 80
+						},
+						"primary" :
+						{
+							"knowledge" : 1, "attack" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Attack for Knowledge",
+						"limiter" : { "primary" : { "attack" : 1 } }
+					},						
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at knowledge... in return, I require defense. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 80,
+							"max" : 88
+						},
+						"primary" :
+						{
+							"knowledge" : 1, "defence" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Defense for Knowledge",
+						"limiter" : { "primary" : { "defence" : 1 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here, traveller. I can help you.\"\n\nThe ghost continues. \"I can make you strong, give you power - perhaps as much power as I have! But it will cost you dearly. Today I can give you skill at knowledge... in return, I require spellpower. One for one. Are you interested?\"",
+						"appearChance" : {
+							"min" : 88,
+							"max" : 96
+						},
+						"primary" :
+						{
+							"knowledge" : 1, "spellpower" : -1
+						},
+						"movePoints" : -25,
+//						"description" : "This day allows to redistribute Spellpower for Knowledge",
+						"limiter" : { "primary" : { "spellpower" : 2 } }
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the day.  Are you interested?\"",
+						"appearChance" : {
+							"min" : 96,
+							"max" : 97
+						},
+						"bonuses" : [ 
+							{ "type" : "PRIMARY_SKILL", "subtype" : "attack", "val" : 2, "duration" : "ONE_WEEK", "description" : 102}
+						],
+						"movePoints" : -400 
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the week.  Are you interested?\"",
+						"appearChance" : {
+							"min" : 97,
+							"max" : 98
+						},
+						"bonuses" : [ 
+							{ "type" : "PRIMARY_SKILL", "subtype" : "defence", "val" : 2, "duration" : "ONE_WEEK", "description" : 102}
+						],
+						"movePoints" : -400 
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the day.  Are you interested?\"",
+						"appearChance" : {
+							"min" : 98,
+							"max" : 99
+						},
+						"bonuses" : [ 
+							{ "type" : "PRIMARY_SKILL", "subtype" : "spellpower", "val" : 2, "duration" : "ONE_WEEK", "description" : 102}
+						],
+						"movePoints" : -400
+					},
+					{
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the day.  Are you interested?\"",
+						"appearChance" : {
+							"min" : 99,
+							"max" : 100
+						},
+						"bonuses" : [ 
+							{ "type" : "PRIMARY_SKILL", "subtype" : "knowledge", "val" : 2, "duration" : "ONE_WEEK", "description" : 102}
+						],
+						"movePoints" : -400 
+					}		
+				],
+				"onSelectMessage" : "{Arcane Tower}\r\n\r\nallows a hero to redistribute his or her primary skill points",
+				"onEmptyMessage" : "{Arcane Tower}\r\n\r\nYou can't trick me! You have none to pay!",
+				"selectMode" : "selectPlayer",
+				"visitMode" : "unlimited",
+				"canRefuse" : true,
+				"resetParameters" : {
+					"period" : 1,
+					"visitors" : true,
+					"rewards" : true
+				},			
+				"templates" : {
+					"zobj007" : {
+						"animation" : "mapObjects/zobj007",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}
