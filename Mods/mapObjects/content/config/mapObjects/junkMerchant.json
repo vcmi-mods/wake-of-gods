@@ -3,7 +3,7 @@
 		"name" : "Junk Merchant",
 		"handler" : "configurable",
 		"types" : {
-			"arcaneTower" : {
+			"junkMerchant" : {
 				"name" : "Junk Merchant",
 				"description" : "(offers trades for 32 artifacts, mostly weak ones, plus scrolls.)",
 				"rmg" : {
@@ -497,10 +497,27 @@
 							]
 						},
 						"message" : "{Junk Merchant}\r\n\r\nLegs Of Legion! Those belong in a museum! Just kidding! They aren't worth the rock they're carved out of! Which is what I'm offering you! 15 Ore for the Legs."
-					}		
+					},
+					{	
+						"takenArtifacts": [
+							"spellScroll"
+						],
+						"resources" : {
+							"gold" : 500
+						},
+						"limiter" : {
+							"artifacts": [
+								"spellScroll"
+							]
+						},
+						"message" : "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? %s? Whatever! I'll give you 500 gold for it."
+					}						
 				],
 				"onSelectMessage" : "{Junk Merchant}\r\n\r\noffers trades for 32 artifacts, mostly weak ones, plus scrolls.",
-				"onEmptyMessage" : "{Junk Merchant}\r\n\r\nYou can't trick me! You have none to pay!",
+				"onEmptyMessage" : "{Junk Merchant}\r\n\r\nWell, unless there's something else you want to take off and show me, I guess we won't be doing business today. No hard feelings though - come back anytime!",
+				"notVisitedTooltip" : "not Visited Tooltip",
+				"visitedTooltip" : "visited Tooltip",
+				"onVisitedMessage" : "on Visited Message",
 				"selectMode" : "selectRandom",
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
