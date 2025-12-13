@@ -141,30 +141,6 @@
 			}
 		}
 	},
-	"zobj007" : {
-		"name" : "Arcane Tower (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj007" : {
-				"templates" : {
-					"zobj007" : {
-						"animation" : "objects/zobj007.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zobj009" : {
 		"name" : "Death Chamber (doesn't work yet)",
 		"handler" : "generic",
