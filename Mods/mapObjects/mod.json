@@ -12,7 +12,8 @@
 		"config/mapObjects/mushrooms.json",
 		"config/mapObjects/sphinx.json",
 		"config/mapObjects/fountains.json",
-		"config/mapObjects/arcaneTower.json"
+		"config/mapObjects/arcaneTower.json",
+		"config/mapObjects/junkMerchant.json"
 	],
 	"artifacts" : [
 		"config/artifacts/berserkerPotion.json",
