@@ -35,7 +35,7 @@
 								"centaurAxe"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Centaur Axe! %Z329Centaurs! What's an Axe with no Centaurs! Am I right? I'll give you... oh, I can be generous... 50 Centaur Captains for the Axe."
+						"message" : "{Junk Merchant}\r\n\r\nA Centaur Axe! Bloody Centaurs! What's an Axe with no Centaurs! Am I right? I'll give you... oh, I can be generous... 50 Centaur Captains for the Axe."
 					},
 					{
 						"takenArtifacts": [
@@ -52,7 +52,7 @@
 								"shieldOfTheDwarvenLords"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Shield Of The Dwarven Lords! %Z329Dwarves! They're better! I'm such a great guy, I'll give you... say... 15 Battle Dwarves for the Shield."
+						"message" : "{Junk Merchant}\r\n\r\nA Shield Of The Dwarven Lords! Holy Dwarves! They're better! I'm such a great guy, I'll give you... say... 15 Battle Dwarves for the Shield."
 					},
 					{
 						"takenArtifacts": [
@@ -66,7 +66,7 @@
 								"bucklerOfTheGnollKing"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Buckler Of The Gnoll King! %Z329A Targ Of The Rampaging Ogre! +5 instead of +4! It's just better! I must be crazy but I'll do it! I'll give you the Targ for the Buckler!"
+						"message" : "{Junk Merchant}\r\n\r\nA Buckler Of The Gnoll King! Look at this shiny Targ Of The Rampaging Ogre! +5 instead of +4! It's just better! I must be crazy but I'll do it! I'll give you the Targ for the Buckler!"
 					},
 					{
 						"takenArtifacts": [
@@ -80,7 +80,7 @@
 								"helmOfTheAlabasterUnicorn"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Helm Of The Alabaster Unicorn! What junk! %Z329Unicorns! And to build their glade you need gems! Which is what I'll give you! 5 gems!"
+						"message" : "{Junk Merchant}\r\n\r\nA Helm Of The Alabaster Unicorn! What junk! Dummy Unicorns! And to build their glade you need gems! Which is what I'll give you! 5 gems!"
 					},
 					{
 						"takenArtifacts": [
@@ -211,7 +211,7 @@
 								"speculum"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Speculabob! I mean Speculum! What utter crud! %Z329A map! Just a map of the neighborhood! I'll give you a map of these parts for the Specuthingie."
+						"message" : "{Junk Merchant}\r\n\r\nA Speculabob! I mean Speculum! What utter crud! You need a map! Just a map of the neighborhood! I'll give you a map of these parts for the Specuthingie."
 					},					
 					{	
 						"takenArtifacts": [
@@ -284,7 +284,7 @@
 								"birdOfPerception"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Bird Of Perception! %Z329Birds! Griffins even! Much better than a little statue! I'm such a guy, I'll give you... 15 Royal Griffins for it!"
+						"message" : "{Junk Merchant}\r\n\r\nA Bird Of Perception! Lovely Birds! Griffins even! Much better than a little statue! I'm such a guy, I'll give you... 15 Royal Griffins for it!"
 					},
 					{	
 						"takenArtifacts": [
@@ -358,7 +358,7 @@
 								"angelWings"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nAngel Wings! Overrated, pal! %Z329Angels! Archangels, even! No wait, Supreme Archangels! That's right! I'll give you... er... 2 Supreme Archangels for the wings."
+						"message" : "{Junk Merchant}\r\n\r\nAngel Wings! Overrated, pal! Angels! Archangels, even! No wait, Supreme Archangels! That's right! I'll give you... er... 3 Archangels for the wings."
 					},		
 					{	
 						"takenArtifacts": [
@@ -482,7 +482,7 @@
 								}
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Pendant Of Negativity! What are you, a scaredy cat? %Z329A Lightning Bolt of your own! Just frying everything in sight! I'll teach you Lightning Bolt in exchange for the Pendant."
+						"message" : "{Junk Merchant}\r\n\r\nA Pendant Of Negativity! What are you, a scaredy cat? Take a Lightning Bolt of your own! Just frying everything in sight! I'll teach you Lightning Bolt in exchange for the Pendant."
 					},
 					{	
 						"takenArtifacts": [
@@ -510,12 +510,11 @@
 								"spellScroll"
 							]
 						},
-						"message" : "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? %s? Whatever! I'll give you 500 gold for it."
+						"message" : "{Junk Merchant}\r\n\r\nA Scroll of something! Man, I've been seeing a lot of these! Well, I suppose I can give you something for it. What is it again? A nose rag? Whatever! I'll give you 500 gold for it."
 					}						
 				],
 				"onSelectMessage" : "{Junk Merchant}\r\n\r\noffers trades for 32 artifacts, mostly weak ones, plus scrolls.",
 				"onEmptyMessage" : "{Junk Merchant}\r\n\r\nWell, unless there's something else you want to take off and show me, I guess we won't be doing business today. No hard feelings though - come back anytime!",
-				"notVisitedTooltip" : "not Visited Tooltip",
 				"visitedTooltip" : "visited Tooltip",
 				"onVisitedMessage" : "on Visited Message",
 				"selectMode" : "selectRandom",

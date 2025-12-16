@@ -117,30 +117,6 @@
 			}
 		}
 	},
-	"zobj006" : {
-		"name" : "Junk Merchant (doesn't work yet)",
-		"handler" : "generic",
-		"types" : {
-			"zobj006" : {
-				"templates" : {
-					"zobj006" : {
-						"animation" : "objects/zobj006.def",
-						"mask" : [
-							"VVVVV",
-							"VVVVV",
-							"BBABV",
-							"VVVVV"
-						],
-						"visitableFrom" : [
-							"---",
-							"---",
-							"+++"
-						]
-					}
-				}
-			}
-		}
-	},
 	"zobj009" : {
 		"name" : "Death Chamber (doesn't work yet)",
 		"handler" : "generic",

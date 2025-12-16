@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.69",
+	"version" : "9.1.70",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.70" : [
+			"Added Junk Merchant (wog script 08, buggy a bit)"
+		],
 		"9.1.69" : [
 			"Added Arcane Towers (wog script 04)"
 		],
