@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.70",
+	"version" : "9.1.71",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.71" : [
+			"Add conflicts for HD edition"
+		],
 		"9.1.70" : [
 			"Added Junk Merchant (wog script 08, buggy a bit)"
 		],

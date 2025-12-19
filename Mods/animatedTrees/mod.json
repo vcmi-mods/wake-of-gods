@@ -5,6 +5,9 @@
 	"author" : "WoG Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	"conflicts" : [
+		"hd-edition"
+	],
 	"chinese" : {
 		"name" : "树木动画",
 		"description" : "这个模组在冒险地图上启用树木动画。"
