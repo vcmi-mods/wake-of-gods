@@ -11,7 +11,9 @@
 					"rarity" : 75,
 					"zoneLimit" : 1
 				},
-				"compatibilityIdentifiers" : [ "zobj007" ],
+				"compatibilityIdentifiers" : [
+					"zobj007"
+				],
 				"sounds" : {
 					"ambient" : [
 						"LOOPMAGI"

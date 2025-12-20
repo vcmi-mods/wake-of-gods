@@ -94,7 +94,9 @@
 					"value" : 100,
 					"rarity" : 100
 				},
-				"compatibilityIdentifiers" : [ "zobj042" ],
+				"compatibilityIdentifiers" : [
+					"zobj042"
+				],
 				"sounds" : {
 					"ambient" : [
 						"LOOPFOUN"
@@ -153,7 +155,9 @@
 					"value" : 100,
 					"rarity" : 100
 				},
-				"compatibilityIdentifiers" : [ "zh4obj02" ],
+				"compatibilityIdentifiers" : [
+					"zh4obj02"
+				],
 				"sounds" : {
 					"ambient" : [
 						"LOOPFOUN"
