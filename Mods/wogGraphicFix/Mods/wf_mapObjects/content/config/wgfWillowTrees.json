@@ -1,0 +1,79 @@
+{
+	"core:trees" : {
+		"types" : {
+			"wgfWillowTrees" : {
+				"name" : "Willow Trees",
+				"templates" : {
+					"AVLwlw00" : {
+						"animation" : "trees/AVLwlw00",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"AVLwlw01" : {
+						"animation" : "trees/AVLwlw01",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"AVLwlw02" : {
+						"animation" : "trees/AVLwlw02",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"AVLwlw03" : {
+						"animation" : "trees/AVLwlw03",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"AVLwlw04" : {
+						"animation" : "trees/AVLwlw04",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"AVLwlw05" : {
+						"animation" : "trees/AVLwlw05",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					}					
+				}
+			}
+		}
+	}
+}

@@ -48,6 +48,7 @@
 		"config/wgfTrees",
 		"config/wgfVolcanos",
 		"config/wgfPineTrees",
+		"config/wgfLavaLakes",
 		"config/wgfLakes",
 		"config/wgfLogs",
 		"config/wgfFlowers",

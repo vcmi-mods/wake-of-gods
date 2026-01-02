@@ -498,6 +498,17 @@
 							"snow"
 						]
 					},
+					"mntice07" : {
+						"animation" : "mountains/mntice07",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBVB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},					
 					"WFlv00" : {
 						"animation" : "mountains/WFlv00",
 						"mask" : [

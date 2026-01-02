@@ -381,7 +381,8 @@
 		"templates" : [
 			"zdec03",
 			"mntice01",
-			"mntice02"
+			"mntice02",
+			"mntice07"
 		]
 	},
 	"lavaMountains" : {
@@ -617,6 +618,20 @@
 			"uncrv05"
 		]
 	},
+	"subterraRocks" : {
+		"biome" : {
+			"terrain" : "subterra",
+			"objectType" : "rock"
+		},
+		"templates" : [
+			"wfsbrk00",
+			"wfsbrk01",
+			"wfsbrk02",
+			"wfsbrk03",
+			"wfsbrk04",
+			"wfsbrk05"
+		]
+	},	
 	"wogWaterRock" : {
 		"biome" : {
 			"terrain" : "water",
