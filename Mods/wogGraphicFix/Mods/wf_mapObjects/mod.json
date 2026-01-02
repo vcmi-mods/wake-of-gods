@@ -30,6 +30,7 @@
 	},
 	"objects" : [
 		"config/mapDecorations/wgfHedges",
+		"config/mapDecorations/wgfRavines",
 		"config/mapObjects/wgfShrineOfMagicMystery",
 		"config/mapObjects/wgfMirrorOfTheHomeWay",
 		"config/wgfBones",

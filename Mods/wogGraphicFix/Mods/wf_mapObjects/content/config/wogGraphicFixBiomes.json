@@ -399,6 +399,20 @@
 			"WFlv06"
 		]
 	},
+	"subterraMountains" : {
+		"biome" : {
+			"terrain" : "subterra",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"wfsbmn00",
+			"wfsbmn01",
+			"wfsbmn02",
+			"wfsbmn03",
+			"wfsbmn04",
+			"wfsbmn05"
+		]
+	},	
 	"lavaFires" : {
 		"biome" : {
 			"terrain" : "lava",
