@@ -528,24 +528,23 @@
 			"AVLAUT11"
 		]
 	},
-	"wgfDirtPineTree" : {
+	"wgfWillowTrees" : {
 		"biome" : {
-			"terrain" : "dirt",
+			"terrain" : "swamp",
 			"objectType" : "tree"
 		},
 		"templates" : [
-			"avlpntr0",
-			"avlpntr1",
-			"avlpntr2",
-			"avlpntr3",
-			"avlpntr4",
-			"avlpntr5",
-			"avlpntr6",
-			"avlpntr7",
-			"avlpntr8",
-			"avlpntr9",
-			"avlpnt10",
-			"avlpnt11"
+			"AVLwlw00",
+			"AVLwlw01",
+			"AVLwlw02",
+			"AVLwlw03",
+			"AVLwlw04",
+			"AVLwlw05",
+			"avlwlw10",
+			"avlwlw20",
+			"avlwlw30",
+			"avlwlw40",
+			"avlwlw50"
 		]
 	},
 	"snowPine" : {
@@ -618,7 +617,7 @@
 			"uncrv05"
 		]
 	},
-	"subterraRocks" : {
+	"wgfSubterraRocks" : {
 		"biome" : {
 			"terrain" : "subterra",
 			"objectType" : "rock"
@@ -1134,7 +1133,17 @@
 			"AVLDEAS4",
 			"AVLDEAS5",
 			"AVLDEAS6",
-			"AVLDEAS7"
+			"AVLDEAS7",
+			"WFddSN00",
+			"WFddSN01",
+			"WFddSN02",
+			"WFddSN03",
+			"WFddSN04",
+			"WFddSN05",
+			"WFddSN06",
+			"WFddSN07",
+			"WFddSN08",
+			"WFddSN09"
 		]
 	},
 	"wgfMangroveTrees" : {

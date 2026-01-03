@@ -71,6 +71,56 @@
 						"allowedTerrains" : [
 							"swamp"
 						]
+					},
+					"avlwlw10" : {
+						"animation" : "trees/avlwlw10",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlwlw20" : {
+						"animation" : "trees/avlwlw20",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlwlw30" : {
+						"animation" : "trees/avlwlw30",
+						"mask" : [
+							"V",
+							"B"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlwlw40" : {
+						"animation" : "trees/avlwlw40",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlwlw50" : {
+						"animation" : "trees/avlwlw50",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					}					
 				}
 			}
