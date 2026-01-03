@@ -413,7 +413,7 @@
 			"wfsbmn04",
 			"wfsbmn05"
 		]
-	},	
+	},
 	"lavaFires" : {
 		"biome" : {
 			"terrain" : "lava",
@@ -630,7 +630,7 @@
 			"wfsbrk04",
 			"wfsbrk05"
 		]
-	},	
+	},
 	"wogWaterRock" : {
 		"biome" : {
 			"terrain" : "water",

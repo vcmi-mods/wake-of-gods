@@ -508,7 +508,7 @@
 						"allowedTerrains" : [
 							"snow"
 						]
-					},					
+					},
 					"WFlv00" : {
 						"animation" : "mountains/WFlv00",
 						"mask" : [
@@ -796,7 +796,7 @@
 						"allowedTerrains" : [
 							"subterra"
 						]
-					}					
+					}
 				}
 			}
 		}
