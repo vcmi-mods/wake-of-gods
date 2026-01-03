@@ -1,0 +1,62 @@
+{
+	"core:lavaLake" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"zlava002" : {
+						"animation" : "objects/zlava002",
+						"mask" : [
+							"VBBBBV",
+							"VBBBBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"laval00" : {
+						"animation" : "objects/laval00",
+						"mask" : [
+							"BBBB",
+							"BBBB",
+							"BBBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"laval01" : {
+						"animation" : "objects/laval01",
+						"mask" : [
+							"BBB",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"laval02" : {
+						"animation" : "objects/laval02",
+						"mask" : [
+							"BB",
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"laval03" : {
+						"animation" : "objects/laval03",
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					}		
+				}
+			}
+		}
+	}
+}

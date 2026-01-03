@@ -1,0 +1,1100 @@
+{
+	"ravinesWoG" : {
+		"name" : "Ravine",
+		"handler" : "generic",
+		"types" : {
+			"object" : {
+				"templates" : {
+
+//dirt
+					"Ravndr00" : {
+						"animation" : "ravines/Ravndr00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr01" : {
+						"animation" : "ravines/Ravndr01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr02" : {
+						"animation" : "ravines/Ravndr02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr03" : {
+						"animation" : "ravines/Ravndr03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr04" : {
+						"animation" : "ravines/Ravndr04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr05" : {
+						"animation" : "ravines/Ravndr05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr06" : {
+						"animation" : "ravines/Ravndr06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr07" : {
+						"animation" : "ravines/Ravndr07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr08" : {
+						"animation" : "ravines/Ravndr08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr09" : {
+						"animation" : "ravines/Ravndr09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr10" : {
+						"animation" : "ravines/Ravndr10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"Ravndr11" : {
+						"animation" : "ravines/Ravndr11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					
+//sand
+					"Ravnsd00" : {
+						"animation" : "ravines/Ravnsd00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd01" : {
+						"animation" : "ravines/Ravnsd01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd02" : {
+						"animation" : "ravines/Ravnsd02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd03" : {
+						"animation" : "ravines/Ravnsd03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd04" : {
+						"animation" : "ravines/Ravnsd04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd05" : {
+						"animation" : "ravines/Ravnsd05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd06" : {
+						"animation" : "ravines/Ravnsd06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd07" : {
+						"animation" : "ravines/Ravnsd07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd08" : {
+						"animation" : "ravines/Ravnsd08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd09" : {
+						"animation" : "ravines/Ravnsd09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd10" : {
+						"animation" : "ravines/Ravnsd10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"Ravnsd11" : {
+						"animation" : "ravines/Ravnsd11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+
+//grass
+					"Ravngr00" : {
+						"animation" : "ravines/Ravngr00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr01" : {
+						"animation" : "ravines/Ravngr01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr02" : {
+						"animation" : "ravines/Ravngr02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr03" : {
+						"animation" : "ravines/Ravngr03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr04" : {
+						"animation" : "ravines/Ravngr04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr05" : {
+						"animation" : "ravines/Ravngr05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr06" : {
+						"animation" : "ravines/Ravngr06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr07" : {
+						"animation" : "ravines/Ravngr07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr08" : {
+						"animation" : "ravines/Ravngr08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr09" : {
+						"animation" : "ravines/Ravngr09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr10" : {
+						"animation" : "ravines/Ravngr10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"Ravngr11" : {
+						"animation" : "ravines/Ravngr11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+
+//snow
+					"RavnSN00" : {
+						"animation" : "ravines/RavnSN00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN01" : {
+						"animation" : "ravines/RavnSN01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN02" : {
+						"animation" : "ravines/RavnSN02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN03" : {
+						"animation" : "ravines/RavnSN03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN04" : {
+						"animation" : "ravines/RavnSN04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN05" : {
+						"animation" : "ravines/RavnSN05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN06" : {
+						"animation" : "ravines/RavnSN06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN07" : {
+						"animation" : "ravines/RavnSN07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN08" : {
+						"animation" : "ravines/RavnSN08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN09" : {
+						"animation" : "ravines/RavnSN09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN10" : {
+						"animation" : "ravines/RavnSN10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"RavnSN11" : {
+						"animation" : "ravines/RavnSN11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+
+//swamp
+					"ravnsw00" : {
+						"animation" : "ravines/ravnsw00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw01" : {
+						"animation" : "ravines/ravnsw01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw02" : {
+						"animation" : "ravines/ravnsw02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw03" : {
+						"animation" : "ravines/ravnsw03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw04" : {
+						"animation" : "ravines/ravnsw04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw05" : {
+						"animation" : "ravines/ravnsw05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw06" : {
+						"animation" : "ravines/ravnsw06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw07" : {
+						"animation" : "ravines/ravnsw07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw08" : {
+						"animation" : "ravines/ravnsw08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw09" : {
+						"animation" : "ravines/ravnsw09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw10" : {
+						"animation" : "ravines/ravnsw10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"ravnsw11" : {
+						"animation" : "ravines/ravnsw11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+
+//rough
+					"ravnrg00" : {
+						"animation" : "ravines/ravnrg00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg01" : {
+						"animation" : "ravines/ravnrg01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg02" : {
+						"animation" : "ravines/ravnrg02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg03" : {
+						"animation" : "ravines/ravnrg03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg04" : {
+						"animation" : "ravines/ravnrg04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg05" : {
+						"animation" : "ravines/ravnrg05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg06" : {
+						"animation" : "ravines/ravnrg06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg07" : {
+						"animation" : "ravines/ravnrg07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg08" : {
+						"animation" : "ravines/ravnrg08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg09" : {
+						"animation" : "ravines/ravnrg09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg10" : {
+						"animation" : "ravines/ravnrg10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"ravnrg11" : {
+						"animation" : "ravines/ravnrg11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},	
+
+//subterra
+					"ravnsb00" : {
+						"animation" : "ravines/ravnsb00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb01" : {
+						"animation" : "ravines/ravnsb01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb02" : {
+						"animation" : "ravines/ravnsb02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb03" : {
+						"animation" : "ravines/ravnsb03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb04" : {
+						"animation" : "ravines/ravnsb04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb05" : {
+						"animation" : "ravines/ravnsb05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb06" : {
+						"animation" : "ravines/ravnsb06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb07" : {
+						"animation" : "ravines/ravnsb07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb08" : {
+						"animation" : "ravines/ravnsb08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb09" : {
+						"animation" : "ravines/ravnsb09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb10" : {
+						"animation" : "ravines/ravnsb10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"ravnsb11" : {
+						"animation" : "ravines/ravnsb11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},	
+
+//lava
+					"ravnlv00" : {
+						"animation" : "ravines/ravnlv00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv01" : {
+						"animation" : "ravines/ravnlv01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv02" : {
+						"animation" : "ravines/ravnlv02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv03" : {
+						"animation" : "ravines/ravnlv03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv04" : {
+						"animation" : "ravines/ravnlv04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv05" : {
+						"animation" : "ravines/ravnlv05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv06" : {
+						"animation" : "ravines/ravnlv06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv07" : {
+						"animation" : "ravines/ravnlv07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv08" : {
+						"animation" : "ravines/ravnlv08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv09" : {
+						"animation" : "ravines/ravnlv09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv10" : {
+						"animation" : "ravines/ravnlv10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ravnlv11" : {
+						"animation" : "ravines/ravnlv11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},					
+				}
+			}
+		}
+	}
+}

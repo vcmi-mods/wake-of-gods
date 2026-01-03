@@ -381,7 +381,8 @@
 		"templates" : [
 			"zdec03",
 			"mntice01",
-			"mntice02"
+			"mntice02",
+			"mntice07"
 		]
 	},
 	"lavaMountains" : {
@@ -399,6 +400,20 @@
 			"WFlv06"
 		]
 	},
+	"subterraMountains" : {
+		"biome" : {
+			"terrain" : "subterra",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"wfsbmn00",
+			"wfsbmn01",
+			"wfsbmn02",
+			"wfsbmn03",
+			"wfsbmn04",
+			"wfsbmn05"
+		]
+	},	
 	"lavaFires" : {
 		"biome" : {
 			"terrain" : "lava",
@@ -513,24 +528,23 @@
 			"AVLAUT11"
 		]
 	},
-	"wgfDirtPineTree" : {
+	"wgfWillowTrees" : {
 		"biome" : {
-			"terrain" : "dirt",
+			"terrain" : "swamp",
 			"objectType" : "tree"
 		},
 		"templates" : [
-			"avlpntr0",
-			"avlpntr1",
-			"avlpntr2",
-			"avlpntr3",
-			"avlpntr4",
-			"avlpntr5",
-			"avlpntr6",
-			"avlpntr7",
-			"avlpntr8",
-			"avlpntr9",
-			"avlpnt10",
-			"avlpnt11"
+			"AVLwlw00",
+			"AVLwlw01",
+			"AVLwlw02",
+			"AVLwlw03",
+			"AVLwlw04",
+			"AVLwlw05",
+			"avlwlw10",
+			"avlwlw20",
+			"avlwlw30",
+			"avlwlw40",
+			"avlwlw50"
 		]
 	},
 	"snowPine" : {
@@ -603,6 +617,20 @@
 			"uncrv05"
 		]
 	},
+	"wgfSubterraRocks" : {
+		"biome" : {
+			"terrain" : "subterra",
+			"objectType" : "rock"
+		},
+		"templates" : [
+			"wfsbrk00",
+			"wfsbrk01",
+			"wfsbrk02",
+			"wfsbrk03",
+			"wfsbrk04",
+			"wfsbrk05"
+		]
+	},	
 	"wogWaterRock" : {
 		"biome" : {
 			"terrain" : "water",
@@ -1105,7 +1133,17 @@
 			"AVLDEAS4",
 			"AVLDEAS5",
 			"AVLDEAS6",
-			"AVLDEAS7"
+			"AVLDEAS7",
+			"WFddSN00",
+			"WFddSN01",
+			"WFddSN02",
+			"WFddSN03",
+			"WFddSN04",
+			"WFddSN05",
+			"WFddSN06",
+			"WFddSN07",
+			"WFddSN08",
+			"WFddSN09"
 		]
 	},
 	"wgfMangroveTrees" : {

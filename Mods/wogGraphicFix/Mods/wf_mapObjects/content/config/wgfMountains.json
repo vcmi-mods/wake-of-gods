@@ -498,6 +498,17 @@
 							"snow"
 						]
 					},
+					"mntice07" : {
+						"animation" : "mountains/mntice07",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBVB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},					
 					"WFlv00" : {
 						"animation" : "mountains/WFlv00",
 						"mask" : [
@@ -716,7 +727,76 @@
 						"allowedTerrains" : [
 							"grass"
 						]
-					}
+					},
+
+					"wfsbmn00" : {
+						"animation" : "mountains/wfsbmn00",
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbmn01" : {
+						"animation" : "mountains/wfsbmn01",
+						"mask" : [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbmn02" : {
+						"animation" : "mountains/wfsbmn02",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbmn03" : {
+						"animation" : "mountains/wfsbmn03",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbmn04" : {
+						"animation" : "mountains/wfsbmn04",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbmn05" : {
+						"animation" : "mountains/wfsbmn05",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					}					
 				}
 			}
 		}

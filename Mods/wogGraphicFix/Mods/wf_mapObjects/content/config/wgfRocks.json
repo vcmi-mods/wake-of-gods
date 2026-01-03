@@ -887,6 +887,66 @@
 						"allowedTerrains" : [
 							"swamp"
 						]
+					},
+					"wfsbrk00" : {
+						"animation" : "rocks/wfsbrk00",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbrk01" : {
+						"animation" : "rocks/wfsbrk01",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbrk02" : {
+						"animation" : "rocks/wfsbrk02",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbrk03" : {
+						"animation" : "rocks/wfsbrk03",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbrk04" : {
+						"animation" : "rocks/wfsbrk04",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbrk05" : {
+						"animation" : "rocks/wfsbrk05",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
 					}
 				}
 			}

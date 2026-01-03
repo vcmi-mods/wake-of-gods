@@ -30,6 +30,7 @@
 	},
 	"objects" : [
 		"config/mapDecorations/wgfHedges",
+		"config/mapDecorations/wgfRavines",
 		"config/mapObjects/wgfShrineOfMagicMystery",
 		"config/mapObjects/wgfMirrorOfTheHomeWay",
 		"config/wgfBones",
@@ -47,6 +48,7 @@
 		"config/wgfTrees",
 		"config/wgfVolcanos",
 		"config/wgfPineTrees",
+		"config/wgfLavaLakes",
 		"config/wgfLakes",
 		"config/wgfLogs",
 		"config/wgfFlowers",
@@ -65,6 +67,7 @@
 		"config/wgfSigns",
 		"config/wgfStumps",
 		"config/wgfVisitableObjects",
+		"config/wgfWillowTrees",
 		"config/wgfVents",
 		"config/wgfMushrooms",
 		"config/wgfFireflies",

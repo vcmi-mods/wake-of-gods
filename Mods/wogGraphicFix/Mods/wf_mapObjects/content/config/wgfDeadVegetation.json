@@ -117,7 +117,115 @@
 						"allowedTerrains" : [
 							"lava"
 						]
-					}
+					},
+					"WFddSN00" : {
+						"animation" : "trees/WFddSN00",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN01" : {
+						"animation" : "trees/WFddSN01",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN02" : {
+						"animation" : "trees/WFddSN02",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN03" : {
+						"animation" : "trees/WFddSN03",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN04" : {
+						"animation" : "trees/WFddSN04",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN05" : {
+						"animation" : "trees/WFddSN05",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN06" : {
+						"animation" : "trees/WFddSN06",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN07" : {
+						"animation" : "trees/WFddSN07",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN08" : {
+						"animation" : "trees/WFddSN08",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"WFddSN09" : {
+						"animation" : "trees/WFddSN09",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}					
 				}
 			}
 		}

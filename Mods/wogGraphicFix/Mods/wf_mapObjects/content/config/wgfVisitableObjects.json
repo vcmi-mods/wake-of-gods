@@ -801,7 +801,23 @@
 						"allowedTerrains" : [
 							"dirt"
 						]
-					}
+					},
+					"AVXfyth2" : {
+						"animation" : "objects/AVXfyth2",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					}					
 				}
 			}
 		}
@@ -1375,7 +1391,23 @@
 						"allowedTerrains" : [
 							"snow"
 						]
-					}
+					},
+					"WFddSW_1" : {
+						"animation" : "mines/WFddSW_1",
+						"mask" : [
+							"VVVVV",
+							"VVVBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}					
 				}
 			}
 		}
