@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.72",
+	"version" : "9.1.73",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.73" : [
+			"Tweak new biomes for WoG Graphic Fix"
+		],
 		"9.1.72" : [
 			"WoG Graphic Fix mod update to 2.24 version"
 		],

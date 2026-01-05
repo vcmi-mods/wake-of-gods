@@ -1119,10 +1119,10 @@
 			"WfddTR09"
 		]
 	},
-	"wgfDeadSnowTrees" : {
+	"wgfDeadSnowTrees1" : {
 		"biome" : {
 			"terrain" : "snow",
-			"alignment" : "good",
+			"alignment" : "evil",
 			"objectType" : "tree"
 		},
 		"templates" : [
@@ -1133,7 +1133,16 @@
 			"AVLDEAS4",
 			"AVLDEAS5",
 			"AVLDEAS6",
-			"AVLDEAS7",
+			"AVLDEAS7"
+		]
+	},
+	"wgfDeadSnowTrees2" : {
+		"biome" : {
+			"terrain" : "snow",
+			"alignment" : ["evil", "neutral"],
+			"objectType" : "tree"
+		},
+		"templates" : [
 			"WFddSN00",
 			"WFddSN01",
 			"WFddSN02",
