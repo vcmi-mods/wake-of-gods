@@ -1139,7 +1139,10 @@
 	"wgfDeadSnowTrees2" : {
 		"biome" : {
 			"terrain" : "snow",
-			"alignment" : ["evil", "neutral"],
+			"alignment" : [
+				"evil",
+				"neutral"
+			],
 			"objectType" : "tree"
 		},
 		"templates" : [
