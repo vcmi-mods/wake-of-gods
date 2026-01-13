@@ -83,22 +83,14 @@
 			"avlglly1"
 		]
 	},
-	"core:desertHills" : {
-		// TODO: Extend
-		"biome" : {
-			"terrain" : [
-				"sand"
-			],
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlxds03",
-			"avlxds04",
-			"avlxds07",
-			"avlxds13",
-			"AVLXds08",
-			"AVLXds08"
-		]
+	"core:templateSet38" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLXds08",
+				"AVLXds09",
+				"avlxds13"
+			]
+		}
 	},
 	"wogHills" : {
 		"biome" : {
@@ -125,25 +117,15 @@
 			"WFsunf1"
 		]
 	},
-	"core:frozenLake" : {
-		// TODO: Extend
-		"biome" : {
-			"terrain" : "snow",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlflk40"
-		]
+	"core:templateSet79" : {
+		"templates" : {
+			"append" : "avlflk40"
+		}
 	},
-	"core:grassHills" : {
-		// TODO: Extend
-		"biome" : {
-			"terrain" : "grass",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlxgr13"
-		]
+	"core:templateSet65" : {
+		"templates" : {
+			"append" : "avlxgr13"
+		}
 	},
 	"waterLillies" : {
 		"biome" : {
@@ -250,19 +232,15 @@
 			"AVLlk1r"
 		]
 	},
-	"core:mound" : {
-		// TODO: Extend or new?
-		"biome" : {
-			"terrain" : [
-				"dirt",
-				"grass"
-			],
-			"objectType" : "other"
-		},
-		"templates" : [
-			"AVLmd3d0",
-			"AVLmd3g0"
-		]
+	"core:templateSet55" : {
+		"templates" : {
+			"append" : "AVLmd3g0"
+		}
+	},
+	"core:templateSet7" : {
+		"templates" : {
+			"append" : "AVLmd3d0"
+		}
 	},
 	"roughMountains" : {
 		"biome" : {
@@ -474,21 +452,14 @@
 			"wmshrx06"
 		]
 	},
-	"wgfOakTrees" : {
-		"biome" : {
-			"terrain" : [
-				"grass",
-				"dirt"
-			],
-			"objectType" : "tree"
-		},
-		"templates" : [
-			"avlsptr9",
-			"avlsptr10",
-			"avlsptr11",
-			"AVLAUTR10",
-			"AVLAUTR11"
-		] // FIXME: Only last 2 should spawn on dirt?
+	"core:greenOakTrees" : {
+		"templates" : {
+			"appendItems" : [
+				"avlsptr9",
+				"avlsptr10",
+				"avlsptr11"
+			]
+		}
 	},
 	"wgfGrassPine" : {
 		"biome" : {
@@ -518,15 +489,21 @@
 			"avlspt11"
 		] // TODO: Spawn last 2 on dirt, also?
 	},
-	"wgfGrassOakTree" : {
-		"biome" : {
-			"terrain" : "grass",
-			"objectType" : "tree"
-		},
-		"templates" : [
-			"AVLAUT10",
-			"AVLAUT11"
-		]
+	"core:autumnOakTrees" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLAUTR10",
+				"AVLAUTR11"
+			]
+		}
+	},
+	"core:templateSet9" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLAUTR10",
+				"AVLAUTR11"
+			]
+		}
 	},
 	"wgfWillowTrees" : {
 		"biome" : {
@@ -818,17 +795,10 @@
 			"avldun35"
 		]
 	},
-	"core:sandPit" : {
-		// TODO: Extend?
-		"biome" : {
-			"terrain" : [
-				"sand"
-			],
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlspit1"
-		]
+	"core:sandCraters" : {
+		"templates" : {
+			"append" : "avlspit1"
+		}
 	},
 	"wgfSandShrub" : {
 		"biome" : {

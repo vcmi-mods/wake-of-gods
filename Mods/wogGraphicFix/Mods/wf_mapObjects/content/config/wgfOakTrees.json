@@ -58,28 +58,6 @@
 							"grass",
 							"dirt"
 						]
-					},
-					"AVLAUT10" : {
-						"animation" : "trees/AVLAUT10.def",
-						"mask" : [
-							"VVV",
-							"VBV",
-							"VBV"
-						],
-						"allowedTerrains" : [
-							"grass"
-						]
-					},
-					"AVLAUT11" : {
-						"animation" : "trees/AVLAUT11.def",
-						"mask" : [
-							"VVV",
-							"VBV",
-							"VBV"
-						],
-						"allowedTerrains" : [
-							"grass"
-						]
 					}
 				}
 			}
