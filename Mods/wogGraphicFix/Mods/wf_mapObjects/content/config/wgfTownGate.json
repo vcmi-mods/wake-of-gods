@@ -1,0 +1,17 @@
+{
+	"wake-of-gods.mapobjects:mirrorOfTheHomeWay" : {
+		"name" : "Toll Town Gate",
+		"types" : {
+			"mirrorOfTheHomeWay" : {
+				"name" : "Toll Town Gate",
+				"description" : "(Teleport hero to any allied town for 1000 gold)",
+				"onVisitedMessage" : "{Toll Town Gate}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?",
+				"rewards" : {
+					"modify@1" : {
+						"message" : "{Toll Town Gate}\r\n\r\nDo you wish to teleport to one of your towns for 1000 pieces of gold?"
+					}
+				}
+			}
+		}
+	}
+}
