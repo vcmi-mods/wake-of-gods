@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.74",
+	"version" : "9.1.75",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.75" : [
+			"Added Turkish translation"
+		],
 		"9.1.74" : [
 			"Small fixes for Commander Stones",
 			"Biomes warning fix"
@@ -303,6 +306,13 @@
 		"description" : "Addon não oficial para Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/portuguese.json"
+		]
+	},
+	"turkish" : {
+		"name" : "In The Wake of Gods",
+		"description" : "Heroes of Might and Magic III için resmi olmayan eklenti",
+		"translations" : [
+			"translation/wake-of-gods/turkish.json"
 		]
 	}
 }
