@@ -240,7 +240,7 @@
 						}
 					},
 					{
-						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong but today my ethereal powers are weak and I am able to bestow you only with little strength.  Are you interested?\"",
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the day.  Are you interested?\"",
 						"appearChance" : {
 							"min" : 96,
 							"max" : 97
@@ -249,14 +249,15 @@
 							{
 								"type" : "PRIMARY_SKILL",
 								"subtype" : "attack",
-								"val" : 1,
+								"val" : 2,
+								"duration" : "ONE_WEEK",
 								"description" : 102
 							}
 						],
-						"movePoints" : -800
+						"movePoints" : -400
 					},
 					{
-						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong but today my ethereal powers are weak and I am able to bestow you only with little strength.  Are you interested?\"",
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the week.  Are you interested?\"",
 						"appearChance" : {
 							"min" : 97,
 							"max" : 98
@@ -265,14 +266,15 @@
 							{
 								"type" : "PRIMARY_SKILL",
 								"subtype" : "defence",
-								"val" : 1,
+								"val" : 2,
+								"duration" : "ONE_WEEK",
 								"description" : 102
 							}
 						],
-						"movePoints" : -800
+						"movePoints" : -400
 					},
 					{
-						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong but today my ethereal powers are weak and I am able to bestow you only with little strength.  Are you interested?\"",
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the day.  Are you interested?\"",
 						"appearChance" : {
 							"min" : 98,
 							"max" : 99
@@ -281,14 +283,15 @@
 							{
 								"type" : "PRIMARY_SKILL",
 								"subtype" : "spellpower",
-								"val" : 1,
+								"val" : 2,
+								"duration" : "ONE_WEEK",
 								"description" : 102
 							}
 						],
-						"movePoints" : -800
+						"movePoints" : -400
 					},
 					{
-						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong but today my ethereal powers are weak and I am able to bestow you only with little strength.  Are you interested?\"",
+						"message" : "A ghost floats down a staircase and glides up to you. It floats there, flickering, regarding you. At last it speaks. \"It is well that you came here.\"\n\nThe ghost continues. \"I could make you strong But my ethereal powers are only enough to give you strength until the end of the day.  Are you interested?\"",
 						"appearChance" : {
 							"min" : 99,
 							"max" : 100
@@ -297,11 +300,12 @@
 							{
 								"type" : "PRIMARY_SKILL",
 								"subtype" : "knowledge",
-								"val" : 1,
+								"val" : 2,
+								"duration" : "ONE_WEEK",
 								"description" : 102
 							}
 						],
-						"movePoints" : -800
+						"movePoints" : -400
 					}
 				],
 				"onSelectMessage" : "{Arcane Tower}\r\n\r\nallows a hero to redistribute his or her primary skill points",
