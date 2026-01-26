@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.75",
+	"version" : "9.1.76",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.76" : [
+			"Attempt to balance Arcane Towers"
+		],
 		"9.1.75" : [
 			"Added Turkish translation"
 		],
