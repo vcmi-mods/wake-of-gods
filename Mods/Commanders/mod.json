@@ -61,7 +61,8 @@
 	},
 
 	"translations" : [
-		"config/translation/wake-of-gods-commanders/english.json"
+		"config/translation/wake-of-gods-commanders/english.json",
+		"config/translation/wake-of-gods-commanders/russian.json"
 	],
 	"polish" : {
 		"name" : "Dowódcy",
@@ -75,6 +76,13 @@
 		"description" : "Este módulo ativa a funcionalidade de comandantes do WoG",
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/portuguese.json"
+		]
+	},
+	"russian" : {
+		"name" : "Командиры",
+		"description" : "Этот сабмод позволяет использовать в бою Командиров",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/russian.json"
 		]
 	}
 
