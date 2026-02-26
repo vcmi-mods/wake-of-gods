@@ -61,8 +61,7 @@
 	},
 
 	"translations" : [
-		"config/translation/wake-of-gods-commanders/english.json",
-		"config/translation/wake-of-gods-commanders/russian.json"
+		"config/translation/wake-of-gods-commanders/english.json"
 	],
 	"polish" : {
 		"name" : "Dowódcy",
