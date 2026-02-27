@@ -1,6 +1,6 @@
 # english
 
-In Wake of Gods (WoG) is one of the most ambitious and feature-rich expansions for Heroes of Might and Magic III.
+In the Wake of Gods (WoG) is one of the most ambitious and feature-rich expansions for Heroes of Might and Magic III.
 
 ## Expanded Mechanics
 
@@ -38,7 +38,7 @@ The adventure map features many new interactive objects, including:
 
 # czech
 
-In Wake of Gods (WoG) je jedna z nejrozsáhlejších a nejambicióznějších modifikací pro Heroes of Might and Magic III.
+In the Wake of Gods (WoG) je jedna z nejrozsáhlejších a nejambicióznějších modifikací pro Heroes of Might and Magic III.
 
 ## Rozšířené herní mechaniky
 
