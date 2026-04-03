@@ -511,7 +511,10 @@
 	},
 	"wgfCherryTrees" : {
 		"biome" : {
-			"terrain" : [ "snow", "grass" ],
+			"terrain" : [
+				"snow",
+				"grass"
+			],
 			"objectType" : "tree"
 		},
 		"templates" : [
@@ -531,7 +534,10 @@
 	},
 	"wgfCherryTreesWhiteGreen" : {
 		"biome" : {
-			"terrain" : [ "snow", "grass" ],
+			"terrain" : [
+				"snow",
+				"grass"
+			],
 			"objectType" : "tree"
 		},
 		"templates" : [

@@ -11,7 +11,8 @@
 							"VBBV"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher02" : {
@@ -22,7 +23,8 @@
 							"VBBV"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher03" : {
@@ -33,7 +35,8 @@
 							"VVBB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher04" : {
@@ -44,7 +47,8 @@
 							"VVBB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher05" : {
@@ -56,7 +60,8 @@
 							"VVBB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher06" : {
@@ -68,7 +73,8 @@
 							"VBBV"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher07" : {
@@ -78,7 +84,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher08" : {
@@ -88,7 +95,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher09" : {
@@ -98,7 +106,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher10" : {
@@ -108,7 +117,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher11" : {
@@ -118,7 +128,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFcher12" : {
@@ -128,7 +139,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 
@@ -140,7 +152,8 @@
 							"VBBV"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew02" : {
@@ -151,7 +164,8 @@
 							"VBBV"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew03" : {
@@ -162,7 +176,8 @@
 							"VVBB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew04" : {
@@ -173,7 +188,8 @@
 							"VVBB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew05" : {
@@ -185,7 +201,8 @@
 							"VVBB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew06" : {
@@ -197,7 +214,8 @@
 							"VBBV"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew07" : {
@@ -207,7 +225,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew08" : {
@@ -217,7 +236,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew09" : {
@@ -227,7 +247,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew10" : {
@@ -237,7 +258,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew11" : {
@@ -247,7 +269,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					},
 					"WFchew12" : {
@@ -257,7 +280,8 @@
 							"VB"
 						],
 						"allowedTerrains" : [
-							"grass", "snow"
+							"grass",
+							"snow"
 						]
 					}
 				}
