@@ -4,12 +4,29 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.72",
+	"version" : "9.1.77",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.77" : [
+			"WoG Graphic Fix mod update to 2.25.1 version",
+			"Attempt to fix Helm of Immortality artifact"
+		],
+		"9.1.76" : [
+			"Attempt to balance Arcane Towers"
+		],
+		"9.1.75" : [
+			"Added Turkish translation"
+		],
+		"9.1.74" : [
+			"Small fixes for Commander Stones",
+			"Biomes warning fix"
+		],
+		"9.1.73" : [
+			"Tweak new biomes for WoG Graphic Fix"
+		],
 		"9.1.72" : [
 			"WoG Graphic Fix mod update to 2.24 version"
 		],
@@ -296,6 +313,13 @@
 		"description" : "Addon não oficial para Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/portuguese.json"
+		]
+	},
+	"turkish" : {
+		"name" : "In The Wake of Gods",
+		"description" : "Heroes of Might and Magic III için resmi olmayan eklenti",
+		"translations" : [
+			"translation/wake-of-gods/turkish.json"
 		]
 	}
 }

@@ -83,22 +83,14 @@
 			"avlglly1"
 		]
 	},
-	"core:desertHills" : {
-		// TODO: Extend
-		"biome" : {
-			"terrain" : [
-				"sand"
-			],
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlxds03",
-			"avlxds04",
-			"avlxds07",
-			"avlxds13",
-			"AVLXds08",
-			"AVLXds08"
-		]
+	"core:templateSet38" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLXds08",
+				"AVLXds09",
+				"avlxds13"
+			]
+		}
 	},
 	"wogHills" : {
 		"biome" : {
@@ -125,25 +117,15 @@
 			"WFsunf1"
 		]
 	},
-	"core:frozenLake" : {
-		// TODO: Extend
-		"biome" : {
-			"terrain" : "snow",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlflk40"
-		]
+	"core:templateSet79" : {
+		"templates" : {
+			"append" : "avlflk40"
+		}
 	},
-	"core:grassHills" : {
-		// TODO: Extend
-		"biome" : {
-			"terrain" : "grass",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlxgr13"
-		]
+	"core:templateSet65" : {
+		"templates" : {
+			"append" : "avlxgr13"
+		}
 	},
 	"waterLillies" : {
 		"biome" : {
@@ -250,19 +232,15 @@
 			"AVLlk1r"
 		]
 	},
-	"core:mound" : {
-		// TODO: Extend or new?
-		"biome" : {
-			"terrain" : [
-				"dirt",
-				"grass"
-			],
-			"objectType" : "other"
-		},
-		"templates" : [
-			"AVLmd3d0",
-			"AVLmd3g0"
-		]
+	"core:templateSet55" : {
+		"templates" : {
+			"append" : "AVLmd3g0"
+		}
+	},
+	"core:templateSet7" : {
+		"templates" : {
+			"append" : "AVLmd3d0"
+		}
 	},
 	"roughMountains" : {
 		"biome" : {
@@ -382,6 +360,10 @@
 			"zdec03",
 			"mntice01",
 			"mntice02",
+			"mntice03",
+			"mntice04",
+			"mntice05",
+			"mntice06",
 			"mntice07"
 		]
 	},
@@ -413,7 +395,7 @@
 			"wfsbmn04",
 			"wfsbmn05"
 		]
-	},	
+	},
 	"lavaFires" : {
 		"biome" : {
 			"terrain" : "lava",
@@ -474,21 +456,14 @@
 			"wmshrx06"
 		]
 	},
-	"wgfOakTrees" : {
-		"biome" : {
-			"terrain" : [
-				"grass",
-				"dirt"
-			],
-			"objectType" : "tree"
-		},
-		"templates" : [
-			"avlsptr9",
-			"avlsptr10",
-			"avlsptr11",
-			"AVLAUTR10",
-			"AVLAUTR11"
-		] // FIXME: Only last 2 should spawn on dirt?
+	"core:greenOakTrees" : {
+		"templates" : {
+			"appendItems" : [
+				"avlsptr9",
+				"avlsptr10",
+				"avlsptr11"
+			]
+		}
 	},
 	"wgfGrassPine" : {
 		"biome" : {
@@ -518,14 +493,60 @@
 			"avlspt11"
 		] // TODO: Spawn last 2 on dirt, also?
 	},
-	"wgfGrassOakTree" : {
+	"core:autumnOakTrees" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLAUTR10",
+				"AVLAUTR11"
+			]
+		}
+	},
+	"core:templateSet9" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLAUTR10",
+				"AVLAUTR11"
+			]
+		}
+	},
+	"wgfCherryTrees" : {
 		"biome" : {
-			"terrain" : "grass",
+			"terrain" : [ "snow", "grass" ],
 			"objectType" : "tree"
 		},
 		"templates" : [
-			"AVLAUT10",
-			"AVLAUT11"
+			"WFcher01",
+			"WFcher02",
+			"WFcher03",
+			"WFcher04",
+			"WFcher05",
+			"WFcher06",
+			"WFcher07",
+			"WFcher08",
+			"WFcher09",
+			"WFcher10",
+			"WFcher11",
+			"WFcher12"
+		]
+	},
+	"wgfCherryTreesWhiteGreen" : {
+		"biome" : {
+			"terrain" : [ "snow", "grass" ],
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"WFchew01",
+			"WFchew02",
+			"WFchew03",
+			"WFchew04",
+			"WFchew05",
+			"WFchew06",
+			"WFchew07",
+			"WFchew08",
+			"WFchew09",
+			"WFchew10",
+			"WFchew11",
+			"WFchew12"
 		]
 	},
 	"wgfWillowTrees" : {
@@ -630,7 +651,7 @@
 			"wfsbrk04",
 			"wfsbrk05"
 		]
-	},	
+	},
 	"wogWaterRock" : {
 		"biome" : {
 			"terrain" : "water",
@@ -818,17 +839,10 @@
 			"avldun35"
 		]
 	},
-	"core:sandPit" : {
-		// TODO: Extend?
-		"biome" : {
-			"terrain" : [
-				"sand"
-			],
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlspit1"
-		]
+	"core:sandCraters" : {
+		"templates" : {
+			"append" : "avlspit1"
+		}
 	},
 	"wgfSandShrub" : {
 		"biome" : {
@@ -1119,10 +1133,10 @@
 			"WfddTR09"
 		]
 	},
-	"wgfDeadSnowTrees" : {
+	"wgfDeadSnowTrees1" : {
 		"biome" : {
 			"terrain" : "snow",
-			"alignment" : "good",
+			"alignment" : "evil",
 			"objectType" : "tree"
 		},
 		"templates" : [
@@ -1133,7 +1147,19 @@
 			"AVLDEAS4",
 			"AVLDEAS5",
 			"AVLDEAS6",
-			"AVLDEAS7",
+			"AVLDEAS7"
+		]
+	},
+	"wgfDeadSnowTrees2" : {
+		"biome" : {
+			"terrain" : "snow",
+			"alignment" : [
+				"evil",
+				"neutral"
+			],
+			"objectType" : "tree"
+		},
+		"templates" : [
 			"WFddSN00",
 			"WFddSN01",
 			"WFddSN02",

@@ -24,6 +24,7 @@
 					"level" : 1,
 					"bonus" : {
 						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
 						"val" : 1,
 						"valueType" : "PERCENT_TO_ALL"
 					}

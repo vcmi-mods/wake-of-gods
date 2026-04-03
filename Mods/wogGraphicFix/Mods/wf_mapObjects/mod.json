@@ -4,7 +4,10 @@
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"modType" : "Graphical",
-	"version" : "1.2.2",
+	"version" : "1.2.3",
+	"depends" : [
+		"wake-of-gods.mapobjects"
+	],
 	"softDepends" : [
 		"wake-of-gods.animatedobjects",
 		"wake-of-gods.animatedtrees",
@@ -35,6 +38,7 @@
 		"config/mapObjects/wgfMirrorOfTheHomeWay",
 		"config/wgfBones",
 		"config/wgfCanyons",
+		"config/wgfCherryTrees",
 		"config/wgfCorpses",
 		"config/wgfDeadVegetation",
 		"config/wgfDecorativeObjects",
@@ -52,6 +56,7 @@
 		"config/wgfLakes",
 		"config/wgfLogs",
 		"config/wgfFlowers",
+		"config/wgfForgeObjects",
 		"config/wgfFrozenLakes",
 		"config/wgfCactuses",
 		"config/wgfCraters",
@@ -72,7 +77,8 @@
 		"config/wgfMushrooms",
 		"config/wgfFireflies",
 		"config/wgfCreatureBanks",
-		"config/wgfYuccaTrees"
+		"config/wgfYuccaTrees",
+		"config/wgfTownGate"
 	],
 	"biomes" : [
 		"config/wogGraphicFixBiomes"

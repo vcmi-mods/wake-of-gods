@@ -5,8 +5,7 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-
-//dirt
+					//dirt
 					"Ravndr00" : {
 						"animation" : "ravines/Ravndr00.def",
 						"mask" : [
@@ -141,8 +140,8 @@
 							"dirt"
 						]
 					},
-					
-//sand
+
+					//sand
 					"Ravnsd00" : {
 						"animation" : "ravines/Ravnsd00.def",
 						"mask" : [
@@ -278,7 +277,7 @@
 						]
 					},
 
-//grass
+					//grass
 					"Ravngr00" : {
 						"animation" : "ravines/Ravngr00.def",
 						"mask" : [
@@ -414,7 +413,7 @@
 						]
 					},
 
-//snow
+					//snow
 					"RavnSN00" : {
 						"animation" : "ravines/RavnSN00.def",
 						"mask" : [
@@ -550,7 +549,7 @@
 						]
 					},
 
-//swamp
+					//swamp
 					"ravnsw00" : {
 						"animation" : "ravines/ravnsw00.def",
 						"mask" : [
@@ -686,7 +685,7 @@
 						]
 					},
 
-//rough
+					//rough
 					"ravnrg00" : {
 						"animation" : "ravines/ravnrg00.def",
 						"mask" : [
@@ -820,9 +819,9 @@
 						"allowedTerrains" : [
 							"rough"
 						]
-					},	
+					},
 
-//subterra
+					//subterra
 					"ravnsb00" : {
 						"animation" : "ravines/ravnsb00.def",
 						"mask" : [
@@ -956,9 +955,9 @@
 						"allowedTerrains" : [
 							"subterra"
 						]
-					},	
+					},
 
-//lava
+					//lava
 					"ravnlv00" : {
 						"animation" : "ravines/ravnlv00.def",
 						"mask" : [
@@ -1092,7 +1091,7 @@
 						"allowedTerrains" : [
 							"lava"
 						]
-					},					
+					}
 				}
 			}
 		}

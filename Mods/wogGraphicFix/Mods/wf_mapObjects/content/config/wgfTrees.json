@@ -676,7 +676,67 @@
 						"allowedTerrains" : [
 							"dirt"
 						]
-					}			
+					},
+					"avlswt20" : {
+						"animation" : "trees/avlswt20",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlswt21" : {
+						"animation" : "trees/avlswt21",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlswt22" : {
+						"animation" : "trees/avlswt22",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlswt23" : {
+						"animation" : "trees/avlswt23",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlswt24" : {
+						"animation" : "trees/avlswt24",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"avlswt25" : {
+						"animation" : "trees/avlswt25",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					}
 				}
 			}
 		}

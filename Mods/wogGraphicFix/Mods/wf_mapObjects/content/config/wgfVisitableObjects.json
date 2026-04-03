@@ -22,6 +22,45 @@
 			}
 		}
 	},
+	
+	"core:mysticalGarden" : {
+		"types" : {
+			"mysticalGarden" : {
+				"templates" : {
+					"AVTmyst1" : {
+						"animation" : "objects/AVTmyst1",
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"AVTmyst2" : {
+						"animation" : "objects/AVTmyst2",
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	},	
 
 	"core:learningStone" : {
 		"types" : {
@@ -817,7 +856,7 @@
 						"allowedTerrains" : [
 							"swamp"
 						]
-					}					
+					}
 				}
 			}
 		}
@@ -1208,6 +1247,22 @@
 							"snow"
 						]
 					},
+					"AVMCRGL0" : {
+						"animation" : "mines/AVMCRGL0",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
 					"AVMCRGH0" : {
 						"animation" : "mines/AVMCRGH0",
 						"mask" : [
@@ -1263,6 +1318,22 @@
 				"templates" : {
 					"wFsnGD" : {
 						"animation" : "objects/WFsnGD",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"AVMgoGL0" : {
+						"animation" : "mines/AVMgoGL0",
 						"mask" : [
 							"VVVV",
 							"VBBB",
@@ -1392,6 +1463,22 @@
 							"snow"
 						]
 					},
+					"wgf_AVMsaws0.def" : {
+						"animation" : "mines/avmswsn1",
+						"mask" : [
+							"VVVVV",
+							"VVVBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
 					"WFddSW_1" : {
 						"animation" : "mines/WFddSW_1",
 						"mask" : [
@@ -1407,7 +1494,7 @@
 						"allowedTerrains" : [
 							"snow"
 						]
-					}					
+					}
 				}
 			}
 		}
@@ -1419,6 +1506,22 @@
 				"templates" : {
 					"wFsnAB" : {
 						"animation" : "objects/WFsnAB",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"avxamGL" : {
+						"animation" : "mines/avxamGL",
 						"mask" : [
 							"VVVV",
 							"VBBB",

@@ -1,0 +1,62 @@
+{
+	"zobjFG00" : {
+		"name" : "Mysterious Forge Objects (doesn't work yet)",
+		"handler" : "generic",
+		"types" : {
+			"zobjFG00" : {
+				"templates" : {
+					"zobj001" : {
+						"animation" : "forgeObjects/zobjFG00.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
+					}
+				}
+			},
+			"zobjFG01" : {
+				"templates" : {
+					"zobj001" : {
+						"animation" : "forgeObjects/zobjFG01.def",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
+					}
+				}
+			},
+			"zobjFG02" : {
+				"templates" : {
+					"zobj001" : {
+						"animation" : "forgeObjects/zobjFG02.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVB",
+							"VVB",
+							"VVA",
+						],
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						]
+					}
+				}
+			},
+		}
+	}
+}

@@ -47,6 +47,7 @@
 				},
 				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
+				"onEmptyMessage" : "Opal of Magic will bestow you with protective power if you come back with alive Commander.",
 				"rewards" : [
 					{
 						"limiter" : {
@@ -118,6 +119,7 @@
 				},
 				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
+				"onEmptyMessage" : "Emerald of Speed will bestow you with protective power if you come back with alive Commander.",
 				"rewards" : [
 					{
 						"limiter" : {
@@ -189,6 +191,7 @@
 				},
 				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
+				"onEmptyMessage" : "Ruby of Offense will bestow you with protective power if you come back with alive Commander.",
 				"rewards" : [
 					{
 						"limiter" : {
@@ -261,6 +264,7 @@
 				},
 				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
+				"onEmptyMessage" : "Sapphire of Defense will bestow you with protective power if you come back with alive Commander.",
 				"rewards" : [
 					{
 						"limiter" : {

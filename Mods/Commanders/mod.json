@@ -76,6 +76,13 @@
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/portuguese.json"
 		]
+	},
+	"russian" : {
+		"name" : "Командиры",
+		"description" : "Этот сабмод позволяет использовать в бою Командиров",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/russian.json"
+		]
 	}
 
 	// for future reference
