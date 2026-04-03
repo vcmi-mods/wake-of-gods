@@ -360,6 +360,10 @@
 			"zdec03",
 			"mntice01",
 			"mntice02",
+			"mntice03",
+			"mntice04",
+			"mntice05",
+			"mntice06",
 			"mntice07"
 		]
 	},
@@ -504,6 +508,46 @@
 				"AVLAUTR11"
 			]
 		}
+	},
+	"wgfCherryTrees" : {
+		"biome" : {
+			"terrain" : [ "snow", "grass" ],
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"WFcher01",
+			"WFcher02",
+			"WFcher03",
+			"WFcher04",
+			"WFcher05",
+			"WFcher06",
+			"WFcher07",
+			"WFcher08",
+			"WFcher09",
+			"WFcher10",
+			"WFcher11",
+			"WFcher12"
+		]
+	},
+	"wgfCherryTreesWhiteGreen" : {
+		"biome" : {
+			"terrain" : [ "snow", "grass" ],
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"WFchew01",
+			"WFchew02",
+			"WFchew03",
+			"WFchew04",
+			"WFchew05",
+			"WFchew06",
+			"WFchew07",
+			"WFchew08",
+			"WFchew09",
+			"WFchew10",
+			"WFchew11",
+			"WFchew12"
+		]
 	},
 	"wgfWillowTrees" : {
 		"biome" : {

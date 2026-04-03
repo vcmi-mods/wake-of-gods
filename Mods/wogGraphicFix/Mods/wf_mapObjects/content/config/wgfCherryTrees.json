@@ -1,0 +1,267 @@
+{
+	"core:trees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"WFcher01" : {
+						"animation" : "cherryTrees/WFcher01.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher02" : {
+						"animation" : "cherryTrees/WFcher02.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher03" : {
+						"animation" : "cherryTrees/WFcher03.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher04" : {
+						"animation" : "cherryTrees/WFcher04.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher05" : {
+						"animation" : "cherryTrees/WFcher05.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher06" : {
+						"animation" : "cherryTrees/WFcher06.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher07" : {
+						"animation" : "cherryTrees/WFcher07.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher08" : {
+						"animation" : "cherryTrees/WFcher08.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher09" : {
+						"animation" : "cherryTrees/WFcher09.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher10" : {
+						"animation" : "cherryTrees/WFcher10.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher11" : {
+						"animation" : "cherryTrees/WFcher11.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFcher12" : {
+						"animation" : "cherryTrees/WFcher12.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+
+					"WFchew01" : {
+						"animation" : "cherryTrees/WFchew01.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew02" : {
+						"animation" : "cherryTrees/WFchew02.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew03" : {
+						"animation" : "cherryTrees/WFchew03.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew04" : {
+						"animation" : "cherryTrees/WFchew04.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew05" : {
+						"animation" : "cherryTrees/WFchew05.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew06" : {
+						"animation" : "cherryTrees/WFchew06.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew07" : {
+						"animation" : "cherryTrees/WFchew07.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew08" : {
+						"animation" : "cherryTrees/WFchew08.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew09" : {
+						"animation" : "cherryTrees/WFchew09.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew10" : {
+						"animation" : "cherryTrees/WFchew10.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew11" : {
+						"animation" : "cherryTrees/WFchew11.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					},
+					"WFchew12" : {
+						"animation" : "cherryTrees/WFchew12.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"grass", "snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

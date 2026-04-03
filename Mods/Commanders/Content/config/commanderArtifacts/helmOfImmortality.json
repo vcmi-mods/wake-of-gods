@@ -10,7 +10,8 @@
 			"damageReduction" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
-				"val" : 90
+				"val" : 90,
+				"valueType" : "INDEPENDENT_MIN"
 			}
 		},
 		"graphics" : {
