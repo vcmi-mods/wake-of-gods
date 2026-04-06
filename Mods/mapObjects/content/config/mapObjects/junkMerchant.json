@@ -534,7 +534,8 @@
 							"VVVVV",
 							"VVVVV",
 							"VBBBV",
-							"VBABV"
+							"VBABV",
+							"00000"
 						],
 						"visitableFrom" : [
 							"---",
