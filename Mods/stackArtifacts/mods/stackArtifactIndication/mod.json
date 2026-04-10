@@ -5,6 +5,9 @@
 	"author" : "George King",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
+	"compatibility" : {
+		"min" : "1.7.4"
+	},
 	"settings" : {
 		"modules" : {
 			"stackArtifactIndication" : true
