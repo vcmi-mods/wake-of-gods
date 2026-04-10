@@ -1,6 +1,6 @@
 {
-	"name": "Stack Artifacts Indication",
-	"description": "This module enables stack artifact indication by displaying a miniature of the equipped artifact on the creature icon.",
+	"name" : "Stack Artifacts Indication",
+	"description" : "This module enables stack artifact indication by displaying a miniature of the equipped artifact on the creature icon.",
 	"modType" : "Mechanics",
 	"author" : "George King",
 	"contact" : "http://forum.vcmi.eu/index.php",
