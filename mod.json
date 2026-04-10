@@ -4,12 +4,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.77",
+	"version" : "9.1.78",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.78" : [
+			"Added Stack Artifact Indication submod under Stack Artifacts mod"
+		],
 		"9.1.77" : [
 			"WoG Graphic Fix mod update to 2.25.1 version",
 			"Attempt to fix Helm of Immortality artifact"
