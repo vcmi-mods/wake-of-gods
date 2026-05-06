@@ -263,63 +263,63 @@
 		"name" : "追随神迹（WoG）",
 		"description" : "追随神迹（In The Wake of God）是《英雄无敌 III》的非官方资料片。该模组最大的特征是追随者（Henchmen）系统和生物经验系统，并增加了新的生物，技能，设施和机制。",
 		"translations" : [
-			"translation/wake-of-gods/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"russian" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Неофициальный аддон для Heroes of Might and Magic III",
 		"translations" : [
-			"translation/wake-of-gods/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"german" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Unoffizielles Addon für Heroes of Might and Magic III",
 		"translations" : [
-			"translation/wake-of-gods/german.json"
+			"translation/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Nieoficjalna modyfikacja do Heroes of Might and Magic III",
 		"translations" : [
-			"translation/wake-of-gods/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"ukrainian" : {
 		"name" : "In the Wake of Gods / Слідом за Богами",
 		"description" : "Неофіційний аддон для Героїв Меча і Магії III",
 		"translations" : [
-			"translation/wake-of-gods/ukrainian.json"
+			"translation/ukrainian.json"
 		]
 	},
 	"spanish" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Addon no oficial para Heroes of Might and Magic III",
 		"translations" : [
-			"translation/wake-of-gods/spanish.json"
+			"translation/spanish.json"
 		]
 	},
 	"czech" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Neoficiální datadisk pro Heroes of Might and Magic III",
 		"translations" : [
-			"translation/wake-of-gods/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"portuguese" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Addon não oficial para Heroes of Might and Magic III",
 		"translations" : [
-			"translation/wake-of-gods/portuguese.json"
+			"translation/portuguese.json"
 		]
 	},
 	"turkish" : {
 		"name" : "In The Wake of Gods",
 		"description" : "Heroes of Might and Magic III için resmi olmayan eklenti",
 		"translations" : [
-			"translation/wake-of-gods/turkish.json"
+			"translation/turkish.json"
 		]
 	}
 }

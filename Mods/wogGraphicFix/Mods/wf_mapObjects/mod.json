@@ -21,14 +21,14 @@
 		"name" : "地图物体补丁",
 		"description" : "SoD/WoG地图物体新图像。",
 		"translations" : [
-			"translation/wf_mapObjects/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Objekty",
 		"description" : "Nová grafika pro objekty z Heroes 3 a Wake of Gods.",
 		"translations" : [
-			"translation/wf_mapObjects/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"objects" : [
@@ -87,7 +87,37 @@
 		"name" : "Poprawione obiekty na mapie",
 		"description" : "Nowe grafiki obiektów na mapie z SoD/WoG.",
 		"translations" : [
-			"translation/wf_mapObjects/polish.json"
+			"translation/polish.json"
+		]
+	},
+	"german" : {
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
 		]
 	}
 }
