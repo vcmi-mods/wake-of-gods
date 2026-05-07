@@ -65,6 +65,7 @@
 	"artifact.wake-of-gods.commanders.hardenedShield.description" : "{硬化之盾}\n\n指挥官防御+5，每胜利6仗防御+1\n\n将该宝物拖曳至指挥官图标，即可装备。",
 	"artifact.wake-of-gods.commanders.hardenedShield.event" : "你得到了硬化之盾。这枚卓越的盾牌，将会增强你的指挥官的防御能力！",
 	"artifact.wake-of-gods.commanders.hardenedShield.name" : "硬化之盾",
+	"artifact.wake-of-gods.commanders.helmOfImmortality.description" : "{永恒之盔}\r\n\r\n装备之后，这件宝物使指挥官几乎免疫物理攻击。",
 	"artifact.wake-of-gods.commanders.helmOfImmortality.event" : "你得到了闪亮的永恒之盔。如果你的指挥官戴上它，死亡将与之无缘！",
 	"artifact.wake-of-gods.commanders.helmOfImmortality.name" : "永恒之盔",
 	"artifact.wake-of-gods.commanders.mithrilMail.description" : "{秘银之甲}\n\n指挥官生命+12%，以后每胜一仗再+1%。\n\n将该宝物拖曳至指挥官图标，即可装备。",
