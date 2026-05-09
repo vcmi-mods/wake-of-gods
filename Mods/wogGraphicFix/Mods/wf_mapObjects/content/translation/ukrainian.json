@@ -1,6 +1,9 @@
 {
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name" : "Бібліотека Легенд",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name" : "Монастир Магів",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name" : "Палац Бойового Духу",
-	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name" : "Цитадель Умиротворення"
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name": "Бібліотека Легенд",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name": "Монастир Магів",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name": "Палац Бойового Духу",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name": "Цитадель Умиротворення",
+	"mapObject.wake-of-gods.mapobjects.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "Митна Брама Міста",
+	"object.core.shrineOfMagicLevel1.name": "Вівтар магічних таємниць",
+	"object.wake-of-gods.mapobjects.mirrorOfTheHomeWay.name": "Митна Брама Міста"
 }
