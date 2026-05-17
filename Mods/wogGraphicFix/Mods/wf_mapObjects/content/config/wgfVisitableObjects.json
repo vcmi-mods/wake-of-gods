@@ -1410,8 +1410,7 @@
 						"allowedTerrains" : [
 							"dirt"
 						]
-					},
-					
+					}
 				}
 			},
 			"sawmill" : {
@@ -1615,7 +1614,7 @@
 						"allowedTerrains" : [
 							"dirt"
 						]
-					},
+					}
 				}
 			}
 		}
