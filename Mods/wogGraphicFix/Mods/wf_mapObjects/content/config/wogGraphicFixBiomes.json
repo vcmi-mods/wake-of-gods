@@ -322,6 +322,20 @@
 			"wfdirt08"
 		]
 	},
+	"dirtMountains2" : {
+		"biome" : {
+			"terrain" : "dirt",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"WFDirS1",
+			"WFDirS2",
+			"WFDirS3",
+			"WFDirS4",
+			"WFDirS5",
+			"WFDirS6"
+		]
+	},
 	"sandMountains" : {
 		"biome" : {
 			"terrain" : "sand",

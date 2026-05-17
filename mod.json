@@ -3,12 +3,15 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.79",
-	"downloadSize" : 68.9,
+	"version" : "9.1.80",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.80" : [
+			"Added new Dirt mountains and mines set from WoG Graphics fix 2.26",
+			"Fixed Ice mountains config"
+		],
 		"9.1.79" : [
 			"WoG Graphics fix files base updated to 2.26",
 			"Added Stack Artifact Indication submod under Stack Artifacts mod - require VCMI 1.7.4 or newer"

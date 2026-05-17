@@ -1292,6 +1292,22 @@
 						"allowedTerrains" : [
 							"grass"
 						]
+					},
+					"wfdirSmC" : {
+						"animation" : "mines/wfdirSmC",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
 					}
 				}
 			},
@@ -1378,7 +1394,24 @@
 						"allowedTerrains" : [
 							"grass"
 						]
-					}
+					},
+					"wfdirSmG" : {
+						"animation" : "mines/wfdirSmG",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					
 				}
 			},
 			"sawmill" : {
@@ -1566,7 +1599,23 @@
 						"allowedTerrains" : [
 							"grass"
 						]
-					}
+					},
+					"wfdirSma" : {
+						"animation" : "objects/wfdirSma",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
 				}
 			}
 		}
