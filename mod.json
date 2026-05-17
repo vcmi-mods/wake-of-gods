@@ -1,15 +1,22 @@
 {
 	"name" : "In The Wake of Gods",
-	"description" : "Unofficial addon for Heroes of Might and Magic III",
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.77",
+	"version" : "9.1.79",
 	"downloadSize" : 68.9,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.79" : [
+			"WoG Graphics fix files base updated to 2.26",
+			"Added Stack Artifact Indication submod under Stack Artifacts mod - require VCMI 1.7.4 or newer"
+		],
+		"9.1.78" : [
+			"Fixed Junk Merchant entry point",
+			"Updated Czech translation"
+		],
 		"9.1.77" : [
 			"WoG Graphic Fix mod update to 2.25.1 version",
 			"Attempt to fix Helm of Immortality artifact"
@@ -303,7 +310,6 @@
 	},
 	"czech" : {
 		"name" : "In The Wake of Gods",
-		"description" : "Neoficiální datadisk pro Heroes of Might and Magic III",
 		"translations" : [
 			"translation/czech.json"
 		]

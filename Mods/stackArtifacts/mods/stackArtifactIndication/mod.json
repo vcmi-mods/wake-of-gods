@@ -1,0 +1,36 @@
+{
+	"name" : "Stack Artifacts Indication",
+	"description" : "This module enables stack artifact indication by displaying a miniature of the equipped artifact on the creature icon.",
+	"modType" : "Mechanics",
+	"author" : "George King",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"compatibility" : {
+		"min" : "1.7.4"
+	},
+	"settings" : {
+		"modules" : {
+			"stackArtifactIndication" : true
+		}
+	},
+	"softDepends" : [
+		"wake-of-gods.artifacts",
+		"wake-of-gods.stackArtifacts"
+	],
+	"chinese" : {
+		"name" : "堆叠神器指示",
+		"description" : "该模块通过在生物图标上显示已装备神器的缩略图来指示堆叠神器。"
+	},
+	"czech" : {
+		"name" : "Indikace artefaktů jednotky",
+		"description" : "Tento modul zobrazuje indikaci artefaktů jednotky pomocí miniatury vybaveného artefaktu na ikoně jednotky."
+	},
+	"polish" : {
+		"name" : "Wskaźnik artefaktów jednostki",
+		"description" : "Ten moduł wyświetla wskaźnik artefaktów jednostki poprzez pokazanie miniatury wyposażonego artefaktu na ikonie jednostki."
+	},
+	"portuguese" : {
+		"name" : "Indicação de artefatos da unidade",
+		"description" : "Este módulo exibe a indicação de artefatos da unidade mostrando uma miniatura do artefato equipado no ícone da unidade."
+	}
+}
