@@ -524,9 +524,9 @@
 						"animation" : "mountains/mntice05",
 						"mask" : [
 							"VVVVVV",
-							"VVVBBB",
 							"VVBBBB",
-							"VVBBVV"
+							"VBBBBB",
+							"VBBBVV"
 						],
 						"allowedTerrains" : [
 							"snow"
@@ -536,8 +536,8 @@
 						"animation" : "mountains/mntice06",
 						"mask" : [
 							"VVVVVVV",
-							"VVBBBBV",
-							"VVBBBBB",
+							"VBBBBBV",
+							"VBBBBBB",
 							"VVVVBBB"
 						],
 						"allowedTerrains" : [
@@ -890,10 +890,10 @@
 					"WFDirS2" : {
 						"animation" : "mountains/WFDirS2",
 						"mask" : [
-							"VVVVVV",
-							"VVVBBB",
-							"VVBBBB",
-							"VVBBVV"
+							"VVVVVVV",
+							"VVVBBBB",
+							"VBBBBBB",
+							"VBBBVVV"
 						],
 						"allowedTerrains" : [
 							"dirt"
@@ -903,8 +903,8 @@
 						"animation" : "mountains/WFDirS1",
 						"mask" : [
 							"VVVVVVV",
-							"VVBBBBV",
-							"VVBBBBB",
+							"VBBBBBV",
+							"VBBBBBB",
 							"VVVVBBB"
 						],
 						"allowedTerrains" : [

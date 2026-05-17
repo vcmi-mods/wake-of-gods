@@ -1601,7 +1601,7 @@
 						]
 					},
 					"wfdirSma" : {
-						"animation" : "objects/wfdirSma",
+						"animation" : "mines/wfdirSma",
 						"mask" : [
 							"VVVV",
 							"VBBB",
