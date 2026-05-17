@@ -1,6 +1,5 @@
 {
 	"name" : "In The Wake of Gods",
-	"description" : "Unofficial addon for Heroes of Might and Magic III",
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
@@ -11,7 +10,8 @@
 	},
 	"changelog" : {
 		"9.1.79" : [
-			"Added Stack Artifact Indication submod under Stack Artifacts mod"
+			"WoG Graphics fix files base updated to 2.26",
+			"Added Stack Artifact Indication submod under Stack Artifacts mod - require VCMI 1.7.4 or newer"
 		],
 		"9.1.78" : [
 			"Fixed Junk Merchant entry point",
@@ -310,7 +310,6 @@
 	},
 	"czech" : {
 		"name" : "In The Wake of Gods",
-		"description" : "Neoficiální datadisk pro Heroes of Might and Magic III",
 		"translations" : [
 			"translation/wake-of-gods/czech.json"
 		]
