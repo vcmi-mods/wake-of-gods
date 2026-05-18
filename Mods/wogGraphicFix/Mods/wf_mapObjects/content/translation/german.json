@@ -1,1 +1,9 @@
-{}
+{
+	"mapObject.wake-of-gods.mapobjects.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "Zolltor",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name": "Bibliothek der Legenden",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name": "Kloster der Magier",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name": "Palast des kriegerischen Geistes",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name": "Festung der Befriedung",
+	"object.core.shrineOfMagicLevel1.name": "Schrein des magischen Geheimnisses",
+	"object.wake-of-gods.mapobjects.mirrorOfTheHomeWay.name": "Zolltor"
+}
