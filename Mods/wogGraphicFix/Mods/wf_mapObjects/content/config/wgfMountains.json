@@ -523,10 +523,10 @@
 					"mntice05" : {
 						"animation" : "mountains/mntice05",
 						"mask" : [
-							"VVVVV",
-							"VVBBB",
-							"VBBBB",
-							"VBBVV"
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
 						],
 						"allowedTerrains" : [
 							"snow"
@@ -535,10 +535,10 @@
 					"mntice06" : {
 						"animation" : "mountains/mntice06",
 						"mask" : [
-							"VVVVV",
-							"BBBBV",
-							"BBBBB",
-							"VVBBB"
+							"VVVVVVV",
+							"VBBBBBV",
+							"VBBBBBB",
+							"VVVVBBB"
 						],
 						"allowedTerrains" : [
 							"snow"
@@ -841,6 +841,74 @@
 						],
 						"allowedTerrains" : [
 							"subterra"
+						]
+					},
+					"WFDirS6" : {
+						"animation" : "mountains/WFDirS6",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"WFDirS5" : {
+						"animation" : "mountains/WFDirS5",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"WFDirS4" : {
+						"animation" : "mountains/WFDirS4",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"WFDirS3" : {
+						"animation" : "mountains/WFDirS3",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"WFDirS2" : {
+						"animation" : "mountains/WFDirS2",
+						"mask" : [
+							"VVVVVVV",
+							"VVVBBBB",
+							"VBBBBBB",
+							"VBBBVVV"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"WFDirS1" : {
+						"animation" : "mountains/WFDirS1",
+						"mask" : [
+							"VVVVVVV",
+							"VBBBBBV",
+							"VBBBBBB",
+							"VVVVBBB"
+						],
+						"allowedTerrains" : [
+							"dirt"
 						]
 					}
 				}
