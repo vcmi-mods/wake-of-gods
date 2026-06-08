@@ -1,1 +1,9 @@
-{}
+{
+	"mapObject.wake-of-gods.mapobjects.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "Платные городские ворота",
+	"object.wake-of-gods.mapobjects.mirrorOfTheHomeWay.name": "Платные городские ворота",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name": "Библиотека Легенд",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name": "Монастырь Магов",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name": "Дворец Боевого Духа",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name": "Цитадель Умиротворения",
+	"object.core.shrineOfMagicLevel1.name": "Святыня Магической Тайны"
+}
