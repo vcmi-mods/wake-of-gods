@@ -119,5 +119,10 @@
 		"translations" : [
 			"translation/ukrainian.json"
 		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }

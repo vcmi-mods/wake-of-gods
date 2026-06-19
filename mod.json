@@ -333,5 +333,10 @@
 		"translations" : [
 			"translation/turkish.json"
 		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }
