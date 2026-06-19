@@ -23,5 +23,10 @@
 	"portuguese" : {
 		"name" : "Mapas",
 		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe WoG - atualmente injogáveis"
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }
