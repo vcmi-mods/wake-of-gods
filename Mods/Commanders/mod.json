@@ -83,8 +83,14 @@
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/russian.json"
 		]
+	},
+	"japanese" : {
+		"name" : "指揮官",
+		"description" : "このサブModを使用すると、戦闘中に指揮官を起用できるようになります",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/japanese.json"
+		]
 	}
-
 	// for future reference
 	//crus ZM174NPC.def Paladin2
 	//monk ZM175NPC.def Hierophant2
