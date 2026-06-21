@@ -1,1 +1,9 @@
-{}
+{
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name": "伝説の図書館",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name": "魔術師の修道院",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name": "武霊の宮殿",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name": "鎮圧の城塞",
+	"mapObject.wake-of-gods.mapobjects.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "料金所のある街の門",
+	"object.core.shrineOfMagicLevel1.name": "謎めいた魔法の神社",
+	"object.wake-of-gods.mapobjects.mirrorOfTheHomeWay.name": "料金所のある街の門"
+}
