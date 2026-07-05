@@ -1,0 +1,179 @@
+{
+	"core:trees" : {
+		"types" : {
+			"wgfAcaciaTrees" : {
+				"name" : "Acacia Trees",
+				"templates" : {
+					"avlaca00" : {
+						"animation" : "trees/avlaca00",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca01" : {
+						"animation" : "trees/avlaca01",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca02" : {
+						"animation" : "trees/avlaca02",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca03" : {
+						"animation" : "trees/avlaca03",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca04" : {
+						"animation" : "trees/avlaca04",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca05" : {
+						"animation" : "trees/avlaca05",
+						"mask" : [
+							"VVB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca06" : {
+						"animation" : "trees/avlaca06",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca07" : {
+						"animation" : "trees/avlaca07",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca08" : {
+						"animation" : "trees/avlaca08",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca09" : {
+						"animation" : "trees/avlaca09",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca10" : {
+						"animation" : "trees/avlaca10",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca11" : {
+						"animation" : "trees/avlaca11",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca12" : {
+						"animation" : "trees/avlaca12",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca13" : {
+						"animation" : "trees/avlaca13",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca14" : {
+						"animation" : "trees/avlaca14",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"avlaca15" : {
+						"animation" : "trees/avlaca15",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					}
+				}
+			}
+		}
+	}
+}

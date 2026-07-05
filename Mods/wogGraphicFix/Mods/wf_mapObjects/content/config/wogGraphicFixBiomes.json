@@ -546,6 +546,32 @@
 			"WFcher12"
 		]
 	},
+	"wgfAcaciaTrees" : {
+		"biome" : {
+			"terrain" : [
+				"sand"
+			],
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"avlaca00",
+			"avlaca01",
+			"avlaca02",
+			"avlaca03",
+			"avlaca04",
+			"avlaca05",
+			"avlaca06",
+			"avlaca07",
+			"avlaca08",
+			"avlaca09",
+			"avlaca10",
+			"avlaca11",
+			"avlaca12",
+			"avlaca13",
+			"avlaca14",
+			"avlaca15"		
+		]
+	},
 	"wgfCherryTreesWhiteGreen" : {
 		"biome" : {
 			"terrain" : [
@@ -846,6 +872,53 @@
 			"wfruis13"
 		]
 	},
+	"wgfSandPillars" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "structure"
+		},
+		"templates" : [
+			"wfdess0",
+			"wfdess1",
+			"wfdess2",
+			"wfdess3",
+			"wfdess4",
+			"wfdess5",
+			"wfdess6",
+			"wfdess7",
+			"wfdess8",
+			"wfdess9",
+			"wfdess00",
+			"wfdess01",
+			"wfdess02",
+			"wfdess03",
+			"wfdess04",
+			"wfdess05",
+			"wfdess06",
+			"wfdess07",
+			"wfdess08",
+			"wfdess10",
+			"wfdess11",
+			"wfdess12",
+			"wfdess13",
+			"wfdess14",
+			"wfdess15",
+			"wfdess16",
+			"wfdess17",
+			"wfdess18",
+			"wfdess19",
+			"wfdess20",
+			"wfdess21",
+			"wfdess22",
+			"wfdess23",
+			"wfdess24",
+			"wfdess25",
+			"wfdess26",
+			"wfdess27",
+			"wfdess28",
+			"wfdess29"
+		]
+	},
 	"wgfSandDunes" : {
 		"biome" : {
 			"terrain" : "sand",
@@ -873,6 +946,20 @@
 			"RKSHR00",
 			"RKSHR01",
 			"RKSHR02"
+		]
+	},
+	"wgfSandShrub2" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"desveg00",
+			"desveg01",
+			"desveg02",
+			"desveg03",
+			"desveg04",
+			"desveg05"
 		]
 	},
 	"wgfGrassShrub" : {

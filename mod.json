@@ -3,11 +3,14 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.80",
+	"version" : "9.1.81",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.81" : [
+			"WoG Graphics fix update to 2.27 version"
+		],
 		"9.1.80" : [
 			"Added new Dirt mountains and mines set from WoG Graphics fix 2.26",
 			"Fixed Ice mountains config",
