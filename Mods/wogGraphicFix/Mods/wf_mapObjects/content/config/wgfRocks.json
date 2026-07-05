@@ -604,6 +604,414 @@
 			}
 		}
 	},
+	
+	"wgfSandPillars" : {
+		"handler" : "static",
+		"name" : "Pillar",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"wfdess0" : {
+						"animation" : "pillars/wfdess0",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess1" : {
+						"animation" : "pillars/wfdess1",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess2" : {
+						"animation" : "pillars/wfdess2",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess3" : {
+						"animation" : "pillars/wfdess3",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess4" : {
+						"animation" : "pillars/wfdess4",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess5" : {
+						"animation" : "pillars/wfdess5",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess6" : {
+						"animation" : "pillars/wfdess6",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess7" : {
+						"animation" : "pillars/wfdess7",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess8" : {
+						"animation" : "pillars/wfdess8",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess9" : {
+						"animation" : "pillars/wfdess9",
+						"mask" : [
+							"VVV",
+							"VVB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess00" : {
+						"animation" : "pillars/wfdess00",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess01" : {
+						"animation" : "pillars/wfdess01",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess02" : {
+						"animation" : "pillars/wfdess02",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess03" : {
+						"animation" : "pillars/wfdess03",
+						"mask" : [
+							"VV",
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess04" : {
+						"animation" : "pillars/wfdess04",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess05" : {
+						"animation" : "pillars/wfdess05",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess06" : {
+						"animation" : "pillars/wfdess06",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess07" : {
+						"animation" : "pillars/wfdess07",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess08" : {
+						"animation" : "pillars/wfdess08",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess10" : {
+						"animation" : "pillars/wfdess10",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess11" : {
+						"animation" : "pillars/wfdess11",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess12" : {
+						"animation" : "pillars/wfdess12",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess13" : {
+						"animation" : "pillars/wfdess13",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess14" : {
+						"animation" : "pillars/wfdess14",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess15" : {
+						"animation" : "pillars/wfdess15",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess16" : {
+						"animation" : "pillars/wfdess16",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess17" : {
+						"animation" : "pillars/wfdess17",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess18" : {
+						"animation" : "pillars/wfdess18",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess19" : {
+						"animation" : "pillars/wfdess19",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess20" : {
+						"animation" : "pillars/wfdess20",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess21" : {
+						"animation" : "pillars/wfdess21",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess22" : {
+						"animation" : "pillars/wfdess22",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess23" : {
+						"animation" : "pillars/wfdess23",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess24" : {
+						"animation" : "pillars/wfdess24",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess25" : {
+						"animation" : "pillars/wfdess25",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess26" : {
+						"animation" : "pillars/wfdess26",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"wfdess27" : {
+						"animation" : "pillars/wfdess27",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},	
+					"wfdess28" : {
+						"animation" : "pillars/wfdess28",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},	
+					"wfdess29" : {
+						"animation" : "pillars/wfdess29",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					}				
+				}
+			}
+		}
+	},
 
 	"wgfMinerals" : {
 		"handler" : "static",
