@@ -604,7 +604,7 @@
 			}
 		}
 	},
-	
+
 	"wgfSandPillars" : {
 		"handler" : "static",
 		"name" : "Pillar",
@@ -987,7 +987,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"wfdess28" : {
 						"animation" : "pillars/wfdess28",
 						"mask" : [
@@ -997,7 +997,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"wfdess29" : {
 						"animation" : "pillars/wfdess29",
 						"mask" : [
@@ -1007,7 +1007,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					}				
+					}
 				}
 			}
 		}

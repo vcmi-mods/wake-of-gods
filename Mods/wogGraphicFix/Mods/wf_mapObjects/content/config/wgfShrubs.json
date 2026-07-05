@@ -265,7 +265,7 @@
 						"allowedTerrains" : [
 							"rough"
 						]
-					},					
+					},
 					"desveg00" : {
 						"animation" : "shrubs/desveg00",
 						"mask" : [
@@ -275,7 +275,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"desveg01" : {
 						"animation" : "shrubs/desveg01",
 						"mask" : [
@@ -285,7 +285,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"desveg02" : {
 						"animation" : "shrubs/desveg02",
 						"mask" : [
@@ -294,7 +294,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"desveg03" : {
 						"animation" : "shrubs/desveg03",
 						"mask" : [
@@ -303,7 +303,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"desveg04" : {
 						"animation" : "shrubs/desveg04",
 						"mask" : [
@@ -313,7 +313,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					},	
+					},
 					"desveg05" : {
 						"animation" : "shrubs/desveg05",
 						"mask" : [
@@ -323,7 +323,7 @@
 						"allowedTerrains" : [
 							"sand"
 						]
-					}					
+					}
 				}
 			}
 		}
