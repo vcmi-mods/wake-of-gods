@@ -612,6 +612,7 @@
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfFireflies.name" : "Fireflies",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfMinerals.name" : "Mineral Crystal",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfRuins.name" : "Ruins",
+	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfSandPillars.name" : "Pillar",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfSwampPillars.name" : "Pillar",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfVolcanicVent.name" : "Volcanic Vent",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.zobjFG00.name" : "Mysterious Forge Objects (doesn't work yet)",
