@@ -1,1 +1,9 @@
-{}
+{
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.legendsLibrary.name": "Efsaneler Kütüphanesi",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.magiciansMonastery.name": "Büyücüler Manastırı",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.martialSpiritPalace.name": "Cenk Ruhu Sarayı",
+	"mapObject.wake-of-gods.messengersandemissaries.creatureBank.pacificationCitadel.name": "Sükunet Hisarı",
+	"mapObject.wake-of-gods.mapobjects.mirrorOfTheHomeWay.mirrorOfTheHomeWay.name": "Geçiş Ücretli Şehir Kapısı",
+	"object.core.shrineOfMagicLevel1.name": "Gizemli Büyü Tapınağı",
+	"object.wake-of-gods.mapobjects.mirrorOfTheHomeWay.name": "Geçiş Ücretli Şehir Kapısı"
+}
