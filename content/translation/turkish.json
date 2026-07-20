@@ -17,7 +17,7 @@
 	"artifact.wake-of-gods.artifacts.deepIronHelmet.description": "{Derin Demir Miğfer}\r\n\r\nBu Miğfer takıldığında, kahramanın seviyesiyle birlikte artan bilgi bonusunu kahramana verir.",
 	"artifact.wake-of-gods.artifacts.deepIronHelmet.event": "Derin Demir Miğfer'i alırsınız. Bu eser, kahraman seviyesiyle birlikte artan bilgiye kahraman bonusu verir.",
 	"artifact.wake-of-gods.artifacts.deepIronHelmet.name": "Derin Demir Miğfer",
-	"artifact.wake-of-gods.artifacts.dragonheart.description": "{Ejderha Kalbi}\r\n\r\nBu eski kalıntı, savaş süresince [40 + 20*SP] HP Kırmızı Ejderhalar çağırır (çağırma 8-9 SP'den başlar).\r\nAyrıca, kahramanın ordusundaki ejderhaların morali her zaman yüksektir. ",
+	"artifact.wake-of-gods.artifacts.dragonheart.description": "{Ejderha Kalbi}\n\nBu eski kalıntı, savaş süresince [40 + 20*SP] HP Kırmızı Ejderhalar çağırır (çağırma 8-9 SP'den başlar).\nAyrıca, kahramanın ordusundaki ejderhaların morali her zaman yüksektir.",
 	"artifact.wake-of-gods.artifacts.dragonheart.event": "Ejderha Kalbini elinize aldığınızda, on bin ejderhanın kalplerinin güçlü atışlarının ruhunuzda yankılandığını hissedersiniz. İhtiyacınız olduğunda ejderhalar gelecektir.",
 	"artifact.wake-of-gods.artifacts.dragonheart.name": "Ejderha Kalbi",
 	"artifact.wake-of-gods.artifacts.gateKey.description": "{Kapı Anahtarı}\r\n\r\nBu inanılmaz kalıntı ile kalenizi büyülü hale getirebilir ve ok kulelerini Inferno ve Berserk büyüsü ile güçlendirebilirsiniz. Berserk büyüsünün menzili 3 altıgen genişliğindedir!",
