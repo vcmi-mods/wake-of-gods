@@ -515,5 +515,6 @@
 	"mod.woggraphicfix.name": "Correção Gráfica WoG",
 	"mod.woggraphicfix.description": "Novos gráficos para os objetos de mapa do SoD/WoG.",
 	"mod.woggraphicfix.wf_heroes3datapatch.name": "Patch de Dados do Heroes III",
-	"mod.woggraphicfix.wf_heroes3datapatch.description": "Correções e melhorias nos gráficos e sons para alguns recursos do jogo SoD."
+	"mod.woggraphicfix.wf_heroes3datapatch.description": "Correções e melhorias nos gráficos e sons para alguns recursos do jogo SoD.",
+	"mod.description": "Addon não oficial para Heroes of Might and Magic III"
 }
