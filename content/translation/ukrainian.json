@@ -265,5 +265,7 @@
 	"mapObject.wake-of-gods.mapobjects.waterMagicMushroom.waterMagicMushroom.rewards.0": "{Магічний водяний гриб}\n\nВплив цього містичного гриба дозволяє вам накладати закляття магії Води з максимальною ефективністю до кінця тижня.",
 	"object.wake-of-gods.mapobjects.waterMagicMushroom.name": "Магічний водяний гриб",
 	"mapObject.wake-of-gods.mapobjects.waterMagicMushroom.waterMagicMushroom.description": "(дає 3-й рівень Магії Води до кінця тижня)",
-	"mapObject.wake-of-gods.mapobjects.waterMagicMushroom.waterMagicMushroom.onVisited": "{Магічний водяний гриб}\n\nВи вже відвідали цей гриб цього тижня."
+	"mapObject.wake-of-gods.mapobjects.waterMagicMushroom.waterMagicMushroom.onVisited": "{Магічний водяний гриб}\n\nВи вже відвідали цей гриб цього тижня.",
+	"mod.name": "In the Wake of Gods / Слідом за Богами",
+	"mod.description": "Неофіційний аддон для Героїв Меча і Магії III"
 }
