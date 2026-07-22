@@ -228,5 +228,6 @@
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.emptyObjects.name": "Leeres Objekt",
 	"object.wake-of-gods.woggraphicfix.wf_mapobjects.wgfFireflies.name": "Glühwürmchen",
 	"artifact.wake-of-gods.artifacts.goldTowerArrow.name": "Goldener Turmpfeil",
-	"mod.name": "In The Wake of Gods"
+	"mod.name": "In The Wake of Gods",
+	"mod.description": "Unoffizielles Addon für Heroes of Might and Magic III"
 }
