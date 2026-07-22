@@ -670,6 +670,5 @@
 	"mod.commanders.name": "Командиры",
 	"mod.commanders.description": "Этот сабмод позволяет использовать в бою Командиров",
 	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.name": "Расширение боевых знамён",
-	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.description": "Эта модификация добавляет уникальную графику для каждого из 9 типов боевых знамён.",
-	"mod.description": "Неофициальный аддон для Heroes of Might and Magic III"
+	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.description": "Эта модификация добавляет уникальную графику для каждого из 9 типов боевых знамён."
 }
