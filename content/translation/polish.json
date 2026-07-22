@@ -755,5 +755,6 @@
 	"mod.woggraphicfix.wf_stackartifacts.name": "Artefakty jednostek",
 	"mod.woggraphicfix.wf_stackartifacts.description": "Ten moduł dodaje funkcję artefaktów dla jednostek.",
 	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.name": "Rozszerzenie sztandarów wodza",
-	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.description": "Ta modyfikacja dodaje unikalną grafikę dla każdego z 9 typów sztandarów wodza."
+	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.description": "Ta modyfikacja dodaje unikalną grafikę dla każdego z 9 typów sztandarów wodza.",
+	"mod.description": "Nieoficjalna modyfikacja do Heroes of Might and Magic III"
 }
