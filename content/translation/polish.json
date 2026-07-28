@@ -791,5 +791,17 @@
 	"mod.mithril.terracemine.description": "Po włączeniu terenu Tarasów mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu.",
 	"mod.mithril.terracemine.name": "Kopalnia mithrilu pod teren Tarasów",
 	"mod.mithril.wastelandmine.name": "Kopalnia mithrilu do terenu Pustkowi",
-	"mod.mithril.wastelandmine.description": "Po włączeniu terenu Pustkowi (HotA) mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
+	"mod.mithril.wastelandmine.description": "Po włączeniu terenu Pustkowi (HotA) mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu.",
+	"mod.mithril.deadlandmine.name": "Kopalnia mithrilu pod teren martwoziemia",
+	"mod.mithril.fieldsofglorymine.name": "Kopalnia mithrilu pod teren pobojowiska",
+	"mod.mithril.heatherthicketmine.name": "Kopalnia mithrilu pod teren wrzosowiska",
+	"mod.mithril.icelandmine.name": "Kopalnia mithrilu pod teren lodowca",
+	"mod.mithril.spoiledlandmine.name": "Kopalnia mithrilu pod teren skażonej ziemi",
+	"mod.mithril.stardustmine.name": "Kopalnia mithrilu pod teren gwiezdnego pyłu",
+	"mod.mithril.deadlandmine.description": "Gdy teren Matrwoziemi jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu.",
+	"mod.mithril.fieldsofglorymine.description": "Gdy teren Pobojowiska jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu.",
+	"mod.mithril.heatherthicketmine.description": "Gdy teren Wrzosowiska jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu.",
+	"mod.mithril.icelandmine.description": "Gdy teren Lodowca jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu.",
+	"mod.mithril.spoiledlandmine.description": "Gdy teren Skażonej ziemi jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu.",
+	"mod.mithril.stardustmine.description": "Gdy teren Gwiezdnego pyłu jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu."
 }
