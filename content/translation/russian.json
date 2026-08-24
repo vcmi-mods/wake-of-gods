@@ -696,5 +696,13 @@
 	"mod.creatures.bonuses icons.description": "дополнительные иконки для способностей существ.",
 	"mod.h2icons.name": "иконки первичных навыков в стиле Heroes II",
 	"mod.h2icons.description": "Изменения первичных навыков в WoG, чтобы сделать их ближе к тем, что в Heroes II.",
-	"mod.heroes3datapatch.name": "дата‑патч для Heroes III"
+	"mod.heroes3datapatch.name": "дата‑патч для Heroes III",
+	"mod.heroes3datapatch.description": "Исправления и улучшения графики и звуков для некоторых игровых ассетов (ресурсов) из Shadow of Death.",
+	"mod.heroes3datapatch.heroes3datapatchera.name": "дата‑патч для ERA в Heroes III",
+	"mod.heroes3datapatch.heroes3datapatchera.description": "Исправления и улучшения графики для некоторых игровых ассетов (ресурсов) из Shadow of Death.",
+	"mod.level8units.name": "юниты 8‑го уровня",
+	"mod.level8units.description": "Добавляет юнитов 8‑го уровня для WoG.\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml",
+	"mod.level8units.bonuses icons.name": "дополнительные иконки бонусов",
+	"mod.level8units.bonuses icons.description": "дополнительные иконки для способностей существ.",
+	"mod.mainmenu.name": "тема главного меню"
 }
