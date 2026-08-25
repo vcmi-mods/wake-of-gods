@@ -1,48 +1,51 @@
-In the Wake of Gods (WoG) is one of the most ambitious and feature-rich
-expansions for Heroes of Might and Magic III.
+"По следам богов" (WoG) - одно из самых амбициозных и многофункциональных
+дополнений для Heroes of Might and Magic III.
 
-## Expanded Mechanics
+## расширенные механики
 
-WoG significantly enhances the original gameplay by introducing new progression
-systems, powerful artifacts, and additional strategic layers. The expansion
-focuses on increasing army development depth and creating more dynamic combat
-possibilities.
+WoG значительно улучшает оригинальный игровой процесс, добавляя новые системы
+продвижения, мощные артефакты и дополнительные стратегические уровни. Дополнение
+направлено на увеличение глубины развития армии и создание более динамичных
+боевых возможностей.
 
-## Commanders
+## Командиры
 
-Each hero can recruit a unique **Commander** — a special unit that gains
-experience, levels up, and becomes stronger over time.
+Каждый герой может нанять уникального **командира** — особое подразделение,
+которое получает опыт, повышает уровень и со временем становится сильнее.
 
-Commanders can equip their own artifacts, improving Attack, Defense, Magic
-Power, survivability, and unlocking special combat abilities. With dedicated
-equipment such as swords, shields, rings, and magical relics, Commanders grow
-into powerful battlefield units.
+Командиры могут использовать свои собственные артефакты, улучшающие атаку,
+защиту, магическую силу, живучесть и открывающие особые боевые способности.
+Благодаря специальному снаряжению, такому как мечи, щиты, кольца и магические
+реликвии, командиры превращаются в мощные боевые единицы.
 
-## Stack Experience & Stack Artifacts
+## Опыт работы со стеком и артефакты стека
 
-Wake of Gods introduces **stack experience**, allowing creature stacks to gain
-experience from battles and improve their statistics over time.
+В Wake of Gods добавлен ** накопительный опыт **, позволяющий существам
+накапливать опыт в битвах и улучшать свою статистику с течением времени.
 
-Stacks can also equip special **stack artifacts**, such as Warlord’s Banners,
-which enhance Attack, Defense, Damage, Health, Speed, retaliation count, or
-reduce incoming damage. This system adds long-term progression and customization
-to army management.
+Отряды также могут экипироваться особыми артефактами отряда, такими как «Знамя
+военачальника», которые усиливают атаку, защиту, урон, здоровье, скорость,
+количество ответных ударов либо снижают получаемый урон. Эта система добавляет
+долгосрочную прогрессию и возможности кастомизации в управлении армией.
 
-## New Artifacts
+## Новые артефакты
 
-WoG adds a large collection of new artifacts, including:
+WoG добавляет большую коллекцию новых артефактов, в том числе:
 
-- Hero-scaling artifacts that grow stronger with hero level
-- Commander-exclusive equipment that develops through victories
-- Multiple types of Warlord’s Banners for creature stacks
-- Artifacts that enhance spell duration, movement, mana regeneration, and other
-  core attributes
+- Артефакты, масштабируемые под героя — они становятся сильнее по мере роста
+  уровня героя
+- Экипировка, доступная только командирам, — она развивается по мере одержанных
+  побед
+- Несколько типов знамен военачальника для стеков существ
+- Артефакты, увеличивающие продолжительность заклинания, скорость передвижения,
+  регенерацию маны и другие основные характеристики
 
-## New Map Objects
+## Новые объекты на карте
 
-The adventure map features many new interactive objects, including:
+На карте приключений появилось множество новых интерактивных объектов, в том
+числе:
 
-- **Arcane Tower** – redistribute primary skills
-- **Alms House** – assist weaker heroes
-- **Magic Mushrooms** – temporary expert magic
-- **Junk Merchant** – trade unwanted artifacts
+- **Тайная башня** – перераспределение первичных навыков
+- **Дом подаяний** – помогайте более слабым героям
+- ** Волшебные грибы** – временный эксперт по магии
+- **Старьевщик ** – торгует ненужными артефактами
