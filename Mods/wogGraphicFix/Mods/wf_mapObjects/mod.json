@@ -125,5 +125,10 @@
 		"translations" : [
 			"translation/japanese.json"
 		]
+	},
+	"vietnamese" : {
+		"translations" : [
+			"translation/vietnamese.json"
+		]
 	}
 }

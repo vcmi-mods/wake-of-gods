@@ -33,5 +33,10 @@
 		"translations" : [
 			"translation/russian.json"
 		]
+	},
+	"vietnamese" : {
+		"translations" : [
+			"translation/vietnamese.json"
+		]
 	}
 }
