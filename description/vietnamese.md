@@ -1,48 +1,48 @@
-In the Wake of Gods (WoG) is one of the most ambitious and feature-rich
-expansions for Heroes of Might and Magic III.
+In the Wake of Gods (WoG) là một trong những bản mở rộng lớn nhất và có nhiều
+tính năng nhất dành cho Heroes of Might and Magic III.
 
-## Expanded Mechanics
+## Cơ chế mở rộng
 
-WoG significantly enhances the original gameplay by introducing new progression
-systems, powerful artifacts, and additional strategic layers. The expansion
-focuses on increasing army development depth and creating more dynamic combat
-possibilities.
+WoG nâng cấp đáng kể lối chơi nguyên bản bằng cách bổ sung các hệ thống phát
+triển mới, báu vật mạnh mẽ và cải thiện các kỹ năng. Bản mở rộng tập trung vào
+việc phát triển quân đội mạnh hơn và tạo ra những trận chiến đa dạng và linh
+hoạt hơn.
 
-## Commanders
+## Chỉ huy
 
-Each hero can recruit a unique **Commander** — a special unit that gains
-experience, levels up, and becomes stronger over time.
+Mỗi tướng có thể chiêu mộ một **Chỉ huy** riêng — một đơn vị đặc biệt có thể
+nhận kinh nghiệm, lên cấp và mạnh dần theo thời gian.
 
-Commanders can equip their own artifacts, improving Attack, Defense, Magic
-Power, survivability, and unlocking special combat abilities. With dedicated
-equipment such as swords, shields, rings, and magical relics, Commanders grow
-into powerful battlefield units.
+Chỉ huy có thể trang bị báu vật riêng làm tăng: Tấn công, Phòng thủ, Lực phép,
+để tăng khả năng sống sót và mở khóa các kỹ năng chiến đấu đặc biệt. Với những
+trang bị như kiếm, khiên, nhẫn và báu vật phép thuật, Chỉ huy có thể trở thành
+một đơn vị cực mạnh trên chiến trường.
 
-## Stack Experience & Stack Artifacts
+## Kinh nghiệm Đạo quân & Báu vật Đạo quân
 
-Wake of Gods introduces **stack experience**, allowing creature stacks to gain
-experience from battles and improve their statistics over time.
+WoG bổ sung **kinh nghiệm đạo quân**, cho phép từng đạo quân nhận kinh nghiệm
+sau chiến đấu và tăng chỉ số theo thời gian.
 
-Stacks can also equip special **stack artifacts**, such as Warlord’s Banners,
-which enhance Attack, Defense, Damage, Health, Speed, retaliation count, or
-reduce incoming damage. This system adds long-term progression and customization
-to army management.
+Đạo quân còn có thể trang bị **báu vật đặc biệt** như Cờ hiệu Warlord Banners,
+giúp tăng Tấn công, Phòng thủ, Sát thương, Máu, Tốc độ, số lần phản đòn hoặc
+giảm sát thương nhận vào. Hệ thống này tạo thêm hướng phát triển lâu dài và tùy
+biến cho các đạo quân.
 
-## New Artifacts
+## Báu vật mới
 
-WoG adds a large collection of new artifacts, including:
+WoG bổ sung một lượng lớn các báu vật mới, bao gồm:
 
-- Hero-scaling artifacts that grow stronger with hero level
-- Commander-exclusive equipment that develops through victories
-- Multiple types of Warlord’s Banners for creature stacks
-- Artifacts that enhance spell duration, movement, mana regeneration, and other
-  core attributes
+- Báu vật mạnh dần lên theo cấp của tướng
+- Trang bị dành riêng cho Chỉ huy, tăng dần sức mạnh sau những trận thắng
+- Nhiều loại Cờ hiệu Warlord Banners dành cho đạo quân
+- Báu vật tăng thời lượng dùng phép, tăng điểm di chuyển cho tướng, hồi mana và
+  các thuộc tính quan trọng khác
 
-## New Map Objects
+## Đối tượng mới trên bản đồ
 
-The adventure map features many new interactive objects, including:
+Bản đồ có thêm nhiều đối tượng mới có thể tương tác, bao gồm:
 
-- **Arcane Tower** – redistribute primary skills
-- **Alms House** – assist weaker heroes
-- **Magic Mushrooms** – temporary expert magic
-- **Junk Merchant** – trade unwanted artifacts
+- **Tháp Huyền Thuật** – phân chia lại các chỉ số kỹ năng chính của tướng
+- **Nhà Cứu Tế** – hỗ trợ cho những tướng yếu hơn
+- **Nấm Ma Thuật** – cung cấp tạm thời cho tướng kỹ năng ở mức Cao Cấp
+- **Thương nhân Phế phẩm** – trao đổi những báu vật mà tướng không dùng đến
