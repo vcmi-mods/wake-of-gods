@@ -90,6 +90,13 @@
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/japanese.json"
 		]
+	},
+	"vietnamese" : {
+		"name" : "Chỉ huy",
+		"description" : "Mô-đun này kích hoạt kỹ năng của chỉ huy từ WoG",
+		"translations" : [
+			"config/translation/wake-of-gods-commanders/vietnamese.json"
+		]
 	}
 	// for future reference
 	//crus ZM174NPC.def Paladin2
