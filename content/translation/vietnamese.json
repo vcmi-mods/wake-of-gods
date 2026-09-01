@@ -738,5 +738,16 @@
 	"mod.woggraphicfix.wf_stackartifacts.name": "Báu vật cho đạo quân",
 	"mod.woggraphicfix.wf_stackartifacts.description": "Mô-đun này kích hoạt tính năng trang bị báu vật cho từng đạo quân của WoG",
 	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.name": "Sửa đổi Warlord Banners",
-	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.description": "Bản sửa đổi này bổ sung đồ họa riêng cho từng loại cờ hiệu trong 9 loại Warlord Banners."
+	"mod.woggraphicfix.wf_stackartifacts.warlordsbanner.description": "Bản sửa đổi này bổ sung đồ họa riêng cho từng loại cờ hiệu trong 9 loại Warlord Banners.",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.grotto.name": "Hang Đá",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.homeOfTheBat.name": "Hang Dơi",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.huntingLodge.name": "Nhà Săn",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.lostBottle.name": "Chai thất lạc",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.snowGrotto.name": "Hang đá Phủ tuyết",
+	"mapObject.wake-of-gods.creaturebanks.creatureBank.transylvanianTavern.name": "Quán rượu Transylvanian",
+	"mapObject.wake-of-gods.creatures.creatureGeneratorCommon.dragonGraveyard.name": "Nghĩa địa Rồng",
+	"mapObject.wake-of-gods.mapobjects.junkMerchant.junkMerchant.onVisited": "Thông báo khi đã ghé thăm",
+	"mapObject.wake-of-gods.mapobjects.junkMerchant.junkMerchant.name": "Thương Nhân Phế Phẩm",
+	"mapObject.wake-of-gods.mapobjects.junkMerchant.junkMerchant.onEmpty": "{Thương nhân Phế phẩm}\n\nNếu ngươi không còn món đồ nào khác tháo ra đưa cho ta xem thì hôm nay chắc ta không làm ăn được rồi. Không sao đâu, lúc nào quay lại cũng được!",
+	"mapObject.wake-of-gods.mapobjects.junkMerchant.junkMerchant.onSelect": "{Thương nhân Phế phẩm}\n\ntrao đổi 32 loại báu vật, chủ yếu là các món đồ có chỉ số thấp, cùng các cuộn sớ phép."
 }
