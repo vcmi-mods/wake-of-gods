@@ -3,11 +3,14 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.81",
+	"version" : "9.1.82",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"9.1.82" : [
+			"Add Vietnamese translation by Hunter8x"
+		],
 		"9.1.81" : [
 			"WoG Graphics fix update to 2.27 version"
 		],
