@@ -1,14 +1,14 @@
-In the Wake of Gods (WoG) is one of the most ambitious and feature-rich
-expansions for Heroes of Might and Magic III.
+Przebudzenie bogów (WoG) to jedno z najbardziej ambitnych i rozbudowanych
+rozszerzeń do gry Heroes of Might and Magic III.
 
-## Expanded Mechanics
+## Rozszerzone mechaniki
 
-WoG significantly enhances the original gameplay by introducing new progression
-systems, powerful artifacts, and additional strategic layers. The expansion
-focuses on increasing army development depth and creating more dynamic combat
-possibilities.
+WoG znacznie wzbogaca oryginalną rozgrywkę, wprowadzając nowe systemy rozwoju,
+potężne artefakty oraz dodatkowe elementy strategiczne. Rozszerzenie kładzie
+szczególny nacisk na rozwój armii i zapewnia większą różnorodność możliwości
+taktycznych podczas walki.
 
-## Commanders
+## Dowódcy
 
 Each hero can recruit a unique **Commander** — a special unit that gains
 experience, levels up, and becomes stronger over time.
