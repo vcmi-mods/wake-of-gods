@@ -23,10 +23,10 @@ một đơn vị cực mạnh trên chiến trường.
 WoG bổ sung **kinh nghiệm đạo quân**, cho phép từng đạo quân nhận kinh nghiệm
 sau chiến đấu và tăng chỉ số theo thời gian.
 
-Đạo quân còn có thể trang bị **báu vật đặc biệt** như Cờ hiệu Warlord Banners,
-giúp tăng Tấn công, Phòng thủ, Sát thương, Máu, Tốc độ, số lần phản đòn hoặc
-giảm sát thương nhận vào. Hệ thống này tạo thêm hướng phát triển lâu dài và tùy
-biến cho các đạo quân.
+Đạo quân còn có thể trang bị **báu vật đặc biệt** như Warlord’s Banners, giúp
+tăng Tấn công, Phòng thủ, Sát thương, Máu, Tốc độ, số lần phản đòn hoặc giảm sát
+thương nhận vào. Hệ thống này tạo thêm hướng phát triển lâu dài và tùy biến cho
+các đạo quân.
 
 ## Báu vật mới
 
@@ -34,7 +34,7 @@ WoG bổ sung một lượng lớn các báu vật mới, bao gồm:
 
 - Báu vật mạnh dần lên theo cấp của tướng
 - Trang bị dành riêng cho Chỉ huy, tăng dần sức mạnh sau những trận thắng
-- Nhiều loại Cờ hiệu Warlord Banners dành cho đạo quân
+- Nhiều loại Warlord’s Banners dành cho đạo quân
 - Báu vật tăng thời lượng dùng phép, tăng điểm di chuyển cho tướng, hồi mana và
   các thuộc tính quan trọng khác
 
