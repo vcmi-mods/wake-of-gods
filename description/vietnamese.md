@@ -1,5 +1,6 @@
 In the Wake of Gods (WoG) là một trong những bản mở rộng lớn nhất và có nhiều
-tính năng nhất dành cho Heroes of Might and Magic III.
+tính năng nhất dành cho Heroes of Might and Magic III. Bản dịch tiếng Việt của
+Bé Còi Team.
 
 ## Cơ chế mở rộng
 
