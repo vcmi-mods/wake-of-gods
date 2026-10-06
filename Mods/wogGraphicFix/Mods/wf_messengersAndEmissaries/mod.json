@@ -19,5 +19,17 @@
 	"polish" : {
 		"name" : "Poprawieni Posłańcy i Emisariusze",
 		"description" : "Nowe grafiki Posłańców i Emisariuszy."
+	},
+	"russian" : {
+		"name" : "Исправленные Вестники и Эмиссары",
+		"description" : "Новая графика для Мессенджеров и Эмиссаров."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені Посланці та Емісари",
+		"description" : "Нова графіка Посланців та Емісарів."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa Messengers và Emissaries",
+		"description" : "Đồ họa mới cho Messengers và Emissaries."
 	}
 }

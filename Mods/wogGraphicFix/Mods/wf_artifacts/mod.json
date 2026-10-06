@@ -23,5 +23,17 @@
 	"polish" : {
 		"name" : "Poprawione artefakty",
 		"description" : "Nowe grafiki artefaktów z SoD/WoG."
+	},
+	"russian" : {
+		"name" : "Исправленные артефакты",
+		"description" : "Новая графика для артефактов SoD/WoG."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені артефакти",
+		"description" : "Нова графіка артефактів SoD/WoG."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa báu vật",
+		"description" : "Đồ họa mới cho các báu vật của SoD/WoG."
 	}
 }

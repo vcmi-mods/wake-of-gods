@@ -16,7 +16,6 @@
 			"config/translation/wake-of-gods-commanders/chinese.json"
 		]
 	},
-
 	"czech" : {
 		"name" : "Velitelé",
 		"description" : "Tento modul aktivuje funkci velitelů",
@@ -24,7 +23,6 @@
 			"config/translation/wake-of-gods-commanders/czech.json"
 		]
 	},
-
 	"creatures" : [
 		"config/commanders/astralSpirit.json",
 		"config/commanders/brute.json",
@@ -59,7 +57,6 @@
 			"commanders" : true
 		}
 	},
-
 	"translations" : [
 		"config/translation/wake-of-gods-commanders/commanders_english.json"
 	],
@@ -93,19 +90,13 @@
 	},
 	"vietnamese" : {
 		"name" : "Chỉ huy",
-		"description" : "Mô-đun này kích hoạt kỹ năng của chỉ huy từ WoG",
+		"description" : "Mô-đun này bật tính năng Chỉ huy của WoG.",
 		"translations" : [
 			"config/translation/wake-of-gods-commanders/vietnamese.json"
 		]
+	},
+	"ukrainian" : {
+		"name" : "Командири",
+		"description" : "Цей модуль додає механіку Командирів із WoG."
 	}
-	// for future reference
-	//crus ZM174NPC.def Paladin2
-	//monk ZM175NPC.def Hierophant2
-	//lich ZM176NPC.def TempleGuardian2
-	//sgrg ZM177NPC.def Succubus2
-	//gnol ZM178NPC.def SoulEater2
-	//pfoe ZM179NPC.def Brute2
-	//trll ZM180NPC.def OgreLeader2
-	//amag ZM181NPC.def Shaman2
-	//geni ZM182NPC.def AstralSpirit2
 }

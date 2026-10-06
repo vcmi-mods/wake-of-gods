@@ -5,32 +5,34 @@
 	"author" : "Aphra",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-
 	"artifacts" : [
 		"config/warlordBanners"
 	],
-
 	"depends" : [
 		"wake-of-gods.stackArtifacts"
 	],
-
 	"chinese" : {
 		"name" : "军旗图像扩展",
 		"description" : "该模组为 9 种军旗类型添加了独特的图像。"
 	},
-
 	"czech" : {
 		"name" : "Rozšíření válečných praporů",
 		"description" : "Tato modifikace přidává unikátní grafiku pro každý z 9 typů válečných praporů."
 	},
-
 	"polish" : {
 		"name" : "Rozszerzenie sztandarów wodza",
 		"description" : "Ta modyfikacja dodaje unikalną grafikę dla każdego z 9 typów sztandarów wodza."
 	},
-
 	"russian" : {
 		"name" : "Расширение боевых знамён",
 		"description" : "Эта модификация добавляет уникальную графику для каждого из 9 типов боевых знамён."
+	},
+	"ukrainian" : {
+		"name" : "Розширення Прапорів полководця",
+		"description" : "Ця модифікація додає унікальну графіку для кожного з 9 типів Прапора полководця."
+	},
+	"vietnamese" : {
+		"name" : "Sửa đổi Warlord Banners",
+		"description" : "Bản sửa đổi này bổ sung đồ họa riêng cho từng loại cờ hiệu trong 9 loại Warlord Banners."
 	}
 }

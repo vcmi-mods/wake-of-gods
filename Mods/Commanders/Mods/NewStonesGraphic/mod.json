@@ -5,7 +5,6 @@
 	"author" : "Olegmods.INC, graphics from old HotA Crew screenshots",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.0",
-
 	"chinese" : {
 		"name" : "指挥官宝石的新图像",
 		"description" : "该模组修改了用于强化指挥官的宝石外观，新模型更符合其魔法属性。"
@@ -13,5 +12,21 @@
 	"czech" : {
 		"name" : "Nová grafika drahokamů velitele",
 		"description" : "Tato modifikace mění vzhled drahokamů, které posilují velitele. Nové modely lépe odpovídají jejich magické podstatě."
+	},
+	"polish" : {
+		"name" : "Alternatywne grafiki dla klejnotów Dowódców",
+		"description" : "Modyfikacja zmienia wygląd klejnotów, które wzmacniają Dowódców. Nowe modele lepiej podkreślają ich tajemnicze, magiczne pochodzenie."
+	},
+	"russian" : {
+		"name" : "Новая графика для камней командира",
+		"description" : "Эта модификация меняет внешний вид камней, усиливающих командиров. Новые модели лучше передают их магическую природу."
+	},
+	"ukrainian" : {
+		"name" : "Нова графіка самоцвітів Командира",
+		"description" : "Ця модифікація змінює вигляд самоцвітів, які посилюють Командирів. Нові моделі краще відображають їхню магічну природу."
+	},
+	"vietnamese" : {
+		"name" : "Đồ họa mới cho Đá Chỉ huy",
+		"description" : "Mô-đun này thay đổi diện mạo của các viên đá cường hóa sức mạnh cho Chỉ huy. Mẫu đồ họa mới thể hiện rõ hơn tính chất ma thuật của chúng."
 	}
 }

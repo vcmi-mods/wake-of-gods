@@ -41,5 +41,17 @@
 	"polish" : {
 		"name" : "Wsparcie dla maszyn wojennych na mapie",
 		"description" : "Ten moduł umożliwia pojawianie się maszyn wojennych na mapie przygód."
+	},
+	"russian" : {
+		"name" : "Поддержка боевых машин на карте",
+		"description" : "Модуль позволяет использовать боевые машины на отдельных картах WoG"
+	},
+	"ukrainian" : {
+		"name" : "Підтримка бойових машин на мапі",
+		"description" : "Цей модуль додає підтримку бойових машин на мапі для деяких мап WoG."
+	},
+	"vietnamese" : {
+		"name" : "Hỗ trợ Cỗ máy chiến đấu trên bản đồ",
+		"description" : "Mô-đun này bật tính năng hỗ trợ Cỗ máy chiến đấu trên bản đồ cho một số bản đồ WoG"
 	}
 }

@@ -34,5 +34,17 @@
 	"portuguese" : {
 		"name" : "Campos de Batalha Vívidos - Moradias WoG",
 		"description" : "Campos de batalha únicos para cada moradia WoG. Porte do ERA3 para VCMI."
+	},
+	"russian" : {
+		"name" : "Яркие поля боя - жилища в стиле WoG",
+		"description" : "Уникальные поля боя для каждого жилища WoG. Порт ERA3 для VCMI."
+	},
+	"ukrainian" : {
+		"name" : "Яскраві поля бою — житла WoG",
+		"description" : "Унікальні поля бою для кожного житла WoG. Перенесено з ERA3 до VCMI."
+	},
+	"vietnamese" : {
+		"name" : "Chiến trường sinh động - Nhà quân WoG",
+		"description" : "Chiến trường riêng cho từng nhà quân WoG. Được chuyển từ ERA3 sang VCMI."
 	}
 }

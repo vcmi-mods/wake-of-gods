@@ -19,5 +19,17 @@
 	"polish" : {
 		"name" : "Poprawione jednostki 8-go poziomu",
 		"description" : "Nowe grafiki jednostek 8-go poziomu z SoD/WoG."
+	},
+	"russian" : {
+		"name" : "Патч существ 8‑го уровня",
+		"description" : "Новая графика для юнитов SoD/WoG 8-го уровня."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені істоти 8-го рівня",
+		"description" : "Нова графіка істот 8-го рівня SoD/WoG."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa quân cấp 8",
+		"description" : "Đồ họa mới cho các quân cấp 8 của SoD/WoG."
 	}
 }

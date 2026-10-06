@@ -12,5 +12,21 @@
 	"czech" : {
 		"name" : "Oprava grafiky z ERA pro Heroes 3",
 		"description" : "Opravy grafiky pro některé herní prvky z Heroes 3."
+	},
+	"polish" : {
+		"name" : "Heroes III ERA data patch",
+		"description" : "Drobne poprawki i ulepszenia grafik z SoD."
+	},
+	"russian" : {
+		"name" : "дата‑патч для ERA в Heroes III",
+		"description" : "Исправления и улучшения графики для некоторых игровых ассетов (ресурсов) из Shadow of Death."
+	},
+	"ukrainian" : {
+		"name" : "Виправлення даних Heroes III ERA",
+		"description" : "Виправлення й поліпшення графіки деяких ресурсів SoD."
+	},
+	"vietnamese" : {
+		"name" : "Bản vá dữ liệu Heroes III ERA",
+		"description" : "Sửa lỗi và cải thiện đồ họa cho một số tài nguyên của bản SoD."
 	}
 }

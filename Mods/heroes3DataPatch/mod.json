@@ -23,5 +23,17 @@
 	"portuguese" : {
 		"name" : "Patch de Dados do Heroes III",
 		"description" : "Correções e melhorias nos gráficos e sons para alguns recursos do jogo SoD."
+	},
+	"russian" : {
+		"name" : "дата‑патч для Heroes III",
+		"description" : "Исправления и улучшения графики и звуков для некоторых игровых ассетов (ресурсов) из Shadow of Death."
+	},
+	"ukrainian" : {
+		"name" : "Виправлення даних Heroes III",
+		"description" : "Виправлення й поліпшення графіки та звуків деяких ресурсів SoD."
+	},
+	"vietnamese" : {
+		"name" : "Bản vá dữ liệu Heroes III",
+		"description" : "Sửa lỗi và cải thiện đồ họa, âm thanh cho một số tài nguyên của bản SoD."
 	}
 }

@@ -25,5 +25,17 @@
 	"portuguese" : {
 		"name" : "Ícones de habilidades primárias do Heroes II",
 		"description" : "Altera as habilidades primárias do WoG para se parecerem mais com as do H2."
+	},
+	"russian" : {
+		"name" : "иконки первичных навыков в стиле Heroes II",
+		"description" : "Изменения первичных навыков в WoG, чтобы сделать их ближе к тем, что в Heroes II."
+	},
+	"ukrainian" : {
+		"name" : "Іконки основних навичок із Heroes II",
+		"description" : "Змінює основні навички WoG, щоб наблизити їх до вигляду в Heroes II."
+	},
+	"vietnamese" : {
+		"name" : "Biểu tượng kỹ năng chính của Heroes II",
+		"description" : "Thay đổi biểu tượng kỹ năng chính của WoG để gần giống với Heroes II hơn."
 	}
 }

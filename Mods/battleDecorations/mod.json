@@ -20,5 +20,17 @@
 	"portuguese" : {
 		"name" : "Decorações de Batalha",
 		"description" : "Este módulo ativa obstáculos animados nos campos de batalha."
+	},
+	"russian" : {
+		"name" : "боевые украшения",
+		"description" : "Этот модуль включает анимированные препятствия на полях сражений."
+	},
+	"ukrainian" : {
+		"name" : "Декорації поля бою",
+		"description" : "Цей модуль додає анімовані перешкоди на поля бою."
+	},
+	"vietnamese" : {
+		"name" : "Trang trí chiến trường",
+		"description" : "Mô-đun này bật các chướng ngại vật có hoạt ảnh động trên chiến trường."
 	}
 }

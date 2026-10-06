@@ -32,5 +32,17 @@
 	"portuguese" : {
 		"name" : "Indicação de artefatos da unidade",
 		"description" : "Este módulo exibe a indicação de artefatos da unidade mostrando uma miniatura do artefato equipado no ícone da unidade."
+	},
+	"russian" : {
+		"name" : "Индикация артефактов стека",
+		"description" : "Этот модуль включает индикацию артефактов для стека: на иконке существа отображается миниатюра экипированного артефакта."
+	},
+	"ukrainian" : {
+		"name" : "Позначення артефактів загонів",
+		"description" : "Цей модуль позначає артефакт загону, показуючи мініатюру спорядженого артефакту на іконці істоти."
+	},
+	"vietnamese" : {
+		"name" : "Hiển thị báu vật của đạo quân",
+		"description" : "Mô-đun này hiển thị hình ảnh thu nhỏ của báu vật mà đạo quân đang trang bị trên biểu tượng của quân."
 	}
 }

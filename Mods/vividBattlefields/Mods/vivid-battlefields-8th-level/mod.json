@@ -33,5 +33,17 @@
 	"polish" : {
 		"name" : "Żywe pola bitew - siedliska 8-go poziomu",
 		"description" : "Unikalne pola bitew dla siedlisk 8-go poziomu. Port z ERA3 do VCMI."
+	},
+	"russian" : {
+		"name" : "Яркие поля боя для жилищ 8‑го уровня",
+		"description" : "Уникальные поля боя для каждого жилища 8‑го уровня. Порт ERA3 для VCMI."
+	},
+	"ukrainian" : {
+		"name" : "Яскраві поля бою — житла 8-го рівня",
+		"description" : "Унікальні поля бою для кожного житла 8-го рівня. Перенесено з ERA3 до VCMI."
+	},
+	"vietnamese" : {
+		"name" : "Chiến trường sinh động - Nhà quân cấp 8",
+		"description" : "Chiến trường riêng cho từng nhà quân cấp 8. Được chuyển từ ERA3 sang VCMI."
 	}
 }

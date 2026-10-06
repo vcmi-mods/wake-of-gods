@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "石楠丛地形的秘银矿",
+		"description" : "启用石楠丛地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren wrzosowiska",
+		"description" : "Gdy teren Wrzosowiska jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта в зарослях вереска",
+		"description" : "Когда включена местность с вересковыми зарослями, этот мод добавляет графику мифриловых рудников к этой местности."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Вересові хащі»",
+		"description" : "Якщо ввімкнено місцевість «Вересові хащі», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Bụi thạch nam",
+		"description" : "Khi địa hình Bụi thạch nam được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

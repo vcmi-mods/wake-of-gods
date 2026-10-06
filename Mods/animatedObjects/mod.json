@@ -26,5 +26,17 @@
 	"portuguese" : {
 		"name" : "Bandeiras Animadas",
 		"description" : "Este módulo ativa bandeiras animadas em moradias e minas."
+	},
+	"russian" : {
+		"name" : "анимированные флаги",
+		"description" : "Этот модуль включает анимированные флаги у жилищ и шахт."
+	},
+	"ukrainian" : {
+		"name" : "Анімовані прапори",
+		"description" : "Цей модуль додає анімовані прапори до жител істот і шахт."
+	},
+	"vietnamese" : {
+		"name" : "Cờ hiệu động",
+		"description" : "Mô-đun này bật cờ hiệu động tại các mỏ quân và mỏ tài nguyên."
 	}
 }

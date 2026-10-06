@@ -16,5 +16,17 @@
 	"polish" : {
 		"name" : "Poprawieni bohaterowie",
 		"description" : "Nowe grafiki bohaterów z SoD/WoG."
+	},
+	"russian" : {
+		"name" : "Патч героев",
+		"description" : "Новая графика для героев SoD/WoG."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені герої",
+		"description" : "Нова графіка героїв SoD/WoG."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa tướng",
+		"description" : "Đồ họa mới cho các tướng của SoD/WoG."
 	}
 }

@@ -31,5 +31,17 @@
 	"portuguese" : {
 		"name" : "Bancos de Criaturas",
 		"description" : "Este módulo ativa novos bancos de criaturas."
+	},
+	"russian" : {
+		"name" : "банки существ",
+		"description" : "Этот модуль включает новые банки существ."
+	},
+	"ukrainian" : {
+		"name" : "Банки істот",
+		"description" : "Цей модуль додає нові банки істот."
+	},
+	"vietnamese" : {
+		"name" : "Kho quân",
+		"description" : "Mô-đun này bật các Kho quân mới."
 	}
 }

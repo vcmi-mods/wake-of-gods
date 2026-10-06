@@ -38,5 +38,17 @@
 	"portuguese" : {
 		"name" : "Unidades de 8º Nível",
 		"description" : "Adiciona unidades de nível 8 para o WoG.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
+	},
+	"russian" : {
+		"name" : "юниты 8‑го уровня",
+		"description" : "Добавляет юнитов 8‑го уровня для WoG.\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
+	},
+	"ukrainian" : {
+		"name" : "Істоти 8-го рівня",
+		"description" : "Додає істот 8-го рівня з WoG.\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
+	},
+	"vietnamese" : {
+		"name" : "Đơn vị quân cấp 8",
+		"description" : "Thêm các đơn vị quân cấp 8 cho WoG.\r\nhttp://www.heroesofmightandmagic.com/wakeofgods/8lvl.shtml"
 	}
 }

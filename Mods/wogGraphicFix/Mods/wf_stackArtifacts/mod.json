@@ -19,5 +19,17 @@
 	"polish" : {
 		"name" : "Artefakty jednostek",
 		"description" : "Ten moduł dodaje funkcję artefaktów dla jednostek."
+	},
+	"russian" : {
+		"name" : "Артефакты стека",
+		"description" : "Этот модуль включает функцию создания артефактов для стеков объектов от WoG"
+	},
+	"ukrainian" : {
+		"name" : "Артефакти загонів",
+		"description" : "Цей модуль додає механіку артефактів загонів із WoG."
+	},
+	"vietnamese" : {
+		"name" : "Báu vật cho đạo quân",
+		"description" : "Mô-đun này kích hoạt tính năng trang bị báu vật cho từng đạo quân của WoG"
 	}
 }

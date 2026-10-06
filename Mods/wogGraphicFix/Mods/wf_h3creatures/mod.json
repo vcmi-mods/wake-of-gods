@@ -33,5 +33,17 @@
 		"translations" : [
 			"translation/wf_h3creatures/polish.json"
 		]
+	},
+	"russian" : {
+		"name" : "Исправленные существа SoD",
+		"description" : "Новая графика для существ SoD."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені істоти SoD",
+		"description" : "Нова графіка істот SoD."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa quân của SoD",
+		"description" : "Đồ họa mới cho các quân của SoD."
 	}
 }

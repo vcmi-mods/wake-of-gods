@@ -23,5 +23,17 @@
 	"polish" : {
 		"name" : "Poprawieni dowódcy",
 		"description" : "Nowe grafiki dowódców z WoG."
+	},
+	"russian" : {
+		"name" : "Исправленные командиры",
+		"description" : "Новая графика для командиров WoG."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені Командири",
+		"description" : "Нова графіка Командирів WoG."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa chỉ huy",
+		"description" : "Đồ họa mới cho các Chỉ huy của WoG."
 	}
 }

@@ -20,5 +20,17 @@
 	"polish" : {
 		"name" : "Animowane flagi",
 		"description" : "Ten moduł dodaje animowane flagi przy siedliskach i kopalniach."
+	},
+	"russian" : {
+		"name" : "Анимированные флаги",
+		"description" : "Модуль включает анимированные флаги на жилищах и шахтах."
+	},
+	"ukrainian" : {
+		"name" : "Анімовані прапори",
+		"description" : "Цей модуль додає анімовані прапори до жител істот і шахт."
+	},
+	"vietnamese" : {
+		"name" : "Cờ chuyển động",
+		"description" : "Mô-đun này kích hoạt hiệu ứng cờ chuyển động tại kho quân và mỏ tài nguyên."
 	}
 }

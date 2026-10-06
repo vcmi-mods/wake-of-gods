@@ -101,5 +101,17 @@
 	"polish" : {
 		"name" : "Wsparcie dowódców",
 		"description" : "Ten moduł dodaje wsparcie dla dowódców na wybranych mapach WoG."
+	},
+	"russian" : {
+		"name" : "Поддержка командиров",
+		"description" : "Этот модуль обеспечивает поддержку командирами некоторых карт WoG"
+	},
+	"ukrainian" : {
+		"name" : "Підтримка Командирів",
+		"description" : "Цей модуль додає підтримку Командирів для деяких мап WoG."
+	},
+	"vietnamese" : {
+		"name" : "Hỗ trợ chỉ huy",
+		"description" : "Mô-đun này bật tính năng hỗ trợ Chỉ huy cho một số bản đồ WoG"
 	}
 }

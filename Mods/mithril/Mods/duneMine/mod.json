@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "沙丘地形的秘银矿",
+		"description" : "启用沙丘地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren Diun",
+		"description" : "Po włączeniu terenu Diuny mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта для дюнной местности",
+		"description" : "Когда включен ландшафт дюн, этот мод добавляет графику мифриловых шахт к этому ландшафту."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Дюни»",
+		"description" : "Якщо ввімкнено місцевість «Дюни», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Cồn cát",
+		"description" : "Khi địa hình Cồn cát được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

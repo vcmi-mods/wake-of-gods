@@ -42,5 +42,17 @@
 	"portuguese" : {
 		"name" : "Experiência de Pilha",
 		"description" : "Este módulo ativa a funcionalidade de experiência de pilha do WoG."
+	},
+	"russian" : {
+		"name" : "Опыт стека",
+		"description" : "Модуль активирует функцию начисления опыта стеку. Механику из WoG"
+	},
+	"ukrainian" : {
+		"name" : "Досвід загонів",
+		"description" : "Цей модуль додає механіку досвіду загонів із WoG."
+	},
+	"vietnamese" : {
+		"name" : "Kinh nghiệm đạo quân",
+		"description" : "Mô-đun này kích hoạt tính năng kinh nghiệm đạo quân của WoG"
 	}
 }

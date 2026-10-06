@@ -24,5 +24,21 @@
 	"czech" : {
 		"name" : "Ikony bonusů",
 		"description" : "Ikony pro schopnosti jednotek."
+	},
+	"polish" : {
+		"name" : "Dodatkowe ikony umiejek",
+		"description" : "Dodatkowe ikony obrazujące umiejętności stworzeń."
+	},
+	"russian" : {
+		"name" : "дополнительные иконки бонусов",
+		"description" : "дополнительные иконки для способностей существ."
+	},
+	"ukrainian" : {
+		"name" : "Додаткові іконки бонусів",
+		"description" : "Додаткові іконки здібностей істот."
+	},
+	"vietnamese" : {
+		"name" : "Biểu tượng hiệu ứng bổ sung",
+		"description" : "Bổ sung biểu tượng cho các kỹ năng của quân."
 	}
 }

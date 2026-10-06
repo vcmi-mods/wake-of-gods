@@ -37,5 +37,17 @@
 	"portuguese" : {
 		"name" : "Criaturas",
 		"description" : "Este módulo ativa novas criaturas."
+	},
+	"russian" : {
+		"name" : "существа",
+		"description" : "Этот модуль включает новых существ."
+	},
+	"ukrainian" : {
+		"name" : "Істоти",
+		"description" : "Цей модуль додає нових істот."
+	},
+	"vietnamese" : {
+		"name" : "Quân",
+		"description" : "Mô-đun này bật các quân mới."
 	}
 }

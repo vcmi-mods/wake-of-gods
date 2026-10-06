@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "高原地形的秘银矿",
+		"description" : "启用高原地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren Płaskowyżu",
+		"description" : "Po włączeniu terenu Płaskowyżu mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта на плато",
+		"description" : "Когда ландшафт (Плато) включён, этот мод добавляет на него графику мифриловой шахты."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Плато»",
+		"description" : "Якщо ввімкнено місцевість «Плато», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Cao nguyên bằng",
+		"description" : "Khi địa hình Cao nguyên bằng được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

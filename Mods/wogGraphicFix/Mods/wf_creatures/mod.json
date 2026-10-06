@@ -33,5 +33,17 @@
 		"translations" : [
 			"translation/wf_creatures/polish.json"
 		]
+	},
+	"russian" : {
+		"name" : "Исправленные существа WoG",
+		"description" : "Новая графика для существ WoG."
+	},
+	"ukrainian" : {
+		"name" : "Виправлені істоти WoG",
+		"description" : "Нова графіка істот WoG."
+	},
+	"vietnamese" : {
+		"name" : "Chỉnh sửa quân của WoG",
+		"description" : "Đồ họa mới cho các quân của WoG."
 	}
 }

@@ -29,5 +29,17 @@
 	"polish" : {
 		"name" : "Strzałka ruchu bohatera",
 		"description" : "Strzałka ruchu bohatera"
+	},
+	"russian" : {
+		"name" : "Стрелка перемещения героя",
+		"description" : "Стрелка перемещения героя"
+	},
+	"ukrainian" : {
+		"name" : "Стрілка руху героя",
+		"description" : "Стрілка руху героя"
+	},
+	"vietnamese" : {
+		"name" : "Mũi tên di chuyển của tướng",
+		"description" : "Mũi tên chỉ hướng di chuyển của tướng"
 	}
 }
