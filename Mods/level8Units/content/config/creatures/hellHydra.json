@@ -48,20 +48,17 @@
 				"type" : "HP_REGENERATION",
 				"val" : 40
 			},
-			"acidBreath" :
-			{
+			"acidBreath" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "acidBreathDamage",
 				"val" : 20
 			},
-			"acidBreathDamage" :
-			{
+			"acidBreathDamage" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "acidBreathDamage",
 				"val" : 25
 			},
-			"reduceDefence" :
-			{
+			"reduceDefence" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "acidBreath",
 				"val" : 100
