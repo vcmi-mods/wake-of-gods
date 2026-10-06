@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "废土地形的秘银矿",
+		"description" : "启用废土地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren skażonej ziemi",
+		"description" : "Gdy teren Skażonej ziemi jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта на территории Испорченной земли",
+		"description" : "Когда ландшафт (Испорченная земля) включён, этот мод добавляет на него графику мифриловой шахты."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Сплюндровані землі»",
+		"description" : "Якщо ввімкнено місцевість «Сплюндровані землі», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Đất hoang hóa",
+		"description" : "Khi địa hình Đất hoang hóa được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

@@ -20,23 +20,19 @@
 	"creatures" : [
 		"config/emmisariesMap"
 	],
-
 	"chinese" : {
 		"name" : "地图格式支持(WoG)",
 		"description" : "这个模组包含在VCMI中加载神之苏醒地图格式所需的支持文件。"
 	},
-
 	"czech" : {
 		"name" : "Podpora formátu map (WoG)",
 		"description" : "Tato modifikace přidává podporu načítání map ve formátu 'In The Wake of Gods'"
 	},
-
 	"settings" : {
 		"mapFormat" : {
 			"inTheWakeOfGods" : {
 				"supported" : true,
 				"iconIndex" : 6,
-
 				"creatures" : {
 					"supremeArchangel" : 150,
 					"diamondDragon" : 151,
@@ -76,7 +72,6 @@
 					"barbarianLordsAxeOfFerocity" : 158,
 					"dragonheart" : 159,
 					"gateKey" : 160,
-
 					"deepIronHelmet" : 161,
 					"noctivigantBlade" : 162,
 					"bloodmarkedBuckler" : 163,
@@ -87,7 +82,6 @@
 					"cuirassOfVelocity" : 168,
 					"runedMithrilBoots" : 169,
 					"ornateMinotaursHorn" : 170
-					//					"bucklerOfBeelzebub" : 171, scripted artifact, not in editor
 				},
 				"objects" : {
 					"zh4obj01" : [
@@ -109,7 +103,7 @@
 					"zobj003" : [
 						63,
 						5
-					], //wgf duplicated this?
+					],
 					"zobj004" : [
 						63,
 						6
@@ -153,7 +147,7 @@
 					"zobj011" : [
 						63,
 						17
-					], //wgf duplicated this?
+					],
 					"zobj013" : [
 						63,
 						19
@@ -390,8 +384,6 @@
 							7
 						]
 					},
-					//wog decorative objects
-					//					"avGnoll" : [40, 0], //gnoll hut from h3sprite
 					"zzzz" : [
 						207,
 						1
@@ -484,7 +476,6 @@
 						40,
 						0
 					],
-					//					"marketOfTimeWoG" : [63, 51], //object from h3sprite
 					"zcave1" : [
 						63,
 						57
@@ -633,7 +624,6 @@
 							20
 						]
 					},
-
 					"creatureGeneratorCommon" : {
 						"portalOfSplendor" : [
 							17,
@@ -671,7 +661,6 @@
 							17,
 							88
 						],
-
 						"rockCoveredPosition" : [
 							17,
 							89
@@ -704,7 +693,6 @@
 							17,
 							93
 						],
-
 						"lostFriary" : [
 							17,
 							94
@@ -987,7 +975,6 @@
 					"creatures/waterMessenger/ZM167GD.def" : "ZM167GD.def",
 					"creatures/waterMessenger/zmm167d.def" : "zmm167d.def",
 					"dwellings/zavg174a.def" : "zavg174a.def",
-					// Special towns are only loaded as decoration to silent console warning
 					"towns/AVCCAST1.def" : "AVCCAST1.def",
 					"towns/AVCCAST2.def" : "AVCCAST2.def",
 					"towns/AVCCAST3.def" : "AVCCAST3.def",
@@ -1035,5 +1022,17 @@
 	"portuguese" : {
 		"name" : "Suporte para formato de mapa (WoG)",
 		"description" : "Este mod contém os arquivos de suporte necessários para carregar mapas no formato 'In The Wake of Gods' no VCMI"
+	},
+	"russian" : {
+		"name" : "Поддержка формата карты (WoG)",
+		"description" : "Этот мод содержит вспомогательные файлы, необходимые для загрузки карт в формате \"По следам богов\" в VCMI"
+	},
+	"ukrainian" : {
+		"name" : "Підтримка формату мап WoG",
+		"description" : "Цей мод містить файли, необхідні для завантаження у VCMI мап у форматі \"Слідом за богами\"."
+	},
+	"vietnamese" : {
+		"name" : "Hỗ trợ định dạng bản đồ (WoG)",
+		"description" : "Bản mod này chứa các tệp hỗ trợ cần thiết để VCMI tải các bản đồ định dạng 'In The Wake of Gods'"
 	}
 }

@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "高地地形的秘银矿",
+		"description" : "启用深渊号角的高地地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren Wyżyn",
+		"description" : "Po włączeniu terenu Wyżyny (HotA mod) dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта для горной местности",
+		"description" : "Когда включен режим Hota Highlands Terrain, этот мод добавляет графику мифриловых шахт к этой местности."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Високогір’я»",
+		"description" : "Якщо ввімкнено місцевість «Високогір’я», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Cao nguyên",
+		"description" : "Khi địa hình Hota Cao nguyên được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

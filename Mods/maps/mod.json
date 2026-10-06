@@ -32,16 +32,26 @@
 	"russian" : {
 		"translations" : [
 			"translation/russian.json"
-		]
+		],
+		"name" : "Карты",
+		"description" : "Этот мод содержит все новые карты, добавленные командой WoG, которые в настоящее время не воспроизводятся"
 	},
 	"vietnamese" : {
 		"translations" : [
 			"translation/vietnamese.json"
-		]
+		],
+		"name" : "Bản đồ",
+		"description" : "Bản mod này chứa tất cả các bản đồ mới được nhóm WoG thêm vào - hiện chưa thể chơi"
 	},
 	"polish" : {
 		"translations" : [
 			"translation/polish.json"
-		]
+		],
+		"name" : "Mapy",
+		"description" : "Ten mod zawiera wszystkie nowe mapy dodane przez WoG Team. Obecnie są niegrywalne z powodu braku wsparcia skryptów ERM."
+	},
+	"ukrainian" : {
+		"name" : "Мапи",
+		"description" : "Цей мод містить усі нові мапи від команди WoG — наразі вони непридатні для гри."
 	}
 }

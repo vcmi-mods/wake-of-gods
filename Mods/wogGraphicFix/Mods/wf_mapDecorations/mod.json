@@ -16,9 +16,20 @@
 		"name" : "Dekorace map",
 		"description" : "Tento modul aktivuje nové dekorace map."
 	},
-
 	"polish" : {
 		"name" : "Dekoracje mapy",
 		"description" : "Ten moduł włącza nowe dekoracje mapy."
+	},
+	"russian" : {
+		"name" : "Оформление карты",
+		"description" : "Этот модуль позволяет создавать новые элементы оформления карты."
+	},
+	"ukrainian" : {
+		"name" : "Декорації мапи",
+		"description" : "Цей модуль додає нові декорації мапи."
+	},
+	"vietnamese" : {
+		"name" : "Trang trí bản đồ",
+		"description" : "Mô-đun này kích hoạt các hiệu ứng trang trí mới cho bản đồ."
 	}
 }

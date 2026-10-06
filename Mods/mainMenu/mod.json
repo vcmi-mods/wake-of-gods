@@ -48,5 +48,17 @@
 	"portuguese" : {
 		"name" : "Tema do Menu Principal",
 		"description" : "Altera o tema do menu principal para o utilizado no mod WoG."
+	},
+	"russian" : {
+		"name" : "тема главного меню",
+		"description" : "Меняет тему главного меню на ту, что используется в моде WoG."
+	},
+	"ukrainian" : {
+		"name" : "Тема головного меню",
+		"description" : "Замінює тему головного меню на тему моду WoG."
+	},
+	"vietnamese" : {
+		"name" : "Giao diện menu chính",
+		"description" : "Thay đổi giao diện menu chính sang giao diện của bản mod WoG."
 	}
 }

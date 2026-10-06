@@ -16,5 +16,21 @@
 	"chinese" : {
 		"name" : "作弊码",
 		"description" : "添加WoG作弊码别名。"
+	},
+	"polish" : {
+		"name" : "Kody (cheaty)",
+		"description" : "Dodaje aliasy kodów znanych z WoGa."
+	},
+	"russian" : {
+		"name" : "читы",
+		"description" : "Добавляет псевдонимы для читов из WoG."
+	},
+	"ukrainian" : {
+		"name" : "Чити",
+		"description" : "Додає альтернативні назви читів із WoG."
+	},
+	"vietnamese" : {
+		"name" : "Mã gian lận",
+		"description" : "Thêm các tên lệnh tương ứng cho mã gian lận của WoG."
 	}
 }

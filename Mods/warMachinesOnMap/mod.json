@@ -23,5 +23,17 @@
 	"portuguese" : {
 		"name" : "Máquinas de Guerra no Mapa",
 		"description" : "Este módulo permite que máquinas de guerra e o livro de feitiços apareçam no mapa de aventura."
+	},
+	"russian" : {
+		"name" : "Боевые машины на карте",
+		"description" : "Этот модуль позволяет боевым машинам и книге заклинаний появляться на карте приключений"
+	},
+	"ukrainian" : {
+		"name" : "Бойові машини на мапі",
+		"description" : "Цей модуль дозволяє розміщувати бойові машини та книги заклять на мапі пригод."
+	},
+	"vietnamese" : {
+		"name" : "Cỗ máy chiến đấu trên bản đồ",
+		"description" : "Mô-đun này cho phép Cỗ máy chiến đấu và Sách phép xuất hiện trên bản đồ"
 	}
 }

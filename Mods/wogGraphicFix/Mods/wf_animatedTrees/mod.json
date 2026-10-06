@@ -19,5 +19,17 @@
 	"polish" : {
 		"name" : "Animowane drzewa",
 		"description" : "Ten moduł dodaje animowane drzewa na mapie przygód."
+	},
+	"russian" : {
+		"name" : "Анимированные деревья",
+		"description" : "Этот модуль позволяет анимировать деревья на карте приключений."
+	},
+	"ukrainian" : {
+		"name" : "Анімовані дерева",
+		"description" : "Цей модуль додає анімовані дерева на мапу пригод."
+	},
+	"vietnamese" : {
+		"name" : "Cây cối chuyển động",
+		"description" : "Mô-đun này kích hoạt hiệu ứng cây cối chuyển động trên bản đồ."
 	}
 }

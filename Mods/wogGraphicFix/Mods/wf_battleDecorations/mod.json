@@ -19,5 +19,17 @@
 	"polish" : {
 		"name" : "Dekoracje pola bitwy",
 		"description" : "Ten moduł dodaje animowane przeszkody na polach bitew."
+	},
+	"russian" : {
+		"name" : "боевые декорации",
+		"description" : "Этот модуль позволяет анимировать препятствия на полях сражений."
+	},
+	"ukrainian" : {
+		"name" : "Декорації поля бою",
+		"description" : "Цей модуль додає анімовані перешкоди на поля бою."
+	},
+	"vietnamese" : {
+		"name" : "Trang trí chiến trường",
+		"description" : "Mô-đun này kích hoạt các chướng ngại vật chuyển động trên chiến trường."
 	}
 }

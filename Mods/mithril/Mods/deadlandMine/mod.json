@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "死亡之地的秘银矿",
+		"description" : "启用死亡之地地形后，本模组会为该地形添加秘银矿图像。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren martwoziemia",
+		"description" : "Gdy teren Matrwoziemi jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта (Мёртвые земли)",
+		"description" : "Когда включен ландшафт Мертвой земли, этот мод добавляет графику мифриловых шахт к этому ландшафту."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Мертві землі»",
+		"description" : "Якщо ввімкнено місцевість «Мертві землі», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Đất chết",
+		"description" : "Khi địa hình Đất chết được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

@@ -17,5 +17,17 @@
 	"polish" : {
 		"name" : "Motyw menu głównego AI",
 		"description" : "Zmienia motyw menu głównego na wygenerowany przez AI."
+	},
+	"russian" : {
+		"name" : "Тема главного меню искусственного интеллекта",
+		"description" : "Изменяет тему главного меню на сгенерированную искусственным интеллектом."
+	},
+	"ukrainian" : {
+		"name" : "Згенерована ШІ тема головного меню",
+		"description" : "Замінює тему головного меню на згенеровану ШІ."
+	},
+	"vietnamese" : {
+		"name" : "Giao diện menu chính AI",
+		"description" : "Thay đổi giao diện menu chính sang giao diện được tạo bằng AI."
 	}
 }

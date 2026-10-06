@@ -51,5 +51,17 @@
 	"portuguese" : {
 		"name" : "Artefatos",
 		"description" : "Este módulo ativa os artefatos do WoG."
+	},
+	"russian" : {
+		"name" : "артефакты",
+		"description" : "Этот модуль включает артефакты из WoG."
+	},
+	"ukrainian" : {
+		"name" : "Артефакти",
+		"description" : "Цей модуль додає артефакти WoG."
+	},
+	"vietnamese" : {
+		"name" : "Báu vật",
+		"description" : "Mô-đun này bật các báu vật WoG."
 	}
 }

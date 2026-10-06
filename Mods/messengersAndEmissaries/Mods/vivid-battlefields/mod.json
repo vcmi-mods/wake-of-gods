@@ -19,7 +19,6 @@
 	"battlefields" : [
 		"config/messbattlefields"
 	],
-
 	"chinese" : {
 		"name" : "丰富的战场 — 元素使者巢穴",
 		"description" : "为每个元素使者巢穴提供独一无二的战场。这是从ERA3迁移到VCMI的。"
@@ -31,5 +30,17 @@
 	"polish" : {
 		"name" : "Żywe pola bitew - siedliska Posłańców",
 		"description" : "Unikalne pola bitew dla każdego siedliska Posłańców. Port z ERA3 do VCMI."
+	},
+	"russian" : {
+		"name" : "Яркие поля сражений - жилища посланников",
+		"description" : "Уникальные поля сражений для каждого жилища Посланника. Перенос с ERA3 на VCMI."
+	},
+	"ukrainian" : {
+		"name" : "Яскраві поля бою — житла Посланців",
+		"description" : "Унікальні поля бою для кожного житла Посланців. Перенесено з ERA3 до VCMI."
+	},
+	"vietnamese" : {
+		"name" : "Chiến trường sinh động - Kho Messengers",
+		"description" : "Các chiến trường riêng cho từng kho Messengers. Được chuyển từ ERA3 sang VCMI."
 	}
 }

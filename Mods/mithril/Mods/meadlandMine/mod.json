@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "草原地形的秘银矿",
+		"description" : "启用草原地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren Pastwisk",
+		"description" : "Po włączeniu terenu Pastwiska mod dodaje odpowiednią grafikę Kopalni mithrilu dla tego typu terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта для пастбищной местности",
+		"description" : "Когда включен режим пастбищной местности, этот мод добавляет графику мифриловых рудников к этой местности."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Пасовища»",
+		"description" : "Якщо ввімкнено місцевість «Пасовища», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Đồng cỏ",
+		"description" : "Khi địa hình Đồng cỏ được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

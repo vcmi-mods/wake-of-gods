@@ -39,5 +39,17 @@
 	"portuguese" : {
 		"name" : "Unidades de Mensageiros e Emissários",
 		"description" : "Adiciona as unidades Mensageiros e Emissários dos Deuses para o WoG."
+	},
+	"russian" : {
+		"name" : "Отряды посыльных и эмиссаров",
+		"description" : "Добавляет в WoG юнитов \"Вестники\" и \"эмиссары богов\".\n ,"
+	},
+	"ukrainian" : {
+		"name" : "Посланці та емісари",
+		"description" : "Додає до WoG Посланців та Емісарів богів."
+	},
+	"vietnamese" : {
+		"name" : "Đơn vị Messengers và Emissaries",
+		"description" : "Thêm các đơn vị Messengers và Emissaries từ bản WoG.\r\n ,"
 	}
 }

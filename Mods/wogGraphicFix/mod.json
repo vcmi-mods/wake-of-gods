@@ -3,7 +3,7 @@
 	"description" : "New graphics for SoD/WoG map objects.",
 	"modType" : "Graphical",
 	"author" : "Grossmaster",
-	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352", // https://github.com/Grossmaestro/WoG-Graphics-Fix
+	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
 	"version" : "2.26.0",
 	"changelog" : {
 		"2.26.0" : [
@@ -52,5 +52,17 @@
 	"portuguese" : {
 		"name" : "Correção Gráfica WoG",
 		"description" : "Novos gráficos para os objetos de mapa do SoD/WoG."
+	},
+	"russian" : {
+		"name" : "Исправление графики WoG",
+		"description" : "Новая графика для объектов карты SoD/WoG."
+	},
+	"ukrainian" : {
+		"name" : "Виправлення графіки WoG",
+		"description" : "Нова графіка об’єктів мапи SoD/WoG."
+	},
+	"vietnamese" : {
+		"name" : "Sửa đổi đồ họa WoG",
+		"description" : "Đồ họa mới cho các đối tượng trên bản đồ SoD/WoG."
 	}
 }

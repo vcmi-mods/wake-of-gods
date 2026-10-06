@@ -49,9 +49,14 @@
 				"val" : 40
 			},
 			"acidBreath" : {
-				"type" : "ACID_BREATH",
-				"val" : 25,
-				"addInfo" : 20
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "acidBreathDamage",
+				"val" : 20
+			},
+			"acidBreathDamage" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "acidBreathDamage",
+				"val" : 25
 			},
 			"reduceDefence" : {
 				"type" : "SPELL_AFTER_ATTACK",

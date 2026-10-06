@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "冰原地形的秘银矿",
+		"description" : "启用冰原地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren lodowca",
+		"description" : "Gdy teren Lodowca jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта для ландшафта Iceland",
+		"description" : "Когда ландшафт Iceland включён, этот мод добавляет на него графику мифриловой шахты."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Льодовий край»",
+		"description" : "Якщо ввімкнено місцевість «Льодовий край», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Băng địa",
+		"description" : "Khi địa hình Băng địa được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

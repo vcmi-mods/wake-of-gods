@@ -3,11 +3,14 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.82",
+	"version" : "9.1.83",
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"9.1.83" : [
+			"First update to vcmi-1.8 format"
+		],
 		"9.1.82" : [
 			"Add Vietnamese translation by Hunter8x"
 		],
@@ -287,7 +290,7 @@
 	},
 	"russian" : {
 		"name" : "In The Wake of Gods",
-		"description" : "Неофициальный аддон для Heroes of Might and Magic III",
+		"description" : "\"По следам богов\" (WoG) - одно из самых амбициозных и многофункциональных\nдополнений для Heroes of Might and Magic III.\n\n## расширенные механики\n\nWoG значительно улучшает оригинальный игровой процесс, добавляя новые системы\nпродвижения, мощные артефакты и дополнительные стратегические уровни. Дополнение\nнаправлено на увеличение глубины развития армии и создание более динамичных\nбоевых возможностей.\n\n## Командиры\n\nКаждый герой может нанять уникального **командира** — особое подразделение,\nкоторое получает опыт, повышает уровень и со временем становится сильнее.\n\nКомандиры могут использовать свои собственные артефакты, улучшающие атаку,\nзащиту, магическую силу, живучесть и открывающие особые боевые способности.\nБлагодаря специальному снаряжению, такому как мечи, щиты, кольца и магические\nреликвии, командиры превращаются в мощные боевые единицы.\n\n## Опыт работы со стеком и артефакты стека\n\nВ Wake of Gods добавлен ** накопительный опыт **, позволяющий существам\nнакапливать опыт в битвах и улучшать свою статистику с течением времени.\n\nОтряды также могут экипироваться особыми артефактами отряда, такими как «Знамя\nвоеначальника», которые усиливают атаку, защиту, урон, здоровье, скорость,\nколичество ответных ударов либо снижают получаемый урон. Эта система добавляет\nдолгосрочную прогрессию и возможности кастомизации в управлении армией.\n\n## Новые артефакты\n\nWoG добавляет большую коллекцию новых артефактов, в том числе:\n\n- Артефакты, масштабируемые под героя — они становятся сильнее по мере роста\n  уровня героя\n- Экипировка, доступная только командирам, — она развивается по мере одержанных\n  побед\n- Несколько типов знамен военачальника для стеков существ\n- Артефакты, увеличивающие продолжительность заклинания, скорость передвижения,\n  регенерацию маны и другие основные характеристики\n\n## Новые объекты на карте\n\nНа карте приключений появилось множество новых интерактивных объектов, в том\nчисле:\n\n- **Тайная башня** – перераспределение первичных навыков\n- **Дом подаяний** – помогайте более слабым героям\n- ** Волшебные грибы** – временный эксперт по магии\n- **Старьевщик ** – торгует ненужными артефактами\n",
 		"translations" : [
 			"translation/russian.json"
 		]
@@ -301,13 +304,13 @@
 	},
 	"polish" : {
 		"name" : "In The Wake of Gods",
-		"description" : "Nieoficjalna modyfikacja do Heroes of Might and Magic III",
+		"description" : "Przebudzenie bogów (WoG) to jedno z najbardziej ambitnych i rozbudowanych\nrozszerzeń do gry Heroes of Might and Magic III.\n\n## Rozszerzone mechaniki\n\nWoG znacznie wzbogaca oryginalną rozgrywkę, wprowadzając nowe systemy rozwoju,\npotężne artefakty oraz dodatkowe elementy strategiczne. Rozszerzenie kładzie\nszczególny nacisk na rozwój armii i zapewnia większą różnorodność możliwości\ntaktycznych podczas walki.\n\n## Dowódcy\n\nKażdy bohater może zwerbować unikalnego **Dowódcę** - specjalną jednostkę, która\nzdobywa doświadczenie, awansuje na kolejne poziomy i z czasem staje się coraz\npotężniejsza.\n\nDowódcy mogą wyposażać się we własne artefakty, zwiększać atak, obronę, moc\nmagiczną i wytrzymałość oraz odblokowując specjalne zdolności bojowe. Dzięki\nspecjalnemu wyposażeniu, takiemu jak miecze, tarcze, pierścienie i magiczne\nrelikty, Dowódcy stają się potężnymi jednostkami na polu bitwy.\n\n## Doświadczenie jednostek i artefakty dla jednostek\n\nPrzebudzenie bogów wprowadza system **doświadczenia oddziałów**, pozwalające\njednostkom w oddziałach zdobywać doświadczenie w walce i z czasem zwiększać\nswoje statystyki.\n\nOddziały mogą również wyposażać się w specjalne **artefakty jednostek**, takie\njak sztandary wojenne, które zwiększają atak, obronę, obrażenia, punkty życia i\nszybkość, zwiększają liczbę kontrataków lub zmniejszają otrzymywane obrażenia.\nSystem ten wprowadza długofalowy rozwój oraz większe możliwości dostosowywania\narmii do własnego stylu gry.\n\n## Nowe artefakty\n\nWoG wprowadza obszerny zestaw nowych artefaktów, w tym:\n\n- Artefakty zależne od poziomu bohatera, których moc rośnie wraz z jego poziomem\n- Wyposażenie przeznaczone wyłącznie dla Dowódców, które rozwija się wraz z\n  odnoszonymi zwycięstwami\n- Różne rodzaje sztandarów wojennych przeznaczonych dla jednostek\n- Artefakty zwiększające czas trwania zaklęć, zasięg ruchu, regenerację many\n  oraz inne podstawowe parametry\n\n## Nowe obiekty na mapie przygody\n\nMapa przygody zawiera wiele nowych, interaktywnych obiektów, w tym:\n\n- **Wieża magiczna** – pozwala przetasować punkty umiejętności podstawowych\n- **Dom dla ubogich** – pozwala wspierać słabszych bohaterów\n- **Magiczne grzyby** – zapewniają tymczasowo mistrzowski poziom magii\n- **Handlarz Rupieciami** – pozwala wymieniać niepotrzebne artefakty\n",
 		"translations" : [
 			"translation/polish.json"
 		]
 	},
 	"ukrainian" : {
-		"name" : "In the Wake of Gods / Слідом за Богами",
+		"name" : "Слідом за богами",
 		"description" : "Неофіційний аддон для Героїв Меча і Магії III",
 		"translations" : [
 			"translation/ukrainian.json"
@@ -324,7 +327,8 @@
 		"name" : "In The Wake of Gods",
 		"translations" : [
 			"translation/czech.json"
-		]
+		],
+		"description" : "In the Wake of Gods (WoG) je jedna z nejrozsáhlejších a nejambicióznějších\nmodifikací pro Heroes of Might and Magic III.\n\n## Rozšířené herní mechaniky\n\nWoG výrazně rozšiřuje původní hratelnost o nové systémy zvyšování úrovně, mocné\nartefakty a další strategické vrstvy. Zaměřuje se na hlubší rozvoj armády a\ndynamičtější průběh bitev.\n\n## Velitelé\n\nKaždý hrdina může získat vlastního **Velitele** — speciální jednotku, která\nzískává zkušenosti, postupuje na vyšší úrovně a postupně sílí.\n\nVelitelé mohou nosit vlastní vybavení, například **Meč ostrosti**, **Helmu\nnesmrtelnosti**, **Prsten dračího oka** a další předměty. Artefakty zvyšují\njejich útok, obranu, sílu kouzel i odolnost a odemykají nové bojové schopnosti.\n\n## Zkušenosti jednotek a prapory\n\nWake of Gods zavádí systém **zkušeností jednotek**, díky kterému jednotlivé\noddíly získávají zkušenosti z bitev a postupně zlepšují své vlastnosti.\n\nJednotky mohou navíc nést speciální **artefakty pro oddíly**, například **Prapor\nválečníka**, který může zvyšovat útok, obranu, poškození, zdraví, rychlost,\npočet odvet nebo snižovat utržené poškození. Tento systém přidává dlouhodobý\nrozvoj a větší přizpůsobení armády.\n\n## Nové artefakty\n\nWoG přidává rozsáhlou sbírku nových artefaktů, včetně:\n\n- Artefaktů škálujících se s úrovní hrdiny\n- Exkluzivního vybavení pro Velitele, které se zlepšuje vítězstvím v bitvách\n- Různých typů Praporů válečníka pro jednotky\n- Artefaktů ovlivňujících trvání kouzel, pohyb, regeneraci many a další klíčové\n  vlastnosti\n\n## Nové objekty na mapě\n\nMapa dobrodružství je obohacena o nové interaktivní objekty, například:\n\n- **Chudobinec** – pomoc slabším hrdinům\n- **Vzdušný hřib**, **Zemský hřib**, **Ohnivý hřib**, **Vodní hřib** – dočasná\n  expertní úroveň magie\n- **Zrcadlo cesty domů** – teleport do vlastního města\n- **Palác snů** – výměna zlata za náhodnou magickou odměnu\n"
 	},
 	"portuguese" : {
 		"name" : "In The Wake of Gods",
@@ -348,6 +352,11 @@
 	"vietnamese" : {
 		"translations" : [
 			"translation/vietnamese.json"
-		]
+		],
+		"name" : "In The Wake of Gods",
+		"description" : "In the Wake of Gods (WoG) là một trong những bản mở rộng lớn nhất và có nhiều\ntính năng nhất dành cho Heroes of Might and Magic III. Bản dịch tiếng Việt của\nBé Còi Team.\n\n## Cơ chế mở rộng\n\nWoG nâng cấp đáng kể lối chơi nguyên bản bằng cách bổ sung các hệ thống phát\ntriển mới, báu vật mạnh mẽ và cải thiện các kỹ năng. Bản mở rộng tập trung vào\nviệc phát triển quân đội mạnh hơn và tạo ra những trận chiến đa dạng và linh\nhoạt hơn.\n\n## Chỉ huy\n\nMỗi tướng có thể chiêu mộ một **Chỉ huy** riêng — một đơn vị đặc biệt có thể\nnhận kinh nghiệm, lên cấp và mạnh dần theo thời gian.\n\nChỉ huy có thể trang bị báu vật riêng làm tăng: Tấn công, Phòng thủ, Lực phép,\nđể tăng khả năng sống sót và mở khóa các kỹ năng chiến đấu đặc biệt. Với những\ntrang bị như kiếm, khiên, nhẫn và báu vật phép thuật, Chỉ huy có thể trở thành\nmột đơn vị cực mạnh trên chiến trường.\n\n## Kinh nghiệm Đạo quân & Báu vật Đạo quân\n\nWoG bổ sung **kinh nghiệm đạo quân**, cho phép từng đạo quân nhận kinh nghiệm\nsau chiến đấu và tăng chỉ số theo thời gian.\n\nĐạo quân còn có thể trang bị **báu vật đặc biệt** như Warlord’s Banners, giúp\ntăng Tấn công, Phòng thủ, Sát thương, Máu, Tốc độ, số lần phản đòn hoặc giảm sát\nthương nhận vào. Hệ thống này tạo thêm hướng phát triển lâu dài và tùy biến cho\ncác đạo quân.\n\n## Báu vật mới\n\nWoG bổ sung một lượng lớn các báu vật mới, bao gồm:\n\n- Báu vật mạnh dần lên theo cấp của tướng\n- Trang bị dành riêng cho Chỉ huy, tăng dần sức mạnh sau những trận thắng\n- Nhiều loại Warlord’s Banners dành cho đạo quân\n- Báu vật tăng thời lượng dùng phép, tăng điểm di chuyển cho tướng, hồi mana và\n  các thuộc tính quan trọng khác\n\n## Đối tượng mới trên bản đồ\n\nBản đồ có thêm nhiều đối tượng mới có thể tương tác, bao gồm:\n\n- **Tháp Huyền Thuật** – phân chia lại các chỉ số kỹ năng chính của tướng\n- **Nhà Cứu Tế** – hỗ trợ cho những tướng yếu hơn\n- **Nấm Ma Thuật** – cung cấp tạm thời cho tướng kỹ năng ở mức Cao Cấp\n- **Thương nhân Phế phẩm** – trao đổi những báu vật mà tướng không dùng đến\n"
+	},
+	"english" : {
+		"description" : "In the Wake of Gods (WoG) is one of the most ambitious and feature-rich expansions for Heroes of Might and Magic III.\n\n## Expanded Mechanics\n\nWoG significantly enhances the original gameplay by introducing new progression systems, powerful artifacts, and additional strategic layers. The expansion focuses on increasing army development depth and creating more dynamic combat possibilities.\n\n## Commanders\n\nEach hero can recruit a unique **Commander** — a special unit that gains experience, levels up, and becomes stronger over time.\n\nCommanders can equip their own artifacts, improving Attack, Defense, Magic Power, survivability, and unlocking special combat abilities. With dedicated equipment such as swords, shields, rings, and magical relics, Commanders grow into powerful battlefield units.\n\n## Stack Experience & Stack Artifacts\n\nWake of Gods introduces **stack experience**, allowing creature stacks to gain experience from battles and improve their statistics over time.\n\nStacks can also equip special **stack artifacts**, such as Warlord’s Banners, which enhance Attack, Defense, Damage, Health, Speed, retaliation count, or reduce incoming damage. This system adds long-term progression and customization to army management.\n\n## New Artifacts\n\nWoG adds a large collection of new artifacts, including:\n\n- Hero-scaling artifacts that grow stronger with hero level  \n- Commander-exclusive equipment that develops through victories  \n- Multiple types of Warlord’s Banners for creature stacks  \n- Artifacts that enhance spell duration, movement, mana regeneration, and other core attributes  \n\n## New Map Objects\n\nThe adventure map features many new interactive objects, including:\n\n- **Arcane Tower** – redistribute primary skills  \n- **Alms House** – assist weaker heroes  \n- **Magic Mushrooms** – temporary expert magic  \n- **Junk Merchant** – trade unwanted artifacts\n"
 	}
 }

@@ -19,5 +19,17 @@
 	"polish" : {
 		"name" : "Ikony doświadczenia jednostek",
 		"description" : "Ten moduł dodaje nowe, numerowane ikony doświadczenia jednostek."
+	},
+	"russian" : {
+		"name" : "Значки опыта стека",
+		"description" : "Добавлены новые нумерованные индикаторы уровня стека"
+	},
+	"ukrainian" : {
+		"name" : "Іконки досвіду загонів",
+		"description" : "Цей мод додає нові пронумеровані іконки досвіду загонів."
+	},
+	"vietnamese" : {
+		"name" : "Biểu tượng kinh nghiệm đạo quân",
+		"description" : "Mod này thêm các biểu tượng kinh nghiệm đạo quân mới có đánh số"
 	}
 }

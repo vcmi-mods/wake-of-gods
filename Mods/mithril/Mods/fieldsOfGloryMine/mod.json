@@ -18,5 +18,25 @@
 	],
 	"objects" : [
 		"config/mine.json"
-	]
+	],
+	"chinese" : {
+		"name" : "荣耀之地的秘银矿",
+		"description" : "启用荣耀之地地形后，本模组会为该地形添加秘银矿的图像资源。"
+	},
+	"polish" : {
+		"name" : "Kopalnia mithrilu pod teren pobojowiska",
+		"description" : "Gdy teren Pobojowiska jest włączony, ten mod dodaje grafikę Kopalni mithrilu dla tego terenu."
+	},
+	"russian" : {
+		"name" : "Мифриловая шахта для местности \"Поля славы\"",
+		"description" : "При активации ландшафта (Поля Славы) мод отображает на нём мифриловую шахту."
+	},
+	"ukrainian" : {
+		"name" : "Міфрилова шахта для місцевості «Поля слави»",
+		"description" : "Якщо ввімкнено місцевість «Поля слави», цей мод додає до неї графіку Міфрилової шахти."
+	},
+	"vietnamese" : {
+		"name" : "Mỏ Mithril cho địa hình Cánh đồng vinh quang",
+		"description" : "Khi địa hình Cánh đồng vinh quang được bật, bản mod này sẽ thêm đồ họa Mỏ Mithril vào địa hình này."
+	}
 }

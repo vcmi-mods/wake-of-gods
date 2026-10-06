@@ -35,5 +35,17 @@
 	"portuguese" : {
 		"name" : "Objetos do Mapa",
 		"description" : "Este módulo ativa novos objetos de mapa."
+	},
+	"russian" : {
+		"name" : "Объекты на карте",
+		"description" : "Этот модуль позволяет создавать новые объекты на карте."
+	},
+	"ukrainian" : {
+		"name" : "Об’єкти мапи",
+		"description" : "Цей модуль додає нові об’єкти мапи."
+	},
+	"vietnamese" : {
+		"name" : "Đối tượng bản đồ",
+		"description" : "Mô-đun này bật các đối tượng mới trên bản đồ."
 	}
 }

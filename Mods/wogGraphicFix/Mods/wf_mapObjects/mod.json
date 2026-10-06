@@ -104,7 +104,9 @@
 	"russian" : {
 		"translations" : [
 			"translation/russian.json"
-		]
+		],
+		"name" : "Исправленные объекты карты",
+		"description" : "Новая графика для объектов карты SoD/WoG."
 	},
 	"spanish" : {
 		"translations" : [
@@ -119,7 +121,9 @@
 	"ukrainian" : {
 		"translations" : [
 			"translation/ukrainian.json"
-		]
+		],
+		"name" : "Виправлені об’єкти мапи",
+		"description" : "Нова графіка об’єктів мапи SoD/WoG."
 	},
 	"japanese" : {
 		"translations" : [
@@ -129,6 +133,8 @@
 	"vietnamese" : {
 		"translations" : [
 			"translation/vietnamese.json"
-		]
+		],
+		"name" : "Chỉnh sửa đối tượng bản đồ",
+		"description" : "Đồ họa mới cho các đối tượng trên bản đồ SoD/WoG."
 	}
 }

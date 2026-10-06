@@ -31,5 +31,17 @@
 	"portuguese" : {
 		"name" : "Artefatos de Pilha",
 		"description" : "Este módulo ativa a funcionalidade de artefatos para pilhas de unidades do WoG."
+	},
+	"russian" : {
+		"name" : "Артефакты в стеке",
+		"description" : "Модуль активирует механику артефактов, действующих на стек юнитов (WoG)"
+	},
+	"ukrainian" : {
+		"name" : "Артефакти загонів",
+		"description" : "Цей модуль додає механіку артефактів загонів із WoG."
+	},
+	"vietnamese" : {
+		"name" : "Báu vật cho đạo quân",
+		"description" : "Mô-đun này kích hoạt tính năng trang bị báu vật cho các đạo quân của WoG"
 	}
 }
