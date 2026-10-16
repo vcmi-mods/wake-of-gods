@@ -116,6 +116,7 @@
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerSpeed.description" : "{Warlord's Banner}\r\n\r\nWhen equipped, this Warlord's Banner increases stack's Speed by 1 plus doubles stack's current Speed bonus in combat.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerSpeed.event" : "You pick up the Warlord's Banner.",
 	"artifact.wake-of-gods.stackartifacts.warlordsBannerSpeed.name" : "Warlord's Banner",
+	"creatures.core.pikeman.bonus.stackExperience8" : "{Clean thrust}\nPikemen can thrust their spears two hexes wide",
 	"creatures.wake-of-gods.artifacts.redDragonClone.name.plural" : "Red Dragons",
 	"creatures.wake-of-gods.artifacts.redDragonClone.name.singular" : "Red Dragon",
 	"creatures.wake-of-gods.commanders.astralSpirit1.name.plural" : "Astral Spirits",
