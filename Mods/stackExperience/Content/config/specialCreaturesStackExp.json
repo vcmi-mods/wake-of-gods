@@ -349,7 +349,7 @@
 				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax",
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_ALL"
 				},
 				"values" : [
 					50,
