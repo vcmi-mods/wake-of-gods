@@ -110,8 +110,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "airShield" },
 					"icon" : "bonuses/enchantedairshield_skeletal.png"
 				},
 				"values" : [
@@ -277,8 +278,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "airShield" },
 					"icon" : "bonuses/enchantedairshield_skeletal.png"
 				},
 				"values" : [
@@ -2120,8 +2122,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "airShield" },
 					"icon" : "bonuses/enchantedairshield_skeletal.png"
 				},
 				"values" : [

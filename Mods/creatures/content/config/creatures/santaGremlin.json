@@ -28,8 +28,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"summonGuardians" : {
-				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "gremlin",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "summonGuardians",
+				"addInfo" : { "creature" : "gremlin" },
 				"val" : 60
 			},
 			"castsIceBolt" : {

@@ -27,8 +27,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"waterProtection" : {
-				"type" : "ENCHANTED",
-				"subtype" : "protectWater",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "protectWater" },
 				"val" : 3
 				//				"addInfo" : 3
 			},

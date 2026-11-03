@@ -27,8 +27,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"transmutation" : {
-				"type" : "TRANSMUTATION",
-				"subtype" : "transmutationPerHealth",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "transmutation",
+				"addInfo" : { "transmuteBy" : "health" },
 				"val" : 20
 			},
 			"selfBerserk" : {

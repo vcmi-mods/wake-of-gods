@@ -44,11 +44,14 @@
 				"val" : 1
 			},
 			"rebirth" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 100
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 30
 			},
 			"immuneToFire" : {
@@ -56,8 +59,9 @@
 				"subtype" : "fire"
 			},
 			"spellSlayer" : {
-				"type" : "ENCHANTED",
-				"subtype" : "slayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "slayer" },
 				"val" : 3
 				//				"addInfo" : 100
 			},

@@ -129,8 +129,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fortune",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "fortune" },
 					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
@@ -296,8 +297,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fortune",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "fortune" },
 					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
@@ -462,8 +464,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -633,8 +636,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -798,8 +802,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -985,8 +990,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -1194,8 +1200,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -1368,8 +1375,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -1542,8 +1550,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -1728,8 +1737,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "protectFire" },
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -1916,8 +1926,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fireShield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "fireShield" },
 					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [
@@ -2143,8 +2154,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fireShield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "fireShield" },
 					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [

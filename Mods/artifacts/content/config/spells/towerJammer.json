@@ -38,8 +38,7 @@
 				"description" : "",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},

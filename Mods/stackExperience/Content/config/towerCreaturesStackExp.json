@@ -453,8 +453,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "stoneSkin",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "stoneSkin" },
 					"icon" : "bonuses/enchantedstoneskin.png"
 				},
 				"values" : [
@@ -602,8 +603,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "stoneSkin",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "stoneSkin" },
 					"icon" : "bonuses/enchantedstoneskin.png"
 				},
 				"values" : [

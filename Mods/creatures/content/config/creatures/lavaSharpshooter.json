@@ -34,8 +34,9 @@
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"airShield" : {
-				"type" : "ENCHANTED",
-				"subtype" : "fireShield",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "fireShield" },
 				"val" : 3
 				//				"addInfo" : 1
 			},

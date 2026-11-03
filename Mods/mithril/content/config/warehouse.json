@@ -28,7 +28,7 @@
 				],
 				"onVisitedMessage" : "{Warehouse of Mithril}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mithril here. Please, return next week!'",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true
 				},
 				"visitMode" : "once",

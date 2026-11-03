@@ -1078,21 +1078,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "DEATH_STARE",
-					"subtype" : "deathStareGorgon"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "deathStare",
+					"addInfo" : { "situation" : "melee" }
 				},
-				"values" : [
-					12,
-					14,
-					16,
-					18,
-					20,
-					22,
-					24,
-					26,
-					28,
-					30
-				]
+				"values" : [ 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ]
 			},
 			{
 				"bonus" : {
