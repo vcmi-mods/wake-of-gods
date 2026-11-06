@@ -29,8 +29,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"deathStare" : {
-				"type" : "DEATH_STARE",
-				"subtype" : "deathStareGorgon",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 15
 			},
 			"mindImmunity" : {

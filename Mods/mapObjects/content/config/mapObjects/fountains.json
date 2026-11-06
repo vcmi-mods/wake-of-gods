@@ -124,7 +124,7 @@
 				"description" : "Gives Berserker Potions once per week.",
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true
 				},
 				"rewards" : [
@@ -185,7 +185,7 @@
 				"description" : "Gives Venus's Blessing once per week.",
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true
 				},
 				"rewards" : [

@@ -470,8 +470,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "shield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "shield" },
 					"icon" : "bonuses/enchantedshield.png"
 				},
 				"values" : [
@@ -949,8 +950,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED", //enchanted czy enchaner? sprawdzić na czarodziejach
-					"subtype" : "precision",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted", //enchanted czy enchaner? sprawdzić na czarodziejach
+					"addInfo" : { "spell" : "precision" },
 					"icon" : "bonuses/enchantedprecision.png"
 				},
 				"values" : [

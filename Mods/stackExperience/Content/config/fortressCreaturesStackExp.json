@@ -129,8 +129,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "mirth",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "mirth" },
 					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [
@@ -279,8 +280,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "mirth",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "mirth" },
 					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [
@@ -881,21 +883,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "DEATH_STARE",
-					"subtype" : "deathStareGorgon"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "deathStare",
+					"addInfo" : { "situation" : "melee" }
 				},
-				"values" : [
-					13,
-					16,
-					19,
-					22,
-					25,
-					28,
-					31,
-					34,
-					37,
-					40
-				]
+				"values" : [ 13, 16, 19, 22, 25, 28, 31, 34, 37, 40 ]
 			}
 		]
 	},

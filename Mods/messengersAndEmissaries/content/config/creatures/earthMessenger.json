@@ -27,8 +27,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"earthProtection" : {
-				"type" : "ENCHANTED",
-				"subtype" : "protectEarth",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "protectEarth" },
 				"val" : 3
 				//				"addInfo" : 3
 			},

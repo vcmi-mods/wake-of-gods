@@ -55,8 +55,9 @@
 				"val" : 10
 			},
 			"airShield" : {
-				"type" : "ENCHANTED",
-				"subtype" : "airShield",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "airShield" },
 				"val" : 3
 				//				"addInfo" : 1
 			},

@@ -27,8 +27,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"airProtection" : {
-				"type" : "ENCHANTED",
-				"subtype" : "protectAir",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "protectAir" },
 				"val" : 3
 				//				"addInfo" : 3
 			},

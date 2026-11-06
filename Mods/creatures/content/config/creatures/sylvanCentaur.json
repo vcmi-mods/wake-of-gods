@@ -38,8 +38,9 @@
 				"description" : "{Additional attacks}\nUnit can attack an additional one time but only ranged"
 			},
 			"spellMirth" : {
-				"type" : "ENCHANTED",
-				"subtype" : "mirth",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "mirth" },
 				"val" : 1
 				//				"addInfo" : 3
 			}

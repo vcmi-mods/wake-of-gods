@@ -35,7 +35,8 @@
 				"subtype" : "fire"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 30
 			},
 			"spellFireWall" : {

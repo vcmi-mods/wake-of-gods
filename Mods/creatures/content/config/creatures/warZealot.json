@@ -34,8 +34,9 @@
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"spellMagicMirror" : {
-				"type" : "ENCHANTED",
-				"subtype" : "magicMirror",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "magicMirror" },
 				"val" : 3
 				//				"addInfo" : 100
 			},

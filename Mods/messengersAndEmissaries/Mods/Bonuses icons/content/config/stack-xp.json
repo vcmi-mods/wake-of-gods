@@ -92,8 +92,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "shield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "shield", "massive" : true },
 					"icon" : "bonuses/enchantedshield.png"
 				},
 				"values" : [
@@ -101,18 +102,19 @@
 					0,
 					0,
 					0,
-					4,
-					4,
-					4,
-					4,
-					4,
-					4
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
 				]
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "airShield", "massive" : true },
 					"icon" : "bonuses/enchantedairshield.png"
 				},
 				"values" : [
@@ -125,7 +127,7 @@
 					0,
 					0,
 					0,
-					4
+					1
 				]
 			}
 		]
@@ -224,8 +226,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "bloodlust",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "bloodlust", "massive" : true },
 					"icon" : "bonuses/enchantedbloodlust.png"
 				},
 				"values" : [
@@ -234,17 +237,18 @@
 					0,
 					0,
 					0,
-					4,
-					4,
-					4,
-					4,
-					4
+					1,
+					1,
+					1,
+					1,
+					1
 				]
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "frenzy",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "frenzy", "massive" : true },
 					"icon" : "bonuses/enchantedfrenzy.png"
 				},
 				"values" : [
@@ -257,7 +261,7 @@
 					0,
 					0,
 					0,
-					4
+					1
 				]
 			}
 		]

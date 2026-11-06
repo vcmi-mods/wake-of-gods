@@ -246,7 +246,7 @@
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
 				"resetParameters" : {
-					"period" : 1,
+					"days" : 1,
 					"visitors" : true,
 					"rewards" : true
 				},

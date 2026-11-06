@@ -44,7 +44,8 @@
 				"type" : "UNDEAD"
 			},
 			"drainsLife" : {
-				"type" : "LIFE_DRAIN",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "lifeDrain",
 				"val" : 40
 			},
 			"age" : {

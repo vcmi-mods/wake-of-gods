@@ -451,8 +451,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fortune",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "fortune" },
 					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
@@ -605,8 +606,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fortune",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "fortune" },
 					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
@@ -1504,8 +1506,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "mirth",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "mirth" },
 					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [

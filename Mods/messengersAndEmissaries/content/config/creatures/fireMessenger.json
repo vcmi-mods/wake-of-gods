@@ -27,8 +27,9 @@
 		"hasDoubleWeek" : false,
 		"abilities" : {
 			"fireProtection" : {
-				"type" : "ENCHANTED",
-				"subtype" : "protectFire",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "protectFire" },
 				"val" : 3
 				//				"addInfo" : 3
 			},

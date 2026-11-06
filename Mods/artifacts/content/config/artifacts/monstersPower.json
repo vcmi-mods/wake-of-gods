@@ -13,8 +13,9 @@
 		},
 		"bonuses" : {
 			"enchant1" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -29,8 +30,9 @@
 				]
 			},
 			"enchant2" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -45,8 +47,9 @@
 				]
 			},
 			"enchant3" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -61,8 +64,9 @@
 				]
 			},
 			"enchant4" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -77,8 +81,9 @@
 				]
 			},
 			"enchant5" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -93,8 +98,9 @@
 				]
 			},
 			"enchant6" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -109,8 +115,9 @@
 				]
 			},
 			"enchant7" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -125,8 +132,9 @@
 				]
 			},
 			"enchant8" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -141,8 +149,9 @@
 				]
 			},
 			"enchant9" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "prayer" },
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -157,8 +166,9 @@
 				]
 			},
 			"enchant10" : {
-				"subtype" : "prayer",
-				"type" : "ENCHANTED",
+				"addInfo" : { "spell" : "prayer" },
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -173,8 +183,9 @@
 				]
 			},
 			"enchant11" : {
-				"subtype" : "prayer",
-				"type" : "ENCHANTED",
+				"addInfo" : { "spell" : "prayer" },
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
 				"val" : 1,
 				"limiters" : [
 					"allOf",
@@ -189,8 +200,9 @@
 				]
 			},
 			"enchant12" : {
-				"subtype" : "prayer",
-				"type" : "ENCHANTED",
+				"addInfo" : { "spell" : "prayer" },
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
 				"val" : 1,
 				"limiters" : [
 					"allOf",
