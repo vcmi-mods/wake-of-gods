@@ -30,7 +30,9 @@
 			"summonGuardians" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "summonGuardians",
-				"addInfo" : { "creature" : "gremlin" },
+				"addInfo" : {
+					"creature" : "gremlin"
+				},
 				"val" : 60
 			},
 			"castsIceBolt" : {

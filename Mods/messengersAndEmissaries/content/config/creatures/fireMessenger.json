@@ -29,7 +29,9 @@
 			"fireProtection" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "protectFire" },
+				"addInfo" : {
+					"spell" : "protectFire"
+				},
 				"val" : 3
 				//				"addInfo" : 3
 			},

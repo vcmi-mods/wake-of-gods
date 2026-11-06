@@ -29,7 +29,9 @@
 			"earthProtection" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "protectEarth" },
+				"addInfo" : {
+					"spell" : "protectEarth"
+				},
 				"val" : 3
 				//				"addInfo" : 3
 			},

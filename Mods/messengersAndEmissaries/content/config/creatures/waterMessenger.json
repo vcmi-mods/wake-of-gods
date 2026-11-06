@@ -29,7 +29,9 @@
 			"waterProtection" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "protectWater" },
+				"addInfo" : {
+					"spell" : "protectWater"
+				},
 				"val" : 3
 				//				"addInfo" : 3
 			},

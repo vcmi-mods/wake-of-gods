@@ -1690,7 +1690,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted", //enchanted czy enchaner? sprawdzić na czarodziejach
-					"addInfo" : { "spell" : "slayer" },
+					"addInfo" : {
+						"spell" : "slayer"
+					},
 					"icon" : "bonuses/enchantedslayer.png"
 				},
 				"values" : [
@@ -1858,7 +1860,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "slayer" },
+					"addInfo" : {
+						"spell" : "slayer"
+					},
 					"icon" : "bonuses/enchantedslayer.png"
 				},
 				"values" : [

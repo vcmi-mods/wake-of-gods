@@ -46,7 +46,9 @@
 			"rebirth" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "rebirth",
-				"addInfo" : { "guaranteed" : false },
+				"addInfo" : {
+					"guaranteed" : false
+				},
 				"val" : 100
 			},
 			"fireShield" : {
@@ -61,7 +63,9 @@
 			"spellSlayer" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "slayer" },
+				"addInfo" : {
+					"spell" : "slayer"
+				},
 				"val" : 3
 				//				"addInfo" : 100
 			},

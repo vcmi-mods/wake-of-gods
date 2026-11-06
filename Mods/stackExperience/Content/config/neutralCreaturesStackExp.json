@@ -755,7 +755,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "magicMirror" },
+					"addInfo" : {
+						"spell" : "magicMirror"
+					},
 					"icon" : "bonuses/enchantedmagicmirror.png"
 				},
 				"values" : [
@@ -1437,7 +1439,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "slayer" },
+					"addInfo" : {
+						"spell" : "slayer"
+					},
 					"icon" : "bonuses/enchantedslayer.png"
 				},
 				"values" : [
@@ -2321,9 +2325,22 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "rebirth",
-					"addInfo" : { "guaranteed" : false }
+					"addInfo" : {
+						"guaranteed" : false
+					}
 				},
-				"values" : [ 0, 0, 20, 20, 20, 20, 20, 20, 20, 20 ]
+				"values" : [
+					0,
+					0,
+					20,
+					20,
+					20,
+					20,
+					20,
+					20,
+					20,
+					20
+				]
 			},
 			{
 				"bonus" : {

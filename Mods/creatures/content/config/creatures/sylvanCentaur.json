@@ -40,7 +40,9 @@
 			"spellMirth" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "mirth" },
+				"addInfo" : {
+					"spell" : "mirth"
+				},
 				"val" : 1
 				//				"addInfo" : 3
 			}

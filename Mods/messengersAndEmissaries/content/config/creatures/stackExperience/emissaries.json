@@ -316,7 +316,10 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "shield", "massive" : true }
+					"addInfo" : {
+						"spell" : "shield",
+						"massive" : true
+					}
 				},
 				"values" : [
 					0,
@@ -335,7 +338,10 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "airShield", "massive" : true }
+					"addInfo" : {
+						"spell" : "airShield",
+						"massive" : true
+					}
 				},
 				"values" : [
 					0,
@@ -448,7 +454,10 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "bloodlust", "massive" : true }
+					"addInfo" : {
+						"spell" : "bloodlust",
+						"massive" : true
+					}
 				},
 				"values" : [
 					0,
@@ -467,7 +476,10 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "frenzy", "massive" : true }
+					"addInfo" : {
+						"spell" : "frenzy",
+						"massive" : true
+					}
 				},
 				"values" : [
 					0,

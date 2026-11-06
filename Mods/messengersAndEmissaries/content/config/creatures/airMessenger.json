@@ -29,7 +29,9 @@
 			"airProtection" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "protectAir" },
+				"addInfo" : {
+					"spell" : "protectAir"
+				},
 				"val" : 3
 				//				"addInfo" : 3
 			},

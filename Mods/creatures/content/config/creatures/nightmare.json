@@ -31,7 +31,9 @@
 			"deathStare" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "deathStare",
-				"addInfo" : { "situation" : "melee" },
+				"addInfo" : {
+					"situation" : "melee"
+				},
 				"val" : 15
 			},
 			"mindImmunity" : {

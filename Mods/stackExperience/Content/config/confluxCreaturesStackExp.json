@@ -130,7 +130,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "airShield" },
+					"addInfo" : {
+						"spell" : "airShield"
+					},
 					"icon" : "bonuses/enchantedairshield.png"
 				},
 				"values" : [
@@ -316,7 +318,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "protectEarth" },
+					"addInfo" : {
+						"spell" : "protectEarth"
+					},
 					"icon" : "bonuses/damage_reduction_earth.png"
 				},
 				"values" : [
@@ -537,7 +541,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "fireShield" },
+					"addInfo" : {
+						"spell" : "fireShield"
+					},
 					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [
@@ -722,7 +728,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "bless" },
+					"addInfo" : {
+						"spell" : "bless"
+					},
 					"icon" : "bonuses/enchantedbless.png"
 				},
 				"values" : [
@@ -1531,7 +1539,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "protectFire" },
+					"addInfo" : {
+						"spell" : "protectFire"
+					},
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -1811,7 +1821,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "protectAir" },
+					"addInfo" : {
+						"spell" : "protectAir"
+					},
 					"icon" : "bonuses/damage_reduction_air.png"
 				},
 				"values" : [
@@ -1961,7 +1973,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "fireShield" },
+					"addInfo" : {
+						"spell" : "fireShield"
+					},
 					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [
@@ -1981,7 +1995,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "protectWater" },
+					"addInfo" : {
+						"spell" : "protectWater"
+					},
 					"icon" : "bonuses/damage_reduction_water.png"
 				},
 				"values" : [
@@ -2130,7 +2146,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "fireShield" },
+					"addInfo" : {
+						"spell" : "fireShield"
+					},
 					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [
@@ -2150,7 +2168,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "mirth" },
+					"addInfo" : {
+						"spell" : "mirth"
+					},
 					"icon" : "bonuses/enchantedmirth.png"
 				},
 				"values" : [
@@ -2301,7 +2321,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "fireShield" },
+					"addInfo" : {
+						"spell" : "fireShield"
+					},
 					"icon" : "bonuses/fireshield.png"
 				},
 				"values" : [

@@ -29,7 +29,9 @@
 			"transmutation" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "transmutation",
-				"addInfo" : { "transmuteBy" : "health" },
+				"addInfo" : {
+					"transmuteBy" : "health"
+				},
 				"val" : 20
 			},
 			"selfBerserk" : {
