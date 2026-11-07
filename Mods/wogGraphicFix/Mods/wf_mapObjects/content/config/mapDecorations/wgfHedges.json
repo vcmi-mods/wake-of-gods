@@ -66,7 +66,7 @@
 							"BBB",
 							"VVB"
 						]
-					},					
+					},
 					"wall3" : {
 						"animation" : "objects/hedges/wall3",
 						"mask" : [
@@ -109,7 +109,7 @@
 							"VVV",
 							"VBV"
 						]
-					}					
+					}
 				}
 			}
 		}

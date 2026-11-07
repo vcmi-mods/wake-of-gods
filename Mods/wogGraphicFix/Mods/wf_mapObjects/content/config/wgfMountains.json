@@ -701,7 +701,7 @@
 						"allowedTerrains" : [
 							"lava"
 						]
-					},					
+					},
 					"avlmtgH1" : {
 						"animation" : "mountains/avlmtgH1",
 						"mask" : [

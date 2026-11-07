@@ -265,7 +265,7 @@
 						"allowedTerrains" : [
 							"rough"
 						]
-					},					
+					},
 					"RKBSH00" : {
 						"animation" : "shrubs/RKBSH00",
 						"mask" : [
@@ -359,8 +359,8 @@
 						"allowedTerrains" : [
 							"rough"
 						]
-					},					
-					
+					},
+
 					"desveg00" : {
 						"animation" : "shrubs/desveg00",
 						"mask" : [

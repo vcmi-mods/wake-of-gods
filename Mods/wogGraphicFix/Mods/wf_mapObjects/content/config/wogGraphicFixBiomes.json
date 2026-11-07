@@ -399,14 +399,14 @@
 			"WFlv04",
 			"WFlv05",
 			"WFlv06",
-			
+
 			"ZLRmnt00",
 			"ZLRmnt01",
 			"ZLRmnt02",
 			"ZLRmnt03",
-			"ZLRmnt04",			
+			"ZLRmnt04",
 			"ZLRmnt05",
-			
+
 			"zlrarc00"
 		]
 	},
@@ -1425,13 +1425,20 @@
 			"WFdest04"
 		]
 	},
-	"wgfLavaMounds":{
-		"biome":{
+	"wgfLavaMounds" : {
+		"biome" : {
 			"terrain" : "lava",
 			"objectType" : "rock"
 		},
-		"templates" : ["AVLmd1l0", "AVLmd2l0", "AVLmd3l0", "AVLmd4l0", "AVLmd5l0", "AVLmd6l0"]
-	},
+		"templates" : [
+			"AVLmd1l0",
+			"AVLmd2l0",
+			"AVLmd3l0",
+			"AVLmd4l0",
+			"AVLmd5l0",
+			"AVLmd6l0"
+		]
+	}
 	//Logs generate too often at random maps, look bad. Disabled for now.
 
 	//	"wgfSnowLogs" : {

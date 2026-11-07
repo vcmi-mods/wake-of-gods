@@ -330,7 +330,7 @@
 						"allowedTerrains" : [
 							"rough"
 						]
-					},					
+					},
 					"Zdec0016" : {
 						"animation" : "lakes/Zdec0016",
 						"mask" : [
