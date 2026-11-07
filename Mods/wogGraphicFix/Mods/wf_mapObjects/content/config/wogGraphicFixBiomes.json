@@ -117,6 +117,16 @@
 			"WFsunf1"
 		]
 	},
+	"core:templateSet7" : {
+		"templates" : {
+			"append" : "AVLmd3d0"
+		}
+	},
+	"core:templateSet55" : {
+		"templates" : {
+			"append" : "AVLmd3g0"
+		}
+	},
 	"core:templateSet79" : {
 		"templates" : {
 			"append" : "avlflk40"
@@ -229,18 +239,13 @@
 			"RLAKE00",
 			"rlake01",
 			"rlake02",
-			"AVLlk1r"
+			"AVLlk1r",
+			"rkacdlk0",
+			"rkacdlk1",
+			"rkacdlk2",
+			"rkacdlk3",
+			"rkacdlk4"
 		]
-	},
-	"core:templateSet55" : {
-		"templates" : {
-			"append" : "AVLmd3g0"
-		}
-	},
-	"core:templateSet7" : {
-		"templates" : {
-			"append" : "AVLmd3d0"
-		}
 	},
 	"roughMountains" : {
 		"biome" : {
@@ -393,7 +398,16 @@
 			"WFlv03",
 			"WFlv04",
 			"WFlv05",
-			"WFlv06"
+			"WFlv06",
+			
+			"ZLRmnt00",
+			"ZLRmnt01",
+			"ZLRmnt02",
+			"ZLRmnt03",
+			"ZLRmnt04",			
+			"ZLRmnt05",
+			
+			"zlrarc00"
 		]
 	},
 	"subterraMountains" : {
@@ -407,7 +421,8 @@
 			"wfsbmn02",
 			"wfsbmn03",
 			"wfsbmn04",
-			"wfsbmn05"
+			"wfsbmn05",
+			"wfsbmn10"
 		]
 	},
 	"lavaFires" : {
@@ -741,7 +756,23 @@
 		"templates" : [
 			"RKVC00",
 			"RKVC01",
-			"RKVC02"
+			"RKVC02",
+			"rkgesr00"
+		]
+	},
+	"volcanicVentsLava" : {
+		"biome" : {
+			"terrain" : "lava",
+			"objectType" : "rock"
+		},
+		"templates" : [
+			"WFLvnt00",
+			"WFLvnt01",
+			"WFLvnt02",
+			"WFLvnt03",
+			"WFLvnt04",
+			"WFLvnt05",
+			"WFLvnt06"
 		]
 	},
 	"lavaRock" : {
@@ -758,7 +789,10 @@
 			"ZLR05",
 			"ZLR06",
 			"ZLR07",
-			"ZLR08"
+			"ZLR08",
+			"ZLR09",
+			"ZLR10",
+			"ZLR11"
 		]
 	},
 	"roughRock" : {
@@ -1030,6 +1064,24 @@
 			"avlsh9r3"
 		]
 	},
+	"wgfRoughShrubGreen" : {
+		"biome" : {
+			"terrain" : "rough",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"RKBSH00",
+			"RKBSH01",
+			"RKBSH02",
+			"RKBSH03",
+			"RKBSH04",
+			"RKBSH05",
+			"RKBSH06",
+			"RKBSH07",
+			"RKBSH08",
+			"RKBSH09"
+		]
+	},
 	"stumps" : {
 		"biome" : {
 			"terrain" : [
@@ -1294,7 +1346,11 @@
 			"mangro06",
 			"mangro07",
 			"mangro08",
-			"mangro09"
+			"mangro09",
+			"mangro10",
+			"mangro11",
+			"mangro12",
+			"mangro13"
 		]
 	},
 	"wgfWaterLakeOnLava" : {
@@ -1368,7 +1424,14 @@
 			"WFdest03",
 			"WFdest04"
 		]
-	}
+	},
+	"wgfLavaMounds":{
+		"biome":{
+			"terrain" : "lava",
+			"objectType" : "rock"
+		},
+		"templates" : ["AVLmd1l0", "AVLmd2l0", "AVLmd3l0", "AVLmd4l0", "AVLmd5l0", "AVLmd6l0"]
+	},
 	//Logs generate too often at random maps, look bad. Disabled for now.
 
 	//	"wgfSnowLogs" : {

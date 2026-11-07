@@ -634,6 +634,74 @@
 							"lava"
 						]
 					},
+					"ZLRmnt00" : {
+						"animation" : "mountains/ZLRmnt00",
+						"mask" : [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLRmnt01" : {
+						"animation" : "mountains/ZLRmnt01",
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLRmnt02" : {
+						"animation" : "mountains/ZLRmnt02",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLRmnt03" : {
+						"animation" : "mountains/ZLRmnt03",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLRmnt04" : {
+						"animation" : "mountains/ZLRmnt04",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLRmnt05" : {
+						"animation" : "mountains/ZLRmnt05",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},					
 					"avlmtgH1" : {
 						"animation" : "mountains/avlmtgH1",
 						"mask" : [
@@ -838,6 +906,17 @@
 							"VVVV",
 							"VBBV",
 							"VVBB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"wfsbmn10" : {
+						"animation" : "mountains/wfsbmn10",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBVB"
 						],
 						"allowedTerrains" : [
 							"subterra"

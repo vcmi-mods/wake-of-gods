@@ -32,6 +32,51 @@
 							"sand",
 							"rough"
 						]
+					},
+					"AVXsksn0" : {
+						"animation" : "corpses/AVXsksn0",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"AVXsksn1" : {
+						"animation" : "corpses/AVXsksn1",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"AVXsksn2" : {
+						"animation" : "corpses/AVXsksn2",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}

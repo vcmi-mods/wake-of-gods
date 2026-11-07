@@ -3,11 +3,14 @@
 	"modType" : "Expansion",
 	"author" : "WoG Team & epigones",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "9.1.83",
+	"version" : "9.1.84",
 	"compatibility" : {
 		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"9.1.84" : [
+			"Update WoG Graphic Fix submod to 2.30 version"
+		],
 		"9.1.83" : [
 			"First update to vcmi-1.8 format"
 		],

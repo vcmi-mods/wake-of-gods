@@ -102,6 +102,29 @@
 							"rough"
 						]
 					},
+					"bone09" : {
+						"animation" : "bones/Bone09",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"rough"
+						]
+					},
+					"bone10" : {
+						"animation" : "bones/Bone10",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"rough"
+						]
+					},
 					"jaws00" : {
 						"animation" : "bones/jaws00",
 						"mask" : [

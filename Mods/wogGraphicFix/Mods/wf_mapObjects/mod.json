@@ -55,6 +55,7 @@
 		"config/wgfPineTrees",
 		"config/wgfLavaLakes",
 		"config/wgfLakes",
+		"config/wgfLavaFlow",
 		"config/wgfLogs",
 		"config/wgfFlowers",
 		"config/wgfForgeObjects",

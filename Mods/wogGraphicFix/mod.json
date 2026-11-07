@@ -4,8 +4,11 @@
 	"modType" : "Graphical",
 	"author" : "Grossmaster",
 	"contact" : "http://wforum.heroes35.net/showthread.php?tid=5352",
-	"version" : "2.26.0",
+	"version" : "2.30.0",
 	"changelog" : {
+		"2.30.0" : [
+			"WoG Graphics fix files base updated to 2.30"
+		],
 		"2.26.0" : [
 			"WoG Graphics fix files base updated to 2.26"
 		],
