@@ -104,6 +104,21 @@
 						"allowedTerrains" : [
 							"water"
 						]
+					},
+					"zseer004" : {
+						"animation" : "objects/zseer004",
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}
@@ -1208,6 +1223,26 @@
 					}
 				}
 			},
+			"monolith9wgf" : {
+				"templates" : {
+					"ztport08" : {
+						"animation" : "monoliths/ztports",
+						"allowedTerrains" : [
+							"snow"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
 			"AVXMN2Pi" : {
 				"templates" : {
 					"ztport08" : {
@@ -1307,6 +1342,22 @@
 						],
 						"allowedTerrains" : [
 							"dirt"
+						]
+					},
+					"AVMCRLR0" : {
+						"animation" : "mines/AVMCRLR0",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"lava"
 						]
 					}
 				}
@@ -1409,6 +1460,22 @@
 						],
 						"allowedTerrains" : [
 							"dirt"
+						]
+					},
+					"AVMgoLR0" : {
+						"animation" : "mines/AVMgoLR0",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"lava"
 						]
 					}
 				}
@@ -1630,12 +1697,66 @@
 						"allowedTerrains" : [
 							"dirt"
 						]
+					},
+					"AVXamLR" : {
+						"animation" : "mines/AVXamLR",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					}
 				}
 			}
 		}
 	},
 
+	"core:wagon" : {
+		"types" : {
+			"wagon" : {
+				"templates" : {
+					"avtwagn1" : {
+						"animation" : "objects/avtwagn1",
+						"mask" : [
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"avtwagn2" : {
+						"animation" : "objects/avtwagn2",
+						"mask" : [
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
 	"emptyObjects" : {
 		"handler" : "generic",
 		"name" : "Empty object",

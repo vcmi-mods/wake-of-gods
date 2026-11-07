@@ -34,6 +34,87 @@
 						"allowedTerrains" : [
 							"rough"
 						]
+					},
+					"rkgesr00" : {
+						"animation" : "vents/rkgesr00",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"WFLvnt00" : {
+						"animation" : "vents/WFLvnt00",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"WFLvnt01" : {
+						"animation" : "vents/WFLvnt01",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"WFLvnt02" : {
+						"animation" : "vents/WFLvnt02",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"WFLvnt03" : {
+						"animation" : "vents/WFLvnt03",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"WFLvnt04" : {
+						"animation" : "vents/WFLvnt04",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"WFLvnt05" : {
+						"animation" : "vents/WFLvnt05",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"WFLvnt06" : {
+						"animation" : "vents/WFLvnt06",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
 					}
 				}
 			}

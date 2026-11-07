@@ -3,6 +3,60 @@
 		"types" : {
 			"object" : {
 				"templates" : {
+					"AVLmd1l0" : {
+						"animation" : "mounds/AVLmd2l0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AVLmd2l0" : {
+						"animation" : "mounds/AVLmd2l0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AVLmd3l0" : {
+						"animation" : "mounds/AVLmd3l0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AVLmd4l0" : {
+						"animation" : "mounds/AVLmd4l0",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AVLmd5l0" : {
+						"animation" : "mounds/AVLmd5l0",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AVLmd6l0" : {
+						"animation" : "mounds/AVLmd6l0",
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
 					"AVLmd3d0" : {
 						"animation" : "mounds/AVLmd3d0",
 						"mask" : [

@@ -546,6 +546,48 @@
 							"swamp"
 						]
 					},
+					"mangro10" : {
+						"animation" : "trees/mangro10",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"mangro11" : {
+						"animation" : "trees/mangro11",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"mangro12" : {
+						"animation" : "trees/mangro12",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"mangro13" : {
+						"animation" : "trees/mangro12",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
 
 					"wfdrtr01" : {
 						"animation" : "trees/wfdrtr01",

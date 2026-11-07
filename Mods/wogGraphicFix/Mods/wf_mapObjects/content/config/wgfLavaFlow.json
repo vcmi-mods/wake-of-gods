@@ -1,0 +1,20 @@
+{
+	"core:lavaFlow" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLLV180" : {
+						"animation" : "lavaFlow/AVLLV180",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					}
+				}
+			}
+		}
+	}
+}

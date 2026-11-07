@@ -43,6 +43,72 @@
 							"VV",
 							"VB"
 						]
+					},
+					"wall0" : {
+						"animation" : "objects/hedges/wall0",
+						"mask" : [
+							"VVVV",
+							"VBBV"
+						]
+					},
+					"wall1" : {
+						"animation" : "objects/hedges/wall1",
+						"mask" : [
+							"VVB",
+							"BBB",
+							"BVV"
+						]
+					},
+					"wall2" : {
+						"animation" : "objects/hedges/wall2",
+						"mask" : [
+							"BVV",
+							"BBB",
+							"VVB"
+						]
+					},
+					"wall3" : {
+						"animation" : "objects/hedges/wall3",
+						"mask" : [
+							"VVV",
+							"VBV"
+						]
+					},
+					"wall4" : {
+						"animation" : "objects/hedges/wall4",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						]
+					},
+					"wall5" : {
+						"animation" : "objects/hedges/wall5",
+						"mask" : [
+							"VVV",
+							"VBV"
+						]
+					},
+					"wall6" : {
+						"animation" : "objects/hedges/wall6",
+						"mask" : [
+							"VVV",
+							"VBV"
+						]
+					},
+					"wall7" : {
+						"animation" : "objects/hedges/wall7",
+						"mask" : [
+							"VVV",
+							"VBV"
+						]
+					},
+					"wall8" : {
+						"animation" : "objects/hedges/wall8",
+						"mask" : [
+							"VVV",
+							"VBV"
+						]
 					}
 				}
 			}

@@ -356,6 +356,47 @@
 							"lava"
 						]
 					},
+					"ZLR09" : {
+						"animation" : "rocks/ZLR09",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLR10" : {
+						"animation" : "rocks/ZLR10",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"ZLR11" : {
+						"animation" : "rocks/ZLR11",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"zlrarc00" : {
+						"animation" : "rocks/zlrarc00",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBVB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
 
 					"AVLbuzr0" : {
 						"animation" : "rocks/AVLbuzr0",

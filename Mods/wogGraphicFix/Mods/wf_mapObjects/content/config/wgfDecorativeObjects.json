@@ -35,5 +35,32 @@
 				}
 			}
 		}
+	},
+	"wgfScarecrow" : {
+		"name" : "Wall",
+		"handler" : "generic",
+		"types" : {
+			"object" : {
+				"name" : "Scarecrow",
+				"templates" : {
+					"WFscrow0" : {
+						"animation" : "objects/WFscrow0",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBV"
+						]
+					},
+					"WFscrow1" : {
+						"animation" : "objects/WFscrow1",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBV"
+						]
+					}
+				}
+			}
+		}
 	}
 }

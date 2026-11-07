@@ -266,6 +266,101 @@
 							"rough"
 						]
 					},
+					"RKBSH00" : {
+						"animation" : "shrubs/RKBSH00",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH01" : {
+						"animation" : "shrubs/RKBSH01",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH02" : {
+						"animation" : "shrubs/RKBSH02",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH03" : {
+						"animation" : "shrubs/RKBSH03",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH04" : {
+						"animation" : "shrubs/RKBSH04",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH05" : {
+						"animation" : "shrubs/RKBSH05",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH06" : {
+						"animation" : "shrubs/RKBSH06",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH07" : {
+						"animation" : "shrubs/RKBSH07",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH08" : {
+						"animation" : "shrubs/RKBSH08",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"RKBSH09" : {
+						"animation" : "shrubs/RKBSH09",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+
 					"desveg00" : {
 						"animation" : "shrubs/desveg00",
 						"mask" : [

@@ -281,7 +281,56 @@
 							"rough"
 						]
 					},
-
+					"rkacdlk0" : {
+						"animation" : "lakes/rkacdlk0",
+						"mask" : [
+							"VBBBBV",
+							"VBBBBV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"rkacdlk1" : {
+						"animation" : "lakes/rkacdlk1",
+						"mask" : [
+							"VBBBBBV",
+							"VBBBBBV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"rkacdlk2" : {
+						"animation" : "lakes/rkacdlk2",
+						"mask" : [
+							"VBBBV",
+							"VBBBV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"rkacdlk3" : {
+						"animation" : "lakes/rkacdlk3",
+						"mask" : [
+							"VBBBV",
+							"VVVVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"rkacdlk4" : {
+						"animation" : "lakes/rkacdlk4",
+						"mask" : [
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
 					"Zdec0016" : {
 						"animation" : "lakes/Zdec0016",
 						"mask" : [
