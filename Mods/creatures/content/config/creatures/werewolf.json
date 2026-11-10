@@ -30,7 +30,8 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "transmutation",
 				"addInfo" : {
-					"transmuteBy" : "health"
+					"transmuteBy" : "health",
+					"creature" : "werewolf"
 				},
 				"val" : 20
 			},
